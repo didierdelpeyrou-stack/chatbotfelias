@@ -3,14 +3,26 @@
 Contient :
   - ``flask_client`` : Flask test client avec Anthropic stubbé (pas d'appels
     réseau réels pendant les tests).
-  - ``fake_anthropic`` : stub de l'API Claude qui renvoie des réponses
-    déterministes — permet de tester /api/ask sans clé API ni latence.
-  - ``temp_kb_file`` : fichier JSON temporaire pour tester le cache KB.
-  - ``admin_credentials`` : configure ADMIN_PASS_HASH pour les tests admin.
+  - ``fake_anthropic`` : stub de l'API Claude qui renvoie une réponse
+    déterministe — permet de tester /api/ask sans clé API ni latence.
+  - ``fake_anthropic_factory`` : variante paramétrable quand on a besoin
+    de faire varier la réponse (stop_reason, tool_use, erreur, etc.).
+  - ``admin_client`` : Flask client avec ADMIN_PASS_HASH configuré.
 
 Ces fixtures sont chargées automatiquement par pytest pour tous les fichiers
 ``test_*.py`` dans ``tests/``. L'ajout de ce conftest ne casse aucun test
 existant (unittest/TestCase) : pytest les détecte et les exécute tels quels.
+
+Notes de robustesse
+-------------------
+Historique : ce conftest contenait une fixture ``temp_kb_file`` et
+``captured_logs`` qui n'étaient appelées nulle part ("dead fixtures").
+Elles ont été supprimées — elles ne faisaient qu'ajouter des lignes à
+maintenir et trompaient la doc.
+
+Le cleanup env vars se fait via ``_restore_env_per_test`` (autouse,
+scope="function") : si un test fait ``os.environ["X"] = ...``, la valeur
+originale est restaurée en teardown — évite les leaks entre tests.
 
 Usage type
 ----------
@@ -23,10 +35,10 @@ Usage type
 
 from __future__ import annotations
 
-import json
 import os
 import sys
 from pathlib import Path
+from typing import Optional
 from unittest.mock import MagicMock, patch
 
 import pytest
@@ -42,8 +54,22 @@ if str(_PROJECT_ROOT) not in sys.path:
 
 # ──────────────────────── Config env par défaut pour les tests ────────────────────────
 
+# Clés env que ``_test_env`` définit — on les retient pour pouvoir
+# restaurer leur état initial en fin de session ET pour contrôler quelles
+# clés le cleanup par-test doit surveiller.
+_TEST_MANAGED_ENV_KEYS = (
+    "ANTHROPIC_API_KEY",
+    "CLAUDE_MODEL",
+    "ADMIN_PASS",
+    "ADMIN_PASS_HASH",
+    "RATE_LIMIT_PER_MINUTE",
+    "RATE_LIMIT_PER_HOUR",
+    "SENTRY_DSN",
+)
+
+
 @pytest.fixture(scope="session", autouse=True)
-def _test_env(tmp_path_factory):
+def _test_env():
     """Variables d'environnement minimales pour tous les tests.
 
     ``autouse=True`` : appliqué automatiquement à TOUS les tests. Évite
@@ -51,7 +77,14 @@ def _test_env(tmp_path_factory):
     l'API réelle (facture + dépendance réseau).
 
     ``scope="session"`` : configuré une fois, partagé par tous les tests.
+
+    La restauration complète de l'env en fin de session garantit qu'on ne
+    pollue pas l'environnement du process parent (utile quand pytest
+    tourne dans un shell interactif : ``python -m pytest`` puis
+    ``python -c 'import os; print(os.environ["ADMIN_PASS_HASH"])'``).
     """
+    snapshot = {k: os.environ.get(k) for k in _TEST_MANAGED_ENV_KEYS}
+
     # Clé API factice — nos tests stubbent l'appel, mais le module app.py
     # refuse de démarrer sans la variable.
     os.environ.setdefault("ANTHROPIC_API_KEY", "test-key-not-real")
@@ -65,8 +98,40 @@ def _test_env(tmp_path_factory):
     os.environ["RATE_LIMIT_PER_HOUR"] = "100000"
     # Pas de Sentry en tests
     os.environ.pop("SENTRY_DSN", None)
+
     yield
-    # Pas de cleanup explicite : pytest restaure tout en fin de session.
+
+    # Restaure l'état initial (évite la pollution du shell parent).
+    for k, v in snapshot.items():
+        if v is None:
+            os.environ.pop(k, None)
+        else:
+            os.environ[k] = v
+
+
+@pytest.fixture(autouse=True)
+def _restore_env_per_test():
+    """Restaure les variables d'environnement mutées par un test.
+
+    Autouse + scope function : snapshot de l'env avant le test, puis
+    restauration en teardown. Évite qu'un test qui fait
+    ``os.environ["ADMIN_PASS_HASH"] = "xxx"`` pollue le test suivant.
+
+    Stratégie : snapshot complet (dict(os.environ)) — plus fiable qu'une
+    liste de clés watchées, et l'overhead est < 0.1 ms par test.
+    """
+    snapshot = dict(os.environ)
+    try:
+        yield
+    finally:
+        # Supprime les clés ajoutées par le test…
+        for k in list(os.environ.keys()):
+            if k not in snapshot:
+                os.environ.pop(k, None)
+        # …et remet les valeurs mutées.
+        for k, v in snapshot.items():
+            if os.environ.get(k) != v:
+                os.environ[k] = v
 
 
 # ──────────────────────── Stub Anthropic ────────────────────────
@@ -89,21 +154,59 @@ class _FakeAnthropicResponse:
         )
 
 
+def _make_anthropic_mock(response: Optional[_FakeAnthropicResponse] = None) -> MagicMock:
+    """Construit un mock du client Anthropic avec une réponse configurable."""
+    mock_client = MagicMock()
+    mock_client.messages.create.return_value = response or _FakeAnthropicResponse()
+    return mock_client
+
+
 @pytest.fixture
 def fake_anthropic():
     """Patch ``anthropic.Anthropic.messages.create`` pour renvoyer une réponse stub.
 
     Empêche tout appel réseau pendant les tests d'endpoint. Chaque test
     peut récupérer le mock pour vérifier les arguments passés à Claude
-    (par ex. le system prompt, les outils déclarés, etc.).
+    (par ex. le system prompt, les outils déclarés, etc.) :
+
+        def test_foo(flask_client, fake_anthropic):
+            flask_client.post("/api/ask", json={...})
+            call_args = fake_anthropic.messages.create.call_args
+            assert call_args.kwargs["model"].startswith("claude-")
     """
-    # On patche à la source : dans le module app.py, ``anthropic.Anthropic``
-    # est instancié. On remplace donc sa méthode ``messages.create``.
     with patch("anthropic.Anthropic") as mock_client_class:
-        mock_client = MagicMock()
-        mock_client.messages.create.return_value = _FakeAnthropicResponse()
+        mock_client = _make_anthropic_mock()
         mock_client_class.return_value = mock_client
         yield mock_client
+
+
+@pytest.fixture
+def fake_anthropic_factory():
+    """Variante de ``fake_anthropic`` paramétrable.
+
+    Permet de configurer la réponse (texte, stop_reason) avant d'utiliser
+    le client Flask. Utile pour tester des cas de bord (réponse vide,
+    tool_use, max_tokens atteint, etc.) :
+
+        def test_cas_limite(flask_client, fake_anthropic_factory):
+            mock = fake_anthropic_factory(text="", stop_reason="max_tokens")
+            resp = flask_client.post("/api/ask", json={"question": "x"})
+            # ... assertions
+    """
+    mocks_created = []
+
+    with patch("anthropic.Anthropic") as mock_client_class:
+        def _factory(text: str = "Réponse simulée",
+                     stop_reason: str = "end_turn") -> MagicMock:
+            resp = _FakeAnthropicResponse(text=text, stop_reason=stop_reason)
+            mock_client = _make_anthropic_mock(response=resp)
+            mocks_created.append(mock_client)
+            mock_client_class.return_value = mock_client
+            return mock_client
+
+        # Ping par défaut avant qu'un test n'appelle _factory explicitement.
+        mock_client_class.return_value = _make_anthropic_mock()
+        yield _factory
 
 
 # ──────────────────────── Flask test client ────────────────────────
@@ -132,54 +235,57 @@ def flask_client(flask_app):
         yield client
 
 
+# Credentials admin partagés (évite le pattern privé ``client._admin_auth``).
+ADMIN_TEST_USER = "admin"
+ADMIN_TEST_PASSWORD = "test-admin-pass"
+
+
 @pytest.fixture
-def admin_client(flask_app):
-    """Client Flask avec ADMIN_PASS_HASH configuré pour tester les routes admin."""
+def admin_credentials():
+    """Tuple ``(username, password)`` des credentials admin de test.
+
+    À utiliser dans les tests qui veulent construire leur en-tête Basic
+    Auth sans dépendre d'un attribut privé du client Flask.
+    """
+    return (ADMIN_TEST_USER, ADMIN_TEST_PASSWORD)
+
+
+@pytest.fixture
+def admin_client(flask_app, monkeypatch):
+    """Client Flask avec ADMIN_PASS_HASH configuré pour tester les routes admin.
+
+    ``monkeypatch`` assure la restauration de la valeur initiale même en
+    cas d'exception (vs. notre try/finally précédent qui n'était pas
+    à 100 % safe contre les KeyboardInterrupt).
+
+    Note sur la rétrocompatibilité : on expose toujours ``client._admin_auth``
+    pour les tests existants, mais la fixture ``admin_credentials`` est
+    préférable pour les nouveaux tests.
+    """
     from security import hash_password
 
-    # Génère un hash pour "test-admin-pass" et l'injecte
-    test_hash = hash_password("test-admin-pass", rounds=4)  # 4 rounds = rapide en CI
+    # Génère un hash pour le mdp de test et l'injecte via monkeypatch.
+    test_hash = hash_password(ADMIN_TEST_PASSWORD, rounds=4)  # 4 rounds = rapide en CI
 
-    # On patche les globales à la volée (plus simple que re-importer)
     import app as app_module
-    original_hash = app_module.ADMIN_PASS_HASH
-    app_module.ADMIN_PASS_HASH = test_hash
-    try:
-        with flask_app.test_client() as client:
-            # Fournit aussi le couple user/pass pour les tests qui l'utilisent
-            client._admin_auth = ("admin", "test-admin-pass")
-            yield client
-    finally:
-        app_module.ADMIN_PASS_HASH = original_hash
+    monkeypatch.setattr(app_module, "ADMIN_PASS_HASH", test_hash)
+
+    with flask_app.test_client() as client:
+        # Rétrocompat : ancien attribut privé encore utilisé par quelques tests.
+        client._admin_auth = (ADMIN_TEST_USER, ADMIN_TEST_PASSWORD)  # noqa: SLF001
+        yield client
 
 
-# ──────────────────────── Helpers pour les tests de KB ────────────────────────
+# ──────────────────────── Helpers HTTP partagés ────────────────────────
+
+def _basic_auth_header(user: str, pwd: str) -> dict:
+    """Construit l'en-tête HTTP Basic Auth — helper pour les tests admin."""
+    import base64
+    token = base64.b64encode(f"{user}:{pwd}".encode("utf-8")).decode("ascii")
+    return {"Authorization": f"Basic {token}"}
+
 
 @pytest.fixture
-def temp_kb_file(tmp_path):
-    """Crée un fichier JSON temporaire pour tester ``FileBackedCache``.
-
-    Retourne un tuple ``(path, write_fn)`` — write_fn permet de réécrire
-    le fichier en updatant le mtime (utile pour tester l'invalidation).
-    """
-    path = tmp_path / "fake_kb.json"
-    path.write_text(json.dumps({"themes": [], "v": 1}), encoding="utf-8")
-
-    def _write(data: dict, *, sleep: float = 1.1) -> None:
-        """Écrit data dans path, avec un sleep pour dépasser le check_interval
-        par défaut de FileBackedCache (1.0 s)."""
-        import time
-        time.sleep(sleep)
-        path.write_text(json.dumps(data), encoding="utf-8")
-
-    return path, _write
-
-
-# ──────────────────────── Capture des logs ────────────────────────
-
-@pytest.fixture
-def captured_logs(caplog):
-    """Alias documenté de ``caplog`` avec niveau INFO par défaut."""
-    import logging
-    caplog.set_level(logging.INFO)
-    return caplog
+def basic_auth_header():
+    """Fixture-factory pour construire un header Basic Auth sans boilerplate."""
+    return _basic_auth_header

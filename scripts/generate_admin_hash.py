@@ -68,7 +68,7 @@ def main() -> int:
 
     if args.random:
         pwd = generate_random_password(length=24)
-        print(f"# ⚠️  Conservez ce mot de passe en lieu sûr — il ne sera PAS ré-affiché.")
+        print("# ⚠️  Conservez ce mot de passe en lieu sûr — il ne sera PAS ré-affiché.")
         print(f"ADMIN_PASS_PLAIN={pwd}")
     elif args.password:
         pwd = args.password

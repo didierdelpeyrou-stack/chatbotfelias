@@ -50,10 +50,25 @@ class TestAnciennete(unittest.TestCase):
         self.assertEqual(r["mois"], 3)
 
     def test_date_fin_defaut_aujourdhui(self):
+        # On snapshot date.today() AVANT l'appel pour éviter le cas limite
+        # de minuit pile : si on appelle calcul_anciennete à 23:59:59.9 et
+        # date.today() à 00:00:00.1, les dates diffèrent d'un jour et le
+        # test échoue faussement. On tolère donc soit today, soit yesterday.
+        from datetime import timedelta
+        before = date.today()
         r = calcul_anciennete("2020-01-01")
-        # On vérifie juste que ça ne crashe pas et que l'ancienneté est > 0
+        after = date.today()
+        acceptable = {before.isoformat(), after.isoformat(),
+                      (before - timedelta(days=1)).isoformat()}
+        # Ancienneté > 0 (2020 → aujourd'hui > 1 an)
         self.assertGreater(r["annees"], 0)
-        self.assertEqual(r["date_fin"], date.today().isoformat())
+        # date_fin doit être aujourd'hui (tolère l'intervalle minuit).
+        self.assertIn(
+            r["date_fin"],
+            acceptable,
+            f"date_fin={r['date_fin']!r} n'est ni {before.isoformat()!r} "
+            f"ni {after.isoformat()!r}",
+        )
 
     def test_date_fin_avant_debut_erreur(self):
         with self.assertRaises(ValueError):

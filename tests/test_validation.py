@@ -4,6 +4,15 @@ Couvre ``AskRequest``, ``RdvRequest``, ``AppelRequest``,
 ``EmailJuristeRequest``, ``FeedbackRequest`` et le helper
 ``format_validation_error``.
 
+Conventions
+-----------
+  - Les limites (MAX_CONTEXT_KEY_CHARS, etc.) sont importées du module
+    ``validation`` au lieu d'être ré-écrites en dur ici. Si la limite
+    bouge côté modèle, le test suit automatiquement.
+  - Les assertions vérifient non seulement l'acceptation/le rejet, mais
+    aussi que **le champ fautif apparaît dans le message d'erreur** —
+    garantie minimale pour les messages remontés au frontend.
+
 Exécution :
     pytest tests/test_validation.py -v
     ou
@@ -22,6 +31,10 @@ from validation import (
     EmailJuristeRequest,
     FeedbackRequest,
     format_validation_error,
+    MAX_CONTEXT_KEY_CHARS,
+    MAX_CONTEXT_VAL_CHARS,
+    MAX_HISTORY_MESSAGES,
+    MAX_MOTIF_CHARS,
 )
 
 
@@ -51,6 +64,12 @@ class TestAskRequest:
             r = AskRequest.model_validate({"question": "x", "module": mod})
             assert r.module == mod
 
+    def test_module_insensible_casse_et_espaces(self):
+        """Les clients peuvent envoyer 'Juridique ', ' rh', etc."""
+        for raw in ("Juridique", " RH ", "Formation  "):
+            r = AskRequest.model_validate({"question": "x", "module": raw})
+            assert r.module in {"juridique", "rh", "formation"}
+
     def test_escalation_inconnue_corrige_en_vert(self):
         r = AskRequest.model_validate({
             "question": "x", "escalation_level": "critique",
@@ -58,13 +77,19 @@ class TestAskRequest:
         assert r.escalation_level == "vert"
 
     def test_history_plafonnee_a_20_messages(self):
-        """Garde les 20 derniers — protection DoS par historique énorme."""
+        """Garde les MAX_HISTORY_MESSAGES derniers — protection DoS."""
         history = [{"role": "user", "content": f"m{i}"} for i in range(50)]
         r = AskRequest.model_validate({"question": "x", "history": history})
-        assert len(r.history) == 20
+        assert len(r.history) == MAX_HISTORY_MESSAGES
         # Garde bien les DERNIERS, pas les premiers
         assert r.history[-1]["content"] == "m49"
-        assert r.history[0]["content"] == "m30"
+        assert r.history[0]["content"] == f"m{50 - MAX_HISTORY_MESSAGES}"
+
+    def test_history_non_liste_devient_liste_vide(self):
+        """Un history qui n'est PAS une liste (ex: string) → [] silencieusement."""
+        for bad in ("pas une liste", 42, None, {"key": "value"}):
+            r = AskRequest.model_validate({"question": "x", "history": bad})
+            assert r.history == []
 
     def test_context_valeurs_non_str_ignorees(self):
         """Le context n'accepte que {str: str|int|float} — les autres types
@@ -91,8 +116,14 @@ class TestAskRequest:
             "context": {"k" * 100: "v" * 500},
         })
         key = next(iter(r.context))
-        assert len(key) == 60  # MAX_CONTEXT_KEY_CHARS
-        assert len(r.context[key]) == 200  # MAX_CONTEXT_VAL_CHARS
+        assert len(key) == MAX_CONTEXT_KEY_CHARS
+        assert len(r.context[key]) == MAX_CONTEXT_VAL_CHARS
+
+    def test_context_non_dict_devient_none(self):
+        """Un context de type invalide (list, str, int) → None."""
+        for bad in ([1, 2, 3], "une string", 42, True):
+            r = AskRequest.model_validate({"question": "x", "context": bad})
+            assert r.context is None
 
     def test_function_profile_tronques_a_80(self):
         r = AskRequest.model_validate({
@@ -100,6 +131,7 @@ class TestAskRequest:
             "function": "a" * 200,
             "profile": "b" * 200,
         })
+        # La borne interne est 80 — constante implicite partagée par function/profile.
         assert len(r.function) == 80
         assert len(r.profile) == 80
 
@@ -121,6 +153,12 @@ class TestAskRequest:
         })
         assert r.question == "x"
 
+    def test_question_avec_unicode_et_accents(self):
+        """Inputs FR : é, è, à, ç, emojis — ne doivent PAS être rejetés ni corrompus."""
+        q = "Bonjour, j'ai une question sur les congés payés 🏖️ — urgent !"
+        r = AskRequest.model_validate({"question": q})
+        assert r.question == q  # pas de perte de caractères
+
 
 # ──────────────────────── RdvRequest ────────────────────────
 
@@ -141,24 +179,60 @@ class TestRdvRequest:
         bad = {**self.VALID, "email": "pas-un-email"}
         with pytest.raises(ValidationError) as exc:
             RdvRequest.model_validate(bad)
-        assert "email" in format_validation_error(exc.value).lower()
+        msg = format_validation_error(exc.value).lower()
+        assert "email" in msg, f"Message d'erreur doit mentionner 'email' : {msg!r}"
 
     def test_telephone_trop_court_rejette(self):
         bad = {**self.VALID, "telephone": "123"}
+        with pytest.raises(ValidationError) as exc:
+            RdvRequest.model_validate(bad)
+        msg = format_validation_error(exc.value).lower()
+        assert "telephone" in msg or "téléphone" in msg, (
+            f"Message d'erreur doit mentionner 'telephone' : {msg!r}"
+        )
+
+    @pytest.mark.parametrize("tel", [
+        "+33 6 12 34 56 78",   # format international avec espaces
+        "06.12.34.56.78",       # points
+        "(01) 23-45-67-89",     # parenthèses + tirets
+        "0033-6-12-34-56-78",   # préfixe international avec tirets
+    ])
+    def test_telephone_avec_separateurs_accepte(self, tel):
+        """+33, espaces, points, parenthèses, tirets doivent passer ET le
+        champ doit rester lisible (pas corrompu par un strip agressif)."""
+        payload = {**self.VALID, "telephone": tel}
+        r = RdvRequest.model_validate(payload)
+        # La validation passe (pas d'exception).
+        assert r.telephone  # non-vide
+        # Le contenu retourné doit avoir au moins 6 chiffres (seuil _PHONE_DIGITS_RE).
+        digits_only = "".join(c for c in r.telephone if c.isdigit())
+        assert len(digits_only) >= 6, (
+            f"Téléphone normalisé doit garder ≥6 chiffres, "
+            f"got {digits_only!r} from {tel!r}"
+        )
+
+    @pytest.mark.parametrize("tel", [
+        "abcdefghij",           # pas de chiffres
+        "12345",                # 5 chiffres : en dessous du min (6)
+        "((((()))))----",       # séparateurs sans chiffres
+        "+33 abc def",          # mix
+    ])
+    def test_telephone_invalide_rejette(self, tel):
+        """Chaînes sans assez de chiffres → rejet explicite."""
+        bad = {**self.VALID, "telephone": tel}
         with pytest.raises(ValidationError):
             RdvRequest.model_validate(bad)
-
-    def test_telephone_avec_separateurs_accepte(self):
-        """+33, espaces, points, parenthèses, tirets doivent passer."""
-        for tel in ("+33 6 12 34 56 78", "06.12.34.56.78", "(01) 23-45-67-89"):
-            payload = {**self.VALID, "telephone": tel}
-            r = RdvRequest.model_validate(payload)
-            assert r.telephone  # juste besoin que la validation passe
 
     def test_nom_trop_court_rejette(self):
         bad = {**self.VALID, "nom": "X"}
         with pytest.raises(ValidationError):
             RdvRequest.model_validate(bad)
+
+    def test_nom_avec_accents_ok(self):
+        """Noms FR avec accents doivent passer (ne pas être rejetés par
+        un strip ASCII trop agressif)."""
+        r = RdvRequest.model_validate({**self.VALID, "nom": "Éléonore Gérard"})
+        assert r.nom == "Éléonore Gérard"
 
     def test_sujet_obligatoire(self):
         bad = {k: v for k, v in self.VALID.items() if k != "sujet"}
@@ -199,9 +273,15 @@ class TestAppelRequest:
             AppelRequest.model_validate(bad)
 
     def test_motif_trop_long_rejette(self):
-        bad = {**self.VALID, "motif": "x" * 1000}
+        """Le motif doit respecter MAX_MOTIF_CHARS — borne dérivée du module."""
+        bad = {**self.VALID, "motif": "x" * (MAX_MOTIF_CHARS + 100)}
         with pytest.raises(ValidationError):
             AppelRequest.model_validate(bad)
+
+    def test_motif_pile_a_la_limite_ok(self):
+        """La borne exacte doit passer (pas d'off-by-one)."""
+        r = AppelRequest.model_validate({**self.VALID, "motif": "x" * MAX_MOTIF_CHARS})
+        assert len(r.motif) == MAX_MOTIF_CHARS
 
 
 # ──────────────────────── EmailJuristeRequest ────────────────────────
@@ -224,8 +304,8 @@ class TestEmailJuristeRequest:
         bad = {**self.VALID, "reponses": {}}
         with pytest.raises(ValidationError) as exc:
             EmailJuristeRequest.model_validate(bad)
-        assert "réponses" in format_validation_error(exc.value).lower() or \
-               "reponses" in format_validation_error(exc.value).lower()
+        msg = format_validation_error(exc.value).lower()
+        assert "réponses" in msg or "reponses" in msg
 
     def test_reponses_pas_dict_rejette(self):
         bad = {**self.VALID, "reponses": "pas un dict"}
@@ -249,32 +329,48 @@ class TestFeedbackRequest:
             FeedbackRequest.model_validate({"rating": 0})
 
     def test_rating_hors_plage_rejette(self):
-        with pytest.raises(ValidationError):
-            FeedbackRequest.model_validate({"rating": 5})
+        for v in (2, 5, 100, -2, -100):
+            with pytest.raises(ValidationError):
+                FeedbackRequest.model_validate({"rating": v})
 
     def test_rating_requis(self):
         with pytest.raises(ValidationError):
             FeedbackRequest.model_validate({})
 
+    def test_rating_string_coerce_ou_rejette(self):
+        """Pydantic v2 coerce "1" -> 1 par défaut. On vérifie juste le
+        comportement attendu : soit coerce (accepté), soit rejet propre."""
+        # Cas nominal : "1" devient 1 via coerce
+        r = FeedbackRequest.model_validate({"rating": "1"})
+        assert r.rating == 1
+        # Cas invalide : une string non numérique doit être rejetée
+        with pytest.raises(ValidationError):
+            FeedbackRequest.model_validate({"rating": "oui"})
+
     def test_champs_texte_max_length_enforce(self):
         """Pas de troncature automatique : Pydantic REJETTE si max_length
         dépassé. Le handler troncature manuellement avant le write disque.
-        Le test vérifie juste que les max_length du modèle sont stricts."""
-        # comment > 2000 → 400
+        Les bornes exactes sont lues depuis les Field du modèle pour éviter
+        les magic numbers dans les tests."""
+        # Récupère les max_length depuis le schéma Pydantic — single source of truth.
+        fields = FeedbackRequest.model_fields
+        comment_max = fields["comment"].metadata[0].max_length  # type: ignore[attr-defined]
+        question_max = fields["question"].metadata[0].max_length  # type: ignore[attr-defined]
+        answer_max = fields["answer"].metadata[0].max_length  # type: ignore[attr-defined]
+
+        # Dépassement → 400
         with pytest.raises(ValidationError):
-            FeedbackRequest.model_validate({"rating": 1, "comment": "c" * 2001})
-        # question > 2000 → 400
+            FeedbackRequest.model_validate({"rating": 1, "comment": "c" * (comment_max + 1)})
         with pytest.raises(ValidationError):
-            FeedbackRequest.model_validate({"rating": 1, "question": "q" * 2001})
-        # answer > 8000 → 400
+            FeedbackRequest.model_validate({"rating": 1, "question": "q" * (question_max + 1)})
         with pytest.raises(ValidationError):
-            FeedbackRequest.model_validate({"rating": 1, "answer": "a" * 8001})
-        # Dans les limites → OK (les valeurs à la limite doivent passer)
+            FeedbackRequest.model_validate({"rating": 1, "answer": "a" * (answer_max + 1)})
+        # Valeurs à la limite → OK (pas d'off-by-one)
         r = FeedbackRequest.model_validate({
             "rating": 1,
-            "comment": "c" * 2000,
-            "question": "q" * 2000,
-            "answer": "a" * 8000,
+            "comment": "c" * comment_max,
+            "question": "q" * question_max,
+            "answer": "a" * answer_max,
         })
         assert r.rating == 1
 
@@ -282,7 +378,9 @@ class TestFeedbackRequest:
 # ──────────────────────── format_validation_error ────────────────────────
 
 class TestFormatValidationError:
-    def test_message_lisible(self):
+    def test_message_mentionne_le_champ_fautif(self):
+        """Le message doit contenir le nom du champ en erreur — sinon,
+        l'utilisateur final ne sait pas quoi corriger."""
         try:
             RdvRequest.model_validate({
                 "nom": "X",  # trop court
@@ -293,6 +391,29 @@ class TestFormatValidationError:
         except ValidationError as e:
             msg = format_validation_error(e)
             assert isinstance(msg, str)
-            assert len(msg) > 10
-            # Pas de "Value error, " dans le message final (nettoyé)
+            # Pas de "Value error, " dans le message final (nettoyé).
             assert "Value error" not in msg
+            # Le nom du champ fautif (nom OU email OU telephone) doit apparaître.
+            # Pydantic s'arrête à la première erreur — ici 'nom' (ordre de déclaration).
+            low = msg.lower()
+            assert any(f in low for f in ("nom", "email", "telephone", "téléphone")), (
+                f"Message doit nommer le champ fautif, got {msg!r}"
+            )
+
+    def test_message_sur_validation_error_vide(self):
+        """Edge case : si errors() est vide, on renvoie un fallback."""
+        class _FakeErr:
+            def errors(self):
+                return []
+
+        msg = format_validation_error(_FakeErr())
+        assert msg == "Payload invalide."
+
+    def test_message_robuste_si_errors_raise(self):
+        """Si .errors() lève, on renvoie le fallback (pas de crash)."""
+        class _BrokenErr:
+            def errors(self):
+                raise RuntimeError("boom")
+
+        msg = format_validation_error(_BrokenErr())
+        assert msg == "Payload invalide."

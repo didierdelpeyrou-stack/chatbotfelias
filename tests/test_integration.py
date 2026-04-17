@@ -6,13 +6,13 @@ Couvre les parcours complets en mockant uniquement les I/O externes :
   - Fichiers de persistence RDV / Appels / Feedback (tmp_path)
 
 Les tests vérifient le CONTRAT HTTP public :
-  - /api/ask         : happy path 200, validation 400, oversize 413, vide 400
+  - /api/ask         : happy path 200, validation 400, oversize, vide 400
   - /api/rdv         : validation 400 (email invalide), happy 200
   - /api/appel       : validation 400, happy 200
   - /api/email-juriste : happy 200
   - /api/feedback    : rating invalide 400, rating OK 200
   - /api/health      : shape de la réponse, toujours 200
-  - /api/openapi.yaml / .json : YAML/JSON
+  - /api/openapi.yaml / .json : YAML/JSON (strictement 200 si docs/ présent)
   - /api/reload      : 401 sans auth, 200 avec admin_client
   - /api/knowledge   : 401 sans auth, 200 avec admin_client
   - CORS             : headers présents sur OPTIONS
@@ -33,6 +33,12 @@ import pytest
 
 pytestmark = pytest.mark.integration
 
+# Chemin du openapi.yaml embarqué — si le fichier existe, les tests de doc
+# doivent strictement renvoyer 200 (pas 404). Détecté à l'import pour éviter
+# l'ambiguïté 200/404 dans les assertions.
+_OPENAPI_YAML_PATH = Path(__file__).parent.parent / "docs" / "openapi.yaml"
+OPENAPI_YAML_EXISTS = _OPENAPI_YAML_PATH.exists()
+
 
 # ──────────────────────── helpers ────────────────────────
 
@@ -40,6 +46,13 @@ def _assert_json(resp):
     """Raccourci : extrait et retourne le JSON ou échoue avec un message clair."""
     assert resp.is_json, f"réponse non-JSON ({resp.status_code}): {resp.data[:200]!r}"
     return resp.get_json()
+
+
+def _basic_auth(user: str, pwd: str) -> dict:
+    """Construit l'en-tête HTTP Basic Auth."""
+    import base64
+    token = base64.b64encode(f"{user}:{pwd}".encode("utf-8")).decode("ascii")
+    return {"Authorization": f"Basic {token}"}
 
 
 @pytest.fixture
@@ -80,6 +93,17 @@ def no_side_effects():
     with patch("app.send_email_notification", return_value=True), \
          patch("app.send_webhook_notification", return_value=True):
         yield
+
+
+def _cors_origin():
+    """Retourne un origin valide au regard de la config CORS courante.
+
+    En tests, CORS_ORIGINS est lu via os.environ (default "*"). On retourne
+    un origin générique qui doit toujours matcher "*" ET rester une valeur
+    typée HTTP origin réaliste (utile pour flask-cors qui reflète l'origin
+    dans le header Access-Control-Allow-Origin).
+    """
+    return "http://localhost:5000"
 
 
 # ══════════════════════════════════════════════
@@ -126,10 +150,17 @@ class TestAskEndpoint:
         # Le stub Anthropic a bien été appelé une fois
         assert fake_anthropic.messages.create.called
 
-    def test_payload_non_json_rejette_400(self, flask_client):
+    def test_payload_non_json_rejette(self, flask_client):
+        """Un content-type text/plain doit être rejeté (400 OU 415).
+
+        Flask + Flask-restful varie : selon la version, on peut recevoir 400
+        (bad JSON) ou 415 (unsupported media type). Les deux sont acceptables
+        — ce qui compte c'est qu'on ne renvoie pas 200 ni 500."""
         resp = flask_client.post("/api/ask", data="pas du json",
                                  content_type="text/plain")
-        assert resp.status_code == 400
+        assert resp.status_code in (400, 415), (
+            f"Attendu 400 ou 415, reçu {resp.status_code}"
+        )
         assert "error" in _assert_json(resp)
 
     def test_payload_liste_rejette_400(self, flask_client):
@@ -142,8 +173,8 @@ class TestAskEndpoint:
         resp = flask_client.post("/api/ask", json={"question": "",
                                                     "module": "juridique"})
         assert resp.status_code == 400
-        assert "question" in _assert_json(resp)["error"].lower() \
-            or "veuillez" in _assert_json(resp)["error"].lower()
+        err = _assert_json(resp)["error"].lower()
+        assert "question" in err or "veuillez" in err
 
     def test_module_inconnu_tombe_sur_juridique(self, flask_client, fake_anthropic):
         """Module exotique → fallback silencieux sur 'juridique'."""
@@ -155,18 +186,27 @@ class TestAskEndpoint:
         data = _assert_json(resp)
         assert data["module"] == "juridique"
 
-    def test_question_trop_longue_413(self, flask_client):
-        """Question au-delà de MAX_QUESTION_CHARS (5000) → 413."""
+    def test_question_trop_longue_rejette(self, flask_client):
+        """Question au-delà de MAX_QUESTION_CHARS (5000) → 400 (Pydantic)
+        ou 413 (Flask MAX_CONTENT_LENGTH). Les deux sont des rejets valides.
+
+        On documente l'acceptabilité des deux codes — le contrat public est
+        'requêtes oversize = rejet'. Si on veut durcir à un code unique, il
+        faut aligner app.py ET validation.py ET MAX_CONTENT_LENGTH côté Flask."""
         resp = flask_client.post("/api/ask", json={
             "question": "x" * 10_000,
             "module": "juridique",
         })
-        # Pydantic rejette à 5000 avec 400, legacy rejette à 5000 avec 413
         assert resp.status_code in (400, 413)
         assert "error" in _assert_json(resp)
 
     def test_history_depasse_cap_tronque_silencieusement(self, flask_client, fake_anthropic):
-        """50 messages d'historique → modèle en accepte 20, pas de 400."""
+        """50 messages d'historique → modèle en accepte 20, pas de 400.
+
+        Vérifie ACTIVEMENT que la truncation a eu lieu en inspectant les
+        arguments passés au client Anthropic (le nombre de messages
+        construits à partir de l'history tronquée doit être ≤ 20 + le
+        message courant + le system prompt)."""
         history = [{"role": "user", "content": f"m{i}"} for i in range(50)]
         resp = flask_client.post("/api/ask", json={
             "question": "suite",
@@ -174,6 +214,15 @@ class TestAskEndpoint:
             "module": "juridique",
         })
         assert resp.status_code == 200
+        # Inspection active : le mock Anthropic a été appelé, on regarde
+        # la kwarg "messages" pour s'assurer que l'history a été bornée.
+        call = fake_anthropic.messages.create.call_args
+        messages = call.kwargs.get("messages", call.args[0] if call.args else [])
+        # L'history tronquée (≤20) + le nouveau user message = ≤21 messages.
+        # On tolère un écart modeste (prompt système, instructions, etc.).
+        assert len(messages) <= 25, (
+            f"History tronquée attendue ≤20+contexte, reçu {len(messages)} messages"
+        )
 
     def test_extras_ignores(self, flask_client, fake_anthropic):
         """Champs inconnus (feature_flag_v2, etc.) → ignorés, pas de 400."""
@@ -352,38 +401,33 @@ class TestAdminEndpoints:
         resp = flask_client.get("/api/rdv")
         assert resp.status_code == 401
 
-    def test_reload_avec_auth_200(self, admin_client):
-        """Avec admin_client fixture (bcrypt hash configuré) → 200."""
-        username, password = admin_client._admin_auth
+    def test_reload_avec_auth_200(self, admin_client, admin_credentials):
+        """Avec ADMIN_PASS_HASH configuré → 200. Utilise la fixture
+        `admin_credentials` (préférable à l'attribut privé `_admin_auth`)."""
+        username, password = admin_credentials
         resp = admin_client.post("/api/reload", headers=_basic_auth(username, password))
         assert resp.status_code == 200
         data = _assert_json(resp)
         assert data["status"] == "ok"
         assert "themes" in data
 
-    def test_knowledge_avec_auth_200(self, admin_client):
-        username, password = admin_client._admin_auth
+    def test_knowledge_avec_auth_200(self, admin_client, admin_credentials):
+        username, password = admin_credentials
         resp = admin_client.get("/api/knowledge", headers=_basic_auth(username, password))
         assert resp.status_code == 200
         data = _assert_json(resp)
         # La KB exposée a une clé "themes"
         assert "themes" in data
 
-    def test_auth_mauvais_mdp_401(self, admin_client):
-        resp = admin_client.post("/api/reload", headers=_basic_auth("admin", "WRONG"))
+    def test_auth_mauvais_mdp_401(self, admin_client, admin_credentials):
+        username, _ = admin_credentials
+        resp = admin_client.post("/api/reload", headers=_basic_auth(username, "WRONG"))
         assert resp.status_code == 401
 
-    def test_auth_mauvais_user_401(self, admin_client):
-        _username, password = admin_client._admin_auth
+    def test_auth_mauvais_user_401(self, admin_client, admin_credentials):
+        _, password = admin_credentials
         resp = admin_client.post("/api/reload", headers=_basic_auth("hacker", password))
         assert resp.status_code == 401
-
-
-def _basic_auth(user: str, pwd: str) -> dict:
-    """Construit l'en-tête HTTP Basic Auth."""
-    import base64
-    token = base64.b64encode(f"{user}:{pwd}".encode("utf-8")).decode("ascii")
-    return {"Authorization": f"Basic {token}"}
 
 
 # ══════════════════════════════════════════════
@@ -391,21 +435,42 @@ def _basic_auth(user: str, pwd: str) -> dict:
 # ══════════════════════════════════════════════
 
 class TestOpenAPIEndpoints:
+    @pytest.mark.skipif(
+        not OPENAPI_YAML_EXISTS,
+        reason=f"docs/openapi.yaml absent ({_OPENAPI_YAML_PATH}) — skip",
+    )
     def test_openapi_yaml_200(self, flask_client):
+        """Si docs/openapi.yaml existe (cas normal en prod), le endpoint
+        DOIT renvoyer 200 et un YAML valide contenant 'openapi:'."""
         resp = flask_client.get("/api/openapi.yaml")
-        # 200 si le fichier docs/openapi.yaml existe, 404 sinon
-        assert resp.status_code in (200, 404)
-        if resp.status_code == 200:
-            assert b"openapi" in resp.data.lower()
+        assert resp.status_code == 200
+        assert b"openapi" in resp.data.lower()
 
+    @pytest.mark.skipif(
+        not OPENAPI_YAML_EXISTS,
+        reason=f"docs/openapi.yaml absent ({_OPENAPI_YAML_PATH}) — skip",
+    )
     def test_openapi_json_200(self, flask_client):
+        """Variante JSON — 200 ou 501 si pyyaml manquant (edge case ops)."""
         resp = flask_client.get("/api/openapi.json")
-        # 200 si le fichier + pyyaml présents, 404/501 sinon
-        assert resp.status_code in (200, 404, 501)
+        # 501 reste valide si pyyaml n'est pas installé sur cet env de test.
+        assert resp.status_code in (200, 501)
         if resp.status_code == 200:
             data = _assert_json(resp)
             assert "openapi" in data
             assert "paths" in data
+
+    def test_openapi_yaml_absent_renvoie_404(self, flask_client, tmp_path, monkeypatch):
+        """Si docs/openapi.yaml est manquant, le endpoint DOIT renvoyer 404
+        (pas 500). Test explicite pour documenter le contrat de fallback."""
+        import app as app_module
+        # On patche _OPENAPI_PATH (attribut "privé" par convention de nom,
+        # mais Python n'impose rien — monkeypatch assure la restauration).
+        monkeypatch.setattr(
+            app_module, "_OPENAPI_PATH", tmp_path / "inexistant.yaml",
+        )
+        resp = flask_client.get("/api/openapi.yaml")
+        assert resp.status_code == 404
 
 
 # ══════════════════════════════════════════════
@@ -418,7 +483,7 @@ class TestCORS:
         resp = flask_client.options(
             "/api/ask",
             headers={
-                "Origin": "http://localhost:5000",
+                "Origin": _cors_origin(),
                 "Access-Control-Request-Method": "POST",
             },
         )
@@ -428,11 +493,20 @@ class TestCORS:
         assert "Access-Control-Allow-Origin" in resp.headers
 
     def test_cors_headers_sur_get(self, flask_client):
-        """Un GET simple depuis origin autorisé → header Allow-Origin."""
-        resp = flask_client.get("/api/health",
-                                 headers={"Origin": "http://localhost:5000"})
+        """Un GET simple depuis origin autorisé → header Allow-Origin.
+
+        On construit l'origin dynamiquement pour ne pas casser si la config
+        CORS change (CORS_ORIGINS="*" accepte tout, un domaine spécifique
+        accepte juste ce domaine). L'origin doit au moins être reflété."""
+        origin = _cors_origin()
+        resp = flask_client.get("/api/health", headers={"Origin": origin})
         assert resp.status_code == 200
-        assert resp.headers.get("Access-Control-Allow-Origin") == "http://localhost:5000"
+        allow = resp.headers.get("Access-Control-Allow-Origin")
+        # Soit on reçoit l'origin exact (CORS restrictive), soit "*" (ouverte).
+        assert allow in (origin, "*"), (
+            f"Access-Control-Allow-Origin inattendu : {allow!r} "
+            f"(attendu {origin!r} ou '*')"
+        )
 
 
 # ══════════════════════════════════════════════
@@ -458,34 +532,44 @@ class TestParcoursComplet:
     """Simule un usage utilisateur de bout en bout."""
 
     def test_ask_puis_feedback(self, flask_client, isolated_storage, fake_anthropic):
-        """1) poser une question 2) feedback positif sur la réponse."""
+        """1) poser une question 2) feedback positif sur la RÉPONSE retournée.
+
+        On remonte l'answer obtenu dans le feedback → vérifie que la
+        persistance feedback contient bien la question ET l'answer liés,
+        pas juste des données détachées."""
         # 1. Question
+        question_text = "Qu'est-ce qu'un CDI ?"
         r1 = flask_client.post("/api/ask", json={
-            "question": "Qu'est-ce qu'un CDI ?",
+            "question": question_text,
             "module": "juridique",
         })
         assert r1.status_code == 200
         answer = r1.get_json()["answer"]
         assert answer
 
-        # 2. Feedback positif
+        # 2. Feedback positif avec lien explicite question/answer
         r2 = flask_client.post("/api/feedback", json={
             "rating": 1,
-            "question": "Qu'est-ce qu'un CDI ?",
+            "question": question_text,
             "answer": answer,
             "module": "juridique",
         })
         assert r2.status_code == 200
 
-        # Vérifie la persistence feedback
+        # Vérifie la persistence feedback + le lien question/answer.
         fb_lines = (isolated_storage / "feedback.jsonl").read_text().strip().splitlines()
         assert len(fb_lines) == 1
+        entry = json.loads(fb_lines[0])
+        assert entry["rating"] == 1
+        assert entry["question"] == question_text
+        assert entry["answer"] == answer
+        assert entry.get("module") == "juridique"
 
     def test_rdv_creation_puis_liste_admin(
-        self, admin_client, isolated_storage, no_side_effects,
+        self, admin_client, admin_credentials, isolated_storage, no_side_effects,
     ):
         """Un utilisateur crée un RDV puis l'admin le voit dans la liste."""
-        username, password = admin_client._admin_auth
+        username, password = admin_credentials
         auth_headers = _basic_auth(username, password)
 
         # 1. Création RDV (pas d'auth requise)

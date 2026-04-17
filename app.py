@@ -2,7 +2,15 @@
 ELISFA — Chatbot Juridique CCN ALISFA
 Serveur Flask + API Claude Haiku + Prise de RDV + Webhooks MCP
 """
-import os, json, re, math, hashlib, logging, hmac, uuid, smtplib, threading
+import hashlib
+import hmac
+import json
+import logging
+import os
+import re
+import smtplib
+import threading
+import uuid
 from datetime import datetime, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart

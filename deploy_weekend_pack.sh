@@ -48,6 +48,7 @@ FILES_TO_SYNC=(
   "app.py"
   "requirements.txt"
   "pytest.ini"
+  "pyproject.toml"
   ".gitignore"
   "security.py"
   "validation.py"
@@ -62,6 +63,7 @@ FILES_TO_SYNC=(
   "tests/test_security.py"
   "tests/test_kb_cache.py"
   "tests/test_integration.py"
+  "tests/test_calculs_juridiques.py"
   ".github/workflows/ci.yml"
 )
 

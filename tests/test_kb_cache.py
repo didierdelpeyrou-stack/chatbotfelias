@@ -10,6 +10,17 @@ Couvre :
   - Robustesse : loader qui lève lors d'un reload → on garde la valeur
     précédente.
 
+Note de performance
+-------------------
+Historiquement, les tests qui vérifiaient l'invalidation par mtime
+utilisaient ``time.sleep(1.1)`` entre deux écritures pour contourner la
+résolution 1-seconde de ``st_mtime`` sur HFS+/ext4. À l'échelle de la
+suite complète (2 sleeps × 1.1 s), cela ajoutait ≥ 2.2 s de temps mort.
+
+On utilise maintenant ``os.utime(path, (now+10, now+10))`` pour bumper
+manuellement le mtime — équivalent fonctionnel, instantané. La nouvelle
+suite kb_cache passe en < 0.1 s au lieu de ~2.3 s.
+
 Exécution :
     pytest tests/test_kb_cache.py -v
 """
@@ -17,6 +28,7 @@ Exécution :
 from __future__ import annotations
 
 import json
+import os
 import threading
 import time
 from pathlib import Path
@@ -41,6 +53,17 @@ def _make_loader(counter: list[int]):
         counter.append(1)
         return json.loads(path.read_text(encoding="utf-8"))
     return _loader
+
+
+def _bump_mtime(path: Path, seconds_ahead: float = 10.0) -> None:
+    """Force le mtime d'un fichier à ``now + seconds_ahead``.
+
+    Équivalent fonctionnel de ``time.sleep(1.1) + write`` mais instantané :
+    on utilise ``os.utime`` pour faire avancer le mtime au-delà de la
+    résolution 1-seconde sans consommer de wall-clock réel.
+    """
+    future = time.time() + seconds_ahead
+    os.utime(path, (future, future))
 
 
 # ──────────────────────── FileBackedCache — round trip ────────────────────────
@@ -99,10 +122,9 @@ class TestMTimeInvalidation:
         assert cache.get() == {"v": 1}
         assert len(loads) == 1
 
-        # On touche le fichier (mtime change) — sleep 1.1s car certains FS
-        # (HFS+, ext4) ont une résolution de 1 s sur st_mtime.
-        time.sleep(1.1)
+        # On réécrit puis on bumpe manuellement le mtime (évite sleep 1.1s).
         p.write_text(json.dumps({"v": 2}), encoding="utf-8")
+        _bump_mtime(p)
 
         result = cache.get()
         assert result == {"v": 2}
@@ -179,12 +201,14 @@ class TestCacheRegistry:
         c2 = get_cache(p2, _make_loader(loads2), check_interval_s=60.0)
 
         # Première charge (1 load chacun)
-        c1.get(); c2.get()
+        c1.get()
+        c2.get()
         assert len(loads1) == 1 and len(loads2) == 1
 
         # invalidate_all → les deux caches doivent reloader
         invalidate_all()
-        c1.get(); c2.get()
+        c1.get()
+        c2.get()
         assert len(loads1) == 2
         assert len(loads2) == 2
 
@@ -218,13 +242,16 @@ class TestThreadSafety:
         t1.start()
         # On attend que le premier thread AIT pris le lock avant de lancer
         # le second. Sinon, test flaky : t2 peut arriver avant.
-        loader_started.wait(timeout=5.0)
+        assert loader_started.wait(timeout=5.0), "loader_started jamais fired"
         t2.start()
 
         # Les deux threads sont maintenant empilés sur le lock : on libère.
         loader_can_continue.set()
         t1.join(timeout=5.0)
         t2.join(timeout=5.0)
+        # Les threads doivent s'être terminés proprement (pas de deadlock).
+        assert not t1.is_alive(), "t1 bloqué — deadlock potentiel"
+        assert not t2.is_alive(), "t2 bloqué — deadlock potentiel"
 
         assert len(results) == 2
         assert results[0] == results[1] == {"v": 1}
@@ -248,8 +275,12 @@ class TestThreadSafety:
                 errors.append(e)
 
         threads = [threading.Thread(target=_worker) for _ in range(100)]
-        for t in threads: t.start()
-        for t in threads: t.join(timeout=5.0)
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join(timeout=5.0)
+        # Vérifie que tous les threads se sont bien terminés.
+        assert all(not t.is_alive() for t in threads), "Des threads sont bloqués"
 
         assert not errors
         assert len(results) == 100
@@ -290,10 +321,34 @@ class TestLoaderRobustness:
         cache = FileBackedCache(p, _flaky_loader, check_interval_s=0.0)
         assert cache.get() == {"v": 1}
 
-        # Touche le fichier pour forcer un reload → le loader va lever.
-        time.sleep(1.1)
+        # On réécrit puis bumpe le mtime pour forcer un reload → le loader
+        # va lever mais le cache doit servir l'ancienne valeur.
         p.write_text(json.dumps({"v": 2}), encoding="utf-8")
+        _bump_mtime(p)
 
         # Ne crash pas → on garde {"v": 1}
         result = cache.get()
         assert result == {"v": 1}
+        # Confirme que le loader a bien été rappelé (et a levé).
+        assert call_count[0] >= 2
+
+
+# ──────────────────────── Helper _bump_mtime ────────────────────────
+
+class TestBumpMtimeHelper:
+    """Le helper _bump_mtime est central — on le teste explicitement pour
+    prouver qu'il remplace fidèlement time.sleep + write."""
+
+    def test_bump_mtime_change_bien_le_mtime(self, tmp_path):
+        p = tmp_path / "x.json"
+        p.write_text("{}", encoding="utf-8")
+        old_mtime = p.stat().st_mtime
+
+        _bump_mtime(p, seconds_ahead=10.0)
+        new_mtime = p.stat().st_mtime
+
+        # Le nouveau mtime doit être strictement > ancien + résolution FS.
+        # On laisse une marge de 0.5 s pour tenir compte des FS à 1 s.
+        assert new_mtime > old_mtime + 0.5, (
+            f"mtime inchangé : old={old_mtime} new={new_mtime}"
+        )

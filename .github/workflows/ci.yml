@@ -94,15 +94,11 @@ jobs:
         run: pip install ruff
 
       - name: Run ruff
-        # --select=E,F → erreurs de syntaxe + imports cassés uniquement.
-        # On laisse les règles "style" (W, I, etc.) non bloquantes pour ne
-        # pas forcer un refactor massif du code legacy.
-        run: |
-          ruff check \
-            --select=E,F \
-            --ignore=E501 \
-            app.py security.py validation.py kb_cache.py observability.py \
-            scripts/ tests/
+        # Config centralisée dans pyproject.toml (select, ignore, per-file-ignores).
+        # Ne JAMAIS passer --select/--ignore ici : les flags CLI override totalement
+        # le pyproject.toml, donc nos per-file-ignores pour app.py legacy seraient
+        # ignorés. Pour ajouter une règle, éditer pyproject.toml.
+        run: ruff check .
 
   # ══════════════════════════════════════════════
   #                Docker build (smoke)

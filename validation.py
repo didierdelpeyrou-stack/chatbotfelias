@@ -22,7 +22,7 @@ peut être testé en isolation.
 from __future__ import annotations
 
 import re
-from typing import Optional, Union
+from typing import Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 

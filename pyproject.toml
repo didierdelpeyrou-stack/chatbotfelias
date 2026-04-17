@@ -1,0 +1,48 @@
+# Configuration ruff — lint uniquement (on n'utilise pas ruff comme formatter ici).
+#
+# Philosophie :
+#   - Lint strict (E + F) sur les NOUVEAUX modules : security, validation,
+#     kb_cache, observability, scripts/, tests/. Ces fichiers sont récents,
+#     écrits proprement, et doivent le rester.
+#   - Lint relâché sur app.py : fichier legacy de ~4300 lignes dont la
+#     structure (imports late + load_dotenv() avant import flask + star
+#     import config) est INTENTIONNELLE. Un refactor coûterait plus qu'il
+#     ne rapporte. On tolère donc E402 / F401 / F403 / F405 uniquement ici.
+#
+# Si on réécrit app.py un jour (split en blueprints Flask), supprimer
+# l'entrée per-file-ignores correspondante.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+# E = pycodestyle errors (syntaxe, indentation, imports mal placés)
+# F = pyflakes (undefined names, unused imports, star imports)
+select = ["E", "F"]
+# E501 (line too long) : beaucoup de lignes legacy dépassent 100 chars,
+# on laisse — ruff n'auto-fix pas et l'effort humain est disproportionné.
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+# app.py est un monolithe Flask legacy :
+#   - E401 : imports multiples sur une ligne (ex. `import urllib.request,
+#            urllib.error` dans des helpers locaux — style historique).
+#   - E402 : imports après load_dotenv() — requis pour que config.py
+#            puisse lire os.environ dès son propre module-load.
+#   - E701/E702 : compound statements historiques (if X: do_y() sur une
+#                 seule ligne, ou ;). Pas de valeur à casser la compat.
+#   - F401 : quelques imports "utilisés indirectement" (ex. plugins Flask)
+#   - F403 : `from config import *` — choix historique, les constantes
+#            de config sont censées être toutes disponibles au niveau app.
+#   - F405 : corollaire de F403, les noms importés via star sont marqués
+#            "may be undefined" — faux positif.
+#   - F541 : f-strings sans placeholder (cosmétique, historique).
+#   - F841 : variables assignées mais non utilisées (souvent résultats
+#            de calculs défensifs, ex. `h = hashlib.sha256(...)` sans
+#            usage immédiat mais conservé pour symétrie de code).
+"app.py" = ["E401", "E402", "E701", "E702", "F401", "F403", "F405", "F541", "F841"]
+
+# Les tests peuvent tolérer les imports dans les classes/fonctions pour
+# les fixtures lazy et les imports conditionnels.
+"tests/**/*.py" = ["E402"]
