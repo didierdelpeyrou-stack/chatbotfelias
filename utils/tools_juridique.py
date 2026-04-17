@@ -119,26 +119,67 @@ TOOLS_CALCUL = [
     {
         "name": "salaire_minimum_alisfa",
         "description": (
-            "Calcule le salaire mensuel brut de base CCN ALISFA : coefficient × valeur "
-            "du point. La valeur du point en vigueur est stockée dans le module "
-            "(à maintenir à jour à chaque accord de branche)."
+            "Calcule la rémunération annuelle minimale CCN ALISFA selon l'avenant "
+            "n° 10-2022 (applicable au 1er janvier 2024). Formule officielle pour un "
+            "temps plein : Rémunération annuelle = SSC + (points pesée × valeur du "
+            "point) + (points ancienneté × valeur du point) + (points expérience × "
+            "valeur du point). SSC 2024 = 22 100 €/an, valeur du point 2024 = 55 €/an. "
+            "Pour un temps partiel, appliquer un prorata via l'ETP. Important : la "
+            "CCN ALISFA n'a PAS de prime d'ancienneté distincte — les points "
+            "d'ancienneté sont intégrés au salaire minimum hiérarchique."
         ),
         "input_schema": {
             "type": "object",
             "properties": {
-                "coefficient": {
-                    "type": "integer",
-                    "description": "Coefficient du poste selon la grille CCN ALISFA.",
-                },
-                "valeur_point": {
+                "points_pesee": {
                     "type": "number",
                     "description": (
-                        "Valeur du point en euros (optionnel ; utilise la valeur par "
-                        "défaut du module si absente)."
+                        "Points de pesée du poste selon la grille de classification "
+                        "CCN ALISFA (Chapitre XII — Classification, avenant 10-2022)."
+                    ),
+                },
+                "points_anciennete": {
+                    "type": "number",
+                    "description": (
+                        "Points d'ancienneté acquis (optionnel, défaut 0). Barème "
+                        "plein temps : 1 point par an la 1ère année, puis selon les "
+                        "paliers définis au Chapitre V. Prorata ETP : 1 pt si ETP ≥ "
+                        "0,50 ; 0,5 pt si 0,23 ≤ ETP < 0,50 ; 0,25 pt si ETP < 0,23."
+                    ),
+                },
+                "points_experience": {
+                    "type": "number",
+                    "description": (
+                        "Points d'expérience professionnelle (optionnel, défaut 0). "
+                        "Valorisation des expériences antérieures pertinentes pour "
+                        "le poste occupé."
+                    ),
+                },
+                "ssc_annuel": {
+                    "type": "number",
+                    "description": (
+                        "Salaire de Socle Commun annuel en euros (optionnel ; "
+                        "défaut 22 100 € correspondant à la valeur 2024)."
+                    ),
+                },
+                "valeur_point_annuel": {
+                    "type": "number",
+                    "description": (
+                        "Valeur annuelle du point en euros (optionnel ; défaut 55 € "
+                        "correspondant à la valeur 2024)."
+                    ),
+                },
+                "etp": {
+                    "type": "number",
+                    "description": (
+                        "Équivalent Temps Plein (défaut 1.0 = temps plein). Pour un "
+                        "temps partiel, renseigner la quotité (ex: 0.8 pour 80 %). "
+                        "Le prorata est appliqué sur la rémunération annuelle "
+                        "temps plein."
                     ),
                 },
             },
-            "required": ["coefficient"],
+            "required": ["points_pesee"],
         },
     },
 ]

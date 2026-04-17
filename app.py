@@ -1404,9 +1404,12 @@ Python testées qui donnent le chiffre exact — toi, tu orchestres et tu mets e
      {montant} € (Code du travail art. L1234-9/R1234-2). À vérifier si la CCN ALISFA
      prévoit un barème plus favorable. Ce montant doit être validé par le pôle juridique ELISFA. »
 
-• « Salaire minimum pour un coefficient 285 à l'ALISFA ? » →
-  1. tool `salaire_minimum_alisfa` avec coefficient=285
-  2. Réponse : cite le résultat + valeur du point utilisée + rappel d'actualisation.
+• « Salaire minimum ALISFA pour un poste pesé à 150 points, 8 ans d'ancienneté, temps plein ? » →
+  1. tool `salaire_minimum_alisfa` avec points_pesee=150, points_anciennete=8
+     (avenant 10-2022 : SSC 22 100 € + pesée × 55 € + ancienneté × 55 €)
+  2. Réponse : cite la rémunération annuelle + mensuelle + détail du calcul + rappel
+     que la CCN ALISFA n'a pas de prime d'ancienneté distincte (points intégrés au
+     salaire minimum hiérarchique) + rappel d'actualisation SSC/valeur du point.
 
 Termine toujours par : « ⚠️ Ces chiffres sont des estimations déterministes issues des
 barèmes légaux et conventionnels en vigueur. Ils doivent être validés par le pôle

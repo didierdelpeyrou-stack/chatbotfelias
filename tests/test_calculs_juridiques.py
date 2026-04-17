@@ -180,19 +180,71 @@ class TestIndemniteLicenciement(unittest.TestCase):
 
 
 class TestSalaireMinimumAlisfa(unittest.TestCase):
-    def test_calcul_basique(self):
-        r = salaire_minimum_alisfa(coefficient=300, valeur_point=6.77)
-        self.assertEqual(r["salaire_mensuel_brut"], round(300 * 6.77, 2))
-        self.assertEqual(r["coefficient"], 300)
+    """Tests basés sur l'avenant n° 10-2022 (applicable 01/01/2024).
 
-    def test_valeur_point_par_defaut(self):
-        r = salaire_minimum_alisfa(coefficient=300)
-        self.assertIsNotNone(r["valeur_point"])
-        self.assertGreater(r["salaire_mensuel_brut"], 0)
+    Formule : Rémunération annuelle = SSC + (pesée × 55) + (ancienneté × 55)
+    + (expérience × 55), avec SSC 2024 = 22 100 €/an.
+    """
 
-    def test_coefficient_negatif(self):
+    def test_calcul_temps_plein_sans_anciennete(self):
+        r = salaire_minimum_alisfa(points_pesee=100)
+        # 22 100 + (100 × 55) + 0 + 0 = 27 600 €/an
+        self.assertEqual(r["remuneration_annuelle_temps_plein"], 27_600.0)
+        self.assertEqual(r["salaire_annuel_brut"], 27_600.0)
+        self.assertEqual(r["salaire_mensuel_brut"], round(27_600 / 12, 2))
+        self.assertEqual(r["points_pesee"], 100)
+        self.assertEqual(r["points_anciennete"], 0)
+        self.assertEqual(r["points_experience"], 0)
+        self.assertEqual(r["etp"], 1.0)
+
+    def test_calcul_avec_anciennete_et_experience(self):
+        r = salaire_minimum_alisfa(
+            points_pesee=120,
+            points_anciennete=8,
+            points_experience=4,
+        )
+        # 22 100 + (120 × 55) + (8 × 55) + (4 × 55) = 22 100 + 6 600 + 440 + 220 = 29 360
+        self.assertEqual(r["remuneration_annuelle_temps_plein"], 29_360.0)
+        self.assertEqual(r["salaire_annuel_brut"], 29_360.0)
+
+    def test_temps_partiel_80(self):
+        r = salaire_minimum_alisfa(points_pesee=100, etp=0.8)
+        # Temps plein = 27 600 ; 80 % = 22 080
+        self.assertEqual(r["remuneration_annuelle_temps_plein"], 27_600.0)
+        self.assertEqual(r["salaire_annuel_brut"], 22_080.0)
+        self.assertEqual(r["etp"], 0.8)
+
+    def test_valeurs_par_defaut_ssc_et_point(self):
+        r = salaire_minimum_alisfa(points_pesee=100)
+        self.assertEqual(r["ssc_annuel"], 22_100.0)
+        self.assertEqual(r["valeur_point_annuel"], 55.0)
+        self.assertIn("detail_calcul", r)
+        self.assertIn("base_ccn", r)
+
+    def test_override_ssc_et_point(self):
+        r = salaire_minimum_alisfa(
+            points_pesee=100,
+            ssc_annuel=23_000.0,
+            valeur_point_annuel=56.0,
+        )
+        # 23 000 + (100 × 56) = 28 600
+        self.assertEqual(r["remuneration_annuelle_temps_plein"], 28_600.0)
+        self.assertEqual(r["ssc_annuel"], 23_000.0)
+        self.assertEqual(r["valeur_point_annuel"], 56.0)
+
+    def test_points_pesee_negatif(self):
         with self.assertRaises(ValueError):
-            salaire_minimum_alisfa(coefficient=-10)
+            salaire_minimum_alisfa(points_pesee=-10)
+
+    def test_points_anciennete_negatif(self):
+        with self.assertRaises(ValueError):
+            salaire_minimum_alisfa(points_pesee=100, points_anciennete=-1)
+
+    def test_etp_hors_bornes(self):
+        with self.assertRaises(ValueError):
+            salaire_minimum_alisfa(points_pesee=100, etp=0)
+        with self.assertRaises(ValueError):
+            salaire_minimum_alisfa(points_pesee=100, etp=1.5)
 
 
 class TestDispatcher(unittest.TestCase):

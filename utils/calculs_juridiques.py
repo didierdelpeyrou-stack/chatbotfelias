@@ -55,10 +55,40 @@ CCN_PREAVIS_LICENCIEMENT_MOIS = {
     "cadre_apres_2_ans": 3,
 }
 
-# Valeur du point CCN ALISFA — à mettre à jour à chaque accord de branche.
-# Placeholder : valeur indicative, à remplacer par la valeur conventionnelle
-# en vigueur à la date du calcul.
-CCN_VALEUR_POINT_EUROS = 6.77  # ⚠️ TODO VALIDATION date de l'accord
+# ══════════════════════════════════════════════════════════════════════
+#  CCN ALISFA — AVENANT 10-2022 (applicable depuis le 1er janvier 2024)
+# ══════════════════════════════════════════════════════════════════════
+# La CCN ALISFA NE FONCTIONNE PLUS en coefficient × valeur du point.
+# Depuis l'avenant 10-2022, le salaire minimum se compose ANNUELLEMENT de :
+#
+#   Rémunération annuelle brute =
+#       SSC                                        (salaire socle conventionnel)
+#     + points_pesée       × valeur_point         (classification de l'emploi)
+#     + points_ancienneté  × valeur_point         (ancienneté dans la branche)
+#     + points_expérience  × valeur_point         (expérience professionnelle)
+#
+# Puis : salaire mensuel = rémunération annuelle / 12
+# Puis : prorata temps partiel = salaire × (heures contractuelles × 12 / 1820)
+#
+# Source : Avenant n° 10-2022 du 6 décembre 2022 à la CCN ALISFA (IDCC 1261),
+#          Chapitre V (rémunération) + Annexes 3, 4, 5 (pesée des emplois).
+#
+# Les valeurs ci-dessous sont celles de 2024 (SSC + valeur du point). Les
+# projections 2025-2027 évoquées dans la base de connaissances ne sont pas
+# répliquées ici tant qu'elles n'ont pas été validées par le pôle juridique
+# ELISFA sur la base d'un avenant salarial daté.
+
+# Valeur annuelle du point CCN ALISFA au 1er janvier 2024 (avenant 10-2022).
+# Une valeur du point CCN ALISFA est une valeur ANNUELLE (pas mensuelle).
+CCN_VALEUR_POINT_ANNUEL_EUROS = 55.0  # ⚠️ À actualiser à chaque avenant salarial
+
+# Salaire Socle Conventionnel annuel brut au 1er janvier 2024 (avenant 10-2022).
+# Correspond au positionnement au niveau 1 de tous les critères classants.
+CCN_SSC_ANNUEL_EUROS_2024 = 22_100.0  # ⚠️ À actualiser à chaque avenant salarial
+
+# Heures annuelles CCN ALISFA (base temps plein). Utilisé pour le prorata
+# temps partiel : (heures_contractuelles_mois × 12) / 1820.
+CCN_HEURES_ANNUELLES_TEMPS_PLEIN = 1820
 
 # Coefficient plancher pour le calcul de l'indemnité de licenciement légale
 # (Code du travail L1234-9 + R1234-2)
@@ -364,45 +394,125 @@ def indemnite_licenciement(
 
 
 # ══════════════════════════════════════════════════════════════════════
-#  CALCUL 4 — SALAIRE MINIMAL ALISFA (COEFFICIENT × VALEUR DU POINT)
+#  CALCUL 4 — SALAIRE MINIMUM HIÉRARCHIQUE ALISFA (AVENANT 10-2022)
 # ══════════════════════════════════════════════════════════════════════
 
 def salaire_minimum_alisfa(
-    coefficient: int,
-    valeur_point: Optional[float] = None,
+    points_pesee: float,
+    points_anciennete: float = 0,
+    points_experience: float = 0,
+    ssc_annuel: Optional[float] = None,
+    valeur_point_annuel: Optional[float] = None,
+    etp: float = 1.0,
 ) -> dict:
-    """Salaire minimum conventionnel ALISFA = coefficient × valeur du point.
+    """Salaire minimum hiérarchique CCN ALISFA (avenant 10-2022, applicable 2024).
+
+    Formule officielle :
+        Rémunération annuelle brute =
+            SSC
+          + points_pesée       × valeur_point
+          + points_ancienneté  × valeur_point
+          + points_expérience  × valeur_point
+
+    Puis salaire mensuel = (rémunération annuelle × ETP) / 12.
 
     Args:
-        coefficient  : coefficient du poste (selon grille CCN ALISFA)
-        valeur_point : valeur du point en euros. Si None, utilise la constante
-                       CCN_VALEUR_POINT_EUROS du module (à maintenir à jour).
+        points_pesee        : points issus de la pesée de l'emploi sur les
+                              8 critères classants (hors SSC). Ex : 150.
+        points_anciennete   : points d'ancienneté de branche (1 pt/an pour
+                              ≥ 0,50 ETP ; 0,5 pt/an pour 0,23–0,50 ETP ;
+                              0,25 pt/an pour < 0,23 ETP). Défaut : 0.
+        points_experience   : points d'expérience professionnelle (cycle
+                              d'évaluation de 24 mois). Défaut : 0.
+        ssc_annuel          : Salaire Socle Conventionnel annuel en euros.
+                              Défaut : CCN_SSC_ANNUEL_EUROS_2024 (22 100 €).
+        valeur_point_annuel : valeur annuelle du point en euros.
+                              Défaut : CCN_VALEUR_POINT_ANNUEL_EUROS (55 €).
+        etp                 : équivalent temps plein (0 < ETP ≤ 1.0) pour
+                              proratiser un temps partiel. Défaut : 1.0.
 
     Returns:
-        dict avec le salaire mensuel brut de base.
-    """
-    if coefficient < 0:
-        raise ValueError("Le coefficient ne peut pas être négatif.")
+        dict avec la rémunération annuelle et mensuelle brutes.
 
-    vp = valeur_point if valeur_point is not None else CCN_VALEUR_POINT_EUROS
-    salaire = coefficient * vp
+    Raises:
+        ValueError : paramètre hors bornes (négatif, ETP hors ]0, 1]).
+    """
+    # Validations
+    for nom, val in (
+        ("points_pesee", points_pesee),
+        ("points_anciennete", points_anciennete),
+        ("points_experience", points_experience),
+    ):
+        if val < 0:
+            raise ValueError(f"{nom} ne peut pas être négatif (reçu : {val}).")
+    if not (0 < etp <= 1.0):
+        raise ValueError(f"L'ETP doit être dans ]0, 1] (reçu : {etp}).")
+
+    ssc = ssc_annuel if ssc_annuel is not None else CCN_SSC_ANNUEL_EUROS_2024
+    vp = valeur_point_annuel if valeur_point_annuel is not None else CCN_VALEUR_POINT_ANNUEL_EUROS
+
+    if ssc < 0:
+        raise ValueError(f"Le SSC ne peut pas être négatif (reçu : {ssc}).")
+    if vp < 0:
+        raise ValueError(f"La valeur du point ne peut pas être négative (reçu : {vp}).")
+
+    # Calcul
+    remuneration_pesee = points_pesee * vp
+    remuneration_anciennete = points_anciennete * vp
+    remuneration_experience = points_experience * vp
+    remuneration_annuelle_tp = ssc + remuneration_pesee + remuneration_anciennete + remuneration_experience
+    remuneration_annuelle = remuneration_annuelle_tp * etp
+    remuneration_mensuelle = remuneration_annuelle / 12
+
+    detail_lines = [
+        f"SSC : {ssc:.2f} €",
+        f"+ Pesée : {points_pesee:g} pts × {vp:.2f} € = {remuneration_pesee:.2f} €",
+    ]
+    if points_anciennete:
+        detail_lines.append(
+            f"+ Ancienneté : {points_anciennete:g} pts × {vp:.2f} € = {remuneration_anciennete:.2f} €"
+        )
+    if points_experience:
+        detail_lines.append(
+            f"+ Expérience : {points_experience:g} pts × {vp:.2f} € = {remuneration_experience:.2f} €"
+        )
+    detail_lines.append(
+        f"= Rémunération annuelle temps plein : {remuneration_annuelle_tp:.2f} €"
+    )
+    if etp < 1.0:
+        detail_lines.append(
+            f"× ETP {etp:g} = Rémunération annuelle : {remuneration_annuelle:.2f} €"
+        )
+    detail_lines.append(
+        f"/ 12 = Rémunération mensuelle : {remuneration_mensuelle:.2f} €"
+    )
 
     return {
-        "resultat": round(salaire, 2),
+        "resultat": round(remuneration_mensuelle, 2),
         "unite": "euros/mois",
-        "salaire_mensuel_brut": round(salaire, 2),
-        "coefficient": coefficient,
-        "valeur_point": vp,
-        "detail_calcul": f"{coefficient} × {vp:.2f} € = {salaire:.2f} € brut/mois",
-        "base_ccn": ["CCN ALISFA IDCC 1261, grille des salaires (accord de branche en vigueur)"],
+        "salaire_mensuel_brut": round(remuneration_mensuelle, 2),
+        "salaire_annuel_brut": round(remuneration_annuelle, 2),
+        "remuneration_annuelle_temps_plein": round(remuneration_annuelle_tp, 2),
+        "points_pesee": points_pesee,
+        "points_anciennete": points_anciennete,
+        "points_experience": points_experience,
+        "ssc_annuel": ssc,
+        "valeur_point_annuel": vp,
+        "etp": etp,
+        "detail_calcul": "\n".join(detail_lines),
+        "base_ccn": [
+            "Avenant n° 10-2022 du 6 décembre 2022 — Chapitre V (rémunération)",
+            "CCN ALISFA IDCC 1261 — grille des salaires en vigueur",
+        ],
         "avertissement": (
-            f"Valeur du point utilisée : {vp:.2f} €. "
-            "⚠️ VÉRIFIER qu'elle correspond à l'accord de branche en vigueur à la date du calcul "
-            "(les revalorisations annuelles doivent être reportées dans la constante "
-            "CCN_VALEUR_POINT_EUROS du module utils/calculs_juridiques.py). "
-            "Le salaire réel peut être supérieur via points d'ancienneté (intégrés au "
-            "salaire minimum hiérarchique — pas une prime distincte dans la CCN ALISFA), "
-            "points d'expérience, heures supp, compléments conventionnels."
+            f"Valeurs utilisées : SSC {ssc:.2f} €/an, valeur du point {vp:.2f} €/an. "
+            "⚠️ VÉRIFIER qu'elles correspondent à l'avenant salarial en vigueur à la "
+            "date du calcul (à actualiser dans CCN_SSC_ANNUEL_EUROS_2024 et "
+            "CCN_VALEUR_POINT_ANNUEL_EUROS de utils/calculs_juridiques.py à chaque "
+            "nouvel avenant). La CCN ALISFA ne prévoit pas de « prime d'ancienneté » "
+            "distincte — l'ancienneté est valorisée par des points intégrés au salaire "
+            "minimum hiérarchique. Le salaire réel peut être supérieur via heures supp "
+            "ou compléments conventionnels locaux."
         ),
     }
 
