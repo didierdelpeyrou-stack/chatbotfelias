@@ -400,8 +400,9 @@ def salaire_minimum_alisfa(
             "⚠️ VÉRIFIER qu'elle correspond à l'accord de branche en vigueur à la date du calcul "
             "(les revalorisations annuelles doivent être reportées dans la constante "
             "CCN_VALEUR_POINT_EUROS du module utils/calculs_juridiques.py). "
-            "Le salaire réel peut être supérieur via prime d'ancienneté, heures supp, "
-            "compléments conventionnels."
+            "Le salaire réel peut être supérieur via points d'ancienneté (intégrés au "
+            "salaire minimum hiérarchique — pas une prime distincte dans la CCN ALISFA), "
+            "points d'expérience, heures supp, compléments conventionnels."
         ),
     }
 

@@ -1959,11 +1959,11 @@
         },
         {
           "id": "remun-02",
-          "question_type": "Comment fonctionne la prime d'ancienneté ?",
+          "question_type": "Comment l'ancienneté est-elle valorisée dans la CCN ALISFA ?",
           "mots_cles": [
             "ancienneté",
-            "prime",
-            "majoration",
+            "valorisation ancienneté",
+            "points ancienneté",
             "anciennete",
             "année",
             "point",
@@ -1971,16 +1971,17 @@
             "anniversaire",
             "progression",
             "évolution",
-            "palier ancienneté"
+            "palier ancienneté",
+            "rémunération complémentaire ancienneté"
           ],
           "reponse": {
-            "synthese": "Depuis l'avenant 10-2022, l'ancienneté dans la branche ALISFA est valorisée à raison de 1 point par année d'ancienneté, acquis à la date anniversaire de l'embauche du salarié. Ce point est multiplié par la valeur du point conventionnel (55€ en 2024).",
-            "fondement_legal": "Principe de valorisation de l'ancienneté : la prime d'ancienneté est une disposition conventionnelle (pas une obligation légale). Elle vise à fidéliser les salariés et reconnaître leur engagement. Elle est soumise à cotisations sociales et impôt sur le revenu comme du salaire.",
-            "fondement_ccn": "Chapitre V de la CCN ALISFA (avenant 10-2022) : l'ancienneté acquise au sein de la branche professionnelle ALISFA est valorisée au taux de 1 point par année, sur la date anniversaire de l'embauche du salarié. La rémunération complémentaire liée à l'ancienneté fait partie du salaire minimum hiérarchique de branche.",
-            "application": "Chaque année, à la date anniversaire d'embauche, le salarié acquiert 1 point d'ancienneté supplémentaire. Ce point est valorisé au taux de la valeur du point en vigueur. Exemple : après 10 ans → 10 points × 55€ = 550€/an = 45,83€/mois brut d'ancienneté.",
-            "vigilance": "L'ancienneté prise en compte est l'ancienneté dans la branche ALISFA, pas uniquement chez le même employeur. Les règles de reprise d'ancienneté en cas de mobilité entre structures de la branche doivent être vérifiées. Les périodes de suspension du contrat peuvent impacter le calcul selon leur nature.",
+            "synthese": "IMPORTANT : la CCN ALISFA ne prévoit PAS de « prime d'ancienneté » au sens traditionnel (complément distinct ajouté au salaire de base). Depuis l'avenant 10-2022, l'ancienneté dans la branche est valorisée par des POINTS D'ANCIENNETÉ (1 point par année pour ≥ 0,50 ETP, 0,5 point pour 0,23–0,50 ETP, 0,25 point pour < 0,23 ETP) acquis à la date anniversaire d'embauche. Ces points sont INTÉGRÉS au salaire minimum hiérarchique de branche (pas versés en supplément).",
+            "fondement_legal": "Aucune obligation légale de rémunération complémentaire liée à l'ancienneté dans le Code du travail. La valorisation de l'ancienneté relève exclusivement de la convention collective. Les sommes correspondantes, étant une composante du salaire brut, sont soumises aux cotisations sociales et à l'impôt sur le revenu comme tout élément de salaire.",
+            "fondement_ccn": "Chapitre V de la CCN ALISFA (avenant 10-2022) : l'ancienneté acquise au sein de la branche ALISFA est valorisée par l'attribution de points d'ancienneté sur la date anniversaire d'embauche du salarié. Ces points FONT PARTIE du salaire minimum hiérarchique (formule : SSC + pesée + points d'ancienneté + points d'expérience, le tout multiplié par la valeur du point). Il ne s'agit PAS d'une prime distincte ajoutée au salaire.",
+            "application": "Formule CCN ALISFA : rémunération minimum annuelle = SSC + (pesée × valeur du point) + (points d'ancienneté × valeur du point) + (points d'expérience × valeur du point). Exemple pour un temps plein avec 10 ans d'ancienneté de branche, pesée 150, valeur du point 55€ (2024), SSC 22 100€ : 22 100 + (150×55) + (10×55) + 0 = 30 900€ bruts annuels. Les 10 points d'ancienneté (550€/an) ne sont donc PAS une prime mais une composante du minimum conventionnel.",
+            "vigilance": "Ne confondez pas la valorisation conventionnelle de l'ancienneté (points intégrés au salaire minimum) avec une « prime d'ancienneté » au sens classique, qui n'existe pas dans la CCN ALISFA. L'ancienneté retenue est celle acquise dans TOUTE la branche ALISFA (pas uniquement chez l'employeur actuel) : vérifier les règles de reprise d'ancienneté en cas de mobilité entre structures ALISFA. Les périodes de suspension du contrat peuvent impacter le calcul selon leur nature.",
             "sources": [
-              "CCN ALISFA, Chapitre V — Ancienneté",
+              "CCN ALISFA, Chapitre V — Valorisation de l'ancienneté",
               "Avenant n° 10-2022"
             ],
             "liens": [

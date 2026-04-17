@@ -47,8 +47,8 @@
     {
       "id": "JUR-005",
       "module": "juridique",
-      "question": "Un salarié en CDI à temps plein a-t-il droit à une prime d'ancienneté dans la branche ALISFA ?",
-      "expected_sources_any": ["CCN ALISFA", "prime d'ancienneté", "Chapitre IV"],
+      "question": "Comment la CCN ALISFA valorise-t-elle l'ancienneté d'un salarié en CDI à temps plein ?",
+      "expected_sources_any": ["CCN ALISFA", "points d'ancienneté", "Chapitre V", "avenant 10-2022"],
       "expected_keywords_all": [],
       "expected_niveau": "vert",
       "forbidden_phrases": []

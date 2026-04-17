@@ -3056,7 +3056,7 @@ GUIDE_QUESTIONS = {
     "classification": {
         "label": "Classification & Rémunération",
         "questions": [
-            {"id": "objet", "label": "Quel est l'objet de votre question ?", "placeholder": "", "type": "select", "options": ["Pesée d'un emploi", "Contestation de classification", "Passage d'un salarié cadre", "Calcul de salaire", "Prime d'ancienneté", "Indemnité différentielle", "Valorisation d'expérience", "Autre"]},
+            {"id": "objet", "label": "Quel est l'objet de votre question ?", "placeholder": "", "type": "select", "options": ["Pesée d'un emploi", "Contestation de classification", "Passage d'un salarié cadre", "Calcul de salaire", "Points d'ancienneté", "Indemnité différentielle", "Valorisation d'expérience", "Autre"]},
             {"id": "poste", "label": "Quel est l'intitulé du poste concerné ?", "placeholder": "Ex : Directeur/trice de crèche, Animateur/trice...", "type": "text"},
             {"id": "pesee_actuelle", "label": "Quelle est la pesée actuelle (si connue) ?", "placeholder": "Ex : Pesée 43 — indiquer le détail des critères si possible", "type": "text"},
             {"id": "situation", "label": "Décrivez la situation", "placeholder": "Contexte, missions du poste, désaccord éventuel...", "type": "textarea"},
