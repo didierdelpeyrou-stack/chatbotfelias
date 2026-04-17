@@ -1,0 +1,1524 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "date_creation": "2026-04-11",
+    "description": "Base de connaissances Formation Professionnelle - Branche ALISFA & droit commun",
+    "source": "CCN ALISFA Chapitre VIII, Code du travail, Uniformation, fiches ELISFA, alisfa.fr (scraped 2026-04-11)",
+    "date_consolidation": "2026-04-15",
+    "enrichissements": [
+      {
+        "date": "2026-04-15",
+        "source": "Legifrance, travail-emploi.gouv.fr, France compétences, OPCO Cohésion sociale, Centre Inffo",
+        "ajouts": [
+          "oblig-04",
+          "plan-03",
+          "cpf-02",
+          "trans-03",
+          "alter-03",
+          "cep-06",
+          "acteur-04",
+          "cpnef-04",
+          "gpec-02",
+          "droit-03"
+        ],
+        "note": "Entretien pro + état 6 ans, PDC, CPF abondements, PTP, Pro-A, AFEST, Qualiopi, OPCO Cohésion sociale, apprentissage vs contrat pro, CPF sans accord employeur."
+      }
+    ]
+  },
+  "themes": [
+    {
+      "id": "obligations_employeur",
+      "label": "Obligations de l'employeur en formation",
+      "chapitre": "Obligations",
+      "articles": [
+        {
+          "id": "oblig-01",
+          "question_type": "Quelles sont les obligations de l'employeur en matière de formation ?",
+          "mots_cles": [
+            "obligation",
+            "employeur",
+            "formation",
+            "adapter",
+            "poste",
+            "maintien",
+            "employabilité",
+            "capacité",
+            "compétences",
+            "plan",
+            "obligation de former",
+            "responsabilité"
+          ],
+          "reponse": {
+            "synthese": "L'employeur a une triple obligation en matière de formation : adapter les salariés à leur poste de travail, veiller au maintien de leur capacité à occuper un emploi (employabilité), et assurer leur formation lorsque leur poste est modifié. Il doit également contribuer financièrement à la formation professionnelle.",
+            "minimum_legal": "L'article L6321-1 du Code du travail impose à l'employeur d'assurer l'adaptation des salariés à leur poste de travail et de veiller au maintien de leur capacité à occuper un emploi. Le non-respect de cette obligation peut entraîner des dommages-intérêts en cas de licenciement (obligation de formation = condition de validité du licenciement pour insuffisance). L'employeur doit aussi organiser l'entretien professionnel tous les 2 ans (art. L6315-1) et réaliser un bilan récapitulatif tous les 6 ans. En cas de manquement dans les entreprises de 50+ salariés : abondement correctif de 3 000 euros sur le CPF du salarié.",
+            "plus_formation": "Au-delà du minimum légal, l'employeur ALISFA peut : élaborer un Plan de développement des compétences ambitieux en consultant le CSE, proposer des actions de formation anticipant les évolutions du secteur (petite enfance, animation, médiation), mobiliser les financements Uniformation (OPCO de la branche), co-construire des parcours de formation avec les salariés lors des entretiens professionnels, et utiliser les dispositifs comme la Pro-A pour les reconversions internes. La CCN ALISFA prévoit un taux de contribution formation supérieur au minimum légal (2,3% contre 1% légal).",
+            "sources": [
+              "Art. L6321-1 Code du travail",
+              "Art. L6315-1 Code du travail",
+              "Art. L6331-1 Code du travail",
+              "Chapitre VIII CCN ALISFA"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            },
+            {
+              "titre": "Plan de développement des compétences",
+              "fichier": "09-PLAN-DEVELOPPEMENT-DES-COMPETENCES.pdf"
+            }
+          ]
+        },
+        {
+          "id": "oblig-02",
+          "question_type": "Comment fonctionne l'entretien professionnel ?",
+          "mots_cles": [
+            "entretien professionnel",
+            "entretien",
+            "2 ans",
+            "bilan",
+            "6 ans",
+            "perspectives",
+            "évolution",
+            "abondement",
+            "CPF",
+            "obligation entretien",
+            "passeport formation"
+          ],
+          "reponse": {
+            "synthese": "L'entretien professionnel est un rendez-vous obligatoire entre l'employeur et le salarié, consacré aux perspectives d'évolution professionnelle. Il a lieu tous les 2 ans, avec un bilan récapitulatif tous les 6 ans. Il ne doit pas être confondu avec l'entretien annuel d'évaluation.",
+            "minimum_legal": "**RÉFORME — Loi n°2025-989 du 24 octobre 2025 (transposition ANI) : l'entretien professionnel devient 'entretien de parcours professionnel', passant de 2 à 4 ans, et le bilan de 6 à 8 ans.**\n\nNouvelle fréquence : entretien tous les 4 ans (était 2 ans) + bilan récapitulatif tous les 8 ans (était 6 ans). Obligatoire quel que soit le contrat. Timing : dans la 1ère année d'embauche, puis tous les 4 ans, au retour de maternité/parental/sabbatique/longue maladie, en milieu de carrière, 2 ans avant 60 ans. Le bilan de 8 ans vérifie : au moins 1 action de formation réalisée, acquisition d'une certification, progression salariale ou professionnelle. Formalisation écrite obligatoire, copie au salarié. Sanction (50+ salariés) : 3 000 € d'abondement correctif CPF par salarié si entretien non réalisé ET pas de formation. Transition : les entreprises avec accord collectif doivent se conformer avant le 1er octobre 2026.",
+            "plus_formation": "La CCN ALISFA renforce le dispositif : l'entretien professionnel doit aborder les moyens d'accès au CEP, au CPF et à la VAE, la détermination des objectifs de professionnalisation, et les souhaits de formation du salarié. La branche recommande l'utilisation d'un passeport formation qui recense les compétences acquises. Uniformation propose des outils et modèles gratuits pour structurer l'entretien. C'est l'occasion de co-construire un vrai parcours de développement des compétences avec chaque salarié.",
+            "sources": [
+              "Art. L6315-1 Code du travail",
+              "Art. L6315-2 Code du travail",
+              "Art. 1 Chapitre VIII CCN ALISFA",
+              "Loi du 5 mars 2014",
+              "Loi du 5 septembre 2018"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Supplément de dispositions liées à la formation",
+              "fichier": "09_SUPPLEMENT_DE_DISPOSITIONS_LIES_A_LA_FORMATION_0323.pdf"
+            }
+          ]
+        },
+        {
+          "id": "oblig-03",
+          "question_type": "Quelle est la contribution formation dans la branche ALISFA ?",
+          "mots_cles": [
+            "contribution",
+            "cotisation",
+            "formation",
+            "taux",
+            "2.3%",
+            "1%",
+            "Uniformation",
+            "OPCO",
+            "financement",
+            "masse salariale",
+            "versement",
+            "participation"
+          ],
+          "reponse": {
+            "synthese": "Dans la branche ALISFA, le taux de contribution à la formation professionnelle est de 2,3% de la masse salariale brute, un taux supérieur au minimum légal. Ce versement est effectué auprès d'Uniformation, l'OPCO de la branche.",
+            "minimum_legal": "Depuis 2019, tout employeur verse une contribution unique via l'URSSAF : 0,55% de la masse salariale pour les entreprises de moins de 11 salariés, 1% pour celles de 11 salariés et plus (art. L6331-1 C. trav.). Cette contribution finance le CPF, le CPF de transition, le CEP, l'alternance et le plan de développement des compétences des TPE/PME. Contribution supplémentaire de 1% sur les salaires des CDD (financement du CPF-CDD).",
+            "plus_formation": "La branche ALISFA a négocié un taux conventionnel de 2,3% de la masse salariale brute, soit plus du double du minimum légal pour les structures de 11+ salariés. Ce taux se décompose en : 2,1% pour la formation professionnelle continue (versé à Uniformation), et 0,2% pour le soutien des dispositifs emploi-formation (art. 4.5 du préambule CCN). S'y ajoute 0,08% pour l'ACGFP (gestion du paritarisme). Ce sur-investissement permet d'accéder à des financements plus importants auprès d'Uniformation pour les plans de développement des compétences.",
+            "sources": [
+              "Art. L6331-1 Code du travail",
+              "Art. 2 Chapitre VIII CCN ALISFA",
+              "Art. 4.5 Préambule CCN ALISFA"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "oblig-04",
+          "question_type": "Quelles sont les règles de l'entretien professionnel et de l'état des lieux à 6 ans ?",
+          "mots_cles": [
+            "entretien professionnel",
+            "L6315-1",
+            "état des lieux",
+            "6 ans",
+            "abondement correctif",
+            "3000 euros",
+            "sanction",
+            "obligation employeur",
+            "évolution professionnelle",
+            "certification"
+          ],
+          "reponse": {
+            "synthese": "L'entretien professionnel est obligatoire tous les 2 ans pour tous les salariés, quel que soit leur contrat (CDI, CDD, temps partiel, apprentissage). Il est consacré exclusivement aux perspectives d'évolution professionnelle. Tous les 6 ans, un état des lieux récapitulatif vérifie que le salarié a bénéficié des entretiens et d'au moins une action de formation non obligatoire. À défaut, les entreprises de 50 salariés et plus doivent verser un abondement correctif de 3 000 € sur le CPF du salarié.",
+            "minimum_legal": "Article L6315-1 du Code du travail (créé par la loi du 5 mars 2014, réformé par la loi du 5 septembre 2018). Article L6315-1 II : état des lieux à 6 ans. Article L6323-13 : abondement correctif de 3 000 € (décret n° 2014-1120 du 2 octobre 2014, modifié par le décret n° 2018-1171). Sanction : jusqu'au 30 septembre 2021, l'employeur pouvait choisir entre l'ancien critère (2 des 3 items) et le nouveau (formation non obligatoire) ; depuis le 1er octobre 2021, seul le nouveau critère s'applique.",
+            "plus_formation": "La branche ALISFA recommande une trame écrite d'entretien professionnel signée des deux parties. Le Cepex (Certificat d'employeur public éligible) et les outils Uniformation/OPCO Cohésion sociale proposent des modèles d'entretien adaptés à la branche. Les aides de l'OPCO financent l'accompagnement RH des petites structures (< 50 salariés) pour sécuriser leur dispositif. La loi n° 2018-771 a distingué les formations obligatoires (sécurité, adaptation au poste) — qui ne comptent PAS pour l'état des lieux — des formations non obligatoires.",
+            "sources": [
+              "Art. L6315-1 C. trav.",
+              "Art. L6323-13 C. trav.",
+              "Loi n° 2014-288 du 5 mars 2014",
+              "Loi n° 2018-771 du 5 septembre 2018 (Avenir professionnel)",
+              "Décret n° 2018-1171 du 18 décembre 2018",
+              "OPCO Cohésion sociale — guides entretien professionnel"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "plan_competences",
+      "label": "Plan de développement des compétences",
+      "chapitre": "Dispositifs employeur",
+      "articles": [
+        {
+          "id": "plan-01",
+          "question_type": "Comment mettre en place un plan de développement des compétences ?",
+          "mots_cles": [
+            "plan",
+            "développement",
+            "compétences",
+            "plan de formation",
+            "actions",
+            "formation",
+            "CSE",
+            "consultation",
+            "catégories",
+            "adaptation",
+            "maintien",
+            "élaboration"
+          ],
+          "reponse": {
+            "synthese": "Le plan de développement des compétences (ex plan de formation) est l'ensemble des actions de formation décidées par l'employeur pour ses salariés. Il comprend les actions d'adaptation au poste et celles liées au développement des compétences. Sa mise en place nécessite la consultation du CSE.",
+            "minimum_legal": "L'employeur décide librement des actions de formation inscrites au plan (art. L6312-1 C. trav.). Il doit consulter le CSE sur le plan de développement des compétences (consultation annuelle sur la politique sociale). Le plan distingue 2 catégories : les actions d'adaptation au poste/maintien dans l'emploi (obligatoires, pendant le temps de travail, rémunération maintenue) et les actions de développement des compétences (peuvent se dérouler hors temps de travail dans la limite de 30h/an ou 2% du forfait, avec accord du salarié). Le salarié ne peut pas refuser une formation d'adaptation au poste.",
+            "plus_formation": "**Financement Uniformation du PDC :**\n\n**Structures < 50 salariés** : 1 demande d'aide/an, max 5 000 € ; pas de plafond pour formations certifiantes RNCP ; allocation remplacement de 13 €/h pour structures < 11 salariés (avec remplacement obligatoire). Uniformation prend en charge coûts pédagogiques + rémunération + frais annexes.\n\n**Structures ≥ 50 salariés (ALISFA)** : budget ouvert le 15 avril 2026 ; 80% des contributions conventionnelles nettes allouées ; couverture complète (pédagogie, frais annexes, rémunération) ; pas de plafond par demande ; nombre de demandes illimité.\n\n**Services gratuits Uniformation** : accompagnement élaboration du plan, diagnostic RH (Zoom RH pour < 250 salariés), formations clés en main (< 50 salariés), Matinales RH (50+ salariés). La branche ALISFA encourage les formations mutualisées.",
+            "sources": [
+              "Art. L6312-1 Code du travail",
+              "Art. L6321-1 Code du travail",
+              "Art. L2312-24 Code du travail",
+              "Chapitre VIII CCN ALISFA",
+              "uniformation.fr/entreprise/formation/guide-des-dispositifs"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Plan de développement des compétences",
+              "fichier": "09-PLAN-DEVELOPPEMENT-DES-COMPETENCES.pdf"
+            }
+          ]
+        },
+        {
+          "id": "plan-02",
+          "question_type": "Quels sont les financements disponibles pour la formation chez Uniformation ?",
+          "mots_cles": [
+            "financement",
+            "Uniformation",
+            "OPCO",
+            "prise en charge",
+            "coût",
+            "pédagogique",
+            "remboursement",
+            "aide",
+            "subvention",
+            "budget",
+            "critères",
+            "demande"
+          ],
+          "reponse": {
+            "synthese": "Uniformation, l'OPCO de la branche ALISFA, finance les actions de formation des structures adhérentes. Les prises en charge varient selon la taille de la structure, le type d'action et les priorités de branche. Les structures de moins de 50 salariés bénéficient des financements les plus avantageux.",
+            "minimum_legal": "Tout employeur verse sa contribution formation à l'URSSAF qui la reverse à France Compétences, laquelle redistribue aux OPCO. Les OPCO financent obligatoirement : le plan de développement des compétences des entreprises de moins de 50 salariés, les contrats d'apprentissage et de professionnalisation (niveaux de prise en charge fixés par les branches), et le CPF de transition via les CPIR (Transitions Pro).",
+            "plus_formation": "**Financements Uniformation détaillés pour ALISFA :**\n\n**PDC < 50 salariés** : 1 aide/an, max 5 000 € ; pas de plafond pour RNCP ; allocation remplacement 13 €/h (< 11 sal.)\n**PDC ≥ 50 salariés** : budget ouvert 15/04/2026, 80% des contributions nettes, couverture complète\n**Apprentissage** : forfait NPEC annuel proratisé + aides employeur (2 000 € à 5 000 € selon niveau)\n**Professionnalisation** : 18 €/h ALISFA (21 € handicap) ; coûts péda + rémunération + transport\n**Tutorat** : 230-345 €/mois pendant 6 mois + formation tuteur 15 €/h (max 40h)\n**PREC** (ex Pro-A) : en cours de définition\n\n**Services gratuits** : Zoom RH (diagnostic < 250 sal.), Zoom Compétences (> 300 sal.), Matinales RH (50+ sal.), formations clés en main (< 50 sal.), conseillers régionaux dédiés.\n\n**Contributions volontaires** : 3 types (standard, co-financement, accompagnement). Frais de gestion : 6%. Budgets individuels avec report possible.\n\n**Financements exceptionnels** : PIC IAE, co-financement CNSA (maintien à domicile), inclusion numérique.",
+            "sources": [
+              "Art. L6332-1 Code du travail",
+              "Art. L6332-14 Code du travail",
+              "uniformation.fr/entreprise/formation/guide-des-dispositifs",
+              "uniformation.fr/entreprise/adhesion-et-contributions/contributions"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "plan-03",
+          "question_type": "Comment construire et financer le plan de développement des compétences ?",
+          "mots_cles": [
+            "plan de développement des compétences",
+            "PDC",
+            "formations obligatoires",
+            "formations non obligatoires",
+            "L6321-1",
+            "L6321-2",
+            "temps de travail",
+            "OPCO",
+            "consultation CSE",
+            "catalogue formation"
+          ],
+          "reponse": {
+            "synthese": "Le plan de développement des compétences (PDC, anciennement plan de formation) regroupe toutes les actions de formation décidées par l'employeur pour ses salariés. Il distingue deux catégories d'actions : les formations obligatoires (découlant d'une disposition légale ou conventionnelle, sécurité, habilitations) qui se déroulent sur le temps de travail avec maintien de rémunération, et les formations non obligatoires qui peuvent, par accord individuel écrit, se dérouler en tout ou partie hors temps de travail (dans la limite de 30 h/an ou 2 % du forfait jours).",
+            "minimum_legal": "Articles L6321-1 à L6321-13 du Code du travail. Article L6321-1 : obligation d'adaptation au poste et de maintien de l'employabilité. Article L6321-2 : formations obligatoires. Article L6321-6 : formations non obligatoires (accord écrit individuel). Article L2312-24 : consultation annuelle du CSE sur la politique sociale, qui inclut le PDC. Financement : contribution unique à la formation professionnelle et à l'alternance (CUFPA) collectée par l'URSSAF (art. L6131-1 et s.), redistribuée via France compétences aux OPCO.",
+            "plus_formation": "Pour les structures ALISFA < 50 salariés, l'OPCO Cohésion sociale (ex-Uniformation) prend en charge une partie importante du PDC (coûts pédagogiques, rémunération, frais annexes) dans le cadre des enveloppes mutualisées. Les entreprises ≥ 50 salariés financent leur PDC sur leur propre budget mais bénéficient de cofinancements sur projets (abondements CPF, POE, projets collectifs). La CPNEF ALISFA définit chaque année des priorités de branche (publics prioritaires, certifications cibles) qui ouvrent des financements renforcés. Consultation CSE obligatoire ≥ 50 salariés.",
+            "sources": [
+              "Art. L6321-1 à L6321-13 C. trav.",
+              "Art. L6131-1 et s. C. trav. (CUFPA)",
+              "Loi n° 2018-771 du 5 septembre 2018 (Avenir professionnel)",
+              "OPCO Cohésion sociale — guide PDC",
+              "France compétences — Répertoire National des Certifications Professionnelles"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "cpf",
+      "label": "Compte Personnel de Formation (CPF)",
+      "chapitre": "Dispositifs salarié",
+      "articles": [
+        {
+          "id": "cpf-01",
+          "question_type": "Comment fonctionne le CPF (Compte Personnel de Formation) ?",
+          "mots_cles": [
+            "CPF",
+            "compte personnel",
+            "formation",
+            "euros",
+            "500",
+            "heures",
+            "moncompteformation",
+            "application",
+            "droits",
+            "crédit",
+            "alimentation",
+            "solde"
+          ],
+          "reponse": {
+            "synthese": "Le CPF permet à tout actif d'acquérir des droits à la formation, mobilisables tout au long de sa vie professionnelle. Depuis 2019, il est alimenté en euros (500 euros/an, plafonné à 5 000 euros). Le salarié choisit librement sa formation via l'application Mon Compte Formation.",
+            "minimum_legal": "Le CPF est alimenté automatiquement à hauteur de 500 €/an pour un salarié à temps plein (800 €/an pour les salariés peu qualifiés, niveau < CAP/BEP). Plafond : 5 000 € (8 000 € pour les peu qualifiés). Les droits sont acquis au prorata pour les temps partiels ≥ 50% (art. L6323-11 C. trav.). **Reste à charge obligatoire : 103,20 € en 2026** (était 100 € en mai 2024, puis 102,23 € en 2025, indexé annuellement). Exonérés : demandeurs d'emploi, abondements employeur, travailleurs handicapés, victimes AT/MP (incapacité ≥ 10%), utilisation C2P. Le CPF finance : formations RNCP, bilans de compétences (1 600 € max, 1 tous les 5 ans), VAE, permis de conduire (900 € max), formations bénévolat, CléA. **Plafonds 2026 par type** : 1 500 € Répertoire spécifique, 1 600 € bilan de compétences, 900 € permis de conduire (loi de finances 2026, art. 203). Utilisation sur moncompteformation.gouv.fr. Pendant le temps de travail : accord employeur nécessaire (préavis 60 jours si < 6 mois, 120 jours si > 6 mois ; silence de 30 jours = accord). Hors temps de travail : libre, sans accord employeur.",
+            "plus_formation": "L'employeur peut abonder le CPF pour co-financer des formations plus coûteuses. Aucune branche couverte par Uniformation n'a mis en place d'abondement supplémentaire sauf la Mutualité (jusqu'à 3 000 € max pour certains publics). L'abondement correctif de 3 000 € est imposé si l'employeur (50+ salariés) ne respecte pas les entretiens professionnels. La branche ALISFA encourage l'information des salariés sur le CPF lors de l'entretien professionnel. Uniformation accompagne les projets CPF co-construits employeur/salarié. Le CPF peut se combiner avec le plan de développement des compétences pour des formations plus longues. Conseil : orientez vos salariés vers le CEP (gratuit) pour les aider à construire leur projet CPF.",
+            "sources": [
+              "Art. L6323-1 à L6323-42 Code du travail",
+              "Décret 2024-394 du 29 avril 2024 (reste à charge 100€)",
+              "Décret 2 avril 2026 (reste à charge 150€)",
+              "Art. R6323-1 Code du travail",
+              "uniformation.fr/particulier/salaries/formation-et-financements/compte-personnel-de-formation-cpf"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Compte personnel de formation",
+              "fichier": "09_COMPTE_PROFESSIONNEL_DE_FORMATION_0620.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cpf-02",
+          "question_type": "Comment fonctionnent les abondements du CPF et le reste à charge de 100 € ?",
+          "mots_cles": [
+            "CPF",
+            "abondement",
+            "L6323-4",
+            "L6323-14",
+            "reste à charge",
+            "participation 100 euros",
+            "forfait",
+            "co-construction",
+            "employeur abondement",
+            "moncompteformation",
+            "loi finances 2024"
+          ],
+          "reponse": {
+            "synthese": "Le Compte Personnel de Formation (CPF) est alimenté annuellement de 500 € (800 € pour les peu qualifiés) avec un plafond de 5 000 € (8 000 € pour les peu qualifiés). Quand le solde du CPF est insuffisant pour financer une formation, des abondements complémentaires peuvent provenir du salarié, de l'employeur, de l'OPCO, de France Travail, de la Région ou du dispositif de branche. Depuis le 2 mai 2024, une participation forfaitaire du salarié de 102,23 € (2026) s'applique à toute inscription (hors salariés demandeurs d'emploi et hors abondement employeur).",
+            "minimum_legal": "Articles L6323-1 à L6323-23 du Code du travail. Article L6323-4 : alimentation annuelle du CPF. Article L6323-11 : plafond. Article L6323-14 : abondements complémentaires. Article L6323-7 II (loi de finances 2024 n° 2023-1322 du 29 décembre 2023, art. 212) : participation obligatoire du titulaire indexée sur le SMIC, sauf exceptions. Décret n° 2024-394 du 29 avril 2024 (participation forfaitaire). Article L6323-4 IV : possibilité d'abondement volontaire de l'employeur via le portail EDEF.",
+            "plus_formation": "Co-construction CPF : l'employeur peut abonder le CPF d'un salarié via le portail EDEF (Espace des employeurs et financeurs) pour financer une formation stratégique pour l'entreprise, ce qui exonère le salarié du reste à charge. Dans la branche ALISFA, l'OPCO Cohésion sociale dispose d'une enveloppe annuelle pour abonder les CPF sur les certifications de branche prioritaires (Cepex, CQP Animateur périscolaire, CAP AEPE...). Pour bénéficier d'une formation CPF sur le temps de travail, l'accord de l'employeur est requis si elle se déroule pendant les heures habituelles.",
+            "sources": [
+              "Art. L6323-1 à L6323-23 C. trav.",
+              "Loi n° 2023-1322 du 29 décembre 2023 (LF 2024), art. 212",
+              "Décret n° 2024-394 du 29 avril 2024",
+              "Portail Mon compte formation — moncompteformation.gouv.fr",
+              "OPCO Cohésion sociale — abondements CPF"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "transition_pro",
+      "label": "Transition professionnelle",
+      "chapitre": "Reconversion",
+      "articles": [
+        {
+          "id": "trans-01",
+          "question_type": "Comment fonctionne le CPF de transition professionnelle (ex-CIF) ?",
+          "mots_cles": [
+            "transition",
+            "professionnelle",
+            "CPF transition",
+            "CIF",
+            "reconversion",
+            "changement",
+            "métier",
+            "Transitions Pro",
+            "congé",
+            "projet",
+            "CPIR"
+          ],
+          "reponse": {
+            "synthese": "Le CPF de transition professionnelle (ex-CIF) permet aux salariés de financer une formation certifiante pour changer de métier ou de profession. Le dossier est instruit par Transitions Pro (CPIR). La rémunération est maintenue pendant la formation.",
+            "minimum_legal": "Conditions d'éligibilité CDI : 24 mois d'ancienneté (discontinue possible) dont 12 dans l'entreprise. CDD : 24 mois d'activité sur 5 ans dont 4 mois de CDD sur 12 mois ; formation débute dans les 6 mois après fin du CDD. Exemptions : travailleurs handicapés, licenciés économiques (pas d'ancienneté requise). La formation doit être certifiante (RNCP ou Répertoire spécifique). Procédure : demande écrite à l'employeur (120 jours avant si formation ≥ 6 mois, 60 jours sinon ; silence 30 jours = accord). L'employeur peut reporter de 9 mois max. Dossier auprès de Transitions Pro (CPIR). **Rémunération** : salaire < 2 SMIC = maintien à **100%** ; salaire > 2 SMIC, formation ≤ 1 an = **90%** ; salaire > 2 SMIC, formation > 1 an = **90%** la 1ère année puis **60%** (plancher à 2 SMIC). Coût moyen de référence : ~37 792 € (2025).",
+            "plus_formation": "C'est un dispositif puissant pour les salariés ALISFA souhaitant évoluer vers d'autres métiers ou se qualifier davantage. Le CEP (Conseil en Évolution Professionnelle, gratuit) accompagne le salarié dans la construction de son projet avant le dépôt du dossier. L'employeur peut soutenir le projet en facilitant les démarches et en participant au co-financement. La branche ALISFA, via ses partenaires, peut orienter les salariés vers les formations les plus adaptées au secteur.",
+            "sources": [
+              "Art. L6323-17-1 à L6323-17-6 Code du travail",
+              "Art. D6323-9 Code du travail",
+              "Art. R6323-10 à R6323-16 Code du travail"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "CPF de transition professionnelle",
+              "fichier": "09_LE_CPF_DE_TRANSITION_PROFESSIONNELLE_0419.pdf"
+            }
+          ]
+        },
+        {
+          "id": "trans-02",
+          "question_type": "Comment fonctionne la Pro-A et le nouveau dispositif PREC ?",
+          "mots_cles": [
+            "Pro-A",
+            "PREC",
+            "reconversion",
+            "promotion",
+            "alternance",
+            "Pro A",
+            "qualification",
+            "formation alternée",
+            "CDI",
+            "montée en compétences",
+            "période de reconversion",
+            "2026"
+          ],
+          "reponse": {
+            "synthese": "La Pro-A (reconversion ou promotion par alternance) est remplacée depuis le 1er janvier 2026 par le PREC (Période de Reconversion). Ce nouveau dispositif facilite la reconversion professionnelle des salariés en CDI par le développement de nouvelles compétences, via formation et expérience en entreprise.",
+            "minimum_legal": "**Pro-A (en cours de remplacement)** : Conditions : CDI, qualification ≤ Bac+2. Financement : forfait 15 €/h, plafond 8 000 € par contrat. Certifications éligibles définies par les partenaires sociaux de chaque branche (avenants n°03-20 et 03-22 pour ALISFA).\n\n**PREC - Période de Reconversion (depuis le 1er février 2026, décrets du 28 janvier 2026)** : remplace la Pro-A et Transco. Initiative employeur ou salarié (accord écrit obligatoire). Permet d'acquérir une qualification via mobilité interne ou externe. Durée max 12 mois, formation 150 à 450 heures (extensible à 2 100h sur 36 mois par accord collectif). Certifications visées : RNCP, CQP, CQPI, CléA. Financement : OPCO à la demande de l'employeur + mobilisation possible du CPF par le salarié. Art. L6324-1 et suivants C. trav. (nouvelle rédaction loi n°2025-989).",
+            "plus_formation": "La transition Pro-A → PREC est une opportunité pour la branche ALISFA : les certifications visées restent les mêmes (animation, petite enfance, direction). Uniformation accompagnera les structures dans la mise en place du PREC. En attendant la finalisation du PREC, les Pro-A en cours continuent jusqu'à leur terme. Certifications ALISFA éligibles : CPJEPS, BPJEPS, DEJEPS, DESJEPS, DE EJE, CAFERUIS, CAFDES, CAP AEPE. L'employeur peut désigner un tuteur formé (financement tutorat Uniformation : 230 €/mois pendant 6 mois, 345 €/mois pour les travailleurs handicapés). C'est un excellent outil pour fidéliser les salariés tout en les qualifiant.",
+            "sources": [
+              "Art. L6324-1 à L6324-10 Code du travail",
+              "Avenant n°03-22 du 24 mai 2022 ALISFA",
+              "Avenant n°03-20 du 22 janvier 2020 ALISFA",
+              "Loi de financement 2026 (création PREC)",
+              "uniformation.fr/particulier/salaries/formation-et-financements/pro/caracteristiques"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Reconversion ou promotion par alternance Pro-A",
+              "fichier": "09_LA_RECONVERSION_OU_LA_PROMO_PAR_ALTERNANCE_PRO_A_0619.pdf"
+            }
+          ]
+        },
+        {
+          "id": "trans-03",
+          "question_type": "Qu'est-ce que le Projet de Transition Professionnelle (PTP / ex-CIF) ?",
+          "mots_cles": [
+            "PTP",
+            "Projet transition professionnelle",
+            "CIF",
+            "L6323-17-1",
+            "changement de métier",
+            "reconversion",
+            "transitions pro",
+            "AT Pro",
+            "commission paritaire",
+            "24 mois",
+            "salaire maintenu"
+          ],
+          "reponse": {
+            "synthese": "Le Projet de Transition Professionnelle (PTP), créé par la loi du 5 septembre 2018, remplace l'ancien CIF (Congé Individuel de Formation). Il permet au salarié de s'absenter de son poste pour suivre une formation certifiante en vue de changer de métier ou de profession. Le PTP est mobilisé via le CPF, avec prise en charge du salaire et des frais de formation par l'association Transitions Pro (AT Pro) de la région du salarié, sous réserve de validation du projet par la commission paritaire régionale.",
+            "minimum_legal": "Articles L6323-17-1 à L6323-17-6 du Code du travail. Article L6323-17-1 : PTP ouvert aux salariés justifiant de 24 mois d'activité salariée (consécutifs ou non) dont 12 mois dans l'entreprise actuelle. Article L6323-17-2 : autorisation d'absence et procédure. Article L6323-17-4 : prise en charge par AT Pro (plafond = 2 SMIC pour la rémunération). Décret n° 2018-1332 du 28 décembre 2018. La demande d'absence doit être adressée à l'employeur 120 jours avant le début si absence > 6 mois, 60 jours sinon.",
+            "plus_formation": "Dans la branche ALISFA, le PTP est notamment utilisé pour les reconversions vers les métiers en tension (petite enfance → animation, ou inversement) ou vers des métiers porteurs (coordination, direction). L'OPCO Cohésion sociale et les structures AT Pro (15 associations régionales depuis 2020, sous France compétences) accompagnent le salarié dans la construction du dossier. Le salarié conserve son contrat de travail, sa rémunération (maintien total jusqu'à 2 SMIC, puis dégressif) et son ancienneté. À l'issue du PTP, il retrouve son poste ou un poste équivalent, sauf s'il démissionne.",
+            "sources": [
+              "Art. L6323-17-1 à L6323-17-6 C. trav.",
+              "Loi n° 2018-771 du 5 septembre 2018",
+              "Décret n° 2018-1332 du 28 décembre 2018",
+              "Transitions Pro — portail national",
+              "France compétences — PTP"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "alternance",
+      "label": "Alternance (apprentissage & professionnalisation)",
+      "chapitre": "Contrats en alternance",
+      "articles": [
+        {
+          "id": "alter-01",
+          "question_type": "Comment fonctionne le contrat d'apprentissage ?",
+          "mots_cles": [
+            "apprentissage",
+            "apprenti",
+            "contrat",
+            "alternance",
+            "jeune",
+            "CFA",
+            "maître",
+            "diplôme",
+            "formation initiale",
+            "aide employeur",
+            "âge"
+          ],
+          "reponse": {
+            "synthese": "Le contrat d'apprentissage est un contrat en alternance permettant à un jeune de 16 à 29 ans d'obtenir un diplôme tout en travaillant. Il alterne formation en CFA et pratique en entreprise. L'employeur bénéficie d'aides financières significatives.",
+            "minimum_legal": "Bénéficiaires : jeunes de 16 à 29 ans (sans limite pour travailleurs handicapés et créateurs d'entreprise). Durée : 6 mois à 3 ans. Rémunération : 27% à 100% du SMIC selon l'âge/année. Cerfa enregistré par l'OPCO. Maître d'apprentissage obligatoire.\n\n**Aides employeur 2026 (< 250 salariés)** : Niveau 3 CAP = 5 000 € ; Niveau 4 Bac = 5 000 € ; Niveau 5 Bac+2 = 4 500 € ; Niveau 6 Bac+3 = 2 000 € ; Niveau 7 Bac+5 = 2 000 €. Structures 250+ salariés : réduction de 50-75%. Travailleurs handicapés : jusqu'à 6 000 €.\n\n**Nouvelles règles au 1er juillet 2025** : contribution employeur obligatoire de 750 € pour certifications Bac+3 et plus (1ère année) ; proratisation journalière des versements OPCO ; réduction de 20% pour formations à 80%+ en distanciel ; calendrier de versement 40%/30%/20%/10%. Exonération charges sociales : jusqu'à 50% du SMIC (contrats à compter du 1er mars 2025).",
+            "plus_formation": "L'apprentissage est un levier majeur pour le secteur ALISFA : formation d'animateurs, EJE, directeurs. **Financement Uniformation** : forfait annuel basé sur les niveaux fixés par la branche (NPEC), proratisé selon la durée du contrat. La CPNEF ALISFA s'est mobilisée contre la baisse des taux de prise en charge des contrats d'apprentissage proposée par France Compétences pour les formations d'animateurs et auxiliaires de puériculture.\n\n**Tutorat** : maître d'apprentissage formé et financé par Uniformation. AEFMA : 230 €/mois pendant 6 mois (travailleurs handicapés). Formation tuteur : jusqu'à 15 €/h, max 40h.\n\nLa CCN ALISFA autorise une durée de contrat allant jusqu'à 3 ans. L'apprenti est intégré dans la classification conventionnelle à l'issue de son contrat.",
+            "sources": [
+              "Art. L6221-1 à L6227-12 Code du travail",
+              "Art. D6222-26 Code du travail",
+              "Décret aide apprentissage 2026",
+              "uniformation.fr/entreprise/recrutement-en-alternance/contrat-dapprentissage/financement"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Contrat d'apprentissage",
+              "fichier": "03_CONTRAT_APPRENTISSAGE_0824.pdf"
+            }
+          ]
+        },
+        {
+          "id": "alter-02",
+          "question_type": "Comment fonctionne le contrat de professionnalisation ?",
+          "mots_cles": [
+            "professionnalisation",
+            "contrat pro",
+            "alternance",
+            "qualification",
+            "insertion",
+            "demandeur emploi",
+            "formation continue",
+            "adulte"
+          ],
+          "reponse": {
+            "synthese": "Le contrat de professionnalisation est un contrat en alternance qui permet d'acquérir une qualification professionnelle reconnue. Il s'adresse aux jeunes de 16-25 ans et aux demandeurs d'emploi de 26 ans et plus. Il peut être en CDD ou CDI.",
+            "minimum_legal": "Bénéficiaires : jeunes de 16-25 ans, demandeurs d'emploi de 26+, bénéficiaires RSA/ASS/AAH (art. L6325-1). Durée : 6 à 12 mois (extensible par branche). Rémunération : 55% à 100% du SMIC selon âge/qualification. Formation : 15 à 25% du contrat (min 150h). Financement standard : 15 €/h. Taux majoré : 18 €/h pour GEIQ ou travailleurs handicapés. Note : l'aide exceptionnelle de 6 000 € à l'embauche a été supprimée pour les contrats conclus après le 1er mai 2024.",
+            "plus_formation": "**Taux ALISFA spécifiques** : 18 €/h (21 €/h pour travailleurs handicapés) — supérieur au taux standard de 15 €/h. La CCN ALISFA autorise le contrat de professionnalisation jusqu'à 24 mois. Coûts couverts : pédagogie, rémunération, transport/hébergement.\n\n**Comparatif branches Uniformation** : ALISFA 18 €/h | Éclat 20 €/h (25 €/h diplômes CPJEPS/BPJEPS/DJEPS/DESJEPS) | ACI 25 €/h | TSF 21 €/h | Habitat 25 €/h.\n\n**Tutorat financé** : AEFT 230 €/mois pendant 6 mois (345 €/mois pour travailleurs handicapés). Formation tuteur : jusqu'à 15 €/h, max 40h.\n\nLe contrat pro est idéal pour former des profils en reconversion vers les métiers du lien social. Possibilité de prolongation jusqu'à 36 mois pour les publics prioritaires.",
+            "sources": [
+              "Art. L6325-1 à L6325-24 Code du travail",
+              "Chapitre VIII CCN ALISFA",
+              "uniformation.fr/entreprise/recrutement-en-alternance/contrat-de-professionnalisation/financement"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Contrat de professionnalisation",
+              "fichier": "03_CONTRAT_DE_PROFESSIONNALISATION_0922.pdf"
+            }
+          ]
+        },
+        {
+          "id": "alter-03",
+          "question_type": "Quelles sont les différences entre contrat d'apprentissage et contrat de professionnalisation ?",
+          "mots_cles": [
+            "apprentissage",
+            "contrat professionnalisation",
+            "L6221-1",
+            "L6325-1",
+            "aide à l'embauche",
+            "aide 6000 euros",
+            "CFA",
+            "OPCO",
+            "NPEC",
+            "niveau de prise en charge",
+            "jeune",
+            "16-29 ans"
+          ],
+          "reponse": {
+            "synthese": "Deux contrats en alternance coexistent : le contrat d'apprentissage (formation initiale, certificat/diplôme RNCP, 16-29 ans hors dérogations, régime social et fiscal très avantageux) et le contrat de professionnalisation (formation continue, 16-25 ans ou demandeur d'emploi de 26 ans et +, diplôme RNCP, CQP de branche ou bloc de compétences). L'apprentissage bénéficie depuis 2018 d'aides uniques à l'employeur, d'un financement au contrat via les OPCO selon les Niveaux de Prise en Charge (NPEC) fixés par France compétences.",
+            "minimum_legal": "APPRENTISSAGE : Articles L6221-1 à L6227-12 du Code du travail. Aide unique à l'apprentissage L6243-1 et s. : 6 000 € la première année pour les contrats signés en 2024-2025 (décret n° 2023-1354 du 29 décembre 2023, prolongé par décret annuel). CONTRAT PRO : Articles L6325-1 à L6325-24 C. trav. Article L6325-5 : durée 6 à 12 mois (24 mois pour CQP ou publics prioritaires). Article L6332-14 : prise en charge par l'OPCO selon les forfaits définis par la branche. Article L6211-1 : l'apprenti est salarié à part entière.",
+            "plus_formation": "Dans la branche ALISFA, le contrat d'apprentissage est privilégié pour préparer un CAP AEPE, un BPJEPS, un Cepex ou un DEJEPS (via un CFA partenaire de l'OPCO Cohésion sociale). Le contrat de professionnalisation est souvent utilisé pour des CQP de branche (CQP Animateur périscolaire). L'OPCO publie chaque année les NPEC applicables par certification. Les petites structures (< 11 salariés) bénéficient en outre d'exonérations de cotisations salariales sur la rémunération de l'apprenti (art. L6243-2), et les apprentis sont exclus du décompte de l'effectif (sauf AT/MP).",
+            "sources": [
+              "Art. L6221-1 à L6227-12 C. trav. (apprentissage)",
+              "Art. L6325-1 à L6325-24 C. trav. (contrat pro)",
+              "Décret n° 2023-1354 du 29 décembre 2023 (aide 6000 €)",
+              "France compétences — NPEC publiés",
+              "OPCO Cohésion sociale — offre alternance ALISFA"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "vae_bilan",
+      "label": "VAE & Bilan de compétences",
+      "chapitre": "Validation & bilan",
+      "articles": [
+        {
+          "id": "vae-01",
+          "question_type": "Comment fonctionne la VAE (Validation des Acquis de l'Expérience) ?",
+          "mots_cles": [
+            "VAE",
+            "validation",
+            "acquis",
+            "expérience",
+            "diplôme",
+            "certification",
+            "dossier",
+            "jury",
+            "France VAE",
+            "parcours",
+            "accompagnement"
+          ],
+          "reponse": {
+            "synthese": "La VAE permet d'obtenir un diplôme ou une certification en faisant reconnaître son expérience professionnelle. Depuis la réforme de 2022, le parcours a été simplifié : plus de condition de durée minimale d'expérience, et un accompagnement renforcé via France VAE.",
+            "minimum_legal": "Depuis la loi du 21 décembre 2022 (loi Marché du travail), toute personne peut faire valider les acquis de son expérience pour obtenir une certification RNCP, sans condition de durée minimale d'expérience (suppression de la condition de 1 an). Le parcours passe par la plateforme France VAE (francevae.fr). L'accompagnement est financé et comprend : positionnement, accompagnement à la rédaction du dossier, préparation au jury. Le salarié a droit à un congé VAE de 48h (art. L6422-1 C. trav.). La VAE peut être financée par le CPF.",
+            "plus_formation": "La VAE est particulièrement pertinente dans le secteur ALISFA où de nombreux salariés ont acquis des compétences par l'expérience sans diplôme formel : animateurs, agents d'accueil petite enfance, agents d'entretien. Uniformation peut financer l'accompagnement VAE dans le cadre du plan de développement des compétences. L'employeur peut proposer une VAE collective (plusieurs salariés sur le même diplôme) pour faciliter la démarche. La CCN ALISFA valorise les diplômes dans la classification : une VAE réussie peut entraîner un repositionnement et une revalorisation salariale.",
+            "sources": [
+              "Art. L6411-1 à L6423-3 Code du travail",
+              "Loi n°2022-1598 du 21 décembre 2022",
+              "francevae.fr"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "vae-02",
+          "question_type": "Comment fonctionne le bilan de compétences ?",
+          "mots_cles": [
+            "bilan",
+            "compétences",
+            "bilan de compétences",
+            "projet",
+            "professionnel",
+            "analyse",
+            "aptitudes",
+            "motivation",
+            "reconversion",
+            "évolution"
+          ],
+          "reponse": {
+            "synthese": "Le bilan de compétences permet d'analyser ses compétences professionnelles et personnelles, ses aptitudes et motivations, pour définir un projet professionnel ou de formation. Il dure 24h maximum réparties sur plusieurs semaines.",
+            "minimum_legal": "Le bilan de compétences peut être réalisé à l'initiative du salarié (CPF, hors temps de travail) ou de l'employeur (plan, avec accord du salarié). Durée : **24h maximum** (art. R6313-4 C. trav.), réparties sur 2 à 3 mois. Durée minimale d'accompagnement effectif : **13h** (3 phases obligatoires). Il comprend 3 phases : préliminaire (analyse de la demande), investigation (analyse des compétences, aptitudes, motivations), conclusion (projet professionnel et plan d'action, document de synthèse remis). Le prestataire doit être certifié Qualiopi. Coût moyen : 1 500 à 3 000 €. **Financement CPF** : plafond 1 600 € + reste à charge 103,20 € (2026). Condition : pas de bilan financé par des fonds publics au cours des 5 années précédentes. Confidentialité : les résultats ne peuvent être communiqués à des tiers sans consentement du salarié. Rémunération maintenue si le bilan se déroule pendant le temps de travail.",
+            "plus_formation": "Le bilan de compétences peut être proposé par l'employeur ALISFA dans le cadre du plan de développement des compétences (avec accord du salarié) et financé par Uniformation. C'est un excellent outil à proposer aux salariés qui s'interrogent sur leur évolution, avant un entretien professionnel. Pour les salariés en difficulté ou en questionnement, le bilan de compétences est souvent le premier pas vers une reconversion réussie (puis CPF de transition ou Pro-A). Le CEP (gratuit) peut être une première étape avant de s'engager dans un bilan.",
+            "sources": [
+              "Art. L6313-1 Code du travail",
+              "Art. R6313-4 à R6313-8 Code du travail",
+              "Art. L6323-6 Code du travail"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "cep_afest",
+      "label": "CEP, AFEST & autres dispositifs",
+      "chapitre": "Autres dispositifs",
+      "articles": [
+        {
+          "id": "cep-01",
+          "question_type": "Qu'est-ce que le CEP (Conseil en Évolution Professionnelle) ?",
+          "mots_cles": [
+            "CEP",
+            "conseil",
+            "évolution professionnelle",
+            "accompagnement",
+            "gratuit",
+            "orientation",
+            "projet",
+            "parcours"
+          ],
+          "reponse": {
+            "synthese": "Le CEP est un dispositif d'accompagnement gratuit et personnalisé qui permet à tout actif de faire le point sur sa situation professionnelle et d'élaborer un projet d'évolution. Il est délivré par des opérateurs agréés (France Travail, APEC, Cap Emploi, ou opérateurs régionaux pour les salariés).",
+            "minimum_legal": "Tout actif (salarié, indépendant, demandeur d'emploi) peut bénéficier gratuitement d'un CEP (art. L6111-6 C. trav.). Pour les salariés, le CEP est délivré par des opérateurs régionaux désignés par France Compétences. Le CEP comprend : un accueil individualisé, un conseil personnalisé, et un accompagnement à la mise en œuvre du projet. L'employeur doit informer les salariés de l'existence du CEP lors de l'entretien professionnel. Le CEP peut se faire sur le temps de travail avec accord de l'employeur, ou hors temps de travail.",
+            "plus_formation": "Le CEP est la porte d'entrée idéale pour tout salarié ALISFA qui s'interroge sur son avenir professionnel. Il est 100% gratuit et confidentiel. Il peut déboucher sur : un bilan de compétences, un projet de transition professionnelle (CPF de transition), une VAE, ou simplement une meilleure connaissance des dispositifs disponibles. L'employeur devrait systématiquement mentionner le CEP lors des entretiens professionnels, comme le prévoit la CCN ALISFA. Pour trouver son opérateur CEP : mon-cep.org.",
+            "sources": [
+              "Art. L6111-6 Code du travail",
+              "Art. R6111-35 Code du travail",
+              "Art. 1 Chapitre VIII CCN ALISFA"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "cep-02",
+          "question_type": "Qu'est-ce que l'AFEST (Action de Formation en Situation de Travail) ?",
+          "mots_cles": [
+            "AFEST",
+            "formation",
+            "situation de travail",
+            "terrain",
+            "pratique",
+            "tutorat",
+            "poste",
+            "apprendre",
+            "compagnonnage"
+          ],
+          "reponse": {
+            "synthese": "L'AFEST est une modalité de formation qui se déroule directement sur le lieu de travail, en situation réelle. Elle alterne mises en situation de travail préparées et séquences réflexives (analyse de la pratique). Depuis 2019, elle est reconnue comme action de formation à part entière.",
+            "minimum_legal": "L'AFEST est une action de formation au sens de l'article L6313-2 du Code du travail (loi du 5 septembre 2018). Elle doit comporter : l'analyse de l'activité de travail pour l'adapter à des fins pédagogiques, la désignation d'un formateur (référent AFEST), des mises en situation de travail préparées, et des phases réflexives distinctes des mises en situation (art. D6313-3-2 C. trav.). Des évaluations spécifiques jalonnent et concluent l'action. L'AFEST peut être inscrite au plan de développement des compétences.",
+            "plus_formation": "L'AFEST est particulièrement adaptée au secteur ALISFA car elle permet de former les salariés directement sur leur poste : accueil du public, animation, accompagnement des familles. Elle est moins coûteuse qu'une formation classique et plus facilement intégrable dans le planning. Uniformation finance l'AFEST dans le cadre du plan de développement des compétences et propose des formations de référent AFEST. C'est un excellent outil pour former les nouveaux embauchés, transférer les compétences des seniors, ou former les salariés peu qualifiés qui préfèrent apprendre en faisant.",
+            "sources": [
+              "Art. L6313-2 Code du travail",
+              "Art. D6313-3-2 Code du travail",
+              "Loi du 5 septembre 2018"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "cep-03",
+          "question_type": "Comment fonctionne le FNE-Formation ?",
+          "mots_cles": [
+            "FNE",
+            "FNE-Formation",
+            "aide",
+            "État",
+            "mutation",
+            "transition",
+            "subvention",
+            "DREETS",
+            "crise",
+            "numérique",
+            "écologique"
+          ],
+          "reponse": {
+            "synthese": "Le FNE-Formation est un dispositif de l'État qui cofinance les formations des salariés dans les entreprises en mutation ou en difficulté. Depuis 2023, il est recentré sur les transitions écologique, numérique et alimentaire/agricole.",
+            "minimum_legal": "Le FNE-Formation est accessible à toutes les entreprises via leur OPCO (Uniformation pour la branche ALISFA). Depuis 2023, les formations éligibles doivent s'inscrire dans l'un des parcours suivants : transition écologique, transition numérique, transition alimentaire/agricole (art. L6332-1 C. trav.). Le taux de prise en charge varie selon la taille de l'entreprise : jusqu'à 70% pour les moins de 50 salariés, 60% pour les 50-249, 40% au-delà. Le reste peut être financé par le plan de développement des compétences ou l'OPCO.",
+            "plus_formation": "Le FNE-Formation est une opportunité pour les structures ALISFA engagées dans la transition numérique (dématérialisation, outils numériques, cybersécurité) ou écologique (éco-gestion des locaux, alimentation durable en crèche, mobilité). Uniformation est l'interlocuteur pour déposer les dossiers FNE. Les formations éligibles peuvent couvrir : usage du numérique, management à distance, éco-responsabilité, nouvelles pratiques professionnelles. Le FNE peut se cumuler avec les financements Uniformation classiques.",
+            "sources": [
+              "Art. L6332-1 Code du travail",
+              "Instruction DGEFP 2023",
+              "www.uniformation.fr"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "cep-04",
+          "question_type": "Qu'est-ce que la certification CléA ?",
+          "mots_cles": [
+            "CléA",
+            "CleA",
+            "certification",
+            "socle",
+            "compétences",
+            "clés",
+            "fondamentales",
+            "numérique",
+            "Certif'Pro",
+            "évaluation",
+            "savoirs de base"
+          ],
+          "reponse": {
+            "synthese": "CléA est une certification interprofessionnelle nationale qui valide les connaissances et compétences professionnelles fondamentales. Délivrée par Certif'Pro, elle couvre 7 domaines de compétences de base, plus 4 domaines supplémentaires pour CléA Numérique.",
+            "minimum_legal": "CléA est inscrite au Répertoire spécifique de France Compétences. Elle est accessible à tous les salariés et demandeurs d'emploi. Le processus comprend : évaluation des 7 domaines de compétences clés, puis formation personnalisée sur les lacunes identifiées, et validation finale. Les 7 domaines : communication en français, calcul/raisonnement mathématique, utilisation des TIC, aptitude à travailler dans le cadre de règles, aptitude à travailler en autonomie, capacité d'apprendre tout au long de la vie, gestes et postures / hygiène-sécurité-environnement.",
+            "plus_formation": "CléA est particulièrement utile dans la branche ALISFA pour les salariés peu qualifiés (agents d'entretien, auxiliaires, animateurs sans diplôme). Financement possible via le CPF ou le plan de développement des compétences. CléA Numérique ajoute 4 domaines liés au digital, essentiels dans un secteur en pleine transformation numérique. Transitions Pro peut financer CléA dans le cadre d'un projet de reconversion. C'est souvent une première étape vers une qualification plus poussée (CAP AEPE, BPJEPS...).",
+            "sources": [
+              "Certif'Pro",
+              "Répertoire spécifique France Compétences",
+              "uniformation.fr/particulier/salaries/formation-et-financements/autres-dispositifs-de-formation/clea"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "cep-05",
+          "question_type": "Comment fonctionne le tutorat et comment le financer ?",
+          "mots_cles": [
+            "tutorat",
+            "tuteur",
+            "maître",
+            "apprentissage",
+            "accompagnement",
+            "financement",
+            "AEFT",
+            "AEFMA",
+            "formation tuteur",
+            "encadrement"
+          ],
+          "reponse": {
+            "synthese": "Le tutorat permet d'accompagner les salariés en alternance (apprentissage, professionnalisation, PREC). Uniformation finance la formation des tuteurs et verse des aides mensuelles pour l'exercice de la fonction tutorale.",
+            "minimum_legal": "Le maître d'apprentissage ou le tuteur doit remplir des conditions de compétence professionnelle (art. L6223-8 C. trav.) : justifier d'un diplôme/titre au moins équivalent à celui préparé ET de 1 an d'expérience professionnelle, OU de 2 ans d'expérience en rapport avec la qualification visée. Chaque maître d'apprentissage peut encadrer simultanément 2 apprentis maximum. La CCN ALISFA prévoit une décharge de 5h/mois pour l'exercice du tutorat et une indemnité de 50 €/mois.",
+            "plus_formation": "**Financement Uniformation du tutorat (contrats à compter du 01/01/2026) :**\n\n- **AEFMA (maître d'apprentissage)** : 230 €/mois pendant 6 mois (travailleurs handicapés uniquement)\n- **AEFT (fonction tutorale)** : 345 €/mois pendant 6 mois (travailleurs handicapés) ; 230 €/mois pendant 6 mois (autres)\n- **Formation tuteur** : jusqu'à 15 €/h, max 40h par participant\n\nLe tutorat est un levier de professionnalisation des encadrants ALISFA. C'est aussi un facteur de fidélisation : le tuteur développe ses compétences pédagogiques et managériales.",
+            "sources": [
+              "Art. L6223-8 Code du travail",
+              "Art. 3 Chapitre VIII CCN ALISFA",
+              "uniformation.fr/entreprise/recrutement-en-alternance/tutorat/financements"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Contrat d'apprentissage",
+              "fichier": "03_CONTRAT_APPRENTISSAGE_0824.pdf"
+            },
+            {
+              "titre": "Contrat de professionnalisation",
+              "fichier": "03_CONTRAT_DE_PROFESSIONNALISATION_0922.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cep-06",
+          "question_type": "Qu'est-ce qu'une Action de Formation En Situation de Travail (AFEST) ?",
+          "mots_cles": [
+            "AFEST",
+            "action formation situation travail",
+            "L6313-2",
+            "parcours pédagogique",
+            "analyse activité",
+            "mise en situation",
+            "phases réflexives",
+            "évaluation",
+            "formateur interne",
+            "tuteur"
+          ],
+          "reponse": {
+            "synthese": "L'AFEST est une modalité pédagogique reconnue par la loi du 5 septembre 2018 : elle permet de former un salarié directement à partir et sur son poste de travail. C'est une action de formation à part entière (éligible au PDC et aux financements OPCO), à condition de respecter un cadre pédagogique structuré : (1) analyse de l'activité de travail, (2) désignation d'un formateur/référent (interne ou externe), (3) mise en situation évaluative, (4) phases réflexives distinctes des phases productives, (5) évaluation des acquis.",
+            "minimum_legal": "Article L6313-2 du Code du travail (issu de la loi n° 2018-771 du 5 septembre 2018). Article D6313-3-1 (décret n° 2018-1341 du 28 décembre 2018) : conditions cumulatives de l'AFEST. Article L6313-1 : l'AFEST est l'une des 4 catégories d'actions concourant au développement des compétences, avec les formations en salle, les formations à distance et les actions mixtes. Article L6351-1 : l'AFEST doit être déclarée comme action de formation par un organisme déclaré.",
+            "plus_formation": "L'AFEST est particulièrement adaptée aux structures ALISFA qui ont peu de ressources pour envoyer des salariés en formation externe. L'OPCO Cohésion sociale finance à la fois l'ingénierie AFEST (analyse du travail, construction du référentiel, formation de tuteurs) et la mise en œuvre (temps du formateur et du salarié). Le Centre Inffo et l'ANACT ont publié des guides méthodologiques officiels. Attention : une simple formation « sur le tas » sans cadre formalisé n'est PAS une AFEST et ne peut être financée comme action de formation.",
+            "sources": [
+              "Art. L6313-1 et L6313-2 C. trav.",
+              "Art. D6313-3-1 C. trav.",
+              "Loi n° 2018-771 du 5 septembre 2018",
+              "Décret n° 2018-1341 du 28 décembre 2018",
+              "ANACT / Centre Inffo — guides AFEST",
+              "OPCO Cohésion sociale — ingénierie AFEST"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "droits_salaries",
+      "label": "Droits des salariés à la formation",
+      "chapitre": "Droits individuels",
+      "articles": [
+        {
+          "id": "droit-01",
+          "question_type": "Quels sont les droits à la formation des salariés ?",
+          "mots_cles": [
+            "droit",
+            "salarié",
+            "formation",
+            "accès",
+            "refus",
+            "temps de travail",
+            "rémunération",
+            "initiative",
+            "demande",
+            "congé formation"
+          ],
+          "reponse": {
+            "synthese": "Tout salarié dispose d'un droit à la formation professionnelle, qui comprend le CPF, le droit à l'entretien professionnel, le droit au CEP, et le droit de demander des formations à son employeur. La formation peut être à l'initiative de l'employeur ou du salarié.",
+            "minimum_legal": "Droits fondamentaux du salarié (art. L6311-1 C. trav.) :\n- **CPF** : 500 €/an (800 € si peu qualifié/handicapé), plafond 5 000 € (8 000 €). Portable d'un emploi à l'autre, fermé à la retraite à taux plein.\n- **Entretien de parcours professionnel** : tous les 4 ans + bilan 8 ans (réforme 2025). Informe sur CPF, VAE, CEP.\n- **CEP** : gratuit, confidentiel vis-à-vis de l'employeur. Opérateur : Avenir Actifs (salariés), APEC (cadres), Missions locales (< 26 ans), Cap emploi (handicapés).\n- **Congé bilan de compétences** : 24h max pendant le temps de travail, rémunération maintenue.\n- **Congé VAE** : 48h (réforme 2022), rémunération maintenue.\n- **PTP** : congé pour formation certifiante, rémunération maintenue (100% si < 2 SMIC).\n- **Protections** : interdiction de licencier pour exercice du droit à la formation ; CDD = mêmes droits que CDI ; retour au poste ou poste équivalent après formation du plan.\n- Le salarié ne peut refuser une formation d'adaptation au poste ; peut refuser une formation hors temps de travail, un bilan ou une VAE.",
+            "plus_formation": "Dans la branche ALISFA, les droits des salariés sont renforcés par la CCN : l'entretien professionnel doit couvrir les dispositifs de formation (CEP, CPF, VAE), le passeport formation est recommandé, et les actions de formation doivent être anticipées dans le cadre du dialogue social. Le salarié ALISFA peut combiner plusieurs dispositifs : CPF + plan employeur, Pro-A, VAE collective. Uniformation propose des formations gratuites dans le cadre des actions collectives de branche. Tout salarié peut contacter Uniformation directement pour connaître ses droits.",
+            "sources": [
+              "Art. L6312-1 Code du travail",
+              "Art. L6323-1 Code du travail",
+              "Art. L6315-1 Code du travail",
+              "Chapitre VIII CCN ALISFA"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            },
+            {
+              "titre": "Supplément de dispositions liées à la formation",
+              "fichier": "09_SUPPLEMENT_DE_DISPOSITIONS_LIES_A_LA_FORMATION_0323.pdf"
+            }
+          ]
+        },
+        {
+          "id": "droit-02",
+          "question_type": "Un salarié peut-il refuser une formation ?",
+          "mots_cles": [
+            "refuser",
+            "refus",
+            "formation",
+            "obligatoire",
+            "droit",
+            "salarié",
+            "conséquences",
+            "sanction",
+            "hors temps",
+            "accord"
+          ],
+          "reponse": {
+            "synthese": "Le droit de refuser une formation dépend de sa nature. Le salarié ne peut pas refuser une formation d'adaptation au poste (c'est une obligation contractuelle). En revanche, il peut refuser une formation de développement des compétences hors temps de travail, un bilan de compétences, ou une VAE proposée par l'employeur.",
+            "minimum_legal": "Formations que le salarié ne peut pas refuser : formation d'adaptation au poste de travail ou liée au maintien dans l'emploi (art. L6321-1 C. trav.) - le refus peut constituer une faute justifiant un licenciement. Formations que le salarié peut refuser : bilan de compétences (art. L6313-4 C. trav.), VAE (art. L6421-1), formation de développement des compétences hors temps de travail, formation modifiant le contrat de travail. Le refus de ces formations ne constitue ni une faute ni un motif de licenciement (art. L6321-7 C. trav.).",
+            "plus_formation": "Plutôt que d'imposer une formation, l'employeur ALISFA a tout intérêt à co-construire le projet de formation avec le salarié lors de l'entretien professionnel. Une formation choisie est toujours plus efficace qu'une formation subie. En cas de résistance à la formation, le CEP (gratuit et confidentiel) peut aider le salarié à identifier ses besoins. Uniformation propose des formations motivantes sur des thématiques concrètes du secteur (relations avec les familles, gestion de conflit, numérique).",
+            "sources": [
+              "Art. L6321-1 Code du travail",
+              "Art. L6321-7 Code du travail",
+              "Art. L6313-4 Code du travail",
+              "Cass. soc., 3 mai 2018, n°16-26.796"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "droit-03",
+          "question_type": "Le salarié peut-il mobiliser son CPF sans l'accord de l'employeur ?",
+          "mots_cles": [
+            "CPF",
+            "accord employeur",
+            "temps de travail",
+            "L6323-17",
+            "hors temps de travail",
+            "refus",
+            "absence formation",
+            "droit à la formation"
+          ],
+          "reponse": {
+            "synthese": "Le CPF appartient au salarié : il peut le mobiliser librement HORS temps de travail sans avoir à en informer ni à demander l'accord de son employeur. Sur le temps de travail, en revanche, l'accord de l'employeur est obligatoire pour autoriser l'absence (portant sur le calendrier et la durée). L'employeur peut refuser mais doit motiver sa décision ; un refus abusif répété peut engager sa responsabilité vis-à-vis de l'obligation de maintien de l'employabilité (L6321-1).",
+            "minimum_legal": "Article L6323-17 du Code du travail (CPF mobilisé sur le temps de travail = autorisation préalable). Article L6323-16 : CPF hors temps de travail = aucun accord requis. Article L6323-17-1 : PTP = procédure spécifique. Article L6321-1 : obligation employeur d'adaptation et d'employabilité. L'employeur dispose de 30 jours calendaires pour répondre à une demande de CPF sur temps de travail (absence de réponse = accord tacite).",
+            "plus_formation": "Bonne pratique ALISFA : intégrer l'information CPF dans l'entretien professionnel, et recenser les besoins CPF en lien avec le plan de développement des compétences. L'employeur peut abonder le CPF d'un salarié via le portail EDEF pour co-financer une formation stratégique (formation qualifiante, reconversion, certification de branche) : cet abondement exonère alors le salarié du reste à charge légal et peut constituer une alternative intéressante au PDC pour les petites structures. L'OPCO Cohésion sociale peut également abonder sur des certifications de branche prioritaires (Cepex, CQP).",
+            "sources": [
+              "Art. L6323-16 et L6323-17 C. trav.",
+              "Art. L6321-1 C. trav.",
+              "Mon compte formation — guide pratique",
+              "Portail EDEF — Espace des employeurs et financeurs",
+              "OPCO Cohésion sociale — abondements"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "financement_cpnef",
+      "label": "Financements CPNEF 2026",
+      "chapitre": "Financements",
+      "articles": [
+        {
+          "id": "cpnef-01",
+          "question_type": "Quels financements la CPNEF propose-t-elle en 2026 ?",
+          "mots_cles": [
+            "CPNEF",
+            "financement",
+            "2026",
+            "ACT",
+            "actions collectives",
+            "analyse pratiques",
+            "projets innovants",
+            "conférences",
+            "CTP",
+            "aide financière",
+            "budget formation",
+            "dispositif CPNEF"
+          ],
+          "reponse": {
+            "synthese": "La CPNEF ALISFA propose 5 dispositifs de financement exceptionnels en 2026 : les Actions Collectives Territoriales (ACT), l'Analyse des Pratiques Professionnelles (équipe et direction), les Projets Innovants, et le financement de Conférences/Colloques/Séminaires. Les demandes sont examinées par le CTP (Comité Technique Paritaire) qui se réunit 7 fois par an.",
+            "minimum_legal": "Il n'existe pas d'obligation légale de financement CPNEF. Ces dispositifs sont des financements conventionnels négociés par les partenaires sociaux de la branche ALISFA, financés par les contributions formation des employeurs. L'employeur a cependant l'obligation de verser ses contributions formation (2,1% + 0,2% à Uniformation/URSSAF).",
+            "plus_formation": "5 dispositifs disponibles en 2026 :\n\n1. **ACT (Actions Collectives Territoriales)** : formations pour salariés de plusieurs structures (min. 5 stagiaires, 2 structures). Max 1 800 €/jour pédagogique. Demandes > 20 000 € : 2 mois avant CTP.\n\n2. **Analyse des Pratiques (équipe)** : < 50 ETP : max 1 500 € ; ≥ 50 ETP : max 3 000 €. Multi-sites : 1 500 €/SIRET, plafond 15 000 €/an. Max 40 €/h/participant. Prestataire Qualiopi obligatoire.\n\n3. **Analyse des Pratiques de Direction** : réservée aux directeurs, directeurs adjoints, délégués, responsables techniques EAJE. 300 €/an/SIRET, plafond 3 000 €. Max 40 €/h/participant.\n\n4. **Projets Innovants** : formations expérimentales (thématiques, territoriales, pédagogiques). Coûts pédagogiques + frais annexes. Examen au cas par cas par la CPNEF.\n\n5. **Conférences/Colloques** : Volet 1 (inscription) : max 200 €/jour/participant, 6 jours bénévoles/an. Volet 2 (organisation) : intervenants, salle, matériel. > 2 000 € = accord CTP.\n\n**Dates CTP 2026** : 10/02, 27/03, 06/05, 18/06, 17/09, 24/11, 14/12. Date limite : 27/11/2026.",
+            "sources": [
+              "CPNEF ALISFA - Règles de financement 2026",
+              "alisfa.fr/emploi-et-formation/le-financement-de-la-formation-dans-la-branche/solliciter-un-financement-aupres-de-la-cpnef/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cpnef-02",
+          "question_type": "Comment demander un financement ACT (Actions Collectives Territoriales) ?",
+          "mots_cles": [
+            "ACT",
+            "actions collectives",
+            "territoriales",
+            "financement",
+            "demande",
+            "dossier",
+            "formation collective",
+            "mutualisation",
+            "inter-structures",
+            "territoire"
+          ],
+          "reponse": {
+            "synthese": "Les ACT permettent de financer des formations regroupant des salariés de plusieurs structures ALISFA sur un même territoire. Minimum 5 stagiaires issus d'au moins 2 structures, avec prise en charge jusqu'à 1 800 €/jour pédagogique.",
+            "minimum_legal": "Pas d'obligation légale spécifique. L'ACT est un dispositif conventionnel de la branche ALISFA. L'employeur doit cependant s'assurer que la formation se déroule sur le temps de travail ou avec l'accord du salarié, et respecter les règles de maintien de rémunération pendant la formation (art. L6321-2 C. trav.).",
+            "plus_formation": "**Conditions ACT 2026 :**\n- Minimum 5 stagiaires dont une majorité de salariés\n- Au moins 2 structures différentes\n- Prise en charge max : 1 800 €/jour pour les coûts pédagogiques\n- Demandes > 20 000 € : soumettre 2 mois avant la réunion du CTP\n- Demandes ≤ 20 000 € : soumettre 1 mois avant le début de la formation\n\n**Avantages** : mutualisation des coûts entre structures, échange de pratiques entre professionnels du territoire, accès à des formations de qualité même pour les petites structures.\n\n**Contact** : CPNEF ALISFA - cpnef@cpnef.com / 01 58 46 13 45 (mardi et jeudi, 9h-12h30). Vous pouvez aussi contacter votre référent régional CPNEF.",
+            "sources": [
+              "CPNEF ALISFA - Règles ACT 2026",
+              "alisfa.fr/emploi-et-formation/le-financement-de-la-formation-dans-la-branche/solliciter-un-financement-aupres-de-la-cpnef/act-actions-collectives-territoriales/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cpnef-03",
+          "question_type": "Qu'est-ce que le FNE-Formation et comment en bénéficier ?",
+          "mots_cles": [
+            "FNE",
+            "FNE-Formation",
+            "financement",
+            "État",
+            "transition",
+            "écologique",
+            "numérique",
+            "démographique",
+            "petite enfance",
+            "subvention",
+            "aide"
+          ],
+          "reponse": {
+            "synthese": "Le FNE-Formation est un dispositif de l'État qui finance des formations liées aux transitions écologique, numérique et démographique/petite enfance. La CPNEF ALISFA complète le financement pour couvrir 100% des coûts pédagogiques.",
+            "minimum_legal": "Le FNE-Formation est un dispositif étatique volontaire, pas une obligation. L'État prend en charge une partie des coûts pédagogiques pour les formations relevant de 3 transitions : écologique, numérique, et démographique (incluant la petite enfance). Les entreprises de toutes tailles peuvent en bénéficier.",
+            "plus_formation": "**Spécificités pour la branche ALISFA :**\n- Le FNE couvre partiellement les coûts pédagogiques\n- La CPNEF complète : 100% des coûts pédagogiques dans la limite des taux OPCO + frais annexes\n- Ces formations ne comptent PAS dans le plafond annuel DAF\n- Domaines particulièrement pertinents pour ALISFA : transition démographique/petite enfance, numérique (outils de gestion, communication digitale), écologique (aménagement durable des locaux)\n\n**Comment en bénéficier** : contactez Uniformation qui vous orientera sur les formations éligibles, ou adressez-vous à votre référent régional CPNEF.",
+            "sources": [
+              "FNE-Formation - Ministère du Travail",
+              "CPNEF ALISFA - Actualités 2026",
+              "alisfa.fr/actualites/nouvelles-opportunites-de-financement-avec-le-fne-formation/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cpnef-04",
+          "question_type": "Comment fonctionne l'OPCO Cohésion sociale pour les structures ALISFA ?",
+          "mots_cles": [
+            "OPCO Cohésion sociale",
+            "Uniformation",
+            "opérateur de compétences",
+            "L6332-1",
+            "contribution formation",
+            "CUFPA",
+            "mutualisation",
+            "plan de développement",
+            "branche ALISFA",
+            "3 millions de salariés"
+          ],
+          "reponse": {
+            "synthese": "L'OPCO Cohésion sociale (marque historique Uniformation) est l'opérateur de compétences désigné par arrêté du 29 mars 2019 pour couvrir la branche ALISFA (IDCC 1261) parmi une vingtaine de branches de l'économie sociale, du logement social et du sanitaire/social. Il collecte indirectement la contribution unique à la formation professionnelle et à l'alternance (CUFPA, collectée par l'URSSAF depuis 2022) et la redistribue sous forme d'aides aux entreprises pour le plan de développement des compétences, l'alternance, les POE et les projets collectifs.",
+            "minimum_legal": "Articles L6332-1 à L6332-14 du Code du travail. Article L6332-1-2 : missions des OPCO (conseil aux TPE/PME < 50 salariés, financement alternance, appui technique). Article L6131-1 : CUFPA collectée par URSSAF. Article L6131-2 : répartition France compétences / OPCO. Arrêté du 29 mars 2019 portant agrément de l'OPCO Cohésion sociale. Loi n° 2018-771 du 5 septembre 2018 (Avenir professionnel) — refonte des OPCA en 11 OPCO.",
+            "plus_formation": "L'OPCO Cohésion sociale finance en priorité les structures de moins de 50 salariés de la branche ALISFA sur : (1) le PDC à 100 % des coûts pédagogiques + frais annexes dans la limite d'enveloppes individualisées, (2) l'alternance (contrat d'apprentissage et contrat pro) au NPEC fixé par France compétences, (3) les actions collectives (projets de branche CPNEF), (4) les abondements CPF sur certifications prioritaires, (5) la préparation opérationnelle à l'emploi (POEI et POEC). Contact via le conseiller sectoriel ALISFA de l'OPCO — demande à déposer sur l'extranet adhérent.",
+            "sources": [
+              "Art. L6332-1 à L6332-14 C. trav.",
+              "Arrêté du 29 mars 2019 (agrément OPCO Cohésion sociale)",
+              "Loi n° 2018-771 du 5 septembre 2018",
+              "OPCO Cohésion sociale — site officiel",
+              "CPNEF ALISFA — priorités de branche"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "acteurs_formation",
+      "label": "Acteurs de la formation professionnelle",
+      "chapitre": "Acteurs et gouvernance",
+      "articles": [
+        {
+          "id": "acteur-01",
+          "question_type": "Quels sont les acteurs de la formation professionnelle dans la branche ALISFA ?",
+          "mots_cles": [
+            "acteur",
+            "acteurs",
+            "formation",
+            "Uniformation",
+            "OPCO",
+            "France Compétences",
+            "Caisse des Dépôts",
+            "Transitions Pro",
+            "URSSAF",
+            "organisme",
+            "interlocuteur",
+            "qui contacter"
+          ],
+          "reponse": {
+            "synthese": "5 acteurs principaux interviennent dans la formation professionnelle de la branche ALISFA : Uniformation (OPCO), France Compétences (régulateur), la Caisse des Dépôts (CPF), Transitions Pro (reconversions) et l'URSSAF (collecte des contributions).",
+            "minimum_legal": "Le système de formation professionnelle est organisé par la loi du 5 septembre 2018. France Compétences (créé le 1er janvier 2019) est l'autorité nationale de régulation et de financement. L'URSSAF collecte les contributions formation depuis 2022. La Caisse des Dépôts gère le CPF via l'application Mon Compte Formation. Transitions Pro (commissions régionales) autorise et finance les projets de transition professionnelle et la certification CléA.",
+            "plus_formation": "**1. Uniformation (OPCO)** - Votre interlocuteur principal :\n- Opérateur de compétences de la branche ALISFA (désigné à l'art. 9 Chapitre VIII CCN)\n- Service de proximité pour les structures < 50 salariés\n- Finance l'apprentissage et les contrats de professionnalisation\n- Accompagnement gratuit pour élaborer votre plan de compétences\n- Tél : 09 69 32 79 79\n\n**2. France Compétences** - Régulateur national :\n- Distribue les fonds collectés par l'URSSAF\n- Contrôle la qualité des formations\n- Fixe les niveaux de prise en charge des contrats d'apprentissage\n\n**3. Caisse des Dépôts** - Gestionnaire CPF :\n- Gère Mon Compte Formation (moncompteformation.gouv.fr)\n- Alimenté en euros chaque année (500 €/an, 800 € pour les non-qualifiés)\n\n**4. Transitions Pro** - Reconversions :\n- Finance les projets de transition professionnelle (ex-CIF)\n- Certification CléA\n\n**5. URSSAF** - Collecte :\n- Collecte les contributions formation depuis 2022\n\n**6. CPNEF ALISFA** - Gouvernance paritaire :\n- Analyse les besoins formation de la branche\n- Établit les priorités et les financements\n- Contact : cpnef@cpnef.com / 01 58 46 13 45",
+            "sources": [
+              "Loi du 5 septembre 2018",
+              "Art. 9 Chapitre VIII CCN ALISFA",
+              "alisfa.fr/emploi-et-formation/a-cpnef/les-acteurs-de-la-formation-professionnelle/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            }
+          ]
+        },
+        {
+          "id": "acteur-02",
+          "question_type": "Quel est le rôle de la CPNEF ALISFA ?",
+          "mots_cles": [
+            "CPNEF",
+            "commission paritaire",
+            "emploi formation",
+            "mission",
+            "rôle",
+            "gouvernance",
+            "paritarisme",
+            "branche",
+            "priorités"
+          ],
+          "reponse": {
+            "synthese": "La CPNEF (Commission Paritaire Nationale Emploi Formation) est l'instance paritaire de la branche ALISFA qui définit la politique de formation, analyse les besoins en compétences, fixe les priorités de financement et pilote la GPEC (Gestion Prévisionnelle des Emplois et des Compétences).",
+            "minimum_legal": "Chaque branche professionnelle doit disposer d'une CPNEF (art. L2241-1 et suivants du Code du travail). La CPNEF négocie et suit l'application des accords de branche sur la formation professionnelle, l'emploi et l'apprentissage.",
+            "plus_formation": "**5 missions de la CPNEF ALISFA :**\n\n1. **Analyse prospective** : étudie les besoins en formation de la branche et anticipe les évolutions des métiers du secteur social\n\n2. **Politique de formation** : établit les priorités nationales et régionales, détermine l'affectation des fonds de formation\n\n3. **Alternance** : encourage l'apprentissage et la professionnalisation, fixe les niveaux de financement des contrats\n\n4. **Certifications** : crée et actualise les certifications professionnelles de la branche, met en œuvre la stratégie de certification (CQP, titres...)\n\n5. **GPEC** : pilote la Gestion Prévisionnelle des Emplois et des Compétences, avec 25 fiches métiers dans 5 secteurs\n\n**Fonctions emploi** : veille sur le marché du travail, adaptation des formations aux besoins, réduction de la précarité, reclassement après licenciements, insertion des jeunes.\n\n**Contact** : cpnef@cpnef.com / 01 58 46 13 45 (mardi et jeudi, 9h-12h30)\n\n**Réseau régional** : des référents CPNEF dans 12 régions accompagnent les structures localement.",
+            "sources": [
+              "Art. L2241-1 Code du travail",
+              "CPNEF ALISFA",
+              "alisfa.fr/emploi-et-formation/a-cpnef/missions/"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "acteur-03",
+          "question_type": "Existe-t-il des référents formation en région ?",
+          "mots_cles": [
+            "référent",
+            "région",
+            "régional",
+            "local",
+            "accompagnement",
+            "proximité",
+            "territoire",
+            "contact",
+            "conseiller"
+          ],
+          "reponse": {
+            "synthese": "La CPNEF ALISFA dispose d'un réseau de référents régionaux couvrant 12 régions françaises. Ils accompagnent les structures localement pour le développement des compétences, la coordination des formations et les demandes de financement.",
+            "minimum_legal": "Il n'existe pas d'obligation légale de référents régionaux. C'est un service conventionnel de la branche ALISFA, financé par les contributions des employeurs.",
+            "plus_formation": "**Missions des référents régionaux CPNEF :**\n- Accompagnement personnalisé sur le développement des compétences et l'emploi\n- Coordination des actions de formation collectives sur le territoire\n- Séances d'information collectives avec Uniformation\n- Appui au montage des ACT (Actions Collectives Territoriales)\n- Consultations individuelles\n\n**Régions couvertes** : Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Bretagne, Centre-Val de Loire, Corse, Hauts-de-France, Grand Est, Île-de-France, Nouvelle-Aquitaine, Occitanie, Pays de la Loire, PACA.\n\n**Régions sans référent** (contacter la CPNEF directement) : Alsace, Normandie, DROM.\n\n**Contact** : liste complète sur alisfa.fr/emploi-et-formation/referents-en-regions/ ou cpnef@cpnef.com",
+            "sources": [
+              "CPNEF ALISFA - Référents en régions",
+              "alisfa.fr/emploi-et-formation/referents-en-regions/"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "acteur-04",
+          "question_type": "Qu'est-ce que la certification Qualiopi et qui est concerné ?",
+          "mots_cles": [
+            "Qualiopi",
+            "certification qualité",
+            "L6316-1",
+            "organisme formation",
+            "RNQ",
+            "référentiel national qualité",
+            "7 critères",
+            "audit",
+            "décret 2019-565",
+            "financement public"
+          ],
+          "reponse": {
+            "synthese": "Qualiopi est la marque de certification qualité des prestataires d'actions concourant au développement des compétences. Depuis le 1er janvier 2022, elle est OBLIGATOIRE pour tout organisme qui souhaite faire financer ses actions sur fonds publics ou mutualisés (OPCO, CPF, Pôle emploi devenu France Travail, État, Régions, AGEFIPH). La certification repose sur le Référentiel National Qualité (RNQ) structuré en 7 critères et 32 indicateurs, audités par un organisme certificateur accrédité par le COFRAC.",
+            "minimum_legal": "Article L6316-1 du Code du travail (loi n° 2018-771 du 5 septembre 2018). Décret n° 2019-564 du 6 juin 2019 (obligation de certification). Décret n° 2019-565 du 6 juin 2019 (RNQ). Arrêté du 6 juin 2019 modifié (modalités d'audit). Sont concernés : les organismes de formation, les CFA, les bilans de compétences, les opérateurs VAE. Audit initial, audit de surveillance à 18 mois, renouvellement tous les 3 ans.",
+            "plus_formation": "Les structures ALISFA qui disposent d'un organisme de formation interne ou portent un projet de CFA (crèche école, centre social école de devoirs, etc.) doivent obtenir Qualiopi pour faire financer leurs actions par l'OPCO Cohésion sociale ou la branche. L'OPCO propose des accompagnements collectifs pour préparer la certification et, le cas échéant, un cofinancement de l'audit. Alternative : utiliser un organisme certifié externe comme sous-traitant. Liste officielle des organismes certificateurs sur le site data.gouv.fr.",
+            "sources": [
+              "Art. L6316-1 C. trav.",
+              "Décret n° 2019-564 et n° 2019-565 du 6 juin 2019",
+              "Arrêté du 6 juin 2019 (RNQ)",
+              "travail-emploi.gouv.fr — Qualiopi",
+              "data.gouv.fr — liste organismes certifiés"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "gpec_metiers",
+      "label": "GPEC et métiers de la branche",
+      "chapitre": "Métiers et compétences",
+      "articles": [
+        {
+          "id": "gpec-01",
+          "question_type": "Quels sont les métiers de la branche ALISFA et la GPEC ?",
+          "mots_cles": [
+            "GPEC",
+            "métier",
+            "métiers",
+            "fiche métier",
+            "emploi",
+            "compétences",
+            "cartographie",
+            "profil",
+            "secteur",
+            "animation",
+            "petite enfance",
+            "direction",
+            "administratif",
+            "reconversion",
+            "mobilité",
+            "passerelle"
+          ],
+          "reponse": {
+            "synthese": "La branche ALISFA compte 25 fiches métiers organisées en 5 secteurs : administratif/financier, encadrement/direction, animation, petite enfance et services/technique. La GPEC (Gestion Prévisionnelle des Emplois et des Compétences) permet d'identifier les passerelles entre métiers et de planifier les parcours de formation.",
+            "minimum_legal": "Les entreprises de 300+ salariés doivent négocier un accord GPEC (art. L2242-20 C. trav.). Les branches professionnelles doivent mener une réflexion prospective sur l'emploi et les qualifications (art. L2241-1 C. trav.).",
+            "plus_formation": "**25 fiches métiers dans 5 secteurs :**\n\n**1. Administratif/Financier** : assistant de direction, chargé d'accueil, chargé de communication, personnel administratif/financier, secrétaire\n\n**2. Encadrement/Direction** : délégué fédéral, directeur, coordinateur/responsable de secteur, directeur RH/administratif/financier\n\n**3. Animation** : animateur, animateur d'activités, chargé de projet, intervenant social, intervenant spécialisé, référent de secteur\n\n**4. Petite enfance** : animateur LAEP, animateur petite enfance, coordinateur réseau famille, assistant maternel, auxiliaire de puériculture, éducateur de jeunes enfants\n\n**5. Services/Technique** : agent d'entretien, technicien de maintenance, cuisinier, intervenant médical/paramédical\n\nChaque fiche inclut : missions, formations/diplômes requis, possibilités de mobilité. Un outil cartographique dynamique montre les passerelles entre professions.\n\n**Utilité pour l'employeur** : planifier les formations, anticiper les départs, organiser les reconversions via Pro-A, structurer les entretiens professionnels.",
+            "sources": [
+              "CPNEF ALISFA - GPEC",
+              "alisfa.fr/emploi-et-formation/gpec/",
+              "Art. L2241-1 Code du travail"
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gpec-02",
+          "question_type": "Qu'est-ce que le dispositif Pro-A (reconversion ou promotion par alternance) ?",
+          "mots_cles": [
+            "Pro-A",
+            "reconversion alternance",
+            "promotion",
+            "L6324-1",
+            "accord de branche étendu",
+            "qualification",
+            "alternance",
+            "OPCO",
+            "changement métier",
+            "dispositif Pro-A"
+          ],
+          "reponse": {
+            "synthese": "La Reconversion ou Promotion par Alternance (Pro-A) est un dispositif qui permet à un salarié en CDI d'accéder, pendant son temps de travail, à une formation qualifiante dispensée en alternance, afin de changer de métier ou d'accéder à une promotion. Elle est réservée aux salariés dont le niveau de qualification est inférieur à une licence (bac+2 depuis la loi du 5 septembre 2018) et aux certifications visées par un accord de branche étendu. Elle est financée par l'OPCO.",
+            "minimum_legal": "Articles L6324-1 à L6324-9 du Code du travail. Article L6324-1 : publics et conditions. Article L6324-3 : les certifications éligibles sont fixées par accord collectif de branche étendu. Loi n° 2018-771 du 5 septembre 2018 + loi n° 2020-734 du 17 juin 2020 (ajout de l'enjeu de mutation de l'activité). Article L6324-5 : contrat de travail maintenu, alternance entre formation et travail effectif (15 à 25 % minimum de la durée du contrat pour la formation).",
+            "plus_formation": "Pour les structures ALISFA, la Pro-A est un outil précieux pour accompagner la montée en qualification des salariés sans maîtrise des diplômes cibles (auxiliaire de puériculture, éducateur de jeunes enfants, animateur BPJEPS, coordinateur...). Elle nécessite un accord de branche étendu listant les certifications éligibles. La CPNEF ALISFA a négocié en 2020 un accord Pro-A (vérifier la liste à jour sur le site ELISFA). L'OPCO Cohésion sociale prend en charge les coûts pédagogiques, la rémunération du salarié pendant les heures de formation, et les frais annexes.",
+            "sources": [
+              "Art. L6324-1 à L6324-9 C. trav.",
+              "Loi n° 2018-771 du 5 septembre 2018",
+              "Loi n° 2020-734 du 17 juin 2020",
+              "Accord de branche ALISFA sur la Pro-A",
+              "OPCO Cohésion sociale — guide Pro-A"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "textes_legaux",
+      "label": "Textes légaux et conventionnels",
+      "chapitre": "Cadre juridique",
+      "articles": [
+        {
+          "id": "texte-01",
+          "question_type": "Quels sont les principaux textes sur le droit à la formation continue ?",
+          "mots_cles": [
+            "loi",
+            "texte",
+            "légal",
+            "juridique",
+            "avenant",
+            "2018",
+            "réforme",
+            "code du travail",
+            "liberté",
+            "avenir professionnel",
+            "Pro-A",
+            "conventionnel"
+          ],
+          "reponse": {
+            "synthese": "Le cadre juridique de la formation professionnelle repose sur la loi du 5 septembre 2018 ('Pour la liberté de choisir son avenir professionnel') et plusieurs avenants négociés par la branche ALISFA, notamment l'avenant n°05-20 sur la formation et les avenants n°03-20 et 03-22 sur la Pro-A.",
+            "minimum_legal": "**Loi du 5 septembre 2018** ('Pour la liberté de choisir son avenir professionnel') : refonte complète du système. Points clés :\n- CPF monétisé (en euros, non en heures)\n- Création de France Compétences\n- Refonte de l'apprentissage (libéralisation)\n- Création de la Pro-A (promotion/reconversion par l'alternance)\n- Renforcement du CEP (Conseil en Évolution Professionnelle)\n- Collecte unifiée par l'URSSAF (effective 2022)\n- Plan de formation → Plan de développement des compétences\n\nTextes d'application : décrets et ordonnances 2018-2019.",
+            "plus_formation": "**Textes conventionnels ALISFA :**\n\n- **Avenant n°05-20** : accord de branche sur la formation professionnelle ALISFA. Fixe les objectifs, les dispositifs, les contributions et les priorités de la branche. Extrait des articles clés du Chapitre VIII CCN.\n\n- **Avenant n°03-22** (24 mai 2022) : mise à jour du dispositif Pro-A pour la branche ALISFA. Actualise la liste des certifications éligibles à la Pro-A.\n\n- **Avenant n°03-20** (22 janvier 2020) : création initiale du dispositif Pro-A dans la branche ALISFA. Définit les conditions et modalités de mise en œuvre.\n\n- **Chapitre VIII CCN ALISFA** (IDCC 1261) : 9 articles couvrant les objectifs, les dispositifs, l'alternance, la VAE, les droits pendant la formation, l'accès des publics prioritaires, le lien aux évaluations, les contributions (2,1%) et la désignation d'Uniformation.\n\nTous ces textes sont consultables sur alisfa.fr.",
+            "sources": [
+              "Loi n°2018-771 du 5 septembre 2018",
+              "Avenant n°05-20 ALISFA",
+              "Avenant n°03-22 du 24 mai 2022",
+              "Avenant n°03-20 du 22 janvier 2020",
+              "Chapitre VIII CCN ALISFA",
+              "alisfa.fr/emploi-et-formation/a-cpnef/les-principaux-textes-sur-le-droit-a-la-formation-continue/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            },
+            {
+              "titre": "Supplément de dispositions liées à la formation",
+              "fichier": "09_SUPPLEMENT_DE_DISPOSITIONS_LIES_A_LA_FORMATION_0323.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vae_reforme",
+      "label": "VAE réformée et nouvelles modalités",
+      "chapitre": "VAE",
+      "articles": [
+        {
+          "id": "vae-03",
+          "question_type": "Comment fonctionne la nouvelle VAE réformée ?",
+          "mots_cles": [
+            "VAE",
+            "nouvelle",
+            "réforme",
+            "réformée",
+            "2022",
+            "AAP",
+            "architecte",
+            "accompagnateur",
+            "parcours",
+            "certification",
+            "validation",
+            "acquis",
+            "expérience",
+            "nouveau"
+          ],
+          "reponse": {
+            "synthese": "La VAE a été progressivement réformée depuis 2022 avec de nouvelles modalités : parcours simplifiés, nouveaux types d'accompagnement (AAP - Architectes Accompagnateurs de Parcours), et financement diversifié. Elle reste un levier puissant de qualification pour les salariés ALISFA.",
+            "minimum_legal": "La VAE permet à toute personne de faire valider les acquis de son expérience pour obtenir une certification (art. L6411-1 C. trav.). Durée d'expérience requise : 1 an minimum en rapport avec la certification visée. L'employeur ne peut pas imposer une VAE au salarié (accord obligatoire). Le salarié a droit à un congé VAE de 24h de temps de travail pour préparer et passer les épreuves. La CCN ALISFA prévoit jusqu'à 24h d'accompagnement gratuit (art. 4 Chapitre VIII).",
+            "plus_formation": "**Nouveautés de la VAE réformée :**\n\n- **AAP (Architectes Accompagnateurs de Parcours)** : nouveaux professionnels spécialisés qui accompagnent les candidats tout au long du parcours VAE. Remplacent progressivement l'ancien système d'accompagnement.\n\n- **Parcours simplifiés** : nouvelles procédures avec différents types de parcours selon le profil du candidat.\n\n- **Financement diversifié** : CPF, plan de développement des compétences, Transitions Pro, financements CPNEF, dispositif HDS (Haut Degré de Solidarité).\n\n- **Exemple concret ALISFA** : une directrice de crèche a obtenu sa certification via VAE, accompagnée par un AAP.\n\n**Certifications particulièrement visées dans la branche** : EJE (Éducateur de Jeunes Enfants), CAFERUIS, CAFDES, DEJEPS, BPJEPS, CAP Accompagnant Éducatif Petite Enfance.\n\n**Contact** : votre référent régional CPNEF ou Uniformation peuvent vous orienter. Le CEP (gratuit) accompagne aussi les salariés dans leur démarche VAE.",
+            "sources": [
+              "Art. L6411-1 Code du travail",
+              "Art. 4 Chapitre VIII CCN ALISFA",
+              "Loi du 21 décembre 2022 (réforme VAE)",
+              "CPNEF ALISFA - Lettre d'info n°36",
+              "alisfa.fr/actualites/la-nouvelle-vae-comment-s-y-retrouver/"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue_2026",
+      "label": "Catalogue et barèmes de financement 2026",
+      "chapitre": "Catalogue 2026",
+      "articles": [
+        {
+          "id": "cat-01",
+          "question_type": "Quels sont les barèmes de financement Uniformation 2026 pour la branche ALISFA ?",
+          "mots_cles": [
+            "barème",
+            "barèmes",
+            "financement",
+            "2026",
+            "catalogue",
+            "tarif",
+            "taux",
+            "prise en charge",
+            "coût pédagogique",
+            "frais annexes",
+            "plafond",
+            "Uniformation 2026"
+          ],
+          "reponse": {
+            "synthese": "Le catalogue de financement Uniformation 2026 pour la branche ALISFA définit les plafonds de prise en charge selon le dispositif et la taille de la structure. Les structures < 50 salariés bénéficient des meilleurs taux avec un plafond PDC de 5 000 €/an.",
+            "minimum_legal": "Les taux de prise en charge sont fixés par les partenaires sociaux de la branche et validés par le conseil d'administration d'Uniformation. Ils s'appliquent dans la limite des fonds disponibles. L'employeur doit déposer ses demandes de financement avant le début de la formation.",
+            "plus_formation": "**BARÈMES UNIFORMATION 2026 — BRANCHE ALISFA**\n\n**Coûts pédagogiques** :\n- Formations > 105h : **15 €/h TTC** max\n- Formations ≤ 105h : **65 €/h TTC** max\n- Groupe (5+ stagiaires) : **1 800 €/jour** max\n\n**Frais annexes** :\n- Repas : **30 €/repas**\n- Hébergement province : **150 €/nuit**\n- Hébergement Île-de-France : **200 €/nuit**\n- Transport : 2de classe SNCF au réel, voiture au barème fiscal (base 6 CV)\n\n**PDC < 50 salariés** : plafond **5 000 €/an**/SIREN, 1 demande/an. Allocation remplacement **13 €/h** (< 11 sal., avec remplacement effectif). Pas de plafond pour formations certifiantes RNCP.\n\n**PDC ≥ 50 salariés** : budget ouvert le **15 avril 2026**. **80%** des contributions conventionnelles nettes. Couverture complète : pédagogie + frais annexes + rémunération. Pas de plafond par demande, nombre illimité.\n\n**Contrat d'apprentissage** : forfait NPEC annuel proratisé. Aides employeur 2026 (< 250 sal.) : niv. 3-4 = 5 000 €, niv. 5 = 4 500 €, niv. 6-7 = 2 000 €. 250+ sal. : niv. 5 = 1 500 €, niv. 6-7 = 750 €. Handicap : 6 000 €.\n\n**Contrat de professionnalisation ALISFA** : **18 €/h** (standard : 15 €/h). Handicapés/GEIQ : **21 €/h**. Durée max 24 mois.\n\n**Tutorat** : AEFT 230 €/mois × 6 mois (345 € handicap). AEFMA 230 €/mois × 6 mois (handicap). Formation tuteur : 15 €/h, max 40h.\n\n**AFEST** : mêmes barèmes que le PDC.\n\n**Bilan de compétences** : plafond CPF 1 600 € + 103,20 € reste à charge. Plan : au réel, financement Uniformation.\n\n**CPF co-construction** : reste à charge salarié 103,20 € (2026). Exonéré si abondement employeur.",
+            "sources": [
+              "ALISFA - Tableau des règles de financement 2026 (9 janv. 2026, MAJ 13 mars 2026)",
+              "uniformation.fr/entreprise/financements/frais-annexes-et-couts-pedagogiques",
+              "uniformation.fr/entreprise/formation/guide-des-dispositifs"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cat-02",
+          "question_type": "Comment sont calculées les contributions formation ALISFA en 2026 ?",
+          "mots_cles": [
+            "contribution",
+            "2026",
+            "calcul",
+            "taux",
+            "2.3%",
+            "2.1%",
+            "0.2%",
+            "URSSAF",
+            "DSN",
+            "conventionnelle",
+            "légale",
+            "CFP",
+            "taxe apprentissage",
+            "CPF-CDD",
+            "masse salariale",
+            "simulateur"
+          ],
+          "reponse": {
+            "synthese": "En 2026, les employeurs ALISFA versent un total de 2,3% de la masse salariale brute pour la formation (2,1% formation + 0,2% emploi-formation), plus 0,68% de taxe d'apprentissage. La collecte est intégralement réalisée par l'URSSAF via la DSN mensuelle depuis janvier 2026.",
+            "minimum_legal": "Contribution légale (CUFPA) collectée par l'URSSAF :\n- **CFP** : 0,55% (< 11 sal.) ou 1,00% (11+ sal.) de la masse salariale brute\n- **Taxe d'apprentissage** : 0,68% (part principale 0,59% + solde 0,09%)\n- **CPF-CDD** : 1% de la masse salariale des contrats CDD uniquement\n- Franchissement du seuil de 11 sal. : lissage sur 5 ans\n\nTotal CUFPA : 1,23% (< 11 sal.) ou 1,68% (11+ sal.), hors CPF-CDD.",
+            "plus_formation": "**Contribution conventionnelle ALISFA (collectée par URSSAF en DSN) :**\n- < 11 salariés : **1,55%** supplément conventionnel\n- 11+ salariés : **1,10%** supplément conventionnel\n- Soutien emploi-formation : **0,20%** (toutes tailles)\n\n**Récapitulatif total employeur ALISFA 2026 :**\n\n| | < 11 sal. | 11+ sal. |\n|---|---|---|\n| CFP légale | 0,55% | 1,00% |\n| Suppl. conv. ALISFA | 1,55% | 1,10% |\n| **Total formation** | **2,10%** | **2,10%** |\n| Soutien emploi | 0,20% | 0,20% |\n| **Sous-total ALISFA** | **2,30%** | **2,30%** |\n| Taxe apprentissage | 0,68% | 0,68% |\n| **Total global** | **2,98%** | **2,98%** |\n| CPF-CDD (sur MS CDD) | 1% | 1% |\n\nLe taux ALISFA de 2,10% est identique quelle que soit la taille : le supplément conventionnel s'ajuste pour compenser la différence du taux légal.\n\n**Depuis janvier 2026**, les contributions conventionnelles sont collectées par l'URSSAF (et non plus par Uniformation directement), via la DSN mensuelle. Code IDCC : 1261.",
+            "sources": [
+              "Art. L6331-1 Code du travail",
+              "Art. 4.5 Préambule CCN ALISFA",
+              "uniformation.fr/entreprise/nous-rejoindre-vos-contributions/vos-contributions",
+              "urssaf.fr - contributions conventionnelles",
+              "ALISFA - Tableau des règles de financement 2026"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Participation et aides au financement de la formation",
+              "fichier": "09_PARTICIPATION_ET_AIDES_AU_FINANCEMENT_DE_LA_FORMATION_PROFESSIONNELLE.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cat-03",
+          "question_type": "Quelles sont les aides à l'apprentissage en 2026 ?",
+          "mots_cles": [
+            "aide",
+            "apprentissage",
+            "2026",
+            "aide unique",
+            "aide exceptionnelle",
+            "6000",
+            "5000",
+            "4500",
+            "2000",
+            "employeur",
+            "embauche",
+            "apprenti",
+            "handicap",
+            "NPEC",
+            "subvention"
+          ],
+          "reponse": {
+            "synthese": "En 2026, les aides à l'apprentissage sont réformées par le décret du 8 mars 2026. Les entreprises de moins de 250 salariés bénéficient de 2 000 à 5 000 € selon le niveau du diplôme. L'aide handicap peut atteindre 6 000 €.",
+            "minimum_legal": "**Aides à l'apprentissage 2026 (décret n°2026-168 du 8 mars 2026) :**\n\nPour les contrats conclus à compter du 8 mars 2026 :\n\n**Entreprises < 250 salariés** :\n- Niveau 3 (CAP) : **5 000 €** (aide unique)\n- Niveau 4 (Bac) : **5 000 €** (aide unique)\n- Niveau 5 (Bac+2) : **4 500 €** (aide exceptionnelle)\n- Niveau 6 (Bac+3) : **2 000 €** (aide exceptionnelle)\n- Niveau 7 (Bac+5) : **2 000 €** (aide exceptionnelle)\n\n**Entreprises 250+ salariés** :\n- Niveau 5 : **1 500 €**\n- Niveau 6-7 : **750 €**\n- Niveaux 3-4 : pas d'aide\n\n**Aide handicap (RQTH)** : jusqu'à **6 000 €**, toutes tailles, tous niveaux.\n\nL'aide est versée la 1ère année uniquement, proratisée selon la durée du contrat. Versement mensuel par l'ASP.",
+            "plus_formation": "**Rémunération de l'apprenti (% du SMIC 2026 = 1 823,07 € brut)** :\n\n| Âge | 1ère année | 2ème année | 3ème année |\n|---|---|---|---|\n| 16-17 ans | 27% (492 €) | 39% (711 €) | 55% (1 003 €) |\n| 18-20 ans | 43% (784 €) | 51% (930 €) | 67% (1 221 €) |\n| 21-25 ans | 53% (966 €) | 61% (1 112 €) | 78% (1 422 €) |\n| 26+ ans | 100% (1 823 €) | 100% | 100% |\n\n**Exonérations** : charges sociales réduites jusqu'à 50% du SMIC. Contribution employeur de 750 € pour certifications Bac+3+ (1ère année).\n\n**NPEC (Niveaux de Prise en Charge)** : montants fixés par France Compétences, révisés en mai 2026. Proratisation journalière depuis juillet 2025.\n\n**Certifications ALISFA courantes** : CAP AEPE (~6 700 €/an), CPJEPS (~6 100 €/an), BPJEPS (~8 200 €/an), DE EJE (~7 500 €/an), CAFERUIS (~8 500 €/an).\n\nUtilisez le **simulateur Coût Apprenti** dans notre module Formation pour calculer le coût net pour votre structure.",
+            "sources": [
+              "Décret n°2026-168 du 8 mars 2026",
+              "Art. D6222-26 Code du travail (grille rémunération)",
+              "France Compétences - NPEC 2026",
+              "service-public.fr - Aides apprentissage 2026"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Contrat d'apprentissage",
+              "fichier": "03_CONTRAT_APPRENTISSAGE_0824.pdf"
+            }
+          ]
+        },
+        {
+          "id": "cat-04",
+          "question_type": "Quels services gratuits Uniformation propose-t-il en 2026 ?",
+          "mots_cles": [
+            "services",
+            "gratuit",
+            "Uniformation",
+            "Zoom RH",
+            "Zoom Compétences",
+            "Matinales",
+            "diagnostic",
+            "accompagnement",
+            "conseil",
+            "clés en main",
+            "catalogue",
+            "offre"
+          ],
+          "reponse": {
+            "synthese": "Uniformation propose plusieurs services gratuits en 2026 pour les structures ALISFA : Zoom RH (diagnostic), formations clés en main, Matinales RH, Zoom Compétences, et un accompagnement personnalisé par des conseillers régionaux dédiés.",
+            "minimum_legal": "Ces services sont financés par les contributions mutualisées des employeurs. Ils ne constituent pas une obligation légale mais un service inclus dans l'adhésion à l'OPCO.",
+            "plus_formation": "**Services gratuits Uniformation 2026 :**\n\n**1. Zoom RH** (structures < 250 salariés)\nDiagnostic RH gratuit : analyse des pratiques, identification des besoins, plan d'action. Accompagnement personnalisé par un consultant.\n\n**2. Zoom Compétences** (structures 300+ salariés)\nDiagnostic approfondi des compétences, GPEC, cartographie des métiers.\n\n**3. Formations clés en main** (structures < 50 salariés)\nCatalogue de formations gratuites sur des thématiques clés : management, numérique, obligations employeur, accueil du public, relations familles.\n\n**4. Matinales RH** (structures 50+ salariés)\nAteliers thématiques d'actualité juridique et RH, en présentiel ou distanciel.\n\n**5. Conseillers régionaux dédiés**\nChaque structure ALISFA dispose d'un conseiller Uniformation dédié pour l'accompagner dans ses démarches formation : élaboration du plan, montage des dossiers, suivi des financements.\n\n**6. Catalogue inter-entreprises**\nSessions de formation inter-entreprises pré-organisées, couvrant les thématiques du secteur.\n\n**Accès** : uniformation.fr avec identifiants ICOM, ou appel au 09 69 32 79 79.",
+            "sources": [
+              "uniformation.fr/entreprise/formation/guide-des-dispositifs",
+              "uniformation.fr/partenaire-prestataire/uniformation-lopco-de-la-cohesion-sociale/branches-professionnelles-de-la-cohesion-sociale/alisfa"
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "reste_a_charge_certifiant",
+      "label": "Reste à charge formation certifiante ALISFA",
+      "chapitre": "Financement certifiant",
+      "articles": [
+        {
+          "id": "rac-01",
+          "question_type": "Comment financer une formation certifiante pour un salarié de niveau CAP ou Bac dans la branche ALISFA ?",
+          "mots_cles": [
+            "reste à charge",
+            "certifiant",
+            "certification",
+            "CAP",
+            "Bac",
+            "AEPE",
+            "CPJEPS",
+            "BPJEPS",
+            "EJE",
+            "financement",
+            "subvention",
+            "aide",
+            "DAF certifiante",
+            "DAF",
+            "Transitions Pro",
+            "PTP",
+            "CPF",
+            "qualification",
+            "niveau 3",
+            "niveau 4",
+            "coût formation",
+            "PREC"
+          ],
+          "reponse": {
+            "synthese": "Les salariés de niveau CAP (niveau 3) et Bac (niveau 4) de la branche ALISFA sont prioritaires pour accéder à des formations certifiantes. En 2026, les dispositifs mobilisables sont : la DAF Certifiante CPNEF (dispositif transitoire), Transitions Pro (PTP) et le CPF du salarié. En les cumulant, le reste à charge employeur peut être significativement réduit.",
+            "minimum_legal": "Le Code du travail (art. L6321-1) impose à l'employeur d'assurer l'adaptation et l'employabilité. Pour les formations certifiantes, plusieurs dispositifs légaux existent :\n\n**1. Transitions Pro (PTP)** — Art. L6323-17-1 C. trav.\nLes salariés en CDI avec 2+ ans d'ancienneté (dont 12 mois dans l'entreprise) peuvent demander un congé de transition professionnelle. Le salaire est maintenu à 100% si < 2 SMIC, 60% au-delà. Prise en charge pédagogique jusqu'à 18 000 €. Les salariés de niveau CAP/Bac sont classés en PRIORITÉ 1 par les CPIR.\n\n**2. CPF (Compte Personnel de Formation)** — Art. L6323-1 C. trav.\nAbondé de 500 €/an (plafonné 5 000 €). L'employeur peut abonder volontairement. Reste à charge salarié : 103,20 € (participation forfaitaire 2026).\n\n**3. Plan de développement des compétences** — Art. L6312-1 C. trav.\nL'employeur peut financer directement via le plan, avec prise en charge Uniformation selon les barèmes en vigueur.",
+            "plus_formation": "**Dispositifs spécifiques branche ALISFA (source : Brochure financements ALISFA 2026 + CTP 27/03/2026) :**\n\n**DAF Certifiante — Dispositif transitoire (janv.-juin 2026)**\nLa Période de reconversion (PREC) remplace la Pro-A depuis le 1er janvier 2026, mais n'est PAS ENCORE OPÉRATIONNELLE (décrets récemment publiés, modalités en attente). En attendant, la CPNEF a mis en place un dispositif transitoire :\n\n- Éligibilité : formations RNCP, RS, CQP, CQPI — minimum 70h obligatoire\n- Prise en charge : coût réel dans la limite de 15 €/h (heures théoriques en centre)\n- Rémunération : aucune prise en charge\n- Frais annexes : aucune prise en charge\n- Période : actions démarrant entre le 1er janv. et le 30 juin 2026\n- Dépôt : portail Uniformation, 1 mois avant, mention « DAF CONVENTIONNELLE CERTIFIANTE + nom certif. »\n\nLes modalités après le 30 juin 2026 seront communiquées dès que le cadre réglementaire de la PREC sera stabilisé.\n\n**Certifications clés du secteur ALISFA (coûts indicatifs formation continue 2026) :**\n- CAP AEPE (Petite Enfance) : 2 120 – 7 370 €, 550h centre + 448h stage\n- CPJEPS AAVQ SLAS (Animation, ex-AAVQ depuis 01/2025) : 4 000 – 8 455 €, ~1 000h alternance\n- BPJEPS ASEC (ex-LTP, depuis 01/2025) : 5 230 – 9 600 €, ~1 500h alternance\n- DE EJE (3 ans) : 18 000 – 25 650 €, 1 500h théorie + 2 100h stage\n- Titre Pro ADVF : 3 500 – 7 000 €, 450h centre + stages\n- CQP Animateur Périscolaire : ~3 000 – 4 500 €, 350h\n\n**Stratégie optimale 2026** : DAF Certifiante CPNEF (transitoire janv.-juin 2026) + CPF salarié (participation 150 €, plafond 1 500 € pour RS) + abondement employeur. Pour les salariés éligibles : Transitions Pro (PTP) couvre pédagogie + salaire.",
+            "sources": [
+              "Brochure financements formation ALISFA employeurs 2026 (p28-29, p33-34)",
+              "Art. L6323-17-1 Code du travail (PTP)",
+              "Art. L6323-1 Code du travail (CPF)",
+              "CTP 27/03/2026 — Propositions financement certifiant",
+              "Uniformation — Guide dispositifs 2026"
+            ]
+          },
+          "fiches_pratiques": [
+            {
+              "titre": "Chapitre VIII - Formation professionnelle CCN",
+              "fichier": "09_CHAPITRE_VIII_FORMATION_PROFESSIONNELLE_DISPOSITION_DE_LA_CCN.pdf"
+            },
+            {
+              "titre": "Plan de développement des compétences",
+              "fichier": "09-PLAN-DEVELOPPEMENT-DES-COMPETENCES.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

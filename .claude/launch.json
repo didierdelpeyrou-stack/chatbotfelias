@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "elisfa-proxy",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-c", "import http.server,urllib.request,socketserver;PORT=8765\nclass P(http.server.BaseHTTPRequestHandler):\n  def do_GET(self):\n    try:\n      r=urllib.request.urlopen(f'http://185.170.58.106:5000{self.path}',timeout=15)\n      self.send_response(r.status)\n      for k,v in r.getheaders():self.send_header(k,v)\n      self.end_headers();self.wfile.write(r.read())\n    except Exception as e:self.send_response(502);self.end_headers();self.wfile.write(str(e).encode())\n  def do_POST(self):\n    try:\n      l=int(self.headers.get('Content-Length',0));body=self.rfile.read(l)\n      req=urllib.request.Request(f'http://185.170.58.106:5000{self.path}',data=body,headers={'Content-Type':self.headers.get('Content-Type','application/json')},method='POST')\n      r=urllib.request.urlopen(req,timeout=30)\n      self.send_response(r.status)\n      for k,v in r.getheaders():self.send_header(k,v)\n      self.end_headers();self.wfile.write(r.read())\n    except Exception as e:self.send_response(502);self.end_headers();self.wfile.write(str(e).encode())\nwith socketserver.TCPServer(('',PORT),P) as s:print(f'Proxy on {PORT}');s.serve_forever()"],
+      "port": 8765
+    },
+    {
+      "name": "ccn-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-c", "import os,http.server,socketserver\nPORT=int(os.environ.get('PORT','8766'))\nos.chdir('/Users/didierdelpeyrou/Desktop/Chat elisfa/chatbot_elisfa/static')\nwith socketserver.TCPServer(('',PORT),http.server.SimpleHTTPRequestHandler) as s:\n  print(f'Preview on {PORT}');s.serve_forever()"],
+      "port": 8766
+    }
+  ]
+}

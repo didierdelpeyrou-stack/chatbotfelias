@@ -1,0 +1,618 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "date_consolidation": "2026-04-15",
+    "module": "gouvernance",
+    "libelle": "Gouvernance associative & Bénévolat — branche ALISFA",
+    "perimetre": "Centres sociaux, EAJE associatifs, associations de développement social local, structures employeuses de la branche ALISFA (IDCC 1261).",
+    "sources_principales": [
+      "Loi 1901 relative au contrat d'association",
+      "Code du travail (représentation du personnel, statut du dirigeant bénévole)",
+      "CCN ALISFA (IDCC 1261)",
+      "Documents officiels ELISFA / paritaires 2023-2025",
+      "Travaux universitaires référencés (Simon Cottin-Marx, Cnam/LISE)"
+    ],
+    "avertissement": "Base documentaire à finalité informative. Pour toute décision engageant l'association, consulter les statuts, l'expert-comptable, le commissaire aux comptes ou le conseil juridique de la structure.",
+    "enrichissements": [
+      {
+        "date": "2026-04-15",
+        "source": "Loi 1901, associations.gouv.fr, HCVA, CNRS Tchernonog, INJEP, CNIL, BOFiP",
+        "ajouts": [
+          "gv-07",
+          "gv-08",
+          "gv-09",
+          "gv-10",
+          "gv-11",
+          "gv-12"
+        ],
+        "note": "Responsabilité dirigeants bénévoles, CER, organes statutaires, droits bénévoles, fiscalité + RGPD, chiffres clés vie associative."
+      }
+    ]
+  },
+  "themes": [
+    {
+      "id": "cadre_legal",
+      "label": "Cadre légal de l'association employeuse",
+      "articles": [
+        {
+          "id": "gv-01",
+          "question_type": "Quel est le cadre juridique de l'association loi 1901 employeuse dans la branche ALISFA ?",
+          "mots_cles": [
+            "loi 1901",
+            "association employeuse",
+            "statuts",
+            "objet social",
+            "but non lucratif",
+            "gouvernance",
+            "ALISFA",
+            "patronat associatif",
+            "dirigeant bénévole",
+            "responsabilité civile",
+            "capacité juridique"
+          ],
+          "reponse": {
+            "synthese": "Les structures de la branche ALISFA sont majoritairement des associations loi 1901 à but non lucratif. Dès lors qu'elles emploient des salariés, elles cumulent un statut associatif (gouvernance bénévole, objet social d'intérêt général) et un statut d'employeur (obligations du Code du travail, application de la CCN ALISFA — IDCC 1261). Cette double nature est au cœur des enjeux de gouvernance : le président bénévole assume les responsabilités d'employeur au nom du conseil d'administration.",
+            "fondement_legal": "Loi du 1er juillet 1901 relative au contrat d'association (articles 1 à 5). Décret du 16 août 1901. Code du travail (livres I à V). Code de la sécurité sociale. Le président, en tant que représentant légal, engage l'association dans les actes de gestion courante et d'employeur (art. 6 loi 1901).",
+            "fondement_ccn": "La CCN ALISFA (IDCC 1261) s'impose à toute association entrant dans son champ d'application dès la première embauche. L'association doit appliquer l'ensemble des dispositions de la CCN consolidée (classification 10-22, rémunération, prévoyance, santé, dialogue social).",
+            "application": "L'association doit : (1) rédiger des statuts clairs définissant les organes (AG, CA, Bureau), (2) désigner un président ayant la qualité d'employeur, (3) déclarer son activité à l'URSSAF et appliquer la CCN, (4) souscrire une assurance responsabilité civile couvrant les dirigeants (RC mandataires sociaux associatifs).",
+            "vigilance": "Le dirigeant bénévole n'est pas salarié mais peut engager sa responsabilité civile, voire pénale, en cas de manquement aux obligations d'employeur (hygiène-sécurité, harcèlement, discrimination). L'absence de distinction claire entre direction bénévole et direction salariée est une source fréquente de contentieux.",
+            "sources": [
+              "Loi du 1er juillet 1901",
+              "Code du travail",
+              "CCN ALISFA (IDCC 1261)"
+            ],
+            "liens": [
+              {
+                "titre": "Loi 1901 — Legifrance",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000497458/"
+              },
+              {
+                "titre": "CCN ALISFA (IDCC 1261)",
+                "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALICONT000005635384"
+              },
+              {
+                "titre": "Guide associations — service-public.fr",
+                "url": "https://www.service-public.fr/associations"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-02",
+          "question_type": "Quelles sont les responsabilités du président d'une association employeuse ALISFA ?",
+          "mots_cles": [
+            "président",
+            "responsabilité",
+            "employeur",
+            "mandataire social",
+            "délégation de pouvoirs",
+            "faute de gestion",
+            "responsabilité civile",
+            "responsabilité pénale",
+            "conseil d'administration",
+            "bureau"
+          ],
+          "reponse": {
+            "synthese": "Le président d'une association employeuse est le représentant légal et l'employeur au sens du Code du travail. À ce titre, il signe les contrats de travail, prononce les sanctions disciplinaires, applique les obligations en matière de santé-sécurité (DUERP), et représente l'association devant les juridictions. Il peut déléguer une partie de ses pouvoirs à un directeur salarié via une délégation de pouvoirs écrite, précise et effective.",
+            "fondement_legal": "Art. 6 loi 1901 (représentation légale). Art. L1221-1 C. trav. (qualité d'employeur). Art. L4121-1 C. trav. (obligation de sécurité). Jurisprudence constante sur la délégation de pouvoirs (Cass. crim., critères : autorité, compétence, moyens). Art. 1240 C. civ. (responsabilité civile). Art. 121-2 C. pén. (responsabilité pénale des personnes morales et de leurs dirigeants).",
+            "fondement_ccn": "La CCN ALISFA reconnaît le rôle central de l'employeur associatif dans le dialogue social local (titres I, II, III de la CCN). Les accords collectifs d'entreprise sont signés au nom de l'association par son représentant légal ou son délégataire.",
+            "application": "Bonnes pratiques : (1) formaliser une délégation de pouvoirs écrite au directeur salarié pour la gestion quotidienne RH, santé-sécurité et finances, (2) tenir un registre des décisions du CA, (3) organiser des AG annuelles, (4) souscrire une assurance RC mandataire social, (5) former le président aux obligations d'employeur (INSEP, CNAM, UDES).",
+            "vigilance": "Une délégation de pouvoirs mal rédigée est réputée inexistante : le président reste alors pleinement responsable. La qualité d'employeur ne peut être diluée entre plusieurs personnes : une seule personne physique doit pouvoir être identifiée comme responsable in fine. Attention aux cas de faute de gestion (art. L651-2 C. com. — action en comblement de passif).",
+            "sources": [
+              "Loi 1901 art. 6",
+              "Art. L1221-1, L4121-1 C. trav.",
+              "Art. 121-2 C. pén."
+            ],
+            "liens": [
+              {
+                "titre": "Responsabilités du dirigeant associatif — associations.gouv.fr",
+                "url": "https://www.associations.gouv.fr/"
+              },
+              {
+                "titre": "UDES — Union des employeurs de l'ESS",
+                "url": "https://www.udes.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-07",
+          "question_type": "Quelle est la responsabilité civile et pénale des dirigeants bénévoles d'association ?",
+          "mots_cles": [
+            "responsabilité dirigeant",
+            "dirigeant bénévole",
+            "faute de gestion",
+            "article 1992 Code civil",
+            "mandataire social",
+            "faute séparable",
+            "responsabilité pénale",
+            "association employeur",
+            "assurance RC",
+            "dirigeants"
+          ],
+          "reponse": {
+            "synthese": "Les dirigeants bénévoles d'une association (président, trésorier, secrétaire, administrateurs) sont des mandataires sociaux agissant au nom et pour le compte de l'association. Leur responsabilité CIVILE n'est en principe engagée que pour faute séparable de leurs fonctions (faute d'une particulière gravité incompatible avec l'exercice normal du mandat — Cass. com. 20 mai 2003 « Société Seusse »). Leur responsabilité PÉNALE est personnelle et engagée pour les infractions qu'ils commettent directement (abus de confiance, travail dissimulé, manquements à l'hygiène/sécurité, fraude fiscale).",
+            "fondement_legal": "Loi du 1er juillet 1901 relative au contrat d'association. Article 1992 du Code civil (responsabilité du mandataire). Article 1240 du Code civil (responsabilité délictuelle générale). Article L121-1 du Code pénal (responsabilité pénale personnelle). Articles 121-2 et 121-3 du Code pénal (responsabilité des personnes morales). Jurisprudence : Cass. com. 20 mai 2003 n° 99-17.092 (faute séparable des fonctions), Cass. crim. 9 décembre 2014 n° 13-85.401 (responsabilité pénale du dirigeant employeur).",
+            "fondement_ccn": "Sans objet. La CCN ALISFA concerne les salariés, pas les dirigeants bénévoles. Toutefois le président est souvent l'employeur au sens du Code du travail et porte à ce titre les obligations sociales.",
+            "application": "Mesures de prévention : (1) souscrire une assurance Responsabilité Civile des Mandataires Sociaux (RCMS) avec garantie étendue aux dirigeants bénévoles, (2) tenir à jour les PV d'assemblée générale et de conseil d'administration, (3) respecter strictement les statuts et le règlement intérieur, (4) documenter toute décision importante (CR, motivation), (5) ne jamais mélanger patrimoine personnel et associatif, (6) s'assurer que le bilan et le compte de résultat sont approuvés annuellement en AG, (7) former les nouveaux administrateurs.",
+            "vigilance": "La responsabilité pénale du président en tant qu'employeur est fréquemment engagée en cas d'accident du travail grave (manquement à l'obligation de sécurité — L4121-1 C. trav.), de travail dissimulé (L8221-1) ou de défaut de déclaration à l'URSSAF. Une délégation de pouvoirs claire, précise et acceptée peut transférer cette responsabilité à un salarié directeur (Cass. crim. 19 février 2019 n° 17-82.793) — encore faut-il qu'il ait l'autorité, la compétence et les moyens. En cas d'insolvabilité de l'association, la responsabilité civile des dirigeants pour insuffisance d'actif peut être engagée (art. L651-2 Code de commerce applicable aux associations).",
+            "sources": [
+              "Loi du 1er juillet 1901",
+              "Art. 1992 Code civil",
+              "Art. 121-2 et 121-3 Code pénal",
+              "Cass. com. 20 mai 2003 n° 99-17.092",
+              "Cass. crim. 19 février 2019 n° 17-82.793",
+              "HCVA — guide responsabilité des dirigeants associatifs"
+            ],
+            "liens": [
+              {
+                "titre": "associations.gouv.fr — responsabilité dirigeants",
+                "url": "https://www.associations.gouv.fr/responsabilite-des-dirigeants.html"
+              },
+              {
+                "titre": "Loi 1901 — Légifrance",
+                "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069570/"
+              },
+              {
+                "titre": "HCVA — publications",
+                "url": "https://www.associations.gouv.fr/le-haut-conseil-a-la-vie-associative-hcva.html"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-08",
+          "question_type": "Qu'est-ce que le Contrat d'Engagement Républicain (CER) et qui est concerné ?",
+          "mots_cles": [
+            "contrat engagement républicain",
+            "CER",
+            "loi séparatisme",
+            "loi 2021-1109",
+            "subventions publiques",
+            "agrément",
+            "décret 2021-1947",
+            "retrait",
+            "principes républicains",
+            "associations"
+          ],
+          "reponse": {
+            "synthese": "Le Contrat d'Engagement Républicain (CER), créé par la loi du 24 août 2021 confortant le respect des principes de la République (dite « loi séparatisme »), est une obligation pour toute association ou fondation qui sollicite une subvention publique OU un agrément d'État. Elle doit s'engager, à travers un texte en 7 points, à respecter les principes de liberté, d'égalité, de fraternité, de dignité de la personne humaine, à respecter les symboles de la République, à ne pas remettre en cause le caractère laïque de la France, et à s'abstenir de toute action portant atteinte à l'ordre public.",
+            "fondement_legal": "Loi n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République. Article 10-1 de la loi n° 2000-321 du 12 avril 2000 (modifié par la loi 2021-1109). Décret n° 2021-1947 du 31 décembre 2021 approuvant le contrat type. Entrée en vigueur le 1er janvier 2022. Le non-respect du CER peut entraîner le retrait de la subvention ou de l'agrément (article 12 de la loi).",
+            "fondement_ccn": "Sans objet pour la gouvernance interne. Les structures ALISFA financées par des subventions publiques (État, collectivités, CAF conventions de prestations de service) sont toutes concernées.",
+            "application": "Quand souscrire le CER : (1) lors de toute demande de subvention publique (Cerfa 12156*06 ou équivalent), (2) lors de toute demande d'agrément d'État (agrément jeunesse et éducation populaire, agrément sport, reconnaissance d'utilité publique), (3) lors du renouvellement. Le CER est matériellement intégré au formulaire de demande. L'association doit aussi en informer ses adhérents et le mettre en œuvre concrètement dans son fonctionnement.",
+            "vigilance": "Le retrait d'une subvention déjà versée en cas de non-respect du CER peut entraîner le remboursement intégral. L'appréciation par le préfet est large et peut concerner des actions ou propos de salariés, d'élus ou d'adhérents tenus au nom de l'association. Plusieurs recours ont été engagés devant le Conseil d'État sur l'application du dispositif (Conseil d'État, 12 juillet 2023 n° 461962 : validation partielle). Il est recommandé de porter le CER à la connaissance du CA et de l'AG pour traçabilité.",
+            "sources": [
+              "Loi n° 2021-1109 du 24 août 2021",
+              "Décret n° 2021-1947 du 31 décembre 2021",
+              "Art. 10-1 loi n° 2000-321 du 12 avril 2000",
+              "Conseil d'État, 12 juillet 2023 n° 461962"
+            ],
+            "liens": [
+              {
+                "titre": "associations.gouv.fr — CER",
+                "url": "https://www.associations.gouv.fr/le-contrat-d-engagement-republicain.html"
+              },
+              {
+                "titre": "Décret 2021-1947 — Légifrance",
+                "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044806609"
+              },
+              {
+                "titre": "Loi 2021-1109 — Légifrance",
+                "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043964778"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "instances",
+      "label": "Instances associatives & Vie démocratique",
+      "articles": [
+        {
+          "id": "gv-03",
+          "question_type": "Comment organiser l'Assemblée générale, le Conseil d'administration et le Bureau dans une association ALISFA ?",
+          "mots_cles": [
+            "assemblée générale",
+            "AG",
+            "conseil d'administration",
+            "CA",
+            "bureau",
+            "statuts",
+            "quorum",
+            "vote",
+            "procès-verbal",
+            "démocratie associative",
+            "mandat"
+          ],
+          "reponse": {
+            "synthese": "Les trois instances typiques d'une association ALISFA sont : (1) l'Assemblée générale (AG), instance souveraine réunissant les adhérents, qui vote les grandes orientations, approuve les comptes et élit le CA ; (2) le Conseil d'administration (CA), élu par l'AG, qui administre l'association entre deux AG ; (3) le Bureau (président, trésorier, secrétaire), émanation du CA, qui assure la gestion courante. Les modalités précises sont fixées par les statuts et le règlement intérieur.",
+            "fondement_legal": "Loi 1901 (liberté statutaire : la loi n'impose ni AG, ni CA, ni Bureau sauf pour les associations reconnues d'utilité publique). Art. 4 et 5 loi 1901 (déclaration préfectorale et modifications statutaires). Code civil art. 1108 (consentement valable lors des votes).",
+            "fondement_ccn": "La CCN ALISFA n'intervient pas dans l'organisation interne des instances associatives mais reconnaît la gouvernance bénévole comme spécificité de la branche (dialogue social, formation des administrateurs).",
+            "application": "Bonnes pratiques : (1) tenir au moins une AG ordinaire par an, (2) convoquer les adhérents dans les délais statutaires (souvent 15 jours), (3) établir un ordre du jour clair, (4) respecter le quorum statutaire, (5) rédiger un procès-verbal signé par le président et le secrétaire, (6) conserver les PV à disposition des adhérents et des autorités de contrôle.",
+            "vigilance": "L'absence d'AG régulière fragilise la légitimité des décisions prises. Un CA qui ne se réunit plus peut être requalifié en « gestion de fait ». Les décisions engageant l'association au-delà des statuts (achat immobilier, emprunt, embauche) doivent être autorisées par le CA ou l'AG selon les statuts.",
+            "sources": [
+              "Loi du 1er juillet 1901",
+              "Décret du 16 août 1901"
+            ],
+            "liens": [
+              {
+                "titre": "Guide de la vie associative — service-public.fr",
+                "url": "https://www.service-public.fr/associations/vosdroits/N19554"
+              },
+              {
+                "titre": "Le Mouvement associatif",
+                "url": "https://lemouvementassociatif.org/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-09",
+          "question_type": "Quel est le rôle respectif de l'assemblée générale, du conseil d'administration et du bureau ?",
+          "mots_cles": [
+            "assemblée générale",
+            "conseil d'administration",
+            "bureau",
+            "statuts",
+            "organes",
+            "loi 1901",
+            "délibération",
+            "quorum",
+            "majorité",
+            "procuration",
+            "visioconférence"
+          ],
+          "reponse": {
+            "synthese": "La loi du 1er juillet 1901 laisse aux associations une grande liberté pour s'organiser : elle n'impose PAS de structure particulière (CA, bureau, AG). Toutefois, la pratique et la plupart des statuts prévoient trois organes : (1) l'Assemblée Générale (AG), souveraine, qui rassemble tous les membres et prend les décisions stratégiques ; (2) le Conseil d'Administration (CA), élu par l'AG, qui administre l'association entre deux AG ; (3) le Bureau, émanation du CA, qui assure la gestion courante et représente l'association vis-à-vis des tiers.",
+            "fondement_legal": "Loi du 1er juillet 1901 (aucune disposition contraignante sur les organes). Article 5 de la loi 1901 (déclaration des changements de dirigeants au RNA). Les règles précises sont celles fixées par les STATUTS de l'association, lesquels ont force de loi entre les membres (Cass. civ. 1, 15 avril 2015 n° 14-12.531). À défaut de précision statutaire, les règles générales du mandat s'appliquent (art. 1984 et s. du Code civil).",
+            "fondement_ccn": "Sans objet. La gouvernance est statutaire. La CCN ALISFA concerne uniquement les relations employeur/salariés.",
+            "application": "AG : délibère sur l'approbation des comptes, la décharge des administrateurs, l'élection des administrateurs, les modifications statutaires, la dissolution, les orientations stratégiques. CA : met en œuvre la politique définie par l'AG, arrête le budget et les comptes avant présentation à l'AG, embauche et licencie le directeur salarié, gère l'association au quotidien. Bureau : exécute les décisions du CA, gère les affaires courantes, représente l'association (signatures bancaires, contrats). Depuis les ordonnances du 25 mars 2020 et la loi ASAP du 7 décembre 2020, les AG et CA peuvent se tenir à distance (visioconférence ou audioconférence) même sans mention statutaire, sous conditions.",
+            "vigilance": "Respecter scrupuleusement les statuts : un acte pris en violation des règles statutaires (convocation irrégulière, absence de quorum, dépassement des pouvoirs) peut être annulé en justice. Les PV d'AG et de CA doivent être conservés de manière fiable (registre spécial recommandé). Toute modification statutaire doit être déclarée à la préfecture (RNA) dans les 3 mois (art. 5 loi 1901) ; à défaut, amende de 1 500 €. Les décisions importantes (achat immobilier, emprunt, embauche directeur) doivent être mentionnées explicitement dans les statuts ou déléguées par écrit.",
+            "sources": [
+              "Loi du 1er juillet 1901",
+              "Cass. civ. 1, 15 avril 2015 n° 14-12.531",
+              "Ordonnance n° 2020-321 du 25 mars 2020",
+              "Loi n° 2020-1525 du 7 décembre 2020 (ASAP)",
+              "Guide HCVA — fonctionnement statutaire"
+            ],
+            "liens": [
+              {
+                "titre": "associations.gouv.fr — statuts et fonctionnement",
+                "url": "https://www.associations.gouv.fr/creer-votre-association.html"
+              },
+              {
+                "titre": "Loi 1901 — Légifrance",
+                "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069570/"
+              },
+              {
+                "titre": "Guide de l'association — associations.gouv.fr",
+                "url": "https://www.associations.gouv.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "benevolat",
+      "label": "Bénévolat, engagement & relation salarié-bénévole",
+      "articles": [
+        {
+          "id": "gv-04",
+          "question_type": "Quel est le statut du bénévole et comment articuler travail bénévole et travail salarié dans une structure ALISFA ?",
+          "mots_cles": [
+            "bénévole",
+            "bénévolat",
+            "engagement",
+            "travail dissimulé",
+            "lien de subordination",
+            "salarié-bénévole",
+            "charte du bénévolat",
+            "dédommagement",
+            "frais bénévole",
+            "remboursement",
+            "RI bénévole"
+          ],
+          "reponse": {
+            "synthese": "Le bénévole est une personne qui s'engage librement pour mener une action non salariée au profit d'une cause, sans aucune contrepartie financière hormis le remboursement éventuel des frais engagés sur justificatif. Dans une structure ALISFA, la frontière entre bénévole et salarié est un enjeu majeur : le bénévole ne doit pas se trouver dans un lien de subordination caractérisé (horaires imposés, sanctions, rémunération déguisée), au risque d'une requalification en contrat de travail et d'une condamnation pour travail dissimulé.",
+            "fondement_legal": "Absence de définition légale unique du bénévolat — construction jurisprudentielle. Art. L8221-1 C. trav. (interdiction du travail dissimulé). Art. L1221-1 C. trav. (contrat de travail défini par trois critères : prestation, rémunération, lien de subordination). Instruction fiscale BOI-IR-RICI-250 (déduction des frais bénévoles). Loi n° 2006-586 du 23 mai 2006 (volontariat associatif).",
+            "fondement_ccn": "La CCN ALISFA s'applique aux salariés et n'encadre pas l'activité bénévole. Toutefois, la cohabitation entre équipe salariée et bénévoles est une réalité structurelle des centres sociaux et EAJE associatifs, souvent formalisée par une charte du bénévolat interne.",
+            "application": "Recommandations : (1) rédiger une charte du bénévolat distinguant clairement les missions bénévoles des missions salariées, (2) éviter tout écrit assimilable à un contrat de travail (« fiche de poste », « horaires obligatoires », « sanctions »), (3) rembourser les frais bénévoles sur justificatifs et non de manière forfaitaire, (4) informer les bénévoles de leur couverture assurance (RC association), (5) former les bénévoles sans les rémunérer.",
+            "vigilance": "La jurisprudence est stricte : un bénévole soumis à un pouvoir de direction, de contrôle et de sanction peut obtenir la requalification de sa relation en contrat de travail avec rappel de salaire, indemnités de licenciement et dommages-intérêts. Les dérives observées dans le secteur associatif (travail militant gratuit sous couvert de bénévolat) font l'objet de travaux académiques critiques (voir fondement-ccn-doctrine).",
+            "sources": [
+              "Art. L8221-1, L1221-1 C. trav.",
+              "Loi n° 2006-586 du 23 mai 2006",
+              "BOI-IR-RICI-250"
+            ],
+            "liens": [
+              {
+                "titre": "Guide bénévolat — associations.gouv.fr",
+                "url": "https://www.associations.gouv.fr/benevolat.html"
+              },
+              {
+                "titre": "France Bénévolat",
+                "url": "https://www.francebenevolat.org/"
+              },
+              {
+                "titre": "BOFIP — frais bénévoles",
+                "url": "https://bofip.impots.gouv.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-10",
+          "question_type": "Quels sont les droits et protections des bénévoles (indemnités, formation, compte d'engagement citoyen) ?",
+          "mots_cles": [
+            "bénévole",
+            "indemnisation frais",
+            "barème kilométrique",
+            "CEC",
+            "Compte Engagement Citoyen",
+            "formation bénévole",
+            "FDVA",
+            "abandon de frais",
+            "réduction impôt",
+            "66%",
+            "reçu fiscal"
+          ],
+          "reponse": {
+            "synthese": "Le bénévole n'est pas salarié : il n'a pas de contrat de travail, pas de rémunération, pas de lien de subordination. Il bénéficie cependant de droits spécifiques : remboursement des frais engagés (ou abandon de frais ouvrant droit à une réduction d'impôt), formation via le FDVA (Fonds pour le Développement de la Vie Associative), droits inscrits sur le Compte d'Engagement Citoyen (CEC) permettant d'acquérir des heures de formation mobilisables sur le CPF, et protection par l'assurance de l'association.",
+            "fondement_legal": "Absence de texte unique : le bénévolat est défini négativement (pas de contrat de travail). Article 200 du Code général des impôts (CGI) : réduction d'impôt de 66 % pour abandon de frais au bénéfice d'une association d'intérêt général. Article L5151-9 et s. du Code du travail : Compte d'Engagement Citoyen. Article L6323-41-1 : mobilisation du CEC via le CPF. Loi n° 2017-86 du 27 janvier 2017 (égalité et citoyenneté) — création du CEC. Décret n° 2018-1080 du 4 décembre 2018 (modalités FDVA).",
+            "fondement_ccn": "Sans objet. La CCN ne s'applique pas aux bénévoles.",
+            "application": "Remboursement des frais : barème kilométrique bénévole publié chaque année par l'administration fiscale (actualisé au JO). Abandon de frais : le bénévole renonce expressément par écrit à son remboursement, ce qui lui ouvre droit à une réduction d'impôt de 66 % du montant (plafonnée à 20 % du revenu imposable) sur présentation d'un reçu fiscal Cerfa 11580. CEC : accès ouvert aux bénévoles ayant exercé au moins 200 heures au cours de l'année dans une association éligible, dont 100 heures minimum dans la même association (L5151-9 C. trav.). 240 € par année d'engagement, dans la limite de 720 €.",
+            "vigilance": "Distinguer bénévolat et volontariat : le volontaire (service civique, corps européen de solidarité) a un statut protégé avec indemnité. Un bénévole requalifié en salarié par les juges (critères de subordination et de rémunération déguisée) expose l'association à un rappel de cotisations URSSAF et à une condamnation prud'homale. L'association doit vérifier que son assurance RC couvre bien les bénévoles pour les dommages qu'ils pourraient causer ou subir dans l'exercice de leur mission.",
+            "sources": [
+              "Art. 200 CGI",
+              "Art. L5151-9 et s. C. trav.",
+              "Loi n° 2017-86 du 27 janvier 2017",
+              "Décret n° 2018-1080 du 4 décembre 2018 (FDVA)",
+              "Barème kilométrique bénévole (BOI-IR-RICI-250)"
+            ],
+            "liens": [
+              {
+                "titre": "associations.gouv.fr — bénévolat",
+                "url": "https://www.associations.gouv.fr/les-outils-du-benevolat.html"
+              },
+              {
+                "titre": "CEC — mon compte bénévolat",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F34030"
+              },
+              {
+                "titre": "FDVA — associations.gouv.fr",
+                "url": "https://www.associations.gouv.fr/le-fdva.html"
+              },
+              {
+                "titre": "BOI-IR-RICI-250 — barème bénévole",
+                "url": "https://bofip.impots.gouv.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "patronat_associatif",
+      "label": "Patronat associatif & rôle d'employeur collectif",
+      "articles": [
+        {
+          "id": "gv-05",
+          "question_type": "Qu'est-ce que le patronat associatif ALISFA et quel est son rôle dans la branche ?",
+          "mots_cles": [
+            "patronat associatif",
+            "ELISFA",
+            "UDES",
+            "branche",
+            "négociation collective",
+            "CPPNI",
+            "employeur bénévole",
+            "représentativité",
+            "dialogue social",
+            "ESS",
+            "économie sociale et solidaire"
+          ],
+          "reponse": {
+            "synthese": "Le « patronat associatif » désigne les organisations d'employeurs associatifs qui représentent les structures de l'économie sociale et solidaire dans la négociation collective de branche. Pour ALISFA, c'est ELISFA (Employeur du lien social et familial) qui négocie et signe les avenants à la CCN IDCC 1261 au nom des employeurs de la branche, face aux organisations syndicales de salariés. ELISFA est membre de l'UDES (Union des employeurs de l'économie sociale et solidaire), organisation multi-professionnelle représentative de l'ESS.",
+            "fondement_legal": "Art. L2152-1 et suivants C. trav. (représentativité patronale). Loi du 5 mars 2014 (loi Rebsamen) et loi du 20 août 2008 (loi sur la démocratie sociale) — critères de représentativité. Art. L2261-19 C. trav. (conditions d'extension des conventions collectives).",
+            "fondement_ccn": "ELISFA est reconnu comme seule organisation patronale signataire de la CCN ALISFA (IDCC 1261). Les avenants signés dans le cadre de la Commission paritaire permanente de négociation et d'interprétation (CPPNI) engagent l'ensemble des employeurs de la branche après extension par arrêté ministériel.",
+            "application": "Les structures employeuses de la branche peuvent adhérer à ELISFA pour : (1) participer au dialogue social de branche, (2) bénéficier de services d'information juridique et sociale, (3) accéder à des ressources sur la mise en œuvre des avenants. ELISFA siège également dans les instances paritaires de la branche (CPNEF formation, commission classification, commission de suivi prévoyance-santé).",
+            "vigilance": "La question de la représentativité patronale de l'ESS est historiquement complexe : la reconnaissance d'une voix propre aux employeurs associatifs à côté du MEDEF, de la CPME et de l'U2P a été acquise progressivement. Les travaux universitaires sur la naissance du patronat associatif du secteur de l'animation analysent cette construction sociale (voir fondement-ccn-doctrine — Simon Cottin-Marx, 2020-2025).",
+            "sources": [
+              "Art. L2152-1 C. trav.",
+              "Loi du 5 mars 2014",
+              "CCN ALISFA (IDCC 1261)"
+            ],
+            "liens": [
+              {
+                "titre": "ELISFA — site officiel",
+                "url": "https://www.elisfa.fr/"
+              },
+              {
+                "titre": "ALISFA — Comprendre la CCN",
+                "url": "https://www.alisfa.fr/comprendre-la-ccn/"
+              },
+              {
+                "titre": "UDES — Union des employeurs de l'ESS",
+                "url": "https://www.udes.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-11",
+          "question_type": "L'association est-elle assujettie aux impôts commerciaux et au RGPD ?",
+          "mots_cles": [
+            "association impôt",
+            "IS",
+            "TVA",
+            "CET",
+            "lucrativité",
+            "règle 4P",
+            "sectorisation",
+            "rescrit fiscal",
+            "RGPD",
+            "données personnelles",
+            "DPO",
+            "CNIL",
+            "traitement",
+            "BOI-IS-CHAMP"
+          ],
+          "reponse": {
+            "synthese": "Une association est en principe exonérée des trois impôts commerciaux (IS, TVA, CET) si sa gestion est désintéressée et ses activités non lucratives. L'administration fiscale apprécie la lucrativité via la « règle des 4 P » (Produit, Public, Prix, Publicité). Si l'association exerce à titre accessoire une activité lucrative, elle peut sectoriser ou filialiser. Par ailleurs, dès qu'elle traite des données personnelles (adhérents, donateurs, salariés, bénéficiaires), l'association est soumise au RGPD.",
+            "fondement_legal": "Article 206-1 bis du Code général des impôts (assujettissement à l'IS). Instruction fiscale BOI-IS-CHAMP-10-50-10-20 (règle des 4 P). Article 261-7 du CGI (exonération TVA des services rendus aux membres). Franchise commerciale accessoire : 78 596 € pour 2024 (actualisation annuelle). Règlement (UE) 2016/679 du 27 avril 2016 (RGPD). Loi n° 78-17 du 6 janvier 1978 modifiée (Informatique et Libertés). Article 30 RGPD : registre des activités de traitement obligatoire dès le premier traitement.",
+            "fondement_ccn": "Sans objet. La CCN ALISFA ne traite pas de fiscalité ni de protection des données côté association.",
+            "application": "FISCAL — Démarche recommandée : (1) vérifier la gestion désintéressée (dirigeants bénévoles, non-distribution des excédents), (2) analyser la règle des 4 P (Produit : produit/service utile non concurrentiel ; Public : bénéficiaires justifiant une mission sociale ; Prix : tarifs inférieurs au marché ou modulés ; Publicité : communication non commerciale), (3) en cas de doute, adresser un rescrit fiscal à la DGFiP (art. L80 B CGI). RGPD — Démarche : (1) tenir un registre des traitements, (2) informer les personnes concernées, (3) recueillir les consentements valides, (4) sécuriser les données, (5) désigner un DPO si nécessaire, (6) gérer les droits d'accès, rectification, effacement, portabilité.",
+            "vigilance": "Si l'activité lucrative accessoire dépasse 78 596 € HT (seuil 2024 actualisé chaque année), l'association perd l'exonération globale. Elle doit alors sectoriser (fiscalisation uniquement du secteur lucratif) ou tout fiscaliser. Côté RGPD, les sanctions CNIL vont jusqu'à 20 M€ ou 4 % du CA annuel. Les associations ALISFA manipulent fréquemment des données sensibles (enfance, santé, situation sociale) qui relèvent de l'article 9 RGPD et imposent des garanties renforcées (consentement explicite, DPIA, habilitations strictes).",
+            "sources": [
+              "Art. 206-1 bis et 261-7 CGI",
+              "BOI-IS-CHAMP-10-50-10-20",
+              "Règlement (UE) 2016/679 (RGPD)",
+              "Loi n° 78-17 du 6 janvier 1978 modifiée",
+              "CNIL — guide associations"
+            ],
+            "liens": [
+              {
+                "titre": "associations.gouv.fr — fiscalité",
+                "url": "https://www.associations.gouv.fr/la-fiscalite-des-associations.html"
+              },
+              {
+                "titre": "CNIL — RGPD associations",
+                "url": "https://www.cnil.fr/fr/associations-les-bonnes-pratiques-du-rgpd"
+              },
+              {
+                "titre": "BOFiP — régime fiscal des associations",
+                "url": "https://bofip.impots.gouv.fr/bofip/1174-PGP"
+              },
+              {
+                "titre": "CGI — art. 206",
+                "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    },
+    {
+      "id": "doctrine_recherche",
+      "label": "Doctrine & Recherche académique — sociologie du monde associatif",
+      "articles": [
+        {
+          "id": "gv-06",
+          "question_type": "Que dit la recherche académique sur la gouvernance associative et le travail dans les centres sociaux ?",
+          "mots_cles": [
+            "sociologie",
+            "monde associatif",
+            "recherche",
+            "Cottin-Marx",
+            "bureaucratisation",
+            "travail associatif",
+            "directeurs centres sociaux",
+            "management associatif",
+            "Cnam",
+            "LISE",
+            "travailler sans patron",
+            "gouvernance démocratique"
+          ],
+          "reponse": {
+            "synthese": "La recherche universitaire sur le monde associatif employeur — notamment les travaux de Simon Cottin-Marx (sociologue, Cnam/LISE) — analyse les tensions structurelles entre l'idéal démocratique associatif (gouvernance bénévole, militantisme, intérêt général) et la professionnalisation croissante des structures (contraintes de gestion, bureaucratisation, rationalisation managériale). Ces travaux éclairent des phénomènes très présents dans la branche ALISFA : le « burn-out militant », la charge pesant sur les directeurs-trices de centres sociaux, la gouvernance par l'accompagnement, la démocratie d'interpellation.",
+            "fondement_legal": "Sans objet — ces travaux relèvent de la sociologie et de la science politique. Ils constituent néanmoins une aide à l'interprétation des enjeux de gouvernance et à la formation des dirigeants associatifs.",
+            "fondement_ccn": "Les travaux académiques ne constituent pas une source de droit, mais ils sont mobilisés dans les formations de branche (CPNEF, ELISFA, CNAM, INJEP) pour outiller les administrateurs bénévoles et les directeurs salariés face aux enjeux contemporains du secteur.",
+            "application": "Pour un dirigeant ou administrateur ALISFA, ces travaux permettent de : (1) prendre du recul sur les injonctions contradictoires pesant sur la direction, (2) outiller le dialogue entre bénévoles et salariés, (3) intégrer les enjeux de santé au travail des directions, (4) nourrir le projet associatif et éviter une dérive gestionnaire excessive.",
+            "vigilance": "Ces analyses sont critiques mais rigoureuses. Elles ne doivent pas être instrumentalisées contre les structures mais utilisées comme miroir réflexif pour améliorer les pratiques de gouvernance.",
+            "sources": [
+              "Simon Cottin-Marx — Sociologie du monde associatif (La Découverte, 2019)",
+              "Simon Cottin-Marx — « C'est pour la bonne cause » (PUF, 2021)",
+              "Simon Cottin-Marx — Travailler sans patron (2024)",
+              "Simon Cottin-Marx & Hélène Balazard — Burn-out militant (Payot, 2026)",
+              "Simon Cottin-Marx — « Les directeurs·trices de centres sociaux face à la bureaucratisation » (2020)",
+              "Simon Cottin-Marx — « Naissance et unité du patronat associatif du secteur de l'animation » (2020)",
+              "Simon Cottin-Marx — « Gouverner par l'accompagnement » (Mouvements, 2019)",
+              "Simon Cottin-Marx — « Démocratie d'interpellation » (Mouvements, 2025)",
+              "Simon Cottin-Marx — « Être employeur bénévole dans une crèche associative » (2021)",
+              "Simon Cottin-Marx — « Rôle du patronat associatif » (2025)"
+            ],
+            "liens": [
+              {
+                "titre": "Simon Cottin-Marx — Cairn.info",
+                "url": "https://www.cairn.info/publications-de-Simon-Cottin--Marx.htm"
+              },
+              {
+                "titre": "Institut ISBL — interventions",
+                "url": "https://www.isbl-consultants.fr/"
+              },
+              {
+                "titre": "LISE — Laboratoire interdisciplinaire pour la sociologie économique (Cnam)",
+                "url": "https://lise.cnam.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        },
+        {
+          "id": "gv-12",
+          "question_type": "Quels sont les chiffres clés du paysage associatif français et leurs sources ?",
+          "mots_cles": [
+            "chiffres associations",
+            "1,5 million associations",
+            "CNRS Tchernonog",
+            "INJEP",
+            "paysage associatif",
+            "emploi associatif",
+            "bénévoles",
+            "budget",
+            "recherches vie associative",
+            "HCVA"
+          ],
+          "reponse": {
+            "synthese": "Le paysage associatif français compte environ 1,5 million d'associations actives, 20 millions de bénévoles (dont environ 13 millions réguliers), 1,8 million de salariés (dans 155 000 associations employeuses) et un budget cumulé d'environ 113 milliards d'euros, soit près de 3,3 % du PIB. Ces chiffres proviennent principalement de trois sources : l'enquête CNRS « Le paysage associatif français » de Viviane Tchernonog (référence académique), les publications de l'INJEP (Institut national de la jeunesse et de l'éducation populaire), et le panorama annuel Recherches & Solidarités.",
+            "fondement_legal": "Ces statistiques relèvent de l'observation et non de la réglementation. Elles alimentent toutefois plusieurs rapports officiels : rapports du Haut Conseil à la Vie Associative (HCVA), avis du Conseil économique, social et environnemental (CESE), rapports parlementaires. Loi n° 2014-856 du 31 juillet 2014 (loi ESS) : reconnaissance officielle de l'économie sociale et solidaire dans laquelle les associations représentent environ 80 % des emplois.",
+            "fondement_ccn": "Sans objet. La CPNEF ALISFA mène son propre travail d'observatoire pour la branche (cartographie des métiers, études prospectives) qui s'appuie sur ces sources nationales.",
+            "application": "Pour documenter un dossier, utiliser : (1) pour les statistiques générales, l'enquête Tchernonog (CNRS, dernières éditions 2019 et 2024) et l'INJEP ; (2) pour l'emploi associatif, Recherches & Solidarités (paysage annuel des associations employeuses) et les données ACOSS-URSSAF ; (3) pour la vie associative locale, les observatoires régionaux (CRVA) ; (4) pour les dons et le mécénat, France Générosités et le Baromètre de la générosité. Toujours citer la source et l'année — le paysage évolue vite.",
+            "vigilance": "Attention à la confusion entre nombre d'associations DÉCLARÉES (cumul historique au RNA, ~3 millions) et associations ACTIVES (estimation ~1,5 million). Les chiffres sur l'emploi associatif peuvent varier selon la méthode : l'ACOSS comptabilise les associations ayant au moins un salarié déclaré sur l'année, tandis que Recherches & Solidarités affine avec d'autres paramètres. Les données sur le bénévolat reposent sur des enquêtes déclaratives (IFOP, France Bénévolat) avec une marge d'incertitude.",
+            "sources": [
+              "Tchernonog V., « Le paysage associatif français », CNRS/Dalloz-Juris associations (éd. 2019 et 2024)",
+              "INJEP — publications sur la vie associative",
+              "Recherches & Solidarités — panorama annuel des associations",
+              "Loi n° 2014-856 du 31 juillet 2014 (ESS)",
+              "HCVA — rapports biennaux"
+            ],
+            "liens": [
+              {
+                "titre": "INJEP — vie associative",
+                "url": "https://injep.fr/thematiques/vie-associative/"
+              },
+              {
+                "titre": "Recherches & Solidarités",
+                "url": "https://recherches-solidarites.org/"
+              },
+              {
+                "titre": "HCVA — portail",
+                "url": "https://www.associations.gouv.fr/le-haut-conseil-a-la-vie-associative-hcva.html"
+              },
+              {
+                "titre": "Le Mouvement associatif",
+                "url": "https://lemouvementassociatif.org/"
+              },
+              {
+                "titre": "associations.gouv.fr — chiffres clés",
+                "url": "https://www.associations.gouv.fr/"
+              }
+            ]
+          },
+          "fiches_pratiques": []
+        }
+      ]
+    }
+  ]
+}

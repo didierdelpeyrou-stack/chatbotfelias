@@ -1,0 +1,473 @@
+openapi: 3.0.3
+info:
+  title: ELISFA Chatbot Juridique — API
+  version: "1.1.0"
+  description: |
+    API du chatbot juridique ELISFA (CCN ALISFA). Expose :
+    - un endpoint de question/réponse alimenté par Claude Haiku + RAG local,
+    - des endpoints de prise de rendez-vous / planification d'appel,
+    - des endpoints admin (stats, feedback, annuaire).
+
+    Les endpoints ``require_admin`` utilisent l'authentification HTTP Basic ;
+    les mots de passe sont stockés soit en clair (legacy ``ADMIN_PASS``) soit
+    hashés via bcrypt (``ADMIN_PASS_HASH``, recommandé).
+
+    **Rate limiting** : 20 req/min et 100 req/h par IP sur ``/api/ask``.
+
+    **Payload max** : 16 Mo par requête (configurable via
+    ``MAX_CONTENT_LENGTH_BYTES``).
+  contact:
+    name: Pôle juridique ELISFA
+    email: juridique@elisfa.fr
+
+servers:
+  - url: https://felias-reseau-eli2026.duckdns.org
+    description: Production
+  - url: http://localhost:5000
+    description: Développement local
+
+tags:
+  - name: Chatbot
+    description: Question/réponse IA
+  - name: RDV & Appels
+    description: Prise de rendez-vous juriste
+  - name: Feedback
+    description: Retours utilisateurs
+  - name: Admin
+    description: Opérations administratives (auth basique requise)
+  - name: Webhooks
+    description: Intégrations externes (MCP, Calendly)
+  - name: Meta
+    description: Santé, annuaire, guides
+
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+      description: |
+        Authentification admin. Credentials : ``ADMIN_USER`` / ``ADMIN_PASS``
+        (ou ``ADMIN_PASS_HASH`` bcrypt). Si non configurés, les endpoints
+        admin renvoient 401.
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "Question trop longue (max 5000 caractères)."
+      required: [error]
+
+    AskRequest:
+      type: object
+      required: []
+      properties:
+        question:
+          type: string
+          maxLength: 5000
+          description: Question de l'adhérent.
+        document:
+          type: string
+          maxLength: 120000
+          description: Texte OCR d'un document joint (optionnel).
+        document_name:
+          type: string
+          maxLength: 200
+        history:
+          type: array
+          maxItems: 20
+          items:
+            type: object
+            properties:
+              role: {type: string, enum: [user, assistant]}
+              content: {type: string}
+        module:
+          type: string
+          enum: [juridique, formation, rh, gouvernance]
+          default: juridique
+        function:
+          type: string
+          maxLength: 80
+        profile:
+          type: string
+          maxLength: 80
+        context:
+          type: object
+          additionalProperties:
+            type: string
+            maxLength: 200
+        escalation_level:
+          type: string
+          enum: [vert, orange, rouge]
+          default: vert
+
+    AskResponse:
+      type: object
+      properties:
+        answer: {type: string}
+        niveau: {type: string, enum: [vert, orange, rouge]}
+        theme: {type: string}
+        sources_count: {type: integer}
+        mode: {type: string, enum: [ia, kb]}
+        model: {type: string}
+        module: {type: string}
+
+    ContactFields:
+      type: object
+      required: [nom, email, telephone]
+      properties:
+        nom: {type: string, minLength: 2, maxLength: 200}
+        email: {type: string, format: email}
+        telephone: {type: string, minLength: 6, maxLength: 30}
+
+    RdvRequest:
+      allOf:
+        - $ref: '#/components/schemas/ContactFields'
+        - type: object
+          required: [sujet]
+          properties:
+            sujet: {type: string, minLength: 1, maxLength: 500}
+            structure: {type: string, maxLength: 300}
+            contexte: {type: string, maxLength: 2000}
+            niveau: {type: string, enum: [vert, orange, rouge]}
+            theme: {type: string, maxLength: 200}
+            date_souhaitee: {type: string, maxLength: 50}
+            creneau: {type: string, maxLength: 200}
+
+    RdvResponse:
+      type: object
+      properties:
+        status: {type: string, example: ok}
+        rdv_id: {type: string, example: "A1B2C3D4"}
+        message: {type: string}
+
+    AppelRequest:
+      allOf:
+        - $ref: '#/components/schemas/ContactFields'
+        - type: object
+          required: [motif, date, heure]
+          properties:
+            motif: {type: string, minLength: 1, maxLength: 200}
+            date: {type: string, example: "2026-05-15"}
+            heure: {type: string, example: "14:00"}
+            description: {type: string, maxLength: 2000}
+
+    EmailJuristeRequest:
+      allOf:
+        - $ref: '#/components/schemas/ContactFields'
+        - type: object
+          required: [theme_guide, reponses]
+          properties:
+            theme_guide:
+              type: string
+              enum:
+                - contrat_travail
+                - rupture
+                - classification
+                - temps_travail
+                - harcelement_disciplinaire
+                - contentieux
+                - autre
+            reponses:
+              type: object
+              additionalProperties: {type: string}
+            sujet: {type: string, maxLength: 500}
+
+    FeedbackRequest:
+      type: object
+      required: [rating]
+      properties:
+        rating: {type: integer, enum: [-1, 1]}
+        comment: {type: string, maxLength: 2000}
+        question: {type: string, maxLength: 2000}
+        answer: {type: string, maxLength: 8000}
+        module: {type: string, maxLength: 40}
+        escalation_level: {type: string, enum: [vert, orange, rouge]}
+
+    HealthResponse:
+      type: object
+      properties:
+        status: {type: string, example: ok}
+        timestamp: {type: string, format: date-time}
+        knowledge_loaded: {type: boolean}
+
+paths:
+
+  /api/health:
+    get:
+      tags: [Meta]
+      summary: Health check
+      description: Endpoint de supervision. Répond 200 dès que le process est vivant.
+      responses:
+        '200':
+          description: Service en vie
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/HealthResponse'}
+
+  /api/ask:
+    post:
+      tags: [Chatbot]
+      summary: Poser une question au chatbot
+      description: |
+        Route principale du chatbot. Applique :
+        1. Rate limiting (20/min, 100/h par IP).
+        2. Validation Pydantic stricte du payload.
+        3. Hot-reload des bases de connaissances si les JSON ont changé.
+        4. RAG local (TF-IDF) → si scoring suffisant, réponse déterministe.
+        5. Sinon, appel Claude avec contexte KB + document joint éventuel.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/AskRequest'}
+      responses:
+        '200':
+          description: Réponse du bot
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/AskResponse'}
+        '400':
+          description: Payload invalide
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '413':
+          description: Question ou payload trop volumineux
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '429':
+          description: Rate limit dépassé
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/rdv:
+    post:
+      tags: [RDV & Appels]
+      summary: Créer une demande de RDV avec le juriste
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/RdvRequest'}
+      responses:
+        '200':
+          description: RDV créé
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/RdvResponse'}
+        '400':
+          description: Champs invalides
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+    get:
+      tags: [Admin]
+      summary: Lister les RDV
+      security: [{basicAuth: []}]
+      responses:
+        '200':
+          description: Liste des RDV
+        '401':
+          description: Authentification requise
+
+  /api/rdv/{rdv_id}:
+    patch:
+      tags: [Admin]
+      summary: Mettre à jour un RDV
+      security: [{basicAuth: []}]
+      parameters:
+        - in: path
+          name: rdv_id
+          required: true
+          schema: {type: string}
+      responses:
+        '200': {description: Mis à jour}
+        '401': {description: Authentification requise}
+        '404': {description: RDV introuvable}
+
+  /api/appel:
+    post:
+      tags: [RDV & Appels]
+      summary: Planifier un appel 15 min
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/AppelRequest'}
+      responses:
+        '200': {description: Appel planifié}
+        '400':
+          description: Champs invalides
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '409':
+          description: Créneau déjà réservé
+
+  /api/appel/motifs:
+    get:
+      tags: [RDV & Appels]
+      summary: Liste des motifs d'appel disponibles
+      responses:
+        '200': {description: Liste des motifs}
+
+  /api/appel/creneaux:
+    get:
+      tags: [RDV & Appels]
+      summary: Créneaux d'appel disponibles
+      responses:
+        '200': {description: Liste des créneaux}
+
+  /api/email-juriste:
+    post:
+      tags: [RDV & Appels]
+      summary: Envoyer un email structuré au juriste via questionnaire
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/EmailJuristeRequest'}
+      responses:
+        '200': {description: Email envoyé}
+        '400':
+          description: Champs invalides
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/feedback:
+    post:
+      tags: [Feedback]
+      summary: Noter une réponse (+1 / -1)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/FeedbackRequest'}
+      responses:
+        '200': {description: Feedback enregistré}
+        '400':
+          description: Payload invalide
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/feedback/stats:
+    get:
+      tags: [Admin]
+      summary: Statistiques agrégées des feedbacks
+      security: [{basicAuth: []}]
+      responses:
+        '200': {description: Stats}
+        '401': {description: Authentification requise}
+
+  /api/stats:
+    get:
+      tags: [Admin]
+      summary: Statistiques d'usage (logs, cache hits, tokens)
+      security: [{basicAuth: []}]
+      responses:
+        '200': {description: Stats}
+        '401': {description: Authentification requise}
+
+  /api/knowledge:
+    get:
+      tags: [Admin]
+      summary: Dump de la base de connaissances juridique
+      security: [{basicAuth: []}]
+      responses:
+        '200': {description: Base complète}
+        '401': {description: Authentification requise}
+
+  /api/reload:
+    post:
+      tags: [Admin]
+      summary: Forcer le rechargement des bases + rebuild des index
+      security: [{basicAuth: []}]
+      responses:
+        '200': {description: Rechargé}
+        '401': {description: Authentification requise}
+
+  /api/guide-questions:
+    get:
+      tags: [Meta]
+      summary: Questions guidées par thème (pour le formulaire email-juriste)
+      responses:
+        '200': {description: Questions}
+
+  /api/wizard-hints/{theme}:
+    get:
+      tags: [Meta]
+      summary: Suggestions contextuelles pour un thème juridique
+      parameters:
+        - in: path
+          name: theme
+          required: true
+          schema: {type: string}
+      responses:
+        '200': {description: Hints}
+
+  /api/functions:
+    get:
+      tags: [Meta]
+      summary: Liste des fonctions/modules exposés par le bot
+      responses:
+        '200': {description: Liste des fonctions}
+
+  /api/annuaire:
+    get:
+      tags: [Meta]
+      summary: Proxy Annuaire Service Public (associations, préfectures...)
+      parameters:
+        - in: query
+          name: commune
+          schema: {type: string}
+        - in: query
+          name: dept
+          schema: {type: string}
+        - in: query
+          name: type
+          schema:
+            type: string
+            enum: [maison_association, crib, prefecture, point_justice, france_services]
+        - in: query
+          name: q
+          schema: {type: string}
+      responses:
+        '200': {description: Résultats}
+
+  /api/pdf-library:
+    get:
+      tags: [Meta]
+      summary: Liste des PDF ALISFA disponibles
+      responses:
+        '200': {description: Liste}
+
+  /api/webhook/ask:
+    post:
+      tags: [Webhooks]
+      summary: Webhook MCP — poser une question (signé HMAC-SHA256)
+      description: |
+        Signature HMAC-SHA256 dans le header ``X-Signature`` (clé
+        ``WEBHOOK_SECRET``). Payload identique à ``/api/ask``.
+      responses:
+        '200': {description: Réponse}
+        '401': {description: Signature invalide}
+
+  /api/webhook/rdv-callback:
+    post:
+      tags: [Webhooks]
+      summary: Callback Calendly/Cal.com après prise de RDV
+      responses:
+        '200': {description: Callback traité}
+
+  /api/mcp/config:
+    get:
+      tags: [Meta]
+      summary: Configuration MCP (model context protocol) du bot
+      responses:
+        '200': {description: Config}

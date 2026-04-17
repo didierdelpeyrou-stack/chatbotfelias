@@ -1,0 +1,27 @@
+flask>=3.0
+flask-cors>=4.0
+anthropic>=0.40.0
+gunicorn>=22.0
+python-dotenv>=1.0
+
+# ── Validation des payloads entrants (fix 6) ──
+pydantic>=2.5
+
+# ── Hashing admin password (fix 7) ──
+bcrypt>=4.1
+
+# ── Monitoring distant, optionnel (fix 11) ──
+# Activé UNIQUEMENT si SENTRY_DSN est défini ; sinon aucun impact.
+sentry-sdk[flask]>=1.40
+
+# ── Documentation OpenAPI / Swagger UI (fix 15) ──
+flask-swagger-ui>=4.11
+PyYAML>=6.0
+
+# ── Tests (fix 12) ──
+# pytest : exécute aussi les TestCases unittest existants.
+# requests : client HTTP pour les tests e2e.
+# openpyxl : lecture du plan_evaluation_elisfa.xlsx pour run_data_accuracy.
+pytest>=8.0
+requests>=2.31
+openpyxl>=3.1

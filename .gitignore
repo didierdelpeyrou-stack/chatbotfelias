@@ -1,0 +1,50 @@
+# Secrets / config locale
+.env
+.env.*
+!.env.example
+
+# Backups — locaux/VPS uniquement, jamais en git
+backups/
+*.bak
+*.bak*
+
+# Logs
+logs/
+*.log
+
+# Virtualenvs
+.venv/
+.venv_scraper/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Données de run (dupliquées sur VPS — pas en git)
+data/rendez_vous.json
+data/appels_15min.json
+data/emails_juriste.json
+data/interactions.jsonl
+
+# KB volumineuses (1.4 GB de PDF/PPTX) — montées via volume ./data:/app/data,
+# déployées via rsync séparément, pas à pousser sur GitHub.
+data/alisfa_docs/
+data/cpnef_docs/
+data/alisfa_public/
+data/.trash_*/
+fiches_pratiques/
+
+# Artefacts d'éval RAG
+tests/rag_eval_report_*.json
+
+# Éditeurs
+.vscode/
+.idea/
+.DS_Store
+*.swp

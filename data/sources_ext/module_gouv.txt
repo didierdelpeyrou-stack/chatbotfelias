@@ -1,0 +1,539 @@
+
+MASTER MANAGEMENT DES ASSOCIATIONS
+MODULE COMPLET
+GOUVERNANCE ASSOCIATIVE
+& GESTION DU BÉNÉVOLAT
+Pour les employeurs associatifs — Édition 2025
+
+Loi du 1er juillet 1901
+Droit associatif fondamental
+Loi n° 2024-344
+du 15 avril 2024
+Certif'Asso & FDVA
+Formation bénévoles 2025
+
+Sources : Légifrance · associations.gouv.fr · La Fonda · Avise · Mouvement Associatif · Recherches & Solidarités · Associathèque
+
+INTRODUCTION : LE CONTEXTE ASSOCIATIF FRANÇAIS EN 2025
+
+La France compte aujourd'hui environ 1,6 million d'associations actives, dont près de 170 000 associations employeuses. Ce tissu est animé par plus de 20 millions de bénévoles et génère 14 % de l'emploi salarié privé dans l'économie sociale et solidaire (ESS). Dans ce contexte de vitalité exceptionnelle, les associations employeuses font face à des enjeux RH et de gouvernance d'une complexité croissante.
+
+Ce module a pour objectif de doter les dirigeants bénévoles et salariés d'associations employeuses de toutes les clés juridiques, managériales et pratiques pour exercer leur double rôle : celui d'employeur responsable et celui de garant d'une gouvernance associative légitime et efficace.
+
+Chiffre clé
+Données 2025
+Source
+Associations actives
+~1,6 million
+R&S 2025
+Bénévoles réguliers (hebdo)
+11,1 % des Français
+IFOP / R&S 2025
+Associations employeuses
+~170 000
+R&S 2024
+Nouvelles créations 2024-2025
+74 430
+R&S 2025
+Emplois ESS / emploi privé
+14 %
+Avise / R&S
+→ Source : Recherches & Solidarités, La France associative en mouvement 2025 ; Enquête IFOP 2025 pour R&S
+
+⚑ Enjeu central du module
+Les associations employeuses se distinguent par la coexistence de deux logiques : la logique démocratique et militante (CA bénévole, AG souveraine, projet associatif) et la logique d'employeur (Code du travail, conventions collectives, responsabilité civile et pénale des dirigeants). La tension entre ces deux logiques constitue le cœur des problématiques de gouvernance abordées dans ce module.
+
+PARTIE 1 — FONDEMENTS JURIDIQUES DE L'ASSOCIATION EMPLOYEUSE
+
+1.1 La loi du 1er juillet 1901 : socle constitutionnel
+La loi du 1er juillet 1901 relative au contrat d'association (modifiée en dernier lieu par la loi n° 2025-797 du 11 août 2025) constitue le fondement du droit associatif français. Elle affirme la liberté d'association comme liberté publique fondamentale. Ses principaux apports pour les employeurs associatifs :
+
+	•	Principe de liberté contractuelle : les associations disposent d'une très grande latitude pour organiser leur gouvernance dans leurs statuts. La loi 1901 ne fixe pas de modèle imposé de CA, d'AG ou de bureau.
+	•	Objet non lucratif obligatoire : toute association est fondée sur un objet non lucratif, ce qui interdit le partage des bénéfices entre membres — mais n'interdit pas d'avoir des salariés, de réaliser un excédent, ou d'exercer des activités économiques.
+	•	Capacité juridique de l'association déclarée (art. 6) : l'association déclarée peut recevoir des cotisations, des subventions, posséder des biens, ester en justice.
+	•	Responsabilité des dirigeants : les personnes chargées de l'administration engagent leur responsabilité civile et pénale dans l'exercice de leurs fonctions.
+→ Source : Loi du 1er juillet 1901, texte consolidé — Légifrance.gouv.fr (dernière modification : art. 52, loi n° 2025-797 du 11 août 2025)
+
+⚠  Point de vigilance : déclaration des dirigeants
+Depuis le décret n° 2024-720 du 5 juillet 2024, toute association doit déclarer au Registre national des associations tout changement de personnes chargées de l'administration (administrateurs, personnes exerçant la surveillance ou la direction). La déclaration peut désormais s'effectuer par téléservice (Le Compte Asso). Obligation impérative sous peine de nullité des actes.
+
+1.2 La loi du 15 avril 2024 : nouvelle donne pour le bénévolat
+La loi n° 2024-344 du 15 avril 2024 visant à soutenir l'engagement bénévole et à simplifier la vie associative constitue la réforme la plus significative du droit associatif de la décennie. Adoptée à l'unanimité par l'Assemblée nationale le 8 avril 2024, elle répond aux attentes issues des Assises de la simplification associative et de la consultation nationale 2023 auprès des associations.
+
+Mesure de la loi 2024-344
+Contenu opérationnel
+Impact pour l'employeur associatif
+Compte d'engagement citoyen (CEC)
+Droits formation valorisés pour les bénévoles
+Outil de reconnaissance RH des bénévoles
+Congé d'engagement associatif
+Facilité et élargi pour les salariés du privé
+Permet de recruter des bénévoles actifs
+Mécénat de compétences
+Cadre simplifié avec les entreprises partenaires
+Accès à des ressources humaines qualifiées
+Prêt inter-associations
+Nouveau : OSBL peuvent prêter à d'autres assos
+Solidarité financière du réseau
+Réseau Guid'Asso pérennisé
+Ancrage légal par l'art. 11 + décret déc. 2024
+Accompagnement des dirigeants bénévoles
+Domaine public communal gratuit
+Les communes peuvent accorder gratuitement
+Réduction des coûts de fonctionnement
+→ Source : Loi n° 2024-344 du 15 avril 2024 — Légifrance.gouv.fr ; vie-publique.fr ; associations.gouv.fr ; Localtis / Banque des Territoires (16 avr. 2024)
+
+1.3 Le cadre ESS : loi du 31 juillet 2014
+La loi n° 2014-856 du 31 juillet 2014 relative à l'économie sociale et solidaire (loi ESS ou loi Hamon) consolide le cadre dans lequel évoluent les associations employeuses au sein du secteur ESS. Elle reconnaît les associations comme acteurs à part entière de l'ESS et encadre plusieurs mécanismes essentiels pour l'employeur associatif :
+
+	•	Les conventions pluriannuelles d'objectifs (CPO) avec l'État et les collectivités (art. 61) — cadre partenarial clé pour les associations subventionnées.
+	•	L'agrément ESUS (Entreprise Solidaire d'Utilité Sociale) : accessible à certaines associations, il ouvre des avantages fiscaux pour les investisseurs et les salariés.
+	•	Le DLA (Dispositif Local d'Accompagnement) : dispositif public d'accompagnement des associations employeuses, intervenant notamment sur les questions de gouvernance et de RH.
+→ Source : Loi n° 2014-856 du 31 juillet 2014 — Légifrance.gouv.fr ; Avise.org ; Mouvement Associatif
+
+PARTIE 2 — LA GOUVERNANCE ASSOCIATIVE : THÉORIE ET PRATIQUE
+
+2.1 Définition et enjeux de la gouvernance associative
+La gouvernance associative désigne l'ensemble des règles, pratiques et instances qui définissent l'organisation générale de l'association, les modalités de prise de décision collective, d'animation des membres et des bénévoles, la gestion des salariés, et la communication interne et externe (La Fonda, 2024). Elle est à la fois un enjeu légal (responsabilités des dirigeants), démocratique (légitimité de l'action collective) et managérial (efficacité organisationnelle).
+
+⚑ La gouvernance selon Mintzberg appliquée aux associations
+Dans les associations, on retrouve fréquemment la configuration de la 'Structure simple' (petite asso dirigée par un leader fondateur ou un président charismatique) ou de la 'Bureaucratie professionnelle' (grande asso spécialisée avec des experts). La gouvernance dysfonctionne souvent au moment du changement de configuration : quand une structure simple grossit et doit se bureaucratiser sans perdre son âme militante.
+
+2.2 Les instances de gouvernance : rôles et responsabilités légales
+La liberté contractuelle de la loi 1901 permet à chaque association d'organiser sa gouvernance librement via ses statuts. Cependant, les pratiques institutionnelles et la jurisprudence ont imposé des standards de fait.
+
+Instance
+Rôle légal / statutaire
+Enjeux managériaux pour l'employeur
+Assemblée Générale (AG)
+Organe souverain : approbation des comptes, élection du CA, modification des statuts, dissolution
+Légitimité démocratique de l'asso. Risque : AG peu participative, quorum non atteint
+Conseil d'Administration (CA)
+Organe délibérant permanent, prend les décisions entre deux AG, gère l'asso
+Interface clé bénévoles-salariés. Risque : CA captif, pouvoir concentré, manque de renouvellement
+Bureau (Président, Trésorier, Secrétaire)
+Exécutif mandaté par le CA, représentation légale, signature des actes
+Personnalisation du pouvoir. Risque : confusion des rôles avec la direction salariée
+Direction générale salariée
+Délégation opérationnelle du CA, employeur au quotidien
+Tension politique/technique. Risque : directeur 'capitaine de bateau', prise de pouvoir de fait
+Commissaire aux comptes (CAC)
+Obligatoire si seuil légal : subventions > 153 000 €/an ou > 50 salariés
+Gage de transparence financière. Exigence des financeurs publics
+→ Source : Loi 1901 (art. 1-13) ; Légifrance.gouv.fr ; associations.gouv.fr (La loi 1901 et la liberté d'association)
+
+Les responsabilités des dirigeants bénévoles
+Un point souvent méconnu des dirigeants bénévoles : en tant que membres du Bureau ou du CA, ils engagent leur responsabilité personnelle dans plusieurs domaines :
+
+	•	Responsabilité civile : en cas de faute de gestion (décision imprudente, mauvaise gestion financière entraînant un préjudice pour l'association ou des tiers).
+	•	Responsabilité pénale : pour des infractions commises dans le cadre de la gestion (travail dissimulé, abus de biens associatifs, non-paiement des cotisations sociales, harcèlement moral non traité).
+	•	Responsabilité de l'employeur : la qualité d'employeur est attachée à l'association (personne morale), mais les dirigeants peuvent être mis en cause personnellement en cas de manquement grave à leurs obligations.
+
+⚠  Point de vigilance : la fonction employeur des bénévoles
+Dans les associations employeuses, les membres du CA et du Bureau exercent de facto la fonction d'employeur, même sans avoir de compétences RH. Ils doivent valider les recrutements stratégiques, fixer la politique salariale, décider des licenciements, et veiller au respect du droit du travail. Le non-respect de ces obligations engage leur responsabilité. La formation au Certif'Asso (voir Partie 5) vise précisément à les y préparer.
+
+2.3 Les cinq enjeux clés de la gouvernance bénévole-salarié (DLA / Fonda, 2023)
+L'étude co-construite par le DLA Occitanie, Le Mouvement Associatif Occitanie, La Fonda et Aginso (2023) identifie cinq enjeux structurants dans la relation gouvernance bénévole / salariés des associations employeuses. Ces résultats constituent le référentiel de diagnostic le plus récent et le plus complet disponible en France.
+
+Enjeu
+Description / Tensions observées
+Bonnes pratiques recommandées
+1. Dirigeants bénévoles
+Manque de formation, turnover des élus, vieillissement, manque de parité, concentration du pouvoir ('baron' charismatique inamovible)
+Certif'Asso, limite des mandats, appel à candidatures ouvert, tutorat des nouveaux élus
+2. Fonction employeur
+Les bénévoles élus exercent la fonction d'employeur sans formation RH. Décisions parfois prises sans connaissance du droit du travail
+Formation employeur, délégation écrite à la direction salariée, recours au DLA ou à un cabinet spécialisé ESS
+3. Articulation politique-opérationnel
+Tension entre le CA 'politique' (stratégie, valeurs) et la direction salariée 'technique' (gestion quotidienne). Risque de doublon ou de vide décisionnel
+Délégation de pouvoirs formalisée, règlement intérieur, réunions CA-direction régulières
+4. Décision et délégation
+Excès de centralisation (tout décide le Bureau) ou excès de délégation (le directeur décide seul). Opacité des décisions = défiance des équipes
+Matrice de délégation claire, comptes-rendus de CA accessibles aux salariés, processus de décision formalisé
+5. Communication interne & apprentissage collectif
+Cloisonnement bénévoles / salariés. L'information circule mal. Décisions prises sans consultation des équipes = sentiment de déni de démocratie
+Réunions plénières mixtes, newsletter interne, journées d'équipe annuelles, pratiques d'évaluation partagées
+→ Source : DLA / Mouvement Associatif Occitanie / La Fonda / Aginso, 'Les enjeux de la relation entre gouvernance bénévole et salarié.es dans les associations', 2023. Disponible sur fonda.asso.fr et avise.org
+
+2.4 La gouvernance innovante : vers plus de démocratie interne
+Un mouvement croissant dans le secteur associatif tend vers des formes de gouvernance plus horizontales, plus participatives et plus transparentes. La Fonda (2024) liste plusieurs pratiques émergentes de bonne gouvernance :
+
+	•	Limitation du nombre de mandats des administrateurs (forcer le renouvellement)
+	•	Appels à candidatures ouverts pour les postes de dirigeants
+	•	Vote en ligne pour permettre la participation des membres éloignés
+	•	Inclusion des bénéficiaires et des usagers dans les instances de gouvernance
+	•	Parité hommes-femmes dans le CA — encore insuffisante selon Recherches & Solidarités (2025)
+	•	Reddition de comptes publique sur l'utilisation des fonds collectés
+	•	Réunions ouvertes aux salariés pour les décisions qui les concernent directement
+
+⚑ Gouvernance et démocratie : le diagnostic de la Fonda
+63 % des acteurs associatifs estiment que les associations ne savent pas renouveler leur organisation et leur gouvernance. Pour 56 %, l'innovation est surtout portée par les associations émergentes. Les difficultés de renouvellement des structures dirigeantes, l'insuffisante représentation des femmes et des jeunes, et un pouvoir souvent peu partagé constituent les principales faiblesses pointées (La Fonda, enquête prospective).
+→ Source : La Fonda — fonda.asso.fr, rubriques 'Gouvernance' et 'Les associations face à leur avenir'
+
+PARTIE 3 — LA GESTION DU BÉNÉVOLAT COMME FONCTION RH
+
+3.1 Le bénévole : statut juridique et cadre d'action
+Il n'existe pas de définition légale du bénévole en droit français. La définition de référence est celle du Conseil Économique et Social (avis du 24 février 1993), reprise par l'Avise : une personne bénévole 's'engage librement pour mener une action non salariée en direction d'autrui, en dehors de son temps professionnel et familial'.
+
+Ce que peut faire un bénévole
+Ce qu'il ne peut PAS faire
+Percevoir des remboursements de frais (sur justificatifs)
+Recevoir une rémunération, même symbolique
+Bénéficier d'avantages en nature plafonnés (65 €/mois, franchise de cotisations)
+Être en situation de lien de subordination avec l'asso
+Exercer des fonctions de direction au CA/Bureau
+Cumuler bénévolat et contrat de travail pour les mêmes fonctions
+Signer des actes juridiques en tant que représentant légal
+Conclure un contrat de travail sans être déclaré
+Bénéficier du CEC (Compte Engagement Citoyen) loi 2024
+Dépasser le plafond de remboursement de frais sans déclaration
+→ Source : Avise.org — 'Développer mes ressources humaines dans l'ESS' ; associations.gouv.fr ; Conseil Économique et Social, avis du 24 février 1993
+
+⚠  Risque de requalification en contrat de travail
+L'URSSAF et les tribunaux peuvent requalifier une relation de bénévolat en contrat de travail si trois éléments sont réunis : prestation de travail effective, contrepartie financière (même indirecte), et lien de subordination juridique. Les dirigeants associatifs doivent être vigilants sur les 'faux bénévoles' — en particulier dans les associations qui rémunèrent leurs dirigeants via des indemnités de remboursement de frais disproportionnées.
+
+3.2 Les outils de reconnaissance et de valorisation des bénévoles
+La loi du 15 avril 2024 a renforcé et simplifié plusieurs dispositifs de reconnaissance de l'engagement bénévole. Voici les principaux outils à disposition des employeurs associatifs :
+
+Dispositif
+Comment ça fonctionne
+Lien légal & référence
+Compte d'Engagement Citoyen (CEC)
+Accumulation de droits à la formation professionnelle pour les bénévoles les plus actifs (CA/Bureau). Plafonné à 240 € / an
+Loi 2024-344 art. 1 ; C. trav. L. 5151-7
+Congé d'engagement associatif
+Salarié du privé peut s'absenter pour exercer des fonctions de dirigeant associatif (6 jours/an, non rémunérés sauf accord d'entreprise)
+Loi 2024-344 art. 3 ; C. trav. L. 3142-54
+Mécénat de compétences
+Salariés d'entreprises mises à disposition de l'association sur leur temps de travail. La loi 2024 en a simplifié le cadre
+Loi 2024-344 art. 8 ; CGI art. 238 bis
+Passeport Bénévole®
+Document individuel permettant de recenser et valoriser les compétences acquises dans le cadre du bénévolat
+France Bénévolat — reconnu nationalement
+Certif'Asso (ex-CFGA)
+Formation certifiante pour les dirigeants bénévoles. Réformée en septembre 2025, finançable FDVA
+Décret n° 2025-616 du 3 juil. 2025 ; arrêté du 3 juil. 2025 (JO du 4 juil. 2025)
+Remboursement de frais
+Frais réels sur justificatifs OU avantages en nature plafonnés (65 €/mois, franchise de cotisations sociales)
+Circulaire DGT ; Instruction DGFiP
+→ Source : associations.gouv.fr — Loi 2024-344 ; Avise.org — RH dans l'ESS ; Associathèque.fr — Dossier RH
+
+3.3 Les six piliers de la GRH bénévole (Associathèque / France Bénévolat)
+Associathèque et France Bénévolat ont formalisé six piliers pour une gestion efficace des ressources humaines bénévoles. Ce cadre est utilisé comme référentiel dans les formations Certif'Asso :
+
+	•	Pilier 1 — RECRUTER : Définir des fiches de mission bénévole (équivalent de la fiche de poste), multiplier les canaux (JeVeuxAider.gouv.fr, France Bénévolat, HelloAsso, réseaux sociaux), conduire un entretien de motivation.
+	•	Pilier 2 — ACCUEILLIR : Livret d'accueil bénévole, présentation de l'équipe et du projet associatif, signature d'une charte du bénévole, présentation des instances de gouvernance.
+	•	Pilier 3 — FORMER : Plan de formation bénévoles, accès au Certif'Asso, plateforme EVA (formation en ligne gratuite soutenue par le ministère), formation spécifique aux missions confiées.
+	•	Pilier 4 — ANIMER & COORDONNER : Réunions d'équipe régulières (bénévoles + salariés), missions claires, référent bénévole identifié parmi les salariés ou les dirigeants.
+	•	Pilier 5 — RECONNAÎTRE : Entretien annuel bénévole, mise en avant des réalisations, Passeport Bénévole®, événements de convivialité, accès aux formations professionnalisantes.
+	•	Pilier 6 — FIDÉLISER : Projet associatif partagé et actualisé, sentiment d'appartenance fort, gestion des conflits, procédures de départ valorisantes ('off-boarding bénévole').
+→ Source : Associathèque.fr — 'Six piliers des bonnes pratiques de gestion des bénévoles' ; France Bénévolat — GRH Bénévole
+
+3.4 Les nouvelles formes de bénévolat : enjeux pour l'employeur associatif
+Les données 2025 (IFOP pour Recherches & Solidarités) confirment une évolution profonde des pratiques de bénévolat que les employeurs associatifs doivent intégrer dans leur gestion RH :
+
+	•	Le bénévolat régulier (hebdomadaire) : en légère hausse en 2025 (11,1 % des Français), après plusieurs années de recul. Il reste la 'colonne vertébrale' des associations mais nécessite une organisation rigoureuse.
+	•	Le bénévolat ponctuel et épisodique : croissant, notamment chez les jeunes et les actifs. Les bénévoles exigent des missions courtes, concrètes, à impact visible. Nécessite des outils de gestion de projet et de délégation rapide.
+	•	Le mécénat de compétences : en forte croissance. Des salariés d'entreprises apportent des compétences techniques (juridique, RH, communication, IT) au bénéfice de l'association sur leur temps de travail.
+	•	La fracture associative : les inégalités sociales dans l'accès au bénévolat s'aggravent. Les associations employeuses doivent intégrer une démarche d'inclusion dans leur politique de recrutement bénévole.
+→ Source : Recherches & Solidarités, La France associative en mouvement 2025 (oct. 2025) ; Enquête IFOP 2025
+
+PARTIE 4 — LA FONCTION EMPLOYEUR DANS LES ASSOCIATIONS
+
+4.1 Qui est l'employeur dans une association ?
+Dans une association, la qualité d'employeur appartient à la personne morale (l'association elle-même). Mais dans les faits, ce sont les membres du Bureau et du CA qui exercent concrètement la fonction employeur. Cette réalité crée une situation d'employeurs bénévoles, c'est-à-dire des personnes qui, sans être salariées, prennent des décisions engageant la vie des salariés de l'association.
+
+⚑ La double casquette de l'employeur bénévole
+L'employeur associatif bénévole cumule deux rôles : (1) celui de militant/adhérent, porteur des valeurs du projet associatif ; (2) celui de décideur RH, responsable de l'application du droit du travail, de la politique salariale, des recrutements et licenciements. Ce cumul est source de tensions identitaires et de risques juridiques. La formation et la délégation encadrée sont les deux leviers principaux de réduction du risque.
+
+4.2 Les obligations légales de l'employeur associatif
+L'association employeuse est soumise aux mêmes obligations que toute entreprise en matière de droit du travail. Les principales obligations à maîtriser :
+
+Obligation
+Base légale
+Points d'attention pour l'asso
+Déclaration préalable à l'embauche (DPAE)
+C. trav. L. 1221-10
+Toute embauche, y compris CDD et temps partiel
+Contrat de travail écrit
+C. trav. L. 1221-1 et s.
+CDD obligatoirement écrit ; CDI recommandé
+Affiliation aux organismes de protection sociale
+CSS et C. trav.
+URSSAF, retraite complémentaire (Agirc-Arrco), prévoyance selon convention collective
+Application de la convention collective
+C. trav. L. 2261-1
+Vérifier la CCN applicable selon le secteur d'activité (sanitaire, social, sport, culture, etc.)
+Entretien professionnel (EPP)
+Loi du 24 oct. 2025 (remplace l'EP)
+Nouveau : Entretien de Parcours Professionnel tous les 2 ans depuis le 24 octobre 2025
+Registre unique du personnel
+C. trav. L. 1221-13
+Tenu pour tous les salariés, accessible à l'inspection du travail
+Document Unique d'Évaluation des Risques (DUER)
+D. n° 2001-1016
+Obligatoire dès le 1er salarié — souvent oublié dans les petites assos
+Représentation du personnel
+C. trav. L. 2311-1 et s.
+CSE obligatoire à partir de 11 salariés sur 12 mois consécutifs
+Congés payés : acquisition en arrêt maladie
+Loi n° 2024-364 du 22 avr. 2024
+Nouveauté : depuis avril 2024, les salariés en arrêt maladie acquièrent des CP (2 j/mois)
+→ Source : Code du travail (légifrance.gouv.fr) ; Associathèque.fr — Dossier thématique RH (mis à jour oct. 2025) ; Loi n° 2024-364 du 22 avr. 2024 (DDADUE)
+
+⚠  Nouveauté 2025 : l'Entretien de Parcours Professionnel (EPP)
+La loi du 24 octobre 2025 institue un nouvel Entretien de Parcours Professionnel (EPP) qui remplace l'ancien entretien professionnel. Les associations employeuses doivent mettre à jour leurs pratiques RH en conséquence. Le non-respect de l'EPP entraîne des sanctions identiques à l'ancien régime (abondement du CPF). (Source : Associathèque.fr, mise à jour octobre 2025)
+
+4.3 Les conventions collectives du secteur associatif
+La grande majorité des associations employeuses est couverte par une convention collective nationale (CCN) sectorielle. L'identification de la bonne CCN est une obligation légale et un enjeu RH majeur (grille salariale, classifications, primes, durée du travail, prévoyance). Les principales CCN du secteur :
+
+	•	CCN Éclat (ex-Animation) — n° 1518 : loisirs, tourisme social, culture, éducation populaire
+	•	CCN Alisfa (ex-Acteurs du lien social et familial) — n° 3218 : centres sociaux, foyers ruraux
+	•	CCN BASS (Branche Associative Sanitaire et Sociale) — n° 0413 : médico-social, sanitaire, social
+	•	CCN FEHAP (Fédération des Établissements Hospitaliers et d'Aide à la Personne) — n° 0792
+	•	CCN Nexem / GEPSO : établissements et services pour personnes inadaptées et handicapées
+	•	CCN du Sport — n° 2511 : clubs sportifs employeurs
+
+⚠  L'identification de la CCN applicable se fait en fonction de l'activité principale de l'association (code APE/NAF) et de son appartenance à une fédération. En cas de doute, consulter le site service-public.fr ou l'UDES (Union des employeurs de l'ESS).
+→ Source : UDES (udes.fr) ; service-public.fr ; DREETS (ex-DIRECCTE) ; conventions.travail.gouv.fr
+
+PARTIE 5 — FORMATION DES BÉNÉVOLES : LE CERTIF'ASSO ET LE FDVA
+
+5.1 Le Certif'Asso : la réforme de septembre 2025
+Le Certificat de formation à la gestion associative (CFGA), créé en 2008, a été profondément réformé et rebaptisé Certif'Asso à partir du 1er septembre 2025. Cette réforme, pilotée par la DJEPVA (Direction de la Jeunesse, de l'Éducation Populaire et de la Vie Associative) en concertation avec les acteurs associatifs et le Haut Conseil à la vie associative (HCVA), vise à rendre la formation plus accessible, plus modulaire et plus valorisante.
+
+Ancien CFGA (avant sept. 2025)
+Nouveau Certif'Asso (à partir du 1er sept. 2025)
+Réservé aux +16 ans
+Ouvert à tous, y compris les mineurs de moins de 16 ans
+Formation peu modulaire, un seul format
+Tronc commun de 20h + 2 modules au choix parmi 7 (10h)
+Stage pratique de 15 jours obligatoire
+Stage optionnel pour bénévoles expérimentés (VAE via entretien)
+Habilitation des organismes : durée variable
+Habilitation portée à 3 ans, déclaration par téléservice (Le Compte Asso)
+FDVA limité au hors-sport
+FDVA 1 élargi au secteur sportif
+Certification par un jury local
+Livret de formation dématérialisé + jury / quiz final
+→ Source : Décret n° 2025-616 du 3 juil. 2025 et arrêté du 3 juil. 2025 (JO du 4 juil. 2025) — Légifrance.gouv.fr ; associations.gouv.fr (Certif'Asso) ; Associathèque.fr (sept. 2025)
+
+5.2 Le programme du Certif'Asso : contenu du tronc commun
+Le tronc commun (20h obligatoires) du Certif'Asso comprend quatre modules directement liés aux enjeux de gouvernance et de gestion bénévole :
+
+	•	Module 1 — Comprendre le fait associatif : la loi 1901 comme liberté publique et contractuelle ; définition et structuration du projet associatif ; chiffres clés du paysage associatif français ; rôle des associations dans le dialogue civil ; réseau Guid'Asso.
+	•	Module 2 — Gouvernance et organisation : rôle et responsabilités des dirigeants associatifs ; obligations civile et pénale ; fonctionnement des instances (AG, CA, bureau) ; bonnes pratiques de gouvernance.
+	•	Module 3 — Gestion financière et ressources : bases comptables ; montage de dossiers de financement ; FDVA, subventions, appels à projets.
+	•	Module 4 — Mobiliser et animer les acteurs : statuts et rôles des bénévoles, volontaires et salariés ; mobilisation, coordination et reconnaissance des bénévoles ; fonction employeur, les premiers pas ; service civique ; procédés simplifiés d'emploi.
+
+Les 7 modules optionnels (2 à choisir, 10h) incluent notamment : réussir son projet associatif, communication et visibilité, gestion des ressources humaines approfondies, développement des partenariats, transition écologique de l'association, vie démocratique et gouvernance innovante, numérique associatif.
+→ Source : associations.gouv.fr — Certif'Asso : programme détaillé ; Ville de Paris — CAP Certif'Asso (2025-2026)
+
+5.3 Le FDVA : financer la formation des bénévoles
+Le Fonds pour le Développement de la Vie Associative (FDVA) est le principal dispositif public de financement de la formation bénévole en France. Il est géré par les DRAJES (Délégations régionales académiques à la jeunesse, l'engagement et aux sports) et les SDJES.
+
+FDVA 1 : Formation des bénévoles
+FDVA 2 : Fonctionnement et projets innovants
+Finance des formations spécifiques ou techniques pour les bénévoles, dont désormais les formations Certif'Asso
+Finance le fonctionnement global ou la mise en œuvre de projets innovants
+Campagne 2026 ouverte du 19 déc. 2025 au 6 mars 2026 (délai exceptionnel)
+Dépôt via Le Compte Asso (fiche n°3660)
+Dépôt via Le Compte Asso (fiche n°3999 pour Certif'Asso)
+Disponible dans toutes les régions
+Eligible : toutes associations loi 1901, y compris secteur sportif depuis 2025
+Obligation de valoriser le soutien FDVA sur tous les supports de communication
+→ Source : associations.gouv.fr — FDVA Formation Certif'Asso campagne 2026 ; Académie de Paris — FDVA 1 (déc. 2025)
+
+5.4 La plateforme EVA : formation en ligne gratuite
+La plateforme EVA (E-Learning Vie Associative) est une ressource gratuite, ouverte à tous les bénévoles, développée avec le soutien du ministère chargé de la vie associative. Elle propose des formations modulaires en auto-apprentissage, conçues par et pour le monde associatif. EVA est complémentaire des formations en présentiel du Certif'Asso et peut être utilisée pour remplir jusqu'à 25h des 30h de formation théorique.
+→ Source : associations.gouv.fr — Certif'Asso ; eva-formationbenevoles.fr
+
+PARTIE 6 — TENSIONS BÉNÉVOLES / SALARIÉS : DIAGNOSTIC ET SOLUTIONS
+
+6.1 Les tensions structurelles : causes profondes
+Les tensions entre gouvernance bénévole et équipes salariées constituent l'un des enjeux les plus complexes du management associatif. Ces tensions ne sont pas anecdotiques : elles reflètent des contradictions inhérentes au modèle associatif employeur, analysées depuis les années 2000 par la Fonda et confirmées par les études les plus récentes.
+
+⚑ La tension politique / technique : une tension structurelle
+Comme le décrit la Fonda (2024) : 'Le politique craint d'être dépossédé du projet par des salariés jugés impérialistes. Le technique s'inquiète d'une apparente déconnexion du politique aux réalités de leur vécu quotidien et en tire amertume et frustration.' Cette tension, si elle n'est pas gérée activement, peut conduire à une gouvernance perméable aux dérives (leader charismatique inamovible, prise de décision opaque, désengagement des équipes).
+
+Type de tension
+Mécanisme causal
+Indicateurs d'alerte RH
+Tension politique / technique
+Le CA bénévole décide sans connaître les réalités opérationnelles ; la direction exécute sans avoir voix au chapitre stratégique
+Décisions du CA non respectées ou contournées ; direction perçue comme 'toute puissante'
+Tension identitaire / professionnelle
+Les bénévoles militants vivent l'asso comme leur cause ; les salariés la vivent comme un emploi. Les deux logiques s'opposent.
+Reproches mutuels ('vous n'êtes là que pour le salaire' / 'vous ne comprenez rien à la réalité')
+Tension démocratique / efficacité
+Les processus participatifs (AG, délibérations) ralentissent la prise de décision ; la pression de l'efficacité pousse à contourner les instances
+AG de plus en plus formelles et vides ; décisions prises 'en dehors' des instances officielles
+Tension financière / qualité de l'emploi
+La réduction des subventions pousse à tirer sur l'engagement des salariés (heures supplémentaires non payées, 'don de travail' implicite)
+Burn-out associatif, turn-over élevé, arrêts maladie fréquents
+Tension bénévoles anciens / nouveaux
+Les anciens bénévoles monopolisent les postes de responsabilité ; les nouveaux ne trouvent pas leur place
+Manque de candidats aux postes de responsabilité, vieillissement des instances
+→ Source : La Fonda — 'La gouvernance associative à l'épreuve de la crise' ; 'Les associations face à leur avenir' ; DLA / Fonda / Aginso, étude 2023
+
+6.2 Le contrat psychologique dans les associations : un outil de diagnostic
+Le concept de contrat psychologique (Rousseau, 1989) — les attentes implicites mutuelles entre l'individu et l'organisation — est particulièrement opérant dans le secteur associatif. Les salariés d'associations signent souvent un 'double contrat' : un contrat de travail formel ET un contrat psychologique fondé sur l'adhésion à la mission et aux valeurs.
+
+Attentes implicites du salarié associatif
+Attentes implicites de l'employeur bénévole
+Sens au travail et cohérence entre valeurs affichées et pratiques managériales
+Engagement supérieur à la norme, flexibilité, polyvalence, 'don de travail'
+Reconnaissance morale de son engagement (au-delà du salaire)
+Loyauté à la cause, discrétion sur les dysfonctionnements internes
+Environnement de travail 'familial', relations horizontales
+Acceptation de conditions salariales inférieures au marché privé
+Participation aux décisions qui le concernent
+Capacité d'adaptation aux contraintes financières de l'asso
+Continuité de l'emploi malgré les aléas financiers
+Représentation positive de l'association à l'extérieur
+
+Quand ce contrat psychologique est violé — par exemple lorsqu'un management autoritaire, une opacité des décisions ou une contradiction flagrante entre discours et actes est perçue — les réactions suivent le modèle EVLN (Hirschman) :
+
+	•	EXIT : démission, départ volontaire (Turn-over élevé dans certaines associations)
+	•	VOICE : contestation interne, syndicalisation, lettre ouverte, prise de parole publique
+	•	LOYALTY : attentisme loyal mais démotivé, baisse de performance sans démission
+	•	NEGLECT : désengagement passif, absentéisme, qualité de travail dégradée
+→ Source : Cottin-Marx, S. (2020), 'Travail associatif', Presses Universitaires de Grenoble ; Rousseau, D.M. (1989), 'Psychological and Implied Contracts in Organizations'
+
+6.3 Grille d'auto-diagnostic gouvernance pour l'employeur associatif
+Cet outil d'auto-évaluation permet à un CA ou un dirigeant associatif de repérer rapidement les zones de risque dans sa gouvernance. Pour chaque item, cocher O (Oui), P (Partiellement) ou N (Non).
+
+Question d'auto-évaluation
+O
+P
+N
+Les statuts de l'association ont été relus et mis à jour au cours des 3 dernières années
+□
+□
+□
+Le CA se réunit au moins 4 fois par an et les PV sont rédigés et conservés
+□
+□
+□
+Les dirigeants (Président, Trésorier, Secrétaire) ont déclaré leur mandat via Le Compte Asso (décret 2024-720)
+□
+□
+□
+Une délégation de pouvoirs écrite et signée encadre les responsabilités de la direction salariée
+□
+□
+□
+Les contrats de travail sont à jour et conformes à la convention collective applicable
+□
+□
+□
+Le Document Unique d'Évaluation des Risques (DUER) existe et a été mis à jour dans l'année
+□
+□
+□
+Un entretien individuel (EP ou EPP) est organisé pour chaque salarié tous les 2 ans
+□
+□
+□
+Les bénévoles bénéficient d'entretiens de reconnaissance annuels et d'un suivi de mission
+□
+□
+□
+La formation des bénévoles dirigeants est planifiée (FDVA, Certif'Asso, EVA)
+□
+□
+□
+Des mécanismes de renouvellement des instances (limitation des mandats, appels à candidatures) sont en place
+□
+□
+□
+Le CA intègre des représentants de moins de 40 ans et respecte un équilibre hommes-femmes
+□
+□
+□
+Un plan de succession pour les postes-clés (Président, Directeur) a été réfléchi
+□
+□
+□
+
+PARTIE 7 — SOURCES DE RÉFÉRENCE & RESSOURCES OFFICIELLES
+
+7.1 Textes législatifs et réglementaires
+Tous les textes sont accessibles en version consolidée sur Légifrance (legifrance.gouv.fr) :
+
+	•	Loi du 1er juillet 1901 relative au contrat d'association (modifiée en dernier lieu par loi n° 2025-797 du 11 août 2025)
+	•	Décret du 16 août 1901 pris pour l'exécution de la loi du 1er juillet 1901 (modifié par décret n° 2024-720 du 5 juillet 2024 — Registre National des Associations)
+	•	Loi n° 2024-344 du 15 avril 2024 visant à soutenir l'engagement bénévole et à simplifier la vie associative
+	•	Décret n° 2024-1152 du 4 décembre 2024 portant application de l'article 11 de la loi 2024-344 (réseau Guid'Asso)
+	•	Loi n° 2014-856 du 31 juillet 2014 relative à l'économie sociale et solidaire
+	•	Loi n° 2024-364 du 22 avril 2024 (DDADUE) — Congés payés en arrêt maladie
+	•	Loi du 24 octobre 2025 — Entretien de Parcours Professionnel (EPP)
+	•	Décret n° 2025-616 du 3 juillet 2025 et arrêté du 3 juillet 2025 (Certif'Asso)
+	•	Loi n° 2000-321 du 12 avril 2000 — Charte des engagements réciproques État / Associations (art. 10-1 : contrat d'engagement républicain)
+
+7.2 Sites institutionnels et associatifs de référence
+Sources officielles et sites spécialisés recommandés :
+
+Site / Organisation
+Contenu principal
+URL
+associations.gouv.fr
+Portail officiel du ministère — guides, actualités, téléservices, Certif'Asso, FDVA
+associations.gouv.fr
+Légifrance
+Textes légaux consolidés, jurisprudence, JO
+legifrance.gouv.fr
+Le Compte Asso
+Téléservice national : déclarations, demandes de subvention, FDVA
+lecompteasso.associations.gouv.fr
+La Fonda
+Think-tank associatif : études, gouvernance, ressources prospectives
+fonda.asso.fr
+Avise
+Accompagnement ESS, ressources RH, DLA, guides pratiques
+avise.org
+Le Mouvement Associatif
+Représentation nationale du secteur associatif (ex-CPCA)
+lemouvementassociatif.org
+Recherches & Solidarités (R&S)
+Études annuelles 'La France associative en mouvement', bénévolat
+recherches-solidarites.org
+Associathèque
+Dossiers thématiques RH, gouvernance, juridique — mis à jour en continu
+associatheque.fr
+France Bénévolat
+GRH bénévoles, Passeport Bénévole®, mise en relation bénévoles-associations
+francebenevolat.org
+JeVeuxAider.gouv.fr
+Plateforme nationale de mise en relation bénévoles et missions
+jeveuxaider.gouv.fr
+UDES
+Union des Employeurs de l'ESS — conventions collectives, relations sociales
+udes.fr
+EVA
+Formation en ligne gratuite pour bénévoles (soutenue par le ministère)
+eva-formationbenevoles.fr
+Guid'Asso
+Réseau territorial d'appui et d'accompagnement des associations
+Via associations.gouv.fr
+Nexem
+Ressources RH et gouvernance pour le secteur social et médico-social
+nexem.fr
+Opale
+Centre de ressources DLA — RH, emploi, ESS culturelle
+opale.asso.fr
+
+7.3 Études et publications de référence
+Pour approfondir les thématiques du module :
+
+	•	Recherches & Solidarités, La France associative en mouvement 2025 (octobre 2025) — panorama statistique annuel de référence du secteur associatif
+	•	DLA Occitanie / Fonda / Aginso, 'Les enjeux de la relation entre gouvernance bénévole et salarié.es dans les associations' (2023) — étude qualitative de référence sur les cinq enjeux de la gouvernance associative
+	•	Avise & CR DLA, 'Gestion des ressources humaines dans le secteur associatif' (2015, rééd.) — guide RH pour les accompagnateurs et dirigeants associatifs
+	•	Cottin-Marx, S. (2020), Travail associatif, Presses Universitaires de Grenoble — référence académique sur le 'don de travail' et la spécificité de l'emploi associatif
+	•	La Fonda, 'La gouvernance associative à l'épreuve de la crise' — analyse des tensions de gouvernance et des risques de dérive
+	•	Agence Française Anticorruption (AFA), Guide pour maîtriser le risque d'atteinte à la probité (gouvernance et gestion du don) — téléchargeable sur associations.gouv.fr
+	•	Haut Conseil à la Vie Associative (HCVA), 'La transition écologique, enjeux et impacts pour l'engagement citoyen et associatif' (fév. 2024)
+
+Module réalisé dans le cadre du Master Management des Associations
+Sources : textes officiels Légifrance · associations.gouv.fr · La Fonda · Avise · Mouvement Associatif · Recherches & Solidarités · Associathèque · France Bénévolat
+Mise à jour avril 2026 — Législation et textes en vigueur au 1er avril 2026

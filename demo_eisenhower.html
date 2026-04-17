@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Démo — Matrice Eisenhower (ELISFA)</title>
+<style>
+/* ── Variables reprises d'index.html ── */
+:root{
+  --blue-50:#eff6ff; --blue-100:#dbeafe; --blue-500:#3b82f6; --blue-600:#2563eb; --blue-700:#1d4ed8;
+  --grey-50:#f8fafc; --grey-100:#f1f5f9; --grey-200:#e2e8f0; --grey-300:#cbd5e1; --grey-400:#94a3b8;
+  --grey-500:#64748b; --grey-600:#475569; --grey-700:#334155; --grey-800:#1e293b; --grey-900:#0f172a;
+  --red-50:#fef2f2; --red-100:#fee2e2; --red-500:#ef4444; --red-600:#dc2626; --red-700:#b91c1c;
+  --orange-50:#fff7ed; --orange-100:#ffedd5; --orange-500:#f97316; --orange-600:#ea580c;
+  --green-50:#ecfdf5; --green-100:#d1fae5; --green-500:#10b981; --green-600:#059669; --green-700:#047857;
+  --surface:#ffffff; --surface-alt:#f8fafc; --text:#0f172a; --text-muted:#64748b;
+  --border:#e2e8f0; --shadow:0 10px 25px rgba(15,23,42,.08);
+}
+html.dark{
+  --surface:#0f172a; --surface-alt:#1e293b; --text:#e2e8f0; --text-muted:#94a3b8;
+  --border:#334155; --shadow:0 10px 25px rgba(0,0,0,.5);
+  --grey-50:#1e293b; --grey-100:#334155; --grey-200:#475569;
+  --blue-50:#1e3a8a; --blue-100:#1e40af;
+  --red-50:#450a0a; --red-100:#7f1d1d;
+  --orange-50:#431407; --orange-100:#7c2d12;
+  --green-50:#064e3b; --green-100:#065f46;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--surface-alt);color:var(--text);padding:24px;transition:background .2s,color .2s;line-height:1.5}
+
+.demo-wrap{max-width:980px;margin:0 auto}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--text-muted);font-size:13px;margin-bottom:20px}
+
+/* ── Panneau de contrôle ── */
+.ctl{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:16px;margin-bottom:20px;box-shadow:var(--shadow)}
+.ctl h2{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);margin:0 0 8px}
+.ctl-row{display:flex;gap:20px;flex-wrap:wrap;align-items:flex-start;margin-bottom:12px}
+.ctl-row:last-child{margin-bottom:0}
+.ctl-group{flex:1;min-width:200px}
+.ctl-btns{display:flex;gap:6px;flex-wrap:wrap}
+.ctl-btn{padding:7px 12px;border:1.5px solid var(--border);background:var(--surface);
+  border-radius:8px;cursor:pointer;font-size:12px;font-weight:600;color:var(--text);
+  transition:all .15s}
+.ctl-btn:hover{border-color:var(--blue-500)}
+.ctl-btn.active{background:var(--blue-600);border-color:var(--blue-600);color:#fff}
+
+/* ── Faux panneau wizard ── */
+.wiz-panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:20px;box-shadow:var(--shadow)}
+.wiz-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.wiz-title{font-size:16px;font-weight:700;margin:0}
+.wiz-recap{background:var(--green-50);border:1px solid var(--green-100);border-left:4px solid var(--green-600);
+  border-radius:10px;padding:14px;margin-bottom:20px;font-size:13px}
+.wiz-recap strong{color:var(--green-700)}
+html.dark .wiz-recap strong{color:#86efac}
+
+/* ── Matrice compacte ── */
+.em-compact{position:relative;border:1px solid var(--border);border-radius:12px;padding:16px;background:var(--surface-alt)}
+.em-compact-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.em-compact-title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted);margin:0}
+.em-expand-btn{padding:6px 11px;border:1.5px solid var(--blue-600);background:var(--surface);color:var(--blue-600);
+  border-radius:8px;cursor:pointer;font-size:12px;font-weight:600;transition:all .15s}
+.em-expand-btn:hover{background:var(--blue-600);color:#fff}
+
+.em-grid{display:grid;grid-template-columns:auto 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:6px;position:relative}
+.em-axis-x{grid-column:2/4;display:grid;grid-template-columns:1fr 1fr;gap:6px;text-align:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text-muted);padding-bottom:4px}
+.em-axis-y{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;flex-direction:column;justify-content:space-around;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text-muted)}
+.em-axis-y span{padding:8px 0;text-align:center}
+
+.em-quad{border-radius:10px;padding:10px;border:2px solid transparent;transition:all .3s;position:relative;min-height:110px;display:flex;flex-direction:column}
+.em-quad.q1{background:var(--red-50);border-color:var(--red-100)}
+.em-quad.q2{background:var(--orange-50);border-color:var(--orange-100)}
+.em-quad.q3{background:var(--green-50);border-color:var(--green-100)}
+.em-quad.q4{background:var(--grey-100);border-color:var(--grey-200)}
+.em-quad-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;margin:0 0 6px}
+.em-quad.q1 .em-quad-label{color:var(--red-700)}
+.em-quad.q2 .em-quad-label{color:var(--orange-600)}
+.em-quad.q3 .em-quad-label{color:var(--green-700)}
+.em-quad.q4 .em-quad-label{color:var(--grey-600)}
+html.dark .em-quad.q1 .em-quad-label{color:#fca5a5}
+html.dark .em-quad.q2 .em-quad-label{color:#fdba74}
+html.dark .em-quad.q3 .em-quad-label{color:#86efac}
+html.dark .em-quad.q4 .em-quad-label{color:#cbd5e1}
+
+.em-tiles{display:flex;flex-direction:column;gap:4px;flex:1}
+.em-tile{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 8px;
+  font-size:11px;font-weight:500;cursor:pointer;transition:all .15s;line-height:1.3;color:var(--text)}
+.em-tile:hover{border-color:var(--blue-500);transform:translateX(2px)}
+
+.em-quad.dim{opacity:.45}
+.em-quad.active{border-width:3px;box-shadow:0 0 0 3px rgba(37,99,235,.25);animation:em-pulse 2s ease-in-out infinite}
+.em-quad.q1.active{border-color:var(--red-600)}
+.em-quad.q2.active{border-color:var(--orange-600)}
+.em-quad.q3.active{border-color:var(--green-600)}
+.em-quad.q4.active{border-color:var(--grey-600)}
+
+@keyframes em-pulse{0%,100%{box-shadow:0 0 0 3px rgba(37,99,235,.25)}50%{box-shadow:0 0 0 6px rgba(37,99,235,.10)}}
+
+.em-sit-badge{position:absolute;top:-10px;right:8px;background:var(--blue-600);color:#fff;
+  font-size:10px;font-weight:700;padding:3px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.03em;
+  box-shadow:0 2px 6px rgba(37,99,235,.4);animation:em-bounce 1.5s ease-in-out infinite}
+@keyframes em-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+
+/* ── Overlay plein écran ── */
+.em-overlay{position:fixed;inset:0;background:rgba(15,23,42,.7);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;z-index:1000;padding:20px;animation:em-fadein .2s}
+.em-overlay.open{display:flex}
+@keyframes em-fadein{from{opacity:0}to{opacity:1}}
+.em-modal{background:var(--surface);border-radius:16px;padding:24px;max-width:1100px;width:100%;
+  max-height:92vh;overflow-y:auto;box-shadow:0 25px 50px rgba(0,0,0,.3);position:relative}
+.em-modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:12px}
+.em-modal-title{font-size:20px;font-weight:700;margin:0}
+.em-modal-close{width:36px;height:36px;border:none;background:var(--grey-100);border-radius:50%;
+  cursor:pointer;font-size:20px;color:var(--text);transition:all .15s;flex-shrink:0}
+.em-modal-close:hover{background:var(--red-100);color:var(--red-600)}
+
+.em-modal .em-grid{gap:10px}
+.em-modal .em-quad{min-height:200px;padding:14px}
+.em-modal .em-quad-label{font-size:12px;margin-bottom:10px}
+.em-modal .em-tile{padding:10px 12px;font-size:13px}
+.em-modal .em-tiles{gap:6px}
+
+/* ── Panneau détail ── */
+.em-detail{display:none;animation:em-slidein .25s ease-out}
+.em-detail.open{display:block}
+@keyframes em-slidein{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}
+.em-detail-back{background:none;border:none;color:var(--blue-600);cursor:pointer;font-size:13px;font-weight:600;
+  padding:6px 0;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.em-detail-back:hover{text-decoration:underline}
+.em-detail-badge{display:inline-block;padding:5px 12px;border-radius:999px;font-size:11px;font-weight:700;
+  text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px}
+.em-detail-badge.q1{background:var(--red-100);color:var(--red-700)}
+.em-detail-badge.q2{background:var(--orange-100);color:var(--orange-600)}
+.em-detail-badge.q3{background:var(--green-100);color:var(--green-700)}
+.em-detail-badge.q4{background:var(--grey-200);color:var(--grey-700)}
+.em-detail-title{font-size:22px;font-weight:700;margin:0 0 12px}
+.em-detail-desc{font-size:15px;color:var(--text);margin-bottom:20px;line-height:1.6}
+.em-detail-section{margin-bottom:20px}
+.em-detail-section h4{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);margin:0 0 10px}
+.em-reason{background:var(--surface-alt);border-left:3px solid var(--blue-500);padding:10px 14px;border-radius:6px;margin-bottom:8px;font-size:13px}
+.em-plan{width:100%;border-collapse:collapse;font-size:13px;background:var(--surface-alt);border-radius:8px;overflow:hidden}
+.em-plan th{background:var(--blue-600);color:#fff;padding:10px 12px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.04em;font-weight:700}
+.em-plan td{padding:10px 12px;border-top:1px solid var(--border);vertical-align:top}
+.em-plan tr:hover td{background:var(--surface)}
+.em-plan td:first-child{white-space:nowrap;color:var(--text-muted);font-size:12px}
+.em-action-btn{background:var(--blue-600);color:#fff;border:none;border-radius:10px;padding:12px 20px;
+  font-size:14px;font-weight:600;cursor:pointer;transition:all .15s}
+.em-action-btn:hover{background:var(--blue-700);transform:translateY(-1px)}
+
+/* ── Mobile ── */
+@media (max-width:720px){
+  body{padding:12px}
+  .em-grid{grid-template-columns:1fr;grid-template-rows:auto}
+  .em-axis-x,.em-axis-y{display:none}
+  .em-modal .em-quad{min-height:auto}
+}
+</style>
+</head>
+<body>
+<div class="demo-wrap">
+  <h1>Démo — Matrice d'Eisenhower (intégration wizard ELISFA)</h1>
+  <p class="sub">Fichier standalone · préfixe <code>.em-</code> · variables CSS reprises d'<code>index.html</code></p>
+
+  <!-- ── Contrôles ── -->
+  <div class="ctl">
+    <div class="ctl-row">
+      <div class="ctl-group">
+        <h2>Module wizard</h2>
+        <div class="ctl-btns" id="ctlModule">
+          <button class="ctl-btn active" data-val="juridique">Juridique</button>
+          <button class="ctl-btn" data-val="rh">RH</button>
+          <button class="ctl-btn" data-val="formation">Formation</button>
+          <button class="ctl-btn" data-val="gouvernance">Gouvernance</button>
+        </div>
+      </div>
+      <div class="ctl-group">
+        <h2>Niveau d'escalade</h2>
+        <div class="ctl-btns" id="ctlEsc">
+          <button class="ctl-btn active" data-val="rouge">Rouge</button>
+          <button class="ctl-btn" data-val="orange">Orange</button>
+          <button class="ctl-btn" data-val="vert">Vert</button>
+        </div>
+      </div>
+      <div class="ctl-group">
+        <h2>Thème</h2>
+        <div class="ctl-btns">
+          <button class="ctl-btn" id="btnTheme">🌙 Basculer sombre</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Faux panneau wizard ── -->
+  <div class="wiz-panel">
+    <div class="wiz-header">
+      <h3 class="wiz-title">🧭 Diagnostic guidé — Synthèse méthodologique</h3>
+    </div>
+    <div class="wiz-recap">
+      ✅ <strong>Récapitulatif généré</strong> — Ta situation a été analysée, la fiche pratique et les ressources ALISFA sont en bas de réponse. Voici comment elle se positionne dans la matrice de priorisation :
+    </div>
+
+    <!-- matrice compacte injectée ici -->
+    <div id="emCompactHost"></div>
+  </div>
+</div>
+
+<!-- ── Overlay ── -->
+<div class="em-overlay" id="emOverlay">
+  <div class="em-modal" id="emModal">
+    <!-- rempli dynamiquement -->
+  </div>
+</div>
+
+<script>
+// ═══ Constantes ═══
+const EM_QUADRANTS = {
+  q1: { label: "Urgent & Important", color: "q1", action: "Faire maintenant",
+        desc: "Crise, risque juridique, deadline imminente — agir immédiatement." },
+  q2: { label: "Important, non urgent", color: "q2", action: "Planifier",
+        desc: "Travail de fond structurant — bloquer du temps, mobiliser des ressources." },
+  q3: { label: "Urgent, peu important", color: "q3", action: "Déléguer",
+        desc: "À traiter vite mais sans valeur stratégique — confier ou automatiser." },
+  q4: { label: "Ni urgent ni important", color: "q4", action: "Éliminer ou différer",
+        desc: "Faible valeur — remettre à plus tard ou supprimer." }
+};
+
+const EM_CASES = [
+  // Q1 — rouge
+  { id:"j1", q:"q1", title:"Licenciement faute grave imminent", module:"juridique",
+    desc:"Procédure disciplinaire à enclencher sous 2 mois, avec convocation, entretien et notification dans des délais stricts.",
+    reasons:["Risque prud'homal majeur en cas de vice de procédure","Délais légaux impératifs (L.1332-4 C. trav.)","Impact direct sur le contrat de travail"],
+    fn:"chat_juridique_urgence()" },
+  { id:"j2", q:"q1", title:"Signalement harcèlement / accident grave", module:"juridique",
+    desc:"Obligation de sécurité de l'employeur — enquête interne, mesures conservatoires, information CSE.",
+    reasons:["Obligation de sécurité de résultat","Risque pénal personnel du dirigeant","Déclenche enquête immédiate"],
+    fn:"chat_juridique_urgence()" },
+  { id:"j3", q:"q1", title:"Contrôle URSSAF / inspection du travail en cours", module:"juridique",
+    desc:"Réponse sous délai imposé, rassembler pièces justificatives, préparer les observations écrites.",
+    reasons:["Délais de réponse non négociables","Enjeu financier et pénal","Préparation technique indispensable"],
+    fn:"chat_juridique_urgence()" },
+
+  // Q2 — orange
+  { id:"rh_sit", q:"q2", title:"⭐ Tension managériale + signalement collectif (sans CSE)", module:"rh",
+    desc:"Signalement écrit collectif visant un responsable d'équipe, faits précis relatés, obligation de sécurité engagée mais pas d'urgence vitale immédiate. Nécessite une démarche structurée en 3 temps : écoute, enquête, action.",
+    reasons:[
+      "Obligation de sécurité de résultat (L.4121-1) — l'inaction expose pénalement",
+      "Pas d'urgence vitale (pas d'accident, pas d'arrêt en cours) → place pour une démarche cadrée plutôt qu'une réaction à chaud",
+      "Manquement CSE à régulariser en parallèle — sujet structurel qui ne peut plus attendre"
+    ],
+    plan:[
+      { t:"J+0 (demain)", who:"Directrice seule", what:"Recevoir Léa en entretien individuel confidentiel — écouter, noter les faits, ne rien promettre, expliquer la procédure à venir" },
+      { t:"J+1", who:"Juriste ALISFA", what:"Rappel juriste (déclenché auto par l'escalade orange, 48h ouvrées) — cadrage procédure enquête" },
+      { t:"J+2 à J+5", who:"Directrice + administrateur référent", what:"Entretiens individuels avec les 5 autres membres de l'équipe jeunesse, puis avec Karim — faits, pas interprétations" },
+      { t:"J+7", who:"Directrice + juriste", what:"Synthèse écrite des entretiens, qualification juridique (harcèlement moral ? management inadapté ? conflit interpersonnel ?)" },
+      { t:"J+10", who:"CA + directrice", what:"Décision : rappel à l'ordre formel / accompagnement managérial / mesures conservatoires / sanction disciplinaire" },
+      { t:"J+15", who:"Directrice", what:"Restitution à l'équipe (cadre, pas contenu) + plan d'actions climat" },
+      { t:"En parallèle", who:"Directrice + prestataire", what:"Lancer la mise en place du CSE (élections à organiser — manquement de 4 mois à régulariser immédiatement)" }
+    ],
+    fn:"planifier('enquete_rh_climat')" },
+  { id:"g1", q:"q2", title:"Révision des statuts de l'association", module:"gouvernance",
+    desc:"Travail de fond pour adapter la gouvernance aux besoins actuels — AG extraordinaire à préparer.",
+    reasons:["Impact structurel long terme","Nécessite concertation CA + bureau","Pas de deadline contrainte mais stratégique"],
+    fn:"planifier('revision_statuts')" },
+  { id:"rh1", q:"q2", title:"Construire une GEPP", module:"rh",
+    desc:"Démarche pluriannuelle de gestion prévisionnelle des emplois et parcours professionnels.",
+    reasons:["Investissement long terme","Conditionne plan de formation et recrutement","Exigé par accord de branche ALISFA"],
+    fn:"planifier('gepp')" },
+  { id:"f1", q:"q2", title:"Plan de développement des compétences pluriannuel", module:"formation",
+    desc:"Cartographie des besoins, priorisation, arbitrages budgétaires sur 2-3 ans.",
+    reasons:["Structurant pour toute la structure","Conditionne les financements OPCO","Nécessite diagnostic préalable"],
+    fn:"planifier('plan_dev')" },
+
+  // Q3 — vert
+  { id:"rh2", q:"q3", title:"Réponse à sollicitation salarié (CPF, congés…)", module:"rh",
+    desc:"Demande individuelle à traiter rapidement mais sans impact stratégique — peut être déléguée.",
+    reasons:["Réponse rapide attendue","Procédure cadrée, peu de marge","Délégable à la fonction RH / admin"],
+    fn:"deleguer('reponse_salarie')" },
+  { id:"g2", q:"q3", title:"Rappel d'échéance administrative (déclaration, rapport)", module:"gouvernance",
+    desc:"Obligation récurrente avec date butoir — checklist et rappel automatisés suffisent.",
+    reasons:["Tâche récurrente, cadrée","Pas de décision stratégique","Automatisable ou délégable"],
+    fn:"deleguer('echeance_admin')" },
+  { id:"f2", q:"q3", title:"Question CPF d'un salarié", module:"formation",
+    desc:"Orientation vers la plateforme MonCompteFormation, pas d'implication structure.",
+    reasons:["Démarche individuelle du salarié","Employeur non décisionnaire","Information rapide suffit"],
+    fn:"deleguer('cpf_salarie')" },
+
+  // Q4 — gris
+  { id:"g3", q:"q4", title:"Mise à jour du règlement intérieur (cosmétique)", module:"gouvernance",
+    desc:"Retouches mineures — peut attendre la prochaine révision globale.",
+    reasons:["Faible impact opérationnel","Pas d'obligation immédiate","Regroupable avec autres mises à jour"],
+    fn:"arbitrer('ri_cosmetique')" },
+  { id:"g4", q:"q4", title:"Archivage documentaire historique", module:"gouvernance",
+    desc:"Organisation des archives papier / numériques — à planifier sur temps calme.",
+    reasons:["Aucune urgence","Peu de valeur immédiate","Peut être confié à stagiaire ou service civique"],
+    fn:"arbitrer('archivage')" },
+  { id:"g5", q:"q4", title:"Refonte du site vitrine", module:"gouvernance",
+    desc:"Projet de communication — utile mais ni urgent ni prioritaire face aux autres chantiers.",
+    reasons:["Pas d'obligation légale","Impact indirect sur activité","Peut attendre budget dédié"],
+    fn:"arbitrer('refonte_site')" }
+];
+
+// Mapping module × escalade → quadrant cible (null = pas de surlignage)
+const EM_MAPPING = {
+  juridique:   { rouge:"q1", orange:"q1", vert:null },
+  rh:          { rouge:"q1", orange:"q2", vert:"q3" },
+  formation:   { rouge:"q2", orange:"q2", vert:"q3" },
+  gouvernance: { rouge:"q2", orange:"q2", vert:"q4" }
+};
+
+// ═══ État démo ═══
+let demoState = { module:"juridique", esc:"rouge", compact:true };
+
+// ═══ Rendu ═══
+function emQuadHtml(qKey, active, dim){
+  const q = EM_QUADRANTS[qKey];
+  const cases = EM_CASES.filter(c => c.q === qKey);
+  const cls = `em-quad ${qKey}${active?' active':''}${dim?' dim':''}`;
+  const badge = active ? '<span class="em-sit-badge">Votre situation</span>' : '';
+  const tiles = cases.map(c =>
+    `<div class="em-tile" onclick="emOpenDetail('${c.id}')">${c.title}</div>`
+  ).join('');
+  return `<div class="${cls}">
+    ${badge}
+    <p class="em-quad-label">${q.label}</p>
+    <div class="em-tiles">${tiles}</div>
+  </div>`;
+}
+
+function emGridHtml(targetQuad){
+  const q = k => emQuadHtml(k, k===targetQuad, targetQuad && k!==targetQuad);
+  return `<div class="em-grid">
+    <div></div>
+    <div class="em-axis-x"><span>Urgent</span><span>Non urgent</span></div>
+    <div class="em-axis-y"><span>Important</span><span>Peu important</span></div>
+    ${q('q1')}${q('q2')}
+    ${q('q3')}${q('q4')}
+  </div>`;
+}
+
+function renderEmCompact(){
+  const target = EM_MAPPING[demoState.module][demoState.esc];
+  document.getElementById('emCompactHost').innerHTML = `
+    <div class="em-compact">
+      <div class="em-compact-head">
+        <p class="em-compact-title">🎯 Priorisation — Matrice d'Eisenhower</p>
+        <button class="em-expand-btn" onclick="emOpenOverlay()">Agrandir ⤢</button>
+      </div>
+      ${emGridHtml(target)}
+    </div>`;
+}
+
+function emOpenOverlay(){
+  const target = EM_MAPPING[demoState.module][demoState.esc];
+  document.getElementById('emModal').innerHTML = `
+    <div class="em-modal-head">
+      <h2 class="em-modal-title">🎯 Matrice d'Eisenhower — ${demoState.module.charAt(0).toUpperCase()+demoState.module.slice(1)}</h2>
+      <button class="em-modal-close" onclick="emCloseOverlay()">×</button>
+    </div>
+    <div id="emModalBody">${emGridHtml(target)}</div>`;
+  document.getElementById('emOverlay').classList.add('open');
+}
+
+function emCloseOverlay(){
+  document.getElementById('emOverlay').classList.remove('open');
+}
+
+function emOpenDetail(caseId){
+  const c = EM_CASES.find(x => x.id === caseId);
+  if (!c) return;
+  const q = EM_QUADRANTS[c.q];
+  // Si overlay ouvert, on remplace son contenu ; sinon on l'ouvre avec le détail
+  if (!document.getElementById('emOverlay').classList.contains('open')){
+    emOpenOverlay();
+  }
+  const planHtml = c.plan ? `
+      <div class="em-detail-section">
+        <h4>Plan d'action en ${c.plan.length} étapes</h4>
+        <table class="em-plan">
+          <thead><tr><th>Quand</th><th>Qui</th><th>Quoi</th></tr></thead>
+          <tbody>
+            ${c.plan.map(s => `<tr><td><strong>${s.t}</strong></td><td>${s.who}</td><td>${s.what}</td></tr>`).join('')}
+          </tbody>
+        </table>
+      </div>` : '';
+  document.getElementById('emModalBody').innerHTML = `
+    <div class="em-detail open">
+      <button class="em-detail-back" onclick="emBackToMatrix()">← Retour à la matrice</button>
+      <span class="em-detail-badge ${c.q}">${q.label} · ${q.action}</span>
+      <h3 class="em-detail-title">${c.title}</h3>
+      <p class="em-detail-desc">${c.desc}</p>
+      <div class="em-detail-section">
+        <h4>Pourquoi c'est dans ce quadrant</h4>
+        ${c.reasons.map(r => `<div class="em-reason">${r}</div>`).join('')}
+      </div>
+      ${planHtml}
+      <div class="em-detail-section">
+        <h4>Action recommandée</h4>
+        <button class="em-action-btn" onclick="alert('Appel placeholder: ${c.fn}')">${q.action} → ${c.fn}</button>
+      </div>
+    </div>`;
+}
+
+function emBackToMatrix(){
+  const target = EM_MAPPING[demoState.module][demoState.esc];
+  document.getElementById('emModalBody').innerHTML = emGridHtml(target);
+}
+
+// ═══ Contrôles démo ═══
+function bindCtl(groupId, key){
+  document.getElementById(groupId).addEventListener('click', e => {
+    const btn = e.target.closest('.ctl-btn');
+    if (!btn) return;
+    document.querySelectorAll(`#${groupId} .ctl-btn`).forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    demoState[key] = btn.dataset.val;
+    renderEmCompact();
+    if (document.getElementById('emOverlay').classList.contains('open')){
+      emBackToMatrix();
+    }
+  });
+}
+bindCtl('ctlModule','module');
+bindCtl('ctlEsc','esc');
+
+document.getElementById('btnTheme').addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark');
+  const btn = document.getElementById('btnTheme');
+  btn.textContent = document.documentElement.classList.contains('dark') ? '☀️ Basculer clair' : '🌙 Basculer sombre';
+});
+
+// Fermeture overlay
+document.getElementById('emOverlay').addEventListener('click', e => {
+  if (e.target.id === 'emOverlay') emCloseOverlay();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') emCloseOverlay();
+});
+
+// Init
+renderEmCompact();
+</script>
+</body>
+</html>

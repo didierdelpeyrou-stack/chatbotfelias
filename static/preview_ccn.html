@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aperçu — Encadré CCN ALISFA</title>
+<style>
+:root {
+  --blue-900:#1a2744; --blue-600:#2563eb; --blue-100:#dbeafe; --blue-50:#eff6ff;
+  --green-600:#16a34a; --green-100:#dcfce7;
+  --orange-100:#fef3c7; --red-100:#fee2e2; --red-500:#ef4444;
+  --grey-100:#f3f4f6; --grey-200:#e5e7eb; --grey-600:#4b5563; --grey-700:#374151;
+  --surface-bg:#f3f4f6; --surface-card:#fff; --surface-border:#e5e7eb;
+  --text-primary:#1f2937; --text-secondary:#4b5563;
+}
+html.dark {
+  --blue-900:#0b1220; --blue-600:#3b82f6; --blue-100:#172554; --blue-50:#0f172a;
+  --green-600:#16a34a; --green-100:#064e3b;
+  --orange-100:#451a03; --red-100:#450a0a; --red-500:#ef4444;
+  --grey-100:#0b1220; --grey-200:#1e293b; --grey-600:#cbd5e1; --grey-700:#94a3b8;
+  --surface-bg:#0b1220; --surface-card:#111a2e; --surface-border:#1e293b;
+  --text-primary:#f1f5f9; --text-secondary:#cbd5e1;
+}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--surface-bg);color:var(--text-primary);padding:20px;line-height:1.55}
+html.dark body{background:var(--surface-bg);color:var(--text-primary)}
+.container{max-width:780px;margin:0 auto}
+.title-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:10px}
+h1{font-size:18px;margin:0;color:var(--blue-900)}
+html.dark h1{color:var(--text-primary)}
+.toggle{background:var(--surface-card);border:1px solid var(--surface-border);color:var(--text-primary);padding:8px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600}
+.example{background:var(--surface-card);border:1px solid var(--surface-border);border-radius:12px;padding:18px 22px;margin-bottom:24px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.example h2{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin:14px 0 6px;padding:6px 10px;border-radius:6px;display:inline-block}
+.example h2:nth-of-type(1){background:var(--blue-50);color:var(--blue-600)}
+.example h2:nth-of-type(2){background:var(--grey-100);color:var(--grey-600)}
+.example h2:nth-of-type(3){background:var(--grey-100);color:var(--grey-600)}
+.example h2:nth-of-type(4){background:#f0fdf4;color:var(--green-600)}
+.example h2:nth-of-type(5){background:var(--orange-100);color:#b45309}
+.example p{margin:4px 0 10px}
+.example strong{font-weight:600}
+.example em{color:var(--grey-600)}
+.example ul,.example ol{margin:4px 0 10px 20px}
+.example li{margin-bottom:3px}
+.meta{font-size:12px;color:var(--grey-700);margin-bottom:18px}
+
+/* ─── Encadré CCN ALISFA — copie depuis index.html ─── */
+.ccn-alisfa-box{position:relative;margin:14px 0;padding:14px 16px 14px 18px;background:linear-gradient(180deg,#f0fdfa 0%,#ecfdf5 100%);border:1px solid #99f6e4;border-left:4px solid #0d9488;border-radius:10px;box-shadow:0 1px 3px rgba(13,148,136,.08)}
+.ccn-alisfa-header{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#0f5d54;background:rgba(13,148,136,.12);padding:4px 10px;border-radius:6px;margin-bottom:10px}
+.ccn-alisfa-header .ccn-icon{font-size:13px;line-height:1}
+.ccn-alisfa-header .ccn-idcc{font-weight:600;opacity:.85;margin-left:4px}
+.ccn-alisfa-body{color:#134e4a;font-size:13.5px;line-height:1.6}
+.ccn-alisfa-body p{margin:4px 0 8px;padding:0}
+.ccn-alisfa-body p:last-child{margin-bottom:0}
+.ccn-alisfa-body strong{color:#0f5d54;font-weight:700}
+.ccn-alisfa-body em{color:#115e59;font-style:italic}
+.ccn-alisfa-body ul,.ccn-alisfa-body ol{margin:6px 0 6px 20px}
+.ccn-alisfa-body li{margin-bottom:3px}
+.ccn-alisfa-body code{background:rgba(13,148,136,.1);color:#0f5d54;padding:1px 5px;border-radius:4px;font-size:12px}
+.ccn-alisfa-body a{color:#0d9488;text-decoration:underline}
+
+html.dark .ccn-alisfa-box{background:linear-gradient(180deg,rgba(13,148,136,.13) 0%,rgba(13,148,136,.06) 100%);border-color:rgba(45,212,191,.3);border-left-color:#2dd4bf;box-shadow:0 1px 3px rgba(0,0,0,.3)}
+html.dark .ccn-alisfa-header{color:#5eead4;background:rgba(45,212,191,.18)}
+html.dark .ccn-alisfa-body{color:#ccfbf1}
+html.dark .ccn-alisfa-body strong{color:#99f6e4}
+html.dark .ccn-alisfa-body em{color:#a7f3d0}
+html.dark .ccn-alisfa-body code{background:rgba(45,212,191,.15);color:#99f6e4}
+html.dark .ccn-alisfa-body a{color:#5eead4}
+
+@media(max-width:640px){
+  .ccn-alisfa-box{padding:11px 12px 11px 14px;border-radius:9px;margin:11px 0}
+  .ccn-alisfa-header{font-size:10px;padding:3px 8px;margin-bottom:7px}
+  .ccn-alisfa-body{font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="title-bar">
+  <h1>Aperçu — Différenciation Code du travail / CCN ALISFA</h1>
+  <button class="toggle" onclick="document.documentElement.classList.toggle('dark')">Basculer clair / sombre</button>
+</div>
+
+<p class="meta">Cette page montre exactement comment les encadrés CCN ALISFA s'afficheront dans les réponses du chatbot,
+à côté des références au Code du travail qui restent en texte normal.</p>
+
+<!-- ═══ EXEMPLE 1 — QUESTION JURIDIQUE TYPIQUE ═══ -->
+<div class="example">
+  <h2>Synthèse</h2>
+  <p>Pour un salarié en CDI avec 8 ans d'ancienneté en centre social, le préavis de licenciement est de <strong>2 mois</strong> en application de la CCN ALISFA, qui est plus favorable que le minimum légal.</p>
+
+  <h2>Fondement légal</h2>
+  <p><strong>Articles L1234-1 et L1234-5 du Code du travail</strong> — Le préavis minimum légal est de :</p>
+  <ul>
+    <li>1 semaine pour une ancienneté < 6 mois</li>
+    <li>1 mois entre 6 mois et 2 ans</li>
+    <li>2 mois au-delà de 2 ans d'ancienneté</li>
+  </ul>
+
+  <h2>Fondement conventionnel ALISFA</h2>
+  <div class="ccn-alisfa-box">
+    <div class="ccn-alisfa-header">
+      <span class="ccn-icon">📖</span>Convention Collective ALISFA<span class="ccn-idcc">· IDCC 1261</span>
+    </div>
+    <div class="ccn-alisfa-body">
+      <p><strong>Chapitre III — Article 3.4.1 · Préavis de licenciement</strong></p>
+      <p>La CCN ALISFA applique un préavis de <strong>2 mois à tous les salariés justifiant d'au moins 2 ans d'ancienneté</strong> dans la branche, quelle que soit leur catégorie professionnelle (non-cadre ou cadre).</p>
+      <p>Cette disposition s'applique dès lors que le salarié a été embauché sous couvert de la CCN ALISFA, y compris en cas de mobilité inter-structure au sein de la branche.</p>
+    </div>
+  </div>
+
+  <h2>Articulation / hiérarchie des normes</h2>
+  <p>En vertu du <strong>principe de faveur</strong> (article <code>L2251-1</code> du Code du travail), c'est la disposition conventionnelle qui s'applique ici : elle est identique au minimum légal au-delà de 2 ans, mais couvre plus largement les situations intermédiaires.</p>
+
+  <h2>Vigilance</h2>
+  <p><em>Si l'employeur souhaite dispenser le salarié d'exécuter son préavis, il doit maintenir l'intégralité du salaire et des avantages (<strong>indemnité compensatrice de préavis</strong>), conformément à l'article L1234-5.</em></p>
+</div>
+
+<!-- ═══ EXEMPLE 2 — DOUBLE CITATION CCN DANS UNE MÊME RÉPONSE ═══ -->
+<div class="example">
+  <h2>Synthèse</h2>
+  <p>Prime d'ancienneté et valeur du point sont deux dispositifs CCN ALISFA distincts. Voici leur articulation.</p>
+
+  <h2>Fondement conventionnel ALISFA</h2>
+  <div class="ccn-alisfa-box">
+    <div class="ccn-alisfa-header">
+      <span class="ccn-icon">📖</span>Convention Collective ALISFA<span class="ccn-idcc">· IDCC 1261</span>
+    </div>
+    <div class="ccn-alisfa-body">
+      <p><strong>Chapitre IV — Valeur du point (au 1er janvier 2024)</strong></p>
+      <p>La valeur du point ALISFA est fixée à <strong>55 € bruts</strong>. Elle multiplie la pesée du poste et l'ancienneté dans le calcul de la rémunération.</p>
+    </div>
+  </div>
+
+  <div class="ccn-alisfa-box">
+    <div class="ccn-alisfa-header">
+      <span class="ccn-icon">📖</span>Convention Collective ALISFA<span class="ccn-idcc">· IDCC 1261</span>
+    </div>
+    <div class="ccn-alisfa-body">
+      <p><strong>Chapitre IV — Ancienneté dans la branche</strong></p>
+      <ul>
+        <li><strong>≥ 0,50 ETP</strong> (≥ 17h30/semaine) : 1 point par an d'ancienneté</li>
+        <li><strong>0,23 à 0,50 ETP</strong> : 0,5 point par an</li>
+        <li><strong>&lt; 0,23 ETP</strong> : 0,25 point par an</li>
+      </ul>
+      <p><em>L'ancienneté prise en compte est celle acquise dans l'ensemble de la branche ALISFA, toutes structures confondues.</em></p>
+    </div>
+  </div>
+
+  <h2>Application</h2>
+  <p>La rémunération annuelle brute se calcule ainsi : <code>SSC + (pesée × 55€) + (ancienneté × 55€)</code>. Pour un salarié avec 10 ans d'ancienneté et une pesée de 150 points au temps plein, cela donne : 22 100 + (150 × 55) + (10 × 55) = <strong>30 900 € bruts annuels</strong> (SSC 2024).</p>
+</div>
+
+<!-- ═══ EXEMPLE 3 — MODULE FORMATION ═══ -->
+<div class="example">
+  <h2>Synthèse</h2>
+  <p>L'entretien professionnel est une obligation légale ET une disposition renforcée dans la CCN ALISFA.</p>
+
+  <h2>Minimum légal</h2>
+  <p><strong>Article L6315-1 du Code du travail</strong> — Tous les <strong>2 ans</strong>, l'employeur doit organiser un entretien professionnel avec chaque salarié sur ses perspectives d'évolution (qualification, emploi). Un bilan récapitulatif est effectué tous les <strong>6 ans</strong>.</p>
+
+  <h2>Dispositions CCN ALISFA</h2>
+  <div class="ccn-alisfa-box">
+    <div class="ccn-alisfa-header">
+      <span class="ccn-icon">📖</span>Convention Collective ALISFA<span class="ccn-idcc">· IDCC 1261</span>
+    </div>
+    <div class="ccn-alisfa-body">
+      <p><strong>Chapitre VIII — Formation professionnelle</strong></p>
+      <p>La branche ALISFA prévoit que l'entretien professionnel porte également sur :</p>
+      <ul>
+        <li>L'accès à la formation, notamment via les dispositifs Pro-A et CPF abondé par la branche</li>
+        <li>La reconnaissance des acquis de l'expérience (VAE)</li>
+        <li>La mobilité inter-structure au sein de la branche</li>
+      </ul>
+      <p><strong>Un budget formation minimum</strong> est mutualisé au niveau branche via Uniformation (OPCO Cohésion Sociale).</p>
+    </div>
+  </div>
+
+  <h2>En pratique</h2>
+  <p>Tracer l'entretien dans le dossier RH, remettre un compte-rendu signé au salarié, identifier les besoins de formation à faire remonter à <strong>Uniformation</strong> lors du plan de développement annuel.</p>
+</div>
+
+<!-- ═══ EXEMPLE 4 — SANS ENCADRÉ CCN (pas de régression) ═══ -->
+<div class="example">
+  <h2>Synthèse</h2>
+  <p>Pour mettre en place un CSE, le seuil légal est de <strong>11 salariés</strong> sur 12 mois consécutifs.</p>
+
+  <h2>Fondement légal</h2>
+  <p>Articles <strong>L2311-2 et L2312-1</strong> du Code du travail. Le seuil est apprécié en équivalent temps plein sur les 12 derniers mois. L'élection doit être organisée dans les 90 jours.</p>
+
+  <p><em>Note : ce sujet est encadré par le Code du travail ; la CCN ALISFA ne prévoit pas de disposition spécifique. Aucun encadré CCN n'apparaît donc dans cette réponse.</em></p>
+</div>
+
+</div>
+<script>
+// Démarrer en mode clair par défaut ; le bouton permet de basculer.
+</script>
+</body>
+</html>

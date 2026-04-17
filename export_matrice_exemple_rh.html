@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Matrice Eisenhower — Centre social Les Tilleuls (exemple RH)</title>
+<style>
+:root{
+  --blue-50:#eff6ff; --blue-100:#dbeafe; --blue-500:#3b82f6; --blue-600:#2563eb; --blue-700:#1d4ed8;
+  --grey-50:#f8fafc; --grey-100:#f1f5f9; --grey-200:#e2e8f0; --grey-300:#cbd5e1; --grey-500:#64748b;
+  --grey-600:#475569; --grey-700:#334155; --grey-900:#0f172a;
+  --red-50:#fef2f2; --red-100:#fee2e2; --red-600:#dc2626; --red-700:#b91c1c;
+  --orange-50:#fff7ed; --orange-100:#ffedd5; --orange-500:#f97316; --orange-600:#ea580c;
+  --green-50:#ecfdf5; --green-100:#d1fae5; --green-600:#059669; --green-700:#047857;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:#f8fafc;color:#0f172a;padding:28px;line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;background:#fff;border-radius:16px;padding:36px;
+  box-shadow:0 10px 30px rgba(15,23,42,.08);border:1px solid #e2e8f0}
+
+/* ── En-tête ── */
+.hdr{border-bottom:2px solid #e2e8f0;padding-bottom:20px;margin-bottom:24px}
+.hdr-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.hdr h1{margin:0 0 4px;font-size:24px;color:var(--blue-700)}
+.hdr .sub{color:var(--grey-500);font-size:13px;margin:0}
+.hdr-meta{text-align:right;font-size:12px;color:var(--grey-600)}
+.hdr-meta strong{color:var(--grey-900)}
+.badge-esc{display:inline-block;padding:6px 14px;border-radius:999px;font-size:11px;font-weight:800;
+  text-transform:uppercase;letter-spacing:.05em;background:var(--orange-100);color:var(--orange-600);
+  border:1px solid var(--orange-500);margin-top:6px}
+
+/* ── Bloc situation ── */
+.sit{background:#fef9f1;border:1px solid #ffedd5;border-left:4px solid var(--orange-500);
+  border-radius:10px;padding:16px 18px;margin-bottom:28px;font-size:14px}
+.sit h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--orange-600)}
+.sit p{margin:0;font-style:italic;color:#422006}
+.sit .src{display:block;margin-top:10px;font-style:normal;color:var(--grey-600);font-size:12px}
+
+/* ── Matrice ── */
+.mx-title{font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:var(--grey-500);
+  font-weight:700;margin:0 0 12px}
+.mx{display:grid;grid-template-columns:110px 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:10px;margin-bottom:28px}
+.ax-x{grid-column:2/4;display:grid;grid-template-columns:1fr 1fr;gap:10px;text-align:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--grey-500);padding-bottom:6px}
+.ax-y{display:flex;flex-direction:column;justify-content:space-around;align-items:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--grey-500);writing-mode:vertical-rl;
+  transform:rotate(180deg)}
+.ax-y span{padding:20px 0}
+.qd{border-radius:12px;padding:14px;border:2px solid transparent;min-height:160px;position:relative;display:flex;flex-direction:column}
+.qd.q1{background:var(--red-50);border-color:var(--red-100)}
+.qd.q2{background:var(--orange-50);border-color:var(--orange-100)}
+.qd.q3{background:var(--green-50);border-color:var(--green-100)}
+.qd.q4{background:var(--grey-100);border-color:var(--grey-200)}
+.qd-lab{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin:0 0 8px}
+.qd.q1 .qd-lab{color:var(--red-700)}
+.qd.q2 .qd-lab{color:var(--orange-600)}
+.qd.q3 .qd-lab{color:var(--green-700)}
+.qd.q4 .qd-lab{color:var(--grey-600)}
+.qd.dim{opacity:.4}
+.qd.on{border-width:3px;border-color:var(--orange-600);box-shadow:0 0 0 4px rgba(249,115,22,.18)}
+.tile{background:#fff;border:1px solid #e2e8f0;border-radius:6px;padding:7px 10px;
+  font-size:11px;font-weight:500;margin-bottom:4px;line-height:1.3;color:#0f172a}
+.tile.star{background:#fff7ed;border-color:var(--orange-500);border-width:2px;font-weight:700;
+  color:#9a3412}
+.sit-badge{position:absolute;top:-11px;right:10px;background:var(--orange-600);color:#fff;
+  font-size:10px;font-weight:800;padding:4px 10px;border-radius:999px;text-transform:uppercase;
+  letter-spacing:.04em;box-shadow:0 3px 8px rgba(234,88,12,.4)}
+
+/* ── Panneau détail ── */
+.dt{border:1px solid #e2e8f0;border-radius:12px;padding:24px;background:#fafbfc}
+.dt-bdg{display:inline-block;padding:6px 14px;border-radius:999px;font-size:11px;font-weight:800;
+  text-transform:uppercase;letter-spacing:.04em;background:var(--orange-100);color:var(--orange-600);
+  margin-bottom:10px}
+.dt h3{margin:0 0 12px;font-size:20px;color:var(--grey-900)}
+.dt-desc{font-size:14px;color:var(--grey-700);margin:0 0 22px}
+.dt-sec{margin-bottom:22px}
+.dt-sec h4{margin:0 0 10px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--grey-500)}
+.reason{background:#fff;border-left:3px solid var(--blue-500);padding:10px 14px;border-radius:6px;
+  margin-bottom:8px;font-size:13px}
+.reason:last-child{margin-bottom:0}
+
+/* ── Tableau plan ── */
+.plan{width:100%;border-collapse:collapse;font-size:13px;background:#fff;border-radius:8px;overflow:hidden;
+  border:1px solid #e2e8f0}
+.plan th{background:var(--blue-600);color:#fff;padding:10px 12px;text-align:left;font-size:11px;
+  text-transform:uppercase;letter-spacing:.04em;font-weight:700}
+.plan td{padding:11px 12px;border-top:1px solid #e2e8f0;vertical-align:top}
+.plan td:first-child{white-space:nowrap;color:var(--grey-600);font-size:12px;font-weight:600;width:100px}
+.plan td:nth-child(2){color:var(--blue-700);font-weight:600;width:180px}
+
+/* ── Pied de page ── */
+.ftr{margin-top:28px;padding-top:18px;border-top:1px solid #e2e8f0;font-size:11px;color:var(--grey-500);
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+@media print{
+  body{background:#fff;padding:0}
+  .wrap{box-shadow:none;border:none;padding:20px;max-width:100%}
+  .qd{min-height:140px}
+  .dt{break-inside:avoid}
+  .plan{break-inside:avoid}
+}
+@media (max-width:720px){
+  body{padding:12px}
+  .wrap{padding:20px}
+  .mx{grid-template-columns:1fr}
+  .ax-x,.ax-y{display:none}
+  .plan td:first-child,.plan td:nth-child(2){white-space:normal;width:auto}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ── EN-TÊTE ── -->
+  <div class="hdr">
+    <div class="hdr-top">
+      <div>
+        <h1>🎯 Matrice d'Eisenhower — Diagnostic ELISFA</h1>
+        <p class="sub">Centre social <em>Les Tilleuls</em> · 18 salariés · Module RH</p>
+        <span class="badge-esc">🟠 Escalade Orange — Vérification juriste recommandée</span>
+      </div>
+      <div class="hdr-meta">
+        <div><strong>Référence</strong> · ELISFA-RH-2026-0416</div>
+        <div><strong>Généré le</strong> · 16 avril 2026</div>
+        <div><strong>Chatbot</strong> · Claude Haiku 4.5</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SITUATION ── -->
+  <div class="sit">
+    <h2>📋 Situation décrite par la directrice</h2>
+    <p>« Depuis 6 semaines, l'ambiance est devenue irrespirable dans l'équipe jeunesse. Karim, le responsable secteur jeunesse (en poste depuis 8 ans, très apprécié du public), a changé de comportement depuis son retour de vacances d'été : il coupe la parole en réunion, a eu deux altercations verbales avec Léa (animatrice, 26 ans, arrivée en janvier), et j'ai reçu hier un mail anonyme signé "l'équipe jeunesse" qui parle de "management humiliant". Léa m'a demandé un entretien "urgent" pour demain. Le CSE n'existe pas encore (on est à 18 ETP depuis 4 mois). Je ne sais pas si je dois sanctionner Karim, organiser une médiation, ouvrir une enquête, ou d'abord écouter Léa. »</p>
+    <span class="src">— Sophie, directrice · Centre social Les Tilleuls</span>
+  </div>
+
+  <!-- ── MATRICE ── -->
+  <p class="mx-title">🎯 Positionnement dans la matrice de priorisation</p>
+  <div class="mx">
+    <div></div>
+    <div class="ax-x"><span>Urgent</span><span>Non urgent</span></div>
+    <div class="ax-y"><span>Important</span><span>Peu important</span></div>
+
+    <!-- Q1 -->
+    <div class="qd q1 dim">
+      <p class="qd-lab">Urgent & Important — Faire maintenant</p>
+      <div class="tile">Licenciement faute grave imminent</div>
+      <div class="tile">Signalement harcèlement / accident grave</div>
+      <div class="tile">Contrôle URSSAF en cours</div>
+    </div>
+
+    <!-- Q2 active -->
+    <div class="qd q2 on">
+      <span class="sit-badge">Votre situation</span>
+      <p class="qd-lab">Important, non urgent — Planifier</p>
+      <div class="tile star">⭐ Tension managériale + signalement collectif (sans CSE)</div>
+      <div class="tile">Révision des statuts de l'association</div>
+      <div class="tile">Construire une GEPP</div>
+      <div class="tile">Plan de développement des compétences pluriannuel</div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="qd q3 dim">
+      <p class="qd-lab">Urgent, peu important — Déléguer</p>
+      <div class="tile">Réponse sollicitation salarié (CPF, congés…)</div>
+      <div class="tile">Rappel échéance administrative</div>
+      <div class="tile">Question CPF d'un salarié</div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="qd q4 dim">
+      <p class="qd-lab">Ni urgent ni important — Éliminer / différer</p>
+      <div class="tile">Mise à jour du règlement intérieur</div>
+      <div class="tile">Archivage documentaire historique</div>
+      <div class="tile">Refonte du site vitrine</div>
+    </div>
+  </div>
+
+  <!-- ── DÉTAIL DU CAS ── -->
+  <div class="dt">
+    <span class="dt-bdg">Important, non urgent · Planifier</span>
+    <h3>⭐ Tension managériale + signalement collectif (sans CSE)</h3>
+    <p class="dt-desc">Signalement écrit collectif visant un responsable d'équipe, faits précis relatés, obligation de sécurité engagée mais pas d'urgence vitale immédiate. Nécessite une démarche structurée en 3 temps : écoute, enquête, action.</p>
+
+    <div class="dt-sec">
+      <h4>Pourquoi ce classement en Q2</h4>
+      <div class="reason"><strong>Obligation de sécurité de résultat</strong> (L.4121-1 C. trav.) — l'inaction expose pénalement le dirigeant et l'employeur.</div>
+      <div class="reason"><strong>Pas d'urgence vitale</strong> (pas d'accident, pas d'arrêt maladie en cours) → place pour une démarche cadrée plutôt qu'une réaction à chaud qui exposerait à un vice de procédure.</div>
+      <div class="reason"><strong>Manquement CSE à régulariser en parallèle</strong> — sujet structurel qui ne peut plus attendre (seuil franchi depuis 4 mois).</div>
+    </div>
+
+    <div class="dt-sec">
+      <h4>Plan d'action en 7 étapes</h4>
+      <table class="plan">
+        <thead><tr><th>Quand</th><th>Qui</th><th>Quoi</th></tr></thead>
+        <tbody>
+          <tr><td>J+0 (demain)</td><td>Directrice seule</td><td>Recevoir Léa en entretien individuel confidentiel — écouter, noter les faits, ne rien promettre, expliquer la procédure à venir.</td></tr>
+          <tr><td>J+1</td><td>Juriste ALISFA</td><td>Rappel juriste (déclenché auto par l'escalade orange, 48h ouvrées) — cadrage de la procédure d'enquête.</td></tr>
+          <tr><td>J+2 à J+5</td><td>Directrice + administrateur référent</td><td>Entretiens individuels avec les 5 autres membres de l'équipe jeunesse, puis avec Karim — faits, pas interprétations.</td></tr>
+          <tr><td>J+7</td><td>Directrice + juriste</td><td>Synthèse écrite des entretiens, qualification juridique : harcèlement moral ? management inadapté ? conflit interpersonnel ?</td></tr>
+          <tr><td>J+10</td><td>CA + directrice</td><td>Décision : rappel à l'ordre formel / accompagnement managérial / mesures conservatoires / sanction disciplinaire.</td></tr>
+          <tr><td>J+15</td><td>Directrice</td><td>Restitution à l'équipe (cadre, pas contenu) + plan d'actions climat.</td></tr>
+          <tr><td>En parallèle</td><td>Directrice + prestataire</td><td>Lancer la mise en place du CSE (élections à organiser — manquement de 4 mois à régulariser immédiatement).</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="dt-sec" style="margin-bottom:0">
+      <h4>Ressources ELISFA mobilisables</h4>
+      <div class="reason">📞 <strong>Rappel juriste</strong> sous 48h ouvrées (juridique@elisfa.fr)</div>
+      <div class="reason">📄 Fiche pratique <em>« Enquête interne suite à signalement »</em></div>
+      <div class="reason">📄 Fiche pratique <em>« Mise en place du CSE — seuil 11 / 50 »</em></div>
+      <div class="reason">📄 Modèle de convocation à entretien + trame d'écoute confidentielle</div>
+    </div>
+  </div>
+
+  <!-- ── PIED ── -->
+  <div class="ftr">
+    <div>Document généré par le chatbot ELISFA · diagnostic indicatif, ne remplace pas un conseil juridique personnalisé</div>
+    <div>© ELISFA 2026 · felias-reseau-eli2026.duckdns.org</div>
+  </div>
+
+</div>
+</body>
+</html>

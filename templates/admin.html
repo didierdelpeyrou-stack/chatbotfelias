@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELISFA — Administration Chatbot</title>
+<style>
+:root{--blue-900:#1a2744;--blue-700:#1e3a5f;--blue-600:#2563eb;--blue-500:#3b82f6;--blue-100:#dbeafe;--blue-50:#eff6ff;--green-600:#16a34a;--green-100:#dcfce7;--orange-500:#f59e0b;--orange-100:#fef3c7;--red-500:#ef4444;--red-100:#fee2e2;--grey-50:#f9fafb;--grey-100:#f3f4f6;--grey-200:#e5e7eb;--grey-400:#9ca3af;--grey-600:#4b5563;--grey-800:#1f2937}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--grey-100);color:var(--grey-800);min-height:100vh}
+
+.header{background:linear-gradient(135deg,var(--blue-900),var(--blue-700));color:#fff;padding:16px 32px;display:flex;align-items:center;gap:16px}
+.header h1{font-size:18px}
+.header a{color:rgba(255,255,255,.7);text-decoration:none;margin-left:auto;font-size:13px;padding:6px 14px;border:1px solid rgba(255,255,255,.3);border-radius:8px}
+.header a:hover{color:#fff;border-color:rgba(255,255,255,.6)}
+
+.container{max-width:1200px;margin:0 auto;padding:24px}
+
+.tabs{display:flex;gap:0;margin-bottom:24px;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.tab{padding:14px 24px;font-size:14px;font-weight:600;color:var(--grey-600);cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;flex:1;text-align:center}
+.tab:hover{color:var(--blue-600);background:var(--blue-50)}
+.tab.active{color:var(--blue-600);border-bottom-color:var(--blue-600);background:var(--blue-50)}
+
+.panel{display:none}
+.panel.active{display:block}
+
+.card{background:#fff;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.06);border:1px solid var(--grey-200)}
+.card h2{font-size:16px;font-weight:700;color:var(--blue-900);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:#fff;border-radius:12px;padding:20px;text-align:center;border:1px solid var(--grey-200)}
+.stat-number{font-size:32px;font-weight:800;color:var(--blue-600)}
+.stat-label{font-size:12px;color:var(--grey-600);margin-top:4px;text-transform:uppercase;letter-spacing:.5px}
+
+.niveau-bar{display:flex;gap:12px;margin-top:12px}
+.niveau-item{flex:1;padding:14px;border-radius:10px;text-align:center}
+.niveau-item .num{font-size:24px;font-weight:700}
+.niveau-item .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.nv-vert{background:var(--green-100);color:var(--green-600)}
+.nv-orange{background:var(--orange-100);color:#b45309}
+.nv-red{background:var(--red-100);color:var(--red-500)}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:var(--grey-50);padding:10px 14px;text-align:left;font-weight:600;color:var(--grey-600);border-bottom:2px solid var(--grey-200);font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+td{padding:10px 14px;border-bottom:1px solid var(--grey-200)}
+tr:hover td{background:var(--blue-50)}
+
+.badge{display:inline-block;padding:2px 10px;border-radius:8px;font-size:11px;font-weight:600}
+.badge-vert{background:var(--green-100);color:var(--green-600)}
+.badge-orange{background:var(--orange-100);color:#b45309}
+.badge-rouge{background:var(--red-100);color:var(--red-500)}
+
+.badge-statut{padding:3px 10px;border-radius:8px;font-size:11px;font-weight:700}
+.statut-en_attente{background:var(--orange-100);color:#b45309}
+.statut-confirme{background:var(--green-100);color:var(--green-600)}
+.statut-termine{background:var(--blue-100);color:var(--blue-600)}
+.statut-annule{background:var(--grey-100);color:var(--grey-600)}
+
+.theme-list{display:flex;flex-direction:column;gap:10px}
+.theme-item{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-radius:10px;background:var(--grey-50);border:1px solid var(--grey-200)}
+.theme-item .name{font-weight:600;font-size:14px}
+.theme-item .count{font-size:22px;font-weight:700;color:var(--blue-600)}
+
+.kb-theme{margin-bottom:20px}
+.kb-theme h3{font-size:14px;font-weight:700;color:var(--blue-700);margin-bottom:10px;padding:8px 12px;background:var(--blue-50);border-radius:8px;display:flex;justify-content:space-between;align-items:center}
+.kb-article{padding:12px 16px;border:1px solid var(--grey-200);border-radius:8px;margin-bottom:8px;background:#fff}
+.kb-article .title{font-weight:600;font-size:13px;margin-bottom:4px}
+.kb-article .meta{font-size:11px;color:var(--grey-400)}
+.kb-article .kw{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.kb-article .kw span{background:var(--grey-100);padding:2px 8px;border-radius:6px;font-size:11px;color:var(--grey-600)}
+
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;border:none;transition:all .2s;font-family:inherit}
+.btn-primary{background:var(--blue-600);color:#fff}
+.btn-primary:hover{background:var(--blue-700)}
+.btn-success{background:var(--green-600);color:#fff}
+.btn-success:hover{background:#15803d}
+.btn-danger{background:var(--red-500);color:#fff}
+.btn-danger:hover{background:#dc2626}
+.btn-outline{background:#fff;border:1px solid var(--grey-200);color:var(--grey-600)}
+.btn-outline:hover{border-color:var(--blue-500);color:var(--blue-600)}
+.btn-sm{padding:4px 10px;font-size:11px}
+
+.reload-msg{display:none;margin-left:12px;font-size:13px;color:var(--green-600);font-weight:600}
+
+/* RDV detail panel */
+.rdv-detail{background:var(--grey-50);border:1px solid var(--grey-200);border-radius:10px;padding:16px;margin-top:8px;display:none}
+.rdv-detail.open{display:block}
+.rdv-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:13px}
+.rdv-detail-grid dt{font-weight:600;color:var(--grey-600)}
+.rdv-detail-grid dd{color:var(--grey-800)}
+.rdv-actions{display:flex;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid var(--grey-200)}
+.rdv-actions input,.rdv-actions select{padding:6px 10px;border:1px solid var(--grey-200);border-radius:6px;font-size:12px;font-family:inherit}
+
+/* MCP config card */
+.mcp-endpoint{background:var(--grey-50);border:1px solid var(--grey-200);border-radius:8px;padding:12px 16px;margin-bottom:8px}
+.mcp-endpoint .method{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;margin-right:8px}
+.method-post{background:var(--green-100);color:var(--green-600)}
+.method-get{background:var(--blue-100);color:var(--blue-600)}
+.mcp-endpoint .url{font-family:monospace;font-size:13px;color:var(--grey-800)}
+.mcp-endpoint .desc{font-size:12px;color:var(--grey-600);margin-top:4px}
+
+.health-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:12px}
+.health-item{padding:12px;border-radius:8px;border:1px solid var(--grey-200);display:flex;align-items:center;gap:10px}
+.health-dot{width:10px;height:10px;border-radius:50%}
+.health-ok{background:var(--green-600)}
+.health-warn{background:var(--orange-500)}
+.health-err{background:var(--red-500)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <span style="font-size:20px">&#9881;</span>
+  <h1>Administration — Chatbot Juridique ELISFA v2.0</h1>
+  <a href="/">&#8592; Retour au chatbot</a>
+</div>
+
+<div class="container">
+
+  <div class="tabs">
+    <div class="tab active" onclick="showTab('dashboard')">&#128202; Tableau de bord</div>
+    <div class="tab" onclick="showTab('emails')">&#128231; Emails juriste</div>
+    <div class="tab" onclick="showTab('appels')">&#128222; Appels 15 min</div>
+    <div class="tab" onclick="showTab('rdv')">&#128197; Rendez-vous</div>
+    <div class="tab" onclick="showTab('interactions')">&#128172; Interactions</div>
+    <div class="tab" onclick="showTab('knowledge')">&#128218; Base documentaire</div>
+    <div class="tab" onclick="showTab('mcp')">&#128268; Int&eacute;grations MCP</div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="panel active" id="panel-dashboard">
+    <div class="stats-grid" id="statsGrid">
+      <div class="stat-card"><div class="stat-number" id="totalQuestions">-</div><div class="stat-label">Questions totales</div></div>
+      <div class="stat-card"><div class="stat-number" id="totalThemes">-</div><div class="stat-label">Th&egrave;mes couverts</div></div>
+      <div class="stat-card"><div class="stat-number" id="totalEmails">-</div><div class="stat-label">Emails juriste</div></div>
+      <div class="stat-card"><div class="stat-number" id="totalAppels">-</div><div class="stat-label">Appels 15 min</div></div>
+      <div class="stat-card"><div class="stat-number" id="totalRdv">-</div><div class="stat-label">RDV demand&eacute;s</div></div>
+      <div class="stat-card"><div class="stat-number" id="rdvEnAttente">-</div><div class="stat-label">RDV en attente</div></div>
+    </div>
+
+    <div class="card">
+      <h2>R&eacute;partition par niveau</h2>
+      <div class="niveau-bar">
+        <div class="niveau-item nv-vert"><div class="num" id="nVert">0</div><div class="lbl">Vert (auto)</div></div>
+        <div class="niveau-item nv-orange"><div class="num" id="nOrange">0</div><div class="lbl">Orange (avertissement)</div></div>
+        <div class="niveau-item nv-red"><div class="num" id="nRouge">0</div><div class="lbl">Rouge (escalade)</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Th&egrave;mes les plus demand&eacute;s</h2>
+      <div class="theme-list" id="themeList"></div>
+    </div>
+
+    <div class="card">
+      <h2>&#9889; &Eacute;tat du syst&egrave;me</h2>
+      <div class="health-grid" id="healthGrid"></div>
+    </div>
+  </div>
+
+  <!-- Emails Juriste -->
+  <div class="panel" id="panel-emails">
+    <div class="card">
+      <h2>&#128231; Questions adh&eacute;rents (emails guid&eacute;s)</h2>
+      <table>
+        <thead><tr><th>R&eacute;f.</th><th>Date</th><th>Nom</th><th>Th&egrave;me</th><th>Niveau</th><th>Statut</th><th>Actions</th></tr></thead>
+        <tbody id="emailsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Appels 15 min -->
+  <div class="panel" id="panel-appels">
+    <div class="card">
+      <h2>&#128222; Appels 15 minutes — Premier contact</h2>
+      <div style="display:flex;gap:8px;margin-bottom:16px">
+        <button class="btn btn-outline btn-sm" onclick="filterAppels('all')">Tous</button>
+        <button class="btn btn-outline btn-sm" onclick="filterAppels('planifie')">Planifi&eacute;s</button>
+        <button class="btn btn-outline btn-sm" onclick="filterAppels('confirme')">Confirm&eacute;s</button>
+        <button class="btn btn-outline btn-sm" onclick="filterAppels('effectue')">Effectu&eacute;s</button>
+        <button class="btn btn-outline btn-sm" onclick="filterAppels('annule')">Annul&eacute;s</button>
+      </div>
+      <table>
+        <thead><tr><th>R&eacute;f.</th><th>Date</th><th>Heure</th><th>Nom</th><th>T&eacute;l&eacute;phone</th><th>Motif</th><th>Priorit&eacute;</th><th>Statut</th><th>Actions</th></tr></thead>
+        <tbody id="appelsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- RDV -->
+  <div class="panel" id="panel-rdv">
+    <div class="card">
+      <h2>&#128197; Rendez-vous juridiques</h2>
+      <div style="display:flex;gap:8px;margin-bottom:16px">
+        <button class="btn btn-outline btn-sm" onclick="filterRdv('all')">Tous</button>
+        <button class="btn btn-outline btn-sm" onclick="filterRdv('en_attente')">En attente</button>
+        <button class="btn btn-outline btn-sm" onclick="filterRdv('confirme')">Confirm&eacute;s</button>
+        <button class="btn btn-outline btn-sm" onclick="filterRdv('termine')">Termin&eacute;s</button>
+      </div>
+      <table>
+        <thead><tr><th>R&eacute;f.</th><th>Date</th><th>Nom</th><th>Sujet</th><th>Niveau</th><th>Statut</th><th>Actions</th></tr></thead>
+        <tbody id="rdvTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Interactions -->
+  <div class="panel" id="panel-interactions">
+    <div class="card">
+      <h2>Derni&egrave;res interactions</h2>
+      <table>
+        <thead><tr><th>Date</th><th>Th&egrave;me</th><th>Niveau</th><th>Sources</th><th>D&eacute;cision</th></tr></thead>
+        <tbody id="interactionsTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Knowledge Base -->
+  <div class="panel" id="panel-knowledge">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+      <button class="btn btn-primary" onclick="reloadKB()">&#128260; Recharger la base</button>
+      <span class="reload-msg" id="reloadMsg">&#9989; Base recharg&eacute;e</span>
+    </div>
+    <div id="kbContent"></div>
+  </div>
+
+  <!-- MCP Integrations -->
+  <div class="panel" id="panel-mcp">
+    <div class="card">
+      <h2>&#128268; Connecteurs MCP &amp; Webhooks</h2>
+      <p style="font-size:13px;color:var(--grey-600);margin-bottom:16px">Points d'entr&eacute;e API pour int&eacute;grer le chatbot avec des outils externes (n8n, Zapier, Make, Slack, etc.).</p>
+      <div id="mcpEndpoints"></div>
+    </div>
+
+    <div class="card">
+      <h2>&#128197; Int&eacute;gration Calendrier</h2>
+      <p style="font-size:13px;color:var(--grey-600);margin-bottom:12px">Connectez un service de calendrier pour automatiser la prise de RDV.</p>
+      <div id="calendarConfig"></div>
+    </div>
+
+    <div class="card">
+      <h2>&#128231; Configuration Email (SMTP)</h2>
+      <div id="smtpStatus"></div>
+    </div>
+
+    <div class="card">
+      <h2>&#129302; Mod&egrave;le IA</h2>
+      <div id="modelConfig"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+let allRdv = [];
+let currentFilter = 'all';
+
+function showTab(name) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  event.currentTarget.classList.add('active');
+  if (name === 'emails') loadEmails();
+  if (name === 'appels') loadAppels();
+  if (name === 'rdv') loadRdv();
+  if (name === 'mcp') loadMcpConfig();
+}
+
+// ── Dashboard ──
+async function loadStats() {
+  try {
+    const res = await fetch('/api/stats');
+    const data = await res.json();
+    document.getElementById('totalQuestions').textContent = data.total;
+    document.getElementById('totalThemes').textContent = Object.keys(data.themes).length;
+    document.getElementById('nVert').textContent = data.niveaux.vert || 0;
+    document.getElementById('nOrange').textContent = data.niveaux.orange || 0;
+    document.getElementById('nRouge').textContent = data.niveaux.rouge || 0;
+
+    const themeList = document.getElementById('themeList');
+    const sorted = Object.entries(data.themes).sort((a,b) => b[1] - a[1]);
+    themeList.innerHTML = sorted.map(([name, count]) =>
+      `<div class="theme-item"><span class="name">${name}</span><span class="count">${count}</span></div>`
+    ).join('') || '<div style="color:var(--grey-400);font-size:13px;">Aucune interaction</div>';
+
+    const tbody = document.getElementById('interactionsTable');
+    tbody.innerHTML = (data.recent || []).reverse().map(e => {
+      const d = new Date(e.timestamp);
+      const badge = e.niveau === 'vert' ? 'badge-vert' : e.niveau === 'orange' ? 'badge-orange' : 'badge-rouge';
+      return `<tr>
+        <td>${d.toLocaleDateString('fr-FR')} ${d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})}</td>
+        <td>${e.theme}</td>
+        <td><span class="badge ${badge}">${e.niveau}</span></td>
+        <td>${e.nb_sources}</td>
+        <td>${e.decision}</td>
+      </tr>`;
+    }).join('') || '<tr><td colspan="5" style="color:var(--grey-400);text-align:center">Aucune interaction</td></tr>';
+  } catch(e) {}
+}
+
+async function loadHealth() {
+  try {
+    const res = await fetch('/api/health');
+    const data = await res.json();
+    const grid = document.getElementById('healthGrid');
+    grid.innerHTML = `
+      <div class="health-item"><div class="health-dot ${data.api_configured ? 'health-ok' : 'health-warn'}"></div><div><strong>API Claude</strong><br><span style="font-size:12px;color:var(--grey-600)">${data.api_configured ? data.model : 'Non configur\u00e9e'}</span></div></div>
+      <div class="health-item"><div class="health-dot ${data.smtp_configured ? 'health-ok' : 'health-warn'}"></div><div><strong>Email SMTP</strong><br><span style="font-size:12px;color:var(--grey-600)">${data.smtp_configured ? 'Configur\u00e9' : 'Non configur\u00e9'}</span></div></div>
+      <div class="health-item"><div class="health-dot ${data.webhook_configured ? 'health-ok' : 'health-warn'}"></div><div><strong>Webhook</strong><br><span style="font-size:12px;color:var(--grey-600)">${data.webhook_configured ? 'Configur\u00e9' : 'Non configur\u00e9'}</span></div></div>
+      <div class="health-item"><div class="health-dot health-ok"></div><div><strong>Base documentaire</strong><br><span style="font-size:12px;color:var(--grey-600)">${data.themes_count} th\u00e8mes</span></div></div>
+    `;
+  } catch(e) {}
+}
+
+// ── Emails juriste ──
+let allEmails = [];
+
+async function loadEmails() {
+  try {
+    const res = await fetch('/api/emails-juriste');
+    allEmails = await res.json();
+    document.getElementById('totalEmails').textContent = allEmails.length;
+    renderEmails();
+  } catch(e) {}
+}
+
+function renderEmails() {
+  const tbody = document.getElementById('emailsTable');
+  tbody.innerHTML = allEmails.map(em => {
+    const d = new Date(em.created_at);
+    const nBadge = em.niveau === 'rouge' ? 'badge-rouge' : em.niveau === 'orange' ? 'badge-orange' : 'badge-vert';
+
+    // R\u00e9sum\u00e9 des r\u00e9ponses
+    const repEntries = Object.entries(em.reponses || {}).filter(([k,v]) => v);
+    const repSummary = repEntries.map(([k,v]) => `<strong>${k}:</strong> ${v.substring(0, 60)}${v.length > 60 ? '...' : ''}`).join('<br>');
+
+    return `<tr>
+      <td><strong>QJ-${em.id}</strong></td>
+      <td>${d.toLocaleDateString('fr-FR')}<br><span style="font-size:11px;color:var(--grey-400)">${d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})}</span></td>
+      <td>${em.nom}<br><span style="font-size:11px;color:var(--grey-400)">${em.structure || ''}</span><br><span style="font-size:11px;color:var(--grey-400)">${em.email}</span></td>
+      <td>${em.theme_label}</td>
+      <td><span class="badge ${nBadge}">${em.niveau || 'orange'}</span></td>
+      <td><span class="badge-statut statut-${em.statut || 'envoye'}">${em.statut || 'envoy\u00e9'}</span></td>
+      <td><button class="btn btn-outline btn-sm" onclick="toggleEmailDetail('${em.id}')">D\u00e9tail</button></td>
+    </tr>
+    <tr><td colspan="7" style="padding:0">
+      <div class="rdv-detail" id="email-detail-${em.id}">
+        <div style="font-size:13px;line-height:1.7;color:var(--grey-800)">
+          <div style="margin-bottom:8px"><strong>T\u00e9l\u00e9phone :</strong> ${em.telephone}</div>
+          <h4 style="font-size:12px;color:var(--blue-700);margin:10px 0 6px;text-transform:uppercase;">R\u00e9ponses au questionnaire guid\u00e9</h4>
+          ${repSummary}
+          ${em.contexte_chatbot ? `<div style="margin-top:10px;padding:8px;background:var(--grey-50);border-radius:6px;font-size:12px;"><strong>Contexte chatbot :</strong><br>${em.contexte_chatbot.substring(0,300)}</div>` : ''}
+        </div>
+      </div>
+    </td></tr>`;
+  }).join('') || '<tr><td colspan="7" style="color:var(--grey-400);text-align:center">Aucun email</td></tr>';
+}
+
+function toggleEmailDetail(id) {
+  const el = document.getElementById('email-detail-' + id);
+  el.classList.toggle('open');
+}
+
+// ── RDV ──
+async function loadRdv() {
+  try {
+    const res = await fetch('/api/rdv');
+    allRdv = await res.json();
+    document.getElementById('totalRdv').textContent = allRdv.length;
+    document.getElementById('rdvEnAttente').textContent = allRdv.filter(r => r.statut === 'en_attente').length;
+    renderRdv();
+  } catch(e) {}
+}
+
+function filterRdv(filter) {
+  currentFilter = filter;
+  renderRdv();
+}
+
+function renderRdv() {
+  const filtered = currentFilter === 'all' ? allRdv : allRdv.filter(r => r.statut === currentFilter);
+  const tbody = document.getElementById('rdvTable');
+  tbody.innerHTML = filtered.map(rdv => {
+    const d = new Date(rdv.created_at);
+    const nBadge = rdv.niveau === 'rouge' ? 'badge-rouge' : 'badge-orange';
+    const sBadge = 'statut-' + rdv.statut;
+    return `<tr>
+      <td><strong>RDV-${rdv.id}</strong></td>
+      <td>${d.toLocaleDateString('fr-FR')}</td>
+      <td>${rdv.nom}<br><span style="font-size:11px;color:var(--grey-400)">${rdv.structure || ''}</span></td>
+      <td style="max-width:200px">${rdv.sujet}</td>
+      <td><span class="badge ${nBadge}">${rdv.niveau}</span></td>
+      <td><span class="badge-statut ${sBadge}">${rdv.statut.replace('_', ' ')}</span></td>
+      <td>
+        <button class="btn btn-outline btn-sm" onclick="toggleDetail('${rdv.id}')">D\u00e9tail</button>
+      </td>
+    </tr>
+    <tr><td colspan="7" style="padding:0">
+      <div class="rdv-detail" id="detail-${rdv.id}">
+        <div class="rdv-detail-grid">
+          <dt>Email</dt><dd>${rdv.email}</dd>
+          <dt>T\u00e9l\u00e9phone</dt><dd>${rdv.telephone}</dd>
+          <dt>Th\u00e8me</dt><dd>${rdv.theme || '-'}</dd>
+          <dt>Date souhait\u00e9e</dt><dd>${rdv.date_souhaitee || 'Flexible'}</dd>
+          <dt>Cr\u00e9neau</dt><dd>${rdv.creneau || 'Indiff\u00e9rent'}</dd>
+          <dt>Contexte</dt><dd>${rdv.contexte || '-'}</dd>
+          ${rdv.notes_juriste ? `<dt>Notes juriste</dt><dd>${rdv.notes_juriste}</dd>` : ''}
+        </div>
+        <div class="rdv-actions">
+          ${rdv.statut === 'en_attente' ? `
+            <input type="date" id="dateConfirm-${rdv.id}" placeholder="Date">
+            <select id="creneauConfirm-${rdv.id}">
+              <option value="matin">Matin</option>
+              <option value="apres-midi">Apr\u00e8s-midi</option>
+            </select>
+            <button class="btn btn-success btn-sm" onclick="confirmRdv('${rdv.id}')">Confirmer</button>
+            <button class="btn btn-danger btn-sm" onclick="updateStatut('${rdv.id}','annule')">Annuler</button>
+          ` : rdv.statut === 'confirme' ? `
+            <button class="btn btn-primary btn-sm" onclick="updateStatut('${rdv.id}','termine')">Marquer termin\u00e9</button>
+          ` : ''}
+        </div>
+      </div>
+    </td></tr>`;
+  }).join('') || '<tr><td colspan="7" style="color:var(--grey-400);text-align:center">Aucun rendez-vous</td></tr>';
+}
+
+function toggleDetail(id) {
+  const el = document.getElementById('detail-' + id);
+  el.classList.toggle('open');
+}
+
+async function confirmRdv(id) {
+  const date = document.getElementById('dateConfirm-' + id).value;
+  const creneau = document.getElementById('creneauConfirm-' + id).value;
+  try {
+    await fetch('/api/rdv/' + id, {
+      method: 'PATCH',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({statut: 'confirme', date_confirmee: date, creneau_confirme: creneau})
+    });
+    loadRdv();
+  } catch(e) { alert('Erreur'); }
+}
+
+async function updateStatut(id, statut) {
+  try {
+    await fetch('/api/rdv/' + id, {
+      method: 'PATCH',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({statut})
+    });
+    loadRdv();
+  } catch(e) { alert('Erreur'); }
+}
+
+// ── Knowledge Base ──
+async function loadKB() {
+  try {
+    const res = await fetch('/api/knowledge');
+    const data = await res.json();
+    const container = document.getElementById('kbContent');
+    container.innerHTML = (data.themes || []).map(theme => {
+      const badge = theme.niveau === 'vert' ? 'badge-vert' : theme.niveau === 'orange' ? 'badge-orange' : 'badge-rouge';
+      return `<div class="kb-theme">
+        <h3>${theme.label} <span class="badge ${badge}">${theme.niveau}</span></h3>
+        ${theme.articles.map(a => `
+          <div class="kb-article">
+            <div class="title">${a.question_type}</div>
+            <div class="meta">${a.reponse.sources.join(' | ')}</div>
+            ${(a.reponse.liens||[]).length ? `<div style="margin-top:4px;font-size:11px;color:var(--blue-600)">&#128279; ${a.reponse.liens.length} lien(s)</div>` : ''}
+            ${(a.fiches_pratiques||[]).length ? `<div style="font-size:11px;color:var(--green-600)">&#128196; ${a.fiches_pratiques.length} fiche(s)</div>` : ''}
+            <div class="kw">${a.mots_cles.slice(0,8).map(k => `<span>${k}</span>`).join('')}${a.mots_cles.length > 8 ? `<span>+${a.mots_cles.length-8}</span>` : ''}</div>
+          </div>
+        `).join('')}
+      </div>`;
+    }).join('');
+  } catch(e) {}
+}
+
+async function reloadKB() {
+  try {
+    await fetch('/api/reload', {method:'POST'});
+    const msg = document.getElementById('reloadMsg');
+    msg.style.display = 'inline';
+    setTimeout(() => msg.style.display = 'none', 3000);
+    loadKB();
+  } catch(e) {}
+}
+
+// ── MCP Config ──
+async function loadMcpConfig() {
+  try {
+    const res = await fetch('/api/mcp/config');
+    const data = await res.json();
+
+    // Endpoints
+    const epDiv = document.getElementById('mcpEndpoints');
+    epDiv.innerHTML = Object.entries(data.endpoints).map(([key, ep]) => `
+      <div class="mcp-endpoint">
+        <span class="method ${ep.method === 'POST' ? 'method-post' : 'method-get'}">${ep.method}</span>
+        <span class="url">${ep.url}</span>
+        <div class="desc">${ep.description}</div>
+      </div>
+    `).join('');
+
+    // Calendar
+    const calDiv = document.getElementById('calendarConfig');
+    calDiv.innerHTML = `
+      <div style="font-size:13px;color:var(--grey-600)">
+        <p><strong>Calendly :</strong> ${data.calendar_integration.calendly || '<em>Non configur\u00e9 (d\u00e9finir CALENDLY_URL)</em>'}</p>
+        <p style="margin-top:6px"><strong>Cal.com :</strong> ${data.calendar_integration.calcom || '<em>Non configur\u00e9 (d\u00e9finir CALCOM_URL)</em>'}</p>
+        <p style="margin-top:12px;font-size:12px;color:var(--grey-400)">Le webhook <code>/api/webhook/rdv-callback</code> re\u00e7oit les confirmations de calendrier externe.</p>
+      </div>
+    `;
+
+    // SMTP
+    const smtpDiv = document.getElementById('smtpStatus');
+    const health = await (await fetch('/api/health')).json();
+    smtpDiv.innerHTML = `<div style="font-size:13px;color:var(--grey-600)">
+      <p>Statut : <strong style="color:${health.smtp_configured ? 'var(--green-600)' : 'var(--orange-500)'}">${health.smtp_configured ? 'Configur\u00e9' : 'Non configur\u00e9'}</strong></p>
+      <p style="margin-top:6px;font-size:12px;color:var(--grey-400)">Variables : SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM, JURISTE_EMAIL</p>
+    </div>`;
+
+    // Model
+    const modelDiv = document.getElementById('modelConfig');
+    modelDiv.innerHTML = `<div style="font-size:13px;color:var(--grey-600)">
+      <p>Mod\u00e8le actuel : <strong style="color:var(--blue-600)">${data.models.current}</strong></p>
+      <p style="margin-top:8px">Mod\u00e8les disponibles :</p>
+      <ul style="margin:6px 0 0 20px;font-size:12px">
+        ${data.models.available.map(m => `<li${m === data.models.current ? ' style="font-weight:700;color:var(--blue-600)"' : ''}>${m}${m.includes('haiku') ? ' (rapide, \u00e9conomique)' : m.includes('sonnet') ? ' (\u00e9quilibr\u00e9)' : ' (puissant)'}</li>`).join('')}
+      </ul>
+      <p style="margin-top:8px;font-size:12px;color:var(--grey-400)">Changer via la variable CLAUDE_MODEL dans .env</p>
+    </div>`;
+  } catch(e) {}
+}
+
+// ══════════════════════════════════════════════
+// ── Appels 15 min ──
+// ══════════════════════════════════════════════
+let allAppels = [];
+let appelFilter = 'all';
+
+async function loadAppels() {
+  try {
+    const res = await fetch('/api/appels');
+    allAppels = await res.json();
+    document.getElementById('totalAppels').textContent = allAppels.length;
+    renderAppels();
+  } catch(e) {}
+}
+
+function filterAppels(f) {
+  appelFilter = f;
+  renderAppels();
+}
+
+function renderAppels() {
+  const filtered = appelFilter === 'all' ? allAppels : allAppels.filter(a => a.statut === appelFilter);
+  const tbody = document.getElementById('appelsTable');
+  tbody.innerHTML = filtered.map(a => {
+    const date = a.created_at ? new Date(a.created_at).toLocaleDateString('fr-FR') : '';
+    const prioBadge = a.priorite === 'urgente'
+      ? '<span class="badge badge-rouge">URGENT</span>'
+      : '<span class="badge badge-vert">Normal</span>';
+    const statutBadge = {
+      'planifie': '<span class="badge badge-orange">Planifi\u00e9</span>',
+      'confirme': '<span class="badge" style="background:#dbeafe;color:#2563eb">Confirm\u00e9</span>',
+      'effectue': '<span class="badge badge-vert">Effectu\u00e9</span>',
+      'annule': '<span class="badge" style="background:var(--grey-200);color:var(--grey-600)">Annul\u00e9</span>',
+    }[a.statut] || `<span class="badge">${a.statut}</span>`;
+
+    return `<tr>
+      <td><strong>${a.id}</strong></td>
+      <td>${a.date || date}</td>
+      <td>${a.heure || ''}</td>
+      <td>${a.nom}<br><span style="font-size:11px;color:var(--grey-400)">${a.email}</span></td>
+      <td style="font-weight:600">${a.telephone}</td>
+      <td>${a.motif_label || a.motif}</td>
+      <td>${prioBadge}</td>
+      <td>${statutBadge}</td>
+      <td style="white-space:nowrap">
+        ${a.statut === 'planifie' ? `<button class="btn btn-sm" style="background:var(--blue-600);color:#fff;border:none;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:11px" onclick="updateAppel('${a.id}','confirme')">Confirmer</button> ` : ''}
+        ${a.statut === 'confirme' ? `<button class="btn btn-sm" style="background:var(--green-600);color:#fff;border:none;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:11px" onclick="updateAppel('${a.id}','effectue')">Effectu\u00e9</button> ` : ''}
+        ${a.statut !== 'annule' && a.statut !== 'effectue' ? `<button class="btn btn-sm" style="background:var(--red-500);color:#fff;border:none;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:11px" onclick="updateAppel('${a.id}','annule')">Annuler</button>` : ''}
+        ${a.description ? `<div style="margin-top:6px;font-size:11px;color:var(--grey-600);max-width:200px;overflow:hidden;text-overflow:ellipsis" title="${a.description}">\u{1F4DD} ${a.description.substring(0,80)}...</div>` : ''}
+      </td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="9" style="text-align:center;color:var(--grey-400);padding:20px;">Aucun appel</td></tr>';
+}
+
+async function updateAppel(id, statut) {
+  try {
+    await fetch('/api/appel/' + id, {
+      method: 'PATCH',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({statut})
+    });
+    loadAppels();
+  } catch(e) {
+    alert('Erreur lors de la mise \u00e0 jour.');
+  }
+}
+
+// ── Init ──
+loadStats();
+loadHealth();
+loadEmails();
+loadAppels();
+loadRdv();
+loadKB();
+</script>
+</body>
+</html>

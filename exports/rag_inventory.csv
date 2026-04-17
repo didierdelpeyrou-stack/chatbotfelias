@@ -1,0 +1,116 @@
+module,fichier,version,theme_id,theme_label,niveau_theme,article_id,question_type,mots_cles_count
+juridique,base_juridique.json,4.0.0,preambule,Préambule & Champ d'application,vert,preamb-01,À qui s'applique la CCN ALISFA ?,19
+juridique,base_juridique.json,4.0.0,preambule,Préambule & Champ d'application,vert,preamb-02,Quel est le numéro IDCC de la convention ALISFA ?,7
+juridique,base_juridique.json,4.0.0,droit_syndical,Droit syndical & Dialogue social,vert,synd-01,Quelles sont les règles sur le droit syndical dans la branche ALISFA ?,19
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-01,Quelles sont les règles d'embauche dans la CCN ALISFA ?,13
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-02,Quelle est la durée de la période d'essai ?,9
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-03,Quelles sont les règles du CDD dans la branche ALISFA ?,14
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-04,Quelles sont les règles du temps partiel ?,8
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-05,Quelles sont les clauses spécifiques du contrat de travail ALISFA ?,8
+juridique,base_juridique.json,4.0.0,contrat_travail,Contrat de travail,orange,contrat-06,Comment fonctionne la modification du contrat de travail ?,17
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-01,Quelle est la durée du préavis de licenciement ?,18
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-02,Quelle est la durée du préavis de démission ?,7
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-03,Comment calculer l'indemnité de licenciement ?,14
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-04,Comment fonctionne la rupture conventionnelle ?,10
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-05,Quelles sont les règles du départ en retraite et de la mise à la retraite ?,13
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-06,Quelles sont les heures de recherche d'emploi pendant le préavis ?,9
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-07,Comment fonctionne le licenciement pour faute grave ou lourde ?,19
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-08,Comment fonctionne la retraite complémentaire dans la branche ALISFA ?,8
+juridique,base_juridique.json,4.0.0,rupture,Rupture du contrat de travail,orange,rupt-09,Quels documents remettre au salarié en fin de contrat ?,11
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-01,Quelle est la durée du travail applicable ?,18
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-02,Comment fonctionnent les heures supplémentaires ?,11
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-03,Comment fonctionne le forfait jours ?,16
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-04,Comment fonctionne l'aménagement du temps de travail sur l'année ?,11
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-05,Quelles sont les règles sur le travail de nuit ?,11
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-06,Comment fonctionnent les astreintes dans la branche ALISFA ?,8
+juridique,base_juridique.json,4.0.0,temps_travail,Durée & Organisation du travail,vert,temps-07,Quelles sont les règles sur les jours fériés et le travail du dimanche ?,11
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-01,Comment fonctionne le nouveau système de classification ALISFA ?,28
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-02,Quels sont les 8 critères classants ?,16
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-03,Quelles sont les 5 familles de métiers et les emplois repères ?,12
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-04,Comment contester sa classification ?,14
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-05,Quels sont les emplois repères de la famille Animation ?,9
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-06,Quels sont les emplois repères de la famille Petite enfance ?,10
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-07,Quels sont les emplois repères de la famille Encadrement et direction ?,9
+juridique,base_juridique.json,4.0.0,classification,Classification des emplois,orange,classif-08,Quels sont les emplois repères des familles Administratif et Services ?,13
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-00,Calculer un salaire ALISFA — outil de calcul pas à pas,39
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-01,Comment est calculé le salaire dans la branche ALISFA ?,24
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-02,Comment fonctionne la prime d'ancienneté ?,11
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-03,Comment est valorisée l'expérience professionnelle ?,15
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-04,Comment fonctionne l'indemnité différentielle de maintien de salaire ?,7
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-05,Quelles sont les indemnités et remboursements de frais professionnels ?,14
+juridique,base_juridique.json,4.0.0,remuneration,Rémunération,orange,remun-06,Quels sont les avantages en nature et primes dans la branche ALISFA ?,13
+juridique,base_juridique.json,4.0.0,conges,Congés & Absences,vert,conge-01,Quels sont les droits aux congés payés ?,15
+juridique,base_juridique.json,4.0.0,conges,Congés & Absences,vert,conge-02,Quels sont les congés exceptionnels pour événements familiaux ?,19
+juridique,base_juridique.json,4.0.0,conges,Congés & Absences,vert,conge-03,Quelles sont les règles en cas d'arrêt maladie ?,14
+juridique,base_juridique.json,4.0.0,conges,Congés & Absences,vert,conge-04,Quelles sont les règles sur le congé maternité et paternité ?,13
+juridique,base_juridique.json,4.0.0,conges,Congés & Absences,vert,conge-05,Quels sont les congés sans solde et les congés sabbatiques ?,7
+juridique,base_juridique.json,4.0.0,formation,Formation professionnelle,vert,forma-01,Quelles sont les obligations de formation de l'employeur ?,26
+juridique,base_juridique.json,4.0.0,prevoyance,Prévoyance & Complémentaire santé,orange,prev-01,Quelles sont les obligations de prévoyance et de complémentaire santé ?,22
+juridique,base_juridique.json,4.0.0,prevoyance,Prévoyance & Complémentaire santé,orange,prev-02,"Quelles sont les garanties de prévoyance (décès, incapacité, invalidité) ?",13
+juridique,base_juridique.json,4.0.0,sante_securite,"Santé, Sécurité & Conditions de travail",orange,sante-01,Quelles sont les obligations de l'employeur en matière de santé et sécurité ?,16
+juridique,base_juridique.json,4.0.0,sante_securite,"Santé, Sécurité & Conditions de travail",orange,sante-02,Comment fonctionne la médecine du travail ?,13
+juridique,base_juridique.json,4.0.0,sante_securite,"Santé, Sécurité & Conditions de travail",orange,sante-03,"Quelles sont les obligations spécifiques pour les EAJE (crèches, multi-accueil) ?",11
+juridique,base_juridique.json,4.0.0,egalite,Égalité professionnelle & Non-discrimination,orange,egal-01,Quelles sont les obligations en matière d'égalité femmes-hommes ?,17
+juridique,base_juridique.json,4.0.0,harcelement,Harcèlement & Violences au travail,rouge,harc-01,Harcèlement moral ou sexuel,15
+juridique,base_juridique.json,4.0.0,harcelement,Harcèlement & Violences au travail,rouge,harc-02,Quels sont les référents harcèlement et les obligations de prévention ?,15
+juridique,base_juridique.json,4.0.0,disciplinaire,Procédure disciplinaire,rouge,disc-01,Comment fonctionne la procédure disciplinaire ?,13
+juridique,base_juridique.json,4.0.0,disciplinaire,Procédure disciplinaire,rouge,disc-02,Quelles sont les sanctions disciplinaires possibles ?,13
+juridique,base_juridique.json,4.0.0,contentieux,Contentieux & Prud'hommes,rouge,content-01,Comment fonctionne le conseil de prud'hommes ?,22
+juridique,base_juridique.json,4.0.0,licenciement_eco,Licenciement économique,rouge,eco-01,Comment fonctionne le licenciement économique ?,28
+juridique,base_juridique.json,4.0.0,licenciement_eco,Licenciement économique,rouge,eco-02,Quelles sont les obligations de reclassement en cas de licenciement économique ?,16
+juridique,base_juridique.json,4.0.0,inaptitude,Inaptitude,rouge,inapt-01,Que faire en cas d'inaptitude d'un salarié ?,16
+juridique,base_juridique.json,4.0.0,inaptitude,Inaptitude,rouge,inapt-02,Quelle est la procédure de reclassement en cas d'inaptitude ?,11
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-01,Qu'est-ce que l'avenant n° 10-2022 sur la classification et la rémunération ?,15
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-02,Qu'est-ce que l'avenant n° 01 à l'avenant 10-2022 (correctif classification) ?,7
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-03,Qu'est-ce que l'avenant 03-24 sur le statut cadre ?,8
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-04,Qu'est-ce que l'avenant 04-24 sur les assistants maternels ?,9
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-05,Quels sont les avenants sur la prévoyance et la santé ?,18
+juridique,base_juridique.json,4.0.0,avenants,Avenants à la CCN ALISFA,vert,av-06,Qu'est-ce que l'avenant 06-24 sur le niveau 4 ?,9
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-01,Que contient l'Annexe 1 (Lexique) de la CCN ALISFA ?,11
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-02,Que contient l'Annexe 2 (Mesures transitoires) ?,13
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-03,Que contient l'Annexe 3 (Grille des emplois repères et pesée) ?,13
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-04,Que contient l'Annexe 4 (Grille paritaire d'évaluation) ?,12
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-05,Que contient l'Annexe 5 (Fiches emplois repères) ?,10
+juridique,base_juridique.json,4.0.0,annexes,Annexes de la CCN ALISFA,vert,anx-06,Que contient l'Annexe 6 (Dispositions dérogatoires) ?,7
+juridique,base_juridique.json,4.0.0,accords_branche,Accords de branche ALISFA,vert,accord-01,Quel est l'accord de branche sur la formation professionnelle et la GPEC ?,13
+juridique,base_juridique.json,4.0.0,accords_branche,Accords de branche ALISFA,vert,accord-02,Quel est l'accord de branche sur l'égalité professionnelle femmes-hommes ?,11
+juridique,base_juridique.json,4.0.0,accords_branche,Accords de branche ALISFA,vert,accord-03,Quel est l'accord de branche sur les conditions de travail et la QVT ?,14
+juridique,base_juridique.json,4.0.0,accords_branche,Accords de branche ALISFA,vert,accord-04,Quel est l'accord sur le télétravail dans la branche ALISFA ?,9
+juridique,base_juridique.json,4.0.0,accords_branche,Accords de branche ALISFA,vert,accord-05,Comment fonctionne le dialogue social dans la branche ALISFA ?,10
+juridique,base_juridique.json,4.0.0,cse_irp,CSE & Représentants du personnel,orange,cse-01,Comment fonctionne le CSE dans les structures ALISFA ?,10
+juridique,base_juridique.json,4.0.0,cse_irp,CSE & Représentants du personnel,orange,cse-02,Quelles sont les heures de délégation dans la branche ALISFA ?,7
+formation,base_formation.json,1.0,obligations_employeur,Obligations de l'employeur en formation,,oblig-01,Quelles sont les obligations de l'employeur en matière de formation ?,12
+formation,base_formation.json,1.0,obligations_employeur,Obligations de l'employeur en formation,,oblig-02,Comment fonctionne l'entretien professionnel ?,11
+formation,base_formation.json,1.0,obligations_employeur,Obligations de l'employeur en formation,,oblig-03,Quelle est la contribution formation dans la branche ALISFA ?,12
+formation,base_formation.json,1.0,plan_competences,Plan de développement des compétences,,plan-01,Comment mettre en place un plan de développement des compétences ?,12
+formation,base_formation.json,1.0,plan_competences,Plan de développement des compétences,,plan-02,Quels sont les financements disponibles pour la formation chez Uniformation ?,12
+formation,base_formation.json,1.0,cpf,Compte Personnel de Formation (CPF),,cpf-01,Comment fonctionne le CPF (Compte Personnel de Formation) ?,12
+formation,base_formation.json,1.0,transition_pro,Transition professionnelle,,trans-01,Comment fonctionne le CPF de transition professionnelle (ex-CIF) ?,11
+formation,base_formation.json,1.0,transition_pro,Transition professionnelle,,trans-02,Comment fonctionne la Pro-A et le nouveau dispositif PREC ?,12
+formation,base_formation.json,1.0,alternance,Alternance (apprentissage & professionnalisation),,alter-01,Comment fonctionne le contrat d'apprentissage ?,11
+formation,base_formation.json,1.0,alternance,Alternance (apprentissage & professionnalisation),,alter-02,Comment fonctionne le contrat de professionnalisation ?,8
+formation,base_formation.json,1.0,vae_bilan,VAE & Bilan de compétences,,vae-01,Comment fonctionne la VAE (Validation des Acquis de l'Expérience) ?,11
+formation,base_formation.json,1.0,vae_bilan,VAE & Bilan de compétences,,vae-02,Comment fonctionne le bilan de compétences ?,10
+formation,base_formation.json,1.0,cep_afest,"CEP, AFEST & autres dispositifs",,cep-01,Qu'est-ce que le CEP (Conseil en Évolution Professionnelle) ?,8
+formation,base_formation.json,1.0,cep_afest,"CEP, AFEST & autres dispositifs",,cep-02,Qu'est-ce que l'AFEST (Action de Formation en Situation de Travail) ?,9
+formation,base_formation.json,1.0,cep_afest,"CEP, AFEST & autres dispositifs",,cep-03,Comment fonctionne le FNE-Formation ?,11
+formation,base_formation.json,1.0,cep_afest,"CEP, AFEST & autres dispositifs",,cep-04,Qu'est-ce que la certification CléA ?,11
+formation,base_formation.json,1.0,cep_afest,"CEP, AFEST & autres dispositifs",,cep-05,Comment fonctionne le tutorat et comment le financer ?,10
+formation,base_formation.json,1.0,droits_salaries,Droits des salariés à la formation,,droit-01,Quels sont les droits à la formation des salariés ?,10
+formation,base_formation.json,1.0,droits_salaries,Droits des salariés à la formation,,droit-02,Un salarié peut-il refuser une formation ?,10
+formation,base_formation.json,1.0,financement_cpnef,Financements CPNEF 2026,,cpnef-01,Quels financements la CPNEF propose-t-elle en 2026 ?,12
+formation,base_formation.json,1.0,financement_cpnef,Financements CPNEF 2026,,cpnef-02,Comment demander un financement ACT (Actions Collectives Territoriales) ?,10
+formation,base_formation.json,1.0,financement_cpnef,Financements CPNEF 2026,,cpnef-03,Qu'est-ce que le FNE-Formation et comment en bénéficier ?,11
+formation,base_formation.json,1.0,acteurs_formation,Acteurs de la formation professionnelle,,acteur-01,Quels sont les acteurs de la formation professionnelle dans la branche ALISFA ?,12
+formation,base_formation.json,1.0,acteurs_formation,Acteurs de la formation professionnelle,,acteur-02,Quel est le rôle de la CPNEF ALISFA ?,9
+formation,base_formation.json,1.0,acteurs_formation,Acteurs de la formation professionnelle,,acteur-03,Existe-t-il des référents formation en région ?,9
+formation,base_formation.json,1.0,gpec_metiers,GPEC et métiers de la branche,,gpec-01,Quels sont les métiers de la branche ALISFA et la GPEC ?,16
+formation,base_formation.json,1.0,textes_legaux,Textes légaux et conventionnels,,texte-01,Quels sont les principaux textes sur le droit à la formation continue ?,12
+formation,base_formation.json,1.0,vae_reforme,VAE réformée et nouvelles modalités,,vae-03,Comment fonctionne la nouvelle VAE réformée ?,14
+formation,base_formation.json,1.0,catalogue_2026,Catalogue et barèmes de financement 2026,,cat-01,Quels sont les barèmes de financement Uniformation 2026 pour la branche ALISFA ?,12
+formation,base_formation.json,1.0,catalogue_2026,Catalogue et barèmes de financement 2026,,cat-02,Comment sont calculées les contributions formation ALISFA en 2026 ?,16
+formation,base_formation.json,1.0,catalogue_2026,Catalogue et barèmes de financement 2026,,cat-03,Quelles sont les aides à l'apprentissage en 2026 ?,15
+formation,base_formation.json,1.0,catalogue_2026,Catalogue et barèmes de financement 2026,,cat-04,Quels services gratuits Uniformation propose-t-il en 2026 ?,12
+formation,base_formation.json,1.0,reste_a_charge_certifiant,Reste à charge formation certifiante ALISFA,,rac-01,Comment financer une formation certifiante pour un salarié de niveau CAP ou Bac dans la branche ALISFA ?,22
+rh,(aucun — system prompt uniquement),,,,,,,0
+gouvernance,(aucun — system prompt uniquement),,,,,,,0

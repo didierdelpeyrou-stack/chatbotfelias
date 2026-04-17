@@ -1,0 +1,144 @@
+{
+  "name": "elisfa-chatbot-juridique",
+  "version": "2.0.0",
+  "description": "Chatbot juridique CCN ALISFA (IDCC 1261) — Assistant IA avec prise de rendez-vous juriste",
+  "author": "ELISFA",
+  "license": "Proprietary",
+  "protocol": "mcp-http",
+  "transport": "http",
+  "base_url": "http://localhost:5000",
+  "tools": [
+    {
+      "name": "ask_legal_question",
+      "description": "Poser une question juridique sur la CCN ALISFA (IDCC 1261) ou le Code du travail applicable à la branche ALISFA.",
+      "endpoint": "/api/webhook/ask",
+      "method": "POST",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "La question juridique à poser (en français)"
+          }
+        },
+        "required": ["question"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "answer": {"type": "string", "description": "Réponse juridique formatée en markdown"},
+          "niveau": {"type": "string", "enum": ["vert", "orange", "rouge"], "description": "Niveau d'escalade"},
+          "theme": {"type": "string", "description": "Thème juridique identifié"},
+          "liens": {"type": "array", "description": "Liens vers les textes de référence"},
+          "fiches": {"type": "array", "description": "Fiches pratiques associées"},
+          "escalade": {"type": "object", "description": "Information d'escalade si nécessaire"}
+        }
+      }
+    },
+    {
+      "name": "send_guided_email",
+      "description": "Envoyer une question structurée au juriste ELISFA via un questionnaire guidé adapté au thème juridique.",
+      "endpoint": "/api/email-juriste",
+      "method": "POST",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "nom": {"type": "string", "description": "Nom complet du demandeur"},
+          "email": {"type": "string", "description": "Adresse email"},
+          "telephone": {"type": "string", "description": "Numéro de téléphone"},
+          "theme_guide": {"type": "string", "enum": ["contrat_travail", "rupture", "classification", "temps_travail", "harcelement_disciplinaire", "contentieux", "autre"], "description": "Thème du questionnaire guidé"},
+          "reponses": {"type": "object", "description": "Réponses au questionnaire guidé (clé = id question, valeur = réponse)"},
+          "structure": {"type": "string", "description": "Nom de la structure (optionnel)"},
+          "niveau": {"type": "string", "enum": ["vert", "orange", "rouge"], "description": "Niveau d'escalade"},
+          "contexte_chatbot": {"type": "string", "description": "Contexte de la conversation chatbot (optionnel)"}
+        },
+        "required": ["nom", "email", "telephone", "theme_guide", "reponses"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "status": {"type": "string"},
+          "email_id": {"type": "string", "description": "Référence de la question (QJ-XXXXXXXX)"},
+          "message": {"type": "string"}
+        }
+      }
+    },
+    {
+      "name": "get_guide_questions",
+      "description": "Obtenir les questions guidées par thème pour aider un adhérent à structurer sa demande juridique.",
+      "endpoint": "/api/guide-questions",
+      "method": "GET",
+      "input_schema": {"type": "object", "properties": {}},
+      "output_schema": {
+        "type": "object",
+        "description": "Dictionnaire thème → {label, questions[]}"
+      }
+    },
+    {
+      "name": "book_appointment",
+      "description": "Prendre rendez-vous avec un juriste ELISFA pour une consultation personnalisée sur un sujet juridique sensible.",
+      "endpoint": "/api/rdv",
+      "method": "POST",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "nom": {"type": "string", "description": "Nom complet du demandeur"},
+          "email": {"type": "string", "description": "Adresse email"},
+          "telephone": {"type": "string", "description": "Numéro de téléphone"},
+          "sujet": {"type": "string", "description": "Sujet de la consultation"},
+          "structure": {"type": "string", "description": "Nom de la structure (optionnel)"},
+          "contexte": {"type": "string", "description": "Contexte de la demande (optionnel)"},
+          "niveau": {"type": "string", "enum": ["orange", "rouge"], "description": "Niveau d'urgence"},
+          "date_souhaitee": {"type": "string", "description": "Date souhaitée YYYY-MM-DD (optionnel)"},
+          "creneau": {"type": "string", "enum": ["matin", "apres-midi", ""], "description": "Créneau préféré (optionnel)"}
+        },
+        "required": ["nom", "email", "telephone", "sujet"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "status": {"type": "string"},
+          "rdv_id": {"type": "string", "description": "Référence du rendez-vous"},
+          "message": {"type": "string"}
+        }
+      }
+    },
+    {
+      "name": "get_health_status",
+      "description": "Vérifier l'état de santé du chatbot ELISFA (API, SMTP, base documentaire).",
+      "endpoint": "/api/health",
+      "method": "GET",
+      "input_schema": {"type": "object", "properties": {}},
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "status": {"type": "string"},
+          "model": {"type": "string"},
+          "api_configured": {"type": "boolean"},
+          "smtp_configured": {"type": "boolean"},
+          "themes_count": {"type": "integer"}
+        }
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "knowledge_base",
+      "description": "Base documentaire juridique CCN ALISFA complète",
+      "endpoint": "/api/knowledge",
+      "method": "GET"
+    },
+    {
+      "name": "statistics",
+      "description": "Statistiques d'utilisation du chatbot",
+      "endpoint": "/api/stats",
+      "method": "GET"
+    },
+    {
+      "name": "appointments",
+      "description": "Liste des rendez-vous juridiques",
+      "endpoint": "/api/rdv",
+      "method": "GET"
+    }
+  ]
+}

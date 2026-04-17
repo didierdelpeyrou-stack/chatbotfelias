@@ -1,0 +1,59 @@
+# Secrets — NEVER bake .env files into images.
+# app.py fait load_dotenv() au runtime ; env_file: .env de docker-compose
+# suffit à peupler l'env. Si .env entre dans l'image, le COPY . . de Dockerfile
+# le stocke en clair dans un layer → docker save expose la clé Anthropic
+# et tout autre secret.
+.env
+.env.*
+!.env.example
+
+# Backups locaux / VPS
+backups/
+*.bak
+*.bak-*
+
+# Logs (remplis par le volume ./logs au runtime)
+logs/
+*.log
+
+# Données runtime (montées via volume, pas besoin dans l'image)
+data/rendez_vous.json
+data/appels_15min.json
+data/emails_juriste.json
+data/interactions.jsonl
+
+# Virtualenvs locaux (jamais dans l'image — pip réinstalle depuis requirements.txt)
+.venv/
+.venv_scraper/
+venv/
+env/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Tests / artefacts locaux (pas nécessaires au runtime)
+tests/
+tests/rag_eval_report_*.json
+
+# Git / éditeurs
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# CI / scripts d'ops (pas exécutés dans le container)
+# NB: docs/ EST requis dans l'image — /api/openapi.yaml sert docs/openapi.yaml.
+.github/
+scripts/
+
+# Fichiers de dev / livraison
+deploy_*.sh
+pytest.ini

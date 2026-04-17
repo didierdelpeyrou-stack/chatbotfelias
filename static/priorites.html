@@ -1,0 +1,1117 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<title>Mes priorités — Matrice d'Eisenhower ELISFA</title>
+<style>
+/* ══════════════════════════════════════════ */
+/*  VARIABLES — reprises de index.html ELISFA  */
+/* ══════════════════════════════════════════ */
+:root{
+  --blue-50:#eff6ff; --blue-100:#dbeafe; --blue-500:#3b82f6; --blue-600:#2563eb; --blue-700:#1d4ed8;
+  --grey-50:#f8fafc; --grey-100:#f1f5f9; --grey-200:#e2e8f0; --grey-300:#cbd5e1; --grey-400:#94a3b8;
+  --grey-500:#64748b; --grey-600:#475569; --grey-700:#334155; --grey-800:#1e293b; --grey-900:#0f172a;
+  --red-50:#fef2f2; --red-100:#fee2e2; --red-500:#ef4444; --red-600:#dc2626; --red-700:#b91c1c;
+  --orange-50:#fff7ed; --orange-100:#ffedd5; --orange-500:#f97316; --orange-600:#ea580c;
+  --green-50:#ecfdf5; --green-100:#d1fae5; --green-500:#10b981; --green-600:#059669; --green-700:#047857;
+  --surface:#ffffff; --surface-alt:#f8fafc; --text:#0f172a; --text-muted:#64748b;
+  --border:#e2e8f0; --shadow:0 10px 25px rgba(15,23,42,.08);
+}
+html.dark{
+  --surface:#0f172a; --surface-alt:#1e293b; --text:#e2e8f0; --text-muted:#94a3b8;
+  --border:#334155; --shadow:0 10px 25px rgba(0,0,0,.5);
+  --grey-50:#1e293b; --grey-100:#334155; --grey-200:#475569;
+  --blue-50:#1e3a8a; --blue-100:#1e40af;
+  --red-50:#450a0a; --red-100:#7f1d1d;
+  --orange-50:#431407; --orange-100:#7c2d12;
+  --green-50:#064e3b; --green-100:#065f46;
+}
+
+/* ══════════════════════════════════════════ */
+/*  BASE                                        */
+/* ══════════════════════════════════════════ */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  background:var(--surface-alt);color:var(--text);line-height:1.55;
+  padding:16px;transition:background .2s,color .2s;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto}
+button{font-family:inherit;cursor:pointer}
+input,select,textarea{font-family:inherit;color:var(--text)}
+
+/* ══════════════════════════════════════════ */
+/*  EN-TÊTE                                     */
+/* ══════════════════════════════════════════ */
+.hdr{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.hdr h1{margin:0;font-size:22px;color:var(--blue-700)}
+html.dark .hdr h1{color:var(--blue-500)}
+.hdr .sub{margin:2px 0 0;color:var(--text-muted);font-size:12px}
+.hdr-actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{padding:8px 14px;border:1.5px solid var(--border);background:var(--surface);color:var(--text);
+  border-radius:10px;font-size:12px;font-weight:600;transition:all .15s;white-space:nowrap}
+.btn:hover{border-color:var(--blue-500);transform:translateY(-1px)}
+.btn-primary{background:var(--blue-600);border-color:var(--blue-600);color:#fff}
+.btn-primary:hover{background:var(--blue-700)}
+.btn-ghost{background:transparent;border-color:transparent;color:var(--text-muted)}
+.btn-ghost:hover{background:var(--grey-100);color:var(--text);transform:none}
+.btn-danger{background:var(--red-600);border-color:var(--red-600);color:#fff}
+.btn-danger:hover{background:var(--red-700)}
+
+/* ══════════════════════════════════════════ */
+/*  PANNEAU DÉFINITIONS                         */
+/* ══════════════════════════════════════════ */
+.defs{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:16px;margin-bottom:16px;box-shadow:var(--shadow);overflow:hidden}
+.defs-head{display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none}
+.defs-head h2{margin:0;font-size:14px;color:var(--blue-700)}
+html.dark .defs-head h2{color:var(--blue-500)}
+.defs-body{margin-top:14px;font-size:13px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.defs.closed .defs-body{display:none}
+.def-box{padding:12px 14px;border-radius:10px;border-left:4px solid}
+.def-box.urgent{background:var(--orange-50);border-left-color:var(--orange-600)}
+.def-box.important{background:var(--blue-50);border-left-color:var(--blue-600)}
+.def-box h3{margin:0 0 6px;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+.def-box.urgent h3{color:var(--orange-600)}
+.def-box.important h3{color:var(--blue-700)}
+html.dark .def-box.important h3{color:var(--blue-500)}
+.def-box p{margin:0 0 4px}
+.def-box .hint{font-style:italic;color:var(--text-muted);font-size:12px;margin-top:6px}
+
+/* ══════════════════════════════════════════ */
+/*  FORMULAIRE TÂCHE                            */
+/* ══════════════════════════════════════════ */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:18px;margin-bottom:16px;box-shadow:var(--shadow)}
+.card h2{margin:0 0 14px;font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)}
+.card h2 .counter{float:right;background:var(--blue-100);color:var(--blue-700);padding:3px 10px;
+  border-radius:999px;font-size:11px;font-weight:700;text-transform:none;letter-spacing:0}
+.card h2 .counter.full{background:var(--red-100);color:var(--red-700)}
+html.dark .card h2 .counter{background:var(--blue-100);color:#fff}
+
+.form-grid{display:grid;grid-template-columns:2fr 1fr;gap:12px;align-items:start}
+.form-col{display:flex;flex-direction:column;gap:10px}
+.form-row{display:flex;flex-direction:column;gap:4px}
+.form-row label{font-size:11px;text-transform:uppercase;letter-spacing:.04em;font-weight:700;color:var(--text-muted)}
+.form-row input[type="text"],.form-row select,.form-row textarea{
+  width:100%;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;
+  background:var(--surface);font-size:14px;outline:none;transition:border-color .15s}
+.form-row input[type="text"]:focus,.form-row select:focus,.form-row textarea:focus{border-color:var(--blue-500)}
+.form-row textarea{resize:vertical;min-height:60px;font-family:inherit}
+
+/* Slider personnalisé */
+.slider-wrap{display:flex;align-items:center;gap:10px}
+.slider-wrap input[type="range"]{flex:1;-webkit-appearance:none;appearance:none;height:6px;
+  border-radius:3px;background:var(--grey-200);outline:none}
+.slider-wrap input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;
+  border-radius:50%;background:var(--blue-600);cursor:pointer;border:2px solid var(--surface);
+  box-shadow:0 2px 6px rgba(37,99,235,.4);transition:transform .1s}
+.slider-wrap input[type="range"]::-webkit-slider-thumb:hover{transform:scale(1.15)}
+.slider-wrap input[type="range"]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;
+  background:var(--blue-600);cursor:pointer;border:2px solid var(--surface);box-shadow:0 2px 6px rgba(37,99,235,.4)}
+.slider-val{min-width:30px;text-align:center;font-weight:700;color:var(--blue-600);font-size:15px}
+.slider-hint{font-size:11px;color:var(--text-muted);display:flex;justify-content:space-between;margin-top:2px}
+
+.form-preview{background:var(--surface-alt);border-radius:10px;padding:10px;text-align:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;margin-top:8px}
+.form-preview .pv-q{display:inline-block;padding:4px 10px;border-radius:999px;margin-top:4px}
+.pv-q.q1{background:var(--red-100);color:var(--red-700)}
+.pv-q.q2{background:var(--orange-100);color:var(--orange-600)}
+.pv-q.q3{background:var(--green-100);color:var(--green-700)}
+.pv-q.q4{background:var(--grey-200);color:var(--grey-700)}
+
+.form-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.form-actions .btn{flex:1;min-width:120px;padding:11px 16px;font-size:13px}
+
+/* ══════════════════════════════════════════ */
+/*  LISTE DES TÂCHES                            */
+/* ══════════════════════════════════════════ */
+.task-list{display:grid;gap:8px;grid-template-columns:1fr}
+.task{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--surface-alt);
+  border:1px solid var(--border);border-radius:10px;transition:all .15s;border-left:4px solid}
+.task.q1{border-left-color:var(--red-600)}
+.task.q2{border-left-color:var(--orange-600)}
+.task.q3{border-left-color:var(--green-600)}
+.task.q4{border-left-color:var(--grey-500)}
+.task:hover{transform:translateX(2px);border-color:var(--blue-500)}
+.task-cat{font-size:18px;flex-shrink:0}
+.task-body{flex:1;min-width:0}
+.task-title{font-weight:600;font-size:13px;margin:0 0 3px;word-wrap:break-word}
+.task-meta{font-size:11px;color:var(--text-muted);display:flex;gap:10px;flex-wrap:wrap}
+.task-meta span{white-space:nowrap}
+.task-actions{display:flex;gap:4px;flex-shrink:0}
+.task-icon-btn{width:28px;height:28px;border:none;background:transparent;border-radius:6px;
+  color:var(--text-muted);transition:all .15s;font-size:14px;display:flex;align-items:center;justify-content:center}
+.task-icon-btn:hover{background:var(--grey-100);color:var(--text)}
+.task-icon-btn.del:hover{background:var(--red-100);color:var(--red-600)}
+
+.empty{text-align:center;padding:30px 20px;color:var(--text-muted);font-size:13px}
+.empty strong{color:var(--text);display:block;margin-bottom:6px}
+.empty-examples{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+.empty-examples button{padding:6px 12px;font-size:11px}
+
+/* ══════════════════════════════════════════ */
+/*  MATRICE                                     */
+/* ══════════════════════════════════════════ */
+.mx-title{margin:0 0 6px;font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)}
+.mx-wrap{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:18px;box-shadow:var(--shadow);margin-bottom:16px}
+.mx{display:grid;grid-template-columns:80px 1fr 1fr;grid-template-rows:auto 1fr 1fr;gap:8px}
+.ax-x{grid-column:2/4;display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text-muted);padding-bottom:4px}
+.ax-y{grid-row:2/4;grid-column:1;display:flex;flex-direction:column;justify-content:space-around;align-items:center;
+  font-size:11px;font-weight:700;text-transform:uppercase;color:var(--text-muted);writing-mode:vertical-rl;
+  transform:rotate(180deg)}
+.ax-y span{padding:16px 0}
+.qd{border-radius:12px;padding:12px;border:2px solid transparent;min-height:180px;
+  display:flex;flex-direction:column;position:relative;transition:all .2s}
+.qd.q1{background:var(--red-50);border-color:var(--red-100)}
+.qd.q2{background:var(--orange-50);border-color:var(--orange-100)}
+.qd.q3{background:var(--green-50);border-color:var(--green-100)}
+.qd.q4{background:var(--grey-100);border-color:var(--grey-200)}
+.qd-head{margin-bottom:8px}
+.qd-lab{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin:0}
+.qd-act{font-size:11px;color:var(--text-muted);margin:2px 0 0}
+.qd.q1 .qd-lab{color:var(--red-700)}
+.qd.q2 .qd-lab{color:var(--orange-600)}
+.qd.q3 .qd-lab{color:var(--green-700)}
+.qd.q4 .qd-lab{color:var(--grey-600)}
+html.dark .qd.q1 .qd-lab{color:#fca5a5}
+html.dark .qd.q2 .qd-lab{color:#fdba74}
+html.dark .qd.q3 .qd-lab{color:#86efac}
+html.dark .qd.q4 .qd-lab{color:#cbd5e1}
+.qd-count{position:absolute;top:10px;right:12px;background:var(--surface);border:1px solid var(--border);
+  padding:2px 8px;border-radius:999px;font-size:10px;font-weight:700;color:var(--text-muted)}
+.qd-tiles{display:flex;flex-direction:column;gap:4px;flex:1;overflow:hidden}
+.qd-tile{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 8px;
+  font-size:11px;font-weight:500;cursor:pointer;transition:all .15s;line-height:1.3;display:flex;gap:6px;align-items:center}
+.qd-tile:hover{border-color:var(--blue-500);transform:translateX(2px)}
+.qd-tile .icon{flex-shrink:0}
+.qd-tile .ttl{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qd-advice{font-size:10px;color:var(--text-muted);font-style:italic;margin-top:6px;padding-top:6px;
+  border-top:1px dashed var(--border)}
+
+/* ══════════════════════════════════════════ */
+/*  HELP / PROMPT ÉDITION                       */
+/* ══════════════════════════════════════════ */
+.help-panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;
+  padding:18px;margin-bottom:16px;box-shadow:var(--shadow);display:none}
+.help-panel.open{display:block}
+.help-panel h2{margin:0 0 12px;font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted)}
+.help-panel p{font-size:13px;margin:0 0 10px}
+.help-panel code,.help-panel pre{background:var(--surface-alt);border:1px solid var(--border);
+  border-radius:6px;font-family:"SF Mono",Consolas,Monaco,monospace;font-size:12px}
+.help-panel code{padding:2px 6px}
+.help-panel pre{padding:12px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;margin:8px 0}
+.help-panel .copy-btn{float:right;padding:4px 10px;font-size:11px;margin-top:-4px}
+.help-section{margin-bottom:16px;padding-bottom:16px;border-bottom:1px dashed var(--border)}
+.help-section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.help-section h3{font-size:13px;color:var(--blue-700);margin:0 0 8px}
+html.dark .help-section h3{color:var(--blue-500)}
+.help-section ol{padding-left:18px;margin:8px 0;font-size:13px}
+.help-section li{margin-bottom:4px}
+
+/* Import zone */
+.import-area{margin-top:10px}
+.import-area textarea{width:100%;min-height:100px;padding:10px;border:1.5px dashed var(--border);
+  border-radius:10px;background:var(--surface-alt);font-family:"SF Mono",Consolas,monospace;font-size:12px;
+  resize:vertical;color:var(--text)}
+.import-area textarea:focus{border-color:var(--blue-500);outline:none}
+
+/* Toast */
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);
+  background:var(--grey-900);color:#fff;padding:12px 20px;border-radius:10px;
+  font-size:13px;box-shadow:0 10px 30px rgba(0,0,0,.3);z-index:1000;
+  opacity:0;pointer-events:none;transition:all .2s}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+.toast.err{background:var(--red-600)}
+.toast.ok{background:var(--green-600)}
+
+/* ══════════════════════════════════════════ */
+/*  RESPONSIVE                                  */
+/* ══════════════════════════════════════════ */
+@media (max-width:860px){
+  .defs-body{grid-template-columns:1fr}
+  .form-grid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{padding:10px}
+  .hdr h1{font-size:18px}
+  .hdr-actions .btn{padding:7px 10px;font-size:11px}
+  .mx{grid-template-columns:1fr}
+  .ax-x,.ax-y{display:none}
+  .qd{min-height:auto}
+  .card{padding:14px}
+  .task-title{font-size:12px}
+}
+@media (max-width:420px){
+  .hdr-actions{width:100%;justify-content:space-between}
+  .form-actions .btn{min-width:0}
+}
+
+/* ══════════════════════════════════════════ */
+/*  BANDEAU DISCLAIMER SOUS MATRICE             */
+/* ══════════════════════════════════════════ */
+.legal-banner{margin-top:14px;padding:12px 14px;background:var(--orange-50);border:1px solid var(--orange-100);
+  border-left:4px solid var(--orange-500);border-radius:10px;font-size:12px;line-height:1.5;display:flex;gap:10px;align-items:flex-start}
+.legal-banner .lb-icon{font-size:16px;flex-shrink:0}
+.legal-banner strong{color:var(--orange-600)}
+html.dark .legal-banner strong{color:#fdba74}
+.legal-banner a{color:var(--blue-700);font-weight:700;text-decoration:underline;cursor:pointer}
+html.dark .legal-banner a{color:#93c5fd}
+
+/* ══════════════════════════════════════════ */
+/*  MODAL — base partagée                       */
+/* ══════════════════════════════════════════ */
+.modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.72);backdrop-filter:blur(5px);
+  display:none;align-items:center;justify-content:center;z-index:2000;padding:20px;animation:mo-fade .2s}
+.modal-overlay.open{display:flex}
+@keyframes mo-fade{from{opacity:0}to{opacity:1}}
+.modal-box{background:var(--surface);border-radius:16px;max-width:780px;width:100%;max-height:92vh;
+  overflow-y:auto;box-shadow:0 25px 60px rgba(0,0,0,.4);animation:mo-slide .25s ease-out}
+@keyframes mo-slide{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.modal-head{padding:20px 24px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:12px;position:sticky;top:0;background:var(--surface);z-index:1}
+.modal-head h2{margin:0;font-size:18px;color:var(--text)}
+.modal-head .modal-sub{margin:4px 0 0;font-size:12px;color:var(--text-muted)}
+.modal-close{background:var(--grey-100);border:none;width:36px;height:36px;border-radius:50%;cursor:pointer;
+  font-size:20px;color:var(--text);flex-shrink:0;transition:all .15s}
+.modal-close:hover{background:var(--red-100);color:var(--red-600)}
+.modal-body{padding:20px 24px;font-size:13.5px;color:var(--text)}
+.modal-foot{padding:16px 24px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;position:sticky;bottom:0;background:var(--surface)}
+
+/* ══════════════════════════════════════════ */
+/*  MODAL LÉGAL — articles                      */
+/* ══════════════════════════════════════════ */
+.legal-article{background:var(--surface-alt);border-left:3px solid var(--blue-500);padding:12px 16px;
+  border-radius:8px;margin-bottom:12px}
+.legal-article h3{margin:0 0 6px;font-size:13px;color:var(--blue-700);text-transform:uppercase;letter-spacing:.04em}
+html.dark .legal-article h3{color:#93c5fd}
+.legal-article p{margin:0 0 6px;font-size:13px;line-height:1.55}
+.legal-article p:last-child{margin-bottom:0}
+.legal-meta{margin-top:14px;padding-top:12px;border-top:1px dashed var(--border);font-size:11px;color:var(--text-muted);text-align:center}
+
+/* ══════════════════════════════════════════ */
+/*  MODAL WELCOME                               */
+/* ══════════════════════════════════════════ */
+.welcome-badge{display:inline-block;padding:4px 10px;background:var(--blue-100);color:var(--blue-700);
+  border-radius:999px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+html.dark .welcome-badge{background:var(--blue-100);color:#fff}
+.welcome-icon{font-size:44px;text-align:center;margin:0 0 8px}
+.welcome-intro{font-size:14px;margin:0 0 18px;text-align:center;line-height:1.55;color:var(--text-muted)}
+.welcome-points{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.welcome-point{background:var(--surface-alt);border:1px solid var(--border);border-radius:10px;padding:12px}
+.welcome-point .wp-icon{font-size:20px;margin-bottom:4px}
+.welcome-point h4{margin:0 0 4px;font-size:13px;color:var(--text)}
+.welcome-point p{margin:0;font-size:12px;color:var(--text-muted);line-height:1.45}
+.welcome-reminder{background:var(--orange-50);border:1px solid var(--orange-100);border-left:4px solid var(--orange-500);
+  border-radius:10px;padding:12px 14px;margin-bottom:16px;font-size:12.5px;line-height:1.5}
+html.dark .welcome-reminder{color:#fde68a}
+.welcome-link{background:none;border:1.5px dashed var(--blue-500);color:var(--blue-700);padding:10px 14px;
+  border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;width:100%;text-align:center;margin-bottom:14px;transition:all .15s}
+.welcome-link:hover{background:var(--blue-50);transform:translateY(-1px)}
+html.dark .welcome-link{color:#93c5fd}
+.welcome-check{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--text-muted);margin-bottom:12px;cursor:pointer;user-select:none}
+.welcome-check input{width:18px;height:18px;cursor:pointer;accent-color:var(--blue-600)}
+.welcome-accept-btn{background:var(--blue-600);color:#fff;border:none;border-radius:12px;padding:14px 24px;
+  font-size:15px;font-weight:700;cursor:pointer;width:100%;transition:all .15s;box-shadow:0 4px 12px rgba(37,99,235,.3)}
+.welcome-accept-btn:hover{background:var(--blue-700);transform:translateY(-2px);box-shadow:0 6px 16px rgba(37,99,235,.4)}
+@media (max-width:640px){.welcome-points{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════ */
+/*  PRINT / PDF                                 */
+/* ══════════════════════════════════════════ */
+.print-only{display:none}
+@media print{
+  @page{size:A4;margin:14mm}
+  html.dark{--surface:#fff;--surface-alt:#fff;--text:#0f172a;--text-muted:#64748b;--border:#e2e8f0}
+  html.dark,body{background:#fff !important;color:#0f172a !important}
+  body{padding:0;font-size:11pt}
+  .wrap{max-width:none}
+  .hdr,.defs,.help-panel,#formCard,.form-actions,.task-actions,.hdr-actions,.toast,.empty-examples,.modal-overlay{display:none !important}
+  .legal-banner{background:#fff7ed !important;border:1px solid #fed7aa !important;page-break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .legal-banner a{display:none}
+  #printLegal{display:block !important;page-break-before:always}
+  #printLegal .legal-article{background:#f8fafc !important;border-left:3px solid #3b82f6 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .print-only{display:block !important}
+  #printHeader{margin-bottom:12px}
+  .card,.mx-wrap{box-shadow:none !important;border:1px solid #cbd5e1 !important;page-break-inside:avoid;break-inside:avoid;margin-bottom:10px;padding:14px}
+  .card h2{font-size:10pt;color:#475569}
+  .card h2 .counter{display:none}
+  .task{background:#fff !important;padding:8px 10px;page-break-inside:avoid;break-inside:avoid}
+  .task-title{font-size:11pt}
+  .task-meta{font-size:9pt}
+  .mx-title{font-size:10pt}
+  .mx{gap:6px}
+  .qd{min-height:100px;padding:10px;page-break-inside:avoid;break-inside:avoid;
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .qd.q1{background:#fef2f2 !important;border-color:#fecaca !important}
+  .qd.q2{background:#fff7ed !important;border-color:#fed7aa !important}
+  .qd.q3{background:#ecfdf5 !important;border-color:#a7f3d0 !important}
+  .qd.q4{background:#f1f5f9 !important;border-color:#cbd5e1 !important}
+  .qd-tile{background:#fff !important;border:1px solid #e2e8f0 !important;font-size:9pt;padding:5px 7px}
+  .qd-lab{font-size:9pt}
+  .qd-act{font-size:8pt}
+  .qd-advice{font-size:7.5pt}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- ══════ EN-TÊTE ══════ -->
+  <header class="hdr">
+    <div>
+      <h1>🎯 Mes priorités — Matrice d'Eisenhower</h1>
+      <p class="sub">Outil ELISFA · 15 tâches max · Sauvegarde locale automatique</p>
+    </div>
+    <div class="hdr-actions">
+      <button class="btn btn-ghost" id="btnHelp">❓ Aide & personnalisation</button>
+      <button class="btn btn-ghost" onclick="openLegalModal()">⚖ Mentions légales</button>
+      <button class="btn btn-ghost" id="btnTheme">🌙</button>
+      <button class="btn btn-primary" onclick="exportPDF()">📄 Exporter en PDF</button>
+    </div>
+  </header>
+
+  <!-- ══════ DÉFINITIONS ══════ -->
+  <section class="defs" id="defs">
+    <div class="defs-head" onclick="toggleDefs()">
+      <h2>📖 Comprendre « urgent » et « important »</h2>
+      <button class="btn btn-ghost" style="padding:4px 8px" id="defsToggleBtn">Masquer ▲</button>
+    </div>
+    <div class="defs-body">
+      <div class="def-box urgent">
+        <h3>⏱ Urgent</h3>
+        <p>Ce qui demande une <strong>action immédiate</strong>, lié au <strong>temps</strong>. Si je ne fais rien maintenant, il y a une conséquence à court terme.</p>
+        <p class="hint">Déclenché par l'extérieur le plus souvent : téléphone qui sonne, deadline qui tombe, crise à gérer.</p>
+      </div>
+      <div class="def-box important">
+        <h3>⭐ Important</h3>
+        <p>Ce qui contribue à tes <strong>objectifs stratégiques</strong> et aux <strong>résultats à long terme</strong>. Lié au <strong>sens</strong>, pas au temps.</p>
+        <p class="hint">Souvent silencieux : préparation, planification, relations, apprentissage, prévention.</p>
+      </div>
+    </div>
+    <p style="margin:12px 0 0;font-size:12px;color:var(--text-muted);font-style:italic">
+      💡 <strong>Le piège classique :</strong> confondre urgent et important. Beaucoup de choses urgentes ne sont pas importantes (Q3). Beaucoup de choses importantes ne sont pas urgentes (Q2) — <strong>c'est Q2 qui évite les crises de demain</strong>.
+    </p>
+  </section>
+
+  <!-- ══════ AIDE ══════ -->
+  <section class="help-panel" id="helpPanel">
+    <h2>❓ Aide & personnalisation avec IA</h2>
+
+    <div class="help-section">
+      <h3>🧠 Comment bien remplir les 2 curseurs</h3>
+      <ol>
+        <li><strong>Urgence (0-10)</strong> : « Si je ne commence pas cette tâche aujourd'hui, est-ce qu'il y a une conséquence cette semaine ? » — oui = 8-10, dans 1 mois = 4-6, jamais = 0-3.</li>
+        <li><strong>Importance (0-10)</strong> : « Cette tâche contribue-t-elle à mes objectifs stratégiques ou à ma mission ? » — cœur de mission = 8-10, utile = 4-6, accessoire = 0-3.</li>
+        <li>Le système place automatiquement la tâche dans le bon quadrant quand tu passes les deux curseurs.</li>
+      </ol>
+    </div>
+
+    <div class="help-section">
+      <h3>🤖 Générer des tâches avec ChatGPT / Claude / Mistral</h3>
+      <p>Copie ce prompt dans ton assistant IA préféré en remplaçant le contexte par le tien :</p>
+      <pre id="promptTpl"><button class="btn copy-btn" onclick="copyPrompt()">📋 Copier</button>Je dirige une structure ALISFA (centre social, EAJE, ACM…). Contexte : [DÉCRIS TA STRUCTURE : taille, équipe, enjeux du moment].
+
+Génère-moi entre 5 et 15 tâches à intégrer dans ma matrice d'Eisenhower au format JSON strict ci-dessous. Réponds UNIQUEMENT avec le tableau JSON, rien d'autre.
+
+Contraintes :
+- inclure au moins 2 tâches de PRÉPARATION (Q2)
+- inclure au moins 2 tâches de PLANIFICATION stratégique (Q2)
+- inclure au moins 1 tâche DÉLÉGABLE (Q3)
+- varier les catégories : action, preparation, planification, delegation, reflexion
+- urgence et importance sont des entiers de 0 à 10
+
+Format attendu :
+[
+  {
+    "title": "Libellé court et concret",
+    "urgent": 7,
+    "important": 9,
+    "category": "preparation",
+    "deadline": "2026-04-25",
+    "notes": "Pourquoi c'est à faire + qui est impliqué"
+  }
+]
+
+Catégories autorisées : action, preparation, planification, delegation, reflexion.</pre>
+    </div>
+
+    <div class="help-section">
+      <h3>📥 Importer le JSON généré</h3>
+      <p>Colle ci-dessous le tableau JSON que l'IA te renvoie, puis clique sur <strong>Importer</strong>. Les tâches viennent s'ajouter à ta liste (dans la limite de 15).</p>
+      <div class="import-area">
+        <textarea id="importJson" placeholder='[{"title":"Préparer la prochaine AG","urgent":3,"important":9,"category":"preparation"}]'></textarea>
+        <div style="display:flex;gap:8px;margin-top:8px">
+          <button class="btn btn-primary" onclick="importTasks()">📥 Importer</button>
+          <button class="btn btn-ghost" onclick="document.getElementById('importJson').value=''">Effacer</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="help-section">
+      <h3>✏️ Modifier les libellés, couleurs et règles de classement</h3>
+      <p>Pour personnaliser l'outil (catégories, seuil de classification, conseils par quadrant), ouvre le fichier <code>priorites.html</code> et modifie l'objet <code>EM_CONFIG</code> en haut du script JavaScript. Tu peux aussi demander à une IA :</p>
+      <pre>Voici le bloc EM_CONFIG de mon outil Eisenhower :
+[colle ici l'objet EM_CONFIG]
+
+Je veux : [ajouter une catégorie "prevention", ou baisser le seuil de classification à 5, ou changer l'icône de la catégorie X]. Donne-moi uniquement le nouveau bloc EM_CONFIG à coller à la place de l'ancien.</pre>
+    </div>
+
+    <div class="help-section">
+      <h3>💾 Sauvegarde</h3>
+      <p>Tes tâches sont stockées dans le <strong>localStorage de ton navigateur</strong> (clé <code>elisfa_priorites_v1</code>). Elles restent disponibles d'une session à l'autre mais sont liées à <em>ce navigateur uniquement</em>. Utilise <strong>Exporter en PDF</strong> pour garder une trace imprimable de ta matrice.</p>
+    </div>
+  </section>
+
+  <!-- ══════ FORMULAIRE ══════ -->
+  <section class="card" id="formCard">
+    <h2>➕ Ajouter une tâche <span class="counter" id="cnt">0 / 15</span></h2>
+    <div class="form-grid">
+      <div class="form-col">
+        <div class="form-row">
+          <label for="fTitle">Intitulé <span style="color:var(--red-600)">*</span></label>
+          <input type="text" id="fTitle" placeholder="Ex : Préparer l'entretien avec Léa">
+        </div>
+        <div class="form-row">
+          <label for="fNotes">Notes (optionnel)</label>
+          <textarea id="fNotes" placeholder="Contexte, personnes impliquées, ressources nécessaires…"></textarea>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div class="form-row">
+            <label for="fCat">Catégorie</label>
+            <select id="fCat">
+              <option value="action">⚡ Action directe</option>
+              <option value="preparation" selected>🛠 Préparation</option>
+              <option value="planification">🗓 Planification</option>
+              <option value="delegation">👥 Délégation</option>
+              <option value="reflexion">🧠 Réflexion / Veille</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="fDeadline">Échéance (optionnel)</label>
+            <input type="date" id="fDeadline">
+          </div>
+        </div>
+      </div>
+      <div class="form-col">
+        <div class="form-row">
+          <label>⏱ Urgence — <span class="slider-val" id="valU">5</span>/10</label>
+          <div class="slider-wrap">
+            <input type="range" id="fUrgent" min="0" max="10" value="5">
+          </div>
+          <div class="slider-hint"><span>Peut attendre</span><span>Action immédiate</span></div>
+        </div>
+        <div class="form-row">
+          <label>⭐ Importance — <span class="slider-val" id="valI">5</span>/10</label>
+          <div class="slider-wrap">
+            <input type="range" id="fImportant" min="0" max="10" value="5">
+          </div>
+          <div class="slider-hint"><span>Accessoire</span><span>Cœur de mission</span></div>
+        </div>
+        <div class="form-preview">
+          Sera placée dans :
+          <div><span class="pv-q" id="pvQ">Q4 — À éliminer</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-primary" onclick="addTask()">➕ Ajouter à la matrice</button>
+      <button class="btn btn-ghost" onclick="resetForm()">Effacer</button>
+      <button class="btn btn-ghost" id="editCancelBtn" style="display:none" onclick="cancelEdit()">✕ Annuler l'édition</button>
+    </div>
+  </section>
+
+  <!-- ══════ LISTE DES TÂCHES ══════ -->
+  <section class="card">
+    <h2>📋 Mes tâches</h2>
+    <div class="task-list" id="taskList"></div>
+  </section>
+
+  <!-- ══════ MATRICE ══════ -->
+  <section class="mx-wrap">
+    <p class="mx-title">🎯 Vue matrice (classement automatique)</p>
+    <div class="mx">
+      <div></div>
+      <div class="ax-x"><span>Urgent</span><span>Non urgent</span></div>
+      <div class="ax-y"><span>Important</span><span>Peu important</span></div>
+      <div class="qd q1" id="qd-q1">
+        <div class="qd-head">
+          <p class="qd-lab">Urgent & Important</p>
+          <p class="qd-act">→ Faire maintenant</p>
+        </div>
+        <span class="qd-count" id="cnt-q1">0</span>
+        <div class="qd-tiles" id="tiles-q1"></div>
+        <p class="qd-advice">Gérer ces crises, mais en limiter le nombre en investissant dans Q2.</p>
+      </div>
+      <div class="qd q2" id="qd-q2">
+        <div class="qd-head">
+          <p class="qd-lab">Important, non urgent ⭐</p>
+          <p class="qd-act">→ Planifier</p>
+        </div>
+        <span class="qd-count" id="cnt-q2">0</span>
+        <div class="qd-tiles" id="tiles-q2"></div>
+        <p class="qd-advice">Quadrant stratégique : bloquer du temps protégé = moins de crises demain.</p>
+      </div>
+      <div class="qd q3" id="qd-q3">
+        <div class="qd-head">
+          <p class="qd-lab">Urgent, peu important</p>
+          <p class="qd-act">→ Déléguer / raccourcir</p>
+        </div>
+        <span class="qd-count" id="cnt-q3">0</span>
+        <div class="qd-tiles" id="tiles-q3"></div>
+        <p class="qd-advice">Piège : l'urgence masque le manque de valeur. Déléguer, automatiser ou refuser.</p>
+      </div>
+      <div class="qd q4" id="qd-q4">
+        <div class="qd-head">
+          <p class="qd-lab">Ni urgent ni important</p>
+          <p class="qd-act">→ Éliminer / différer</p>
+        </div>
+        <span class="qd-count" id="cnt-q4">0</span>
+        <div class="qd-tiles" id="tiles-q4"></div>
+        <p class="qd-advice">Supprimer sans regret ou reporter en liste « peut-être un jour ».</p>
+      </div>
+    </div>
+
+    <!-- ══════ BANDEAU LÉGAL ══════ -->
+    <div class="legal-banner">
+      <span class="lb-icon">⚠️</span>
+      <div>
+        <strong>Outil d'aide à la priorisation — usage indicatif.</strong>
+        Le classement proposé repose uniquement sur les curseurs « urgent / important » que vous saisissez.
+        Il ne remplace en aucun cas une analyse RH, juridique ou managériale. Pour toute situation sensible
+        (conflit, sanction, risque psychosocial), consultez un juriste ALISFA ou un professionnel qualifié.
+        <a onclick="openLegalModal()">Lire les mentions légales complètes →</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ══════ MODAL MENTIONS LÉGALES ══════ -->
+<div class="modal-overlay" id="legalModal" onclick="if(event.target===this)closeLegalModal()">
+  <div class="modal-box">
+    <div class="modal-head">
+      <div>
+        <h2>⚖ Mentions légales & conditions d'utilisation</h2>
+        <p class="modal-sub">Outil de priorisation ELISFA — <span id="legalVersionLabel"></span></p>
+      </div>
+      <button class="modal-close" onclick="closeLegalModal()" aria-label="Fermer">×</button>
+    </div>
+    <div class="modal-body" id="legalBody"></div>
+    <div class="modal-foot">
+      <button class="btn btn-primary" onclick="closeLegalModal()">J'ai compris</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ MODAL D'ACCUEIL BLOQUANT ══════ -->
+<div class="modal-overlay" id="welcomeModal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <div>
+        <span class="welcome-badge">Bienvenue</span>
+        <h2><span class="welcome-icon">🎯</span> Outil de priorisation ELISFA</h2>
+        <p class="modal-sub">À lire avant de commencer</p>
+      </div>
+    </div>
+    <div class="modal-body">
+      <p class="welcome-intro">
+        Cet outil vous aide à <strong>classer vos tâches</strong> selon la matrice d'Eisenhower
+        (urgent / important). Avant de l'utiliser, merci de prendre connaissance des points suivants :
+      </p>
+      <div class="welcome-points">
+        <div class="welcome-point">
+          <strong>1. Outil d'aide, pas d'expertise.</strong>
+          Le classement est automatique et se base uniquement sur les curseurs que vous saisissez.
+          Il ne remplace ni un avis juridique, ni une analyse RH, ni le jugement d'un professionnel.
+        </div>
+        <div class="welcome-point">
+          <strong>2. Vos données restent locales.</strong>
+          Les tâches sont stockées dans le navigateur (localStorage). Rien n'est envoyé sur un serveur.
+          Vider le cache du navigateur supprimera vos données.
+        </div>
+        <div class="welcome-point">
+          <strong>3. Situations sensibles = appui humain.</strong>
+          Pour tout conflit, sanction, risque psychosocial ou dossier juridique, contactez le service
+          juridique ALISFA (<a href="mailto:juridique@elisfa.fr" class="welcome-link">juridique@elisfa.fr</a>)
+          ou un professionnel qualifié.
+        </div>
+        <div class="welcome-point">
+          <strong>4. Responsabilité.</strong>
+          ELISFA met cet outil à disposition à titre indicatif. Les décisions prises à partir du classement
+          relèvent de la seule responsabilité de l'utilisateur.
+        </div>
+      </div>
+      <p class="welcome-reminder">
+        Vous pouvez relire ces mentions à tout moment via le bouton <strong>⚖ Mentions légales</strong>
+        en haut de la page.
+      </p>
+      <label class="welcome-check">
+        <input type="checkbox" id="welcomeAck">
+        J'ai lu et j'accepte ces conditions d'utilisation.
+      </label>
+    </div>
+    <div class="modal-foot">
+      <button class="btn btn-primary welcome-accept-btn" id="welcomeAcceptBtn" onclick="acceptWelcome()" disabled>
+        Accéder à l'outil
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════ BLOC IMPRIMABLE MENTIONS LÉGALES ══════ -->
+<div id="printLegal" style="display:none">
+  <h2 style="color:#1d4ed8;margin:0 0 6px;font-size:18px">⚖ Mentions légales & conditions d'utilisation</h2>
+  <p style="color:#64748b;font-size:11px;margin:0 0 14px"><span id="printLegalVersion"></span></p>
+  <div id="printLegalBody"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ══════════════════════════════════════════
+//  CONFIG — modifiable facilement
+// ══════════════════════════════════════════
+const EM_CONFIG = {
+  maxTasks: 15,
+  storageKey: 'elisfa_priorites_v1',
+  threshold: 6, // seuil urgence/importance pour classement (>= seuil = "élevé")
+  categories: {
+    action:       { label: "Action directe",     icon: "⚡" },
+    preparation:  { label: "Préparation",        icon: "🛠" },
+    planification:{ label: "Planification",      icon: "🗓" },
+    delegation:   { label: "Délégation",         icon: "👥" },
+    reflexion:    { label: "Réflexion / Veille", icon: "🧠" }
+  },
+  quadrants: {
+    q1: { label: "Q1 — Faire maintenant",     action: "Action immédiate" },
+    q2: { label: "Q2 — Planifier",            action: "Stratégique" },
+    q3: { label: "Q3 — Déléguer/raccourcir",  action: "À déléguer" },
+    q4: { label: "Q4 — Éliminer/différer",    action: "À éliminer" }
+  },
+  examples: [
+    { title:"Préparer l'AG annuelle dans 3 semaines", urgent:4, important:9, category:"preparation" },
+    { title:"Rappeler le financeur qui a laissé un message", urgent:8, important:3, category:"delegation" },
+    { title:"Mettre à jour le dossier de subvention (deadline demain)", urgent:10, important:9, category:"action" },
+    { title:"Construire la GEPP 2026-2028", urgent:2, important:9, category:"planification" },
+    { title:"Ranger les archives papier 2019-2021", urgent:1, important:2, category:"reflexion" }
+  ]
+};
+
+// ══════════════════════════════════════════
+//  DISPOSITIF LÉGAL
+// ══════════════════════════════════════════
+const LEGAL_VERSION = '1.0 — avril 2026';
+const LEGAL_UPDATED = 'avril 2026';
+const WELCOME_STORAGE_KEY = 'elisfa_prio_welcome_v1';
+const WELCOME_EXPIRATION_DAYS = 30;
+
+const LEGAL_ARTICLES = [
+  { t:"Article 1 — Nature de l'outil",
+    c:"L'outil de priorisation ELISFA est un <strong>support d'aide à la décision</strong> basé sur la matrice d'Eisenhower. Il permet à l'utilisateur de classer jusqu'à 15 tâches selon deux axes (urgence, importance) qu'il renseigne lui-même. Il s'adresse aux dirigeants et responsables d'associations employeurs du secteur de l'animation et de l'action sociale." },
+  { t:"Article 2 — Limites de l'outil",
+    c:"Le classement proposé est <strong>strictement déterministe</strong> : il découle uniquement des valeurs numériques saisies par l'utilisateur sur les curseurs « urgent » et « important ». L'outil ne procède à aucune analyse qualitative, juridique ou contextuelle. Il ne se substitue en aucun cas à une expertise RH, juridique, managériale ou à l'appréciation d'un professionnel qualifié." },
+  { t:"Article 3 — Vérification humaine indispensable",
+    c:"Toute décision prise à partir du classement fourni par l'outil doit faire l'objet d'une <strong>vérification humaine</strong>. Pour les situations sensibles (conflit d'équipe, sanction disciplinaire, risque psychosocial, inaptitude, procédure contentieuse), l'utilisateur s'engage à solliciter le service juridique ALISFA (<a href=\"mailto:juridique@elisfa.fr\">juridique@elisfa.fr</a>) ou tout autre professionnel compétent." },
+  { t:"Article 4 — Exclusion de responsabilité",
+    c:"ELISFA met cet outil à disposition à titre <strong>indicatif et gratuit</strong>. Aucune garantie n'est donnée quant à l'exhaustivité ou la pertinence du classement au regard d'une situation particulière. ELISFA, ses administrateurs et ses salariés ne peuvent être tenus responsables des décisions prises par l'utilisateur sur la base du classement, ni des conséquences directes ou indirectes de ces décisions." },
+  { t:"Article 5 — Données personnelles & confidentialité",
+    c:"Les tâches saisies sont stockées <strong>exclusivement dans le navigateur</strong> de l'utilisateur (localStorage), sur son poste. Aucune donnée n'est transmise à un serveur ELISFA ni à un tiers. Le vidage du cache ou des données du navigateur entraîne la suppression définitive des tâches. L'utilisateur est seul responsable de la sauvegarde (export PDF) et de la confidentialité des informations qu'il saisit, notamment s'il partage son poste." },
+  { t:"Article 6 — Propriété intellectuelle",
+    c:"L'outil, son code, sa charte graphique et les contenus associés (définitions, conseils par quadrant, fiches pratiques liées) sont la propriété d'ELISFA. Toute reproduction, diffusion ou adaptation à des fins commerciales est soumise à autorisation préalable. L'usage interne par une association adhérente à des fins de priorisation professionnelle est libre." },
+  { t:"Article 7 — Actualisation",
+    c:"Les mentions légales et le fonctionnement de l'outil peuvent évoluer. La date de dernière mise à jour figure en en-tête du présent document. Il appartient à l'utilisateur de consulter régulièrement cette page pour prendre connaissance des évolutions. Toute utilisation postérieure à une mise à jour vaut acceptation des nouvelles conditions." },
+  { t:"Article 8 — Droit applicable",
+    c:"Les présentes conditions sont régies par le <strong>droit français</strong>. Tout litige relatif à leur interprétation ou à leur exécution relève de la compétence des tribunaux français. Pour toute question : <a href=\"mailto:juridique@elisfa.fr\">juridique@elisfa.fr</a>." }
+];
+
+function renderLegalArticles(targetId){
+  const html = LEGAL_ARTICLES.map(a =>
+    `<div class="legal-article"><h3>${a.t}</h3><p>${a.c}</p></div>`
+  ).join('') + `<p class="legal-meta">Version ${LEGAL_VERSION} · dernière mise à jour : ${LEGAL_UPDATED}</p>`;
+  const el = document.getElementById(targetId);
+  if (el) el.innerHTML = html;
+}
+function openLegalModal(){
+  renderLegalArticles('legalBody');
+  document.getElementById('legalVersionLabel').textContent = 'Version ' + LEGAL_VERSION;
+  document.getElementById('legalModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLegalModal(){
+  document.getElementById('legalModal').classList.remove('open');
+  if (!document.getElementById('welcomeModal').classList.contains('open')) {
+    document.body.style.overflow = '';
+  }
+}
+function isWelcomeNeeded(){
+  try {
+    const raw = localStorage.getItem(WELCOME_STORAGE_KEY);
+    if (!raw) return true;
+    const data = JSON.parse(raw);
+    if (data.version !== LEGAL_VERSION) return true;
+    const ageDays = (Date.now() - data.ts) / 86400000;
+    return ageDays > WELCOME_EXPIRATION_DAYS;
+  } catch(e) { return true; }
+}
+function showWelcomeIfNeeded(){
+  if (!isWelcomeNeeded()) return;
+  const modal = document.getElementById('welcomeModal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  const cb = document.getElementById('welcomeAck');
+  const btn = document.getElementById('welcomeAcceptBtn');
+  cb.addEventListener('change', () => { btn.disabled = !cb.checked; });
+}
+function acceptWelcome(){
+  const cb = document.getElementById('welcomeAck');
+  if (!cb.checked) return;
+  try {
+    localStorage.setItem(WELCOME_STORAGE_KEY, JSON.stringify({
+      version: LEGAL_VERSION, ts: Date.now()
+    }));
+  } catch(e){}
+  document.getElementById('welcomeModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ══════════════════════════════════════════
+//  ÉTAT
+// ══════════════════════════════════════════
+let tasks = [];
+let editingId = null;
+
+// ══════════════════════════════════════════
+//  CLASSIFICATION
+// ══════════════════════════════════════════
+function classify(urgent, important) {
+  const hi = EM_CONFIG.threshold;
+  const u = urgent >= hi, i = important >= hi;
+  if (u && i)  return 'q1';
+  if (!u && i) return 'q2';
+  if (u && !i) return 'q3';
+  return 'q4';
+}
+function qLabel(q){
+  return { q1:"Q1 — À faire maintenant", q2:"Q2 — À planifier", q3:"Q3 — À déléguer", q4:"Q4 — À éliminer" }[q];
+}
+
+// ══════════════════════════════════════════
+//  PERSISTANCE
+// ══════════════════════════════════════════
+function save(){
+  try { localStorage.setItem(EM_CONFIG.storageKey, JSON.stringify(tasks)); }
+  catch(e){ toast("Sauvegarde impossible : " + e.message, "err"); }
+}
+function load(){
+  try {
+    const raw = localStorage.getItem(EM_CONFIG.storageKey);
+    if (raw) tasks = JSON.parse(raw) || [];
+  } catch(e){ tasks = []; }
+}
+
+// ══════════════════════════════════════════
+//  RENDU
+// ══════════════════════════════════════════
+function renderAll(){
+  renderCounter();
+  renderList();
+  renderMatrix();
+  save();
+}
+function renderCounter(){
+  const c = document.getElementById('cnt');
+  c.textContent = `${tasks.length} / ${EM_CONFIG.maxTasks}`;
+  c.classList.toggle('full', tasks.length >= EM_CONFIG.maxTasks);
+}
+function renderList(){
+  const el = document.getElementById('taskList');
+  if (tasks.length === 0) {
+    const ex = EM_CONFIG.examples.map((e,i) =>
+      `<button class="btn" onclick="loadExample(${i})">${e.title.slice(0,30)}…</button>`
+    ).join('');
+    el.innerHTML = `<div class="empty">
+      <strong>Aucune tâche pour l'instant.</strong>
+      Utilise le formulaire ci-dessus, ou clique sur un exemple pour démarrer :
+      <div class="empty-examples">${ex}</div>
+    </div>`;
+    return;
+  }
+  el.innerHTML = tasks.map(t => {
+    const cat = EM_CONFIG.categories[t.category] || {icon:"•",label:t.category};
+    const q = classify(t.urgent, t.important);
+    const dl = t.deadline ? `📅 ${formatDate(t.deadline)}` : '';
+    return `<div class="task ${q}">
+      <div class="task-cat" title="${cat.label}">${cat.icon}</div>
+      <div class="task-body">
+        <p class="task-title">${esc(t.title)}</p>
+        <div class="task-meta">
+          <span>${qLabel(q)}</span>
+          <span>⏱ ${t.urgent}/10</span>
+          <span>⭐ ${t.important}/10</span>
+          ${dl ? `<span>${dl}</span>` : ''}
+        </div>
+      </div>
+      <div class="task-actions">
+        <button class="task-icon-btn" onclick="editTask('${t.id}')" title="Modifier">✏️</button>
+        <button class="task-icon-btn del" onclick="delTask('${t.id}')" title="Supprimer">🗑</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+function renderMatrix(){
+  ['q1','q2','q3','q4'].forEach(q => {
+    const ts = tasks.filter(t => classify(t.urgent, t.important) === q);
+    document.getElementById('cnt-'+q).textContent = ts.length;
+    const host = document.getElementById('tiles-'+q);
+    if (ts.length === 0) {
+      host.innerHTML = '<div style="font-size:11px;color:var(--text-muted);font-style:italic;padding:4px 0">— aucune tâche —</div>';
+    } else {
+      host.innerHTML = ts.map(t => {
+        const cat = EM_CONFIG.categories[t.category] || {icon:"•"};
+        return `<div class="qd-tile" onclick="editTask('${t.id}')" title="${esc(t.title)}">
+          <span class="icon">${cat.icon}</span>
+          <span class="ttl">${esc(t.title)}</span>
+        </div>`;
+      }).join('');
+    }
+  });
+}
+
+// ══════════════════════════════════════════
+//  CRUD
+// ══════════════════════════════════════════
+function addTask(){
+  const title = document.getElementById('fTitle').value.trim();
+  if (!title) { toast("Donne un titre à la tâche", "err"); return; }
+  if (!editingId && tasks.length >= EM_CONFIG.maxTasks) {
+    toast(`Limite de ${EM_CONFIG.maxTasks} tâches atteinte`, "err"); return;
+  }
+  const t = {
+    id: editingId || 't_' + Date.now() + '_' + Math.random().toString(36).slice(2,7),
+    title,
+    urgent: parseInt(document.getElementById('fUrgent').value,10),
+    important: parseInt(document.getElementById('fImportant').value,10),
+    category: document.getElementById('fCat').value,
+    deadline: document.getElementById('fDeadline').value || null,
+    notes: document.getElementById('fNotes').value.trim()
+  };
+  if (editingId) {
+    const idx = tasks.findIndex(x => x.id === editingId);
+    if (idx !== -1) tasks[idx] = t;
+    toast("Tâche mise à jour", "ok");
+  } else {
+    tasks.push(t);
+    toast("Tâche ajoutée", "ok");
+  }
+  resetForm();
+  renderAll();
+}
+function editTask(id){
+  const t = tasks.find(x => x.id === id);
+  if (!t) return;
+  editingId = id;
+  document.getElementById('fTitle').value = t.title;
+  document.getElementById('fUrgent').value = t.urgent;
+  document.getElementById('fImportant').value = t.important;
+  document.getElementById('fCat').value = t.category;
+  document.getElementById('fDeadline').value = t.deadline || '';
+  document.getElementById('fNotes').value = t.notes || '';
+  document.getElementById('editCancelBtn').style.display = 'inline-block';
+  updatePreview();
+  document.getElementById('fTitle').scrollIntoView({behavior:'smooth', block:'center'});
+}
+function cancelEdit(){ editingId = null; resetForm(); }
+function delTask(id){
+  if (!confirm("Supprimer cette tâche ?")) return;
+  tasks = tasks.filter(x => x.id !== id);
+  if (editingId === id) cancelEdit();
+  renderAll();
+  toast("Tâche supprimée", "ok");
+}
+function resetForm(){
+  document.getElementById('fTitle').value = '';
+  document.getElementById('fNotes').value = '';
+  document.getElementById('fUrgent').value = 5;
+  document.getElementById('fImportant').value = 5;
+  document.getElementById('fCat').value = 'preparation';
+  document.getElementById('fDeadline').value = '';
+  editingId = null;
+  document.getElementById('editCancelBtn').style.display = 'none';
+  updatePreview();
+}
+function loadExample(i){
+  const ex = EM_CONFIG.examples[i];
+  document.getElementById('fTitle').value = ex.title;
+  document.getElementById('fUrgent').value = ex.urgent;
+  document.getElementById('fImportant').value = ex.important;
+  document.getElementById('fCat').value = ex.category;
+  updatePreview();
+}
+
+// ══════════════════════════════════════════
+//  PREVIEW LIVE
+// ══════════════════════════════════════════
+function updatePreview(){
+  const u = parseInt(document.getElementById('fUrgent').value,10);
+  const i = parseInt(document.getElementById('fImportant').value,10);
+  document.getElementById('valU').textContent = u;
+  document.getElementById('valI').textContent = i;
+  const q = classify(u, i);
+  const pv = document.getElementById('pvQ');
+  pv.textContent = qLabel(q);
+  pv.className = 'pv-q ' + q;
+}
+
+// ══════════════════════════════════════════
+//  IMPORT JSON
+// ══════════════════════════════════════════
+function importTasks(){
+  const raw = document.getElementById('importJson').value.trim();
+  if (!raw) { toast("Colle d'abord un JSON", "err"); return; }
+  let arr;
+  try { arr = JSON.parse(raw); }
+  catch(e){ toast("JSON invalide : " + e.message, "err"); return; }
+  if (!Array.isArray(arr)) { toast("Le JSON doit être un tableau", "err"); return; }
+  let added = 0, skipped = 0;
+  for (const item of arr) {
+    if (tasks.length >= EM_CONFIG.maxTasks) { skipped++; continue; }
+    if (!item.title || typeof item.urgent !== 'number' || typeof item.important !== 'number') { skipped++; continue; }
+    tasks.push({
+      id: 't_' + Date.now() + '_' + Math.random().toString(36).slice(2,7),
+      title: String(item.title).slice(0,120),
+      urgent: Math.max(0, Math.min(10, Math.round(item.urgent))),
+      important: Math.max(0, Math.min(10, Math.round(item.important))),
+      category: EM_CONFIG.categories[item.category] ? item.category : 'action',
+      deadline: item.deadline || null,
+      notes: item.notes || ''
+    });
+    added++;
+  }
+  document.getElementById('importJson').value = '';
+  renderAll();
+  toast(`${added} tâche(s) importée(s)${skipped ? ', '+skipped+' ignorée(s)' : ''}`, "ok");
+}
+
+// ══════════════════════════════════════════
+//  EXPORT PDF (via window.print + CSS @media print)
+// ══════════════════════════════════════════
+function exportPDF(){
+  if (tasks.length === 0) { toast("Ajoute au moins une tâche avant d'exporter", "err"); return; }
+  // Injecter un bloc d'en-tête imprimable éphémère
+  const old = document.getElementById('printHeader');
+  if (old) old.remove();
+  const h = document.createElement('div');
+  h.id = 'printHeader';
+  h.className = 'print-only';
+  const dateStr = new Date().toLocaleDateString('fr-FR', {day:'2-digit',month:'long',year:'numeric'});
+  // Stats par quadrant
+  const stats = ['q1','q2','q3','q4'].map(q => {
+    const n = tasks.filter(t => classify(t.urgent,t.important) === q).length;
+    return { q, n };
+  });
+  h.innerHTML = `
+    <h1 style="margin:0 0 4px;font-size:20px;color:#1d4ed8">🎯 Mes priorités — Matrice d'Eisenhower</h1>
+    <p style="margin:0;font-size:12px;color:#64748b">Export généré le ${dateStr} · Outil ELISFA · ${tasks.length} tâche(s)</p>
+    <div style="display:flex;gap:10px;margin-top:10px;font-size:11px">
+      <span style="padding:4px 10px;background:#fee2e2;color:#b91c1c;border-radius:6px;font-weight:700">Q1 · ${stats[0].n}</span>
+      <span style="padding:4px 10px;background:#ffedd5;color:#ea580c;border-radius:6px;font-weight:700">Q2 · ${stats[1].n}</span>
+      <span style="padding:4px 10px;background:#d1fae5;color:#047857;border-radius:6px;font-weight:700">Q3 · ${stats[2].n}</span>
+      <span style="padding:4px 10px;background:#e2e8f0;color:#475569;border-radius:6px;font-weight:700">Q4 · ${stats[3].n}</span>
+    </div>
+    <hr style="border:none;border-top:1px solid #e2e8f0;margin:14px 0 16px">`;
+  document.querySelector('.wrap').insertBefore(h, document.querySelector('.wrap').firstChild);
+  // Préparer le bloc mentions légales imprimable (nouvelle page)
+  renderLegalArticles('printLegalBody');
+  document.getElementById('printLegalVersion').textContent = 'Version ' + LEGAL_VERSION + ' · dernière mise à jour : ' + LEGAL_UPDATED;
+  const pl = document.getElementById('printLegal');
+  pl.style.display = 'block';
+  // Titre de l'onglet d'impression → titre du PDF
+  const oldTitle = document.title;
+  document.title = 'Priorites-ELISFA-' + new Date().toISOString().slice(0,10);
+  setTimeout(() => {
+    window.print();
+    setTimeout(() => { document.title = oldTitle; h.remove(); pl.style.display = 'none'; }, 500);
+  }, 150);
+  toast("Dans la boîte d'impression, choisis « Enregistrer au format PDF »", "ok");
+}
+
+// ══════════════════════════════════════════
+//  UTILS
+// ══════════════════════════════════════════
+function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function formatDate(iso){ try { return new Date(iso).toLocaleDateString('fr-FR',{day:'2-digit',month:'short'}); } catch(e){ return iso; } }
+function toast(msg, kind){
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast show ' + (kind||'');
+  clearTimeout(t._to);
+  t._to = setTimeout(() => t.className = 'toast', 2500);
+}
+function toggleDefs(){
+  const d = document.getElementById('defs');
+  d.classList.toggle('closed');
+  document.getElementById('defsToggleBtn').textContent = d.classList.contains('closed') ? 'Afficher ▼' : 'Masquer ▲';
+}
+function copyPrompt(){
+  const tpl = document.getElementById('promptTpl').innerText.replace(/^📋 Copier\s*/,'');
+  navigator.clipboard.writeText(tpl).then(
+    () => toast("Prompt copié", "ok"),
+    () => toast("Copie impossible", "err")
+  );
+}
+
+// ══════════════════════════════════════════
+//  ÉVÉNEMENTS
+// ══════════════════════════════════════════
+['fUrgent','fImportant'].forEach(id =>
+  document.getElementById(id).addEventListener('input', updatePreview)
+);
+document.getElementById('btnHelp').addEventListener('click', () => {
+  const p = document.getElementById('helpPanel');
+  p.classList.toggle('open');
+  if (p.classList.contains('open')) p.scrollIntoView({behavior:'smooth', block:'start'});
+});
+document.getElementById('btnTheme').addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark');
+  const dark = document.documentElement.classList.contains('dark');
+  document.getElementById('btnTheme').textContent = dark ? '☀️' : '🌙';
+  try { localStorage.setItem('elisfa_theme', dark ? 'dark' : 'light'); } catch(e){}
+});
+
+// Raccourci clavier : Cmd/Ctrl+Entrée = valider le formulaire
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+    if (document.activeElement.closest('.card')) {
+      e.preventDefault(); addTask();
+    }
+  }
+});
+
+// Escape pour fermer le modal légal
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && document.getElementById('legalModal').classList.contains('open')) {
+    closeLegalModal();
+  }
+});
+
+// Init
+(function init(){
+  try {
+    if (localStorage.getItem('elisfa_theme') === 'dark') {
+      document.documentElement.classList.add('dark');
+      document.getElementById('btnTheme').textContent = '☀️';
+    }
+  } catch(e){}
+  load();
+  updatePreview();
+  renderAll();
+  setTimeout(showWelcomeIfNeeded, 300);
+})();
+</script>
+</body>
+</html>
