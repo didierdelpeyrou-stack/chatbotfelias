@@ -28,8 +28,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import __version__
-from app.api import health
+from app.api import chat, health
 from app.kb.loader import KBStore
+from app.llm.claude import ClaudeClient
 from app.settings import get_settings
 
 
@@ -75,7 +76,23 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     summary = await store.load_all()
     log.info("📚 KB store: %s", summary)
     app.state.kb_store = store
-    # Sprint 2.4 — ClaudeClient sera injecté Sprint 3.2 (endpoint /api/ask)
+
+    # Sprint 3.2 — ClaudeClient injecté pour endpoint /api/ask
+    if settings.anthropic_api_key:
+        try:
+            app.state.claude_client = ClaudeClient(
+                api_key=settings.anthropic_api_key,
+                model=settings.claude_model,
+                max_tokens=settings.claude_max_tokens,
+                timeout=settings.claude_timeout_seconds,
+            )
+            log.info("🤖 ClaudeClient initialisé (model=%s)", settings.claude_model)
+        except Exception as exc:  # noqa: BLE001
+            log.error("[claude] init failed: %s", exc)
+            app.state.claude_client = None
+    else:
+        log.warning("ANTHROPIC_API_KEY absent — /api/ask sera dégradé (503)")
+        app.state.claude_client = None
 
     yield  # ← ici l'app tourne et sert les requêtes
 
@@ -113,6 +130,7 @@ def create_app() -> FastAPI:
 
     # Routers
     app.include_router(health.router)
+    app.include_router(chat.router)
 
     # Endpoint root informatif (utile pour valider le déploiement)
     @app.get("/", summary="Root")
