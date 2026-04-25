@@ -1,0 +1,257 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F5 lot R4 — Fonctions réglementaires Réf EVS + métiers sociaux part 1 (4 articles)",
+    "lot": "R4/R6",
+    "topic": "Référent EVS, Conseiller Conjugal et Familial (CCF), TISF, Médiateur familial",
+    "generated_at": "2026-04-25",
+    "source_principale": "Lettres-circulaires CNAF EVS + diplômes d'État médico-sociaux",
+    "theme_target": "fonctions_reglementaires"
+  },
+
+  "articles": [
+
+    {
+      "id": "reg-ref-evs",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles qualifications pour être référent·e d'un Espace de Vie Sociale (EVS) agréé CAF ?",
+      "mots_cles": [
+        "EVS", "Espace de Vie Sociale",
+        "agrément CAF", "Animation Vie Sociale",
+        "lettre circulaire CNAF",
+        "référent EVS", "petit centre social",
+        "projet d'animation locale", "lien social",
+        "BPJEPS", "DEJEPS", "DECESF"
+      ],
+      "structures_concernees": ["EVS", "ADSL"],
+      "fonction_reglementaire": "ref_evs",
+      "reponse": {
+        "synthese": "Le ou la **Référent·e d'Espace de Vie Sociale (EVS)** pilote une structure d'animation vie sociale **agréée CAF**, plus légère qu'un centre social mais avec les mêmes missions de **lien social, participation habitante et soutien à la parentalité**. Cadre : **lettre-circulaire CNAF Animation Vie Sociale (AVS)**. Profil minimum : **BPJEPS animateur ou diplôme social niveau Bac+2/Bac+3** (DEJEPS, DECESF, DEES, DEEJE) ou **expérience reconnue** en animation/coordination de projets associatifs.",
+        "fondement_legal": "Lettre-circulaire CNAF Animation Vie Sociale (AVS) — Référentiel CAF Espaces de Vie Sociale. Agrément CAF EVS de **2 à 4 ans renouvelable**.",
+        "minimum_legal": "**Cadre EVS** :\nL'Espace de Vie Sociale (EVS) est une structure d'animation de la vie sociale **agréée par la CAF**, complémentaire des centres sociaux. Il porte un **projet d'animation locale** centré sur :\n- Le **lien social** et la **participation habitante**\n- Le **soutien à la parentalité**\n- L'**inclusion** des publics fragilisés\n- La **citoyenneté locale**\n\n**Différence avec un centre social** : périmètre territorial plus restreint, financement CAF plus modeste (PS Animation Locale), gouvernance souvent associative simple. Les EVS sont nombreux dans la branche ALISFA, notamment en milieu rural et péri-urbain.\n\n**Conditions de qualification du référent·e EVS** :\nLa CAF demande un profil professionnel adapté à la conduite d'un projet d'animation locale. Pas de diplôme strictement imposé par la lettre-circulaire mais profils attendus :\n- **BPJEPS** (animateur, animation sociale) — Bac\n- **DEJEPS** Animation Socio-Éducative ou Culturelle — Bac+2\n- **DECESF** (Conseiller en Économie Sociale Familiale) — Bac+3\n- **DEEJE** (Éducateur de Jeunes Enfants) — Bac+3\n- **DEES** (Éducateur Spécialisé) — Bac+3\n- **DUT Carrières Sociales** — Bac+2\n- **Licence professionnelle** Intervention Sociale, Médiation Sociale, Coopération internationale\n- **Master** Sciences sociales, Sciences de l'éducation, Développement local\n- Ou **expérience professionnelle reconnue** (≥ 5 ans) en animation, coordination de projets sociaux ou associatifs\n\n**Missions principales** :\n- **Pilotage du projet d'animation locale EVS** (élaboration, mise en œuvre, évaluation)\n- Animation de la **participation des habitants** (instances participatives, comités d'usagers)\n- **Coordination des activités** (ateliers, sorties, événements, accueil, permanences)\n- Animation des **partenariats** locaux : mairie, associations, écoles, services sociaux, CCAS\n- Suivi du **conventionnement CAF** : agrément, prestations de service, bilan annuel\n- Accompagnement de la **gouvernance bénévole** (CA, bureau, AG)\n- Encadrement de l'équipe (1-3 salariés en moyenne) et des bénévoles",
+        "plus_formation": "**Évolutions de carrière** :\n- Direction d'un centre social agréé CAF (cf. article `reg-direction-centre-social`)\n- Coordination AVS sur un territoire intercommunal\n- Direction d'une fédération départementale ALISFA / centres sociaux\n- Chargé·e de mission développement social en collectivité\n\n**Formations spécialisées recommandées** :\n- Formations **CNAF / Caisses régionales** sur la PS Animation Locale et l'agrément EVS\n- **DSTS** (Diplôme Supérieur en Travail Social) ou **CAFERUIS** (Certificat d'Aptitude aux Fonctions d'Encadrement et de Responsable d'Unité d'Intervention Sociale) pour évoluer vers la direction\n- Formations **développement social local**, **démocratie participative**, **éducation populaire**\n- **Promeneurs du Net** si projet jeunesse intégré\n\n**Financement** : OPCO Uniformation (fonds légaux + conventionnels) + plans de formation CAF départementaux.",
+        "obligations_formation": "Pas de diplôme strictement imposé par la lettre-circulaire CNAF AVS mais profil professionnel exigé pour la validation de l'agrément CAF.",
+        "accompagnement_obligatoire": "**Accompagnement à la prise de fonction** :\n- **Référent CAF AVS** dédié dans la CAF départementale (interlocuteur agrément + suivi PS)\n- **Fédération départementale ALISFA / centres sociaux** : appui méthodologique, formations, mutualisation\n- **CA associatif** : co-construction du projet social et validation politique\n\n**Suivi de l'agrément** :\n- Rencontres annuelles CAF\n- Bilan d'activité annuel\n- Évaluation au renouvellement (tous les 2 à 4 ans)",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les EVS sont régis par la **lettre-circulaire CNAF Animation Vie Sociale** révisée régulièrement. Vérifier la version la plus récente (référentiel AVS 2022-2026 en cours d'évaluation) auprès de la CAF départementale ou sur caf.fr / Mon Compte Partenaires.",
+        "sources": [
+          "Lettre-circulaire CNAF Animation Vie Sociale (AVS) — Référentiel EVS",
+          "Site caf.fr / Mon Compte Partenaires — agrément Espace de Vie Sociale",
+          "Fédération nationale des centres sociaux et socioculturels de France"
+        ],
+        "liens": [
+          {
+            "titre": "CAF — Animation de la Vie Sociale (EVS et centres sociaux)",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/animation-de-la-vie-sociale",
+            "type": "officiel"
+          },
+          {
+            "titre": "Centres sociaux de France — Espaces de Vie Sociale",
+            "url": "https://www.centres-sociaux.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers de l'animation et de la coordination",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Lettre-circulaire CNAF AVS"
+      }
+    },
+
+    {
+      "id": "reg-conseiller-conjugal-familial",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelle formation pour devenir Conseiller·ère Conjugal·e et Familial·e (CCF) ?",
+      "mots_cles": [
+        "CCF", "Conseiller Conjugal Familial",
+        "diplôme État CCF", "centre planification éducation familiale",
+        "EICCF", "vie affective et sexuelle",
+        "écoute couple", "violences conjugales",
+        "Code santé publique"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "ccf",
+      "reponse": {
+        "synthese": "Le ou la **Conseiller·ère Conjugal·e et Familial·e (CCF)** est un professionnel formé à l'écoute et à l'accompagnement individuel ou en couple sur les questions de **vie affective, sexuelle, conjugale, parentale**. Diplôme de référence : **Attestation de qualification CCF** délivrée par les **EICCF** (Établissements d'Information, de Consultation et de Conseil Familial) agréés. Formation cadrée par le **Code de la santé publique** et par le **Ministère chargé de la Santé**. Profil : Bac+2 minimum dans le champ médico-social/éducatif/santé.",
+        "fondement_legal": "**Code de la santé publique** — articles L2311-1 et suivants, R2311-1 et suivants (Centres de planification ou d'éducation familiale) et **arrêtés relatifs à la formation des conseillers conjugaux et familiaux** (formation 400h sur 2 ans + stages).",
+        "minimum_legal": "**Cadre réglementaire** :\nLa profession de Conseiller·ère Conjugal·e et Familial·e (CCF) est encadrée par le Code de la santé publique au titre des **Centres de Planification ou d'Éducation Familiale (CPEF)** et des **Établissements d'Information, de Consultation et de Conseil Familial (EICCF)**.\n\n**Diplôme requis** :\n- **Attestation de qualification de Conseiller·ère Conjugal·e et Familial·e** (formation agréée par le Ministère chargé de la Santé)\n- Formation **400 heures théoriques sur 2 ans** + stages pratiques (≥ 300 h)\n- Délivrée par des **organismes de formation agréés** (CLER Amour et Famille, AFCCC, Couple et Famille, MFPF, etc.)\n\n**Prérequis pour entrer en formation CCF** :\n- **Diplôme Bac+2 minimum** dans le champ médico-social, éducatif, santé, sciences humaines\n- Ou **expérience professionnelle ≥ 3 ans** dans le champ social/éducatif/santé\n- **Sélection** sur dossier + entretien (motivation, posture professionnelle, expérience personnelle)\n- **Âge minimum** souvent requis (25 ou 30 ans selon organismes)\n\n**Missions principales** :\n- **Entretiens individuels et de couple** sur les questions de vie affective, sexuelle, conjugale, parentale\n- **Information** sur la **contraception**, l'**IVG**, la **vie sexuelle**, le **couple**, la **parentalité**\n- **Animation de séances collectives** d'éducation à la vie affective et sexuelle (établissements scolaires, structures d'accueil jeunes)\n- **Accueil et orientation** des personnes victimes de **violences conjugales** ou intra-familiales\n- **Médiation** dans les situations de conflits familiaux légers (sans empiétement sur le médiateur familial DE)\n- **Travail en réseau** : CPEF, planning familial, médecins, sage-femmes, services sociaux, justice, structures spécialisées violences\n- Participation à des actions de **prévention** et de **promotion de la santé sexuelle**\n\n**Lieux d'exercice fréquents** :\n- Centres de Planification ou d'Éducation Familiale (CPEF, hôpitaux, conseils départementaux)\n- EICCF (associations spécialisées)\n- Centres sociaux, EVS, structures jeunesse de la branche ALISFA\n- Établissements scolaires (interventions ponctuelles)\n- Associations de soutien aux victimes de violences",
+        "plus_formation": "**Formations complémentaires fréquentes** :\n- **DU Sexologie** ou **DIU Sexologie médicale** (pour CCF souhaitant approfondir)\n- Formations **violences conjugales et intra-familiales** (CIDFF, France Victimes)\n- Formations **éducation à la vie affective et sexuelle** (intervention en établissements scolaires)\n- **Approche systémique** familiale\n- **Médiation familiale** (DE ou pas pour rester CCF)\n\n**Évolution possible** :\n- **Médiateur·trice familial·e** (DE Médiation Familiale, accessible avec passerelle pour les CCF expérimentés)\n- **Coordination CPEF / EICCF**\n- **Formateur·trice CCF**\n\n**Financement** :\n- Formation initiale CCF : **OPCO Uniformation** (alternance ou plan de développement des compétences) + Région (formation initiale santé-social)\n- Tarif moyen formation CCF : **3 000 à 6 000 €** sur 2 ans\n- Possibilité **CPF** pour partie théorique selon organisme\n- Financements **CAF / Conseil Départemental** pour formation continue des professionnels en CPEF/EICCF",
+        "obligations_formation": "Attestation de qualification CCF (formation agréée Ministère Santé, 400h théoriques + 300h stages, sur 2 ans).",
+        "accompagnement_obligatoire": "**Supervision professionnelle obligatoire** dans les EICCF agréés (groupe d'analyse de pratiques, supervision individuelle si nécessaire). Formation continue régulière exigée pour le maintien de la qualification.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Vérifier les organismes de formation **agréés Ministère Santé** sur santé.gouv.fr (liste mise à jour régulièrement). Profession encadrée mais **pas inscrite au répertoire ADELI** des professions de santé. Distinguer CCF (attestation) du **Médiateur·trice familial·e DE** (Diplôme d'État, profession différente — cf. article `reg-mediateur-familial`).",
+        "sources": [
+          "Code de la santé publique — articles L2311-1 et R2311-1 (CPEF / EICCF)",
+          "Arrêtés du Ministère chargé de la Santé relatifs à la formation CCF",
+          "CLER Amour et Famille, AFCCC, Couple et Famille — organismes formateurs CCF agréés",
+          "Mouvement Français pour le Planning Familial (MFPF)"
+        ],
+        "liens": [
+          {
+            "titre": "Code de la santé publique — Centres de planification ou d'éducation familiale (Légifrance)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006171127/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Ministère de la Santé — Conseil conjugal et familial",
+            "url": "https://sante.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mouvement Français pour le Planning Familial",
+            "url": "https://www.planning-familial.org",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers du social et de l'accompagnement",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Profession encadrée par Code santé publique. Pour ouverture / fonctionnement d'un EICCF / CPEF, prendre contact avec ARS et Conseil Départemental.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code santé publique L2311 + arrêtés Ministère Santé"
+      }
+    },
+
+    {
+      "id": "reg-tisf",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Technicien·ne de l'Intervention Sociale et Familiale (TISF) ?",
+      "mots_cles": [
+        "TISF", "Technicien Intervention Sociale Familiale",
+        "DETISF", "diplôme État TISF",
+        "soutien parentalité domicile", "AED", "AEMO",
+        "Code action sociale famille",
+        "aide à domicile éducative",
+        "intervention famille fragilisée"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "tisf",
+      "reponse": {
+        "synthese": "Le ou la **Technicien·ne de l'Intervention Sociale et Familiale (TISF)** intervient au domicile des familles fragilisées pour un **soutien éducatif, social et matériel**. Diplôme de référence : **Diplôme d'État de TISF (DETISF)** — niveau 4 (Bac), formation 1 575 h (950 h théorie + 8 stages soit 1 155 h pratique) sur 18-24 mois. Cadre : **Code de l'action sociale et des familles**. Mandats fréquents : **AED** (Aide Éducative à Domicile) et **AEMO** (Aide Éducative en Milieu Ouvert) confiés par le Conseil Départemental ou le Juge des enfants.",
+        "fondement_legal": "**Code de l'action sociale et des familles** (interventions à domicile auprès des familles) — **arrêté du 25 avril 2006** modifié relatif au DETISF — **Décret n° 2006-250 du 1er mars 2006**.",
+        "minimum_legal": "**Cadre réglementaire** :\nLa profession de Technicien·ne de l'Intervention Sociale et Familiale (TISF) est encadrée par un **Diplôme d'État (DETISF)** créé par le **Décret n° 2006-250 du 1er mars 2006** et l'**arrêté du 25 avril 2006 modifié**.\n\n**Diplôme requis** :\n- **DETISF** (Diplôme d'État de TISF) — RNCP **4503** — niveau **4 (Bac)**\n- Formation : **1 575 heures totales** = 950 h enseignement théorique + 1 155 h de stages (8 stages dont 1 long)\n- Durée : **18 à 24 mois** (formation initiale ou en alternance)\n- Délivré par les **établissements de formation en travail social** agréés par les Régions\n\n**Conditions d'accès à la formation** :\n- **Aucun diplôme requis** pour l'entrée\n- Sélection sur **épreuves écrites + entretien de motivation**\n- Possibilité d'**alternance** (apprentissage ou contrat de professionnalisation)\n- **VAE** possible\n\n**Domaines de compétences (4 DC)** :\n- **DC1** : Conduite du projet d'aide à la personne\n- **DC2** : Communication professionnelle et travail en réseau\n- **DC3** : Réalisation des actes essentiels de la vie quotidienne (cuisine, entretien, soins de base, accompagnement scolaire des enfants)\n- **DC4** : Transmission des savoirs et techniques nécessaires à l'autonomie des personnes\n\n**Missions principales** :\n- **Intervention au domicile** des familles fragilisées (parents avec enfants, personnes en situation de handicap, personnes âgées, situations de rupture)\n- **Soutien à la parentalité** : aide éducative, soutien à la fonction parentale, accompagnement scolarité enfants\n- **Apprentissage des actes de la vie quotidienne** : courses, cuisine, hygiène domestique, gestion budgétaire, démarches administratives\n- **Accompagnement social** vers l'autonomie\n- **Prévention** des risques pour les enfants (mandats AED, AEMO, mesures judiciaires)\n- **Liaison** avec les travailleurs sociaux référents (ASE, CMS, PMI), médecins, écoles\n- **Rédaction de comptes-rendus** d'intervention\n\n**Mandats fréquents** :\n- **AED** (Aide Éducative à Domicile) — Conseil Départemental / ASE\n- **AEMO** (Aide Éducative en Milieu Ouvert) — Juge des enfants / Habilité Justice\n- **Mesure d'Accompagnement en Économie Sociale Familiale (MAESF)**\n- **Aide à domicile aux familles** — CAF (PS Aide à Domicile)\n- **Intervention post-natale** ou **deuil familial**\n\n**Lieux d'exercice fréquents** :\n- Associations d'aide à domicile (ADMR, ADSL, branches ALISFA)\n- Services départementaux d'Action Sociale\n- Services PMI / ASE\n- Structures associatives de soutien à la parentalité",
+        "plus_formation": "**Évolutions possibles** :\n- **DEAES** (Diplôme d'État d'Accompagnant Éducatif et Social) — passerelle\n- **DEME** (Moniteur-Éducateur) — niveau 4\n- **DEES** (Éducateur Spécialisé) — niveau 6 — passerelle TISF possible\n- **DECESF** (Conseiller en Économie Sociale Familiale) — niveau 6 — passerelle si projet ESF\n- **DEEJE** (Éducateur de Jeunes Enfants) — niveau 6\n- **CAFERUIS** pour évolution vers la coordination ou la direction de service\n\n**Formations continues recommandées** :\n- Soutien à la parentalité, approches éducatives (Faber/Mazlish, Filliozat, etc.)\n- Protection de l'enfance, repérage maltraitance, secret partagé\n- Approche systémique familiale\n- Interculturalité, médiation familiale légère\n- Handicap (TSA, troubles du comportement)\n- Violences conjugales (impact sur enfants)\n- Numérique inclusif (accompagnement démarches en ligne)\n\n**Financement formation initiale** :\n- **Apprentissage** (CAP AEPE→DETISF en alternance) : prise en charge **OPCO Uniformation/Santé** + niveau de prise en charge CPNEF Branche\n- **Contrat de professionnalisation** : OPCO + Pôle Emploi/Région\n- **Formation initiale** : Région (gratuit pour étudiants) ou financement personnel (~ 8 000 à 12 000 €)\n- **VAE** : compte CPF + financement employeur\n\n**Financement formation continue** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- Prestation de service CAF Aide à Domicile pour le temps de formation des intervenants\n- CPF + abondement employeur",
+        "obligations_formation": "DETISF (Diplôme d'État de TISF) requis pour exercer.",
+        "accompagnement_obligatoire": "**Tutorat obligatoire** pendant la formation (1 stage long de 32 semaines avec tuteur expérimenté). **Analyse de pratiques** régulière en équipe (souvent 1 séance / mois). **Supervision** dans les services confrontés à des situations complexes (protection enfance, violences).",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Vérifier les **arrêtés DETISF** sur Légifrance (dernière révision en cours via la **réforme des diplômes du travail social** — DEES, DECESF, DEME, DEEJE, DEAES déjà refondus en 2018-2021, DETISF également révisé). Distinguer TISF (DETISF) de l'**AVS / Auxiliaire de Vie Sociale** (DEAES) et de la **Garde d'enfants à domicile** (sans diplôme DE requis).",
+        "sources": [
+          "Code de l'action sociale et des familles — interventions à domicile auprès des familles",
+          "Décret n° 2006-250 du 1er mars 2006 — création du DETISF",
+          "Arrêté du 25 avril 2006 modifié — formation et certification DETISF",
+          "RNCP fiche 4503 — Technicien de l'Intervention Sociale et Familiale"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2006-250 du 1er mars 2006 (DETISF)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000452322/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Arrêté du 25 avril 2006 modifié (formation DETISF)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000264727/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 4503 Technicien de l'Intervention Sociale et Familiale",
+            "url": "https://www.francecompetences.fr/recherche/rncp/4503/",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers du social et de l'aide à domicile",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2006-250 + arrêté 25 avril 2006"
+      }
+    },
+
+    {
+      "id": "reg-mediateur-familial",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Médiateur·trice Familial·e (DE Médiation Familiale) ?",
+      "mots_cles": [
+        "médiateur familial", "DE médiation familiale",
+        "diplôme État médiation familiale",
+        "séparation parents", "résidence enfants",
+        "Code action sociale famille",
+        "Décret 2003-1166", "DEMF",
+        "JAF", "convention parentale"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "mediateur_familial",
+      "reponse": {
+        "synthese": "Le ou la **Médiateur·trice Familial·e** est un professionnel formé à l'accompagnement structuré des familles en situation de **rupture** (séparation, divorce, conflit intergénérationnel, recomposition). Diplôme de référence : **Diplôme d'État de Médiateur Familial (DEMF)** — niveau 6 (Bac+3) — créé par le **Décret n° 2003-1166 du 2 décembre 2003**. Formation **595 h** sur 1 à 3 ans + **105 h de stage**. Profession encadrée par le **Code de l'action sociale et des familles**.",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **R451-66 à R451-71** — **Décret n° 2003-1166 du 2 décembre 2003** créant le DEMF — **Arrêté du 12 février 2004** relatif à la formation, et arrêtés modificatifs ultérieurs.",
+        "minimum_legal": "**Cadre réglementaire** :\nLa profession de Médiateur·trice Familial·e est encadrée par un **Diplôme d'État (DEMF)** créé par le **Décret n° 2003-1166 du 2 décembre 2003** et inscrit aux articles R451-66 à R451-71 du Code de l'action sociale et des familles.\n\n**Diplôme requis** :\n- **DEMF** (Diplôme d'État de Médiateur Familial) — RNCP **2028** — niveau **6 (Bac+3)**\n- Formation : **595 heures théoriques + 105 heures de stage** (= 700 h total)\n- Durée : **1 à 3 ans** selon le rythme (formation initiale ou continue)\n- Délivré par les **établissements de formation en travail social** agréés Région\n\n**Conditions d'accès à la formation** :\n- **Diplôme Bac+3 minimum** dans le champ **médico-social, juridique, psychologique, éducatif** :\n  - DEEJE, DEES, DECESF, DEASS, DEPS, infirmier (DE), psychologue, juriste (Master 1 minimum)\n- **OU expérience professionnelle ≥ 3 ans** dans le champ social/éducatif/santé/juridique\n- **Sélection** : épreuves écrites + entretien de motivation\n- **VAE** possible (sous conditions)\n\n**Domaines de compétences (4 DF)** :\n- **DF1** : Espace tiers, processus de médiation familiale\n- **DF2** : Communication, relations humaines\n- **DF3** : Droit de la famille\n- **DF4** : Méthodologie, projet professionnel\n\n**Missions principales** :\n- **Conduite d'entretiens de médiation** (couple en séparation, parents/adolescents, fratries, conflits intergénérationnels)\n- **Élaboration d'accords parentaux** (résidence des enfants, droit de visite et d'hébergement, contribution à l'entretien et à l'éducation, partage des responsabilités, biens)\n- **Rédaction de conventions de médiation** (parfois homologuées par le Juge aux Affaires Familiales — JAF)\n- **Information** des familles sur les enjeux d'une séparation, sur les droits et devoirs parentaux\n- **Médiation conventionnelle** (à la demande des parties) ou **médiation judiciaire** (mandat JAF)\n- **Travail en réseau** : avocats, JAF, services sociaux, CAF (PS Médiation Familiale), Conseils Départementaux, ASE\n- **Tenue d'une posture de tiers neutre, indépendant et impartial**\n\n**Lieux d'exercice fréquents** :\n- **Services de médiation familiale agréés CAF** (PS Médiation Familiale)\n- Associations spécialisées (UNAF, UDAF, APMF)\n- Centres sociaux, EVS, structures ALISFA conventionnées\n- Tribunaux judiciaires (médiation judiciaire mandatée)\n- Cabinets indépendants (médiation conventionnelle)\n- Conseils Départementaux (services Action Sociale, ASE)\n\n**Cadre déontologique** :\n- Code de déontologie de l'Association pour la Médiation Familiale (APMF)\n- **Confidentialité absolue** des entretiens (sauf cas prévus par la loi : protection enfance, danger imminent)\n- **Neutralité, impartialité, indépendance** — posture fondamentale\n- Pas de prise de parti pour l'une ou l'autre partie",
+        "plus_formation": "**Évolutions possibles** :\n- **CAFERUIS** (encadrement / responsable d'unité) pour évoluer vers la coordination ou la direction de service\n- **CAFDES** (Direction d'Établissement) pour direction de service de médiation\n- **DU médiation, DU droit de la famille, DU psychologie systémique** pour spécialisation\n- **Formateur·trice DEMF** (sous conditions d'expérience)\n\n**Formations continues recommandées** :\n- **Approche systémique familiale**\n- **Violences conjugales et intra-familiales** (formation spécifique fortement recommandée — vigilance accrue, contre-indications de la médiation en cas d'emprise)\n- **Droit de la famille** actualisé (autorité parentale, divorce, PACS, recomposition, GPA, adoption)\n- **Médiation interculturelle**\n- **Handicap** dans la séparation familiale (enfants à besoins spécifiques)\n- **Médiation à distance** (visio, déontologie numérique)\n- **Aliénation parentale** (concept controversé — formation critique recommandée)\n\n**Financement formation initiale** :\n- **Apprentissage** ou **contrat de professionnalisation** : OPCO Uniformation + CPNEF\n- **Plan de développement des compétences** employeur : OPCO Uniformation (fonds légaux + conventionnels ALISFA)\n- **CPF** : possible pour partie théorique\n- **VAE** : CPF + financement employeur\n- Tarif moyen formation DEMF : **6 000 à 9 000 €**\n\n**Financement service de médiation familiale** :\n- **Prestation de Service CAF Médiation Familiale** (au prorata des heures de médiation conventionnelle)\n- Subventions Conseil Départemental, communes, intercommunalités\n- Honoraires usagers (barème CAF en fonction des revenus)\n- Financement Justice (médiation judiciaire mandatée par JAF)",
+        "obligations_formation": "DEMF (Diplôme d'État de Médiateur Familial) requis pour exercer en service de médiation familiale agréé CAF.",
+        "accompagnement_obligatoire": "**Supervision professionnelle obligatoire** pour tout médiateur familial en exercice (groupe d'analyse de pratiques mensuel + supervision individuelle si nécessaire). **Formation continue** régulière exigée pour le maintien des compétences (notamment droit de la famille évolutif et violences conjugales).",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Vérifier les arrêtés DEMF sur **Légifrance** (réforme des diplômes du travail social). **Vigilance violences conjugales** : la médiation familiale est **contre-indiquée en cas de violences avec emprise** (cf. recommandations Haut Conseil à l'Égalité, MIPROF). Distinguer DEMF (Diplôme d'État médiation familiale) du **CCF** (Conseiller Conjugal et Familial — attestation, profession différente).",
+        "sources": [
+          "Code de l'action sociale et des familles — articles R451-66 à R451-71",
+          "Décret n° 2003-1166 du 2 décembre 2003 — création du DEMF",
+          "Arrêté du 12 février 2004 modifié — formation et certification DEMF",
+          "RNCP fiche 2028 — Diplôme d'État de Médiateur Familial",
+          "APMF — Association pour la Médiation Familiale (code déontologique)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2003-1166 du 2 décembre 2003 (DEMF)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000418942/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code action sociale articles R451-66 à R451-71",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000020865923/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 2028 Diplôme d'État de Médiateur Familial",
+            "url": "https://www.francecompetences.fr/recherche/rncp/2028/",
+            "type": "officiel"
+          },
+          {
+            "titre": "APMF — Association pour la Médiation Familiale",
+            "url": "https://www.apmf.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers de la médiation et du soutien aux familles",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2003-1166 + Code action sociale R451-66"
+      }
+    }
+
+  ]
+}

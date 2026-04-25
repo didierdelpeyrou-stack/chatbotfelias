@@ -1,0 +1,345 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F5 lot R6 — Fonctions réglementaires Référents santé/sécurité légaux (5 articles)",
+    "lot": "R6/R6 (final F5)",
+    "topic": "SST, Référent harcèlement, Référent laïcité, HACCP, CNFS",
+    "generated_at": "2026-04-25",
+    "source_principale": "Code du travail + Code action sociale + Code rural pêche maritime + INRS + ANCT",
+    "theme_target": "fonctions_reglementaires"
+  },
+
+  "articles": [
+
+    {
+      "id": "reg-sst",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles obligations pour le Sauveteur Secouriste du Travail (SST) en structure ALISFA ?",
+      "mots_cles": [
+        "SST", "Sauveteur Secouriste Travail",
+        "INRS", "premiers secours travail",
+        "Code travail R4224-15",
+        "MAC SST", "recyclage 24 mois",
+        "obligation employeur",
+        "centre social", "EAJE", "ACM"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "fonction_reglementaire": "sst",
+      "reponse": {
+        "synthese": "Le **Sauveteur Secouriste du Travail (SST)** est un salarié formé aux gestes de premiers secours sur son lieu de travail. Cadre **obligatoire** : **Code du travail article R4224-15** impose la présence d'au moins **1 SST par atelier ou chantier de plus de 20 personnes** où sont effectués des travaux dangereux et **dans tout établissement** lorsque le service médical du travail le recommande. Formation : **14 heures** (2 jours), délivrée par **organisme habilité INRS / Réseau Assurance Maladie Risques Professionnels**. Maintien et Actualisation des Compétences (**MAC SST**) : **24 mois** maximum (formation 7 h).",
+        "fondement_legal": "**Code du travail** — article **R4224-15** (présence de SST) et articles **L4121-1 et suivants** (obligation de sécurité de l'employeur) — Référentiel de formation **INRS / CNAM-TS**.",
+        "minimum_legal": "**Cadre réglementaire** :\nL'article **R4224-15 du Code du travail** impose la présence de SST dans certaines configurations. **Article L4121-1** : obligation générale de sécurité de l'employeur (intégrant les premiers secours).\n\n**Obligations légales selon la structure** :\n- **Établissement de plus de 20 salariés** avec activités présentant des risques particuliers (cuisine collective, travaux d'entretien, manutention) : **1 SST minimum**\n- **Sur recommandation du médecin du travail** : nombre adapté à la structure\n- **Bonne pratique CCN ALISFA** : **1 SST par site / par tranche de 15 salariés**\n- **EAJE** : la **RSAI** (Référente Santé Accueil Inclusif, cf. article `reg-rsai-eaje`) joue déjà un rôle de premier secours, mais la formation SST est complémentaire pour le reste de l'équipe\n- **ACM / centres de loisirs** : la formation **PSC1** ou **AFPS** est exigée pour les directeurs d'ACM (cf. article `reg-direction-alsh`), mais la formation SST des animateurs reste recommandée\n\n**Formation SST** :\n- **Durée** : 14 heures (2 journées de 7 h)\n- **Programme** :\n  - Conduite à tenir face à un accident\n  - Examen de la victime\n  - Faire alerter / alerter les secours\n  - Secourir : protection, alerte, position d'attente, gestes spécifiques (saignement, étouffement, arrêt cardiaque, etc.)\n  - Prévention des risques professionnels : repérage, alerte hiérarchie\n- **Délivrance** : **Certificat SST** par organisme habilité **INRS / réseau Assurance Maladie**\n- **Validité** : **24 mois** — au-delà, recyclage MAC SST obligatoire\n\n**Maintien et Actualisation des Compétences (MAC SST)** :\n- **Durée** : **7 heures** (1 journée)\n- **Périodicité** : **24 mois maximum** après formation initiale ou précédent MAC\n- **À défaut** : le certificat SST n'est plus valide, formation initiale à reprendre\n\n**Missions du SST** :\n- **Intervenir** efficacement face à toute situation d'accident dans l'entreprise\n- **Alerter** les secours et faciliter leur intervention\n- **Acteur de la prévention** : repérer les situations dangereuses, alerter la hiérarchie\n- **Sensibiliser** ses collègues aux conduites à tenir\n- **Maintenir à jour** ses compétences (MAC SST)\n\n**Obligation d'affichage** :\n- Liste des SST de l'établissement affichée dans un endroit accessible\n- Consignes en cas d'accident affichées (téléphones d'urgence : 15, 18, 112, 17, 114 sourds-malentendants)",
+        "plus_formation": "**Formations complémentaires recommandées** :\n- **Formation incendie** (manipulation extincteurs, évacuation) — obligatoire pour ERP\n- **PSC1** (Prévention et Secours Civiques niveau 1) — formation grand public, complémentaire SST\n- **Gestes qui Sauvent (GQS)** — 2 h, sensibilisation grand public\n- **AED** (Défibrillateur Automatique Externe) intégré au SST\n- **Évacuation** et **point de rassemblement** (exercice annuel obligatoire)\n- Pour **EAJE** : formations spécifiques **étouffement enfant**, **convulsions du nourrisson**, **arrêt cardiaque pédiatrique** (au-delà du SST classique)\n- Pour **personnes âgées et handicap** : formations spécifiques accidents de la vie courante en structure\n\n**Financement** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- Formation initiale SST : ~ **180 à 250 € / personne**\n- MAC SST : ~ **120 à 180 € / personne**\n- **CPF** mobilisable (Bloc compétences SST RNCP)\n- Plans CARSAT / CRAMIF (subventions prévention TPE)",
+        "obligations_formation": "Formation SST initiale 14h + MAC SST 7h tous les 24 mois — délivrée par organisme habilité INRS.",
+        "accompagnement_obligatoire": "**Affichage de la liste des SST** dans l'établissement. **Consignes premiers secours** affichées. **Trousse de secours** disponible et entretenue selon recommandations médicales. Pour ERP (Établissement Recevant du Public), **registre de sécurité** à jour.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** L'article R4224-15 du Code du travail est en vigueur. La **liste des organismes habilités** SST/MAC SST est consultable sur le site de l'**INRS** (mise à jour régulière). En centre social ou EAJE, la **règle conventionnelle ALISFA** ou interne d'avoir **au moins 1 SST par site** est très fortement recommandée même si le seuil légal R4224-15 n'est pas atteint. Vigilance sur le **renouvellement MAC SST** : un SST non recyclé n'est plus valide juridiquement.",
+        "sources": [
+          "Code du travail — article R4224-15 (présence de SST)",
+          "Code du travail — articles L4121-1 et suivants (obligation de sécurité)",
+          "INRS — Référentiel de formation Sauveteur Secouriste du Travail",
+          "Réseau Assurance Maladie Risques Professionnels — habilitations SST"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail article R4224-15",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018530384/",
+            "type": "legislation"
+          },
+          {
+            "titre": "INRS — Sauveteur Secouriste du Travail (SST)",
+            "url": "https://www.inrs.fr/services/formation/demultiplication/sst.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "Ameli — Risques professionnels (volet entreprises)",
+            "url": "https://www.ameli.fr/entreprise/sante-travail/risques",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC santé et sécurité au travail",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail R4224-15 + INRS"
+      }
+    },
+
+    {
+      "id": "reg-referent-harcelement",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Comment désigner un Référent harcèlement sexuel et agissements sexistes en structure ALISFA ?",
+      "mots_cles": [
+        "référent harcèlement", "harcèlement sexuel",
+        "agissements sexistes", "loi 2018-771",
+        "Code travail L1153-5-1",
+        "obligation 250 salariés CSE",
+        "obligation tous employeurs",
+        "MIPROF", "violences sexistes"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "fonction_reglementaire": "referent_harcelement",
+      "reponse": {
+        "synthese": "Depuis la **loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)**, **tout employeur** doit désigner un **Référent harcèlement sexuel et agissements sexistes** (article **L1153-5-1 du Code du travail**). Dans les structures de **250 salariés et plus**, le **CSE** désigne **également** un référent dédié parmi ses membres élus (article **L2314-1**). Pour les structures ALISFA (souvent < 250 salariés), un seul référent côté employeur suffit. Pas de diplôme imposé, mais formation fortement recommandée (5 à 14 h). Mission : **prévenir, accueillir, orienter** les salariés victimes ou témoins.",
+        "fondement_legal": "**Code du travail** — articles **L1153-1 à L1153-6** (harcèlement sexuel et agissements sexistes) — article **L1153-5-1** (référent employeur) — article **L2314-1** (référent CSE 250 salariés et plus) — **Loi n° 2018-771 du 5 septembre 2018** (« Avenir Professionnel »).",
+        "minimum_legal": "**Cadre réglementaire** :\n\n**1. Référent côté employeur (article L1153-5-1)** :\n- **Obligation pour TOUS les employeurs**, sans seuil d'effectif\n- Désignation par l'employeur (lettre de mission, contrat, fiche de fonction)\n- **Pas de diplôme imposé** mais formation fortement recommandée\n- Le référent peut être :\n  - Un cadre RH ou administratif\n  - Un salarié volontaire\n  - Le ou la directeur·trice (en très petite structure)\n  - Un membre du CSE (en complément du référent CSE — voir point 2)\n\n**2. Référent CSE (article L2314-1)** :\n- **Obligation dans les structures de 250 salariés et plus** ayant un CSE\n- Élu **parmi les membres titulaires ou suppléants du CSE**\n- Mandat de **même durée** que celui du CSE (typiquement 4 ans)\n- En structure ALISFA < 250 salariés, **non obligatoire** (mais bonne pratique)\n\n**Profil recommandé** :\n- **Diplôme RH, social, juridique, psychologique** ou expérience équivalente\n- **Formation spécifique** sur les violences sexistes et sexuelles (cf. ci-dessous)\n- **Posture neutre, confidentielle, empathique**\n- **Légitimité interne** (reconnaissance de l'équipe)\n\n**Missions principales** :\n- **Accueillir** la parole des salariés victimes ou témoins de harcèlement sexuel ou d'agissements sexistes\n- **Informer** sur les droits, les procédures et les recours possibles (procédure interne, inspection du travail, prud'hommes, plainte pénale)\n- **Orienter** vers les ressources internes (médecin du travail, RH, direction) et externes (Médecin du travail, CIDFF, France Victimes, 3919)\n- **Accompagner** la procédure interne d'enquête, dans le respect du **principe du contradictoire** et de la **présomption d'innocence**\n- **Conseiller la direction** sur les actions de prévention (formations, communication, affichage, règlement intérieur)\n- **Travailler avec le CSE** (référent CSE si applicable, CSSCT si > 300 salariés)\n- **Veille juridique et bonnes pratiques**\n\n**Information obligatoire** :\n- **Affichage** dans tous les lieux de travail des coordonnées du référent et des contacts utiles (3919, défenseur des droits, inspection du travail)\n- **Mention dans le règlement intérieur** (≥ 50 salariés)\n- **Communication aux nouveaux salariés** (livret d'accueil, intégration)\n\n**Obligations connexes de l'employeur** :\n- **Procédure interne** de signalement et de traitement\n- **Formation** des managers à la prévention des violences sexistes et sexuelles\n- **Évaluation des risques** (DUERP) intégrant le risque psychosocial harcèlement\n- **Protection** des victimes et des témoins (interdiction de licenciement ou de sanctions)",
+        "plus_formation": "**Formations recommandées** :\n- **MIPROF** (Mission Interministérielle pour la Protection des Femmes contre les Violences) : kits de formation gratuits\n- **Formations OPCO Uniformation** : modules « Référent harcèlement » (1 à 2 jours)\n- **CIDFF** (Centre d'Information sur les Droits des Femmes et des Familles) : formations professionnelles\n- **Défenseur des Droits** : ressources gratuites en ligne\n- **CFDT, CGT, FO** : formations syndicales référents CSE\n- **ANACT** (Agence Nationale Amélioration Conditions Travail) : ressources prévention RPS\n\n**Formation initiale recommandée** :\n- **Durée** : 14 heures (2 jours) en formation initiale\n- **MAC** : 7 heures tous les 2-3 ans\n- **Contenu** : cadre légal, repérage, écoute active, accompagnement victime, procédure interne, ressources externes, prévention\n\n**Financement** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- **Plan de développement des compétences** employeur\n- **CPF** mobilisable pour certains modules certifiants\n- **Subventions ANACT, MIPROF, Défenseur des Droits** (gratuit pour certains modules)",
+        "obligations_formation": "Pas de formation obligatoire imposée par la loi, mais désignation obligatoire d'un référent. Formation 14h fortement recommandée + MAC tous les 2-3 ans.",
+        "accompagnement_obligatoire": "**Le référent doit être protégé** dans l'exercice de sa mission (pas de pression hiérarchique). **Confidentialité absolue** des échanges. **Lien avec le CSE / CSSCT** si applicable. **Procédure interne écrite** à formaliser et à diffuser.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** La loi n° 2018-771 du 5 septembre 2018 est en vigueur. **Vérifier l'évolution législative** (le projet de loi sur la lutte contre les violences sexistes et sexuelles au travail en discussion fin 2025). **Distinguer** : harcèlement sexuel (article L1153-1 — comportements à connotation sexuelle) et agissements sexistes (article L1142-2-1 — propos ou comportements liés au sexe). **Vigilance** : la loi protège également contre les **représailles** envers victimes et témoins (article L1153-2 et L1153-3). En cas d'inaction de l'employeur : risque pénal (jusqu'à 1 an de prison et 3 750 € d'amende) + condamnations prud'homales.",
+        "sources": [
+          "Code du travail — articles L1153-1 à L1153-6 (harcèlement sexuel)",
+          "Code du travail — article L1153-5-1 (référent employeur)",
+          "Code du travail — article L2314-1 (référent CSE 250 salariés et +)",
+          "Loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)",
+          "MIPROF — kits de formation"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail article L1153-5-1 (référent employeur)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037387013/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2018-771 du 5 septembre 2018",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037367660/",
+            "type": "legislation"
+          },
+          {
+            "titre": "MIPROF — Mission Interministérielle pour la Protection des Femmes",
+            "url": "https://arretonslesviolences.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Référent harcèlement sexuel et agissements sexistes",
+            "url": "https://travail-emploi.gouv.fr/sante-au-travail/prevention-des-risques-pour-la-sante-au-travail/article/le-harcelement-sexuel-au-travail",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC RH et prévention RPS",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Désignation OBLIGATOIRE pour tout employeur. Risque pénal si inaction. Pour situations complexes ou plaintes, contacter Inspection du travail + 3919.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L1153-5-1 + Loi 2018-771"
+      }
+    },
+
+    {
+      "id": "reg-referent-laicite",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Faut-il un Référent laïcité dans une structure ALISFA ?",
+      "mots_cles": [
+        "référent laïcité", "loi 2021-1109",
+        "loi séparatisme", "loi confortant respect principes République",
+        "obligation associations subventionnées",
+        "contrat engagement républicain",
+        "centre social", "EAJE",
+        "neutralité service public",
+        "service public formation 2 jours"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "fonction_reglementaire": "referent_laicite",
+      "reponse": {
+        "synthese": "Le **Référent laïcité** est obligatoire dans les **administrations publiques** depuis la **loi n° 2021-1109 du 24 août 2021** (« confortant le respect des principes de la République »). Les **associations bénéficiaires de subventions publiques** doivent souscrire au **Contrat d'Engagement Républicain (CER)** mais **ne sont pas obligées** de désigner un référent laïcité distinct. Cependant, dans les structures ALISFA exerçant une **mission de service public** (délégation, agrément CAF, convention CD), la désignation d'un référent laïcité est **fortement recommandée**. Formation de référence : **service-public.fr / DILCRAH / CIPDR** (2 jours).",
+        "fondement_legal": "**Loi n° 2021-1109 du 24 août 2021** (« confortant le respect des principes de la République ») — articles **10 et 12** (référent laïcité dans les administrations publiques) — article **10-1** de la **loi du 12 avril 2000** (Contrat d'Engagement Républicain pour les associations subventionnées) — **Décret n° 2021-1947 du 31 décembre 2021** relatif à l'engagement républicain.",
+        "minimum_legal": "**Cadre réglementaire** :\n\n**1. Référent laïcité dans les administrations publiques** :\nLa loi n° 2021-1109 du 24 août 2021 (article 10) impose la désignation d'un référent laïcité dans :\n- Les **administrations de l'État**, **collectivités territoriales**, **établissements publics**, **organismes de Sécurité sociale**\n- **Hors champ direct** des associations ALISFA (qui sont des structures de droit privé)\n\n**2. Contrat d'Engagement Républicain (CER) pour associations subventionnées** :\n- **Obligation pour toute association recevant une subvention publique** (article 10-1 de la loi du 12 avril 2000, modifié par la loi 2021-1109)\n- Engagement à respecter les **principes de la République** : liberté, égalité, fraternité, dignité humaine, symboles républicains, **caractère laïque** de la République, ordre public\n- **Signature obligatoire** lors de la demande de subvention (CAF, État, collectivités)\n- **Sanctions** : retrait de subvention, retrait d'agrément\n\n**3. Référent laïcité « volontaire » dans les structures ALISFA** :\nNon obligatoire mais **fortement recommandé** dans :\n- **Centres sociaux agréés CAF** (mission de service public)\n- **EAJE** (mission de service public petite enfance)\n- **ACM** (accueil collectif de mineurs)\n- Toute structure ayant signé un **CER** et souhaitant le mettre en œuvre concrètement\n\n**Profil recommandé** :\n- **Diplôme niveau Bac+2 minimum** dans le champ social/éducatif/juridique\n- **Connaissance du cadre laïque** et du droit des cultes en France\n- **Posture neutre, ouverte au dialogue, pédagogique**\n- **Légitimité interne**\n\n**Missions principales (référent laïcité volontaire ALISFA)** :\n- **Veiller à l'application** des principes laïques dans la structure (locaux, animations, communication)\n- **Conseiller la direction et les équipes** sur les situations complexes (port de signes religieux par les usagers ou les salariés, demandes confessionnelles, repas spécifiques, sorties calendrier scolaire, absences pour fêtes religieuses)\n- **Élaborer des outils** internes : charte laïcité affichée, livret d'accueil, règlement intérieur, fiches pratiques\n- **Animer la formation** des équipes à la laïcité\n- **Travailler en réseau** avec : DILCRAH, CIPDR, mairies, préfectures (référents laïcité État), Observatoire de la Laïcité (rapports)\n- **Faire le lien** avec le **Contrat d'Engagement Républicain** signé par la structure\n- **Accueillir les questions** des usagers et des salariés sur le sujet de la laïcité",
+        "plus_formation": "**Formations recommandées** :\n- **Formation référent laïcité — service-public.fr** : 2 jours, gratuite (DILCRAH / CIPDR)\n- **Plan national de formation laïcité** des fonctionnaires (ouvert à des associations sur demande)\n- **CNFPT** : formations laïcité pour agents territoriaux et associations partenaires\n- **OPCO Uniformation** : modules laïcité dans l'animation, l'éducation populaire, la petite enfance\n- **Observatoire de la Laïcité** (rapports, ressources)\n- **Centres sociaux de France / FCSF** : ressources spécifiques\n- **DILCRAH** (Délégation Interministérielle à la Lutte Contre le Racisme, l'Antisémitisme et la Haine anti-LGBT) : ressources et formations\n- **CIPDR** (Comité Interministériel de Prévention de la Délinquance et de la Radicalisation)\n\n**Contenu type formation 2 jours** :\n- Cadre juridique de la laïcité en France (Constitution, lois 1905, 2004, 2010, 2021)\n- Distinction laïcité / neutralité / liberté de culte / liberté d'expression\n- Application en service public, dans l'entreprise, dans le secteur associatif\n- Cas pratiques : port de signes religieux, repas, sorties, absences, espace public, espace privé\n- Posture professionnelle face aux questions confessionnelles\n- Outils de communication et de médiation\n\n**Financement** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- **Subventions État** (DILCRAH, CIPDR, préfecture) pour formations dédiées\n- **CAF** : plans laïcité départementaux\n- **Plans collectivités** (CD, mairies, intercommunalités)",
+        "obligations_formation": "Pas d'obligation légale pour les associations ALISFA (sauf si gestion en délégation de service public). Formation 2 jours fortement recommandée si désignation d'un référent.",
+        "accompagnement_obligatoire": "**Charte laïcité** affichée dans les locaux. **Mention du CER** dans la communication officielle. **Lien avec le Contrat d'Engagement Républicain** signé. **Documentation interne** sur les principes laïques.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** La loi n° 2021-1109 du 24 août 2021 est en vigueur. **Vigilance distinction** :\n- **Service public stricto sensu** (administrations) : neutralité religieuse OBLIGATOIRE des agents\n- **Service public au sens large** (associations en délégation, agréments) : règles **moins strictes** mais CER obligatoire\n- **Salariés du privé associatif** : **liberté de manifester sa religion**, sauf restrictions justifiées et proportionnées dans le règlement intérieur (article L1321-2-1 Code travail)\n- **Usagers** : **liberté de culte** dans le cadre de l'ordre public et du règlement intérieur de la structure\n\nEn cas de doute sur une situation complexe : consulter la **DILCRAH**, le **référent laïcité départemental** (préfecture), ou **Observatoire de la Laïcité** (rapports). **Vigilance** : ne pas confondre **laïcité** et **interdiction des religions** — la laïcité **garantit** la liberté de conscience.",
+        "sources": [
+          "Loi n° 2021-1109 du 24 août 2021 (« confortant le respect des principes de la République »)",
+          "Loi du 9 décembre 1905 — séparation des Églises et de l'État",
+          "Décret n° 2021-1947 du 31 décembre 2021 — Contrat d'Engagement Républicain",
+          "DILCRAH — formation référent laïcité",
+          "Observatoire de la Laïcité — rapports et avis"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi n° 2021-1109 du 24 août 2021",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043964778/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Décret n° 2021-1947 du 31 décembre 2021 (CER)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044806001/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service-public — Contrat d'Engagement Républicain",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F35142",
+            "type": "officiel"
+          },
+          {
+            "titre": "DILCRAH — Délégation Interministérielle Lutte Contre Racisme et Antisémitisme",
+            "url": "https://www.dilcrah.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC laïcité et vivre-ensemble",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Distinction service public strict / associatif délicate. Pour cas complexe, contacter référent laïcité départemental (préfecture) ou DILCRAH.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi 2021-1109 + Décret 2021-1947"
+      }
+    },
+
+    {
+      "id": "reg-haccp",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles obligations HACCP pour la restauration en EAJE / centre social / ACM ?",
+      "mots_cles": [
+        "HACCP", "hygiène alimentaire",
+        "Paquet hygiène", "règlement CE 852/2004",
+        "DDETSPP DDPP", "arrêté 21 décembre 2009",
+        "PMS", "plan maîtrise sanitaire",
+        "obligation 1 personne formée",
+        "EAJE repas", "centre loisirs cantine"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "fonction_reglementaire": "haccp",
+      "reponse": {
+        "synthese": "L'**HACCP (Hazard Analysis Critical Control Point)** est la méthode d'analyse des dangers alimentaires obligatoire pour tous les **professionnels de la restauration commerciale et collective**. Cadre : **Paquet Hygiène européen** (règlements CE n° 178/2002, 852/2004, 853/2004) + **arrêté du 21 décembre 2009** modifié. **Obligation : au moins UNE personne formée à l'hygiène alimentaire** dans toute structure servant des repas (EAJE, ACM, centre social avec restauration). Formation initiale **14 heures** + mise à jour régulière.",
+        "fondement_legal": "**Règlement (CE) n° 178/2002** (principes du droit alimentaire) — **Règlement (CE) n° 852/2004** (hygiène denrées alimentaires) — **Règlement (CE) n° 853/2004** (denrées d'origine animale) — **Code rural et de la pêche maritime** articles **L231-1 et suivants** — **arrêté du 21 décembre 2009** modifié relatif aux règles sanitaires applicables aux activités de commerce de détail, d'entreposage et de transport de produits d'origine animale et denrées alimentaires en contenant — **Décret n° 2011-731 du 24 juin 2011** relatif à l'obligation de formation hygiène alimentaire en restauration commerciale.",
+        "minimum_legal": "**Cadre réglementaire HACCP** :\n\nL'HACCP est un **système de gestion de la sécurité alimentaire** basé sur 7 principes :\n1. Analyser les dangers (microbiologiques, chimiques, physiques, allergènes)\n2. Identifier les **points critiques** (CCP — Critical Control Points)\n3. Établir les **limites critiques** à respecter à chaque CCP\n4. Mettre en place un **système de surveillance** des CCP\n5. Définir les **actions correctives** en cas de dépassement\n6. **Vérifier** régulièrement le système\n7. **Documenter** et **archiver** (Plan de Maîtrise Sanitaire — PMS)\n\n**Obligation de formation** :\n- **Au moins UNE personne** dans l'établissement doit avoir suivi une **formation à l'hygiène alimentaire** (HACCP)\n- **Formation initiale : 14 heures** (2 jours) délivrée par un organisme habilité\n- **Programme** :\n  - Aliments et risques pour le consommateur\n  - Fondamentaux de la réglementation (paquet hygiène, traçabilité, allergènes, DLC/DDM)\n  - Plan de Maîtrise Sanitaire (PMS) : Bonnes Pratiques d'Hygiène (BPH) + HACCP\n  - Autocontrôles, prélèvements, mesures correctives\n- **Pas de durée de validité** légale, mais **mise à jour conseillée tous les 3-5 ans**\n\n**Plan de Maîtrise Sanitaire (PMS) obligatoire** :\nDocument écrit comportant :\n- **Bonnes Pratiques d'Hygiène (BPH)** : nettoyage, désinfection, lutte contre les nuisibles, hygiène du personnel, traçabilité\n- **Système HACCP** spécifique à l'établissement\n- **Procédures de gestion des produits non conformes**\n- **Plan de formation** du personnel\n- **Documents d'enregistrement** (températures, nettoyage, livraisons, autocontrôles)\n\n**Obligations spécifiques selon la structure** :\n\n**EAJE (crèches, micro-crèches, MAM)** :\n- Préparation et service des repas pour enfants < 3 ans\n- Vigilance accrue : **allergènes, lait infantile, diversification, biberons**\n- **PMI** (Protection Maternelle et Infantile) contrôle régulier des locaux et pratiques\n- Liaisons froides/chaudes : conformité strictes températures\n\n**Centres sociaux et EVS avec restauration** :\n- Repas occasionnels (ateliers cuisine) ou réguliers (restaurant social, pause méridienne)\n- HACCP applicable même en cuisine collaborative\n\n**ACM (centres de loisirs, séjours de vacances)** :\n- **DDETSPP** (Direction Départementale Emploi Travail Solidarité et Protection des Populations) contrôle régulier\n- Vigilance pique-niques, repas en autonomie, ateliers cuisine enfants\n\n**Allergènes** (règlement INCO n° 1169/2011) :\n- **Affichage obligatoire** des **14 allergènes majeurs** dans tous les repas servis (gluten, crustacés, œufs, poissons, arachides, soja, lait, fruits à coque, céleri, moutarde, sésame, anhydride sulfureux, lupin, mollusques)\n- **Information écrite** disponible pour le consommateur\n\n**Sanctions en cas de manquement** :\n- **Avertissement** par DDETSPP / DDPP\n- **Mise en demeure** de mise en conformité\n- **Fermeture administrative** en cas de risque grave\n- **Sanctions pénales** : 3 750 € d'amende (mineure) à 75 000 € + prison (intoxication grave)",
+        "plus_formation": "**Formations complémentaires recommandées** :\n- **Allergènes alimentaires** (formation dédiée, 7 h)\n- **Restauration collective spécifique petite enfance** (modules dédiés EAJE)\n- **Diététique infantile** (équilibre alimentaire 0-3 ans)\n- **Diététique senior** (si centre social avec resto seniors)\n- **Cuisine durable, antigaspi** (en lien avec démarche PNNS et loi EGalim)\n- **Loi EGalim** (50 % bio/durable, 20 % bio en restauration collective publique)\n- **Recyclage HACCP** (2 jours tous les 3-5 ans recommandé)\n\n**Financement** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- Formation initiale HACCP : ~ **300 à 500 € / personne**\n- Recyclage : ~ **200 à 350 €**\n- **CPF** mobilisable (Bloc certifiant HACCP RNCP)\n- Plans CAF / Conseil Départemental pour les EAJE\n- Aide DGER / Ministère Agriculture pour structures rurales (parfois)",
+        "obligations_formation": "Au moins 1 personne formée HACCP (14h) dans tout établissement de restauration commerciale ou collective. Plan de Maîtrise Sanitaire (PMS) écrit obligatoire.",
+        "accompagnement_obligatoire": "**PMS écrit** mis à jour régulièrement. **Autocontrôles** documentés (températures, nettoyage). **Traçabilité** des produits (factures, étiquettes, dates). **Affichage allergènes** obligatoire. **Formation continue** du personnel manipulant des denrées.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le Paquet Hygiène européen et l'arrêté du 21 décembre 2009 sont en vigueur. **Vigilance** :\n- En **EAJE**, contrôle conjoint **PMI + DDETSPP** (vérifier les protocoles biberons, diversification, allergies déclarées)\n- En **ACM**, contrôles **DDETSPP** (anciennement DDCSPP) lors des visites de conformité\n- **Loi EGalim** (octobre 2018) impose 20-50 % de bio/durable en restauration collective publique — applicable progressivement\n- **Règlement INCO 1169/2011** : affichage des 14 allergènes obligatoire (vigilance ateliers cuisine collaboratifs)\n- En cas de **TIA (Toxi-Infection Alimentaire collective)** : déclaration obligatoire à l'ARS et DDETSPP",
+        "sources": [
+          "Règlement (CE) n° 178/2002 — principes du droit alimentaire européen",
+          "Règlement (CE) n° 852/2004 — hygiène des denrées alimentaires",
+          "Règlement (CE) n° 853/2004 — denrées d'origine animale",
+          "Règlement (UE) n° 1169/2011 — information des consommateurs (INCO, allergènes)",
+          "Code rural et de la pêche maritime — articles L231-1 et suivants",
+          "Arrêté du 21 décembre 2009 modifié",
+          "Décret n° 2011-731 du 24 juin 2011 — formation hygiène alimentaire restauration commerciale"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Arrêté du 21 décembre 2009 modifié (hygiène alimentaire)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021556007/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Décret n° 2011-731 du 24 juin 2011 (formation hygiène)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000024241152/",
+            "type": "legislation"
+          },
+          {
+            "titre": "EUR-Lex — Règlement (CE) n° 852/2004 (hygiène denrées alimentaires)",
+            "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32004R0852",
+            "type": "legislation"
+          },
+          {
+            "titre": "Économie.gouv — Hygiène alimentaire et restauration",
+            "url": "https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/restauration",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC restauration et hygiène",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour ouverture cuisine, mise à jour PMS, ou suite à TIA (toxi-infection alimentaire), contacter DDETSPP (anciennement DDCSPP) du département.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Paquet Hygiène CE + arrêté 21 décembre 2009"
+      }
+    },
+
+    {
+      "id": "reg-cnfs",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Comment recruter / former un Conseiller Numérique France Services (CNFS) en centre social ?",
+      "mots_cles": [
+        "CNFS", "Conseiller Numérique France Services",
+        "ANCT", "France Services",
+        "subvention 50000 euros", "plan France Relance",
+        "inclusion numérique", "médiation numérique",
+        "Pix Emploi", "CCP1 médiation numérique",
+        "centre social", "EVS"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "cnfs",
+      "reponse": {
+        "synthese": "Le **Conseiller Numérique France Services (CNFS)** est un médiateur numérique financé par l'**État via l'ANCT (Agence Nationale de la Cohésion des Territoires)** dans le cadre du **plan France Relance / France 2030**. Mission : **accompagner les usagers éloignés du numérique** (démarches en ligne, autonomie informatique, prévention escroqueries). Recrutement par la structure **après labellisation** sur conseillers-numeriques.gouv.fr. **Subvention forfaitaire** ANCT (~50 000 € sur 2 ans pour un ETP). Formation **initiale obligatoire 105 à 420 h** selon profil + **certification CCP1 RECF Médiateur Numérique** ou **Pix Emploi**. Cadre : convention de subvention ANCT + label France Services (parfois).",
+        "fondement_legal": "**Convention subvention ANCT** (Agence Nationale de la Cohésion des Territoires) — **Plan France Relance** (loi n° 2020-1721 du 29 décembre 2020) — **Plan France 2030** — **Charte France Services** (instruction Premier ministre du 14 février 2019, mise à jour 2024).",
+        "minimum_legal": "**Cadre du dispositif CNFS** :\n\nLe CNFS est un dispositif national d'**inclusion numérique** lancé en novembre 2020 dans le cadre du **plan France Relance** (volet « numérique du quotidien »), pérennisé par France 2030. Il vise à former et déployer **4 000 médiateurs numériques** sur le territoire pour accompagner les **13 millions de Français en difficulté avec le numérique**.\n\n**Conditions pour la structure d'accueil** :\n- **Structure éligible** : association loi 1901, collectivité territoriale, établissement public, organisme à but non lucratif\n- **Centres sociaux, EVS, ADSL ALISFA** : éligibles\n- **Labellisation France Services** : pas obligatoire mais recommandée\n- **Convention** signée avec l'ANCT via plateforme conseillers-numeriques.gouv.fr\n- **Subvention forfaitaire ANCT** : ~ **50 000 € sur 2 ans** pour un ETP (paliers selon vague de financement)\n- **Engagement à former** le CNFS et à le maintenir en poste pendant la durée de la convention\n\n**Profil du CNFS** :\nPas de diplôme strictement imposé mais profils attendus :\n- **Niveau Bac à Bac+3** dans le champ social, éducatif, animation, médiation, numérique\n- **Compétences techniques de base** en informatique grand public\n- **Posture pédagogique, patiente, bienveillante**\n- **Pas de prérequis numériques poussés** (formation initiale couvre les bases techniques)\n- **Public cible recruté en priorité** : demandeurs d'emploi, personnes en reconversion, jeunes diplômés, fonctionnaires en mobilité\n\n**Formation initiale obligatoire** :\n- **Durée** : **105 à 420 heures** selon profil (autoévaluation à l'entrée du parcours)\n- **Délivrée par organismes labellisés ANCT** (CEMEA, Simplon, AFPA, Femmes Numériques, etc.)\n- **Modalités** : présentiel + distanciel\n- **Programme** :\n  - Posture du médiateur numérique\n  - Démarches administratives en ligne (FranceConnect, Caf.fr, impots.gouv.fr, ameli.fr, etc.)\n  - Sécurité numérique (mots de passe, phishing, cyberharcèlement, prévention escroqueries)\n  - Outils bureautiques (Word, Excel, e-mail, navigation web)\n  - Inclusion numérique des publics fragiles (seniors, allophones, personnes handicapées, jeunes)\n  - Animation d'ateliers collectifs et accompagnement individuel\n- **Certification visée** :\n  - **CCP1 — Médiateur Numérique** (RNCP 35825 — Bloc 1 du REMN — Responsable d'Espace de Médiation Numérique)\n  - **Pix Emploi** (certification de niveau)\n  - **Aux Pré-requis Médiateur Numérique** (RNCP 5871 — Médiation numérique inclusive)\n\n**Missions principales** :\n- **Accompagnement individuel** des usagers sur leurs démarches en ligne (1 à 1)\n- **Animation d'ateliers collectifs** : initiation informatique, démarches en ligne, sécurité numérique, smartphone, etc.\n- **Sensibilisation** aux risques (phishing, faux sites, harcèlement, fake news, désinformation)\n- **Médiation** avec les services publics dématérialisés (Caf.fr, ANTS, MesDroitsSociaux, France Connect, etc.)\n- **Repérage** des situations de précarité et **orientation** vers les partenaires (CCAS, France Services, services sociaux)\n- **Évaluation** des compétences numériques (Pix, autoévaluation)\n- **Reporting** trimestriel à l'ANCT (nombre d'accompagnements, profils des usagers)\n- **Travail en réseau** : Hub territorial pour un Numérique Inclusif (HUB), France Services local, autres CNFS\n\n**Lieux d'exercice fréquents** :\n- **Centres sociaux** agréés CAF\n- **EVS** (Espaces de Vie Sociale)\n- **France Services** labellisés\n- **Médiathèques, bibliothèques**\n- **CCAS / CIAS**\n- **Tiers-lieux numériques**\n- **Associations** d'insertion, de lutte contre l'illettrisme",
+        "plus_formation": "**Évolutions et formations complémentaires** :\n- **REMN** (Responsable d'Espace de Médiation Numérique) — niveau 5 — accessible après expérience CNFS et passerelle\n- **Pix+ Édu** (certification spécialisée éducation)\n- **DEUST métiers de la médiation et de la cohésion sociale** (dont volet numérique)\n- **Licence professionnelle Médiation, animation socio-culturelle**\n- **Formations** :\n  - **Numérique inclusif** seniors / personnes en situation de handicap\n  - **Cyberharcèlement, sécurité enfants en ligne**\n  - **FranceConnect, démarches santé, fiscales, CAF, France Travail**\n  - **Outils tiers-lieux, FabLab, Repair Café**\n  - **IA générative et accompagnement** (formations émergentes 2025-2026)\n\n**Financement formation initiale** : entièrement pris en charge par l'ANCT et les organismes labellisés. Pas de coût pour la structure ni pour le CNFS.\n\n**Financement formation continue (post-vague initiale)** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA) si CNFS en CDI dans la structure\n- **CPF** mobilisable (Pix, Bloc 1 REMN)\n- **HUB territorial pour un Numérique Inclusif** : ressources, accompagnement, formations\n- **CARSAT, CD, CAF** : plans dédiés inclusion numérique seniors/familles",
+        "obligations_formation": "Formation initiale obligatoire 105-420h + certification CCP1 RECF Médiateur Numérique ou Pix Emploi.",
+        "accompagnement_obligatoire": "**Accompagnement par le HUB territorial pour un Numérique Inclusif** dédié au CNFS pendant et après formation. **Reporting trimestriel ANCT** obligatoire (suivi de l'activité). **Convention avec ANCT** pour le maintien de la subvention.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le dispositif CNFS est piloté par l'**ANCT** (Agence Nationale de la Cohésion des Territoires) — vérifier sur **conseillers-numeriques.gouv.fr** les **vagues de financement** (renouvellement régulier, modalités évolutives — France 2030 prévoit des paliers post-2025). **Vigilance** :\n- La **subvention ANCT est dégressive** (souvent 50 % an 1 + 50 % an 2, parfois autres modalités)\n- **Pérennisation du poste après les 2 ans** : à anticiper (autres financements, fonds propres, financement collectivités)\n- **Le CNFS peut évoluer en Animateur·trice de Vie Sociale, médiateur, formateur** dans la structure\n- Le dispositif est **complémentaire** des **France Services** (label avec d'autres financements ; un centre social peut accueillir un CNFS sans être France Services)",
+        "sources": [
+          "Plateforme officielle ANCT — Conseillers Numériques France Services",
+          "Loi n° 2020-1721 du 29 décembre 2020 (loi de finances 2021) — France Relance",
+          "Charte France Services (instruction Premier ministre du 14 février 2019, mise à jour 2024)",
+          "RNCP fiches 35825 (Médiateur Numérique) et 5871 (Médiation numérique inclusive)"
+        ],
+        "liens": [
+          {
+            "titre": "Conseillers Numériques France Services — site officiel ANCT",
+            "url": "https://www.conseillers-numeriques.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANCT — Agence Nationale de la Cohésion des Territoires",
+            "url": "https://agence-cohesion-territoires.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "France Services — réseau d'accueil des usagers",
+            "url": "https://www.france-services.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "France Compétences — RNCP 35825 Médiateur Numérique",
+            "url": "https://www.francecompetences.fr/recherche/rncp/35825/",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC inclusion numérique et médiation",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - ANCT + RNCP 35825 + plan France Relance"
+      }
+    }
+
+  ]
+}

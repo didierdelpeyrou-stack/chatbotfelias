@@ -1,0 +1,270 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F5 lot R5 — Fonctions réglementaires Métiers sociaux part 2 (4 articles)",
+    "lot": "R5/R6",
+    "topic": "DECESF, DEES, DEASS, DEAES",
+    "generated_at": "2026-04-25",
+    "source_principale": "Code action sociale CASF + arrêtés Ministère Solidarités diplômes travail social réformés 2018-2021",
+    "theme_target": "fonctions_reglementaires"
+  },
+
+  "articles": [
+
+    {
+      "id": "reg-cesf",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Conseiller·ère en Économie Sociale et Familiale (CESF) ?",
+      "mots_cles": [
+        "CESF", "Conseiller Économie Sociale Familiale",
+        "DECESF", "diplôme État ESF",
+        "BTS ESF", "vie quotidienne",
+        "budget familial", "logement",
+        "Code action sociale famille",
+        "réforme travail social 2018"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "cesf",
+      "reponse": {
+        "synthese": "Le ou la **Conseiller·ère en Économie Sociale et Familiale (CESF)** intervient sur les questions de **vie quotidienne** (alimentation, budget, logement, énergie, consommation, santé) auprès des publics fragilisés. Diplôme de référence : **Diplôme d'État de CESF (DECESF)** — niveau **6 (Bac+3)**, obtenu après le **BTS ESF (Bac+2)**. Cadre : **Code de l'action sociale et des familles** + **arrêté du 22 août 2018** (réforme des diplômes du travail social).",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **D451-58 et suivants** — **Décret n° 2018-733 du 22 août 2018** et **arrêté du 22 août 2018** relatifs au DECESF (réforme des diplômes du travail social).",
+        "minimum_legal": "**Cadre réglementaire** :\nLe DECESF est encadré par le **Décret n° 2018-733 du 22 août 2018** et l'**arrêté du 22 août 2018**, dans le cadre de la **réforme des diplômes du travail social** (architecture en 4 domaines de compétences).\n\n**Parcours de formation** :\nLa formation se déroule en **2 étapes** :\n\n**Étape 1 — BTS ESF (niveau 5, Bac+2)** :\n- Diplôme professionnel — **2 ans** après le Bac\n- 4 unités d'enseignement : ESF, alimentation/santé, logement/énergie, consommation/budget, communication\n- 13 semaines de stage minimum\n- **Débouché direct** : Technicien·ne en ESF\n\n**Étape 2 — DECESF (niveau 6, Bac+3)** :\n- **1 an supplémentaire** après le BTS ESF\n- **540 heures** d'enseignement théorique\n- **560 heures** de stage (16 semaines)\n- **4 domaines de compétences (DC)** :\n  - DC1 : Conseil et expertise à visée socio-éducative dans les domaines de la vie quotidienne\n  - DC2 : Intervention sociale\n  - DC3 : Communication professionnelle\n  - DC4 : Implication dans les dynamiques partenariales, institutionnelles et inter-institutionnelles\n- **RNCP** fiche **34825** — niveau **6 (Bac+3)**\n\n**Conditions d'accès au DECESF** :\n- **BTS ESF** obligatoire en prérequis\n- Sélection sur dossier + entretien dans les centres de formation agréés Région\n- **VAE** possible\n\n**Missions principales** :\n- **Diagnostic social** auprès des familles ou personnes en situation précaire\n- **Accompagnement budgétaire** : analyse, plans d'apurement, surendettement (avec partenaires Banque de France)\n- **Conseil habitat / logement** : choix du logement, accès aux aides (APL, FSL, etc.), prévention expulsion\n- **Éducation à la consommation** : alimentation, énergie, achats raisonnés\n- **Animation d'ateliers collectifs** : cuisine, budget, écologie domestique\n- **Accompagnement à l'autonomie** des personnes âgées, en situation de handicap, sortantes d'institution\n- **Médiation locative** dans certaines structures\n- **Mesures de protection** : MASP (Mesure d'Accompagnement Social Personnalisé), MAJ (Mesure d'Accompagnement Judiciaire)\n- **Travail en réseau** : services sociaux (CD, CAF, CCAS), bailleurs sociaux, France Travail, structures associatives\n\n**Lieux d'exercice fréquents** :\n- **Centres sociaux, EVS, structures ALISFA**\n- Conseils Départementaux (services Action Sociale)\n- CAF (action sociale familiale)\n- CCAS / CIAS\n- Bailleurs sociaux\n- Associations (Restos du Cœur, Secours Populaire, Croix-Rouge, ATD, banques alimentaires)\n- Établissements médico-sociaux (EHPAD, foyers d'hébergement, CHRS)",
+        "plus_formation": "**Évolutions possibles** :\n- **DEMF** (Médiateur·trice Familial·e) — passerelle naturelle\n- **CAFERUIS** (encadrement de service) — niveau 6\n- **CAFDES** (direction d'établissement) — niveau 7\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale) — niveau 7\n- **Master** Politiques sociales, Intervention sociale, Économie sociale et solidaire\n\n**Formations continues recommandées** :\n- **Surendettement / Banque de France** (procédures, accompagnement)\n- **Précarité énergétique** (Fonds Solidarité Logement, chèque énergie)\n- **Lutte contre les discriminations** (logement, emploi)\n- **Informatique inclusive** (accompagnement démarches en ligne, France Connect, Caf.fr, etc.)\n- **Approche systémique** familiale\n- **Médiation interculturelle**\n- **Habitat inclusif et participatif**\n\n**Financement formation initiale** :\n- **BTS ESF** : Région (gratuit pour bacheliers) ou apprentissage (rare) — durée 2 ans\n- **DECESF** : Région (gratuit en formation initiale) ou **alternance** (apprentissage / pro) avec OPCO Uniformation/Santé + niveau de prise en charge CPNEF\n- Coût formation continue DECESF (post-BTS ESF) : **5 000 à 8 000 €**\n- **CPF** mobilisable pour partie théorique\n- **VAE** : CPF + abondement employeur\n\n**Financement formation continue** :\n- **OPCO Uniformation** (fonds légaux + conventionnels branche ALISFA)\n- CPF + abondement employeur\n- Plans CAF / Conseil Départemental pour les CESF en structure agréée",
+        "obligations_formation": "DECESF (Diplôme d'État de CESF) niveau 6 — délivré après BTS ESF + 1 an complémentaire.",
+        "accompagnement_obligatoire": "**Tutorat de stage** obligatoire pendant la formation (16 semaines de stage en 3e année). **Analyse de pratiques** régulière en équipe (groupe APP). **Supervision** dans les services confrontés à des publics en grande précarité.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le DECESF a été **réformé en 2018** (architecture LMD, niveau 6). Les CESF diplômés avant 2018 conservent leur diplôme et leurs droits. Distinguer le **BTS ESF** (Technicien ESF, niveau 5 Bac+2) du **DECESF** (Conseiller ESF, niveau 6 Bac+3). Vérifier sur **Légifrance** la version la plus récente de l'arrêté du 22 août 2018.",
+        "sources": [
+          "Code de l'action sociale et des familles — articles D451-58 et suivants",
+          "Décret n° 2018-733 du 22 août 2018 — réforme du DECESF",
+          "Arrêté du 22 août 2018 relatif au DECESF",
+          "RNCP fiche 34825 — Diplôme d'État de Conseiller en Économie Sociale et Familiale"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2018-733 du 22 août 2018 (DECESF)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037327835/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 34825 Diplôme d'État de CESF",
+            "url": "https://www.francecompetences.fr/recherche/rncp/34825/",
+            "type": "officiel"
+          },
+          {
+            "titre": "Ministère des Solidarités — diplômes du travail social",
+            "url": "https://solidarites.gouv.fr/les-diplomes-detat-du-travail-social",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers du social et de l'accompagnement",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2018-733 + arrêté 22 août 2018"
+      }
+    },
+
+    {
+      "id": "reg-educateur-specialise",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Éducateur·trice Spécialisé·e (ES / DEES) ?",
+      "mots_cles": [
+        "éducateur spécialisé", "DEES",
+        "diplôme État éducateur spécialisé",
+        "réforme travail social 2018",
+        "Décret 2018-734",
+        "ASE", "protection enfance", "handicap",
+        "centre social", "PJJ"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "educateur_specialise",
+      "reponse": {
+        "synthese": "Le ou la **Éducateur·trice Spécialisé·e (ES)** accompagne au quotidien des enfants, adolescents ou adultes en situation de handicap, en difficulté sociale ou en risque d'exclusion. Diplôme de référence : **Diplôme d'État d'Éducateur Spécialisé (DEES)** — niveau **6 (Bac+3)** — créé sous sa forme actuelle par le **Décret n° 2018-734 du 22 août 2018** (réforme des diplômes du travail social, **grade Licence**). Formation **3 ans / 1 800 h théorie + 2 100 h de stage**.",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **D451-41 à D451-46** — **Décret n° 2018-734 du 22 août 2018** et **arrêté du 22 août 2018** relatifs au DEES (réforme des diplômes du travail social, grade Licence).",
+        "minimum_legal": "**Cadre réglementaire** :\nLe DEES est encadré par le **Décret n° 2018-734 du 22 août 2018** et l'**arrêté du 22 août 2018** dans le cadre de la **réforme des diplômes du travail social** (architecture LMD, **conférant le grade de Licence** depuis 2018).\n\n**Diplôme requis** :\n- **DEES** (Diplôme d'État d'Éducateur Spécialisé) — RNCP **34823** — niveau **6 (Bac+3)** — **grade Licence**\n- Formation **3 ans** = **1 800 heures théoriques + 2 100 heures de stages** (= 3 900 h totales)\n- **4 domaines de compétences (DC)** :\n  - DC1 : La relation éducative spécialisée\n  - DC2 : La conception et conduite de projet éducatif spécialisé\n  - DC3 : Le travail en équipe pluri-professionnelle et la communication professionnelle\n  - DC4 : Les dynamiques inter-institutionnelles, partenariats et réseaux\n- Délivré par les **Établissements de Formation en Travail Social (EFTS)** agréés par les Régions\n\n**Conditions d'accès à la formation** :\n- **Baccalauréat** ou équivalent (DAEU)\n- Sélection sur dossier + entretien (Parcoursup pour les EFTS publics et la majorité des privés)\n- **Apprentissage** ou **contrat de professionnalisation** possibles\n- **VAE** possible (4 800 h d'expérience)\n\n**Missions principales** :\n- **Accompagnement éducatif quotidien** d'enfants, adolescents ou adultes en difficulté ou en situation de handicap\n- **Conception et mise en œuvre de projets personnalisés** d'accompagnement\n- **Travail relationnel** : écoute, médiation, gestion de la violence, soutien dans les actes de la vie quotidienne\n- **Animation de la vie collective** dans les établissements (foyers, IME, MECS, ITEP, ESAT, CHRS)\n- **Travail avec les familles** (parents, fratrie) et les partenaires (école, services sociaux, justice, santé)\n- **Rédaction d'écrits professionnels** : projet personnalisé, rapports éducatifs, comptes-rendus de réunion\n- **Implication dans les dynamiques institutionnelles** (réunions cliniques, projet d'établissement, démarche qualité)\n\n**Lieux d'exercice fréquents** :\n- **Protection de l'enfance** : MECS, foyers de l'enfance, services AED/AEMO, ASE, pouponnières\n- **Handicap** : IME, ITEP, IEM, IES, SESSAD, foyers d'hébergement, ESAT, MAS, FAM\n- **Insertion sociale** : CHRS, CADA, structures d'insertion\n- **Justice / PJJ** : foyers PJJ, CEF, CER\n- **Centres sociaux, EVS, ADSL** (médiation, prévention spécialisée)\n- **Prévention spécialisée** (clubs et équipes de prévention)\n- **Champ médico-social** adultes (handicap psychique, addictions)\n- **Éducation nationale** (UEROS, dispositifs ULIS)",
+        "plus_formation": "**Évolutions possibles** :\n- **CAFERUIS** (encadrement de service) — niveau 6\n- **CAFDES** (direction d'établissement) — niveau 7\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale) — niveau 7\n- **Master** Sciences de l'éducation, Travail social, Psychologie, Sociologie\n- **DEME** (passerelle inverse rare) ou **DETISF** (passerelle technique)\n- **Spécialisation** : addictions, justice, handicap psychique, autisme (TSA), prévention spécialisée\n\n**Formations continues recommandées** :\n- **Approche systémique** familiale\n- **Protection de l'enfance** (loi 2007, réforme 2016, repérage maltraitance)\n- **Autisme et TSA** (formations validées Haute Autorité de Santé)\n- **Handicap psychique** adultes\n- **Médiation animale, équithérapie, art-thérapie** (compléments éducatifs)\n- **Numérique éducatif** (réseaux sociaux, cyberharcèlement, écrans et adolescents)\n- **Violences conjugales et intra-familiales**\n\n**Financement formation initiale** :\n- **Apprentissage** : OPCO Uniformation (alternance) + niveau de prise en charge CPNEF (CCN ALISFA p. 26 — DEES = 7 425 € coût-contrat)\n- **Contrat de professionnalisation** : OPCO + employeur\n- **Formation initiale Région** : gratuite pour étudiants ou Pôle Emploi (financement Région)\n- **Formation continue / VAE** : OPCO Uniformation + CPF + abondement employeur\n- Coût formation continue DEES : **15 000 à 20 000 €** sur 3 ans\n\n**Financement formation continue** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- **CPF** + abondement employeur\n- Plans Conseil Départemental ou ARS pour structures conventionnées",
+        "obligations_formation": "DEES (Diplôme d'État d'Éducateur Spécialisé) niveau 6 — grade Licence depuis 2018.",
+        "accompagnement_obligatoire": "**Tutorat de stage** obligatoire pendant la formation (3 stages dont 1 long de 8 mois). **Analyse de pratiques** régulière en équipe (groupe APP mensuel). **Supervision** fortement recommandée et souvent prévue en convention collective ou règlement intérieur dans les structures relevant de la protection de l'enfance ou du handicap.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le DEES a été **réformé en 2018** (architecture LMD, **grade Licence**). Les ES diplômés avant 2018 conservent leur diplôme et leurs droits. Vérifier sur **Légifrance** la version la plus récente de l'arrêté du 22 août 2018 (modifié à plusieurs reprises). En centre social ALISFA, l'éducateur spécialisé n'est **pas systématique** mais peut être référent de prévention spécialisée, accueil ado, ou intervention sociale.",
+        "sources": [
+          "Code de l'action sociale et des familles — articles D451-41 à D451-46",
+          "Décret n° 2018-734 du 22 août 2018 — réforme du DEES (grade Licence)",
+          "Arrêté du 22 août 2018 relatif au DEES",
+          "RNCP fiche 34823 — Diplôme d'État d'Éducateur Spécialisé"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2018-734 du 22 août 2018 (DEES)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037327872/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 34823 Diplôme d'État d'Éducateur Spécialisé",
+            "url": "https://www.francecompetences.fr/recherche/rncp/34823/",
+            "type": "officiel"
+          },
+          {
+            "titre": "Ministère des Solidarités — diplômes du travail social",
+            "url": "https://solidarites.gouv.fr/les-diplomes-detat-du-travail-social",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers de l'animation socio-éducative",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2018-734 + arrêté 22 août 2018"
+      }
+    },
+
+    {
+      "id": "reg-assistant-service-social",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Assistant·e de Service Social (ASS / DEASS) ?",
+      "mots_cles": [
+        "assistant service social", "DEASS",
+        "diplôme État ASS", "ASS",
+        "réforme travail social 2018",
+        "Décret 2018-731",
+        "secret professionnel", "Code action sociale",
+        "Conseil Départemental", "circonscription"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "assistant_service_social",
+      "reponse": {
+        "synthese": "L'**Assistant·e de Service Social (ASS)** est un travailleur social qui aide les personnes, familles ou groupes à surmonter leurs difficultés sociales, économiques, professionnelles et de santé. Diplôme de référence : **Diplôme d'État d'Assistant de Service Social (DEASS)** — niveau **6 (Bac+3)** — créé sous sa forme actuelle par le **Décret n° 2018-731 du 22 août 2018** (réforme des diplômes du travail social, **grade Licence**). Formation **3 ans / 1 740 h théorie + 1 820 h de stage**. Profession **réglementée** par le **Code de l'action sociale et des familles** (titre exigé pour exercer).",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **L411-1 à L411-6** (titre d'ASS protégé) et **D451-29 à D451-39** — **Décret n° 2018-731 du 22 août 2018** et **arrêté du 22 août 2018** relatifs au DEASS (réforme des diplômes du travail social, grade Licence).",
+        "minimum_legal": "**Cadre réglementaire** :\nLa profession d'**Assistant·e de Service Social est protégée** par le Code de l'action sociale et des familles : seuls les titulaires du DEASS (ou diplôme reconnu équivalent) peuvent porter le titre. Le DEASS a été **réformé en 2018** dans le cadre de la **réforme des diplômes du travail social** (architecture LMD, **grade Licence**).\n\n**Diplôme requis** :\n- **DEASS** (Diplôme d'État d'Assistant de Service Social) — RNCP **34822** — niveau **6 (Bac+3)** — **grade Licence**\n- Formation **3 ans** = **1 740 heures théoriques + 1 820 heures de stages** (= 3 560 h totales)\n- **4 domaines de compétences (DC)** :\n  - DC1 : Intervention professionnelle en travail social\n  - DC2 : Analyse des questions sociales et des problématiques territoriales\n  - DC3 : Communication professionnelle en travail social\n  - DC4 : Dynamiques interinstitutionnelles, partenariats et réseaux\n- Délivré par les **Établissements de Formation en Travail Social (EFTS)** agréés par les Régions\n\n**Conditions d'accès à la formation** :\n- **Baccalauréat** ou équivalent (DAEU)\n- Sélection sur dossier + entretien (Parcoursup pour les EFTS publics)\n- **Apprentissage** ou **contrat de professionnalisation** possibles\n- **VAE** possible (4 800 h d'expérience)\n\n**Missions principales** :\n- **Accueil, écoute, évaluation** des situations sociales (entretien, diagnostic)\n- **Information et orientation** vers les dispositifs de droit commun (RSA, aides logement, CMU-C, AAH, APA, etc.)\n- **Accompagnement social global** : famille, logement, santé, emploi, budget\n- **Médiation** avec les institutions (administrations, bailleurs, employeurs, école, justice)\n- **Aide à la résolution** de difficultés liées à la **précarité, isolement, parentalité, handicap, addictions, violences**\n- **Protection de l'enfance** : participation à l'évaluation des informations préoccupantes, signalements\n- **Actions collectives** : groupes de parole, ateliers, projets de territoire, interventions communautaires\n- **Travail en réseau** avec les services sociaux et médico-sociaux du territoire\n- **Rédaction d'écrits professionnels** : rapports sociaux, signalements, projets personnalisés\n\n**Secret professionnel** :\n- ASS soumis au **secret professionnel par fonction** (article 226-13 du Code pénal)\n- **Partage du secret** dans le cadre du Code de l'action sociale (équipe pluridisciplinaire) et de la **protection de l'enfance** (loi 2007-293)\n\n**Lieux d'exercice fréquents** :\n- **Conseils Départementaux** (services Action Sociale, ASE, MDPH, PMI)\n- **CAF / CARSAT / MSA** (action sociale)\n- **Hôpitaux et cliniques** (services sociaux hospitaliers)\n- **Établissements scolaires** (assistant social Éducation nationale)\n- **Entreprises** (assistant social du personnel, MSA)\n- **CCAS / CIAS**\n- **Associations** (centres sociaux, EVS, ALISFA, CHRS, addictions, handicap, étrangers, lutte contre la pauvreté)\n- **Justice** (PJJ, SPIP)",
+        "plus_formation": "**Évolutions possibles** :\n- **CAFERUIS** (encadrement de service) — niveau 6\n- **CAFDES** (direction d'établissement) — niveau 7\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale) — niveau 7\n- **DEMF** (Médiateur·trice Familial·e)\n- **Master** Politiques sociales, Intervention sociale, Sciences de l'éducation\n- **Spécialisation** : protection de l'enfance, gérontologie, handicap, lutte contre les violences conjugales, addictions, médiation\n\n**Formations continues recommandées** :\n- **Protection de l'enfance** (loi 2007, réforme 2016, évaluation des informations préoccupantes)\n- **Surendettement / Banque de France** (procédures, accompagnement)\n- **Précarité énergétique** (FSL, chèque énergie)\n- **Violences conjugales et intra-familiales** (formation MIPROF recommandée)\n- **Approche interculturelle** et **droit des étrangers**\n- **Handicap** (MDPH, PCH, AAH, APA)\n- **Numérique inclusif** (accompagnement démarches en ligne)\n- **Approche systémique** familiale\n- **Prévention du burn-out** des travailleurs sociaux\n\n**Financement formation initiale** :\n- **Apprentissage** : OPCO Uniformation (alternance) + niveau de prise en charge CPNEF\n- **Contrat de professionnalisation** : OPCO + employeur\n- **Formation initiale Région** : gratuite pour étudiants ou Pôle Emploi (financement Région)\n- **Formation continue / VAE** : OPCO Uniformation + CPF + abondement employeur\n- Coût formation continue DEASS : **15 000 à 20 000 €** sur 3 ans\n\n**Financement formation continue** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- **CPF** + abondement employeur\n- Plans Conseil Départemental, CAF, CARSAT pour structures conventionnées",
+        "obligations_formation": "DEASS (Diplôme d'État d'Assistant de Service Social) niveau 6 — grade Licence depuis 2018. **Titre protégé** par le Code de l'action sociale.",
+        "accompagnement_obligatoire": "**Tutorat de stage** obligatoire pendant la formation (3 stages dont 1 long de 7 mois). **Analyse de pratiques** régulière en équipe (groupe APP). **Supervision** souvent prévue dans les services confrontés à des publics en grande précarité ou en protection de l'enfance.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le titre d'**Assistant de Service Social est protégé** par le Code de l'action sociale et des familles (articles L411-1 et suivants) : **usurpation de titre = délit pénal**. Le DEASS a été **réformé en 2018** (grade Licence). Les ASS diplômés avant 2018 conservent leur diplôme et leurs droits. En centre social ALISFA, le poste d'ASS est rare mais possible (typiquement détaché du Conseil Départemental ou présent en EVS spécialisé).",
+        "sources": [
+          "Code de l'action sociale et des familles — articles L411-1 à L411-6 (titre protégé) et D451-29 à D451-39",
+          "Décret n° 2018-731 du 22 août 2018 — réforme du DEASS (grade Licence)",
+          "Arrêté du 22 août 2018 relatif au DEASS",
+          "RNCP fiche 34822 — Diplôme d'État d'Assistant de Service Social",
+          "Article 226-13 du Code pénal — secret professionnel"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2018-731 du 22 août 2018 (DEASS)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037327808/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code action sociale articles L411-1 et suivants (titre protégé ASS)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006157597/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 34822 Diplôme d'État d'Assistant de Service Social",
+            "url": "https://www.francecompetences.fr/recherche/rncp/34822/",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANAS — Association Nationale des Assistants de Service Social",
+            "url": "https://www.anas.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers du social",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Titre protégé par le Code de l'action sociale. Pour vérification de diplôme étranger, contacter l'ENIC-NARIC France.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2018-731 + Code action sociale L411-1"
+      }
+    },
+
+    {
+      "id": "reg-aes",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quel diplôme pour être Accompagnant·e Éducatif et Social (AES / DEAES) ?",
+      "mots_cles": [
+        "AES", "Accompagnant Éducatif Social",
+        "DEAES", "diplôme État AES",
+        "AVS", "AMP", "fusion 2016",
+        "Décret 2016-74", "Décret 2021-1133",
+        "vie quotidienne", "domicile",
+        "EHPAD", "MAS", "centre social"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL"],
+      "fonction_reglementaire": "aes",
+      "reponse": {
+        "synthese": "L'**Accompagnant·e Éducatif et Social (AES)** accompagne au quotidien des personnes en situation de handicap, des personnes âgées ou des enfants/adolescents pour les aider dans les actes de la vie quotidienne, sociale, scolaire et de loisirs. Le **DEAES** est issu de la **fusion en 2016 des anciens DEAVS (Auxiliaire de Vie Sociale) et DEAMP (Aide Médico-Psychologique)**. Diplôme : **Diplôme d'État d'Accompagnant Éducatif et Social** — niveau **3 (CAP)** — créé par le **Décret n° 2016-74 du 29 janvier 2016** et **réformé par le Décret n° 2021-1133 du 30 août 2021** (suppression des spécialités, **socle commun + 3 contextes d'intervention**). Formation **567 h théorie + 840 h de stage**.",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **D451-88 et suivants** — **Décret n° 2016-74 du 29 janvier 2016** (création du DEAES par fusion DEAVS/DEAMP) — **Décret n° 2021-1133 du 30 août 2021** (suppression des spécialités, socle commun + 3 contextes d'intervention) — **arrêté du 30 août 2021** relatif au DEAES.",
+        "minimum_legal": "**Cadre réglementaire** :\nLe DEAES est issu de la **fusion en 2016** des anciens DEAVS (Auxiliaire de Vie Sociale) et DEAMP (Aide Médico-Psychologique). Il a été **réformé en 2021** pour supprimer les 3 spécialités historiques et instaurer un **socle commun + 3 contextes d'intervention** :\n- **Accompagnement de la vie à domicile** (anciennement DEAVS)\n- **Accompagnement de la vie en structure collective** (anciennement DEAMP)\n- **Accompagnement à l'éducation inclusive et à la vie ordinaire** (AESH — Accompagnant des Élèves en Situation de Handicap, intégré au DEAES)\n\n**Diplôme requis** :\n- **DEAES** (Diplôme d'État d'Accompagnant Éducatif et Social) — RNCP **35830** — niveau **3 (CAP)**\n- Formation **567 heures théoriques + 840 heures de stages** (= 1 407 h totales)\n- Durée : **9 à 24 mois** (formation initiale ou alternance)\n- **Architecture en blocs de compétences** :\n  - **Socle commun** (4 blocs) — pour tous les AES\n  - **Bloc 5** spécifique au contexte d'intervention choisi\n- Délivré par les **EFTS** agréés par les Régions\n\n**Conditions d'accès à la formation** :\n- **Aucun diplôme requis**\n- Sélection sur **épreuves écrites + entretien**\n- **Apprentissage** ou **contrat de professionnalisation** très fréquents\n- **VAE** possible\n\n**Missions principales** :\n- **Accompagnement dans les actes de la vie quotidienne** : toilette, repas, déplacements, hygiène, sommeil\n- **Aide à la mobilité** : transferts, marche, sorties\n- **Soutien à la vie sociale et relationnelle** : maintien des liens familiaux, sorties, loisirs, activités culturelles\n- **Accompagnement à la scolarité** (contexte AESH) : aide à l'enfant en situation de handicap dans le cadre scolaire\n- **Stimulation cognitive et sensorielle** : ateliers, jeux, communication adaptée\n- **Veille à la santé et au bien-être** : observation, alerte de l'équipe, prise de médicaments selon protocole\n- **Travail en équipe pluridisciplinaire** (médecin, infirmier, ergothérapeute, psychologue, éducateur)\n- **Liaison avec les familles**\n\n**Lieux d'exercice (selon contexte d'intervention)** :\n\n**Domicile** :\n- Services d'aide à domicile (SAAD, ADMR, ADSL ALISFA)\n- Services de soins infirmiers à domicile (SSIAD)\n- Services autonomie à domicile (réforme 2024)\n\n**Structure collective** :\n- EHPAD, MAS, FAM, foyers de vie, IME, ITEP, MECS\n- Foyers d'hébergement adultes handicapés\n- Établissements de soins palliatifs\n\n**Éducation inclusive (ex-AESH)** :\n- Établissements scolaires (Éducation nationale, sous contrat ou en agrément)\n- Centres de loisirs / ACM accueillant des enfants en situation de handicap\n- **Centres sociaux ALISFA** avec dispositif d'inclusion handicap\n- Pôles Inclusifs d'Accompagnement Localisés (PIAL)",
+        "plus_formation": "**Évolutions possibles** :\n- **DETISF** (Technicien·ne de l'Intervention Sociale et Familiale) — niveau 4\n- **DEME** (Moniteur·trice Éducateur·trice) — niveau 4\n- **DEAS** (Aide-Soignant·e) — niveau 4 — passerelle vers le sanitaire\n- **DEAP** (Auxiliaire de Puériculture) — niveau 4\n- **DEEJE, DEES, DECESF, DEASS** (Bac+3) avec passerelle\n- **Tuteur ou maître d'apprentissage AES**\n\n**Formations continues recommandées** :\n- **Maladies neurodégénératives** : Alzheimer, Parkinson, démences\n- **Autisme et TSA** (Plan autisme, formations validées HAS)\n- **Troubles psychiques** adultes\n- **Bientraitance** et **prévention de la maltraitance**\n- **Accompagnement de la fin de vie** (soins palliatifs, deuil)\n- **Communication non-violente, méthode Montessori adaptée seniors**\n- **Snoezelen** (espace multi-sensoriel)\n- **Numérique inclusif** (accompagnement démarches en ligne)\n- **Habitat inclusif** (réforme 2018)\n- **Premiers secours** et **PSC1**\n\n**Financement formation initiale** :\n- **Apprentissage** : OPCO Uniformation/Santé (alternance) + niveau de prise en charge CPNEF\n- **Contrat de professionnalisation** : OPCO + employeur\n- **Formation initiale Région** : gratuite pour étudiants ou Pôle Emploi\n- **Pôle Emploi** : POEI / AFPR pour entrée en formation AES\n- **VAE** : CPF + financement employeur\n- Coût formation continue DEAES : **5 000 à 8 000 €**\n\n**Financement formation continue** :\n- **OPCO Uniformation** (fonds légaux + conventionnels ALISFA)\n- **CPF** + abondement employeur\n- Plans Conseil Départemental (APA, PCH), ARS, CAF",
+        "obligations_formation": "DEAES (Diplôme d'État d'Accompagnant Éducatif et Social) niveau 3 — issu de la fusion DEAVS/DEAMP en 2016 et réformé en 2021 (socle commun + 3 contextes d'intervention).",
+        "accompagnement_obligatoire": "**Tutorat de stage** obligatoire pendant la formation (2 à 3 stages selon contexte d'intervention). **Analyse de pratiques** régulière en équipe. **Supervision** souvent prévue dans les structures du handicap psychique ou des soins palliatifs.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le DEAES a été **réformé en 2021** (Décret 2021-1133 du 30 août 2021, **arrêté du 30 août 2021**) : suppression des 3 spécialités historiques (à domicile / structure collective / éducation inclusive) au profit d'un **socle commun + 3 contextes d'intervention** intégrés au cursus. Les **AES diplômés avant 2021** conservent leur diplôme et peuvent compléter leur formation pour valider d'autres contextes (formation passerelle 70-140 h selon profil). En centre social ALISFA, les AES interviennent principalement en contexte d'**accueil de loisirs inclusif** ou en **prévention spécialisée handicap**.",
+        "sources": [
+          "Code de l'action sociale et des familles — articles D451-88 et suivants",
+          "Décret n° 2016-74 du 29 janvier 2016 — création du DEAES (fusion DEAVS/DEAMP)",
+          "Décret n° 2021-1133 du 30 août 2021 — suppression des spécialités, socle commun + 3 contextes",
+          "Arrêté du 30 août 2021 relatif au DEAES",
+          "RNCP fiche 35830 — Diplôme d'État d'Accompagnant Éducatif et Social"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret n° 2021-1133 du 30 août 2021 (DEAES réformé)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044005769/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Décret n° 2016-74 du 29 janvier 2016 (création DEAES)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031953596/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Compétences — RNCP 35830 Diplôme d'État d'Accompagnant Éducatif et Social",
+            "url": "https://www.francecompetences.fr/recherche/rncp/35830/",
+            "type": "officiel"
+          },
+          {
+            "titre": "Ministère des Solidarités — DEAES",
+            "url": "https://solidarites.gouv.fr/le-diplome-detat-daccompagnant-educatif-et-social-deaes",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers du social et de l'accompagnement",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Décret 2021-1133 + arrêté 30 août 2021"
+      }
+    }
+
+  ]
+}

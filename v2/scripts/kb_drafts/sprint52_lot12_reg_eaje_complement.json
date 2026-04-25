@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F5 lot R1 — Fonctions réglementaires Petite Enfance / EAJE complément (3 articles)",
+    "lot": "R1/R6",
+    "topic": "Référent technique micro-crèche, RSAI (obligatoire 2022), Animation LAEP",
+    "generated_at": "2026-04-25",
+    "source_principale": "Code action sociale R2324 + décret 2021-1131 (Norma) + Lettre-circulaire CNAF LAEP",
+    "theme_target": "fonctions_reglementaires",
+    "note": "La Direction EAJE est déjà dans sprint52_demo_articles.json (article 3)"
+  },
+
+  "articles": [
+
+    {
+      "id": "reg-referent-technique-microcreche",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles sont les conditions de qualification pour être référent·e technique d'une micro-crèche ALISFA en 2026 ?",
+      "mots_cles": [
+        "référent technique micro-crèche", "micro-crèche",
+        "Code action sociale", "R2324-46-3", "décret Norma",
+        "EJE", "puéricultrice", "infirmière",
+        "12 places maximum", "moins de 12 berceaux",
+        "encadrement micro-crèche"
+      ],
+      "structures_concernees": ["EAJE"],
+      "fonction_reglementaire": "referent_technique_microcreche",
+      "reponse": {
+        "synthese": "Les **micro-crèches** (établissements d'accueil de jeunes enfants ≤ 12 places) ne sont pas tenues d'avoir un·e directeur·rice en titre — elles désignent à la place un·e **référent·e technique** dont les conditions de qualification sont définies par l'**article R2324-46-3 du Code de l'action sociale et des familles** (décret 2021-1131 dit « Norma »). Diplômes acceptés : DE Éducateur de Jeunes Enfants (DEEJE), DE Puéricultrice·teur, DE Infirmier·ère, DE Auxiliaire de puériculture avec **5 ans d'expérience**, ou autres équivalences listées par décret.",
+        "fondement_legal": "Code de l'action sociale et des familles, article **R2324-46-3** (modifié par le décret n° 2021-1131 du 30 août 2021 dit « Norma »). Arrêté du 23 septembre 2021 relatif aux modalités d'organisation et de fonctionnement des micro-crèches.",
+        "minimum_legal": "**Définition micro-crèche** :\nÉtablissement d'Accueil de Jeunes Enfants accueillant **simultanément 12 enfants au maximum**, simultanément. Les micro-crèches sont soumises à autorisation par le Conseil départemental (PMI) au même titre que les autres EAJE, mais avec des règles d'encadrement allégées.\n\n**Conditions de qualification du ou de la référent·e technique** (article R2324-46-3 Code de l'action sociale et des familles, version issue du décret 2021-1131) :\n\n**Profils acceptés** :\n- **Diplôme d'État d'Éducateur·trice de Jeunes Enfants (DEEJE)** — Bac+3 (RNCP 38608)\n- **Diplôme d'État de Puériculture** (DEP) — Bac+5 (DEI + spécialisation 1 an)\n- **Diplôme d'État d'Infirmier·ère (DEI)** — Bac+3 (RNCP 36154) avec **3 ans d'expérience** professionnelle minimum\n- **Diplôme d'État d'Auxiliaire de Puériculture (DEAP)** — niveau 4 — avec **5 ans d'expérience** professionnelle minimum\n- **Diplôme d'État d'Assistant de Service Social (DEASS)** ou **DE Conseiller en Économie Sociale et Familiale (DECESF)** ou **DE Éducateur de Jeunes Enfants (DEEJE)** ou **DE Éducateur Spécialisé (DEES)** ou **DE Éducateur Technique Spécialisé (DEETS)** — avec **3 ans d'expérience** professionnelle auprès de jeunes enfants\n- **Personnes ayant exercé pendant 3 ans** une fonction de direction ou de direction adjointe dans un EAJE ou un établissement d'accueil collectif de mineurs\n\n**Missions du ou de la référent·e technique** :\n- Garant·e du projet pédagogique et éducatif de la micro-crèche\n- Participation au recrutement et à l'animation de l'équipe (1 à 3 professionnel·les selon taille)\n- Encadrement de l'équipe — fonction de coordination de proximité\n- Lien avec les familles\n- Lien avec la PMI (Conseil départemental) pour les visites de contrôle\n- Suivi du Référent·e Santé et Accueil Inclusif (RSAI) — voir article `reg-rsai-eaje`\n- Suivi des PAI (Projets d'Accueil Individualisé) des enfants\n\n**Spécificités** :\n- Le ou la référent·e technique peut exercer **à temps partiel** (différent du directeur d'EAJE classique)\n- **Plusieurs micro-crèches** peuvent partager le même référent·e technique (mutualisation possible si proximité géographique)\n- Le ou la référent·e technique peut être employé·e par la structure gestionnaire ou par un prestataire extérieur (ex. cabinet de gestion de micro-crèches)",
+        "plus_formation": "**Diplômes financés en apprentissage** (table CPNEF p.26) pour viser cette fonction :\n- **DE EJE** (RNCP 38608) : 7 900 €\n- **DE Auxiliaire de puériculture** (RNCP 40743) : 8 100 €\n- **DE Éducateur Spécialisé** (RNCP 37676) : 7 753 €\n- **DE CESF** (RNCP 37678) : 7 290 €\n\n**Autres diplômes (non financés en apprentissage standard ALISFA)** :\n- DE Infirmier·ère : voie hospitalière classique (université)\n- DE Puériculture : 1 an post-DEI (école spécialisée)\n- DEASS : universitaire / écoles spécialisées\n\n**Modalités complémentaires de qualification** :\n- **VAE EJE / DEAP / DEES** : possible pour les auxiliaires puériculture ou animateurs petite enfance expérimentés\n- **Passage par formation continue** : le DEAP avec 5 ans d'expérience permet directement la fonction sans VAE supplémentaire\n\n**Formations continues recommandées** finançables en DAF Uniformation :\n- Management d'équipe en EAJE\n- Conduite d'un projet pédagogique\n- Charte nationale d'accueil du jeune enfant (CNAF)\n- Accompagnement des PAI / inclusion handicap\n- Gestion administrative et financière d'un EAJE\n- Liaison PMI et conseils départementaux",
+        "obligations_formation": "Diplôme d'État adapté (DEEJE, DEP, DEI avec 3 ans d'expérience, DEAP avec 5 ans d'expérience, ou autres équivalences listées article R2324-46-3) + expérience minimale selon le diplôme.",
+        "accompagnement_obligatoire": "**Déclaration auprès du Conseil départemental** (service PMI) : la PMI valide la conformité du profil de la référent·e technique avec les missions de la micro-crèche. Pas de tutorat formel imposé légalement, mais les fédérations ELISFA recommandent un parrainage par un·e directeur·rice expérimenté·e ou la coordination par une fédération de micro-crèches.",
+        "vigilance": "**Distinction directeur·rice EAJE vs référent·e technique micro-crèche** : pour les EAJE de plus de 12 places, c'est un·e DIRECTEUR·RICE qui est requis·e (article R2324-46 — voir article démo `reg-direction-eaje`). Pour les micro-crèches ≤ 12 places, c'est un·e RÉFÉRENT·E TECHNIQUE (article R2324-46-3 — cet article).\n\n**5 ans d'expérience pour DEAP** : critère strict. Pas d'équivalence courte. Une auxiliaire de puériculture nouvellement diplômée ne peut PAS devenir référent·e technique sans 5 ans d'expérience.\n\n**RSAI obligatoire** : depuis le 1er septembre 2022, toutes les micro-crèches doivent désigner un·e Référent·e Santé et Accueil Inclusif (RSAI) — voir article `reg-rsai-eaje`. Le ou la référent·e technique peut cumuler les fonctions (référent technique + RSAI) sous conditions, ou un·e RSAI distinct·e peut être désigné·e.\n\n**Mutualisation référent·e technique** : si plusieurs micro-crèches d'une fédération partagent un·e référent·e technique, vérifier la proximité géographique et la disponibilité réelle (charge de travail soutenable). La PMI peut refuser une mutualisation excessive.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier l'article R2324-46-3 dans sa dernière version sur Légifrance avant tout recrutement définitif.",
+        "sources": [
+          "Code de l'action sociale et des familles, article R2324-46-3 (modifié par décret 2021-1131)",
+          "Décret n° 2021-1131 du 30 août 2021 (« Norma »)",
+          "Arrêté du 23 septembre 2021 relatif aux modalités d'organisation des EAJE",
+          "Circulaires CNAF EAJE et micro-crèches"
+        ],
+        "liens": [
+          {"titre": "Code action sociale article R2324-46-3 (référent·e technique micro-crèche)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049834", "type": "legislation"},
+          {"titre": "Décret 2021-1131 (Norma)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044020833", "type": "legislation"},
+          {"titre": "Code action sociale chapitre IV — EAJE", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006159474/", "type": "legislation"},
+          {"titre": "monenfant.fr — micro-crèches", "url": "https://monenfant.fr/", "type": "officiel"},
+          {"titre": "CAF — Création d'une micro-crèche", "url": "https://www.caf.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité du profil du candidat·e avec l'article R2324-46-3 du Code de l'action sociale auprès de la PMI du Conseil départemental avant tout recrutement définitif. En cas de doute sur les équivalences ou l'application du décret 2021-1131 (Norma), contacter le pôle juridique ELISFA.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Code action sociale R2324-46-3 (Légifrance avril 2026) + décret 2021-1131"
+      }
+    },
+
+    {
+      "id": "reg-rsai-eaje",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Comment désigner un·e Référent·e Santé et Accueil Inclusif (RSAI) en EAJE en 2026 ?",
+      "mots_cles": [
+        "RSAI", "Référent Santé Accueil Inclusif",
+        "obligatoire EAJE 2022", "décret Norma",
+        "R2324-39-1", "Code action sociale",
+        "santé enfant accueil", "inclusion handicap",
+        "PAI", "vaccinations", "protocoles santé",
+        "médecin", "infirmière puéricultrice", "EJE"
+      ],
+      "structures_concernees": ["EAJE"],
+      "fonction_reglementaire": "rsai_eaje",
+      "reponse": {
+        "synthese": "Le ou la **Référent·e Santé et Accueil Inclusif (RSAI)** est OBLIGATOIRE dans **tout EAJE** depuis le **1er septembre 2022** (décret Norma 2021-1131 article R2324-39-1). Sa mission : accompagner les questions de santé, prévention, inclusion handicap et accueil d'enfants en situations particulières. Profils acceptés : médecin, infirmier·ère puériculteur·trice, infirmier·ère DE, ou EJE/auxiliaire puériculture avec formation spécifique RSAI. Cumul possible avec direction d'EAJE selon taille et conditions.",
+        "fondement_legal": "Code de l'action sociale et des familles, article **R2324-39-1** (créé par le décret n° 2021-1131 du 30 août 2021 dit « Norma »). Arrêté du 23 septembre 2021 relatif aux modalités d'organisation, de fonctionnement et d'évaluation des EAJE.",
+        "minimum_legal": "**Cadre général** :\nLe RSAI est une fonction transversale obligatoire dans tout EAJE depuis le 1er septembre 2022, créée pour formaliser et renforcer la dimension santé / inclusion dans les modes d'accueil collectifs.\n\n**Profils acceptés** (article R2324-39-1 Code de l'action sociale) :\n\n1. **Médecin** : DE Médecin (peu importe la spécialité, mais préférence pour la pédiatrie/médecine générale)\n2. **Infirmier·ère Puériculteur·trice** : DEI + DE Puériculture (1 an post-DEI)\n3. **Infirmier·ère DE** : DE Infirmier·ère (DEI, RNCP 36154) avec une **expérience minimum de 3 ans** auprès de jeunes enfants\n4. **Médecin coordonnateur·trice** d'une autre structure (mutualisation possible)\n5. **Autres profils avec formation continue spécifique RSAI** : EJE, auxiliaire de puériculture peuvent obtenir la fonction RSAI avec une formation complémentaire (modalités à confirmer en lien avec le Conseil départemental / PMI)\n\n**Missions principales du RSAI** (article R2324-39-1 et arrêté 23 septembre 2021) :\n- **Accompagnement des questions de santé** des enfants accueillis\n- Élaboration et suivi des **PAI** (Projets d'Accueil Individualisé) pour les enfants avec allergies, maladies chroniques, handicap\n- **Veille à la mise à jour des vaccinations** des enfants accueillis\n- **Élaboration et actualisation des protocoles** : protocole d'urgence, protocole médical, protocole de soins\n- **Conseil et appui** à l'équipe sur les questions sanitaires et de bien-être\n- **Accompagnement de l'inclusion** des enfants en situation de handicap\n- **Liaison avec la PMI**, le médecin de famille, les services hospitaliers en cas de besoin\n- **Sensibilisation et formation** de l'équipe sur les enjeux de santé\n\n**Volume horaire** :\n- Pas de durée minimum/maximum strictement fixée par le décret\n- Modulé selon la **taille de l'EAJE** (nombre de places agréées) — recommandation 1-4 h/semaine pour un EAJE moyen\n- Modulé selon le **profil des enfants accueillis** (proportion d'enfants avec PAI, situations complexes)\n\n**Modalités d'exercice** :\n- **Salarié·e** de la structure ALISFA gestionnaire\n- OU **prestataire libéral·e** (vacation 1-4 h/semaine)\n- OU **mutualisation** entre plusieurs EAJE d'une même fédération (cas fréquent en milieu rural)\n\n**Cumul possible** :\n- **RSAI + directeur·rice d'EAJE** : possible si le profil est compatible (puéricultrice ou médecin selon taille EAJE)\n- **RSAI + référent·e technique micro-crèche** : possible si le profil convient",
+        "plus_formation": "**Évolutions et passerelles** :\n- Le ou la RSAI peut évoluer vers la **direction d'un EAJE** (sous condition de cumul de qualifications selon R2324-46)\n- Mobilité vers la **PMI** (Conseil départemental — hors champ ALISFA)\n- Mobilité vers les **services de santé scolaire** ou hospitaliers\n- Spécialisation en **médiation familiale** ou **conseil conjugal et familial** pour les médecins / infirmières\n\n**Modes de financement de la formation continue** :\n- **DAF Uniformation** : pour formations courtes (PAI, allergies, signes avec bébé, communication non-violente, neurosciences précoces, vaccinations actualités)\n- **DPC (Développement Professionnel Continu)** pour les médecins et infirmiers·ères — financements ANDPC (Agence Nationale du DPC)\n- **CPNEF 0,2 % APP** : supervision d'équipe sur les situations sanitaires complexes\n- **CPF** du salarié pour formations diplômantes (DEAP, DEEJE…)\n\n**Spécificités RSAI** :\n- Un **module de formation RSAI dédié** est de plus en plus proposé par les organismes formateurs (FNEPE, écoles de puériculture, formations continues PMI)\n- La CNAF a publié des **guides RSAI** détaillant les bonnes pratiques\n- Coordination annuelle souhaitable avec la PMI du Conseil départemental",
+        "obligations_formation": "Diplôme d'État spécifique (médecin, puériculteur·trice, infirmier·ère DE avec 3 ans d'expérience minimum) selon profil. Formation complémentaire RSAI recommandée mais pas formellement obligatoire.",
+        "accompagnement_obligatoire": "**Liaison régulière obligatoire avec la PMI** (Conseil départemental). Le ou la RSAI signale les situations complexes, met à jour les protocoles avec la PMI, participe aux visites de contrôle. Pas de tutorat formel imposé. Coordination intra-équipe (réunions hebdomadaires/mensuelles avec direction et équipe pédagogique).",
+        "vigilance": "**Obligation depuis le 1er septembre 2022** : tout EAJE qui n'a pas désigné un·e RSAI est en non-conformité réglementaire. Risque de signalement par la PMI lors des visites de contrôle, voire de sanction.\n\n**Cumul direction + RSAI** : possible si le profil correspond (puéricultrice, médecin), mais surcharge de travail à anticiper. Sur les EAJE > 41 places, séparer les deux fonctions est recommandé.\n\n**RSAI mutualisé** : pour les fédérations ou regroupements de petits EAJE, possibilité d'un RSAI partagé (1 médecin pédiatre ou infirmière puéricultrice pour 5-8 EAJE par exemple). Vérifier que le volume horaire reste suffisant pour chaque structure.\n\n**Coût** : un·e RSAI vacataire libéral·e coûte 50-100 €/h. Pour 2 h/semaine sur 45 semaines/an = 4 500-9 000 €/an. À budgétiser dès la création de l'EAJE.\n\n**Tensions sur le marché** : l'obligation 2022 a créé une demande forte avec une offre limitée (peu de médecins disponibles). Anticiper les recrutements, mobiliser les fédérations, mutualiser.\n\n**Formation continue** : actualisation indispensable (nouveaux vaccins, nouvelles recommandations OMS, évolutions allergies, neuro-atypies). Prévoir 2-3 jours/an de formation continue.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier l'article R2324-39-1 sur Légifrance avant désignation.",
+        "sources": [
+          "Code de l'action sociale et des familles, article R2324-39-1 (créé par décret 2021-1131)",
+          "Décret n° 2021-1131 du 30 août 2021 (« Norma »)",
+          "Arrêté du 23 septembre 2021 (modalités EAJE)",
+          "Guide RSAI publié par la CNAF / Direction Générale de la Cohésion Sociale"
+        ],
+        "liens": [
+          {"titre": "Code action sociale article R2324-39-1 (RSAI)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049818", "type": "legislation"},
+          {"titre": "Décret 2021-1131 (Norma)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044020833", "type": "legislation"},
+          {"titre": "Arrêté 23 septembre 2021 (modalités EAJE)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044087420", "type": "legislation"},
+          {"titre": "Service public — RSAI (Référent Santé Accueil Inclusif)", "url": "https://www.service-public.fr/", "type": "officiel"},
+          {"titre": "monenfant.fr — Conditions d'accueil EAJE", "url": "https://monenfant.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "OBLIGATION RÉGLEMENTAIRE depuis le 1er septembre 2022. Tout EAJE doit avoir désigné un·e RSAI. En cas de non-conformité, risque de signalement par la PMI lors des visites de contrôle. Vérifier la désignation et la formation du RSAI au moment de la création/du renouvellement d'agrément. Pour mutualisation entre EAJE, valider en amont avec la PMI du Conseil départemental.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Code action sociale R2324-39-1 + décret 2021-1131 + arrêté 23 septembre 2021"
+      }
+    },
+
+    {
+      "id": "reg-animation-laep",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Comment animer un Lieu d'Accueil Enfants-Parents (LAEP) en 2026 dans le cadre CNAF ?",
+      "mots_cles": [
+        "LAEP", "Lieu Accueil Enfants Parents",
+        "Lettre circulaire CNAF LAEP", "binôme accueillants",
+        "supervision externe obligatoire", "soutien parentalité",
+        "0 6 ans", "Maison Verte", "Dolto",
+        "EJE psychologue conseiller conjugal",
+        "Prestation Service LAEP"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS", "EAJE"],
+      "fonction_reglementaire": "animation_laep",
+      "reponse": {
+        "synthese": "Les **Lieux d'Accueil Enfants-Parents (LAEP)** sont des espaces ouverts aux jeunes enfants (0-6 ans) accompagnés d'un parent ou adulte référent, dans une logique de **soutien à la parentalité, prévention précoce et socialisation**. Encadré par la **lettre-circulaire CNAF n° 2015-026** (modifiée). Conditions strictes pour bénéficier de la **Prestation de Service LAEP** : **accueil obligatoirement en binôme** + **supervision externe régulière** + **formation continue thématique LAEP** des accueillant·es. Voir aussi article métier `gpec-accueillant-laep`.",
+        "fondement_legal": "Convention partenariale CAF — Lettre-circulaire CNAF n° 2015-026 (modifiée) sur les Lieux d'Accueil Enfants-Parents. Pas de cadre législatif strict, mais conventionnement CAF / agrément CAF nécessaire pour l'éligibilité Prestation de Service LAEP.",
+        "minimum_legal": "**Définition LAEP** : espace ouvert aux jeunes enfants (généralement 0-6 ans, parfois jusqu'à 4 ans) **accompagnés d'un parent ou d'un adulte référent**, dans un cadre de :\n- **Socialisation précoce** des jeunes enfants\n- **Prévention** primaire (parents en difficulté, isolement, post-partum)\n- **Soutien à la parentalité** (échanges de pratiques, médiation, espace neutre)\n\n**Conditions OBLIGATOIRES pour bénéficier de la Prestation de Service LAEP CAF** (lettre-circulaire CNAF n° 2015-026) :\n\n**1. Accueil OBLIGATOIREMENT en binôme** :\n- Au moins 2 accueillant·es présent·es simultanément lors de chaque accueil\n- Au moins 1 des deux doit être expérimenté·e (≥ 2 ans LAEP)\n- Pas d'accueils en solo, même exceptionnels\n- Si un·e accueillant·e est absente → fermeture du LAEP pour la session\n\n**2. Profils des accueillant·es** :\n- Compétences en développement de l'enfant (EJE, auxiliaire puéricultrice, médecin, psychomotricien·ne…)\n- OU compétences en relation d'aide aux familles (psychologue clinicien·ne, conseiller·ère conjugal·e familial·e — CCF, assistant·e de service social, éducateur·trice spécialisé·e, médiateur·trice familial·e)\n- OU compétences en animation (DEJEPS, DESJEPS, animateur·trice formé·e à la petite enfance)\n- Voir article métier `gpec-accueillant-laep` pour détail des profils\n\n**3. Formation initiale ou continue à l'accueil en LAEP — OBLIGATOIRE** :\n- Formation thématique LAEP (3-5 jours en moyenne) — souvent appelée « formation à la posture d'accueil »\n- Contenu : non-jugement, neutralité bienveillante, soutien à la parentalité, séparation, secret professionnel\n- Organismes formateurs : Maison Verte (Paris), FNEPE (Fédération Nationale des Écoles des Parents et des Éducateurs), centres ressources LAEP régionaux\n\n**4. Supervision externe régulière — OBLIGATOIRE** :\n- Prestation d'un·e analyseur·euse externe (psychologue clinicien·ne, psychanalyste, formateur·trice spécialisé·e LAEP)\n- Fréquence type : 1× / mois à 1× / 2 mois\n- Durée : 1,5-2 h par séance\n- Coût : ~150-300 €/séance, soit ~3 000-5 000 €/an pour un LAEP\n- **Finançable par CPNEF 0,2 % via dispositif APP** (cf. article `fin-cpnef-app-equipe-2026`)\n\n**5. Modalités d'organisation** :\n- Ouverture régulière et hebdomadaire (généralement 1-3 sessions de 2-3 h par semaine)\n- Lieu identifié et adapté (local accueillant, sécurisé, visible)\n- Anonymat des familles préservé\n- **Gratuité** (ou participation symbolique)\n\n**Cadre théorique souvent référencé** :\nDe nombreux LAEP s'appuient sur la pensée psychanalytique et notamment les travaux de **Françoise Dolto** (Maison Verte, 1979) et Maud Mannoni. Ce n'est pas une obligation (la lettre-circulaire est neutre théoriquement), mais c'est une référence forte du secteur.",
+        "plus_formation": "**Modes de financement** :\n\n**Pour la structure portant le LAEP** :\n- **Prestation de Service LAEP CAF** : versée par la CAF au prorata des heures d'ouverture déclarées. Couvre une partie des coûts (rémunération accueillants, location locaux, supervision)\n- **Cofinancements** : conseil départemental, mairie, fondations, ARS\n- **CPNEF 0,2 % APP** : pour la supervision externe (1 500-3 000 €/an selon EMA)\n\n**Pour la formation continue des accueillant·es** :\n- **DAF Uniformation** : 65 €/h pour formations thématiques LAEP de < 105h\n- **DAF certifiante 2026** : 15 €/h si formation ≥ 70h\n- **CPF** du salarié pour formations diplômantes annexes (DESJEPS, DEEJE, DEMF…)\n- **Formation continue** : 2-3 jours/an minimum recommandés (parentalité numérique, écoanxiété, neuro-atypies, post-confinement…)\n\n**Évolution et passerelles** :\n- Voir article métier `gpec-accueillant-laep`\n- Passage de vacataire LAEP → coordinateur·trice LAEP territorial·e (plusieurs LAEP coordonnés)\n- Mobilité vers d'autres dispositifs CAF parentalité : REAAP, médiation familiale\n\n**Cas typiques en branche ALISFA** :\n- Centre social portant 1 LAEP avec 2 sessions/semaine (binôme stable d'accueillant·es)\n- EAJE multi-accueil incluant un LAEP en parallèle (ressource mutualisée)\n- ADSL portant un LAEP itinérant (en zones rurales, déplacement entre 2-3 communes)\n- Fédération régionale coordonnant 8-12 LAEP avec supervision mutualisée",
+        "obligations_formation": "Profil professionnel adapté (voir liste § Profils des accueillant·es) + formation thématique LAEP obligatoire (3-5 jours minimum). Formation continue annuelle recommandée.",
+        "accompagnement_obligatoire": "**Supervision externe régulière OBLIGATOIRE** : 1× / mois minimum, par un·e analyseur·euse externe (psychologue clinicien·ne, psychanalyste). Pas de tutorat formel imposé pour les accueillant·es expérimenté·es, mais accompagnement renforcé d'un·e nouvel·le accueillant·e par un·e binôme expérimenté·e pendant 6 mois minimum.",
+        "vigilance": "**Sans supervision externe, perte du financement CAF** : la PS LAEP est conditionnée à la conformité aux exigences de la lettre-circulaire CNAF, dont la supervision externe régulière. La CAF peut suspendre le financement en cas de non-conformité.\n\n**Travail en binôme strict** : ne pas autoriser des accueils en solo, même exceptionnels. Risque de mise en danger éducative et juridique. Si un·e accueillant·e est absent·e → fermer le LAEP.\n\n**Distinction LAEP vs EAJE vs RPE** :\n- **LAEP** : enfants accompagnés d'un parent (le parent reste). Pas d'accueil sans présence parent.\n- **EAJE** : accueil collectif sans parent (la famille dépose l'enfant)\n- **RPE** (Relais Petite Enfance, ex-RAM) : ressource pour les assistant·es maternel·les\nNe pas confondre — financements et règles très différents.\n\n**Cadre théorique non imposé** : un LAEP n'est pas obligatoirement référencé Dolto / psychanalyse. D'autres approches (humanisme, systémique, attachement) sont possibles. Mais cohérence du projet à formaliser et tenir avec l'équipe.\n\n**Anonymat des familles** : pas de fichier nominal des familles (sauf en cas d'urgence vitale). Préserver l'anonymat même en cas de demande institutionnelle (CAF, mairie). C'est un principe fort du dispositif.\n\n**Évolution lettre-circulaire** : la CNAF actualise régulièrement la lettre-circulaire LAEP. Vérifier la version en vigueur sur caf.fr avant tout dépôt de dossier ou renouvellement de convention.\n\n**Texte en vigueur au 25 avril 2026.**",
+        "sources": [
+          "Lettre-circulaire CNAF n° 2015-026 (LAEP) — modifiée",
+          "Charte nationale d'accueil du jeune enfant (CNAF)",
+          "Travaux de référence : Françoise Dolto, La Maison Verte (1979)"
+        ],
+        "liens": [
+          {"titre": "CAF — Lieux d'accueil enfants-parents (LAEP)", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "monenfant.fr — Trouver un LAEP", "url": "https://monenfant.fr/", "type": "officiel"},
+          {"titre": "FNEPE — Fédération Nationale des Écoles des Parents", "url": "https://www.ecoledesparents.org/", "type": "officiel"},
+          {"titre": "Maison Verte — Formation accueillants LAEP", "url": "https://www.lamaisonverte.asso.fr/", "type": "officiel"},
+          {"titre": "Article métier accueillant·e LAEP (KB ALISFA)", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité du LAEP aux exigences de la lettre-circulaire CNAF (binôme accueillants en permanence, supervision externe régulière, formation thématique LAEP des accueillants) — sans cela, perte du financement Prestation de Service LAEP. En cas de doute, contacter le pôle juridique ELISFA ou votre conseiller·ère technique CAF.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF n° 2015-026 + Charte nationale accueil jeune enfant"
+      }
+    }
+
+  ]
+}

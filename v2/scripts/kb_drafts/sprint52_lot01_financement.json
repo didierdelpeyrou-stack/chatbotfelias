@@ -1,0 +1,225 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F3 lot 01 — Financement (5 articles)",
+    "lot": "01/06",
+    "topic": "fonds légaux + alternance",
+    "generated_at": "2026-04-25",
+    "source_principale": "PDF CPNEF Règles financement ALISFA 2026-03-13",
+    "theme_target": "financement_uniformation"
+  },
+
+  "articles": [
+
+    {
+      "id": "fin-leg-catalogue-transversal-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment fonctionne le catalogue transversal national Uniformation et quelles formations sont accessibles ?",
+      "mots_cles": [
+        "catalogue transversal", "catalogue national", "Uniformation",
+        "formations collectives", "thématiques courtes", "moins de 50 salariés",
+        "moins de 11 salariés", "informatique", "bureautique", "communication",
+        "droit social", "QVT", "prise en charge intégrale", "sans DAF",
+        "métiers transversaux", "formations gratuites adhérent"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "Le catalogue transversal national d'Uniformation regroupe des formations collectives courtes prises en charge intégralement (coûts pédagogiques + repas + frais annexes en collectif), accessibles à toutes les structures de moins de 50 salariés, en priorité aux moins de 11 salariés. Ces formations ne s'imputent pas sur votre quota annuel de DAF — c'est le mode de financement le plus avantageux quand la thématique recherchée y figure. Sur les territoires DROM, un catalogue spécifique est également proposé.",
+        "fondement_legal": "Article L6332-1 du Code du travail (rôle de l'OPCO dans la formation des PME). Convention collective ALISFA — accord de branche du 10 juillet 2020.",
+        "minimum_legal": "**Modalités du catalogue transversal national + DOM** :\n- **Bénéficiaires** : entreprises de moins de 50 salariés (EMA), en priorité les moins de 11 salariés\n- **Inscription** : directement via votre espace privé adhérent Uniformation, rubrique « offre de formation, m'inscrire »\n- **Aucune DAF à saisir** : pas d'imputation sur le quota annuel\n- **Délai** : convocation transmise environ 2-3 semaines avant le démarrage\n\n**Prises en charge** :\n- **Coûts pédagogiques** : 100 % par Uniformation, en dehors du plafond annuel de DAF\n- **Repas du midi en collectif** : pris en charge\n- **Frais annexes** (transport, hébergement) : possibilité de prise en charge via une **DAF Frais annexes Catalogue** sur les fonds conventionnels\n- **Rémunération du stagiaire** : pas de prise en charge (sauf cas spécifiques dirigeants bénévoles)",
+        "plus_formation": "**Thématiques principales du catalogue 2026** (mise à jour 13 mars 2026) :\n\n**Communication / Organisation / Outils** :\n- Construire un plan de communication externe\n- Développer son activité grâce aux outils web et réseaux sociaux\n- Tableur initiation / perfectionnement\n- Outils de messagerie et de planification\n- Introduction à l'Intelligence Artificielle\n- Carte mentale (Mindmapping)\n- Création visuelle sans compétences en design\n\n**Finances / Paie** :\n- Élaborer le budget et le contrôler — initiation\n- Financement des associations — initiation\n- Gestion financière des petites associations\n- Paie et charges sociales — Niveau 1\n\n**Ressources humaines** :\n- Entretien annuel et professionnel — pour les employeurs\n- Les bases du recrutement\n- Ressources humaines pour les non-RH — Les bases\n- Les bases de l'AFEST (Action de Formation En Situation de Travail)\n- Tutorat — fiche tutorat\n\n**Réglementaire** :\n- Actualités en droit social\n- Droit du travail — initiation et niveau 2 (contrats, ruptures)\n\n**QVCT / Santé / Sécurité** :\n- Sauveteur Secouriste du Travail (SST)\n- Bases de la réglementation handicap\n- Prévenir et gérer les conduites addictives\n- Prévenir le harcèlement sexuel et les agissements sexistes\n- Égalité professionnelle femmes/hommes\n\n**Management / Travail collectif** :\n- Bases du management\n- Management à distance et hybride\n- Gérer les relations difficiles ou complexes\n- Renforcer ses compétences managériales\n- Découvrir l'intelligence collective\n- Animer un groupe de travail\n- Mieux comprendre l'engagement des bénévoles\n\n**Structure / Stratégie** :\n- Répondre à un appel d'offre\n- Accompagner le changement\n\n**Démarche** :\n1. Consulter l'offre de formations Uniformation\n2. Se connecter à l'espace privé adhérent (n°Icom + code confidentiel)\n3. Aller dans « offre de formation, m'inscrire » et inscrire les salariés\n4. Pour les frais annexes : saisir une **DAF Frais annexes Catalogue** une fois l'inscription validée, indiquer dans la rubrique action de formation sur la ligne « intitulé libre » : « DAF Frais annexes Catalogue »\n\n**Pièces justificatives** (uniquement si DAF Frais annexes) :\n- Formulaire de demande de prise en charge complété\n- Convocation Uniformation ou de l'OF\n- Lors du remboursement : certificat de réalisation",
+        "vigilance": "**Délai de convocation** : 2-3 semaines avant le démarrage — anticipez le planning de vos salariés.\n\n**Cumul impossible** : la DAF Frais annexes Catalogue ne peut PAS être combinée avec un autre dispositif de financement de la formation (article 2.1.4 CCN).\n\n**Sessions limitées** : le catalogue propose des sessions à dates fixes — si aucune ne convient, basculer sur une DAF classique avec OF de votre choix.\n\n**Texte en vigueur au 13 mars 2026.** Liste des formations susceptible d'évolution en cours d'année — vérifier le catalogue à jour sur l'espace adhérent Uniformation.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — version CPNEF du 13 mars 2026, pages 2-3",
+          "Article 2.1.4 chapitre VIII Convention Collective Nationale ALISFA",
+          "Article L6332-1 du Code du travail (rôle OPCO)"
+        ],
+        "liens": [
+          {"titre": "Catalogue transversal national Uniformation (espace public)", "url": "https://www.uniformation.fr/employeurs/catalogue-de-formations", "type": "officiel"},
+          {"titre": "Espace privé adhérent Uniformation — inscription formations", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Site de branche ALISFA", "url": "https://www.alisfa.fr", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-leg-daf-50sal-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Quels sont les barèmes DAF sur fonds légaux pour ma structure de moins de 50 salariés en 2026 ?",
+      "mots_cles": [
+        "DAF légale", "fonds légaux", "plan développement compétences",
+        "moins de 50 salariés", "moins de 11 salariés", "11-49 salariés",
+        "EMA", "plafond annuel", "5000 euros par DAF", "1 DAF SIREN",
+        "65 euros heure", "15 euros heure", "1800 euros jour",
+        "VAE simple", "VAE mixte", "formation interne", "rémunération 13 euros"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "Les fonds légaux du « plan de développement des compétences » sont accessibles aux structures de moins de 50 salariés (EMA), à jour de leur cotisation conventionnelle. Ils financent les actions de formation, accompagnements VAE, bilans de compétences et formations internes via une Demande d'Aide Financière (DAF). Plafond : 5 000 € par DAF, avec une seule DAF légale par SIREN par an. Ces fonds sont cumulables avec les fonds conventionnels (jusqu'à 7/10/25 DAF/an au total selon EMA).",
+        "fondement_legal": "Article L6332-1 du Code du travail (rôle de l'OPCO). Loi n° 2018-771 du 5 septembre 2018 « pour la liberté de choisir son avenir professionnel » (a réservé les fonds légaux aux entreprises de moins de 50 salariés). Article L6321-1 (obligation de formation employeur).",
+        "minimum_legal": "**Bénéficiaires** : toutes les entreprises de moins de 50 salariés (Effectif Moyen Annuel URSSAF), pour toute modalité de formation : présentiel, FOAD (Formation Ouverte À Distance), formation interne.\n\n**Actions financées via une DAF légale** :\n- Actions de formation\n- Accompagnements VAE\n- Bilans de compétences\n- Formations internes (organisées par votre structure)\n\n**Publics éligibles** :\n- DAF de **moins de 5 stagiaires** : uniquement salariés (tous types de contrats)\n- DAF de **5 stagiaires et plus** : salariés ET bénévoles dirigeants ou non (groupe majoritairement composé de salariés)\n\n**Coûts pédagogiques** :\n- DAF 1 à 4 stagiaires, formation ≤ 105h : **65 € TTC / heure**\n- DAF 1 à 4 stagiaires, formation > 105h : **15 € TTC / heure**\n- DAF de 5 stagiaires et plus, toutes durées : **1 800 € TTC / jour**\n\n**Plafond financier** : **5 000 € par DAF** sur les fonds légaux.\n\n**Plafond en nombre de DAF** : **1 DAF légale par SIREN par an**. Le reste du quota annuel est utilisable en DAF conventionnelles. Quotas totaux (légaux + conventionnels) :\n- < 11 salariés : **7 DAF/an**\n- 11-49 salariés : **10 DAF/an**\n- ≥ 50 salariés : 25 DAF/an (mais sur fonds conventionnels uniquement, pas d'accès aux fonds légaux)\n\n**Prises en charge spécifiques** :\n- **VAE simple** : prise en charge au réel, plafond **3 000 €** (tout coût inclus)\n- **VAE mixte** (avec heures de formation) : plafond total **5 000 €** = accompagnement VAE 3 000 € + heures formation 65 €/h\n- **Formations internes** : salaire formateur dans la limite des coûts horaires (15 € ou 65 € TTC/h selon durée). Frais externes (location salle/matériel) prises en charge sur facture.\n- **Frais annexes** : barèmes Uniformation (repas 30€, hébergement 200/150€, transport au réel)\n- **Rémunération stagiaire (TPE < 11 salariés)** : forfait **13 €/heure**, avec obligation de remplacement (hors CUI/PEC/CPRO)\n\n**Dispositions DROM** : surcoûts liés au trajet pris en charge si dépassement du plafond (5 000 €) pour les stagiaires ultramarins se déplaçant hors territoire ou pour un formateur depuis la métropole — billet classe économique, dès lors que la formation n'existe pas localement.",
+        "plus_formation": "**Démarche pas-à-pas** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code confidentiel)\n2. Rubrique « mes dossiers » → saisir une DAF\n3. Sélectionner la phase « avant »\n4. Saisir une DAF avant le démarrage de la formation (**minimum 1 mois avant**)\n5. Sur la ligne « intitulé libre » après le titre de la formation, **préciser explicitement** si l'action est financée via une **DAF légale** ou une **DAF conventionnelle**\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires\n- Programme avec les dates de formation\n\n**Confirmation du départ pour actions ≥ 1 mois** : confirmer obligatoirement le départ en formation AVANT la date indiquée dans le courrier d'accord financier d'Uniformation, via le formulaire envoyé sur l'espace privé adhérent (rubrique « Nos échanges »). Sans confirmation, l'accord est clôturé automatiquement.\n\n**Optimisation** : combiner avec le catalogue transversal national (formations 100 % financées sans imputation sur les DAF) et les Actions Collectives Territoriales (ACT, 5 stagiaires min, 2 structures min, 1 800 €/jour).",
+        "vigilance": "**Délai de 1 mois minimum** entre dépôt de la DAF et démarrage. Tout dossier reçu après le démarrage = refus systématique.\n\n**Plafond SIREN** : 1 DAF légale/an au niveau SIREN. Une structure multi-établissements ne peut activer qu'une seule DAF légale, à répartir sur ses différents SIRET.\n\n**Bascule à 50+ salariés** : si votre EMA franchit 50 en cours d'année, vous perdez l'accès aux fonds légaux. Anticiper sur le calendrier des formations.\n\n**Qualiopi obligatoire** : l'organisme de formation doit détenir cette certification (sauf formations internes). Vérifier avant signature du devis.\n\n**Certificat de réalisation** : à transmettre lors de la demande de remboursement (notamment pour la DAF Frais annexes Catalogue).",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 3-4",
+          "Loi n° 2018-771 du 5 septembre 2018 (réforme formation pro)",
+          "Article L6332-1 et L6321-1 Code du travail",
+          "Article 2.1.4 chapitre VIII CCN ALISFA"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Loi 2018-771 (Avenir professionnel)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037367660", "type": "legislation"},
+          {"titre": "Code du travail article L6332-1 (OPCO)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037385660", "type": "legislation"},
+          {"titre": "Calcul de l'EMA URSSAF", "url": "https://www.urssaf.fr/accueil/employeur/declarer-cotiser/declarations-sociales/effectif-moyen-annuel.html", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-alt-apprentissage-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer un contrat d'apprentissage dans ma structure ALISFA en 2026 ?",
+      "mots_cles": [
+        "contrat apprentissage", "apprenti", "alternance", "16 29 ans",
+        "RNCP", "diplôme professionnel", "CAP AEPE", "BPJEPS", "DE EJE",
+        "coût contrat", "forfait annuel", "Uniformation", "CFA",
+        "tutorat", "maître apprentissage", "France compétences",
+        "contrat aidé", "DROM", "handicap", "150 euros"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "contrat_type": "apprentissage",
+      "reponse": {
+        "synthese": "Le contrat d'apprentissage permet à un·e jeune (16-29 ans) d'obtenir une qualification reconnue (RNCP) en alternant formation théorique en CFA et pratique professionnelle dans votre structure. Uniformation prend en charge le coût pédagogique selon un forfait annuel (\"coût-contrat\") variable par diplôme : par exemple **6 467 € pour le CAP AEPE**, **7 900 € pour le DE EJE**, **8 357 € pour le BPJEPS animateur**. La prise en charge est en **dehors du plafond annuel de DAF** — pas d'imputation sur votre quota.",
+        "fondement_legal": "Articles L6221-1 à L6261-2 du Code du travail (régime général de l'apprentissage). Loi n° 2018-771 du 5 septembre 2018 (réforme apprentissage). Décret 2018-1342 du 28 décembre 2018 (financement par les OPCO).",
+        "minimum_legal": "**Publics éligibles** :\n- Jeunes de **16 à 29 ans** (15 ans révolus sous certaines conditions, et au-delà de 29 ans dans certains cas)\n- Limite d'âge portée à **35 ans** si le contrat fait suite à un précédent contrat d'apprentissage et conduit à un niveau de diplôme supérieur, OU si le précédent contrat a été rompu pour des causes indépendantes de la volonté de l'apprenti·e ou suite à inaptitude physique temporaire\n- **Sans limite d'âge** pour : travailleurs handicapés, personnes ayant un projet de création/reprise d'entreprise nécessitant l'obtention du diplôme, sportifs de haut niveau\n- Un·e salarié·e en CDI peut faire un contrat d'apprentissage chez son employeur (suspension du CDI) sous réserve des critères\n\n**Formations éligibles** : certifications inscrites au RNCP et ouvertes à l'apprentissage.\n\n**Nature et durée du contrat** :\n- CDI débutant par une période d'apprentissage, OU\n- CDD de **6 mois à 3 ans** (selon niveau de compétence initial et durée du cycle de formation visé)\n- Jusqu'à **4 ans** pour apprentis en situation de handicap et sportifs de haut niveau\n\n**Durée de la formation théorique** : variable selon la certification, avec un minimum de **25 % de la durée totale du contrat**.\n\n**Tutorat obligatoire** : l'accompagnement par un·e maître·sse d'apprentissage dans l'entreprise est obligatoire.\n\n**Prises en charge Uniformation** :\n- **Coût-contrat** (forfait annuel) selon la certification visée et le référentiel France Compétences. Niveaux 2026 pour les principaux diplômes ALISFA :\n\n| Diplôme | RNCP | Coût-contrat 2026 |\n|---|---|---|\n| CAP Accompagnant Éducatif Petite Enfance | 28048/38565 | **6 467 €** |\n| DE Auxiliaire de puériculture | 35832/40743 | **8 100 €** |\n| DE Éducateur de Jeunes Enfants (EJE) | 29442/38608 | **7 900 €** |\n| BPJEPS spécialité animateur | 28557/39926 | **8 357 €** |\n| BPJEPS spécialité éducateur sportif | 28573 | **8 690 €** |\n| CPJEPS | 32369/39927 | **6 898 €** |\n| DEJEPS Animation socio-éducative | 4900/39930 | **9 551 €** |\n| DESJEPS | 4910/39931 | **8 966 €** |\n| DE Moniteur Éducateur (DEME) | 492/39643 | **7 225 €** |\n| BTS Économie Sociale Familiale | 7570/36938 | **7 667 €** |\n| DE Conseiller Économie Sociale Familiale | 34826/37678 | **7 290 €** |\n| BTS Communication | 7481/37198 | **8 100 €** |\n| DE Éducateur Spécialisé | 34825/37676 | **7 753 €** |\n\n**Forfait DROM** : 150 €/mois additionnels pour couvrir l'accompagnement social et professionnel des apprentis ultramarins (validation par la Délégation régionale).\n\n**Frais annexes apprentis DROM** : prise en charge des frais de déplacement (avion classe éco) si la formation n'est pas dispensée localement — limité à 1 A/R par période de 6 mois (3 A/R max sur le contrat) pour la métropole, 1 A/R par 3 mois (6 A/R max) entre Guyane et Martinique/Guadeloupe.\n\n**Travailleurs handicapés** : majoration de la prise en charge selon l'arrêté du 7 décembre 2020.\n\n**Versement** :\n- Formation 6 à 12 mois : acompte de 50 % au début, solde à la fin\n- Formation 12 à 24 mois : 1er acompte 40 % au début, 2e 30 %, 3e 30 % et solde à la fin\n- Uniformation règle directement le coût pédagogique au CFA (pas d'avance employeur)",
+        "plus_formation": "**Démarche pas-à-pas** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Rubrique « mes dossiers », « contrat d'apprentissage »\n3. Saisir la demande de prise en charge → génère le formulaire **Cerfa contrat d'apprentissage** en vigueur\n4. Imprimer en **3 exemplaires** : 1 employeur, 1 apprenti, 1 à transmettre Uniformation\n5. Faire signer l'apprenti·e (ou son représentant légal s'il est mineur)\n6. **Transmettre le Cerfa à Uniformation au plus tard 5 jours après le début du contrat** (dépôt sur espace privé)\n7. Uniformation remplit le « cadre réservé » à l'OPCO et dépose le contrat auprès des services de l'État\n8. Notification de décision Uniformation : théoriquement dans un délai de **20 jours calendaires** (sous réserve de transmission d'un dossier complet)\n9. Une fois le financement accordé, Uniformation règle directement le coût pédagogique au CFA selon l'échéancier\n\n**Pièces justificatives obligatoires** :\n- Cerfa contrat d'apprentissage en vigueur (complété et signé)\n- Convention de formation signée avec le CFA\n\n**Articulation avec d'autres dispositifs** :\n- L'apprentissage est financé sur les **fonds de l'alternance**, accessibles à toutes les structures de la branche à jour de cotisation conventionnelle\n- Pas de plafond DAF — vous pouvez accueillir plusieurs apprentis en parallèle\n- **Tutorat / Maître d'apprentissage** : prime tuteur de 50 €/mois/tutoré sur fonds conventionnels (max 100 €/mois pour 2 tutorés). Formation maître d'apprentissage obligatoire pour la première mission, financée à 15 € HT/heure (max 40h)",
+        "vigilance": "**Délai 5 jours** : transmission du Cerfa à Uniformation **au plus tard 5 jours calendaires après le début du contrat**. Au-delà, le contrat peut être refusé par les services de l'État.\n\n**Tutorat obligatoire** : la fonction tutorale doit être assurée par un salarié qualifié de votre structure. Les nouveaux maîtres d'apprentissage (sauf personnel de direction) doivent obligatoirement suivre une formation à la fonction tutorale (financée par Uniformation à 100 %).\n\n**Pas de chevauchement avec contrat de professionnalisation** : ne pas confondre avec le contrat pro (régime distinct, voir article dédié `fin-alt-professionnalisation-2026`).\n\n**Coûts-contrat actualisés en 2025** : les forfaits ci-dessus correspondent à la version 2026 du tableau CPNEF (mise à jour 4 septembre 2025). France Compétences peut publier des actualisations en cours d'année — vérifier le référentiel sur francecompetences.fr avant de signer.\n\n**Reste à charge employeur** : la rémunération de l'apprenti·e (% du SMIC selon âge et année du contrat) reste à votre charge — Uniformation ne couvre que le coût pédagogique versé au CFA.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 8 et 26",
+          "Articles L6221-1 à L6261-2 Code du travail",
+          "Loi n° 2018-771 du 5 septembre 2018",
+          "Décret n° 2018-1342 du 28 décembre 2018 (financement OPCO)",
+          "Arrêté du 7 décembre 2020 (majoration apprentis handicapés)",
+          "Référentiel France Compétences (versions RNCP 2025-2026)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie contrat", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "France Compétences — référentiels et bases de données RNCP", "url": "https://www.francecompetences.fr/referentiels-et-bases-de-donnees/", "type": "officiel"},
+          {"titre": "Code du travail — Apprentissage (titre II livre II partie VI)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195825/", "type": "legislation"},
+          {"titre": "Arrêté 7 décembre 2020 (majoration handicap)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042620515", "type": "legislation"},
+          {"titre": "Service public — Contrat d'apprentissage", "url": "https://www.service-public.fr/particuliers/vosdroits/F2918", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13 + référentiel France Compétences 2025"
+      }
+    },
+
+    {
+      "id": "fin-alt-professionnalisation-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer un contrat de professionnalisation dans ma structure ALISFA en 2026 ?",
+      "mots_cles": [
+        "contrat professionnalisation", "CPRO", "alternance",
+        "demandeur emploi", "RSA", "ASS", "AAH", "CUI",
+        "qualification", "RNCP", "CQP", "CQPI", "CCN",
+        "18 euros heure", "21 euros heure", "handicap", "DROM",
+        "tuteur", "prime tuteur", "publics prioritaires",
+        "150 heures", "diplôme professionnel"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "contrat_type": "professionnalisation",
+      "reponse": {
+        "synthese": "Le contrat de professionnalisation permet à des publics spécifiques (jeunes 16-25 ans en complément de formation initiale, demandeurs d'emploi 26+, bénéficiaires RSA/ASS/AAH, anciens CUI…) d'acquérir une qualification reconnue. Uniformation prend en charge le coût pédagogique au **forfait de 18 €/heure** (15 € fonds alternance + 3 € fonds conventionnels), porté à **21 €/heure** pour les contrats avec personnes en situation de handicap ou sur les territoires ultramarins. Tutorat obligatoire avec prime conventionnelle de 50 €/mois/tutoré.",
+        "fondement_legal": "Articles L6325-1 à L6325-25 du Code du travail (régime général du contrat de professionnalisation). Décret n° 2018-1346 du 28 décembre 2018.",
+        "minimum_legal": "**Objectif** : permettre aux publics concernés d'acquérir des qualifications favorisant leur insertion ou réinsertion professionnelle.\n\n**Publics éligibles** :\n- Jeunes de **16 à 25 ans** complétant une formation initiale\n- Demandeurs d'emploi **âgés de 26 ans et plus**\n- Bénéficiaires du **Revenu de Solidarité Active (RSA)**, de **l'Allocation de Solidarité Spécifique (ASS)** ou de **l'Allocation aux Adultes Handicapés (AAH)**\n- Personnes ayant bénéficié d'un **CUI** (Contrat Unique d'Insertion)\n- Publics prioritaires définis par les politiques de l'emploi\n\n**Formations éligibles** :\n- Diplôme ou titre inscrit au **RNCP**\n- Formation visant une qualification listée dans la **Convention Collective Nationale**\n- **Certificat de Qualification Professionnelle (CQP ou CQPI)**\n\n**Nature et durée du contrat** :\n- CDI débutant par une action de professionnalisation, OU\n- CDD de **6 à 24 mois**\n- Durée de l'action de professionnalisation : 15 à 50 % de la durée du contrat avec un **minimum de 150 heures par an**\n\n**Tutorat obligatoire** : l'accompagnement du bénéficiaire par un·e tuteur·rice est obligatoire (article 3.4.5 accord formation ALISFA).\n\n**Prises en charge Uniformation 2026** :\n- **Coût pédagogique** : forfait de **18 € / heure de formation** (15 € sur les fonds de l'alternance + 3 € sur les fonds conventionnels)\n- **Majoration handicap / DROM** : pour les contrats conclus avec des salariés en situation de handicap OU situés sur les territoires d'outre-mer, le forfait est augmenté de 3 €/h, soit **21 €/h** au total (18 € fonds alternance + 3 € fonds conventionnels)\n- **Prise en charge en dehors du plafond annuel de DAF** — pas d'imputation sur votre quota\n\n**Tutorat — Prime tuteur** (article 3.4.5 CCN ALISFA) :\n- **50 € brut / mois par salarié tutoré** dans la limite de 2 salariés tutorés\n- Soit **maximum 100 € brut/mois par tuteur** depuis le 1er janvier 2022\n- Pendant **toute la durée du contrat de professionnalisation**\n- Financée sur les fonds conventionnels de la branche\n\n**Tutorat — Aide à l'exercice de la fonction tutorale** (nouveauté à compter du 1er janvier 2026) :\n- Réinstauration de l'aide tuteur : **230 €/mois pendant 6 mois** (soit 1 380 € total)\n- Pour les tuteurs d'un alternant en situation de handicap : **345 €/mois pendant 6 mois** (soit 2 070 € total)",
+        "plus_formation": "**Démarche** :\n1. Connecter à l'espace privé adhérent Uniformation\n2. Rubrique « mes dossiers », « saisir », puis « contrat de professionnalisation »\n3. La saisie génère le formulaire **Cerfa contrat de professionnalisation** en vigueur\n4. Imprimer en **3 exemplaires** : employeur, salarié, Uniformation\n5. **Transmettre le Cerfa à Uniformation au plus tard 5 jours après le début du contrat**\n6. Uniformation vérifie la conformité du contrat et de la demande de prise en charge financière\n7. Notification de décision théoriquement sous **20 jours**\n\n**Pièces justificatives obligatoires** :\n- Cerfa en vigueur complété\n- Convention de formation signée entre l'entreprise et l'organisme de formation\n- Programme de formation avec dates\n\n**Démarche prime tuteur** :\n1. Au moment de la demande de prise en charge du contrat de professionnalisation, **renseigner l'identité du tuteur** — cela déclenche automatiquement la demande d'aide financière pour la prime tuteur\n2. Lors de l'accord de prise en charge, Uniformation vous informe également de l'accord pour la prime tuteur avec un **numéro de dossier spécifique** (DAF d'Uniformation)\n3. **Demander périodiquement** (idéalement une fois par an) le remboursement de la prime tuteur via une **Demande de Remboursement (DR)** sur l'espace privé adhérent, en rappelant le numéro de la DAF spécifique\n4. Joindre les copies du **bulletin de paie du tuteur intégrant la prime tuteur** OU une attestation sur l'honneur de l'employeur contre-signée par le tuteur mentionnant qu'il a bien bénéficié de la prime durant la période de tutorat\n\n**Articulation avec d'autres dispositifs** :\n- Pas confondre avec **contrat d'apprentissage** (régime distinct, public différent — voir article `fin-alt-apprentissage-2026`)\n- La nouvelle **Période de Reconversion (PREC)** remplace la Pro-A à compter du 1er janvier 2026 — modalités en cours d'élaboration",
+        "vigilance": "**Public spécifique** : ne pas confondre avec apprentissage. Le contrat pro vise principalement des **demandeurs d'emploi 26+, bénéficiaires de minima sociaux, anciens CUI**. Les jeunes 16-25 ans relèvent en principe de l'apprentissage sauf cas particuliers.\n\n**Délai 5 jours** : Cerfa à transmettre à Uniformation au plus tard 5 jours après le début du contrat.\n\n**Durée minimale formation** : 150 heures par an minimum, sinon 15-50 % de la durée du contrat.\n\n**Prime tuteur — délai de réclamation** : la prime n'est pas versée automatiquement, c'est à l'employeur de demander le remboursement périodique. Ne pas oublier — droit non rétroactif si non réclamé.\n\n**Aide tuteur 2026** : la réinstauration de l'aide à la fonction tutorale (230 €/mois × 6 mois) est une nouveauté du **1er janvier 2026** — vérifier les modalités opérationnelles auprès de votre conseiller Uniformation.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 9 et 11",
+          "Articles L6325-1 à L6325-25 Code du travail",
+          "Décret n° 2018-1346 du 28 décembre 2018",
+          "Article 3.4.5 accord formation ALISFA (chapitre VIII CCN)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie contrat pro", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail — Contrat de professionnalisation (articles L6325-1+)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195825/", "type": "legislation"},
+          {"titre": "Service public — Contrat de professionnalisation", "url": "https://www.service-public.fr/particuliers/vosdroits/F15478", "type": "officiel"},
+          {"titre": "France Compétences — RNCP", "url": "https://www.francecompetences.fr/referentiels-et-bases-de-donnees/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-alt-tutorat-prime-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Quelles aides au tutorat et au maître d'apprentissage en 2026 (nouveautés ALISFA) ?",
+      "mots_cles": [
+        "tutorat", "maître apprentissage", "tuteur", "tutrice",
+        "prime tuteur", "50 euros mois", "100 euros mois",
+        "aide tuteur 2026", "230 euros mois", "345 euros mois",
+        "1380 euros", "formation tuteur", "15 euros heure",
+        "40 heures", "fonction tutorale", "handicap",
+        "fonds conventionnels", "article 3.4.5"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "contrat_type": "tutorat",
+      "reponse": {
+        "synthese": "La branche ALISFA propose en 2026 plusieurs aides cumulables pour soutenir le tutorat et l'accompagnement des alternants : (1) **prime tuteur conventionnelle** de 50 €/mois/tutoré (max 100 €/mois pour 2 tutorés) sur toute la durée du contrat de professionnalisation, (2) **nouveauté 2026 : aide à l'exercice de la fonction tutorale** de 230 €/mois pendant 6 mois (1 380 € total) — 345 €/mois si l'alternant est en situation de handicap (2 070 €), et (3) **financement de la formation tuteur/maître d'apprentissage** à 15 € HT/heure dans la limite de 40 heures.",
+        "fondement_legal": "Articles L6325-3-1 et L6325-4 Code du travail (tutorat contrat pro). Article L6223-5 Code du travail (maître d'apprentissage). Article 3.4.5 chapitre VIII CCN ALISFA (avenant n°05-20).",
+        "minimum_legal": "**1. Prime tuteur conventionnelle ALISFA** (article 3.4.5 CCN, fonds conventionnels)\n\n- **Public concerné** : tuteur·trice d'un contrat de **professionnalisation**\n- **Montant** : **50 € brut / mois par salarié tutoré**\n- **Plafond** : maximum **2 salariés tutorés simultanément** par tuteur, soit **100 € brut/mois** maximum\n- **Durée de versement** : toute la durée du contrat de professionnalisation\n- **Application** : depuis le 1er janvier 2022\n- **Dispositions communes à la fonction tutorale (article 3.4.5 a) — Indemnisation des tuteurs ou maîtres d'apprentissage** : l'employeur doit verser au tuteur ou au maître d'apprentissage une prime de tutorat de 50 € brut par mois pendant la durée du contrat en alternance. Le tuteur ne pouvant avoir plus de deux salariés tutorés, le montant de cette prime ne peut dépasser 100 € bruts par mois.\n\n**2. Aide à l'exercice de la fonction tutorale (NOUVEAUTÉ 1er janvier 2026)** (fonds alternance)\n\n- Réinstauration d'une aide nationale qui complète la prime conventionnelle\n- **Montant** : **230 € / mois pendant 6 mois = 1 380 € total**\n- **Majoration handicap** : pour les tuteurs d'un alternant en situation de handicap, l'aide est de **345 €/mois pendant 6 mois = 2 070 € total**\n- Application : à compter du 1er janvier 2026\n\n**3. Formation maître d'apprentissage et tuteur** (article 3.4.5 CCN, fonds alternance)\n\n- **Obligation légale** : l'accompagnement par un tuteur est obligatoire pour un salarié en contrat de professionnalisation (Reconversion ou promotion par l'alternance). Les tuteurs (à l'exception du personnel de direction) qui se voient confier leur **première mission de tutorat** ou de maître d'apprentissage **doivent obligatoirement suivre une formation à la fonction tutorale**, financée en totalité par la branche ou l'OPCO\n- **Forfait Uniformation** : **15 € HT / heure de formation**\n- **Durée maximale prise en charge** : **40 heures**\n- Prise en charge en dehors du plafond annuel de DAF",
+        "plus_formation": "**Démarche prime tuteur conventionnelle** :\n1. Au moment de la demande de prise en charge du contrat de professionnalisation sur l'espace adhérent Uniformation, renseigner l'identité du tuteur — cela déclenche automatiquement la demande d'aide financière pour la prime tuteur\n2. Lors de l'accord de prise en charge, Uniformation vous informe également de l'accord pour la prime tuteur avec un **numéro de dossier spécifique** (DAF d'Uniformation)\n3. Demander périodiquement (idéalement une fois par an) le remboursement de la prime tuteur en adressant à Uniformation, depuis votre espace privé adhérent, une **Demande de Remboursement (DR)** en rappelant le numéro de la DAF spécifique\n4. Joindre les copies du **bulletin de paie du tuteur intégrant la prime tuteur** OU une attestation sur l'honneur de l'employeur contre-signée par le tuteur mentionnant qu'il a bénéficié de la prime durant la période de tutorat\n\n**Démarche formation maître d'apprentissage / tuteur** :\n- **Option 1 — Module à distance Uniformation** : inscrire le tuteur/maître d'apprentissage à une session de formation proposée dans l'offre Uniformation (catalogue national)\n- **Option 2 — Formation tuteur de votre choix** :\n  1. Connecter à l'espace privé adhérent Uniformation\n  2. Rubrique « mes dossiers »\n  3. Saisir une DAF avant le démarrage de la formation (minimum 1 mois avant), sélectionner la phase « avant »\n  4. Pièces justificatives : formulaire de demande de prise en charge complété, devis nominatif, programme avec dates\n\n**Articulation tutorat / Aide 2026** :\n- La **prime tuteur conventionnelle** (50 €/mois) est cumulable avec l'**aide à la fonction tutorale 2026** (230 €/mois × 6 mois)\n- Sur les 6 premiers mois du contrat, le tuteur peut donc bénéficier de **280 € brut/mois** (50 € prime conventionnelle + 230 € aide nationale), soit **345 €** si alternant handicap (50 + 295)\n\n**Référence article 3.4.5 CCN ALISFA — Dispositions communes à la fonction tutorale** :\n*« A l'exception du personnel de direction, les salariés qui se voient attribuer leur première mission de tutorat ou d'apprentissage devront obligatoirement suivre une formation financée en totalité par la branche ou l'OPCO. »*",
+        "vigilance": "**Demande non rétroactive** : la prime tuteur conventionnelle n'est pas versée automatiquement. Il faut la **demander explicitement à chaque période** (rythme conseillé : 1 fois/an). Si oubli, pas de rattrapage des mois antérieurs.\n\n**Aide 2026 à l'exercice de la fonction tutorale** : modalités opérationnelles précises **en cours de finalisation** au moment du tableau CPNEF 13 mars 2026. Vérifier auprès de votre conseiller Uniformation.\n\n**Plafond 2 tutorés simultanés** : un tuteur ne peut avoir plus de 2 salariés tutorés en même temps. La prime ne dépasse pas 100 €/mois quel que soit le nombre.\n\n**Formation tuteur obligatoire** : pour la **première mission seulement**. Les tuteurs déjà formés n'ont pas à refaire le module. Personnel de direction exempté.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 9, 11 et 14",
+          "Article 3.4.5 chapitre VIII Convention Collective Nationale ALISFA",
+          "Articles L6325-3-1 et L6325-4 Code du travail (tutorat contrat pro)",
+          "Article L6223-5 Code du travail (maître d'apprentissage)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail — Tuteur contrat pro (L6325-3-1)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006904076", "type": "legislation"},
+          {"titre": "Code du travail — Maître d'apprentissage (L6223-5)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037385823", "type": "legislation"},
+          {"titre": "Site de branche ALISFA", "url": "https://www.alisfa.fr", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13 + article 3.4.5 CCN"
+      }
+    }
+
+  ]
+}

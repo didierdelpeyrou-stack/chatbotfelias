@@ -1,0 +1,217 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F3 lot 05 — Barèmes / Internes / CléA / PCRH (5 articles)",
+    "lot": "05/06",
+    "topic": "Frais annexes, rémunération TPE, formations internes, CléA, PCRH",
+    "generated_at": "2026-04-25",
+    "source_principale": "PDF CPNEF Règles financement ALISFA 2026-03-13, pages 4, 6-7, 21",
+    "theme_target": "financement_uniformation"
+  },
+
+  "articles": [
+
+    {
+      "id": "fin-frais-annexes-baremes-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Quels sont les barèmes des frais annexes Uniformation 2026 (repas, hébergement, déplacements, garde d'enfants) ?",
+      "mots_cles": [
+        "frais annexes", "barème Uniformation", "repas 30 euros",
+        "hébergement 200 euros", "hébergement 150 euros",
+        "Île-de-France", "Paris intra-muros", "province",
+        "DROM", "déplacements SNCF", "avion classe économique",
+        "voiture personnelle", "barème fiscal 6 chevaux",
+        "garde enfants", "parents à charge", "frais réels",
+        "justificatifs", "contrôle Uniformation"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "Les barèmes Uniformation 2026 pour les frais annexes des stagiaires en formation sont des **plafonds de prise en charge** (justificatifs à fournir en cas de contrôle) : repas **30 €/stagiaire**, hébergement **200 €** en Île-de-France/Paris intra-muros et **150 €** en province et DROM, déplacements SNCF aux frais réels, voiture personnelle au barème fiscal 6 chevaux + parkings/péages au réel, avion classe économique pour DROM, frais de garde d'enfants ou parents à charge au coût réel si la formation se déroule hors temps de travail.",
+        "fondement_legal": "Articles L6321-1 et L6321-6 Code du travail (formation et frais associés). Convention Collective Nationale ALISFA — chapitre VIII. Politique de prise en charge OPCO Uniformation.",
+        "minimum_legal": "**Pour les frais annexes, les barèmes ci-dessous sont des plafonds de prise en charge. Les justificatifs seront à fournir en cas de contrôle.**\n\n**1. Repas** :\n- **30 € par stagiaire** (par repas pris en formation hors plafond DAF habituel)\n\n**2. Hébergement** :\n- **200 € par stagiaire par nuitée** pour les formations se déroulant en **Île-de-France ou Paris intra-muros**\n- **150 € par stagiaire par nuitée** pour les formations se déroulant en **province** et/ou les **territoires ultramarins (DROM)**\n\n**3. Déplacements** :\n- **Petits déplacements en agglomération** (bus, tram, métro, taxi…) : aux **frais réels**\n- **SNCF** : le remboursement s'effectue sur la base des **frais réels** (les justificatifs seront à fournir en cas de contrôle)\n- **Avion** : le remboursement s'effectue sur la base d'un **billet en classe économique**. Pour les salariés qui résident dans les territoires d'Outre-mer, le remboursement des frais de déplacement en avion (base classe économique) est possible, **seulement si aucune autre offre de formation identique n'existe localement**\n- **Voiture personnelle** : l'utilisation d'un véhicule personnel doit rester exceptionnelle et se limiter au cas où le train s'avèrerait être un moyen de transport inadapté. Les frais kilométriques seront alors remboursés dans la limite du **barème fiscal 6 chevaux** de la Direction générale des impôts. **Les parkings et péages sont remboursables** dans le cadre des autres frais, au réel\n\n**4. Frais de garde d'enfants ou de parents à charge** :\n- Prise en charge du coût effectivement supporté par le ou la stagiaire en formation, **dès lors que la formation se déroule en tout ou partie en dehors du temps de travail**\n\n**5. Rémunération des stagiaires de la formation** (cas TPE uniquement) :\n- Pour les **entreprises de moins de 11 salariés**, prise en charge **forfaitaire** de la rémunération à hauteur de **13 € / heure** (hors contrats aidés, CUI, PEC, CPRO…), avec **obligation de remplacement** (cf. article dédié `fin-tpe-remuneration-stagiaire-2026`)\n\n**Cumul** : ces frais annexes peuvent être cumulés avec les coûts pédagogiques (DAF) — la prise en charge frais annexes est en sus du plafond DAF, dans les barèmes ci-dessus.",
+        "plus_formation": "**Pièces justificatives à fournir en cas de contrôle Uniformation** :\n- **Repas** : facture du restaurant ou ticket avec date et montant\n- **Hébergement** : facture de l'hôtel avec date(s) et nuitée(s)\n- **Déplacements** : billets de train (originaux ou e-billets), tickets de bus/métro, factures taxi, justificatifs SNCF\n- **Voiture personnelle** : note de frais kilométriques (relevé du compteur ou itinéraire) + barème fiscal 6 CV applicable\n- **Avion** : carte d'embarquement + facture compagnie aérienne\n- **Garde enfants** : facture crèche, bulletin de paie de l'assistant·e maternel·le, attestation CAF\n\n**Optimisation pour la structure** :\n- **Privilégier les transports en commun** : SNCF aux frais réels, plus simple à justifier que la voiture personnelle\n- **Hébergement** : réserver en avance (les barèmes 200/150€ couvrent un hôtel 3 étoiles standard, pas un palace)\n- **Repas** : 30 €/stagiaire couvre largement un déjeuner standard. Penser au repas du matin pris en collectif sur les formations multi-jours (potentiellement gratuit si l'OF le fournit)\n- **Voiture personnelle** : à utiliser **exceptionnellement** seulement, justifier par l'inadaptation du train\n- **Garde enfants** : si la formation est en partie hors temps travail, l'employeur peut financer la garde sans imputation sur ses fonds propres\n\n**Démarche sur l'espace privé Uniformation** :\nPour les frais annexes saisis sur la **DAF Frais annexes Catalogue** (formations issues du catalogue transversal), suivre la procédure dédiée :\n- **DAF Frais annexes saisie après l'inscription validée**, sélection « phase avant »\n- Dans la rubrique action de formation, sur la ligne « intitulé libre » : « DAF Frais annexes Catalogue »\n- Saisir les informations relatives à l'action de formation\n\n**Pièces justificatives DAF Frais annexes Catalogue** :\n- Formulaire de demande de prise en charge complété pour la DAF « frais annexes Catalogue »\n- Convocation d'Uniformation ou de l'OF pour la formation du catalogue\n- Lors de la demande de remboursement, le **certificat de réalisation** de la formation\n\n**Articulation avec les autres dispositifs** :\n- **Frais annexes apprentis CFA** (article `fin-alt-apprentissage-2026`) : barèmes différents et plus restrictifs (3 €/repas, 6 €/nuitée, 500 € équipement). À ne pas confondre.\n- **APP CPNEF 0,2 %** : pas de prise en charge frais annexes (dispositif différent)\n- **DAF Frais annexes Catalogue** : pour les formations du catalogue transversal Uniformation, dispositif spécifique",
+        "vigilance": "**Justificatifs OBLIGATOIRES** pour le remboursement réel et en cas de contrôle. Conserver tous les originaux pendant **5 ans** (durée légale de conservation des pièces comptables).\n\n**Voiture personnelle exceptionnelle** : Uniformation peut refuser le remboursement si le train était possible. Documenter le caractère exceptionnel (horaire incompatible, gare distante, charge à transporter…).\n\n**Avion DROM uniquement si pas d'offre locale** : le justificatif d'absence d'offre locale est à demander à la Délégation régionale Uniformation (DROM).\n\n**Plafonds non négociables** : un repas à 50 € ne sera remboursé qu'à 30 €. Le surplus reste à la charge du stagiaire ou de la structure.\n\n**Hébergement IDF vs province** : si la formation se déroule à Paris mais que le stagiaire loge à Versailles (province administrative), l'hôtel est-il IDF ou province ? **C'est la zone de la formation qui compte**, pas la zone de résidence du stagiaire (200 € pour Paris intra-muros).\n\n**Garde enfants — formation hors temps travail** : précondition stricte. Si la formation est intégralement sur le temps de travail, pas de prise en charge garde enfants.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 7",
+          "Articles L6321-1 et L6321-6 Code du travail",
+          "Barème fiscal 6 CV — Direction générale des impôts (actualisé annuellement)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF Frais annexes", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Barèmes OPCO Uniformation — détail frais annexes", "url": "https://www.uniformation.fr/employeurs/financements/baremes", "type": "officiel"},
+          {"titre": "Barème fiscal kilométrique DGI (actualisé annuellement)", "url": "https://www.impots.gouv.fr/portail/particulier/bareme-kilometrique", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-tpe-remuneration-stagiaire-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment fonctionne la prise en charge forfaitaire de la rémunération du stagiaire (13 €/h) pour ma TPE ALISFA en 2026 ?",
+      "mots_cles": [
+        "rémunération stagiaire", "forfait 13 euros heure",
+        "TPE", "moins de 11 salariés", "EMA",
+        "obligation remplacement", "remplaçant",
+        "exclusion CUI PEC CPRO", "salarié remplacé",
+        "fonds conventionnels", "Uniformation"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "Les structures ALISFA de **moins de 11 salariés** (TPE) bénéficient d'une **prise en charge forfaitaire de la rémunération du salarié en formation** : **13 € / heure** stagiaire. Cette aide est conditionnée à une **obligation de remplacement** du salarié pendant la formation (hors contrats aidés CUI, PEC, CPRO). Avantage spécifique aux TPE qui compense en partie le coût d'absence du salarié — pour les structures plus grandes, ce forfait n'est pas disponible.",
+        "fondement_legal": "Article L6332-1-1 Code du travail (mission de mutualisation OPCO pour les TPE). Convention Collective Nationale ALISFA — chapitre VIII article 2.1.4 (soutien aux structures de la branche).",
+        "minimum_legal": "**Bénéficiaires** : structures ALISFA dont l'EMA URSSAF est **strictement inférieur à 11 salariés équivalents temps plein**, à jour de leur cotisation conventionnelle.\n\n**Texte du PDF CPNEF (page 7)** :\n*« Pour les entreprises de moins de 11 salariés, prise en charge forfaitaire de la rémunération à hauteur de 13 € / heure (hors contrats aidés, CUI, PEC, CPRO…), avec obligation de remplacement »*\n\n**Modalités** :\n- Forfait fixe : **13 € par heure de formation** suivie par le salarié\n- Cumul automatique aux frais pédagogiques (DAF) et frais annexes\n- Versement par Uniformation à la structure employeur, après réalisation de la formation et présentation des justificatifs (certificat de réalisation, bulletin de paie du remplaçant)\n\n**Conditions cumulatives** :\n1. **EMA < 11 salariés** au moment de la demande\n2. **Obligation de remplacement** du salarié en formation : un autre salarié doit être présent pour assurer la continuité du service pendant l'absence du stagiaire (CDD remplaçant, intérim, redéploiement interne avec heures supplémentaires…)\n3. **Exclusions** : si le salarié en formation est en **contrat aidé** (CUI, PEC, CPRO, contrat d'avenir, emploi d'avenir, etc.), le forfait 13 €/h **n'est PAS appliqué** — la rémunération est déjà couverte par les fonds spécifiques des contrats aidés\n\n**Remplaçant** : le remplaçant peut être :\n- Un·e salarié·e en CDD spécifique de remplacement (motif L1242-2 1° = remplacement d'un salarié absent)\n- Un·e intérimaire (recours à une agence d'intérim)\n- Un·e salarié·e existant·e effectuant des **heures supplémentaires** documentées\n- Un·e bénévole (mais attention : une situation de bénévolat permanent ne pas être un \"remplacement\" au sens conventionnel)",
+        "plus_formation": "**Démarche** :\n1. Déposer la **DAF Uniformation** classique (cf. articles `fin-conv-daf-tpe-2026` ou `fin-leg-daf-50sal-2026`)\n2. Sur le formulaire, **cocher l'option \"Demande de prise en charge de la rémunération\"** dans la rubrique correspondante\n3. **Indiquer le nom du remplaçant** et la nature de son contrat (CDD remplacement, intérim, heures sup interne)\n4. Réaliser la formation\n5. **Demande de remboursement** post-formation : envoyer à Uniformation :\n   - Le **certificat de réalisation** de la formation (signé par l'OF)\n   - Le **bulletin de paie du salarié stagiaire** du mois concerné\n   - Le **bulletin de paie du remplaçant** OU justificatif d'heures supplémentaires interne\n   - Le contrat de remplacement (CDD ou contrat d'intérim) si applicable\n\n**Calcul de l'avantage TPE** :\n- Formation 35h × 13 €/h = **455 € de rémunération prise en charge**\n- Formation 105h × 13 €/h = **1 365 €**\n- Formation 210h (longue, ≥ 6 semaines) × 13 €/h = **2 730 €**\n\nÀ ces montants s'ajoutent les coûts pédagogiques DAF + frais annexes.\n\n**Exemple TPE 7 salariés — formation paie 5 jours (35h)** :\n- Coût pédagogique : 65 €/h × 35 h = 2 275 € (dans plafond 5 000 €) — pris en charge DAF\n- Frais annexes : repas 5 × 30 = 150 €, transport 80 € — pris en charge\n- Rémunération forfaitaire stagiaire : 35 × 13 = **455 €** — pris en charge\n- Coût remplaçant (CDD 5 jours, salaire chargé ~600 €) : reste à charge employeur **~145 €**\n\n**Articulation avec d'autres dispositifs** :\n- **Cumul DAF légale + DAF conventionnelle + forfait rémunération** : oui, mécaniquement applicable\n- **Pas de cumul avec contrats aidés** (CUI, PEC, CPRO) qui financent déjà la rémunération via une aide à l'embauche distincte\n- **CPF cofinancé par l'employeur** : le forfait 13 €/h s'applique normalement si la formation est sur le temps de travail",
+        "vigilance": "**EMA strict < 11** : si votre EMA URSSAF est égal ou supérieur à 11 (même 11,1), le forfait 13 €/h n'est plus applicable. Vérifier votre EMA actuel via votre DSN URSSAF.\n\n**Obligation de remplacement réellement effective** : ne pas se contenter d'une mention administrative — Uniformation peut demander la preuve du remplacement effectif (bulletin de paie, contrat de remplacement). Anticipez ce point quand vous prévoyez la formation.\n\n**Exclusions contrats aidés** : si votre salarié·e est en CUI, PEC ou CPRO, vous n'aurez pas le forfait 13 €/h Uniformation — la rémunération est financée par d'autres aides (Pôle Emploi, France Travail).\n\n**Hors temps de travail** : pour une formation hors temps de travail, le salarié n'est pas rémunéré (sauf accord collectif spécifique) — le forfait 13 €/h ne s'applique donc pas.\n\n**Pas de plafond de durée** : le forfait s'applique à toute la durée de la formation. Pour une longue formation (300h+), le forfait représente un soutien important.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 4 et 7",
+          "Article L6332-1-1 Code du travail",
+          "Article 2.1.4 chapitre VIII CCN ALISFA"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail L6332-1-1 (mission OPCO TPE)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037385662", "type": "legislation"},
+          {"titre": "URSSAF — Effectif Moyen Annuel (DSN)", "url": "https://www.urssaf.fr/accueil/employeur/declarer-cotiser/declarations-sociales/effectif-moyen-annuel.html", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-formations-internes-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer une formation interne à ma structure ALISFA en 2026 ?",
+      "mots_cles": [
+        "formation interne", "tutorat interne", "AFEST",
+        "salaire formateur", "15 euros heure", "65 euros heure",
+        "même SIREN", "location salle", "matériel pédagogique",
+        "DAF formation interne", "transmission savoir interne"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "Une **formation interne** est dispensée par un·e salarié·e qualifié·e de votre structure (ou d'une autre structure du même SIREN) auprès d'autres salarié·e·s. Uniformation finance le **salaire horaire chargé du formateur interne** dans la limite des coûts horaires applicables : **15 € TTC/h** (formations > 105h) ou **65 € TTC/h** (formations ≤ 105h). Les **frais externes** (location de salle, matériel pédagogique) peuvent faire l'objet d'une prise en charge sur facture distincte.",
+        "fondement_legal": "Article L6313-1 Code du travail (typologie des actions de formation). Loi n° 2018-771 du 5 septembre 2018 (reconnaissance de l'AFEST — Action de Formation En Situation de Travail). Convention Collective Nationale ALISFA — chapitre VIII.",
+        "minimum_legal": "**Définition** :\nLa formation interne concerne une action de formation **réalisée par un organisme de formation portant le même numéro de SIREN que la structure bénéficiaire**.\n\nConcrètement, un·e salarié·e qualifié·e (avec compétences pédagogiques avérées) anime la formation pour ses collègues, soit :\n- Sur site (en salle dédiée)\n- En situation de travail (**AFEST**)\n- À distance (FOAD encadrée par le formateur interne)\n\n**Conditions** :\n- L'action doit répondre aux critères généraux de formation professionnelle (article L6313-2 Code du travail) : objectifs pédagogiques, programme, durée, modalités d'évaluation, sanctions de la formation\n- Le formateur interne doit être **qualifié** dans la matière enseignée (compétences avérées, expérience documentée)\n- La structure doit être en mesure de prouver l'existence pédagogique de l'action (programme, supports, évaluation)\n\n**Prises en charge sur fonds Uniformation (DAF interne)** :\n\n**Salaire horaire chargé du formateur** :\n- Sur la durée effective de la formation\n- Dans la limite des **coûts horaires applicables** : **15 € TTC/h** ou **65 € TTC/h** selon la durée de la formation\n- Les heures non dispensées (préparation, correction de copies, etc.) ne sont **pas** prises en charge par Uniformation — relèvent de l'organisation interne employeur\n\n**Frais externes** : prise en charge sur facture pour :\n- **Location de salle** (si formation hors locaux propres)\n- **Location de matériel pédagogique** (visioconférence, projecteurs, supports)\n- Plafonds standards Uniformation pour ces frais\n\n**Plafond DAF formation interne** : identique aux DAF classiques selon votre EMA et le nombre de stagiaires (cf. articles `fin-conv-daf-tpe-2026`, `fin-conv-daf-11-49-2026`, `fin-conv-daf-50plus-2026`).\n\n**Cumul possible avec DAF Frais annexes** pour les frais des stagiaires (transport, hébergement, repas) selon les barèmes Uniformation.",
+        "plus_formation": "**Démarche** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Saisir une **DAF formation interne** avant le démarrage (1 mois minimum), sélectionner la phase « avant »\n3. **Indiquer dans la rubrique action de formation** que c'est une **formation interne** (case à cocher ou indication ligne « intitulé libre »)\n4. Renseigner l'**OF interne** = votre structure (avec son SIREN)\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure (devis interne, sans facturation puisque le formateur est un salarié maison)\n- **Programme détaillé** avec :\n  - Objectifs pédagogiques\n  - Contenu module par module\n  - Durée totale et planning des sessions\n  - Modalités d'évaluation des apprenants\n- Profil et qualifications du formateur interne (CV, expérience pertinente)\n\n**Pour le remboursement** :\n- Certificat de réalisation signé\n- **Bulletin de paie du formateur interne** sur la période de la formation (pour calcul du salaire horaire chargé)\n- Liste émargée des stagiaires\n\n**Cas d'usage typiques en branche ALISFA** :\n- Une directrice EAJE expérimentée forme ses adjointes au management d'équipe (40h sur 6 mois)\n- Un coordinateur formation interne organise des sessions \"prise en main des outils numériques\" pour les nouveaux salariés\n- Une animatrice senior transmet ses méthodes pédagogiques aux jeunes animateurs en **AFEST** (Action de Formation En Situation de Travail) — financement spécifique AFEST possible (cf. catalogue Uniformation \"Les bases de l'AFEST\")\n- Un·e RH interne forme l'équipe de direction sur la nouvelle CCN ALISFA et les évolutions réglementaires\n\n**Avantages** :\n- **Coût direct moindre** : pas de facture OF externe à régler (juste salaire formateur interne pris en charge partiellement)\n- **Transmission de savoir métier** : préservation et capitalisation des compétences internes\n- **Adaptation parfaite au contexte** : le formateur connaît déjà les pratiques et la culture de la structure\n- **Mobilisation possible en complément d'autres dispositifs** (cofinancement avec apprenants en CPF, par exemple)\n\n**AFEST — modalité particulière** :\n- L'AFEST consiste à structurer pédagogiquement un apprentissage **en situation réelle de travail**\n- Reconnu officiellement comme action de formation depuis 2018\n- Demande une formalisation rigoureuse : positionnement initial, mise en situation organisée, séances réflexives, évaluation des acquis\n- Catalogue Uniformation propose une formation \"Les bases de l'AFEST\" pour les structures qui souhaitent s'y mettre\n\n**Articulation avec d'autres dispositifs** :\n- **Tutorat / Maître d'apprentissage** : régime distinct (cf. article `fin-alt-tutorat-prime-2026`) qui finance la fonction tutorale, pas la transmission pédagogique formelle\n- **PCRH** (Prestation Conseil RH) : utile pour structurer une politique de formation interne avant de la déployer (cf. article `fin-conv-pcrh-2026`)",
+        "vigilance": "**Existence pédagogique réelle** : Uniformation est rigoureux sur la distinction \"formation\" vs \"transmission informelle\". Programme, objectifs, évaluation = obligatoires. L'AFEST notamment demande une formalisation pédagogique précise (positionnement, séances réflexives).\n\n**Salaire horaire dans la limite 15/65 €/h** : si le formateur interne est un cadre dirigeant à 80 €/h chargé, le surplus reste à la charge de la structure. Plafonds Uniformation non négociables.\n\n**Pas de double comptage** : les heures où le formateur dispense la formation ne sont pas comptées par ailleurs comme heures de travail \"normales\" sur le service. Anticiper l'organisation du service pendant les sessions.\n\n**Programme à anticiper** : un programme de formation interne demande du travail de conception. Compter 2-3 jours de préparation pour 1 jour de formation. Cette préparation n'est pas prise en charge par Uniformation.\n\n**Délai 1 mois avant démarrage** strict comme toute DAF.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 4, 6",
+          "Article L6313-1 Code du travail (actions de formation)",
+          "Article L6313-2 Code du travail (modalités)",
+          "Loi n° 2018-771 du 5 septembre 2018 (AFEST)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF formation interne", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail — Actions de formation (L6313-1+)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000037386040/", "type": "legislation"},
+          {"titre": "Centre Inffo — Définition et déploiement AFEST", "url": "https://www.centre-inffo.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-clea-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer une formation CléA ou CléA Numérique en 2026 ?",
+      "mots_cles": [
+        "CléA", "CléA Numérique", "socle de connaissances",
+        "compétences professionnelles", "interbranche",
+        "certification", "fonds conventionnels",
+        "15 euros heure", "évaluation préalable 450 euros",
+        "évaluation finale 250 euros", "publics fragiles",
+        "salariés peu qualifiés", "compétences clés"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "**CléA** est une certification interbranche qui atteste l'acquisition d'un socle de connaissances et compétences professionnelles (français, calcul, numérique, communication, travail en équipe, autonomie, ouverture culturelle). **CléA Numérique** est une variante dédiée aux compétences digitales fondamentales. Uniformation finance la **formation à 15 € TTC/h**, l'**évaluation préalable à 450 € HT max** et l'**évaluation finale à 250 € HT max**. Particulièrement adapté pour les salariés peu qualifiés (niveau < CAP/BEP) ou en remise à niveau.",
+        "fondement_legal": "Article D6113-2 Code du travail (certification CléA, ex-Inventaire CNCP). Décret n° 2014-934 du 18 août 2014 (création du socle CléA). Article L6323-25 Code du travail (CPF socle de connaissances).",
+        "minimum_legal": "**Définition** :\n\n**CléA — Socle de connaissances et de compétences professionnelles** :\nCertification interbranche visant l'acquisition d'un « socle de connaissances et de compétences professionnelles » organisé en 7 domaines :\n1. Communication en français (compréhension/expression écrites et orales)\n2. Utilisation des règles de base de calcul et du raisonnement mathématique\n3. Utilisation des techniques usuelles de l'information et de la communication numérique\n4. Aptitude à travailler dans le cadre de règles définies d'un travail en équipe\n5. Aptitude à travailler en autonomie et à réaliser un objectif individuel\n6. Capacité d'apprendre à apprendre tout au long de la vie\n7. Maîtrise des gestes et postures, et respect des règles d'hygiène, de sécurité et environnementales élémentaires\n\n**CléA Numérique** :\nCertification spécifique attestant l'acquisition des connaissances et compétences relatives aux usages des fondamentaux du numérique (4 domaines : identifier l'environnement numérique, acquérir et exploiter de l'information, interagir en mode collaboratif, appliquer les règles et bonnes pratiques de la sécurité numérique).\n\n**Publics éligibles** :\n- Salarié·e·s tous types de contrats\n- En particulier les salariés peu qualifiés (niveau infra-CAP/BEP)\n- Demandeurs d'emploi (via dispositifs spécifiques)\n\n**Prises en charge Uniformation 2026** :\n\n**Pour la FORMATION CléA** :\n- **15 € TTC / heure** de formation\n- Pas de plafond global d'heures (selon parcours individualisé du stagiaire)\n\n**Pour les ÉVALUATIONS** :\n- **Évaluation préalable** : limitée à **450 € HT** pour les évaluations préalables (positionnement initial des compétences du stagiaire)\n- **Évaluation finale** : limitée à **250 € HT** pour les évaluations finales (validation des acquis)\n\n**Modalités** :\n- Formations dispensées par un OF habilité CléA / CléA Numérique (liste sur certificat-clea.fr)\n- Évaluations réalisées par un évaluateur habilité (liste à part)\n- Prise en charge en dehors du plafond annuel de DAF\n\n**Articulation avec le CPF** : CléA et CléA Numérique sont éligibles CPF (le salarié peut mobiliser son crédit personnel). Cofinancement employeur possible via DAF.",
+        "plus_formation": "**Démarche** :\n1. **Identifier un OF habilité CléA** : liste sur le site officiel certificat-clea.fr\n2. Demander un **devis** détaillé incluant :\n   - Évaluation préalable (positionnement)\n   - Heures de formation (parcours individualisé selon les domaines à acquérir)\n   - Évaluation finale (passation de la certification)\n3. Saisir une **DAF Uniformation** avant le démarrage (1 mois minimum) sur l'espace privé adhérent\n4. Réaliser le parcours\n5. **Demande de remboursement** post-formation avec certificat CléA délivré par l'OF\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires (et du parcours visé : CléA général ou CléA Numérique)\n- Programme avec les dates de formation et les domaines couverts\n- Habilitation CléA de l'OF (numéro habilitation, copie certificat)\n\n**Cas d'usage typiques en branche ALISFA** :\n- Animateur·trice petite enfance peu qualifié·e (niveau infra-CAP) souhaitant formaliser ses compétences avant une VAE EJE\n- Agent·e d'entretien en parcours d'évolution vers une fonction de chargé·e d'accueil\n- Cuisinier·ère cherchant à valider des compétences transversales pour évoluer\n- Salarié·e en reconversion interne (changement de métier dans la structure)\n- Salarié·e en parcours d'insertion (sortant de contrats aidés, ex-PEC)\n\n**CléA Numérique — cas spécifique** :\n- Pertinent pour les salariés en réticence numérique (logiciels métiers, outils CAF en ligne, plateformes administratives)\n- Important pour les chargés d'accueil, secrétaires, agents administratifs face aux nouvelles dématérialisations\n- Mobilisable avec le **Conseiller Numérique France Services (CNFS)** pour un accompagnement complémentaire (cf. article `reg-conseiller-numerique-cnfs`)\n\n**Avantages CléA pour la structure** :\n- **Reconnaissance interbranche** : si le salarié change de secteur, le CléA reste valable\n- **Formalisation des acquis** : utile pour les bilans GPEC et entretiens professionnels\n- **Tremplin vers d'autres certifications** : facilite l'accès à un CAP, Bac pro, ou diplôme supérieur\n- **CSE / dialogue social** : la branche encourage explicitement la mobilisation du CléA pour les publics les plus éloignés de la qualification\n\n**Articulation avec d'autres dispositifs** :\n- **CPF salarié** : CléA est sur Mon Compte Formation (le salarié peut mobiliser sa propre cagnotte CPF, l'employeur complétant via DAF)\n- **PCRH** : pour structurer un plan d'accompagnement CléA collectif (plusieurs salariés peu qualifiés)\n- **VAE** : CléA peut servir de pré-requis avant une VAE pour formaliser le socle",
+        "vigilance": "**OF habilité CléA OBLIGATOIRE** : seuls les OF avec habilitation officielle peuvent dispenser la formation CléA. Vérifier le numéro d'habilitation sur certificat-clea.fr avant signature du devis.\n\n**Évaluateur indépendant habilité** : l'évaluation finale CléA est réalisée par un évaluateur habilité (souvent distinct de l'OF formateur, pour garantir l'indépendance). Vérifier également cette habilitation.\n\n**Plafond évaluation préalable 450 € HT / finale 250 € HT** : strict. Si l'OF facture plus, reste à charge employeur.\n\n**Plafond formation 15 € TTC/h** : strict. Heures longues avec OF cher → reste à charge.\n\n**Délai 1 mois avant démarrage** : DAF saisie « phase avant ».\n\n**Stagiaire volontaire** : le CléA n'est jamais imposé — le salarié doit consentir à cette démarche (souvent perçue comme une remise en cause des acquis). Travailler la motivation en amont avec un entretien individuel.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 6",
+          "Article D6113-2 Code du travail (Inventaire / Répertoire Spécifique)",
+          "Article L6323-25 Code du travail (CPF socle CléA)",
+          "Décret n° 2014-934 du 18 août 2014 (création CléA)",
+          "Site officiel certificat-clea.fr"
+        ],
+        "liens": [
+          {"titre": "Site officiel CléA — Certification interbranche", "url": "https://www.certificat-clea.fr/", "type": "officiel"},
+          {"titre": "Espace privé adhérent Uniformation", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — Recherche CléA", "url": "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/clea", "type": "officiel"},
+          {"titre": "France Compétences — Référentiel CléA", "url": "https://www.francecompetences.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13 + certificat-clea.fr"
+      }
+    },
+
+    {
+      "id": "fin-conv-pcrh-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment bénéficier d'une Prestation de Conseil RH (PCRH) Uniformation en 2026 ?",
+      "mots_cles": [
+        "PCRH", "Prestation Conseil Ressources Humaines",
+        "diagnostic RH", "accompagnement RH", "GPEC",
+        "plan développement compétences", "fonds conventionnels",
+        "6 jours accompagnement", "diagnostic préalable",
+        "100% prise en charge", "co-financement OPCO",
+        "prestataire habilité", "consultant RH ESS",
+        "toutes structures", "tailles confondues"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La **Prestation de Conseil en Ressources Humaines (PCRH)** est un dispositif Uniformation qui vous permet d'obtenir un **diagnostic RH** et un **accompagnement** sur les sujets emploi/formation/compétences, dans la limite de **6 jours de prestation**. Le **diagnostic est gratuit**, et l'accompagnement est **co-financé entre l'OPCO et l'État** pour qu'il n'y ait **aucun reste à charge** pour votre structure. Ouvert à toutes les structures de la branche, quelle que soit leur taille.",
+        "fondement_legal": "Article L6332-1 Code du travail (mission OPCO d'accompagnement RH des PME). Convention partenariale Uniformation–État (DGEFP) 2024-2026 pour le financement PCRH.",
+        "minimum_legal": "**Objectifs** :\n- Financer une **PCRH** : diagnostic RH initial + **accompagnement RH** sur les sujets emploi / formation / compétences\n- Aider les structures à formaliser leur stratégie RH, GPEC, plan de développement des compétences\n\n**Publics éligibles** : ouvert à **toutes les structures de la branche quelle que soit leur taille salariale**.\n- Une TPE de 5 salariés peut en bénéficier comme une fédération de 100 salariés\n- À jour de la cotisation conventionnelle ALISFA\n\n**Prises en charge** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\n- **Diagnostic préalable** : un pré-diagnostic est réalisé par votre **conseiller·ère formation Uniformation** (gratuit, sans formalité particulière)\n- **Accompagnement** : dans la **limite de 6 jours** réalisés par un prestataire habilité\n- **Co-financement** sur les fonds OPCO venant compléter les financements pour qu'il n'y ait **aucun reste à charge** pour la structure\n\n**Sujets typiques d'une PCRH** :\n- **Diagnostic emploi** : cartographie des métiers, analyse des départs en retraite à venir, identification des métiers sensibles\n- **GPEC (Gestion Prévisionnelle des Emplois et Compétences)** : plan d'action sur 3-5 ans avec mobilités internes prévues\n- **Plan de développement des compétences** : structuration annuelle des actions de formation\n- **Politique de rémunération** : grille de classification, politique salariale\n- **Conduite du changement** : accompagnement à une réorganisation, fusion, déménagement\n- **Dialogue social** : structuration des relations CSE, négociation collective d'entreprise\n- **Marque employeur et attractivité** : stratégie de recrutement et fidélisation\n- **Onboarding** : structuration de l'intégration des nouveaux salariés\n- **Égalité professionnelle femmes/hommes** : index, plan d'action\n- **Qualité de vie et conditions de travail (QVCT)** : démarche sur les organisations de travail",
+        "plus_formation": "**Démarche** :\n1. **Effectuer une demande auprès de votre conseiller·ère formation Uniformation** qui réalisera un **pré-diagnostic** (entretien d'1-2h, gratuit)\n2. À l'issue du pré-diagnostic, le conseiller :\n   - Confirme l'éligibilité à la PCRH\n   - Identifie les axes de travail prioritaires\n   - Propose **une liste de prestataires habilités** parmi lesquels choisir\n3. **Sélectionner ensemble un prestataire habilité** (consultant RH ou cabinet spécialisé ESS / branche ALISFA)\n4. **Une convention est conclue entre Uniformation et le prestataire choisi** (la structure n'a pas à signer ni à payer le prestataire)\n5. **Le cabinet réalise l'accompagnement** sur les sujets choisis, jusqu'à 6 jours de prestation cumulés sur l'année\n6. **Le cabinet restitue un compte-rendu** :\n   - **Bilan d'intervention** (synthèse du diagnostic et des recommandations)\n   - **Bilan descriptif des outils mis en place et/ou adaptés**\n   - **Méthodes utilisées**\n7. Pas de remboursement à demander par la structure : Uniformation paie directement le prestataire selon la convention\n\n**Avantages spécifiques** :\n- **0 € de reste à charge** : vraiment gratuit pour la structure (l'OPCO et l'État co-financent intégralement)\n- **Hors plafond DAF** : ne s'impute pas sur votre quota annuel\n- **Prestataire choisi parmi un pool habilité** : garantit la qualité (déjà sélectionné par Uniformation)\n- **Pas de démarche administrative complexe** : pas de saisie sur l'espace privé, le conseiller pilote la convention\n\n**Cas d'usage typiques en branche ALISFA** :\n- **EAJE** souhaitant structurer un plan de remplacement des départs en retraite (5-10 ans à venir) : PCRH GPEC pour cartographier les métiers et anticiper\n- **Centre social** confronté à une difficulté de recrutement d'animateurs : PCRH attractivité / marque employeur\n- **Fédération régionale** souhaitant harmoniser les politiques RH de ses 8 EAJE : PCRH dialogue social et politique de rémunération\n- **Structure ALISFA** créant un nouvel équipement (multi-accueil, EVS) : PCRH onboarding et conduite du changement\n- **Direction d'EAJE** voulant clarifier la classification de ses postes : PCRH classification et grille salariale CCN\n\n**Articulation avec d'autres dispositifs** :\n- **Différent des APP CPNEF** (Analyse des Pratiques Professionnelles) : PCRH est sur les questions RH stratégiques (employeur), APP est sur les pratiques pédagogiques (équipe / direction)\n- **Complémentaire des formations DAF** : la PCRH peut identifier des besoins de formation, qui seront ensuite financés via DAF classiques\n- **Pas de cumul direct** avec une convention de service prestée hors PCRH (il faut choisir une voie)",
+        "vigilance": "**6 jours plafond** : la PCRH est limitée à 6 jours d'intervention. Pour des accompagnements plus longs, mobiliser d'autres dispositifs (consulting hors PCRH, missions sur fonds propres).\n\n**Prestataire habilité OBLIGATOIRE** : le choix se fait dans une liste fournie par Uniformation. Pas possible d'imposer un cabinet hors liste (sinon hors PCRH).\n\n**Co-financement OPCO + État** : le dispositif PCRH dépend d'une convention partenariale OPCO–DGEFP. Si cette convention n'est pas reconduite à l'identique en 2027, les modalités peuvent changer.\n\n**Pré-diagnostic obligatoire** : indispensable pour activer la suite. Compter 2-3 semaines entre la demande et le pré-diagnostic.\n\n**Engagement de la direction** : la PCRH demande de l'investissement temps de la direction (entretiens, validations, mise en œuvre des recommandations). Ce n'est pas un \"audit clé en main\".\n\n**Bilan post-intervention** : le compte-rendu du prestataire reste votre propriété. À conserver pour justifier d'un travail GPEC en cas d'audit ou d'inspection.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 14, 21",
+          "Article L6332-1 Code du travail (mission OPCO)",
+          "Convention Uniformation × DGEFP — financement PCRH"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — demande PCRH", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Uniformation — Page Prestations RH employeurs", "url": "https://www.uniformation.fr/employeurs/conseil-rh", "type": "officiel"},
+          {"titre": "DGEFP — Programme PCRH national", "url": "https://travail-emploi.gouv.fr/emploi-et-insertion/accompagnement-des-mutations-economiques/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    }
+
+  ]
+}

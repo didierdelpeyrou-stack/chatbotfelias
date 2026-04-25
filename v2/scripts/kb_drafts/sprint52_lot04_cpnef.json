@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F3 lot 04 — CPNEF 0,2% (5 articles)",
+    "lot": "04/06",
+    "topic": "Financements exceptionnels CPNEF — APP, colloques, soutien orga, projets innovants",
+    "generated_at": "2026-04-25",
+    "source_principale": "PDF CPNEF Règles financement ALISFA 2026-03-13, pages 22-25",
+    "theme_target": "financement_cpnef_0_2"
+  },
+  "articles": [
+    {
+      "id": "fin-cpnef-app-equipe-2026",
+      "_theme_target": "financement_cpnef_0_2",
+      "question_type": "Comment financer une Analyse des Pratiques Professionnelles (APP) pour mon équipe en 2026 ?",
+      "mots_cles": [
+        "APP",
+        "Analyse Pratiques Professionnelles",
+        "supervision",
+        "fonds CPNEF 0,2%",
+        "1500 euros",
+        "3000 euros",
+        "280 euros jour stagiaire",
+        "40 euros heure",
+        "co-construction",
+        "amélioration pratiques",
+        "Qualiopi",
+        "alisfa.fr",
+        "espace privé alisfa"
+      ],
+      "structures_concernees": [
+        "EAJE",
+        "centre_social",
+        "ADSL",
+        "EVS"
+      ],
+      "contrat_type": "app_equipe",
+      "reponse": {
+        "synthese": "L'**Analyse des Pratiques Professionnelles (APP)** est une démarche de réflexion en équipe avec un·e expert·e externe, visant l'amélioration des pratiques. La CPNEF (sur ses fonds 0,2 %) finance les coûts d'encadrement à hauteur de **280 €/jour/stagiaire** (ou 40 €/h), dans la limite de **1 500 €/an** pour les structures de moins de 50 salariés et **3 000 €/an** pour celles de 50 salariés et plus. Pour les structures **multi-gestionnaires**, le budget est calculé sur la base de 1 500 €/établissement (SIRET) dans la limite d'un plafond annuel de 15 000 € (10 établissements).",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique CPNEF — financements exceptionnels sur la part 0,2 % de la cotisation conventionnelle (gérée directement par la CPNEF, pas par Uniformation).",
+        "minimum_legal": "**Objectifs** :\n- L'analyse des pratiques professionnelles est une démarche permettant aux professionnels de réfléchir sur leur pratique ayant pour objet d'apporter des solutions pragmatiques aux problèmes rencontrés\n- Action élaborée dans une **logique de co-construction entre les salariés et un expert** visant l'acquisition de connaissances et de compétences, dans une perspective d'amélioration des pratiques\n- **Toutes thématiques**\n\n**Publics éligibles** : salarié·e·s tous types de contrats.\n\n**Prestataires éligibles** : le prestataire doit :\n- Disposer d'un **numéro de déclaration d'activité** en cours de validité, en tant que prestataire de formation\n- Être titulaire d'une **certification Qualiopi**\n\n**Prises en charge — APP d'équipe** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\nSeuls les coûts d'encadrement sont pris en charge **sans excéder 280 € / jour / stagiaire** (ou **40 €/h/stagiaire**), dans la limite de :\n- **1 500 €/an/structure** pour les structures de **moins de 50 Effectif Moyen Annuel (EMA)**\n- **3 000 €/an/structure** pour les structures de **plus de 50 Effectif Moyen Annuel (EMA)**\n\n**Cas multi-gestionnaires** : les structures multi-gestionnaires bénéficient d'un budget global selon le nombre d'établissements. Ce budget est calculé sur la base de **1 500 € par établissement** (nombre de numéros SIRET) dans la limite d'un **plafond annuel de 15 000 €** (1 500 × 10 établissements).",
+        "plus_formation": "**Démarche** :\nLa demande préalable doit être adressée **avant le démarrage de l'action**. Il est recommandé de l'envoyer **au moins un mois avant le début** de l'action pour garantir une réponse par les services techniques de la CPNEF avant le début de votre action.\n\nLes formulaires de demandes préalables et de demandes de remboursement sont **désormais intégralement dématérialisés**. Ils sont disponibles sur le nouveau site de branche : [www.alisfa.fr](https://www.alisfa.fr)\n\n**Pour déposer votre première demande**, vous devrez au préalable créer votre espace privé. Le tutoriel est disponible ici : https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/\n\n**Cas d'usage typiques en branche ALISFA** :\n- Équipe EAJE confrontée à la conduite de projets pédagogiques inclusifs\n- Équipe d'animation jeunesse face à des situations sociales complexes\n- Équipe de centre social travaillant sur la diversité culturelle et la médiation\n- Équipe encadrement face aux questions de management collaboratif\n- Équipe pluri-disciplinaire travaillant sur la parentalité (LAEP, REAAP, ACF)\n\n**Articulation avec d'autres dispositifs** :\n- **APP individuelle de Direction** : dispositif distinct (article `fin-cpnef-app-direction-2026`) avec son propre plafond 300 €/SIRET/an\n- **PCRH (Prestation de Conseil RH)** : si la structure a besoin d'un diagnostic plus large GPEC, mobiliser le PCRH (Uniformation, jusqu'à 6 jours sans reste à charge)\n- **DAF formation classique** : pour des formations thématiques sur l'éthique professionnelle, l'analyse de pratique en mode \"formation\" (différent de l'APP en supervision)",
+        "vigilance": "**Demande préalable obligatoire AVANT démarrage** : impossible de financer rétroactivement. Conseillé : envoyer la demande **1 mois avant** pour avoir l'accord CPNEF.\n\n**Qualiopi obligatoire pour le prestataire** : exigence stricte. Vérifier la certification Qualiopi de l'OF/superviseur avant signature du devis.\n\n**Plafond annuel par structure** : 1 500 € (-50 sal) ou 3 000 € (+50 sal). Pas de cumul avec une autre APP la même année (sauf cas multi-gestionnaires).\n\n**Multi-gestionnaires** : le calcul se fait sur le nombre de SIRET. Une fédération avec 8 EAJE (8 SIRET) peut donc avoir 8 × 1 500 € = 12 000 € de budget APP annuel.\n\n**Plafond global multi-gestionnaires : 15 000 €** : ce plafond peut être atteint avec 10 SIRET. Au-delà de 10 établissements, le budget reste plafonné à 15 000 €.\n\n**Pas de cumul avec d'autres dispositifs OPCO** (Uniformation) sur la même action — c'est une particularité du financement CPNEF 0,2 %.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 22",
+          "Convention Collective Nationale ALISFA — chapitre VIII article 2.1.6 (financements exceptionnels CPNEF)"
+        ],
+        "liens": [
+          {
+            "titre": "Site de branche ALISFA — espace privé adhérent CPNEF",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Tutoriel création espace privé ALISFA",
+            "url": "https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/",
+            "type": "officiel"
+          },
+          {
+            "titre": "France Compétences — Liste des certifications Qualiopi",
+            "url": "https://www.francecompetences.fr/recherche-listes/recherche-organismes-certificateurs/",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+    {
+      "id": "fin-cpnef-app-direction-2026",
+      "_theme_target": "financement_cpnef_0_2",
+      "question_type": "Comment financer une APP pour les fonctions de direction en 2026 ?",
+      "mots_cles": [
+        "APP direction",
+        "supervision direction",
+        "directeur",
+        "directrice",
+        "directeur général",
+        "délégué fédéral",
+        "responsable technique EAJE",
+        "fonds CPNEF 0,2%",
+        "300 euros an SIRET",
+        "40 euros heure",
+        "3000 euros plafond",
+        "structures multi-gestionnaires"
+      ],
+      "structures_concernees": [
+        "EAJE",
+        "centre_social",
+        "ADSL",
+        "EVS"
+      ],
+      "contrat_type": "app_direction",
+      "reponse": {
+        "synthese": "L'**APP de Direction** est un dispositif distinct de l'APP d'équipe, dédié uniquement aux **fonctions de direction** : Directeur, Directeur général, Directeur adjoint, Délégué général, Délégué fédéral, Responsable technique d'EAJE. Budget annuel : **300 € par an et par numéro SIRET** (pour les structures multi-gestionnaires pouvant avoir plusieurs directeurs), dans la limite du plafond horaire de **40 €/h** et d'un **plafond annuel global de 3 000 €** (300 × 10 établissements).",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique CPNEF — financements exceptionnels sur la part 0,2 %.",
+        "minimum_legal": "**Objectifs** : permettre aux fonctions de direction d'avoir accès à un dispositif d'analyse des pratiques professionnelles spécifique, distinct de celui réservé aux équipes opérationnelles.\n\n**Publics éligibles** — uniquement les fonctions de direction :\n- **Directeur·rice**\n- **Directeur·rice général·e**\n- **Directeur·rice adjoint·e**\n- **Délégué·e général·e**\n- **Délégué·e fédéral·e**\n- **Responsable technique d'EAJE** (en micro-crèche notamment, cf. article R2324-46-3 — voir article dédié `reg-referent-technique-microcreche`)\n\n**Prestataires éligibles** : mêmes conditions que pour l'APP d'équipe :\n- Numéro de déclaration d'activité en cours de validité\n- **Certification Qualiopi**\n\n**Prises en charge** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\nLe budget est de **300 euros par an et par numéro SIRET** (pour les structures multi-gestionnaires pouvant avoir plusieurs directeurs).\n\n**Plafond horaire** : **40 € / heure** (cohérent avec les autres dispositifs APP).\n\n**Plafond annuel global** : **3 000 €** (300 × 10 établissements).",
+        "plus_formation": "**Démarche** :\nLa demande préalable doit être adressée **avant le démarrage de l'action**. Recommandé : 1 mois avant.\n\nLes formulaires sont **dématérialisés** sur [www.alisfa.fr](https://www.alisfa.fr).\n\n**Cas d'usage typiques en branche ALISFA** :\n- Direction d'EAJE confrontée à la conduite du changement (fusion, déménagement, nouvelle équipe)\n- Direction de centre social face à des relations institutionnelles complexes (CAF, mairie, fédération)\n- Délégation fédérale travaillant sur le positionnement stratégique du réseau\n- Responsable technique micro-crèche en isolement managérial (situation fréquente)\n- Codir d'une fédération en réflexion sur la transformation organisationnelle\n\n**Format type d'une APP de Direction** :\n- Souvent en **co-développement professionnel** (groupe de pairs avec animateur)\n- 6-10 séances de 3h sur l'année\n- Groupe de 4-8 directeurs (limite par les financements 300 €/SIRET)\n- Animateur·trice : coach professionnel certifié, psychologue du travail, ou consultant ESS\n\n**Articulation avec d'autres dispositifs** :\n- **APP d'équipe** : dispositif distinct, plafonds distincts (1 500/3 000 €). Cumul possible si pertinent\n- **PCRH (Prestation Conseil RH)** : pour un diagnostic GPEC ou organisationnel plus large (Uniformation, 6 jours sans reste à charge)\n- **Coaching individuel de direction** : non couvert par ce dispositif (relève de la formation continue classique sur DAF, ou des fonds propres)",
+        "vigilance": "**Plafond 300 €/SIRET strict** : très limité — couvre environ 7,5h de supervision (300 / 40 = 7,5h). En pratique, l'APP de Direction est cofinancée par la structure ou les fédérations.\n\n**Multi-gestionnaires** : 300 €/SIRET autorise une fédération multi-établissements (10 SIRET = 3 000 €). À mobiliser pour une APP \"Codir\" annuelle.\n\n**Qualiopi obligatoire** : le prestataire (coach, formateur en co-développement) doit être certifié Qualiopi.\n\n**Demande préalable AVANT démarrage** : non rétroactif.\n\n**Pas de cumul avec une autre APP \"équipe\"** mobilisée par le directeur sur la même année — choisir l'un ou l'autre.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 22",
+          "Convention Collective Nationale ALISFA — chapitre VIII"
+        ],
+        "liens": [
+          {
+            "titre": "Site de branche ALISFA — espace privé adhérent CPNEF",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Tutoriel création espace privé ALISFA",
+            "url": "https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+    {
+      "id": "fin-cpnef-colloques-seminaires-2026",
+      "_theme_target": "financement_cpnef_0_2",
+      "question_type": "Comment se faire rembourser les frais d'inscription à un colloque ou séminaire en 2026 ?",
+      "mots_cles": [
+        "remboursement colloque",
+        "séminaire",
+        "conférence",
+        "fonds CPNEF 0,2%",
+        "200 euros jour stagiaire",
+        "bénévoles 6 jours",
+        "intervenant externe",
+        "AG non éligibles",
+        "thématiques métiers",
+        "nouveauté 2026 plus de 2000 euros",
+        "CTP",
+        "demande après réalisation",
+        "31 janvier 2026"
+      ],
+      "structures_concernees": [
+        "EAJE",
+        "centre_social",
+        "ADSL",
+        "EVS"
+      ],
+      "reponse": {
+        "synthese": "Le dispositif CPNEF 0,2 % rembourse les frais d'inscription à un colloque, séminaire ou conférence organisé par un tiers, dispensé par au moins un intervenant externe, sur des thématiques métiers ALISFA. Plafond : **200 €/jour/stagiaire** pour les coûts d'inscription. Les bénévoles ont un plafond annuel de **6 journées par structure**. **Nouveauté 2026** : pour toute demande **au-delà de 2 000 €**, étude par les membres du CTP (Comité Technique Paritaire). Les actions de formation classiques **ne sont pas éligibles** par ce canal.",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique CPNEF — financements exceptionnels sur la part 0,2 %.",
+        "minimum_legal": "**Objectifs** :\n- Actions collectives d'**information, de réflexions ou d'apports en connaissances** regroupant un nombre important de participants\n- Ces actions doivent être **dispensées par au moins un intervenant externe** à la structure\n- Thématiques **en lien avec l'activité des structures et avec les compétences métiers**\n\n**EXCLUSIONS** :\n- La participation aux **assemblées générales** des associations, fédérations ou syndicats **n'est pas éligible**\n- **Les actions de formation classiques ne sont pas prises en charge** à travers ce dispositif (mobiliser une DAF Uniformation à la place)\n\n**Attestation de non-prise en charge** : en cas de doute sur l'éligibilité, contacter le service technique de la CPNEF pour qu'il étudie le programme **avant** que celle-ci ne débute. Pour attester de la non-prise en charge sur les fonds de la formation gérés par Uniformation, vous pouvez envoyer le **courrier de refus de l'OPCO** avec vos pièces justificatives.\n\n**Publics éligibles** : salarié·e·s (tous types de contrats) ET bénévoles (dirigeants ou non).\n\n**Prises en charge** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\n**Coûts pédagogiques (= coûts d'inscription)** :\n- Seuls les **coûts d'inscription** sont pris en charge\n- **200 € / jour / stagiaire**\n- **Pour les bénévoles** : maximum **6 journées bénévole / an / structure**\n\n**Procédure** :\n- **Pour toute demande dont le coût est inférieur à 2 000 €** : la structure doit impérativement adresser une **demande de remboursement dans les 3 mois suivant la fin de la réalisation de l'action**\n- Pour toutes actions se terminant à partir du **mois de novembre**, la demande doit être adressée **avant le 31 janvier 2026**\n\n**Nouveauté 2026 : Pour toute demande au-delà de 2 000 euros** :\n- La structure doit saisir une **demande de remboursement** qui sera étudiée par les membres du **CTP (Comité Technique Paritaire)** qui pourront accorder tout ou partie de l'action\n- Dates des CTP disponibles sur [www.alisfa.fr](https://www.alisfa.fr)",
+        "plus_formation": "**Démarche** :\nLes formulaires de demandes de remboursement sont **intégralement dématérialisés**. Ils seront prochainement disponibles sur le nouveau site de branche : [www.alisfa.fr](https://www.alisfa.fr)\n\nPour déposer votre première demande, vous devrez au préalable créer votre espace privé. Tutoriel : https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/\n\n**Pour les demandes supérieures à 2 000 €** : un formulaire PDF est disponible sur le site [www.alisfa.fr](https://www.alisfa.fr) en attendant la dématérialisation. La demande doit être adressée par mail à : **cpnef@cpnef.com**\n\n**Cas d'usage typiques pour les structures ALISFA** :\n- Colloque national sur les politiques familiales / parentalité\n- Séminaire fédéral annuel de la branche\n- Journée d'études sur les évolutions réglementaires EAJE (décret Norma)\n- Rencontres CNAF/MSA sur les Prestations de Service Jeunes / ACF / LAEP\n- Conférence sur l'innovation pédagogique petite enfance\n- Séminaire d'une fédération métier (FFEAJE, UNIOPSS, fédérations de centres sociaux)\n- Forum national de l'animation socioculturelle\n- Salons professionnels (SIPEM, Salon des CE)\n\n**Articulation avec d'autres dispositifs** :\n- **DAF formation classique** : pour les actions de formation continues (durée significative, contenu structuré, certificat de réalisation), pas pour les colloques\n- **DAF dirigeants bénévoles** : pour des formations au sens strict des bénévoles, pas pour leur participation à un colloque\n- **Combinable** : un salarié peut participer à un colloque (CPNEF) ET à une formation thématique sur le même sujet (DAF Uniformation) la même année",
+        "vigilance": "**Délai 3 mois après l'action** : la demande doit être faite **APRÈS** la réalisation de l'action, dans les **3 mois suivant la fin** (NB : c'est l'inverse du fonctionnement DAF Uniformation qui demande l'accord AVANT). Pour les actions terminant en novembre/décembre, la demande doit parvenir **avant le 31 janvier 2026** pour les actions terminant en novembre.\n\n**Demande > 2 000 € : nouveauté 2026** : passage en CTP (Comité Technique Paritaire). Anticiper le calendrier des CTP (disponible sur alisfa.fr).\n\n**Adresse mail spécifique CPNEF** : `cpnef@cpnef.com` (PAS Uniformation). Les demandes envoyées à Uniformation ne seront pas traitées.\n\n**Pas de prise en charge des AG** : les assemblées générales d'associations, fédérations, syndicats ne sont pas éligibles. Penser à distinguer un \"colloque scientifique\" d'une \"AG fédérale\" — le premier est éligible, la seconde non.\n\n**Pas de prise en charge des frais annexes** : seul le **coût d'inscription** est remboursé. Les frais de déplacement/hébergement restent à la charge de la structure ou du salarié (sauf mobilisation d'autres dispositifs).\n\n**Plafond bénévoles 6 jours/an/structure** : limite à anticiper si plusieurs bénévoles participent à plusieurs colloques dans l'année.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 23",
+          "Convention Collective Nationale ALISFA — chapitre VIII article 2.1.6"
+        ],
+        "liens": [
+          {
+            "titre": "Site de branche ALISFA — espace privé CPNEF",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Tutoriel création espace privé ALISFA",
+            "url": "https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mail CPNEF — demandes > 2 000 € — Mail : cpnef@cpnef.com",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+    {
+      "id": "fin-cpnef-soutien-organisation-2026",
+      "_theme_target": "financement_cpnef_0_2",
+      "question_type": "Comment obtenir un soutien CPNEF pour organiser un colloque ou un séminaire dans ma structure en 2026 ?",
+      "mots_cles": [
+        "demande soutien",
+        "organisation colloque",
+        "séminaire",
+        "porteur de projet",
+        "structures branche",
+        "fonds CPNEF 0,2%",
+        "CTP",
+        "examen dossier",
+        "frais intervention",
+        "frais annexes intervenant",
+        "location salle",
+        "matériel webinaire",
+        "1 mois avant",
+        "15 jours avant CTP",
+        "convention soutien colloque",
+        "mémoire frais"
+      ],
+      "structures_concernees": [
+        "centre_social",
+        "EAJE",
+        "ADSL",
+        "EVS",
+        "tete_de_reseau"
+      ],
+      "reponse": {
+        "synthese": "Le dispositif CPNEF 0,2 % soutient l'**organisation de colloques, séminaires ou conférences** par une structure ALISFA, à destination de ses salariés ou de salariés d'autres structures de la branche. La prise en charge porte sur les **coûts pédagogiques et frais annexes** : intervention, frais annexes intervenant, location de salle, matériel de webinaire. La demande doit être adressée **1 mois avant le démarrage** de l'action et **15 jours calendaires avant la date du prochain CTP**, accompagnée d'un dossier complet (formulaire, devis, programme, tableau préalable des frais détaillés). Étude individuelle par le CTP.",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique CPNEF — financements exceptionnels sur la part 0,2 % de la cotisation conventionnelle.",
+        "minimum_legal": "**Objectifs** :\n- Actions collectives d'**information, de réflexions ou d'apports en connaissances**\n- Organisé par une structure, **porteuse du projet**, à destination de **ses salariés ou de salariés d'autres structures de la branche**\n- Ces actions doivent être **dispensées par au moins un intervenant externe à la structure**\n- Thématiques **en lien avec l'activité des structures et avec les compétences métiers**\n\n**EXCLUSIONS** :\n- La participation aux **assemblées générales** des associations, fédérations ou syndicats n'est pas éligible à ce financement\n\n**Publics éligibles** : salarié·e·s (tous types de contrats) ET bénévoles (dirigeants ou non).\n\n**Prises en charge** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\nSelon l'examen du dossier par le **Comité Technique Paritaire (CTP)**, la prise en charge peut porter sur **tout ou partie** des coûts suivants :\n- **Coûts pédagogiques** :\n  - **Frais d'intervention** (rémunération de l'intervenant)\n  - **Frais annexes** de l'intervenant (déplacement, hébergement, repas)\n  - **Frais de location de salle**\n  - **Frais de location de matériel** (dans le cadre d'un webinaire)\n\nPas de plafond unique fixé — chaque dossier est examiné individuellement par le CTP.",
+        "plus_formation": "**Démarche** :\nCette demande devra être adressée **au minimum 1 mois avant le démarrage de l'action** ET **minimum 15 jours calendaires avant la date du prochain CTP**. Dates des CTP disponibles sur [www.alisfa.fr](https://www.alisfa.fr).\n\nPour toutes les demandes, **un formulaire PDF est disponible sur le site** [www.alisfa.fr](https://www.alisfa.fr).\n\n**Pièces justificatives à transmettre** :\n- **Formulaire de demande de prise en charge** complété (téléchargeable sur www.alisfa.fr)\n- **Devis nominatif** au nom du porteur du projet concernant :\n  - Les **intervenants extérieurs**\n  - Les **frais annexes des intervenants**\n  - La **location de la salle**\n  - La **location de matériel de webinaire**\n- **Programme** avec les dates de formation\n- Le **tableau préalable frais détaillé demandés** (téléchargeable sur le site internet www.alisfa.fr)\n\n**Procédure d'instruction** :\n1. La demande sera étudiée individuellement par les membres du CTP\n2. Le service technique de la CPNEF transmettra la réponse au porteur du projet par mail à l'issue du CTP\n\n**Pour toutes demandes accordées** : le porteur de la demande devra adresser à la CPNEF par mail sur [cpnef@cpnef.com](mailto:cpnef@cpnef.com) les éléments suivants avant les dates indiquées dans la convention :\n\n**AVANT la réalisation de l'action** :\n- La **convention de « soutien colloque » signée**\n\n**APRÈS la réalisation de l'action** :\n- Le **mémoire de frais** à destination de la « CPNEF-Co Elisfa »\n- Les **factures acquittées** sur les différents champs de dépenses accordés\n- Le **bilan détaillé qualitatif et quantitatif** de l'événement renseigné sur le document préalablement transmis par la CPNEF (modèle transmis par la CPNEF au moment de l'accord de financement)\n- Le **tableau de demande de remboursement** (transmis par la CPNEF au moment de l'accord de financement)\n\n**À noter** : le règlement s'effectuera **après étude du bilan** par les membres du CTP.\n\n**Cas d'usage typiques** :\n- Une fédération régionale de centres sociaux organise une journée thématique sur l'animation collective familles\n- Une tête de réseau ALISFA organise un séminaire annuel sur les politiques jeunesse\n- Un EAJE organise un colloque de sensibilisation sur l'inclusion des enfants en situation de handicap\n- Un centre social porte un événement local sur la médiation interculturelle\n\n**Articulation avec d'autres dispositifs** :\n- **Soutien organisation** (ce dispositif) ≠ **remboursement frais inscription colloque** (article `fin-cpnef-colloques-seminaires-2026`). L'un finance l'organisateur, l'autre rembourse les participants externes.\n- **Co-financement possible** : si l'événement attire d'autres financeurs (CAF, Fondation, mécénat), la CPNEF peut compléter — préciser les co-financements dans le dossier",
+        "vigilance": "**Demande AVANT démarrage** : impossible de financer rétroactivement un événement déjà passé. Anticiper la date du CTP (au moins 1 mois + 15 jours = ~6 semaines avant l'événement).\n\n**Adresse spécifique CPNEF** : `cpnef@cpnef.com` (pas Uniformation).\n\n**Décision après étude bilan** : le règlement de la subvention CPNEF n'intervient **qu'après** la réalisation de l'action ET la réception du bilan complet. Prévoir l'avance de trésorerie (la structure paie d'abord les intervenants, location salle, etc., puis se fait rembourser).\n\n**Convention obligatoire** : avant la réalisation, signer la convention de « soutien colloque » envoyée par la CPNEF. Sans convention signée, pas de remboursement.\n\n**Mémoire de frais et bilan détaillé** : à fournir post-événement avec rigueur (modèle CPNEF). Anticiper le travail administratif post-action (reporting qualitatif + quantitatif).\n\n**Pas de plafond fixe** : permet de financer des événements significatifs (ex. 5 000-10 000 €), mais pas de garantie d'accord — le CTP peut accorder partiellement.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 23-24",
+          "Convention Collective Nationale ALISFA — chapitre VIII article 2.1.6"
+        ],
+        "liens": [
+          {
+            "titre": "Site de branche ALISFA — formulaires et calendrier CTP",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mail CPNEF — soutien organisation — Mail : cpnef@cpnef.com",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Tutoriel création espace privé ALISFA",
+            "url": "https://www.alisfa.fr/actualites/creez-votre-compte-adherent-en-quelques-clics/",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+    {
+      "id": "fin-cpnef-projets-innovants-2026",
+      "_theme_target": "financement_cpnef_0_2",
+      "question_type": "Comment financer un projet de formation innovant ou expérimental dans ma structure en 2026 ?",
+      "mots_cles": [
+        "projets innovants",
+        "expérimentation",
+        "formation innovante",
+        "thématiques émergentes",
+        "innovation territoriale",
+        "innovation parcours",
+        "innovation pédagogique",
+        "fonds CPNEF 0,2%",
+        "CTP",
+        "DFAC",
+        "1 mois avant",
+        "15 jours CTP",
+        "demande inter-structure",
+        "intra-structure",
+        "AFEST",
+        "IA générative",
+        "écologie sociale"
+      ],
+      "structures_concernees": [
+        "EAJE",
+        "centre_social",
+        "ADSL",
+        "EVS",
+        "tete_de_reseau"
+      ],
+      "reponse": {
+        "synthese": "La CPNEF (sur ses fonds 0,2 %) finance des **projets de formation présentant un caractère innovant** sur 4 axes : thématiques émergentes, innovation territoriale, innovation parcours, innovation pédagogique — ou des projets **expérimentaux**. Étude individuelle par le CTP. Possibilité de couvrir **coûts pédagogiques + frais annexes** (hébergement, restauration, déplacements). Demande à adresser **au minimum 1 mois avant le démarrage** ET **15 jours calendaires avant la date du prochain CTP**.",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique CPNEF — financements exceptionnels sur la part 0,2 % de la cotisation conventionnelle. Soutien à l'innovation comme axe stratégique de la branche.",
+        "minimum_legal": "**Objectifs** :\nAction de formation présentant un caractère **innovant ou expérimental**, sur l'un des 4 axes :\n- **Thématiques émergentes** (ex. IA générative en animation socioculturelle, transition écologique en EAJE, accueil enfants neuro-divergents…)\n- **Innovation territoriale** (ex. inter-réseau ALISFA × écoles supérieures, formations en partenariat avec collectivités locales innovantes)\n- **Innovation parcours** (ex. parcours hybrides salarié-bénévole, AFEST entre structures, parcours intersectoriels)\n- **Innovation pédagogique** (ex. format immersif, escape game pédagogique, jeu de rôle, MOOC ALISFA, classe inversée…)\n\n**Toutes thématiques de formation** sont éligibles dès lors que le caractère innovant est démontré.\n\n**Publics éligibles** :\n- Salarié·e·s (tous types de contrats)\n- Bénévoles (dirigeants ou non)\n- Le groupe doit être **majoritairement composé de salariés**\n\n**Prises en charge** :\nPrise en charge **en dehors du plafond annuel de DAF**.\n\nSelon l'examen du dossier par le **CTP**, la prise en charge peut porter sur **tout ou partie** :\n- Les **coûts pédagogiques**\n- Les **frais annexes** : Hébergement, Restauration, Déplacements\n\nPas de plafond fixe — chaque dossier est examiné individuellement par le CTP.",
+        "plus_formation": "**Démarche** :\n- **Solliciter le/la Référent·e Régional·e (RR)** pour vous accompagner dans le montage du dossier\n- OU **saisir directement le formulaire de demande de prise en charge** sur le site de branche [www.alisfa.fr](https://www.alisfa.fr)\n- Saisir **au minimum 1 mois avant le démarrage de l'action** ET **au minimum 15 jours calendaires avant le CTP** (dates des CTP disponibles sur www.alisfa.fr)\n\n**Pièces justificatives à transmettre obligatoirement** :\n- **Formulaire de demande de prise en charge** complété sur le site www.alisfa.fr\n- **Devis nominatif** au nom de la structure portant la demande avec le(s) nom(s) du ou des stagiaires\n- **Programme** avec les dates de formation\n- Les **numéros ICOM** des structures participantes\n\n**La demande de remboursement s'effectue désormais à la CPNEF** et la procédure est la suivante :\n\n**Demande inter-structure** :\n- Remboursement des **frais pédagogiques au porteur de la demande** sur **facture acquittée** (possibilité de remboursements au cours de l'action sur facture)\n- Remboursement des **frais annexes à chaque structure participante** (avance des frais par chacune des structures participantes)\n\n**Demande intra-structure** :\n- Remboursement directement à la structure sur **factures acquittées**\n\n**Cas d'usage typiques pour la branche** :\n- **Thématiques émergentes** :\n  - Formation des animateurs sur l'usage critique de l'IA générative pour la pédagogie\n  - Formation transition écologique des EAJE (alimentation durable, jeux écolos, écoanxiété enfant)\n  - Formation neuroatypies en accueil collectif (TSA, TDA-H, HPI)\n- **Innovation territoriale** :\n  - Formation inter-réseaux ALISFA × Mouvement Associatif × écoles d'animation\n  - Cycle de formation co-animé avec un centre de ressources régional\n- **Innovation parcours** :\n  - Parcours hybride salarié × bénévole avec AFEST croisée\n  - Cycle de formation longue mêlant directeurs EAJE et coordinateurs centres sociaux pour favoriser l'inter-secteur\n- **Innovation pédagogique** :\n  - Escape game sur la gouvernance associative\n  - MOOC ALISFA en visio-conférence\n  - Formation hybride alternant FOAD + immersion en site partenaire (autre structure ALISFA, école…)\n\n**Articulation avec d'autres dispositifs** :\n- Si le projet est moins clairement \"innovant\" mais collectif, basculer en **ACT** (1 800 €/jour, fonds Uniformation, voir article `fin-conv-act-2026`)\n- Si le projet est local et de petite taille, basculer en **DAF Uniformation classique**\n- Le caractère innovant doit être **démontré dans le dossier** : c'est ce qui ouvre les fonds 0,2 % CPNEF",
+        "vigilance": "**Caractère innovant à démontrer** : le dossier doit faire la preuve du caractère innovant (vs simple formation classique). Le CTP est rigoureux sur ce point — préparer un argumentaire solide.\n\n**Délai 1 mois + 15 jours** : prévoir au minimum 6 semaines entre conception du projet et démarrage. Calendrier des CTP sur alisfa.fr.\n\n**Avance de trésorerie** : la structure (porteur ou participantes) paie d'abord les frais pédagogiques et annexes, puis se fait rembourser sur factures acquittées. Anticiper la trésorerie nécessaire.\n\n**Différenciation porteur vs participants** :\n- **Inter-structure** : un porteur centralise + coordonne, plusieurs structures participent (frais annexes au prorata pour chacune)\n- **Intra-structure** : une seule structure, remboursement direct\n\n**Numéros ICOM** : tous les SIRET participants doivent être listés (numéros ICOM de l'espace adhérent Uniformation).\n\n**Bilan post-action attendu** : un bilan qualitatif + quantitatif est demandé pour valider la subvention. Anticiper le travail de reporting.\n\n**Pas de plafond fixe** : permet d'accompagner des projets ambitieux, mais pas de garantie d'accord ni de couverture totale (le CTP peut accorder partiellement).\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 24-25",
+          "Convention Collective Nationale ALISFA — chapitre VIII article 2.1.6"
+        ],
+        "liens": [
+          {
+            "titre": "Site de branche ALISFA — formulaire projets innovants",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mail CPNEF — projets innovants — Mail : cpnef@cpnef.com",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Annuaire Référents Régionaux ALISFA",
+            "url": "https://www.alisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    }
+  ]
+}

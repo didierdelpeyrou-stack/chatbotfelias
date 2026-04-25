@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F5 lot R3 — Fonctions réglementaires Référents CAF principaux (5 articles)",
+    "lot": "R3/R6",
+    "topic": "Référent PS Jeunes, Référent PS ACF, Référent CLAS, Coordination REAAP, Direction centre social agrément CAF",
+    "generated_at": "2026-04-25",
+    "source_principale": "Lettres-circulaires CNAF + agréments CAF Animation Vie Sociale",
+    "theme_target": "fonctions_reglementaires"
+  },
+
+  "articles": [
+
+    {
+      "id": "reg-ref-ps-jeunes-2026",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles qualifications pour être référent·e Prestation de Service Jeunes (PS Jeunes) CAF en 2026 ?",
+      "mots_cles": [
+        "PS Jeunes", "Prestation Service Jeunes",
+        "12 25 ans", "lettre circulaire CNAF",
+        "convention CAF", "espace jeunes",
+        "DEJEPS", "DESJEPS", "BPJEPS",
+        "engagement citoyen", "promeneurs du net",
+        "DUT carrières sociales"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "fonction_reglementaire": "ref_ps_jeunes",
+      "reponse": {
+        "synthese": "Le ou la **Référent·e Prestation de Service Jeunes (PS Jeunes)** anime un dispositif CAF dédié aux **jeunes de 12 à 25 ans** dans une structure ALISFA conventionnée. Encadré par la **lettre-circulaire CNAF dédiée**. Profils acceptés : **DEJEPS, DESJEPS, BPJEPS, DUT Carrières sociales option animation**, ou diplôme du champ médico-social Bac+3 (DEEJE, DEES, DECESF) avec expérience jeunesse ≥ 3 ans. Lien fort avec les **Promeneurs du Net** (présence éducative numérique).",
+        "fondement_legal": "Convention partenariale CAF — Lettre-circulaire CNAF Prestation de Service Jeunes (PS Jeunes). Dispositif politique jeunesse du référentiel d'animation socio-éducative CAF.",
+        "minimum_legal": "**Cadre général** :\nLa Prestation de Service Jeunes (PS Jeunes) est un dispositif de soutien financier de la CAF aux structures qui développent des projets d'animation, d'accompagnement et d'engagement à destination des jeunes de **12 à 25 ans**.\n\n**Conditions de qualification du référent·e PS Jeunes** :\n- **DEJEPS Animation Socio-Éducative ou Culturelle** (Bac+2) — RNCP 4900\n- **DESJEPS** (Bac+3) — RNCP 4910 — souvent demandé pour les structures importantes\n- **BPJEPS animateur** (Bac) — RNCP 28557 — pour les petites structures\n- **DUT Carrières Sociales** option animation socio-culturelle\n- **Diplôme du champ médico-social Bac+3** (DEEJE, DEES, DECESF) avec expérience jeunesse minimum **3 ans**\n- **Master** Sciences sociales / Politiques publiques / Animation territoriale + expérience\n\n**Missions principales** :\n- Conception et conduite du **projet jeunesse** de la structure\n- Animation d'un **espace jeunes** (local, horaires, projets)\n- Accompagnement individuel et collectif des **jeunes 12-25 ans**\n- Animation de la participation citoyenne (Conseils de jeunes, projets ado-citoyens)\n- Développement des **dispositifs d'engagement** : Service Civique, Junior Association, projets jeunes, FONJEP\n- **Présence éducative en ligne** via les Promeneurs du Net (formation spécifique)\n- Liaison avec les partenaires : Mission Locale, France Travail, lycées, conseil départemental jeunesse, ANCT\n- Suivi de la **Prestation de Service Jeunes CAF** (bilans qualitatifs, données quantitatives)\n\n**Articulation avec les ACM** :\n- Si l'action inclut un **Accueil de Jeunes 14-17 ans** (ACM), conditions du Code action sociale L227 s'appliquent en plus (cf. article `reg-direction-accueil-jeunes`)\n- Le ou la référent·e PS Jeunes peut cumuler avec la direction de l'Accueil de Jeunes si qualifications compatibles\n\n**Volume horaire** : variable selon le projet (1 ETP en centre social important, 0,5 ETP en plus petite structure).",
+        "plus_formation": "**Évolutions et passerelles** :\n- **Coordinateur·trice jeunesse** (plusieurs PS Jeunes territoriaux)\n- **Référent·e politique de la ville jeunesse** (en QPV)\n- **Animateur·trice de Promeneurs du Net** (numérique éducatif)\n- **Responsable de pôle jeunesse** dans une fédération\n- Mobilité vers les **Missions Locales** ou la **fonction publique territoriale jeunesse**\n\n**Modes de financement** :\n- Apprentissage BPJEPS / DEJEPS / DESJEPS (8 357 / 9 551 / 8 966 €)\n- DAF certifiante 2026 : 15 €/h pour formations RNCP ≥ 70h\n- VAE BPJEPS / DEJEPS / DESJEPS : 3 000-5 000 €\n- CPF du salarié\n- DAF formations continues : posture éducative ado, Promeneurs du Net, prévention addictions, santé mentale jeunes, engagement citoyen, IA éducative\n\n**Spécialisations utiles** :\n- **Promeneurs du Net** : présence éducative en ligne (Facebook, Instagram, Snapchat, Discord) pour les jeunes\n- **Junior Association** : accompagnement de projets initiés par des jeunes mineurs\n- **Service Civique** : agrément structure + tutorat de jeunes en service civique\n- **Engagement citoyen** : projets associatifs, écologie, solidarité internationale",
+        "obligations_formation": "DEJEPS, DESJEPS, BPJEPS, DUT Carrières sociales option animation, ou diplôme du champ médico-social Bac+3 (DEEJE, DEES, DECESF) avec expérience jeunesse minimum 3 ans. Vérifier la lettre-circulaire CNAF PS Jeunes en vigueur au moment du recrutement.",
+        "accompagnement_obligatoire": "**Liaison régulière avec la CAF** : conseiller·ère technique CAF qui suit le projet PS Jeunes (généralement 2-3 rencontres par an). **Bilan annuel qualitatif et quantitatif** à transmettre à la CAF. **Comité de pilotage local** annuel avec les partenaires (mairie, département, lycées). Pas de tutorat formel imposé.",
+        "vigilance": "**Conditions strictes selon lettre-circulaire CNAF** : la PS Jeunes est conditionnée à la conformité aux exigences CAF (qualifications référent, projet écrit, cible 12-25 ans, partenariats). Vérifier la conformité régulièrement.\n\n**Lettre-circulaire évolutive** : la CNAF actualise la lettre-circulaire PS Jeunes tous les 3-5 ans. Vérifier la version en vigueur sur caf.fr avant tout dépôt de dossier ou renouvellement.\n\n**Différence PS Jeunes vs ALSH 14-17 ans** : la PS Jeunes finance l'**activité animation jeunesse** (projets, accompagnement, engagement). L'ALSH 14-17 ans est un dispositif **ACM régi par le Code action sociale L227**. Les deux peuvent coexister pour la même structure mais avec des cadres différents.\n\n**Promeneurs du Net** : présence numérique = **temps de travail** identifiable (planning, outils, échanges enregistrés). Pas une activité personnelle. Formation et procédure de signalement obligatoires.\n\n**Mineurs et numérique** : vigilance sur le RGPD, les images publiées, la protection de l'identité des mineurs. Charte d'usage à formaliser avec les jeunes et les parents.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier la lettre-circulaire CNAF PS Jeunes en vigueur sur caf.fr.",
+        "sources": [
+          "Lettre-circulaire CNAF Prestation de Service Jeunes (PS Jeunes)",
+          "Convention partenariale CAF / structure ALISFA",
+          "Référentiels DEJEPS, DESJEPS, BPJEPS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "CAF — Prestation de Service Jeunes", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "Promeneurs du Net", "url": "https://www.promeneursdunet.fr/", "type": "officiel"},
+          {"titre": "Réseau National Junior Association", "url": "https://www.juniorassociation.org/", "type": "officiel"},
+          {"titre": "Service Civique — Agrément structure", "url": "https://www.service-civique.gouv.fr/structures-accueil", "type": "officiel"},
+          {"titre": "Référentiel DEJEPS — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/4900/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité aux exigences de la lettre-circulaire CNAF Prestation de Service Jeunes en vigueur avant tout recrutement définitif. Sans conformité, refus du financement PS Jeunes par la CAF. En cas de doute, contacter votre conseiller·ère technique CAF.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF PS Jeunes + référentiels JEPS"
+      }
+    },
+
+    {
+      "id": "reg-ref-ps-acf-2026",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles qualifications pour être référent·e Animation Collective Familles (PS ACF) CAF en 2026 ?",
+      "mots_cles": [
+        "PS ACF", "Animation Collective Familles",
+        "référent famille", "lettre circulaire CNAF",
+        "centres sociaux agrément", "soutien parentalité",
+        "DESJEPS", "DEJEPS", "DECESF", "DEEJE", "DEES",
+        "Master parentalité", "projet famille",
+        "REAAP CLAS LAEP"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "fonction_reglementaire": "ref_ps_acf",
+      "reponse": {
+        "synthese": "Le ou la **Référent·e Animation Collective Familles (ACF, ex « Référent·e Famille »)** anime le projet famille d'un centre social ou d'un EVS conventionné CAF. Fonction obligatoire pour bénéficier de la **Prestation de Service ACF**. Profils : **DESJEPS, DEJEPS, DECESF, DEEJE, DEES** ou **Master** dans le champ social/parentalité, avec **expérience famille/parentalité ≥ 2-3 ans**. Articulation avec dispositifs CAF parentalité : LAEP, REAAP, CLAS, médiation familiale.",
+        "fondement_legal": "Convention partenariale CAF — Lettre-circulaire CNAF Animation Vie Sociale (centres sociaux et EVS) + dispositif Prestation de Service Animation Collective Familles. Cadre référentiel CAF parentalité.",
+        "minimum_legal": "**Cadre général** :\nLa Prestation de Service Animation Collective Familles (PS ACF) finance le projet famille d'un centre social ou d'un EVS, à côté de la Prestation de Service Animation Globale et Coordination (PS AGC). Le ou la **Référent·e ACF** est le ou la professionnel·le clé de cette fonction.\n\n**Conditions de qualification du Référent·e ACF** (lettre-circulaire CNAF) :\n- **DEJEPS Animation Socio-Éducative ou Culturelle** (Bac+2) — RNCP 4900\n- **DESJEPS** (Bac+3) — RNCP 4910\n- **DECESF** (Conseiller·ère en Économie Sociale Familiale, Bac+3) — RNCP 37678\n- **DEEJE** (Éducateur·trice de Jeunes Enfants, Bac+3) — RNCP 38608\n- **DEES** (Éducateur·trice Spécialisé·e, Bac+3) — RNCP 37676\n- **DEASS** (Assistant·e de Service Social, Bac+3) — RNCP 28741\n- **Master** dans le champ : Sciences sociales, Sciences de l'éducation, Politiques familiales, Sociologie de la famille\n- **Diplôme équivalent Bac+3** dans le champ médico-social ou socio-éducatif\n\n**Expérience minimum** : généralement **2-3 ans d'expérience** dans le champ famille / parentalité requise.\n\n**Missions principales** :\n- Conception et pilotage du **projet famille** de la structure (en lien avec le projet social global)\n- Animation des actions collectives :\n  - **Ateliers parents-enfants**\n  - **Sorties familiales**\n  - **Conférences-débats parentalité**\n  - **Groupes de parole** parents\n  - **Vacances en familles** (projets type \"Vacances Sociales\")\n- Coordination des dispositifs CAF parentalité présents dans la structure :\n  - **LAEP** (Lieu d'Accueil Enfants-Parents) — voir article `reg-animation-laep`\n  - **REAAP** (Réseau Écoute Appui Parents) — voir article `reg-coordination-reaap`\n  - **CLAS** (Contrat Local Accompagnement Scolarité) — voir article `reg-ref-clas`\n  - **Médiation familiale** — voir article `reg-mediation-familiale`\n- Accompagnement individuel des familles vers les services adaptés\n- Liaison avec les partenaires : CAF, conseil départemental (PMI / Aide Sociale Enfance), mairie, écoles, associations parentales\n- Bilans qualitatif et quantitatif annuels CAF\n\n**Volume horaire** :\n- Minimum **0,5 ETP** dans un EVS (souvent 0,5-0,8 ETP)\n- **1 ETP** dans un centre social important",
+        "plus_formation": "**Évolutions et passerelles** :\n- **Direction de centre social** (avec DESJEPS / DEIS / Master direction ESS)\n- **Coordination de pôle parentalité** dans une fédération régionale\n- **Médiateur·trice familial·e** (avec DEMF — voir article `reg-mediation-familiale`)\n- **Conseiller·ère conjugal·e familial·e (CCF)** — voir article `reg-ccf-conseil-conjugal`\n- Mobilité vers la CAF (conseiller·ère technique parentalité) — hors champ ALISFA\n\n**Modes de financement** :\n- Apprentissage DEJEPS / DESJEPS / DECESF / DEEJE / DEES (forfaits coût-contrat ALISFA)\n- DAF certifiante 2026 : 15 €/h pour formations RNCP ≥ 70h\n- VAE : 3 000-5 000 €\n- CPF du salarié\n- DAF formations continues : médiation familiale, neuro-parentalité, communication non-violente, pédagogie positive, IA et parentalité, addictions, écoanxiété parents, parentalité numérique\n\n**Spécialisations recommandées** :\n- **Médiation familiale** (DEMF) pour aller vers le métier de médiateur familial\n- **Conseil conjugal et familial (CCF)** pour les profils thérapeutiques\n- **Animation REAAP** pour coordonner un réseau parentalité local\n- **Animation LAEP** (formation thématique LAEP)",
+        "obligations_formation": "DEJEPS, DESJEPS, DECESF, DEEJE, DEES, DEASS, Master en sciences sociales / éducatives, ou diplôme équivalent Bac+3 dans le champ médico-social. Expérience famille/parentalité minimum 2-3 ans recommandée.",
+        "accompagnement_obligatoire": "**Liaison régulière avec la CAF** : conseiller·ère technique CAF qui suit le projet ACF (2-3 rencontres par an). **Bilan annuel** qualitatif et quantitatif à transmettre à la CAF. **Comité de pilotage parentalité local** annuel avec partenaires.",
+        "vigilance": "**Articulation avec PS AGC** : la PS ACF est conditionnée à l'existence d'une PS AGC (centre social ou EVS conventionné). Une structure non conventionnée AGC ne peut pas bénéficier seule de la PS ACF.\n\n**Référent·e ACF distinct·e du directeur·rice** : sauf petites structures, il est recommandé que le ou la Référent·e ACF soit distinct·e du directeur·rice (séparation des fonctions stratégique et opérationnelle).\n\n**Coordination dispositifs parentalité** : le ou la Référent·e ACF a un rôle d'**intégration** des dispositifs CAF parentalité (LAEP, REAAP, CLAS, médiation familiale) plutôt que de les empiler. Vision projet globale.\n\n**Posture neutre** : pas d'animation de groupes thérapeutiques (sauf si le ou la Référent·e a la qualification spécifique CCF / DEMF). En cas de besoin thérapeutique, orientation vers les professionnels adaptés.\n\n**Confidentialité** : situation familiale parfois sensible. Code de déontologie associatif à formaliser avec l'équipe.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier la lettre-circulaire CNAF PS ACF en vigueur sur caf.fr.",
+        "sources": [
+          "Lettre-circulaire CNAF Animation Vie Sociale + Animation Collective Familles",
+          "Convention partenariale CAF / centre social",
+          "Référentiels DEJEPS, DESJEPS, DECESF, DEEJE, DEES — France Compétences"
+        ],
+        "liens": [
+          {"titre": "CAF — Animation Vie Sociale (centres sociaux + EVS)", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "FCSF — Fédération des Centres Sociaux", "url": "https://www.centres-sociaux.fr/", "type": "officiel"},
+          {"titre": "monenfant.fr — Parentalité", "url": "https://monenfant.fr/", "type": "officiel"},
+          {"titre": "Référentiel DECESF — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/37678/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité aux exigences de la lettre-circulaire CNAF Animation Collective Familles avant tout recrutement définitif. Sans conformité, refus du financement PS ACF. En cas de doute, contacter votre conseiller·ère technique CAF.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF AVS + ACF"
+      }
+    },
+
+    {
+      "id": "reg-ref-clas",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles qualifications pour être référent·e CLAS (Contrat Local Accompagnement Scolarité) en 2026 ?",
+      "mots_cles": [
+        "CLAS", "Contrat Local Accompagnement Scolarité",
+        "accompagnement scolaire", "lettre circulaire CNAF",
+        "réseau bénévoles", "animateurs CLAS",
+        "BPJEPS", "DEJEPS", "DECESF",
+        "expérience accompagnement scolaire",
+        "élèves primaire collège"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "fonction_reglementaire": "ref_clas",
+      "reponse": {
+        "synthese": "Le ou la **Référent·e CLAS (Contrat Local d'Accompagnement à la Scolarité)** coordonne un dispositif d'accompagnement scolaire pour les enfants et adolescents en difficulté, en partenariat avec les écoles. Encadré par la **lettre-circulaire CNAF CLAS**. Profils : DEJEPS / DESJEPS / DECESF / DEEJE / DEES + expérience accompagnement scolaire ou éducation populaire. Mobilise des **équipes mixtes salariés-bénévoles**. Soutien à la parentalité indirect via la fonction de relais école-famille.",
+        "fondement_legal": "Convention partenariale CAF — Lettre-circulaire CNAF Contrat Local d'Accompagnement à la Scolarité (CLAS). Charte nationale CLAS publiée par la CNAF + Direction Générale de la Cohésion Sociale.",
+        "minimum_legal": "**Cadre général** :\nLe CLAS est un dispositif partenarial CAF / Éducation nationale / structures d'éducation populaire qui propose aux **élèves volontaires** (primaire, collège, parfois lycée) un accompagnement à la scolarité hors temps scolaire. Pas du soutien scolaire au sens strict (révisions matières), mais une **approche globale** : aide aux devoirs, ouverture culturelle, lien école-famille.\n\n**Conditions de qualification du Référent·e CLAS** (lettre-circulaire CNAF CLAS) :\n- **BPJEPS animateur** (Bac, RNCP 28557) — pour petites structures\n- **DEJEPS Animation Socio-Éducative** (Bac+2, RNCP 4900)\n- **DESJEPS** (Bac+3, RNCP 4910) — recommandé pour structures importantes\n- **DECESF** (Conseiller·ère ESF, Bac+3, RNCP 37678)\n- **DEEJE** (Bac+3, RNCP 38608)\n- **DEES** (Bac+3, RNCP 37676)\n- **DEASS** (Bac+3, RNCP 28741)\n- **Master** Sciences de l'éducation, Sciences sociales\n- **Enseignant·e** retraité·e ou en disponibilité avec expérience accompagnement scolaire\n\n**Missions principales** :\n- **Coordination du dispositif CLAS** (réunions, planning, locaux, matériel)\n- **Recrutement, formation et accompagnement** des animateurs salariés et bénévoles\n- **Liaison école-famille** : rendez-vous avec les enseignants, suivi des élèves, communication aux parents\n- **Conduite de projet pédagogique CLAS** :\n  - Aide aux devoirs structurée\n  - Activités culturelles, artistiques, sportives\n  - Ouverture sur l'environnement (sorties, rencontres)\n  - Soutien à la parentalité (entretiens, ateliers parents)\n- **Bilans qualitatifs et quantitatifs** annuels CAF\n- **Liaison avec partenaires** : écoles, collèges, mairie, conseil départemental\n\n**Composition équipe CLAS** :\n- **Animateurs salariés** (souvent à temps partiel, en binôme avec des bénévoles)\n- **Bénévoles** (étudiants, retraités, parents) — formation initiale CLAS recommandée\n- Encadrement maximum : **1 animateur pour 6-8 enfants**\n\n**Volume horaire référent·e** :\n- 0,1-0,2 ETP pour les petits dispositifs (1-2 groupes)\n- 0,5 ETP pour des dispositifs moyens (5-10 groupes)\n- Souvent cumulé avec une autre fonction (référent·e ACF, animateur·trice, intervenant·e social·e)",
+        "plus_formation": "**Évolutions et passerelles** :\n- **Référent·e ACF** (Animation Collective Familles) — voir article `reg-ref-ps-acf-2026`\n- **Coordinateur·trice de pôle éducatif** dans une structure plus large\n- Mobilité vers les **dispositifs PRE (Programme de Réussite Éducative)** des municipalités\n- Mobilité vers la **fonction publique territoriale** (animateur territorial éducatif)\n\n**Modes de financement** :\n- Apprentissage BPJEPS / DEJEPS / DESJEPS / DECESF / DEEJE / DEES\n- DAF certifiante 2026\n- VAE\n- CPF\n- DAF formations continues : pédagogie de l'accompagnement, posture éducative ado, animation bénévoles, médiation école-famille, cahier des charges CLAS\n\n**Cas typique en branche ALISFA** :\n- Centre social en QPV avec 8 groupes CLAS (CP-CE2 + CM1-CM2 + 6e + 5e + 4e + 3e), équipe mixte 4 animateurs salariés + 12 bénévoles, dispositif coordonné par la référente ACF qui cumule la fonction CLAS",
+        "obligations_formation": "BPJEPS, DEJEPS, DESJEPS, DECESF, DEEJE, DEES, DEASS, Master en sciences éducatives ou sociales, ou diplôme équivalent + expérience en accompagnement scolaire ou éducation populaire.",
+        "accompagnement_obligatoire": "**Charte nationale CLAS** signée par la structure (engagement sur les principes du dispositif). **Comité de pilotage local** annuel avec partenaires (école, mairie, CAF, parents). **Bilan annuel** à transmettre à la CAF. Pas de tutorat formel imposé pour le ou la référent·e.",
+        "vigilance": "**Pas du soutien scolaire au sens strict** : le CLAS n'est PAS du cours particulier ni de la révision matière. C'est un accompagnement global avec dimension éducative, culturelle, sociale. Bien former les animateurs et bénévoles à cette posture (souvent un angle mort).\n\n**Liaison école-famille délicate** : posture diplomatique (ne pas se substituer aux enseignants, ne pas juger les familles). Médiation et co-éducation.\n\n**Bénévoles non formés = risque** : un·e bénévole non formé·e peut induire en erreur (méthodes scolaires obsolètes, posture évaluative). Formation initiale CLAS et accompagnement régulier indispensables.\n\n**Charte nationale CLAS** : signée et respectée. Vérifier la version en vigueur sur le site CNAF.\n\n**Articulation Programme de Réussite Éducative (PRE)** : sur certains territoires, le PRE municipal complète le CLAS. Coordination utile mais distincte.\n\n**Texte en vigueur au 25 avril 2026.**",
+        "sources": [
+          "Lettre-circulaire CNAF Contrat Local d'Accompagnement à la Scolarité (CLAS)",
+          "Charte nationale CLAS — CNAF / DGCS",
+          "Référentiels JEPS et médico-sociaux — France Compétences"
+        ],
+        "liens": [
+          {"titre": "CAF — Contrat Local d'Accompagnement à la Scolarité (CLAS)", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "Charte CLAS nationale (CNAF)", "url": "https://www.caf.fr/sites/default/files/cnaf/charte-nationale-clas.pdf", "type": "officiel"},
+          {"titre": "FCSF — Fédération des Centres Sociaux", "url": "https://www.centres-sociaux.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF CLAS + Charte nationale"
+      }
+    },
+
+    {
+      "id": "reg-coordination-reaap",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles qualifications pour coordonner un REAAP (Réseau Écoute Appui Parents) en 2026 ?",
+      "mots_cles": [
+        "REAAP", "Réseau Écoute Appui Parents",
+        "coordination parentalité", "lettre circulaire CNAF",
+        "animation réseau", "actions parentalité",
+        "DEJEPS", "DESJEPS", "DECESF",
+        "Master sciences sociales",
+        "soutien parentalité territoires"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS", "tete_de_reseau"],
+      "fonction_reglementaire": "coordination_reaap",
+      "reponse": {
+        "synthese": "Le ou la **coordinateur·trice REAAP (Réseau d'Écoute, d'Appui et d'Accompagnement des Parents)** anime un réseau territorial d'acteurs de la parentalité (associations, centres sociaux, services CAF, écoles, PMI) sur un département ou une région. Encadré par la **lettre-circulaire CNAF REAAP**. Profils : DESJEPS, DEJEPS, DECESF, Master Sciences sociales / Politiques familiales + **expérience parentalité ≥ 3 ans**. Pas un poste opérationnel mais de **coordination réseau**.",
+        "fondement_legal": "Lettre-circulaire CNAF REAAP. Charte nationale REAAP publiée par la CNAF / Direction Générale de la Cohésion Sociale. Convention CAF départementale + structure porteuse.",
+        "minimum_legal": "**Cadre général** :\nLe REAAP est un dispositif partenarial créé en 1999 (circulaire ministérielle), animé par les CAF départementales avec une structure porteuse opérationnelle (souvent une fédération ALISFA, un centre ressources, ou une association tête de réseau parentalité).\n\nObjectif : **soutenir les parents dans leur fonction parentale** par la mise en réseau d'acteurs locaux et le financement d'actions parentalité.\n\n**Conditions de qualification du coordinateur·trice REAAP** :\n- **DESJEPS** (Bac+3, RNCP 4910) — recommandé\n- **DEJEPS** (Bac+2, RNCP 4900)\n- **DECESF** (Bac+3, RNCP 37678)\n- **DEEJE** (Bac+3, RNCP 38608)\n- **DEES** (Bac+3, RNCP 37676)\n- **DEASS** (Bac+3, RNCP 28741)\n- **DE Médiateur Familial (DEMF)** — voir article `reg-mediation-familiale`\n- **Master 2** : Sciences sociales, Sciences de l'éducation, Politiques familiales\n- **Diplôme équivalent Bac+5** dans le champ médico-social ou socio-éducatif\n\n**Expérience minimum** : généralement **3 ans dans le champ parentalité** ou animation de réseau.\n\n**Missions principales** :\n- **Animation du réseau parentalité** sur le territoire (département ou région) :\n  - Identification et mobilisation des acteurs (associations, services publics, professionnels libéraux)\n  - Organisation de **rencontres réseau** (réunions, journées d'échange de pratiques, formations)\n  - Diffusion d'**outils méthodologiques** (charte REAAP, guides, ressources)\n- **Pilotage des appels à projets parentalité** :\n  - Lancement et suivi de l'AAP REAAP départemental\n  - Accompagnement des porteurs de projet\n  - Suivi du financement et des bilans\n- **Promotion de la parentalité** :\n  - Communication grand public (Semaine de la Parentalité)\n  - Plaidoyer auprès des décideurs locaux\n- **Liaison institutionnelle** :\n  - CAF (suivi régulier)\n  - Conseil départemental (PMI, ASE)\n  - Préfecture, ARS, Éducation nationale\n  - Fédérations associatives\n\n**Volume horaire** : généralement **0,5 à 1 ETP** selon la taille du département et l'ampleur du REAAP.\n\n**Lieu d'exercice** :\n- Souvent dans une **fédération régionale** ou **tête de réseau ALISFA**\n- Parfois directement dans la **CAF départementale** (mais hors champ ALISFA)\n- Plus rarement dans un grand centre social qui porte le REAAP",
+        "plus_formation": "**Évolutions et passerelles** :\n- **Direction d'un pôle parentalité** dans une fédération régionale\n- **Conseiller·ère technique CAF parentalité** (mobilité vers la CAF, hors champ ALISFA)\n- **Médiateur·trice familial·e** (avec DEMF)\n- **Chargé·e de mission parentalité** dans une collectivité territoriale\n- **Délégué·e fédéral·e** d'un réseau ALISFA\n\n**Modes de financement** :\n- DAF certifiante 2026 : 15 €/h pour Master ≥ 70h\n- VAE Master : 3 000-5 000 €\n- CPF du salarié\n- DAF formations continues : animation de réseau, pilotage d'AAP, méthodologie d'évaluation parentalité, communication associative, IA et coordination réseau\n\n**Spécialisations utiles** :\n- **Médiation familiale** (DEMF)\n- **Conseil conjugal et familial (CCF)**\n- **Évaluation d'impact social** sur les politiques de parentalité",
+        "obligations_formation": "DESJEPS, DEJEPS, DECESF, DEEJE, DEES, DEASS, DE Médiateur Familial, ou Master en sciences sociales/éducatives/politiques familiales, avec expérience parentalité minimum 3 ans recommandée.",
+        "accompagnement_obligatoire": "**Liaison régulière avec la CAF départementale** (2-4 rencontres/an avec le ou la chargé·e de mission CAF parentalité). **Comité de pilotage REAAP** annuel avec partenaires institutionnels (CAF, conseil départemental, préfecture, ARS, Éducation nationale). **Bilan qualitatif et quantitatif annuel** transmis à la CAF.",
+        "vigilance": "**Pas un poste opérationnel** : le REAAP coordonne et anime un réseau, ne porte pas directement les actions parentalité. Bien distinguer du référent·e ACF (opérationnel sur une structure).\n\n**Charte REAAP** : signée par la structure porteuse. Vérifier la version en vigueur (CNAF actualise tous les 5-7 ans).\n\n**Articulation avec autres dispositifs CAF parentalité** :\n- LAEP (animation accueil enfants-parents)\n- CLAS (accompagnement scolaire)\n- ACF (Animation Collective Familles)\n- Médiation familiale\n→ Le REAAP **fédère et coordonne**, ne se substitue pas\n\n**Subvention REAAP territoriale** : les ressources financières du REAAP sont limitées. Le coordinateur·trice doit prioriser les projets et arbitrer.\n\n**Posture réseau** : difficile équilibre entre soutien aux acteurs et exigence (qualité des projets, conformité). Compétences en facilitation, médiation, communication non-violente utiles.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier la lettre-circulaire CNAF REAAP en vigueur sur caf.fr.",
+        "sources": [
+          "Lettre-circulaire CNAF REAAP",
+          "Charte nationale REAAP — CNAF / DGCS",
+          "Circulaire ministérielle 1999 (création du REAAP)"
+        ],
+        "liens": [
+          {"titre": "CAF — REAAP (Réseau Écoute Appui Parents)", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "monenfant.fr — Soutien à la parentalité", "url": "https://monenfant.fr/", "type": "officiel"},
+          {"titre": "FNEPE — Fédération Nationale des Écoles des Parents", "url": "https://www.ecoledesparents.org/", "type": "officiel"},
+          {"titre": "UNAF — Union Nationale des Associations Familiales", "url": "https://www.unaf.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF REAAP + Charte nationale"
+      }
+    },
+
+    {
+      "id": "reg-direction-centre-social",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles conditions pour diriger un centre social agréé CAF en 2026 ?",
+      "mots_cles": [
+        "direction centre social", "agrément CAF",
+        "lettre circulaire AVS", "Animation Vie Sociale",
+        "DESJEPS", "DEIS", "Master direction ESS",
+        "projet social", "renouvellement 4 ans",
+        "habitants co-construction"
+      ],
+      "structures_concernees": ["centre_social"],
+      "fonction_reglementaire": "direction_centre_social",
+      "reponse": {
+        "synthese": "Diriger un **centre social agréé CAF** implique un cadre spécifique : **Lettre-circulaire CNAF Animation de la Vie Sociale (AVS)** + **agrément CAF** délivré pour 4 ans renouvelable, conditionné à un **projet social co-construit avec les habitants**. Diplômes : **DESJEPS, DEIS, Master Direction ESS, ou équivalents** Bac+5 dans le champ médico-social/animation. Agrément CAF distinct du diplôme — c'est la qualité du projet social qui détermine son obtention.",
+        "fondement_legal": "Lettre-circulaire CNAF Animation de la Vie Sociale (AVS) — référentiel des centres sociaux et EVS. Circulaire CNAF n° 2012-013 (modifiée). Convention partenariale CAF / structure gestionnaire du centre social.",
+        "minimum_legal": "**Cadre général** :\nUn **centre social** est une structure de proximité agréée par la CAF, ayant pour vocation l'animation globale de la vie sociale d'un quartier ou territoire, dans une logique de **co-construction avec les habitants**.\n\n**Agrément CAF Animation de la Vie Sociale (AVS)** :\n- Délivré par la **CAF départementale** pour **4 ans renouvelables**\n- Conditionné à un **projet social** co-construit avec les habitants, l'équipe salariée et les administrateurs bénévoles\n- Validé par la commission d'agrément AVS de la CAF\n- Donne droit à la **Prestation de Service Animation Globale et Coordination (PS AGC)** + autres PS (ACF, LAEP, REAAP, CLAS)\n\n**Conditions de qualification du directeur·rice de centre social** :\n- **DESJEPS** (Bac+3, RNCP 4910) — souvent admis pour les centres sociaux moyens\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale, Bac+5)\n- **CAFDES** (Certificat d'Aptitude aux Fonctions de Directeur d'Établissement Social et de service social, Bac+5)\n- **Master 2 Direction ESS** ou Management associatif\n- **Master 2 Politiques sociales** ou Sciences de l'éducation / Sciences sociales\n- **Diplôme équivalent Bac+5** dans le champ médico-social/animation territoriale\n- Pour les centres sociaux importants (>30 salariés) : Master 2 + 5-7 ans expérience\n\n**Pas de diplôme spécifique \"directeur·rice de centre social\"** — c'est une fonction reposant sur des diplômes de niveau Bac+5 du champ social/animation + expérience.\n\n**Missions principales** :\n- **Élaboration et conduite du projet social** :\n  - Diagnostic territorial (habitants, atouts, besoins)\n  - Concertation avec les habitants (commissions, conseils citoyens)\n  - Co-construction du projet (5-7 axes stratégiques)\n  - Validation CAF lors du renouvellement de l'agrément\n- **Pilotage opérationnel du centre social** :\n  - Encadrement de l'équipe (souvent 10-30 salariés)\n  - Suivi des secteurs : animation globale, famille, jeunesse, animation collective\n  - Pilotage budgétaire (2-3 M€ annuels typiquement)\n  - Gouvernance avec le Conseil d'Administration et les bénévoles\n- **Représentation institutionnelle** :\n  - CAF, mairie, conseil départemental, préfecture\n  - Fédération régionale et nationale (FCSF)\n  - Partenaires (écoles, associations, entreprises locales)\n- **Animation de la vie associative** :\n  - Bénévoles, adhérents, conseils citoyens\n  - AG annuelle, animation du Conseil d'Administration\n- **Suivi des dispositifs CAF spécifiques** :\n  - PS AGC, PS ACF, PS Jeunes, PS LAEP, REAAP, CLAS\n\n**Lieux d'exercice** :\n- Centres sociaux urbains, péri-urbains, ruraux\n- Centres sociaux de quartier (en QPV) avec dimension politique de la ville\n- Centres sociaux thématiques (intergénérationnels, ruraux)",
+        "plus_formation": "**Évolutions et passerelles** :\n- **Délégué·e fédéral·e** régional·e ou national·e (FCSF, fédération ALISFA)\n- **Direction de centre social plus important** (mobilité)\n- **Conseiller·ère technique CAF** (animation de la vie sociale)\n- **Cabinet ministériel / DGCS / ANCT** (mobilité fonction publique)\n- **Consultant·e indépendant·e** (création/renouvellement projet social)\n\n**Modes de financement** :\n- Apprentissage DESJEPS : 8 966 €\n- DAF certifiante 2026 : 15 €/h pour DEIS / CAFDES / Master direction ESS\n- VAE : 3 000-5 000 € (parcours coordinateur·trice → directeur·rice)\n- CPF (DESJEPS, DEIS, CAFDES, Master direction ESS éligibles)\n- PCRH Uniformation : pour préparer la succession\n- DAF formations continues : management bienveillant, conduite du changement, dialogue social, animation de la gouvernance, IA et direction associative, plaidoyer politique, projet social et démarche participative",
+        "obligations_formation": "DESJEPS, DEIS, CAFDES, Master 2 Direction ESS / Politiques sociales / Sciences sociales / Sciences de l'éducation, ou diplôme équivalent Bac+5. **Pas de diplôme imposé strictement par la lettre-circulaire CAF** — l'agrément CAF est conditionné à la qualité du projet social, pas au diplôme du directeur. Mais en pratique, les CAF valident les profils Bac+5 du champ.",
+        "accompagnement_obligatoire": "**Liaison régulière avec la CAF** : conseiller·ère technique CAF qui suit le centre social (3-4 rencontres/an, plus à l'approche du renouvellement d'agrément). **Renouvellement de l'agrément AVS tous les 4 ans** : démarche structurante (6-9 mois de travail) qui implique la direction, l'équipe, les habitants, les administrateurs bénévoles.",
+        "vigilance": "**Agrément CAF AVS NON DÉFINITIF** : renouvelable tous les 4 ans. Sans renouvellement, perte de la PS AGC qui peut représenter 30-50 % du budget du centre social. Anticiper le renouvellement 12-18 mois avant.\n\n**Co-construction avec les habitants** : c'est la pierre angulaire du projet social. Pas une simple consultation. Démarches participatives sérieuses (assemblées d'habitants, commissions thématiques, observatoires citoyens).\n\n**Distinction direction politique vs direction salariée** : le ou la directeur·rice salarié·e travaille sous l'autorité du Conseil d'Administration (bénévoles élus). La présidence (bénévole) représente politiquement, le directeur (salarié) pilote opérationnellement. Bien clarifier les délégations.\n\n**Politique de la ville / QPV** : si le centre social est en QPV, articulation forte avec le contrat de ville (ANCT, mairie). Engagement sur des objectifs spécifiques (insertion, jeunesse, parentalité).\n\n**Fédération ALISFA** : appartenance à une fédération régionale ou nationale (FCSF, fédération régionale ALISFA) souvent recommandée pour mutualiser les ressources, formations, plaidoyer.\n\n**Texte en vigueur au 25 avril 2026.** Vérifier la lettre-circulaire CNAF AVS en vigueur sur caf.fr.",
+        "sources": [
+          "Lettre-circulaire CNAF Animation de la Vie Sociale (AVS)",
+          "Circulaire CNAF n° 2012-013 (modifiée)",
+          "Charte fédérale des centres sociaux — FCSF",
+          "Référentiels DESJEPS, DEIS, CAFDES — France Compétences"
+        ],
+        "liens": [
+          {"titre": "CAF — Animation de la Vie Sociale (centres sociaux + EVS)", "url": "https://www.caf.fr/", "type": "officiel"},
+          {"titre": "FCSF — Fédération des Centres Sociaux de France", "url": "https://www.centres-sociaux.fr/", "type": "officiel"},
+          {"titre": "Référentiel DESJEPS — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/4910/", "type": "officiel"},
+          {"titre": "ANCT — Politique de la ville et centres sociaux", "url": "https://agence-cohesion-territoires.gouv.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité du profil aux exigences de la lettre-circulaire CNAF AVS et la qualité du projet social co-construit avec les habitants. Renouvellement de l'agrément AVS tous les 4 ans = démarche structurante, anticiper 12-18 mois avant. Sans renouvellement, perte de la PS AGC.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Lettre-circulaire CNAF AVS + Charte FCSF"
+      }
+    }
+
+  ]
+}

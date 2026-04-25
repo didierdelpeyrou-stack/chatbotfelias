@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F4 lot M2 — Métiers GPEC Animation et intervention sociale (5 articles)",
+    "lot": "M2/M5",
+    "topic": "Animateur, Animateur d'activités, Intervenant spécialisé, Intervenant social, Chargé de projet",
+    "generated_at": "2026-04-25",
+    "source_principale": "Fiches métiers ALISFA + table CPNEF p.26",
+    "theme_target": "metiers_gpec"
+  },
+
+  "articles": [
+
+    {
+      "id": "gpec-animateur",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former et faire évoluer un·e animateur·trice dans ma structure ALISFA ?",
+      "mots_cles": [
+        "animateur", "animatrice", "BPJEPS", "DEJEPS",
+        "DESJEPS", "DEUST animation", "DUT carrières sociales",
+        "RNCP28557", "RNCP4900", "animation socioculturelle",
+        "centres sociaux", "EVS", "ADSL",
+        "apprentissage 8357 euros", "9551 euros", "8966 euros",
+        "passerelles encadrement", "polyvalence terrain"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "animation",
+      "passerelles_gpec": [
+        "animateur_activites", "intervenant_specialise", "intervenant_social",
+        "charge_projet", "referent_secteur",
+        "responsable_coordinateur", "directeur"
+      ],
+      "reponse": {
+        "synthese": "L'animateur·trice exerce dans les centres sociaux, EVS, ADSL pour porter des projets d'animation auprès de tous publics (enfants, jeunes, adultes, familles). **Diplôme requis** : BPJEPS animateur (Bac, RNCP 28557, 8 357 € en apprentissage), DEJEPS animation socio-éducative (Bac+2, RNCP 4900, 9 551 €), DESJEPS (Bac+3, RNCP 4910, 8 966 €), DEUST animation, ou DUT Carrières sociales option animation. Métier polyvalent — passerelles vers encadrement et coordination par expérience + DESJEPS.",
+        "fondement_legal": "Code du sport articles L212-1 et L212-2 (cadre réglementaire des qualifications animation socio-éducative). Code de l'action sociale et des familles articles L227-4 et suivants (encadrement Accueils Collectifs de Mineurs).",
+        "minimum_legal": "**Diplômes principaux pour exercer le métier d'animateur·trice ALISFA** :\n\n- **BPJEPS** spécialité animateur, Brevet Professionnel de la Jeunesse, de l'Éducation Populaire et du Sport (Bac, niveau 4) — RNCP 28557/39926\n- **DEJEPS** Animation Socio-Éducative ou Culturelle, Diplôme d'État de la Jeunesse, de l'Éducation Populaire et du Sport (Bac+2, niveau 5) — RNCP 4900/39930\n- **DESJEPS** spécialité Animation Socio-Éducative, Diplôme d'État Supérieur de la JEPS (Bac+3, niveau 6) — RNCP 4910/39931\n- **DEUST animation** (Bac+2, université)\n- **DUT Carrières Sociales** option animation socioculturelle\n\n**Diplômes BAFA-BAFD** : suffisent pour des fonctions occasionnelles (vacations) en ALSH ou colos, **pas pour un poste salarié permanent** d'animateur en centre social ou EVS.\n\n**Financement apprentissage 2026** (table CPNEF p.26) :\n- BPJEPS animateur : **8 357 €**\n- DEJEPS Animation socio-éducative : **9 551 €**\n- DESJEPS : **8 966 €**\n- CPJEPS : **6 898 €** (voir métier Animateur d'activités, niveau plus accessible)\n\n**Missions et activités principales** :\n- Concevoir et animer des projets d'animation socio-culturelle adaptés aux publics (enfants, jeunes, familles, seniors)\n- Encadrer des activités de loisirs, culturelles, sportives, citoyennes\n- Accompagner des dynamiques participatives (conseils citoyens, ateliers)\n- Travailler en partenariat (mairie, écoles, associations, CAF)\n- Évaluer et faire évoluer les actions d'animation\n- Contribuer au projet social de la structure\n- Mobiliser les bénévoles, encadrer des stagiaires\n\n**Lieux d'exercice** :\n- **Centres sociaux** (animation globale, animation jeunesse, animation famille)\n- **Espaces de Vie Sociale (EVS)**\n- **ADSL** (Associations de Développement Social Local)\n- **ALSH** (Accueils de Loisirs Sans Hébergement) — voir aussi fonction réglementaire `reg-animation-alsh`\n- **Maisons de quartier**, **MJC**\n- **Foyers de jeunes travailleurs**",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n\n**Métiers de l'Animation et de l'Intervention Sociale** :\n- **Animateur·trice d'activités** (CPJEPS, niveau plus accessible — passerelle inversée)\n- **Intervenant·e spécialisé·e** sur thématique (handicap, illettrisme, médiation, cohésion sociale)\n- **Intervenant·e social·e** (DE Éducateur Spécialisé, RNCP 34825 = 7 753 €)\n- **Chargé·e de projet, mission, développement**\n- **Référent·e secteur** (avec DESJEPS ou expérience)\n\n**Métiers de l'Encadrement et de la direction** :\n- **Responsable / Coordinateur·trice** (DESJEPS + 3-5 ans expérience)\n- **Directeur·rice ALSH** (BPJEPS LTP/ASEC, DEJEPS, DESJEPS — voir article `reg-direction-alsh`)\n- **Directeur·rice de centre social** (DESJEPS + agrément CAF + expérience)\n\n**Modes de financement de la formation** :\n- **Contrat d'apprentissage** : forfait coût-contrat (8 357-9 551-8 966 € selon diplôme visé)\n- **DAF certifiante** (transitoire 2026, jusqu'au 30 juin) : pour formations RNCP ≥ 70h, plafond 15 €/h\n- **VAE** : 3 000 € (simple) ou 5 000 € (mixte) — voie classique pour BPJEPS → DEJEPS ou DEJEPS → DESJEPS\n- **CPF** du salarié (BPJEPS, DEJEPS, DESJEPS éligibles CPF)\n- **DAF formations continues** : techniques d'animation, éducation populaire, méthodes participatives, gestion de groupe, conduite de projet, neurosciences ado, parentalité…\n\n**Spécialisations possibles via formations BPJEPS/DEJEPS** :\n- **Animateur Loisirs Tous Publics (LTP)** — ALSH\n- **Animateur Animation Socio-Éducative ou Culturelle (ASEC)** — centres sociaux\n- **Animateur Éducateur Sportif** — sport-loisirs (voir fiche dédiée)",
+        "vigilance": "**Différence BPJEPS vs DEJEPS vs DESJEPS** : ce sont des niveaux progressifs. Le BPJEPS suffit pour exercer comme animateur·trice. Le DEJEPS est nécessaire pour des fonctions de **coordination de secteur** ou de **direction d'ALSH** dans certains cas. Le DESJEPS pour la **direction d'établissement** ou la **conduite de projet stratégique**.\n\n**ALSH — direction vs animation** : pour DIRIGER un ALSH, voir la fiche `reg-direction-alsh` (cadre réglementaire spécifique L227 Code action sociale + arrêté 9 février 2007). Un·e animateur·trice classique (BPJEPS) peut **animer** mais pas **diriger** un ALSH avec ≥ 80 mineurs / ≥ 80 jours par an.\n\n**Convention collective ALISFA** : le métier d'animateur·trice est référencé dans la classification ALISFA. Vérifier le coefficient et la grille salariale applicable.\n\n**Diplômes BAFA-BAFD** : utiles pour des **vacations occasionnelles** (séjours, ALSH ponctuels, colos), **pas suffisants** pour un poste salarié permanent en branche ALISFA.\n\n**Évolution réforme JEPS** : le ministère de la Jeunesse a réformé les diplômes JEPS plusieurs fois (2007, 2016). Vérifier que les certifications visées sont actualisées dans le RNCP avant signature de devis ou contrat apprentissage.",
+        "sources": [
+          "Fiche métier ALISFA Animateur·trice (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Code du sport articles L212-1 et L212-2",
+          "Référentiels JEPS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BPJEPS animateur — France Compétences (RNCP 28557)", "url": "https://www.francecompetences.fr/recherche/rncp/28557/", "type": "officiel"},
+          {"titre": "Référentiel DEJEPS Animation socio-éducative — France Compétences (RNCP 4900)", "url": "https://www.francecompetences.fr/recherche/rncp/4900/", "type": "officiel"},
+          {"titre": "Référentiel DESJEPS — France Compétences (RNCP 4910)", "url": "https://www.francecompetences.fr/recherche/rncp/4910/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BPJEPS / DEJEPS / DESJEPS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Animateur·trice (PDF ALISFA)", "fichier": "cpnef-fiche-metier-animateur-trice-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels JEPS + PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "gpec-animateur-activites",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former un·e animateur·trice d'activités dans ma structure ALISFA ?",
+      "mots_cles": [
+        "animateur activités", "animatrice activités", "CPJEPS",
+        "RNCP32369", "Certificat Professionnel Jeunesse",
+        "BAFA", "premier niveau animation",
+        "ALSH", "centres sociaux", "vacations",
+        "apprentissage 6898 euros", "passerelle BPJEPS"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "animation",
+      "passerelles_gpec": [
+        "animateur", "intervenant_specialise", "anim_petite_enfance",
+        "intervenant_social", "charge_accueil"
+      ],
+      "reponse": {
+        "synthese": "L'animateur·trice d'activités est un métier d'entrée dans la filière animation socio-éducative et culturelle ALISFA. **Diplôme principal** : CPJEPS (Certificat Professionnel de la Jeunesse, de l'Éducation Populaire et du Sport — niveau 3, RNCP 32369), accessible en apprentissage avec une prise en charge Uniformation de **6 898 €** en 2026. Très souvent occupé par de jeunes professionnel·les, c'est un tremplin naturel vers le BPJEPS animateur. Compatibilité avec le **BAFA** pour des vacations / contrats courts (mais BAFA insuffisant pour CDI permanent).",
+        "fondement_legal": "Code du sport et de l'éducation populaire — qualifications animation socio-culturelle. Code de l'action sociale et des familles (Accueils Collectifs de Mineurs).",
+        "minimum_legal": "**Diplômes pour exercer le métier d'animateur·trice d'activités** :\n\n- **CPJEPS** Certificat Professionnel de la Jeunesse, de l'Éducation Populaire et du Sport (niveau 3, équivalent CAP) — RNCP 32369/39927\n- **BAFA** (Brevet d'Aptitude aux Fonctions d'Animateur) : suffisant pour vacations/contrats courts ALSH\n- **Bac pro Animation Enfance et Personnes Âgées** (Bac, niveau 4)\n- **Bac pro SAPAT** (Services aux Personnes et Animation dans les Territoires)\n\n**Financement apprentissage 2026** (table CPNEF p.26) : CPJEPS pris en charge à hauteur de **6 898 €** (forfait annuel coût-contrat).\n\n**Le BAFA n'est PAS finançable en apprentissage** : c'est une formation courte (~14 jours) souvent prise en charge par les CAF, conseils départementaux, ou via le CPF. Le BPJEPS animateur (RNCP 28557, 8 357 €) est la passerelle naturelle pour pérenniser le métier.\n\n**Missions et activités principales** :\n- Animer des activités ludiques, culturelles, sportives auprès des publics (enfants, jeunes, adultes, familles)\n- Encadrer des temps d'accueil collectifs (ALSH, centre de loisirs, périscolaire)\n- Accompagner des sorties, séjours, mini-camps\n- Préparer matériel pédagogique, programmation des animations\n- Participer aux temps d'équipe, projets pédagogiques\n- Veiller à la sécurité physique et morale des publics\n\n**Lieux d'exercice** :\n- **Centres sociaux** (animation collective, jeunesse)\n- **EVS, ADSL**\n- **ALSH** (Accueils de Loisirs Sans Hébergement) — voir fiche `reg-animation-alsh`\n- **Périscolaire** (écoles primaires)\n- **MJC, foyers de jeunes**",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n\n**Métiers de l'Animation** :\n- **Animateur·trice** (BPJEPS, DEJEPS — voie classique d'évolution)\n- **Intervenant·e spécialisé·e** (formations courtes thématiques)\n- **Animateur·trice petite enfance** (avec CAP AEPE)\n\n**Métiers connexes** :\n- **Chargé·e d'accueil** (avec BTS Communication ou ESF)\n- **Intervenant·e social·e** (DEES — voie longue)\n\n**Vers l'encadrement** (long terme avec DESJEPS) :\n- Coordinateur·trice d'animation\n- Directeur·rice ALSH (sous condition diplômes Code action sociale L227)\n\n**Modes de financement** :\n- **Contrat d'apprentissage** CPJEPS : 6 898 €/an de coût-contrat\n- **DAF certifiante 2026** : plafond 15 €/h pour BPJEPS si évolution post-CPJEPS\n- **VAE BPJEPS** : 3 000-5 000 € — voie classique pour passer animateur d'activités → animateur\n- **CPF** : BAFA + CPJEPS + BPJEPS éligibles CPF\n- **DAF formations courtes** : techniques d'animation, gestion de groupe, premiers secours (PSC1), conduite d'ado, animation numérique…\n\n**Cas typiques d'évolution dans la branche** :\n- Jeune en service civique → BAFA → CPJEPS en apprentissage → BPJEPS → animateur permanent\n- Animateur·trice d'activités CPJEPS expérimenté·e → VAE BPJEPS → mobilité interne",
+        "vigilance": "**CPJEPS récent** : le CPJEPS a remplacé l'ancien BAPAAT (Brevet d'Aptitude Professionnelle d'Assistant Animateur Technicien) en 2018. Vérifier la pertinence du choix CPJEPS vs BPJEPS selon le projet professionnel du candidat.\n\n**BAFA insuffisant pour CDI** : ne pas confondre BAFA (formation courte, qualifiante non-professionnelle) avec CPJEPS/BPJEPS (diplômes professionnels). Pour un CDI permanent, viser au minimum CPJEPS.\n\n**Métier de jeunesse** : profil souvent jeune (16-25 ans), à former et fidéliser. Beaucoup d'entrées par contrat apprentissage / Service Civique / PEC.\n\n**Public ALSH** : pour DIRIGER un ALSH (avec >80 mineurs ou >80 jours/an), un BAFD suffit pour direction occasionnelle, mais BPJEPS LTP/ASEC ou DEJEPS pour direction permanente — voir article `reg-direction-alsh`.",
+        "sources": [
+          "Fiche métier ALISFA Animateur·trice d'activités (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiel CPJEPS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel CPJEPS — France Compétences (RNCP 39927)", "url": "https://www.francecompetences.fr/recherche/rncp/39927/", "type": "officiel"},
+          {"titre": "Service public — BAFA et BAFD", "url": "https://www.service-public.fr/particuliers/vosdroits/F2236", "type": "officiel"},
+          {"titre": "Mon Compte Formation — CPJEPS et BPJEPS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Animateur·trice d'activités (PDF ALISFA)", "fichier": "cpnef-fiche-metier-animateur-trice-dactivites-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "gpec-intervenant-specialise",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e intervenant·e spécialisé·e dans ma structure ALISFA ?",
+      "mots_cles": [
+        "intervenant spécialisé", "intervenante spécialisée",
+        "thématique handicap", "illettrisme", "médiation",
+        "compétences clés", "FLE", "français langue étrangère",
+        "intervenant ponctuel", "vacation", "expertise",
+        "BAFA spécialisation", "diplôme thématique"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "animation",
+      "passerelles_gpec": [
+        "animateur", "animateur_activites", "intervenant_social",
+        "charge_projet", "referent_secteur"
+      ],
+      "reponse": {
+        "synthese": "L'intervenant·e spécialisé·e apporte une **expertise thématique** ponctuelle ou récurrente dans une structure ALISFA : illettrisme, FLE (Français Langue Étrangère), médiation interculturelle, handicap, culture, sport adapté, numérique inclusif… Profil **spécialisé** par diplôme/expérience dédiée à un domaine — pas de référentiel RNCP unique. Souvent vacataire ou contrat court (CDD), parfois CDI temps partiel sur plusieurs structures. Diplômes typiques : DAEFLE, BPJEPS spécialisé, DUT, DE Médiation familiale (DEMF), licence pro thématique, etc.",
+        "fondement_legal": "Variable selon le domaine de spécialisation. Pour la médiation familiale : DE Médiateur Familial (décret 2003-1166). Pour le FLE : Diplôme d'Aptitude à l'Enseignement du Français Langue Étrangère (DAEFLE) ou Master FLE. Pour le handicap : DE AES (Accompagnant Éducatif et Social) ou diplôme spécifique.",
+        "minimum_legal": "**Définition** : intervenant·e mobilisé·e pour ses compétences ciblées sur un sujet spécifique, sans relation hiérarchique permanente avec une seule structure. Peut intervenir dans plusieurs structures du réseau ALISFA via des conventions de prestation ou des temps partagés.\n\n**Domaines de spécialisation typiques en branche ALISFA** :\n\n1. **Illettrisme et compétences clés** :\n   - Formateur·trice habilité·e CléA (cf. article `fin-clea-2026`)\n   - Compétences pédagogiques + connaissance public en difficulté\n\n2. **FLE — Français Langue Étrangère** :\n   - **DAEFLE** (Diplôme d'Aptitude à l'Enseignement du FLE)\n   - **Master FLE** ou **Licence pro FLE**\n   - Souvent intervenant en EVS / centres sociaux pour ateliers sociolinguistiques\n\n3. **Médiation interculturelle / sociale** :\n   - Diplôme d'État de Médiateur Familial (DEMF) — voir article `reg-mediation-familiale`\n   - Formation médiation sociale (UNFOHLM, FNCMR)\n\n4. **Handicap et inclusion** :\n   - DE Accompagnant Éducatif et Social (DEAES) — RNCP 35830\n   - DE Aide-Soignant·e\n   - Formations spécifiques (autisme, TDAH, troubles \"DYS\")\n   - Intervention parfois croisée avec PMI / MDPH\n\n5. **Sport adapté** :\n   - **BPJEPS APSA** (Activités Physiques et Sportives Adaptées) — RNCP 28573 (8 690 €)\n   - DEJEPS / DESJEPS sport adapté\n   - Intervention en accompagnement personnes handicapées, seniors, public éloigné du sport\n\n6. **Culture / arts** :\n   - **DUMI** (Diplôme Universitaire de Musicien Intervenant)\n   - DE théâtre / médiation artistique\n   - Intervention en école, centre de loisirs, ateliers culturels\n\n7. **Numérique / médiation digitale** :\n   - **Conseiller·ère Numérique France Services (CNFS)** — voir article `reg-conseiller-numerique-cnfs`\n   - Formations courtes (Centre Inffo, Hubs France Connectée)\n\n**Pas de diplôme RNCP unique \"intervenant spécialisé\"** : c'est un libellé fonctionnel. Le diplôme dépend du domaine.\n\n**Statuts contractuels typiques** :\n- **CDD** ou **CDI à temps partiel** dans une structure ALISFA\n- **Vacation** rémunérée à l'heure (15-50 €/h selon expertise et financement)\n- **Prestataire externe** facturant à la structure\n- **Bénévole expert** dans certains cas (membre fondateur ou réseau)\n- Possibilité de **multi-employeur** sur plusieurs structures du réseau ALISFA",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n\n**Vers d'autres métiers ALISFA** :\n- **Animateur·trice** (généraliste, avec BPJEPS) — passerelle si l'intervenant·e veut élargir le scope\n- **Intervenant·e social·e** (DE Éducateur Spécialisé) — pour aller vers des fonctions plus durables\n- **Chargé·e de projet, mission, développement** — coordonner plusieurs interventions thématiques\n- **Référent·e secteur** (avec DESJEPS ou expérience pertinente)\n\n**Vers l'encadrement** :\n- **Responsable / Coordinateur·trice** d'un pôle thématique (parentalité, médiation, illettrisme…)\n- **Directeur·rice** d'un EVS ou centre social spécialisé\n\n**Modes de financement de la formation** :\n- **DAF Uniformation** thématique : pour la formation continue dans le domaine d'expertise\n- **DAF certifiante 2026** : pour formations RNCP ≥ 70h (DAEFLE, BPJEPS APSA, DEMF…)\n- **CPF** du salarié pour certifications longues\n- **CPNEF 0,2 % APP** : supervision/analyse de pratique pour les intervenants face à des publics complexes\n- **DAF formations courtes** : actualisation (autisme 2024, IA pédagogique, écoanxiété…)\n\n**Cas typiques d'évolution dans la branche** :\n- Bénévole CCF (Conseil Conjugal et Familial) → vacataire LAEP → coordinatrice parentalité dans un EVS\n- Animateur sportif loisirs → BPJEPS APSA → intervenant sport adapté en EVS handicap\n- Enseignante FLE retraitée → bénévole alphabétisation centre social → vacataire ateliers sociolinguistiques",
+        "vigilance": "**Pas de référentiel unique** : à chaque embauche, vérifier que le diplôme du candidat correspond bien au domaine et au niveau d'intervention attendu. Demander CV + diplômes + références.\n\n**Multi-employeur — déclarations URSSAF** : si l'intervenant·e cumule plusieurs employeurs ALISFA, attention aux déclarations sociales et au respect des durées maximales de travail. Possibilité de monter un **GE — Groupement d'Employeurs** si plusieurs structures partagent un·e intervenant·e expert·e.\n\n**Vacation vs salariat** : ne pas confondre. La vacation est rémunérée à l'heure pour une mission précise et délimitée. Le salariat suppose un lien de subordination, des horaires fixés, etc. Si l'intervenant·e exerce régulièrement et sous direction de la structure, c'est probablement un salariat (et pas une vacation).\n\n**Prestation externe vs salariat déguisé** : si vous facturez une prestation à un·e intervenant·e auto-entrepreneur, vérifiez l'absence de subordination effective (caractérisée par horaires imposés, lieu, méthodologie). Sinon risque de requalification en salariat avec rappel de cotisations.\n\n**Convention collective applicable** : pour un·e intervenant·e salariée d'une structure ALISFA, la **CCN ALISFA** s'applique. Si prestation externe (auto-entrepreneur, libérale), le contrat de prestation suit le droit commercial.\n\n**Texte en vigueur au 25 avril 2026.**",
+        "sources": [
+          "Fiche métier ALISFA Intervenant·e spécialisé·e (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026",
+          "Référentiels variés selon domaine — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Centre Inffo — Formations spécialisées", "url": "https://www.centre-inffo.fr/", "type": "officiel"},
+          {"titre": "France Compétences — Recherche par métier", "url": "https://www.francecompetences.fr/recherche/", "type": "officiel"},
+          {"titre": "Mon Compte Formation", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Intervenant·e spécialisé·e (PDF ALISFA)", "fichier": "cpnef-fiche-metier-intervenant-e-specialise-e-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels variés France Compétences"
+      }
+    },
+
+    {
+      "id": "gpec-intervenant-social",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e intervenant·e social·e dans ma structure ALISFA ?",
+      "mots_cles": [
+        "intervenant social", "intervenante sociale",
+        "DEES", "DE Éducateur Spécialisé", "RNCP34825", "RNCP37676",
+        "DEASS", "DE Conseiller Économie Sociale Familiale",
+        "DECESF", "RNCP34826", "RNCP37678",
+        "champ social", "accompagnement public éloigné",
+        "centres sociaux", "EVS", "ADSL",
+        "apprentissage 7753 euros", "7290 euros"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "animation",
+      "passerelles_gpec": [
+        "animateur", "intervenant_specialise", "charge_projet",
+        "referent_secteur", "responsable_coordinateur",
+        "anim_referent_ps_acf"
+      ],
+      "reponse": {
+        "synthese": "L'intervenant·e social·e accompagne les publics fragiles (familles précaires, jeunes en difficulté, personnes en situation d'isolement, etc.) au sein des centres sociaux, ADSL, EVS. **Diplômes requis** : DE Éducateur Spécialisé (DEES, RNCP 34825/37676 = 7 753 €), DE CESF (RNCP 34826/37678 = 7 290 €), DE Assistant de Service Social (DEASS), DE Médiateur Familial (DEMF). Profil polyvalent pour le travail d'accompagnement individuel et collectif. Passerelles vers la coordination de pôle ou la direction.",
+        "fondement_legal": "Code de l'action sociale et des familles. Décret n° 2007-203 du 7 mars 2007 (DEES). Décret n° 2009-1547 du 11 décembre 2009 (DECESF). Arrêté du 25 août 2011 (DEASS).",
+        "minimum_legal": "**Diplômes pour exercer le métier d'intervenant·e social·e en branche ALISFA** :\n\n- **DE Éducateur Spécialisé (DEES)** — Bac+3 — RNCP 34825/37676\n- **DE Conseiller·ère en Économie Sociale Familiale (DECESF)** — Bac+3 — RNCP 34826/37678\n- **DE Assistant·e de Service Social (DEASS)** — Bac+3 — RNCP 28741\n- **DE Moniteur·trice Éducateur·trice (DEME)** — Bac — RNCP 492/39643\n- **DE Médiateur·trice Familial·e (DEMF)** — Bac+3 (voir article `reg-mediation-familiale`)\n- **DE Accompagnant Éducatif et Social (DEAES)** — niveau 4 — pour fonctions d'accompagnement plus simples\n\n**Financement apprentissage 2026** (table CPNEF p.26) :\n- DE Éducateur Spécialisé (DEES) : **7 753 €**\n- DE CESF (DECESF) : **7 290 €**\n- DE Moniteur Éducateur (DEME) : **7 225 €**\n- BTS ESF (Économie Sociale Familiale, niveau 5) : **7 667 €** — passerelle vers DECESF\n\n**Missions et activités principales** :\n- Accueillir et écouter les publics en situation de difficulté sociale\n- Évaluer les besoins, orienter vers les services compétents\n- Accompagner individuellement (rendez-vous, démarches, médiation)\n- Animer des actions collectives (groupes de parole, ateliers parentalité, sorties familiales)\n- Travailler en partenariat (CAF, CCAS, MDPH, CMP, missions locales, France Travail)\n- Co-construire avec les habitants des projets sociaux\n- Contribuer au projet social de la structure\n\n**Lieux d'exercice** :\n- **Centres sociaux** (poste \"référent·e famille\", \"intervenant·e social·e\", \"animateur·trice global·e\")\n- **ADSL** (Associations de Développement Social Local)\n- **EVS** (Espaces de Vie Sociale)\n- **Maisons de quartier**, **services de prévention spécialisée**\n- Possibilité de poste en **PMI**, **MDPH**, **CCAS** (hors champ ALISFA strict)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n\n**Métiers de l'Animation et de l'Intervention Sociale** :\n- **Animateur·trice** (DEJEPS / DESJEPS) — passerelle si l'intervenant·e veut élargir vers l'animation socioculturelle\n- **Intervenant·e spécialisé·e** sur thématique (handicap, FLE, parentalité…)\n- **Chargé·e de projet, mission, développement**\n- **Référent·e secteur** (avec DESJEPS ou expérience encadrement)\n- **Référent·e PS ACF** (Animation Collective Familles) — fonction parentalité (cf. article `reg-ref-ps-acf-2026`)\n\n**Métiers de l'Encadrement et de la direction** :\n- **Responsable / Coordinateur·trice** d'un pôle social\n- **Directeur·rice** de centre social ou EVS (avec DESJEPS / DEIS / Master direction ESS)\n\n**Spécialisations possibles** :\n- **Médiation familiale** (DE DEMF, voir article `reg-mediation-familiale`)\n- **Conseil Conjugal et Familial (CCF)** (voir article `reg-ccf-conseil-conjugal`)\n- **Référent·e parentalité** / animation collective familles\n- **Adulte-relais** (si résidence en QPV, voir article `contrat-adulte-relais-2026`)\n\n**Modes de financement de la formation** :\n- **Contrat d'apprentissage** : forfait coût-contrat (7 753-7 290-7 225 € selon diplôme)\n- **DAF certifiante 2026** : plafond 15 €/h pour formations RNCP ≥ 70h\n- **VAE** : 3 000-5 000 € — voie classique (ex. AES → DEME → DEES par étapes)\n- **CPF** du salarié (DEES, DECESF, DEASS éligibles CPF)\n- **DAF formations continues** : techniques d'entretien, médiation interculturelle, parentalité, addictions, violences intra-familiales, neurosciences sociales…",
+        "vigilance": "**Statut social du salarié** : un intervenant social ALISFA exerce sous CCN ALISFA, vs CCN 66 (établissements sanitaires et sociaux) ou Convention collective nationale médico-sociale. Vérifier la classification ALISFA appropriée au regard de la grille de coefficients.\n\n**Profession partiellement réglementée** : le DEES, DEASS, DECESF sont des **professions réglementées** (titre protégé). Un poste d'éducateur spécialisé sans DEES n'est pas conforme.\n\n**Distinction DEES vs DEAES** : ne pas confondre. Le DEAES (Accompagnant Éducatif et Social) est de niveau 4, axé accompagnement quotidien. Le DEES est de niveau 6 (Bac+3), avec capacité de conduite de projet et accompagnement éducatif structurant.\n\n**Référent·e Famille en centre social** : poste fréquent qui peut être occupé par un·e intervenant·e social·e diplômé·e DECESF ou DEES, complété·e par formation à l'animation collective familles. Voir aussi article `reg-ref-ps-acf-2026`.\n\n**Cumul de fonctions possibles** : un·e intervenant·e social·e peut être également **accueillant·e LAEP** (avec formation thématique LAEP), **médiateur·trice familial·e** (avec DEMF), ou **adulte-relais** (si résidence QPV). Anticiper les superpositions de financements et de fonctions.\n\n**Texte en vigueur au 25 avril 2026.**",
+        "sources": [
+          "Fiche métier ALISFA Intervenant·e social·e (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiels DEES, DECESF, DEASS — France Compétences",
+          "Décrets de profession (2007, 2009, 2011)"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel DE Éducateur Spécialisé — France Compétences (RNCP 37676)", "url": "https://www.francecompetences.fr/recherche/rncp/37676/", "type": "officiel"},
+          {"titre": "Référentiel DE CESF — France Compétences (RNCP 37678)", "url": "https://www.francecompetences.fr/recherche/rncp/37678/", "type": "officiel"},
+          {"titre": "Référentiel DE Moniteur Éducateur — France Compétences (RNCP 39643)", "url": "https://www.francecompetences.fr/recherche/rncp/39643/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — DEES / DECESF / DEASS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Intervenant·e social·e (PDF ALISFA)", "fichier": "cpnef-fiche-metier-intervenant-e-social-e-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels DEES/DECESF/DEASS + PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "gpec-charge-projet",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e chargé·e de projet, mission ou développement ALISFA ?",
+      "mots_cles": [
+        "chargé projet", "chargée projet", "chargé mission",
+        "chargé développement", "DEJEPS", "DESJEPS",
+        "Master ESS", "économie sociale solidaire",
+        "RNCP4900", "9551 euros apprentissage",
+        "ingénierie projet", "AAP", "appel à projet",
+        "innovation sociale", "centres sociaux", "fédérations"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "tete_de_reseau"],
+      "metiers_secteur": "animation",
+      "passerelles_gpec": [
+        "animateur", "intervenant_social", "intervenant_specialise",
+        "referent_secteur", "responsable_coordinateur", "directeur"
+      ],
+      "reponse": {
+        "synthese": "Le ou la chargé·e de projet, mission ou développement conçoit, pilote et évalue des projets innovants ou structurants pour la structure ALISFA : appel à projet (AAP), démarche territoriale, partenariat institutionnel, dispositif expérimental. **Diplômes typiques** : DEJEPS Animation socio-éducative (RNCP 4900, 9 551 € en apprentissage), DESJEPS (8 966 €), Master Sciences sociales / Politiques publiques / Direction ESS, DUT Carrières sociales. Métier transversal, souvent à mi-chemin entre terrain et stratégie.",
+        "fondement_legal": "Pas de cadre réglementaire strict — métier transversal. Les diplômes mobilisés sont définis par leurs propres décrets (DEJEPS, DESJEPS — ministère des Sports / Jeunesse). Pour les masters universitaires : enseignement supérieur (loi LRU 2007).",
+        "minimum_legal": "**Diplômes typiques pour exercer le métier de chargé·e de projet ALISFA** :\n\n- **DEJEPS Animation Socio-Éducative ou Culturelle** (Bac+2) — RNCP 4900/39930 — diplôme central pour conduire des projets d'animation\n- **DESJEPS Animation Socio-Éducative** (Bac+3) — RNCP 4910/39931 — pour projets stratégiques\n- **Master 1 ou 2** dans le champ : Sciences sociales, Sociologie, Politiques publiques, Droit social, Direction ESS, Animation territoriale\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale) — Bac+5\n- **DUT Carrières Sociales** + expérience\n- **Diplôme universitaire** spécialisé : DU Politique de la Ville, DU Médiation, DU Économie Sociale et Solidaire\n\n**Financement apprentissage 2026** (table CPNEF p.26) :\n- DEJEPS : **9 551 €**\n- DESJEPS : **8 966 €**\n\n**Masters universitaires** : non listés table CPNEF (formation initiale université, hors apprentissage souvent — sauf Master Pro en alternance via apprentissage, possible dans certains cas).\n\n**Missions et activités principales** :\n- Identifier et répondre aux **appels à projet (AAP)** : CAF, ANCT, fondations, Europe (FSE+), conseils départementaux, mairies\n- Concevoir des **dispositifs innovants** (parentalité, jeunesse, médiation, transition écologique, IA inclusive…)\n- Piloter des projets multipartenariaux\n- Animer des **diagnostics territoriaux** (besoins, ressources, atouts, opportunités)\n- Mobiliser et accompagner les bénévoles, salariés, partenaires\n- Évaluer l'impact (méthodologie d'évaluation, indicateurs SMART)\n- Représenter la structure auprès des partenaires institutionnels\n- Rédiger les bilans qualitatifs et quantitatifs\n\n**Lieux d'exercice** :\n- **Centres sociaux** (chargé·e de projet famille, jeunesse, séniors)\n- **ADSL** (Associations de Développement Social Local)\n- **Fédérations / têtes de réseau** ALISFA (chargé·e de mission politique, communication, formation)\n- **Réseaux régionaux** (URPS, fédérations régionales de centres sociaux)\n- **Pôles ressources** thématiques (parentalité, jeunesse, économie circulaire…)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n\n**Métiers de l'Animation et de l'Intervention Sociale** :\n- **Animateur·trice** ou **intervenant·e** (passerelle horizontale, métiers de terrain)\n- **Référent·e secteur** (avec DESJEPS et coordination)\n- **Intervenant·e spécialisé·e** sur thématique précise\n\n**Métiers de l'Encadrement et de la direction** :\n- **Responsable / Coordinateur·trice** d'un pôle (parentalité, jeunesse, communication)\n- **Directeur·rice** d'EVS, ADSL, centre social (avec DESJEPS / DEIS / Master direction ESS)\n- **Délégué·e fédéral·e** (pour les structures porteuses de réseau)\n\n**Spécialisations possibles** :\n- **Chargé·e de communication** (cf. fiche `gpec-charge-communication`)\n- **Évaluateur·rice d'impact social** (méthodologies SROI, théorie du changement)\n- **Coordinateur·trice fonds européens** (FSE+, Erasmus+)\n\n**Modes de financement de la formation** :\n- **Contrat d'apprentissage** : DEJEPS 9 551 € / DESJEPS 8 966 €\n- **DAF certifiante 2026** : plafond 15 €/h pour formations RNCP ≥ 70h\n- **VAE** : 3 000-5 000 € — voie classique (animateur expérimenté → DEJEPS → DESJEPS)\n- **CPF** du salarié (DEJEPS, DESJEPS, Masters éligibles)\n- **DAF formations continues** :\n  - Méthodologie de projet (cycle de vie, pilotage par objectifs, suivi-évaluation)\n  - Réponse à AAP (Cahier des charges, budget prévisionnel, lettres de cadrage)\n  - Outils numériques (Trello, Notion, Airtable, Excel avancé)\n  - Évaluation d'impact (SROI, théorie du changement, mesure SROI)\n  - IA générative pour la conception de projet (ChatGPT/Claude pour briefs)",
+        "vigilance": "**Profil polyvalent — risque de dispersion** : le ou la chargé·e de projet doit jongler entre stratégie, terrain, partenariat. Risque de surcharge si trop de projets simultanés. Anticiper la priorisation et les délégations.\n\n**Distinction chargé·e de projet vs coordinateur·trice** : le chargé·e de projet pilote un projet précis (échéance, budget, équipe). Le coordinateur·trice supervise plusieurs activités/projets et a une fonction d'encadrement plus large. À ne pas confondre dans la grille de classification ALISFA.\n\n**Diplômes universitaires non listés table CPNEF** : pour les masters en apprentissage (Master 2 Direction ESS par ex.), vérifier que le diplôme est inscrit au RNCP et que le forfait coût-contrat est mobilisable. Sinon, autres dispositifs (DAF, CPF).\n\n**Cumul possible avec adulte-relais ou contrats aidés** : si le·la chargé·e de projet est en QPV, possibilité de mobiliser le contrat **Adulte-Relais** (cf. article `contrat-adulte-relais-2026`) qui apporte une aide ANCT.\n\n**Évolution rapide vers la direction** : avec un Master + 5-7 ans d'expérience, le passage à la direction d'EVS ou centre social est rapide. Anticiper cette trajectoire pour fidéliser les profils à fort potentiel.",
+        "sources": [
+          "Fiche métier ALISFA Chargé·e de projet, mission, développement (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiels DEJEPS, DESJEPS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel DEJEPS Animation socio-éducative — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/4900/", "type": "officiel"},
+          {"titre": "Référentiel DESJEPS Animation socio-éducative — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/4910/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — Diplômes JEPS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"},
+          {"titre": "ANCT — Appels à projet politique de la ville", "url": "https://agence-cohesion-territoires.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Chargé·e de projet (PDF ALISFA)", "fichier": "cpnef-fiche-metier-charge-e-de-projet-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels DEJEPS/DESJEPS + PDF CPNEF 2026-03-13"
+      }
+    }
+
+  ]
+}

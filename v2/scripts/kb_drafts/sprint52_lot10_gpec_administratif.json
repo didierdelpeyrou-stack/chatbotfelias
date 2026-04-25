@@ -1,0 +1,254 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F4 lot M4 — Métiers GPEC Administratif et Financier (5 articles)",
+    "lot": "M4/M5",
+    "topic": "Chargé d'accueil, Secrétaire, Assistant de direction, Chargé de communication, Personnel administratif/financier",
+    "generated_at": "2026-04-25",
+    "source_principale": "Fiches métiers ALISFA + table CPNEF p.26",
+    "theme_target": "metiers_gpec"
+  },
+
+  "articles": [
+
+    {
+      "id": "gpec-charge-accueil",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former un·e chargé·e d'accueil dans ma structure ALISFA ?",
+      "mots_cles": [
+        "chargé accueil", "chargée accueil", "BTS Communication",
+        "BTS SP3S", "RNCP7481", "8100 euros apprentissage",
+        "Bac pro Gestion Admin", "TPRG",
+        "accueil physique téléphonique", "premier contact",
+        "centres sociaux", "fédérations", "EAJE"
+      ],
+      "structures_concernees": ["centre_social", "EAJE", "ADSL", "EVS", "tete_de_reseau"],
+      "metiers_secteur": "administratif_financier",
+      "passerelles_gpec": [
+        "secretaire", "assistant_direction", "charge_communication",
+        "personnel_admin_financier", "anim_petite_enfance"
+      ],
+      "reponse": {
+        "synthese": "Le ou la chargé·e d'accueil est le premier contact des publics avec la structure ALISFA. Métier polyvalent : accueil physique et téléphonique, orientation, prise de rendez-vous, communication interne, gestion administrative de premier niveau. **Diplômes typiques** : BTS Communication (RNCP 7481/37198, 8 100 € apprentissage), BTS SP3S (Services et Prestations des Secteurs Sanitaire et Social), Bac pro Gestion Administration ou TPRG. Souvent métier de début de carrière, avec passerelles fortes vers secrétariat et communication.",
+        "fondement_legal": "Pas de cadre réglementaire strict. Diplômes Éducation nationale (Bac pro, BTS) reconnus par leur grade.",
+        "minimum_legal": "**Diplômes typiques** :\n- **BTS Communication** (Bac+2) — RNCP 7481/37198 — diplôme polyvalent qui ouvre vers communication, accueil, médiation\n- **BTS SP3S** — Services et Prestations des Secteurs Sanitaire et Social (Bac+2) — adapté aux structures ALISFA / CCAS / CAF\n- **BTS SAM** — Support à l'Action Managériale (Bac+2)\n- **Bac pro Gestion Administration** (Bac, niveau 4)\n- **TPRG** — Titre Professionnel Réceptionniste (niveau 4)\n- **Sans diplôme spécifique** : possible avec expérience + formations courtes (CléA, accueil-orientation, anglais professionnel)\n\n**Financement apprentissage 2026** (table CPNEF p.26) : BTS Communication pris en charge à hauteur de **8 100 €** (forfait coût-contrat). Les autres BTS / Bac pro peuvent être financés en apprentissage selon les contrats Uniformation.\n\n**Missions principales** :\n- Accueil physique et téléphonique des adhérents, partenaires, fournisseurs\n- Orientation et information de premier niveau (services, dispositifs, procédures)\n- Prise de rendez-vous, gestion d'agendas\n- Saisie administrative (inscriptions, dossiers adhérents)\n- Communication interne (informations équipes, affichage, mailings)\n- Gestion du courrier, des documents administratifs\n- Soutien aux animations / événements (logistique, accueil participants)\n\n**Lieux d'exercice** :\n- Centres sociaux (poste très fréquent)\n- EAJE multi-accueil avec fonction d'accueil dédiée\n- Fédérations / sièges sociaux\n- EVS, ADSL\n- Têtes de réseau",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Secrétaire** (BTS SAM) ou **Assistant·e de direction** — voir fiches `gpec-secretaire` et `gpec-assistant-direction`\n- **Chargé·e de communication** (BTS Com avec spécialisation) — voir fiche `gpec-charge-communication`\n- **Personnel administratif et financier** (BTS ESF) — voir fiche `gpec-personnel-admin-financier`\n- **Animateur·trice petite enfance** (CAP AEPE) — passerelle si appétence enfance (selon fiche métier ALISFA, le métier d'animateur petite enfance peut être passerelle inversée)\n- **Conseiller·ère Numérique France Services (CNFS)** — voir article `reg-conseiller-numerique-cnfs`\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage BTS Communication : 8 100 €\n- DAF certifiante 2026 : 15 €/h pour formations RNCP ≥ 70h\n- VAE BTS Communication / SP3S : 3 000-5 000 € — voie classique pour expérimentés non diplômés\n- CPF (BTS Communication, BTS SAM, BTS SP3S éligibles)\n- DAF formations courtes : accueil-orientation, communication non-violente, anglais pro, gestion des conflits, outils numériques (logiciels métier, IA inclusive…)",
+        "vigilance": "**Profil polyvalent** : le ou la chargé·e d'accueil joue un rôle clé d'image et de qualité de service. Soigner le recrutement et la formation à la posture d'accueil (écoute active, médiation, gestion des conflits).\n\n**Numérique inclusif** : avec la digitalisation, le ou la chargé·e d'accueil oriente de plus en plus vers les démarches en ligne (CAF, France Travail, mairie). Formation au CNFS très utile pour aller plus loin.\n\n**Stagiaires fréquents** : poste qui accueille souvent stagiaires (Bac pro, BTS), Service Civique, alternants. Capacité à transmettre essentielle.\n\n**Cumul de fonctions** : dans les petites structures, peut cumuler accueil + secrétariat + communication. Vérifier que le périmètre tient dans 1 ETP réel.",
+        "sources": [
+          "Fiche métier ALISFA Chargé·e d'accueil (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiel BTS Communication — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BTS Communication — France Compétences (RNCP 37198)", "url": "https://www.francecompetences.fr/recherche/rncp/37198/", "type": "officiel"},
+          {"titre": "Référentiel BTS SP3S — France Compétences", "url": "https://www.francecompetences.fr/recherche/?text=BTS+SP3S", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BTS / Bac pro accueil", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Chargé·e d'accueil (PDF ALISFA)", "fichier": "cpnef-fiche-metier-charge-e-daccueil-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiel BTS Communication"
+      }
+    },
+
+    {
+      "id": "gpec-secretaire",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former un·e secrétaire dans ma structure ALISFA ?",
+      "mots_cles": [
+        "secrétaire", "BTS SAM", "Support à l'Action Managériale",
+        "BTS GPME", "Bac pro Gestion Admin",
+        "Titre professionnel secrétaire",
+        "RNCP35030", "TP Secrétaire assistant",
+        "accueil téléphonique", "agenda direction",
+        "documents administratifs"
+      ],
+      "structures_concernees": ["centre_social", "EAJE", "ADSL", "EVS", "tete_de_reseau"],
+      "metiers_secteur": "administratif_financier",
+      "passerelles_gpec": [
+        "charge_accueil", "assistant_direction", "personnel_admin_financier",
+        "charge_communication"
+      ],
+      "reponse": {
+        "synthese": "Le ou la secrétaire assure la gestion administrative quotidienne d'une structure ALISFA : accueil, agendas, courrier, documents administratifs, comptes-rendus, classement et archivage, soutien à la gestion. **Diplômes typiques** : BTS SAM (Support à l'Action Managériale, RNCP 35030), BTS GPME (Gestion de la PME), Bac pro Gestion Administration, TP Secrétaire Assistant·e (Titre professionnel niveau 4). Pas listé en apprentissage forfait coût-contrat ALISFA — financements via DAF / CPF.",
+        "fondement_legal": "Pas de cadre réglementaire strict. Diplômes Éducation nationale (Bac pro, BTS) ou Titres professionnels du Ministère du travail.",
+        "minimum_legal": "**Diplômes typiques** :\n- **BTS SAM** — Support à l'Action Managériale (Bac+2) — RNCP 35030 — diplôme moderne le plus pertinent\n- **BTS GPME** — Gestion de la Petite et Moyenne Entreprise (Bac+2)\n- **Bac pro Gestion Administration** (niveau 4)\n- **TP Secrétaire Assistant·e** (niveau 4) — Titre professionnel ministère travail\n- **TP Secrétaire Assistant·e Médico-Social·e** (niveau 4) — adapté aux EAJE et structures sanitaires\n- **CAP Employé administratif** (niveau 3) — pour postes simples\n\n**Financement apprentissage** : BTS SAM et BTS GPME ne sont pas listés explicitement table CPNEF p.26, mais peuvent être financés via les forfaits standards Uniformation pour les contrats apprentissage. Vérifier auprès du CFA et d'Uniformation.\n\n**Missions principales** :\n- Accueil physique et téléphonique\n- Gestion de l'agenda de la direction et des cadres\n- Rédaction et mise en forme de documents (comptes-rendus, courriers, notes)\n- Saisie administrative (factures, contrats, dossiers RH de premier niveau)\n- Classement et archivage (papier et numérique)\n- Préparation de réunions (convocations, salles, documents)\n- Gestion du courrier entrant et sortant\n- Soutien comptable de premier niveau (saisie, rapprochement bancaire simple)\n\n**Lieux d'exercice** :\n- Centres sociaux\n- EAJE (avec dimension secrétariat médico-social)\n- ADSL, EVS\n- Fédérations, têtes de réseau",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Assistant·e de direction** (BTS SAM avec spécialisation) — voir fiche `gpec-assistant-direction`\n- **Personnel administratif et financier** (BTS ESF, BTS Comptabilité-Gestion) — voir fiche `gpec-personnel-admin-financier`\n- **Chargé·e de communication** (avec passerelle BTS Communication)\n- **Chargé·e d'accueil** (passerelle horizontale)\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage : forfaits Uniformation standards (vérifier au cas par cas)\n- DAF certifiante 2026 : 15 €/h pour BTS SAM ou TP Secrétaire ≥ 70h\n- VAE BTS SAM ou TP Secrétaire : 3 000-5 000 €\n- CPF (BTS SAM, TP Secrétaire éligibles)\n- DAF formations continues : Word/Excel avancé, Outlook, Notion/Trello, IA bureautique (ChatGPT/Claude pour rédaction), comptabilité associative, GED (gestion électronique de documents)",
+        "vigilance": "**Évolution du métier** : le secrétariat traditionnel est en pleine transformation avec la digitalisation et l'IA générative. Compétences numériques avancées indispensables (Excel, GED, communication digitale, IA).\n\n**Cumul possible avec accueil** : dans les petites structures, secrétariat + accueil souvent cumulés. Vérifier que la charge tient dans 1 ETP.\n\n**Profil polyvalent** : le ou la secrétaire est l'interlocuteur·rice de tous les services. Posture relationnelle, organisation, rigueur — qualités-clés.\n\n**Spécialisation médico-sociale** : pour les EAJE, le TP Secrétaire Assistant·e Médico-Social·e est plus adapté (vocabulaire métier, dossiers PMI…).",
+        "sources": [
+          "Fiche métier ALISFA Secrétaire (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026",
+          "Référentiels BTS SAM, TP Secrétaire — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BTS SAM — France Compétences (RNCP 35030)", "url": "https://www.francecompetences.fr/recherche/rncp/35030/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BTS SAM / TP Secrétaire", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Secrétaire (PDF ALISFA)", "fichier": "cpnef-fiche-metier-secretaire-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiel BTS SAM"
+      }
+    },
+
+    {
+      "id": "gpec-assistant-direction",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e assistant·e de direction ALISFA ?",
+      "mots_cles": [
+        "assistant direction", "assistante direction",
+        "BTS SAM", "Bac+3 assistant manager",
+        "RNCP35030", "polyvalence cadre",
+        "dialogue social", "RH soft", "documents stratégiques",
+        "compte-rendu instances", "préparation CA"
+      ],
+      "structures_concernees": ["centre_social", "EAJE", "ADSL", "tete_de_reseau"],
+      "metiers_secteur": "administratif_financier",
+      "passerelles_gpec": [
+        "secretaire", "charge_accueil", "personnel_admin_financier",
+        "charge_communication", "directeur_rh_admin_financier"
+      ],
+      "reponse": {
+        "synthese": "L'assistant·e de direction est un binôme administratif et stratégique du directeur·rice ou délégué·e fédéral·e. Niveau d'autonomie supérieur au secrétariat : préparation de dossiers stratégiques, soutien aux instances (CA, bureau, AG), articulation politique-technique, communication interne et externe au plus haut niveau. **Diplômes** : BTS SAM (RNCP 35030), Bac+3 Assistant·e de manager / Bachelor management, ou expérience significative de secrétariat.",
+        "fondement_legal": "Pas de cadre réglementaire strict.",
+        "minimum_legal": "**Diplômes typiques** :\n- **BTS SAM** — Support à l'Action Managériale (Bac+2) — RNCP 35030 — référence en branche ALISFA\n- **Bachelor / Licence pro Assistant·e Manager** (Bac+3)\n- **BTS GPME** + expérience en direction\n- Diplômes Bac+3 : Sciences politiques, Communication, Sciences humaines + expérience\n- Sans diplôme : possible avec **15+ ans d'expérience** comme secrétaire, validés par VAE ou non\n\n**Financement apprentissage** : BTS SAM peut être en apprentissage selon contrats Uniformation. Vérifier au cas par cas.\n\n**Missions principales** :\n- Soutien stratégique et opérationnel au directeur·rice / délégué·e\n- Préparation et suivi des instances de gouvernance (CA, bureau, AG, commissions)\n- Rédaction de documents stratégiques (rapport d'activité, dossiers de subvention, courriers institutionnels)\n- Gestion des plannings, déplacements, rendez-vous de direction\n- Confidentialité absolue (dossiers RH sensibles, documents financiers, échanges politiques)\n- Articulation entre élus bénévoles et équipe salariée\n- Organisation d'événements stratégiques (séminaire annuel, AG fédérale)\n- Communication interne au plus haut niveau\n\n**Lieux d'exercice** :\n- Centres sociaux importants (>15 salariés)\n- EAJE multi-établissements\n- Fédérations (assistant·e du délégué·e fédéral·e)\n- Têtes de réseau ALISFA",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Personnel administratif et financier** (avec BTS Comptabilité-Gestion / DCG)\n- **Chargé·e de communication** (avec passerelle BTS Communication)\n- **Directeur·rice RH/admin/financier** (avec Master + 5-7 ans d'expérience) — voir fiche `gpec-directeur-rh-admin-financier`\n- **Délégué·e fédéral·e** (mobilité interne progressive)\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage BTS SAM (selon contrats)\n- DAF certifiante 2026 : 15 €/h pour Bachelor Assistant Manager ou Master\n- VAE BTS SAM : 3 000-5 000 €\n- CPF (BTS SAM, Bachelor éligibles)\n- DAF formations continues : management bienveillant, IA appliquée à la direction, gestion d'instance gouvernance, droit social, communication politique, posture cadre",
+        "vigilance": "**Confidentialité** : poste à très haute confidentialité (dossiers RH, sujets politiques). Clause de confidentialité dans le contrat.\n\n**Posture cadre** : ne pas confondre avec secrétariat classique. L'assistant·e de direction est dans la chaîne de décision, avec autonomie et délégations explicites.\n\n**Articulation élus / salariés** : poste-clé pour la fluidité politique-technique. Médiation parfois nécessaire entre président·e et directeur·rice.",
+        "sources": [
+          "Fiche métier ALISFA Assistant·e de direction (CPNEF, janvier 2026)",
+          "Référentiel BTS SAM — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BTS SAM — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/35030/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BTS SAM / Bachelor Assistant Manager", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Assistant·e de direction (PDF ALISFA)", "fichier": "cpnef-fiche-metier-assistant-e-de-direction-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiel BTS SAM"
+      }
+    },
+
+    {
+      "id": "gpec-charge-communication",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e chargé·e de communication ALISFA ?",
+      "mots_cles": [
+        "chargé communication", "chargée communication",
+        "BTS Communication", "RNCP7481", "RNCP37198",
+        "8100 euros apprentissage", "Licence pro communication",
+        "Master communication", "réseaux sociaux",
+        "graphisme", "rédaction web",
+        "fédération", "centre social"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS", "tete_de_reseau"],
+      "metiers_secteur": "administratif_financier",
+      "passerelles_gpec": [
+        "charge_accueil", "secretaire", "assistant_direction",
+        "charge_projet", "delegue_federal"
+      ],
+      "reponse": {
+        "synthese": "Le ou la chargé·e de communication conçoit et met en œuvre la stratégie communicationnelle d'une structure ALISFA : site internet, réseaux sociaux, supports imprimés, événements, relations presse, communication interne. **Diplômes** : BTS Communication (RNCP 7481/37198, 8 100 € apprentissage), Licence pro Communication, Master 1 ou 2 Communication / Information-Communication. Compétences techniques (graphisme, web, vidéo) ET stratégiques (positionnement, plaidoyer, branding associatif).",
+        "fondement_legal": "Pas de cadre réglementaire strict. Diplômes Éducation nationale (BTS) et universitaires (Licence, Master).",
+        "minimum_legal": "**Diplômes typiques** :\n- **BTS Communication** (Bac+2) — RNCP 7481/37198 — diplôme central pour ce métier\n- **Licence pro Communication** (Bac+3) avec spécialisations (digital, audiovisuel, graphisme, événementiel)\n- **Master 1 ou 2 Communication / Information-Communication** (Bac+5)\n- **DUT Information-Communication** (réformé en BUT — Bac+3 désormais)\n- **Bachelor Communication** dans des écoles spécialisées (Sup de Pub, ISCOM, EFAP…)\n\n**Financement apprentissage 2026** (table CPNEF p.26) : BTS Communication pris en charge à hauteur de **8 100 €**.\n\n**Missions principales** :\n- Élaboration et mise en œuvre du plan de communication annuel\n- Site internet (mise à jour, animation, SEO)\n- Réseaux sociaux (Facebook, Instagram, LinkedIn, YouTube — stratégie de contenu, publication, modération)\n- Supports imprimés (rapports d'activité, plaquettes, affiches, flyers) — graphisme et impression\n- Communication événementielle (préparation, animation, post-événement)\n- Relations presse (communiqués, dossiers de presse, suivi parutions)\n- Newsletter et e-mailing\n- Vidéos courtes (motion design simple, témoignages, captations événementielles)\n- Communication interne (intranet, journal interne, événements salariés/bénévoles)\n\n**Lieux d'exercice** :\n- Centres sociaux importants (>15 salariés)\n- ADSL, EVS\n- Fédérations régionales et nationales\n- Têtes de réseau ALISFA",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Chargé·e de projet** (avec dimension projet plus stratégique) — voir fiche `gpec-charge-projet`\n- **Responsable / Coordinateur·trice** d'un pôle communication ou plus large\n- **Délégué·e fédéral·e** (avec parcours politique en plus)\n- Reconversion vers **journalisme** ou **freelance** communication\n\n**Spécialisations possibles** :\n- Communication digitale (community manager, social media manager)\n- Graphisme / motion design\n- Audiovisuel (vidéaste interne)\n- Communication d'influence et plaidoyer associatif\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage BTS Communication : 8 100 €\n- DAF certifiante 2026 : 15 €/h pour Master Communication ou Bachelor\n- VAE BTS / Licence pro / Master Com : 3 000-5 000 €\n- CPF (BTS Com, Master Com éligibles)\n- DAF formations continues : Adobe Creative Suite, Canva avancé, Notion, IA générative pour communication (ChatGPT/Claude/Midjourney), SEO, podcasting, vidéo mobile, plaidoyer associatif",
+        "vigilance": "**Évolution rapide du métier** : la communication associative se transforme vite (IA, vidéo verticale, podcasts, chatbots). Formation continue indispensable. Anticiper avec un budget annuel formation dédié.\n\n**Cumul stratégique-opérationnel** : dans une structure de 5-15 salariés, le ou la chargé·e de communication est seul·e — doit gérer stratégie ET production. Au-delà, possibilité de spécialisation (community manager, graphiste).\n\n**Branding associatif** : le branding ALISFA suit des codes spécifiques (lien social, valeurs ESS, sobriété). Ne pas tomber dans le mimétisme du marketing commercial.\n\n**RGPD** : le ou la chargé·e de communication manipule régulièrement des données personnelles (photos d'enfants, témoignages, contacts). Formation RGPD indispensable.",
+        "sources": [
+          "Fiche métier ALISFA Chargé·e de communication (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiel BTS Communication — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BTS Communication — France Compétences (RNCP 37198)", "url": "https://www.francecompetences.fr/recherche/rncp/37198/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BTS / Master Communication", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"},
+          {"titre": "CNIL — RGPD pour les associations", "url": "https://www.cnil.fr/fr/associations", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Chargé·e de communication (PDF ALISFA)", "fichier": "cpnef-fiche-metier-charge-e-de-communication-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiel BTS Communication"
+      }
+    },
+
+    {
+      "id": "gpec-personnel-admin-financier",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e personnel administratif et financier ALISFA ?",
+      "mots_cles": [
+        "personnel administratif", "personnel financier",
+        "comptable", "BTS ESF", "RNCP7570", "RNCP36938",
+        "BTS CG", "BTS Comptabilité Gestion",
+        "DCG", "DSCG", "7667 euros apprentissage",
+        "paie", "URSSAF", "comptabilité analytique"
+      ],
+      "structures_concernees": ["centre_social", "EAJE", "ADSL", "EVS", "tete_de_reseau"],
+      "metiers_secteur": "administratif_financier",
+      "passerelles_gpec": [
+        "secretaire", "assistant_direction", "charge_accueil",
+        "directeur_rh_admin_financier"
+      ],
+      "reponse": {
+        "synthese": "Le ou la personnel administratif et financier assure la gestion comptable, paie et administrative d'une structure ALISFA. **Diplômes typiques** : BTS ESF (Économie Sociale Familiale, RNCP 7570/36938, 7 667 € apprentissage), BTS CG (Comptabilité Gestion), DCG (Diplôme de Comptabilité-Gestion, Bac+3), Licence pro Métiers de la Gestion. Métier technique avec dimension associative (subventions, TVA spécifique, cotisations conventionnelles, dialogue avec commissaire aux comptes).",
+        "fondement_legal": "Pas de cadre réglementaire strict. Diplômes Éducation nationale (BTS) et universitaires (Licence, Master). Pour expert-comptable salarié : DEC obligatoire.",
+        "minimum_legal": "**Diplômes typiques** :\n- **BTS ESF** — Économie Sociale Familiale (Bac+2) — RNCP 7570/36938 — adapté aux structures sociales\n- **BTS CG** — Comptabilité et Gestion (Bac+2) — RNCP 35521\n- **BTS GPME** — Gestion de la Petite et Moyenne Entreprise (Bac+2)\n- **DUT/BUT GEA** — Gestion des Entreprises et des Administrations\n- **DCG** — Diplôme de Comptabilité et de Gestion (Bac+3) — pour postes plus techniques\n- **DSCG** — Diplôme Supérieur de Comptabilité et de Gestion (Bac+5) — pour responsable financier\n- **Licence pro Comptabilité** ou **Métiers de la Gestion**\n- **Master Comptabilité-Contrôle-Audit (CCA)**\n\n**Financement apprentissage 2026** (table CPNEF p.26) : BTS ESF pris en charge à hauteur de **7 667 €**. Le BTS CG, BTS GPME, DCG ne sont pas listés explicitement mais peuvent être financés via les contrats Uniformation standards.\n\n**Missions principales** :\n- **Comptabilité** : saisie des opérations courantes, rapprochements bancaires, contrôle des factures, lettrage\n- **Paie** : préparation des éléments variables, calcul des bulletins (souvent externalisé en cabinet), DSN, déclarations sociales\n- **Trésorerie** : suivi quotidien, prévisionnel, relations bancaires\n- **Gestion administrative** : contrats de travail, dossiers RH, conventions collectives, archivage\n- **Subventions** : montage des dossiers (CAF, conseil départemental, mairie), bilans, justificatifs\n- **Bilan annuel** : préparation des comptes annuels, dialogue avec expert-comptable et commissaire aux comptes\n- **Comptabilité analytique** : ventilation par activité, par dispositif (utile pour PS CAF, AAP)\n\n**Lieux d'exercice** :\n- Centres sociaux\n- EAJE multi-établissements\n- ADSL, EVS\n- Fédérations / sièges sociaux ALISFA",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Directeur·rice RH/admin/financier** (avec Master + 5-7 ans expérience) — voir fiche `gpec-directeur-rh-admin-financier`\n- **Responsable comptable** dans une fédération ou tête de réseau\n- **Expert-comptable salarié·e** (avec DEC) ou consultant·e indépendant·e\n- **Auditeur·trice interne**\n\n**Spécialisations possibles** :\n- Comptabilité associative et fiscalité ESS\n- Gestion de subventions complexes (FSE+, fonds européens, fondations)\n- Contrôle de gestion sociale\n- Paie spécialisée (CCN ALISFA, CCN 66, etc.)\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage BTS ESF : 7 667 €\n- DAF certifiante 2026 : 15 €/h pour BTS CG / DCG / Licence pro / Master CCA\n- VAE BTS ESF / DCG : 3 000-5 000 €\n- CPF (tous les BTS et DCG éligibles)\n- DAF formations continues : actualité fiscale et sociale, Sage / Cegid / Quadratus, paie-sociale ALISFA, IA et comptabilité, gestion subventions FSE+, Excel avancé, PowerBI",
+        "vigilance": "**Spécificités comptables associatives** : la comptabilité associative diffère de la comptabilité commerciale (subventions à comptabiliser au passif, pas de TVA dans la plupart des cas, fonds dédiés, comptabilité analytique par dispositif). Formation spécifique nécessaire.\n\n**Paie souvent externalisée** : pour les petites structures, la paie est gérée par un cabinet d'expertise comptable externe. Le ou la personnel administratif·ive prépare les variables, contrôle les bulletins, suit les déclarations.\n\n**CCN ALISFA spécifique** : la convention ALISFA a ses propres règles (cotisation conventionnelle, classification, prime de présence, etc.). Vérifier la formation à la CCN ALISFA dès le recrutement.\n\n**Cumul possible avec secrétariat** : dans les petites structures, comptabilité + paie + RH + administratif souvent cumulés sur 1-2 ETP. Anticiper la charge réelle.\n\n**Logiciels métiers** : Sage, Cegid, Quadratus, EBP… Adapter les compétences techniques selon le logiciel utilisé.",
+        "sources": [
+          "Fiche métier ALISFA Personnel administratif/financier (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiel BTS ESF — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel BTS ESF — France Compétences (RNCP 36938)", "url": "https://www.francecompetences.fr/recherche/rncp/36938/", "type": "officiel"},
+          {"titre": "DSCG — Ordre des Experts-Comptables", "url": "https://www.experts-comptables.fr/dscg", "type": "officiel"},
+          {"titre": "Mon Compte Formation — BTS / DCG / DSCG", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"},
+          {"titre": "CNCC — Compagnie Nationale des Commissaires aux Comptes", "url": "https://www.cncc.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Personnel administratif/financier (PDF ALISFA)", "fichier": "cpnef-fiche-metier-personnel-administratif-ou-financier-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiel BTS ESF"
+      }
+    }
+
+  ]
+}

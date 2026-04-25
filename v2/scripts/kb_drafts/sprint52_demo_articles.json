@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F2 — 4 articles démo pour validation éditoriale",
+    "generated_at": "2026-04-25",
+    "author": "ELISFA - PDF CPNEF 2026-03-13 + fiches métiers ALISFA + Légifrance",
+    "themes_targeted": [
+      "financement_uniformation (NEW)",
+      "metiers_gpec (mise à jour du thème existant)",
+      "fonctions_reglementaires (NEW)",
+      "contrats_aides (NEW)"
+    ],
+    "validation_required_before": "F3/F4/F5 (production massive ~110 articles restants)"
+  },
+
+  "demo_articles": [
+
+    {
+      "id": "fin-conv-daf-tpe-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Quels sont les barèmes DAF sur fonds conventionnels pour ma structure de moins de 11 salariés en 2026 ?",
+      "mots_cles": [
+        "DAF", "demande aide financière", "fonds conventionnels", "moins de 11 salariés",
+        "TPE", "plafond", "barème", "2026", "EMA", "Effectif Moyen Annuel",
+        "Uniformation", "plan de développement des compétences", "stagiaire",
+        "5000 euros", "65 euros heure", "1800 euros jour", "Qualiopi"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La Demande d'Aide Financière (DAF) sur fonds conventionnels permet à toute structure ALISFA à jour de cotisation de financer ses actions de formation. Pour une structure de moins de 11 salariés (EMA URSSAF), vous disposez de 7 DAF par an cumulables (légales + conventionnelles), avec un plafond de 5 000 € par dossier (8 000 € si la formation regroupe au moins 5 stagiaires). Les coûts pédagogiques sont pris en charge selon trois grilles : 65 €/h pour les formations ≤ 105h en petit groupe (1-4 stagiaires), 15 €/h au-delà de 105h, ou un forfait journalier de 1 800 € dès 5 stagiaires.",
+        "fondement_legal": "Article L 6321-1 et L 6321-6 du Code du travail (obligation de formation employeur, formations hors temps de travail plafonnées à 30h/an/salarié ou 2 % du forfait annuel).",
+        "fondement_ccn": "Article 2.1.4 chapitre VIII de la Convention Collective Nationale ALISFA — avenant n°05-20 du 10 juillet 2020, étendu par arrêté ministériel du 28 juillet 2021. Bénéficiaires : toutes les structures à jour du versement de leur contribution conventionnelle.",
+        "minimum_legal": "**Coûts pédagogiques pris en charge sur fonds conventionnels (DAF -11 salariés, 2026)** :\n- DAF de 1 à 4 stagiaires, formation ≤ 105h : 65 € TTC / heure\n- DAF de 1 à 4 stagiaires, formation > 105h : 15 € TTC / heure\n- DAF de 5 stagiaires et plus, toutes durées : 1 800 € TTC / jour\n- Formations internes : salaire formateur dans la limite de 15 € ou 65 €/h selon durée\n\n**Plafonds financiers** :\n- 5 000 € par DAF de moins de 5 stagiaires\n- 8 000 € par DAF de 5 stagiaires et plus\n\n**Plafond annuel structure** : 7 DAF par an cumulés (fonds légaux + conventionnels), au niveau du SIREN. Une structure multi-établissements partage donc ce quota entre tous ses SIRET.\n\n**Frais annexes** (en plus du coût pédagogique) :\n- Repas : 30 € par stagiaire\n- Hébergement : 200 € en Île-de-France/Paris, 150 € en province et DROM\n- Déplacements SNCF : frais réels (justificatifs)\n- Voiture personnelle : barème fiscal 6 chevaux + parkings/péages au réel\n- Garde d'enfants ou de parents à charge : coût réel si la formation se déroule hors temps de travail\n\n**Rémunération du stagiaire** (spécifique structures < 11 salariés) : prise en charge forfaitaire de 13 € / heure stagiaire, avec obligation de remplacement (hors contrats aidés CUI, PEC, CPRO).",
+        "plus_formation": "**Optimiser votre plan formation 2026** :\n\n1. **Cumuler DAF légale et DAF conventionnelle** : votre structure peut activer 1 DAF \"légale\" par SIREN par an et compléter par 6 DAF conventionnelles. Sur la ligne « intitulé libre » du formulaire Uniformation, précisez explicitement si l'action est financée en DAF légale ou conventionnelle.\n\n2. **Préférer les Actions Collectives Territoriales (ACT) ou le catalogue transversal national Uniformation** quand c'est possible : aucun coût ne s'impute sur votre quota de 7 DAF, et certaines formations courtes (droit social, paie, management, QVT, IA, illettrisme) sont prises en charge intégralement.\n\n3. **DAF certifiante (transitoire 2026)** : pour les actions certifiantes RNCP/RS d'au moins 70h démarrant entre le 1er janvier et le 30 juin 2026, plafond spécifique de 15 €/h sur le coût réel (pas de frais annexes ni rémunération).\n\n4. **Mobiliser le PCRH (Prestation de Conseil RH)** : diagnostic + 6 jours d'accompagnement pris en charge à 100 % par Uniformation, sans imputation sur les DAF. Très utile pour formaliser votre stratégie GPEC avant de bâtir le plan annuel.",
+        "vigilance": "**Délai impératif** : la DAF doit être déposée minimum 1 mois avant le démarrage de la formation (« phase avant » dans l'espace privé Uniformation). Tout dossier reçu après le démarrage entraîne un refus systématique de prise en charge.\n\n**Confirmation du départ** : pour toute action ≥ 1 mois, il est OBLIGATOIRE de confirmer le départ AVANT la date indiquée sur le courrier d'accord financier d'Uniformation, dans la rubrique « Nos échanges » de l'espace privé. Sans confirmation, l'accord est clôturé automatiquement.\n\n**Certification Qualiopi** : depuis le 1er janvier 2022, l'organisme de formation doit obligatoirement détenir la certification Qualiopi (qui remplace le DataDock). Vérifiez avant signature du devis — un OF non certifié = refus de prise en charge.\n\n**Cotisation conventionnelle** : seules les structures à jour de leur cotisation conventionnelle ALISFA accèdent à ces fonds. Vérifier auprès de votre comptable.\n\n**Bascule d'EMA** : si votre EMA passe à 11+ en cours d'année (recrutement), vous perdez l'accès aux fonds légaux du plan de développement des compétences. Anticiper cette bascule peut influencer le calendrier de vos formations.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — version CPNEF du 13 mars 2026, pages 13-15",
+          "Article 2.1.4 chapitre VIII Convention Collective Nationale ALISFA (avenant n°05-20)",
+          "Articles L6321-1 et L6321-6 alinéa 2 du Code du travail",
+          "Décret n° 2024-394 du 29 avril 2024 (cadre Qualiopi)"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Site de branche ALISFA — actualités CPNEF, dates CTP", "url": "https://www.alisfa.fr", "type": "officiel"},
+          {"titre": "Code du travail article L6321-1 (obligation de formation)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033010313", "type": "legislation"},
+          {"titre": "Code du travail article L6321-6 (formations hors temps travail)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037387381", "type": "legislation"},
+          {"titre": "Calcul de l'EMA URSSAF (DSN)", "url": "https://www.urssaf.fr/accueil/employeur/declarer-cotiser/declarations-sociales/effectif-moyen-annuel.html", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Tableau des règles de financement ALISFA 2026 (PDF source)", "fichier": "regles_financement_alisfa_2026-03-13.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "gpec-animateur-petite-enfance",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former et faire évoluer un.e animateur.trice petite enfance dans ma structure ALISFA ?",
+      "mots_cles": [
+        "animateur petite enfance", "animatrice", "EAJE", "crèche", "halte-garderie",
+        "CAP AEPE", "Bac pro ASSP", "BEP CSS", "BEP ASSP",
+        "diplôme petite enfance", "passerelle métier", "GPEC", "fiche métier",
+        "auxiliaire de puériculture", "assistant maternel", "alternance",
+        "apprentissage", "6467 euros", "RNCP28048"
+      ],
+      "structures_concernees": ["EAJE"],
+      "metiers_secteur": "petite_enfance",
+      "passerelles_gpec": [
+        "assistant_maternel",
+        "auxiliaire_puericulture",
+        "animateur_activites",
+        "intervenant_specialise",
+        "charge_accueil"
+      ],
+      "reponse": {
+        "synthese": "L'animateur·trice petite enfance accompagne le développement global de l'enfant en EAJE, dans le respect du projet éducatif de la structure. Le métier exige un diplôme reconnu : principalement le CAP Accompagnant Éducatif Petite Enfance (CAP AEPE), accessible en apprentissage avec une prise en charge Uniformation de 6 467 € en 2026. Les passerelles GPEC permettent ensuite d'évoluer vers auxiliaire de puériculture (DE), assistant·e maternel·le ou animateur·trice d'activités.",
+        "fondement_legal": "Article R2324-42 du Code de l'action sociale et des familles (qualifications du personnel d'EAJE) et arrêté du 29 juillet 2022 fixant les diplômes acceptés.",
+        "minimum_legal": "**Diplômes permettant d'exercer le métier d'animateur·trice petite enfance** (source : fiche métier officielle ALISFA + arrêté 29 juillet 2022) :\n\n- **CAP AEPE** — Accompagnant Éducatif Petite Enfance (RNCP 28048 / 38565) — niveau 3 — diplôme le plus courant\n- **Bac pro ASSP** — Accompagnement, soins et services à la personne — niveau 4\n- **Bac pro SAPAT** — Services aux personnes et animation dans les territoires — niveau 4\n- **BEP CSS** — Carrières sanitaires et sociales — niveau 3 (ancien)\n- **BEP ASSP** — Accompagnement, soins et services à la personne — niveau 3 (ancien)\n\nL'arrêté du 29 juillet 2022 prévoit également d'autres équivalences par expérience professionnelle (voir article 1).\n\n**Financement apprentissage 2026** (table CPNEF p.26) : CAP AEPE pris en charge à hauteur de **6 467 €** (forfait annuel coût-contrat versé au CFA par Uniformation).",
+        "plus_formation": "**Missions et activités principales** (fiche métier ALISFA) :\n- Veiller au bien-être physique et affectif de chaque enfant (sécurité, alimentation, sommeil, soins)\n- Recueillir les informations concernant l'enfant et informer les parents dans une relation de confiance\n- Proposer et organiser des activités d'éveil adaptées en lien avec l'équipe\n- Contribuer aux activités d'entretien et d'hygiène des locaux et du matériel\n- Participer aux temps de réflexion en équipe\n\n**Évolutions et passerelles GPEC** :\nLes formations spécifiques permettent d'évoluer vers :\n- **Métiers de la Petite Enfance** : assistant·e maternel·le, auxiliaire de puériculture (DE Aux puériculture, financé 8 100 € en apprentissage)\n- **Métiers de l'Animation** : animateur·trice d'activités (CPJEPS, 6 898 €), intervenant·e spécialisé·e\n- **Métiers Administratif & Communication** : chargé·e d'accueil (BTS Communication, 8 100 €)\n\n**Modes de financement de la formation** :\n- **Contrat d'apprentissage** : forfait coût-contrat versé directement au CFA par Uniformation (cf. tableau CPNEF p.26)\n- **DAF certifiante** (transitoire 2026) : pour formations RNCP ≥ 70h démarrant avant le 30 juin 2026, plafond 15 €/h\n- **VAE** : 3 000 € pour une démarche simple, jusqu'à 5 000 € pour une démarche mixte avec heures de formation\n- **CPF** du salarié pour autonomie (CAP AEPE éligible CPF)",
+        "vigilance": "**Conditions de qualification réglementaires** : un EAJE doit respecter les seuils de qualification du personnel fixés par le Code de l'action sociale et des familles (article R2324-42). Vérifier en amont du recrutement la composition globale de votre équipe pour respecter le ratio diplômés/non-diplômés.\n\n**Reste à charge employeur** : sur le contrat d'apprentissage, Uniformation prend en charge le coût pédagogique (6 467 € pour CAP AEPE) versé au CFA. La rémunération de l'apprenti·e (% du SMIC selon âge et année) reste à la charge de votre structure.\n\n**Diplôme à confirmer auprès du CFA** : la table CPNEF p.26 cite le RNCP 28048/38565 ; vérifier auprès du CFA visé que la certification précise est bien éligible apprentissage (le numéro RNCP peut être actualisé en cours d'année).",
+        "sources": [
+          "Fiche métier ALISFA Animateur·trice petite enfance (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA 2026 — page 26 (table coûts apprentissage)",
+          "Arrêté du 29 juillet 2022 fixant les diplômes attestant des compétences professionnelles en EAJE",
+          "Article R2324-42 Code de l'action sociale et des familles"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC dynamique (page parent)", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel CAP AEPE — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/28048/", "type": "officiel"},
+          {"titre": "Article R2324-42 Code action sociale (qualifications EAJE)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049824", "type": "legislation"},
+          {"titre": "Arrêté 29 juillet 2022 (équivalences diplômes EAJE)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046135935", "type": "legislation"},
+          {"titre": "Mon Compte Formation — CAP AEPE", "url": "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/cap-aepe", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Animateur·trice petite enfance (PDF)", "fichier": "cpnef-fiche-metier-animateur-trice-petite-enfance-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + arrêté 29 juillet 2022 + PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "reg-direction-eaje",
+      "_theme_target": "fonctions_reglementaires",
+      "question_type": "Quelles sont les conditions de qualification pour diriger un EAJE en 2026 ?",
+      "mots_cles": [
+        "direction EAJE", "directeur crèche", "directrice crèche", "qualifications",
+        "Code action sociale", "R2324", "R2324-39", "décret Norma", "2021-1131",
+        "puéricultrice", "EJE", "auxiliaire puéricultrice", "infirmière",
+        "médecin", "agrément", "PMI", "circulaire CNAF", "PSU"
+      ],
+      "structures_concernees": ["EAJE"],
+      "fonction_reglementaire": "direction_eaje",
+      "reponse": {
+        "synthese": "La direction d'un Établissement d'Accueil de Jeunes Enfants (EAJE) — crèche collective, halte-garderie, multi-accueil, jardin d'enfants, micro-crèche — est encadrée par le Code de l'action sociale et des familles (articles R2324-1 à R2324-50). Le décret n° 2021-1131 du 30 août 2021 (dit décret « Norma ») a modifié les conditions de qualification du directeur·rice. Les qualifications acceptées varient selon la **capacité d'accueil de la structure** : puéricultrice·teur, médecin, EJE avec expérience, ou autres équivalences précisées par l'article R2324-46.",
+        "fondement_legal": "Code de l'action sociale et des familles, articles R2324-1 à R2324-50 (régime général EAJE). Décret n° 2021-1131 du 30 août 2021 relatif aux assistants maternels et aux établissements d'accueil de jeunes enfants. Arrêté du 23 septembre 2021 relatif aux modalités d'organisation, de fonctionnement et d'évaluation des EAJE.",
+        "minimum_legal": "**Conditions de qualification du directeur·rice d'EAJE** (article R2324-46 du Code de l'action sociale et des familles, version issue du décret 2021-1131) :\n\n**Pour les établissements ≥ 41 places** :\n- Diplôme d'État de **puéricultrice·teur** avec 3 ans d'expérience professionnelle, OU\n- Diplôme d'État de **médecin** avec qualification en pédiatrie ou expérience auprès de jeunes enfants, OU\n- Diplôme d'État d'**Éducateur·trice de Jeunes Enfants (DE EJE)** avec **3 ans d'expérience** comme directeur·rice ou directeur·rice adjoint·e d'EAJE\n\n**Pour les établissements < 41 places** :\n- Mêmes profils, OU\n- DE EJE avec 3 ans d'expérience auprès de jeunes enfants\n\n**Pour les micro-crèches** : voir article R2324-46-3 (référent·e technique au lieu d'un directeur en titre — fiche dédiée).\n\n**Référent·e Santé et Accueil Inclusif (RSAI)** : OBLIGATOIRE depuis le 1er septembre 2022 dans tout EAJE, en plus du directeur. Décret 2021-1131 article R2324-39-1.",
+        "plus_formation": "**Diplômes financés en apprentissage (table CPNEF 2026 p.26)** pour viser une fonction de direction EAJE à terme :\n- **DE EJE** (RNCP 29442/38608) : 7 900 € de coût-contrat\n- **DE Auxiliaire de puériculture** (RNCP 35832/40743) : 8 100 € de coût-contrat\n\nLe DE Puériculture (en école spécialisée) n'est pas financé en apprentissage par Uniformation — il s'obtient après le DE Infirmier + spécialisation.\n\n**Pour un·e EJE déjà en poste qui souhaite accéder à la direction** : 3 ans d'expérience comme adjoint·e ou directeur·rice sont requis. Les formations CAFERUIS (Certificat d'Aptitude aux Fonctions d'Encadrement) ou DEIS (Diplôme d'État Ingénierie Sociale) peuvent compléter le parcours mais ne se substituent pas à l'expérience minimale.\n\n**Formations continues recommandées** finançables en DAF Uniformation :\n- Management d'équipe en EAJE\n- Conduite d'un projet pédagogique\n- Gestion budgétaire d'une structure d'accueil\n- Accompagnement à la parentalité",
+        "obligations_formation": "Diplôme d'État (puéricultrice, médecin ou EJE selon capacité) + expérience minimale (3 ans pour la majorité des cas).",
+        "accompagnement_obligatoire": "Tout directeur·rice nouvellement nommé·e doit faire l'objet d'une **déclaration auprès du Conseil départemental** (service PMI), qui valide la conformité du profil avec la capacité de l'établissement. La PMI peut refuser un profil non conforme. Aucun tutorat formel n'est requis légalement, mais les fédérations ELISFA recommandent un parrainage par un directeur expérimenté la première année.",
+        "vigilance": "**Conditions évolutives** : les conditions de qualification ont été assouplies par le décret 2021-1131 (notamment ouverture aux EJE pour les structures < 41 places). Vérifier la version en vigueur au moment du recrutement sur Légifrance — l'article R2324-46 peut être à nouveau modifié dans les mois/années à venir.\n\n**Spécificités micro-crèches (< 12 places)** : pas d'obligation de directeur·rice en titre, mais nécessité d'un·e **référent·e technique** dont les conditions de qualification sont définies par l'article R2324-46-3 (voir article dédié).\n\n**RSAI obligatoire** depuis 1er septembre 2022 dans **tout** EAJE — y compris micro-crèches. Le directeur peut cumuler les deux fonctions sous conditions (cf. article R2324-39-1).\n\n**Texte en vigueur au 25 avril 2026.** Vérifier la dernière version sur Légifrance avant toute décision de recrutement définitive.",
+        "sources": [
+          "Code de l'action sociale et des familles, articles R2324-1 à R2324-50 (régime général EAJE)",
+          "Article R2324-46 (conditions de qualification du directeur·rice)",
+          "Article R2324-46-3 (référent·e technique micro-crèche)",
+          "Article R2324-39-1 (Référent·e Santé et Accueil Inclusif)",
+          "Décret n° 2021-1131 du 30 août 2021 dit décret « Norma »",
+          "Arrêté du 23 septembre 2021 relatif aux modalités d'organisation des EAJE",
+          "Circulaire CNAF n° 2024-001 — Convention d'objectifs Prestation de Service Unique (PSU)"
+        ],
+        "liens": [
+          {"titre": "Code action sociale article R2324-46 (qualifications directeur EAJE)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049832", "type": "legislation"},
+          {"titre": "Code action sociale article R2324-39-1 (RSAI)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049818", "type": "legislation"},
+          {"titre": "Code action sociale chapitre IV — EAJE (régime général)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006159474/", "type": "legislation"},
+          {"titre": "Décret n° 2021-1131 du 30 août 2021 (Norma)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044020833", "type": "legislation"},
+          {"titre": "CAF Pro — Prestation de Service Unique EAJE", "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/petite-enfance/etablissements-d-accueil-du-jeune-enfant", "type": "officiel"},
+          {"titre": "monenfant.fr — Site officiel CAF petite enfance", "url": "https://monenfant.fr/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier la conformité du profil candidat avec les services PMI du Conseil départemental avant tout recrutement définitif. En cas de doute sur les équivalences ou sur l'application du décret 2021-1131 à votre situation, contacter le pôle juridique ELISFA.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Code action sociale R2324 (version Légifrance 25 avril 2026) + décret 2021-1131"
+      }
+    },
+
+    {
+      "id": "contrat-cifre-doctorant",
+      "_theme_target": "contrats_aides",
+      "question_type": "Comment accueillir un.e doctorant.e en CIFRE dans ma structure ALISFA et quel financement ?",
+      "mots_cles": [
+        "CIFRE", "doctorant", "doctorante", "thèse", "recherche-action",
+        "ANRT", "subvention", "14000 euros", "3 ans",
+        "convention industrielle formation recherche", "CIR", "ESS",
+        "fédération", "tête de réseau", "centre de ressources"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL", "tete_de_reseau"],
+      "contrat_type": "cifre",
+      "reponse": {
+        "synthese": "La Convention Industrielle de Formation par la Recherche (CIFRE) permet à votre structure d'accueillir un.e doctorant.e en CDI ou CDD de 3 ans pour mener une thèse en lien direct avec votre activité (ex. recherche-action sur l'animation socioculturelle, l'évaluation de l'impact social, la parentalité…). Le dispositif, géré par l'**ANRT (Association Nationale Recherche et Technologie)**, verse à votre structure une subvention forfaitaire de **14 000 € par an pendant 3 ans** (soit 42 000 € au total). Rare en ALISFA mais pertinent pour les fédérations, têtes de réseau et structures avec dimension recherche-action.",
+        "fondement_legal": "Décret n° 81-1108 du 14 décembre 1981 (création du dispositif CIFRE). Modifié par décret n° 2003-218 du 11 mars 2003 (extension aux associations et collectivités). Convention de gestion entre le Ministère de l'Enseignement Supérieur et de la Recherche et l'ANRT.",
+        "minimum_legal": "**Conditions cumulatives pour bénéficier d'une CIFRE** :\n\n1. **Structure d'accueil** : entreprise, association loi 1901 (votre cas), collectivité ou organisme à but non lucratif. Pas de seuil de taille minimum.\n\n2. **Profil doctorant·e** : titulaire d'un Master 2 Recherche (ou équivalent) — bac+5. Inscription en thèse dans une école doctorale (ED).\n\n3. **Sujet de thèse** : en lien direct avec l'activité de la structure d'accueil. La candidature doit présenter un projet de recherche-action validé par le directeur de thèse universitaire ET l'encadrant·e en structure.\n\n4. **Contrat de travail** : CDI ou CDD de 3 ans (durée minimale de la thèse), salaire brut **minimum 26 000 € / an** (garanti par convention CIFRE, plus que SMIC). À la charge de la structure mais subventionné.\n\n5. **Encadrement académique** : co-encadrement universitaire (directeur·rice de thèse + école doctorale) + encadrement structure.\n\n6. **Convention tripartite** : structure d'accueil — université d'inscription du doctorant — ANRT.\n\n**Subvention ANRT versée à la structure** : **14 000 € / an pendant 3 ans** (montant 2024-2026, susceptible d'évolution). Aide indépendante des aides Uniformation, du CIR, etc.\n\n**Délai d'instruction** : 3-6 mois entre dépôt du dossier ANRT et signature de la convention. Anticiper.",
+        "plus_formation": "**Procédure de dépôt** (sur le site de l'ANRT) :\n\n1. **Identifier le ou la doctorant·e** + le sujet + le directeur·trice de thèse universitaire\n2. **Constituer le dossier** sur l'espace candidat ANRT (https://www.anrt.asso.fr/) :\n   - Présentation de la structure (statuts, activité, comptes)\n   - CV du doctorant·e\n   - Lettre de candidature et projet de recherche\n   - Lettre du directeur de thèse\n   - Convention de stage tripartite signée\n3. **Évaluation par le comité scientifique ANRT** : ~3-6 mois\n4. **Si accord** : signature de la convention CIFRE, versement de la 1ère tranche de subvention\n5. **Reporting annuel** : un rapport d'avancement remis chaque année à l'ANRT\n\n**Cumul possible** :\n- **Crédit Impôt Recherche (CIR)** : pour les structures éligibles, le salaire du doctorant CIFRE compte en double dans l'assiette CIR pendant 24 mois\n- **Aides Uniformation** : la formation doctorale n'est pas financée par Uniformation (relève du Ministère ESR), mais les actions de formation continue du doctorant pendant son contrat peuvent être financées en DAF\n\n**Pertinence pour le réseau ELISFA** :\n- Études d'impact social des structures (capability approach, mesure du lien social)\n- Recherche sur les pratiques d'animation socioculturelle\n- Évaluation des politiques familiales (CAF/PSF)\n- Recherche en sciences de l'éducation appliquée à la petite enfance",
+        "obligations_formation": "Le doctorant·e doit être inscrit·e en thèse de doctorat dans une école doctorale reconnue. Pas d'obligation de formation supplémentaire pour la structure d'accueil — l'encadrement scientifique est assuré par le directeur·trice de thèse universitaire.",
+        "accompagnement_obligatoire": "Co-encadrement obligatoire :\n- **Directeur·rice de thèse universitaire** (université ou organisme de recherche)\n- **Référent·e structure** désigné dans la convention (souvent un cadre dirigeant : directeur, délégué fédéral, responsable pôle études)\n- Ces deux personnes signent un avenant pédagogique précisant les modalités de co-encadrement (rythme des points, articulation thèse/missions opérationnelles).",
+        "vigilance": "**Le CIFRE n'est pas un contrat aidé classique** : la subvention ANRT est forfaitaire et ne couvre que ~50 % du coût employeur réel. Le reste à charge structure (~14-15 k€/an) doit être budgété sur les fonds propres ou cofinancements (CIR, autres subventions).\n\n**Risque de refus ANRT** : tous les dossiers ne sont pas acceptés (~30 % de refus selon données ANRT). Le sujet de thèse doit présenter un caractère scientifique et applicatif solide. Préparer un projet de recherche structuré avant de monter le dossier.\n\n**Articulation thèse / missions opérationnelles** : le doctorant·e consacre normalement 100 % de son temps à la thèse et aux missions de la structure articulées au sujet. Évitez de le/la faire dériver vers des tâches sans lien avec sa recherche — risque d'abandon et de désengagement scientifique.\n\n**Texte en vigueur au 25 avril 2026.** Le montant de la subvention (14 000 €/an) peut évoluer chaque année — vérifier la valeur actualisée sur le site ANRT avant de monter un dossier.",
+        "sources": [
+          "Décret n° 81-1108 du 14 décembre 1981 (création CIFRE)",
+          "Décret n° 2003-218 du 11 mars 2003 (extension aux associations)",
+          "Convention de gestion ANRT — Ministère de l'Enseignement Supérieur et de la Recherche",
+          "Site officiel ANRT — Conditions CIFRE (consulté avril 2026)"
+        ],
+        "liens": [
+          {"titre": "ANRT — Page officielle CIFRE", "url": "https://www.anrt.asso.fr/fr/cifre-7843", "type": "officiel"},
+          {"titre": "Espace candidat ANRT (dépôt dossier)", "url": "https://www.anrt.asso.fr/fr/cifre", "type": "officiel"},
+          {"titre": "Ministère ESR — Présentation CIFRE", "url": "https://www.enseignementsup-recherche.gouv.fr/fr/cifre", "type": "officiel"},
+          {"titre": "Décret 81-1108 fondateur CIFRE (Légifrance)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000324091", "type": "legislation"},
+          {"titre": "Décret 2003-218 (extension associations)", "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000604220", "type": "legislation"}
+        ],
+        "version_alisfa": null
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Décret 2003-218 + ANRT site officiel (avril 2026)"
+      }
+    }
+
+  ]
+}

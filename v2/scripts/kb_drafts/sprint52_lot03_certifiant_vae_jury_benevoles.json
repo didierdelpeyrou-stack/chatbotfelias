@@ -1,0 +1,211 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F3 lot 03 — Fonds conventionnels suite (5 articles)",
+    "lot": "03/06",
+    "topic": "DAF certifiante 2026, préparation concours, VAE simple/mixte, jurys, bénévoles dirigeants",
+    "generated_at": "2026-04-25",
+    "source_principale": "PDF CPNEF Règles financement ALISFA 2026-03-13, pages 13, 18-20",
+    "theme_target": "financement_uniformation"
+  },
+
+  "articles": [
+
+    {
+      "id": "fin-conv-daf-certifiante-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer une formation certifiante (DAF certifiante) en 2026 ? Dispositif transitoire jusqu'au 30 juin",
+      "mots_cles": [
+        "DAF certifiante", "formation certifiante", "RNCP", "RS",
+        "CQP", "CQPI", "blocs de compétences", "transitoire 2026",
+        "30 juin 2026", "PREC", "Pro-A",
+        "70 heures minimum", "15 euros heure", "coût réel"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La **DAF certifiante** est un dispositif **transitoire 2026** qui finance jusqu'au **30 juin 2026** les formations certifiantes RNCP, RS ou CQP/CQPI d'au moins **70 heures**, en attendant la mise en place opérationnelle de la **Période de Reconversion (PREC)** qui remplace l'ancienne Pro-A. Coût pédagogique pris en charge à hauteur du **coût réel dans la limite de 15 €/h**, sans frais annexes ni rémunération. Toute action démarrant après le 30 juin 2026 sera basculée sur le nouveau dispositif PREC.",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique transitoire CPNEF dans l'attente du déploiement opérationnel de la PREC (qui remplace la Pro-A à compter du 1er janvier 2026).",
+        "minimum_legal": "**Objectifs** : prise en charge de formations certifiantes en attendant le déploiement opérationnel de la nouvelle Période de Reconversion (PREC).\n\n**Formations éligibles** :\n- Formations enregistrées au **RNCP** (Répertoire National des Certifications Professionnelles)\n- Formations enregistrées au **Répertoire Spécifique** (ex-Inventaire CNCP)\n- Toutes certifications par **un ou plusieurs blocs de compétences**\n- **CQP** (Certificat de Qualification Professionnelle) et **CQPI** (Certificat de Qualification Professionnelle Interbranches)\n\n**Période d'éligibilité** : pour toutes les actions démarrant **entre le 1er janvier 2026 et le 30 juin 2026**.\n\n⚠️ **ATTENTION** : tout dossier envoyé **après le démarrage de la formation** engendrera un refus systématique de prise en charge par l'OPCO.\n\n**Durée minimale** : action de formation au moins égale à **70 heures**.\n\n**Publics éligibles** : salarié·e·s (tous types de contrats).\n\n**Prises en charge** :\n- **Coûts pédagogiques** : coût réel dans la limite de **15 € / heure de formation** (heures théoriques en centre de formation)\n- **Frais annexes** : **AUCUNE prise en charge**\n- **Rémunération** : **AUCUNE prise en charge** des heures de formation pendant le temps de travail\n\n**Prise en charge en dehors du plafond annuel de DAF** — pas d'imputation sur le quota de DAF de la structure.",
+        "plus_formation": "**Démarche** :\n1. La demande de prise en charge doit être déposée **au minimum 1 mois avant le démarrage** de l'action (pour les actions débutant en janvier 2026, les dossiers seront instruits en tout début d'année par l'OPCO)\n2. Connecter à l'espace privé adhérent Uniformation (n°Icom + code confidentiel)\n3. Rubrique « mes dossiers », cliquer « saisir » et « avant », saisir une DAF avant le démarrage de la formation, sélectionner la phase « avant »\n4. **Indiquer dans la rubrique action de formation sur la ligne « intitulé libre »** : **« DAF FORMATION CERTIFIANTE »** et le **nom de la certification visée**\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété **avec en déclaratif le statut du stagiaire** (type de contrat)\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires OU la convention de formation **intégrant le N° de la certification** visée au RS ou RNCP\n\n**Articulation avec d'autres dispositifs** :\n- **Pas de cumul** avec une DAF \"classique\" sur la même action\n- **Possible avec CPF salarié** : si le salarié mobilise son CPF, l'employeur peut compléter par une DAF certifiante pour les heures de formation au-delà du crédit CPF\n- **VAE certifiante** : préférer la DAF VAE simple/mixte qui a son propre régime (cf. article dédié `fin-conv-vae-2026`)\n- **Articulation avec les heures de formation hors temps de travail** : en cas de formation HTT, plafond légal de 30h/an/salarié ou 2 % du forfait annuel\n\n**Exemple chiffré** :\n- Formation BTS Communication en alternance courte : 200 heures de formation théorique\n- Coût réel OF : 4 000 €\n- Plafond DAF certifiante : 15 €/h × 200 h = 3 000 € maximum\n- **Reste à charge employeur** : 4 000 - 3 000 = 1 000 €",
+        "vigilance": "**Date butoir 30 juin 2026** : le dispositif est transitoire. Toute action démarrant après le 30 juin 2026 ne sera **plus** éligible à la DAF certifiante — basculement sur la PREC en cours d'élaboration.\n\n**Délai 1 mois avant démarrage** strictement respecté : tout dossier déposé **après** le début de la formation = refus systématique.\n\n**Aucune prise en charge frais annexes ni rémunération** : c'est la spécificité (vs DAF classique). Si l'employeur veut couvrir frais annexes/rémunération, autre dispositif à mobiliser (DAF classique, CPF cofinancé...).\n\n**Plafond 15 €/h strict** : si le coût réel excède 15 €/h, le reste est à la charge de la structure ou du salarié.\n\n**Durée minimale 70h** : pour une formation < 70h, ne pas mobiliser ce dispositif (DAF classique ou CPF plus adaptés).\n\n**Texte en vigueur au 13 mars 2026.** Le dispositif PREC qui prend la suite est en cours d'élaboration — modalités à venir.",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 13, 18",
+          "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20)",
+          "Politique transitoire CPNEF en attente du déploiement de la PREC"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF certifiante", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "France Compétences — Référentiels RNCP/RS", "url": "https://www.francecompetences.fr/recherche/", "type": "officiel"},
+          {"titre": "Site de branche ALISFA — actualités CPNEF", "url": "https://www.alisfa.fr", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Vérifier l'éligibilité de la certification visée (RNCP/RS) auprès de France Compétences avant signature du devis. Pour les actions démarrant après le 30 juin 2026, attendre les modalités opérationnelles de la PREC ou contacter le pôle juridique ELISFA.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-conv-prepa-concours-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer une préparation aux concours pour un salarié en 2026 ?",
+      "mots_cles": [
+        "DAF préparation concours", "préparation concours",
+        "concours d'entrée", "institut de formation",
+        "3000 euros maximum", "fonds conventionnels",
+        "salarié", "tous concours", "épreuves d'entrée"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La **DAF Préparation aux concours** finance la préparation aux épreuves d'entrée en institut de formation pour vos salarié·e·s, **tous concours confondus**. Plafond fixe : **3 000 € maximum par dossier sur justificatifs**. Pas de prise en charge des frais annexes ni de la rémunération. Dispositif accessible à toutes les structures de la branche à jour de leur cotisation conventionnelle, en dehors du plafond annuel de DAF.",
+        "fondement_legal": "Convention Collective Nationale ALISFA — chapitre VIII (avenant n°05-20). Politique de branche CPNEF.",
+        "minimum_legal": "**Objectifs** :\n- Préparation aux épreuves d'entrée en institut de formation\n- **Pour tous les concours** (sociaux, paramédicaux, animation, etc.)\n\n**Publics éligibles** : salarié·e·s (tous types de contrats).\n\n**Prises en charge** :\n- **Coûts pédagogiques** : **3 000 € maximum par dossier sur justificatifs**\n- **Frais annexes** : aucune prise en charge\n- **Rémunération** : aucune prise en charge\n\n**Prise en charge en dehors du plafond annuel de DAF** — pas d'imputation sur le quota de DAF.",
+        "plus_formation": "**Démarche** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Rubrique « mes dossiers », puis cliquez « saisir » et « avant » et saisir une DAF avant le démarrage de la formation (**minimum 1 mois avant**), sélectionner la phase « avant »\n3. **Indiquer dans la rubrique action de formation sur la ligne « intitulé libre »** : **« préparation concours »** et le **nom de la certification visée**\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires\n- Programme avec les dates de formation\n\n**Cas d'usage typiques pour la branche ALISFA** :\n- Préparation au concours d'entrée en école d'**Auxiliaire de Puériculture** (DE)\n- Préparation au concours d'entrée en école d'**Éducateur de Jeunes Enfants** (DE EJE)\n- Préparation au concours d'entrée en école d'**Éducateur Spécialisé** (DEES)\n- Préparation au concours d'entrée en école d'**Assistant de Service Social** (DEASS)\n- Préparation au concours d'entrée en école de **Conseiller en Économie Sociale et Familiale** (DECESF)\n- Préparation au concours d'entrée en formation **DEJEPS / DESJEPS** (avec sélection préalable)\n- Préparation au concours d'**Infirmier·ère** (DEI) — si poste paramédical en EAJE\n- Préparation aux concours de la **Fonction Publique territoriale** (animateur, ATSEM, agent technique...)\n\n**Articulation avec d'autres dispositifs** :\n- **CPF du salarié** : la préparation peut aussi être financée par le CPF si le code formation est éligible. Combinaison possible (CPF + DAF prépa) pour couvrir un coût plus élevé\n- **Apprentissage post-concours** : si le salarié réussit le concours, il peut ensuite signer un contrat d'apprentissage pour la formation diplômante (cf. article `fin-alt-apprentissage-2026`)\n- **VAE** : alternative au concours pour les salariés expérimentés cherchant à valider un diplôme par leur expérience (cf. article `fin-conv-vae-2026`)",
+        "vigilance": "**Plafond 3 000 € strict** : tout coût excédant 3 000 € est à la charge du salarié ou de l'employeur (ou via CPF). Demander un devis détaillé à l'organisme de formation avant la DAF.\n\n**Pas de prise en charge frais annexes ni rémunération** : si la prépa se déroule en dehors de la structure (sur Paris par ex.), les frais de transport/hébergement sont à la charge du salarié ou de l'employeur.\n\n**Délai 1 mois avant démarrage** : DAF saisie « phase avant » respectée, sinon refus systématique.\n\n**Justificatifs obligatoires** : facture de l'OF de prépa, devis nominatif, programme. Conserver les preuves de paiement.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 13, 18",
+          "Convention Collective Nationale ALISFA — chapitre VIII"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — recherche concours", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"},
+          {"titre": "Site de branche ALISFA", "url": "https://www.alisfa.fr", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-conv-vae-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer une démarche VAE simple ou mixte pour un salarié en 2026 ?",
+      "mots_cles": [
+        "VAE", "Validation Acquis Expérience", "VAE simple", "VAE mixte",
+        "France VAE", "vae.gouv.fr", "RNCP", "diplôme par expérience",
+        "3000 euros", "5000 euros", "65 euros heure",
+        "architecte parcours", "accompagnement", "frais positionnement"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La Validation des Acquis de l'Expérience (VAE) permet à un·e salarié·e de votre structure d'obtenir tout ou partie d'un diplôme/titre RNCP par son expérience. Deux formules : **VAE simple** (3 000 € max, accompagnement seul) ou **VAE mixte** (5 000 € total, accompagnement 3 000 € + heures de formation 65 €/h). Depuis 2024, le nouveau dispositif **France VAE** (vae.gouv.fr) avec **Architecte de parcours** et accompagnateur dédié. Si l'action vient du salarié, financement possible via CPF ; si elle vient en accord avec l'employeur, financement via plan de développement des compétences (DAF légale ou conventionnelle).",
+        "fondement_legal": "Articles L6411-1 à L6423-3 Code du travail (régime général VAE). Loi n° 2022-1598 du 21 décembre 2022 relative au marché du travail (réforme VAE). Décret n° 2023-1275 du 27 décembre 2023 (modalités France VAE).",
+        "minimum_legal": "**Objectifs** : prise en charge du coût des démarches d'accompagnement individuel pour les candidats souhaitant obtenir par la voie de la VAE :\n- Tout ou partie d'un **diplôme**\n- Tout ou partie d'un **titre**\n- Tout ou partie d'un **certificat de qualification professionnelle (CQP)**\n- Inscrit au **Répertoire National des Certifications Professionnelles (RNCP)**\n\n**Publics éligibles** : salarié·e·s tous types de contrats.\n\n**Réforme 2024 : nouveau dispositif France VAE**\nEn 2024, entrée en vigueur d'un nouveau dispositif de VAE avec un accompagnement spécifique par un **Architecte et accompagnateur de parcours**.\n\nPour les certifications déjà intégrées à ce nouveau dispositif, les démarches VAE doivent être initiées sur la **plateforme France VAE** par le salarié : [www.vae.gouv.fr](https://vae.gouv.fr/)\n\nLes certifications seront progressivement disponibles sur le site France VAE au cours de l'année.\n\n**Modalités de financement** :\n\n**1. Si l'action se fait à l'initiative du salarié** :\n- Financement possible via le **CPF** du salarié\n- Pas de prise en charge employeur obligatoire\n\n**2. Si l'action se fait en accord avec l'employeur** :\n- Financement possible via le **plan de développement des compétences** (DAF légale ou conventionnelle Uniformation)\n- 2 formules selon que la démarche inclut ou non des heures de formation\n\n**Démarche VAE simple** :\n- Prise en charge **au réel dans la limite de 3 000 €** (tout type de coût inclus)\n\n**Démarche VAE mixte** (incluant des heures de formation) :\n- Prise en charge dans la **limite totale de 5 000 €** avec **2 plafonds cumulatifs** :\n  - **Accompagnement VAE** : au réel dans la limite de **3 000 €** (tout type de coût inclus)\n  - **Heures de formation** : au réel dans la limite de **65 € / heure**\n\n**Inclus dans la prise en charge** :\n- Frais de positionnement\n- Accompagnement à la constitution des dossiers de recevabilité\n- Participation du jury et frais y afférents\n\n**Prise en charge en dehors du plafond annuel de DAF**.",
+        "plus_formation": "**Démarche pour une DAF VAE Individuelle** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Rubrique « mes dossiers », saisir une DAF avant le démarrage de la formation (**minimum 1 mois avant**), sélectionner la phase « avant »\n3. **Indiquer dans la rubrique action de formation sur la ligne « intitulé libre »** : **« DAF VAE Individuelle »**\n\n**Pièces justificatives obligatoires** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires\n- Programme avec les dates de l'accompagnement individuel renforcé VAE\n\n**Différence VAE simple vs VAE mixte** :\n- **VAE simple** : le salarié rédige seul son dossier d'expérience avec accompagnement méthodologique. Plafond 3 000 €\n- **VAE mixte** : le salarié suit en plus des **heures de formation** pour combler des compétences manquantes (ex. langues, informatique, compétences techniques spécifiques). Plafond global 5 000 €\n\n**Cas d'usage typiques ALISFA** :\n- Animateur·trice avec 15 ans d'expérience → VAE pour DEJEPS Animation Socio-éducative ou DESJEPS\n- Auxiliaire de puériculture expérimenté → VAE pour DE Éducateur de Jeunes Enfants (passerelle)\n- Coordinateur·trice → VAE pour CAFERUIS ou DEIS\n- Chargé·e d'accueil avec expérience communication → VAE pour BTS Communication\n\n**Articulation avec d'autres dispositifs** :\n- **CPF du salarié** : peut compléter une DAF VAE pour les heures de formation au-delà des plafonds\n- **DAF jury VAE** : pour les salariés participant à un jury VAE/RNCP, forfait 15 €/h de rémunération (cf. article `fin-conv-jury-examens-2026`)\n- **VAE inversée** (parcours d'apprentissage par alternance) : possible pour certaines certifications, à articuler avec contrat d'apprentissage classique (cf. article `fin-alt-apprentissage-2026`)",
+        "vigilance": "**Plateforme France VAE** : vérifier d'abord si la certification visée est intégrée au nouveau dispositif sur [vae.gouv.fr](https://vae.gouv.fr/). Les certifications sont progressivement intégrées en 2025-2026.\n\n**Plafond 3 000 € accompagnement / 5 000 € total** : si le coût réel excède, reste à charge salarié/employeur. Comparer plusieurs prestataires VAE avant signature.\n\n**Frais annexes** : transport vers les sessions d'accompagnement non pris en charge spécifiquement (sauf si inclus dans le forfait accompagnement de l'OF).\n\n**Durée d'une VAE** : 8-15 mois en moyenne selon la complexité du diplôme visé. Anticiper le calendrier (jurys, dossiers).\n\n**Réforme 2022-2024** : la VAE est devenue plus accessible (anciennement 3 ans d'expérience requis, désormais 1 an). Vérifier les conditions d'éligibilité actualisées sur vae.gouv.fr.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 4, 6, 13, 19",
+          "Articles L6411-1 à L6423-3 Code du travail",
+          "Loi n° 2022-1598 du 21 décembre 2022 (réforme VAE)",
+          "Décret n° 2023-1275 du 27 décembre 2023 (France VAE)",
+          "Site officiel France VAE"
+        ],
+        "liens": [
+          {"titre": "France VAE — site officiel salarié", "url": "https://vae.gouv.fr/", "type": "officiel"},
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF VAE", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail — VAE (articles L6411-1+)", "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195827/", "type": "legislation"},
+          {"titre": "Loi 2022-1598 (réforme marché travail)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046762265", "type": "legislation"},
+          {"titre": "Mon Compte Formation — VAE", "url": "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/vae", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13 + loi 2022-1598 + France VAE"
+      }
+    },
+
+    {
+      "id": "fin-conv-jury-examens-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer la participation d'un salarié à un jury d'examen ou de VAE en 2026 ?",
+      "mots_cles": [
+        "jury examens", "jury VAE", "DAF jury",
+        "RNCP", "Répertoire Spécifique", "RS",
+        "15 euros heure", "rémunération salarié",
+        "convocation jury", "certificateur",
+        "temps de travail", "absence formation"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La **DAF Jury** finance la rémunération d'un·e salarié·e de votre structure ALISFA qui participe à un jury d'examen ou de VAE pour toute formation inscrite au **RNCP** ou au **Répertoire Spécifique (RS)**, sur son **temps de travail**. Forfait : **15 € / heure**. Pas de prise en charge des coûts pédagogiques ni des frais annexes (la formation jury elle-même n'est pas l'objet du dispositif).",
+        "fondement_legal": "Articles L6112-3 et L6113-3 Code du travail (participation aux jurys d'examen). Convention Collective Nationale ALISFA — chapitre VIII.",
+        "minimum_legal": "**Objectifs** : soutenir la participation des salarié·e·s de la branche à tous les jurys d'examens et jurys VAE pour toutes formations inscrites au :\n- **Répertoire National des Certifications Professionnelles (RNCP)**\n- **Répertoire Spécifique (RS)** (ex-Inventaire CNCP)\n\n**Publics éligibles** : salarié·e·s tous types de contrats.\n\n**Prises en charge** :\n- **Coûts pédagogiques** : **AUCUNE** (le dispositif ne finance pas la formation, seulement la rémunération du temps passé en jury)\n- **Frais annexes** : **AUCUNE** prise en charge\n- **Rémunération** : pour les salariés participant à un jury sur leur **temps de travail** : forfait **15 € / heure**\n\n**Prise en charge en dehors du plafond annuel de DAF** — pas d'imputation sur le quota de DAF.",
+        "plus_formation": "**Démarche** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Rubrique « mes dossiers », puis cliquez « saisir » et « avant » et saisir une DAF avant le démarrage de la formation (**minimum 1 mois avant**), sélectionner la phase « avant »\n3. **Indiquer dans la rubrique action de formation sur la ligne « intitulé libre »** : **« DAF Jury »** et la **certification concernée**\n4. Indiquer **l'organisme certificateur** dans la rubrique « organisme de formation »\n\n**Pièces justificatives obligatoires** :\n- **Convocation au jury** établie par l'organisme certificateur précisant les dates\n- **Attestation de participation**, établie par l'organisme certificateur, avec le nom du salarié ou du bénévole et les dates du jury VAE\n\n**Cas d'usage typiques ALISFA** :\n- Directrice EAJE expérimentée → jury de DE EJE ou de DE Auxiliaire de puériculture\n- Coordinateur·trice formation → jury de BPJEPS animateur ou DEJEPS\n- Chargé·e de mission ESS → jury de BTS ESF ou DECESF\n- Animateur·trice expérimenté → jury VAE pour le métier de moniteur éducateur\n\n**Cumul possible** :\n- Avec d'autres DAF si l'année compte plusieurs jurys\n- Avec la prime tuteur si le salarié est aussi maître d'apprentissage\n- Pas de plafond annuel spécifique mentionné — un même salarié peut participer à plusieurs jurys sur l'année\n\n**Articulation avec le statut juré** :\n- Le salarié·e a un **droit à congé pour participation à un jury d'examen ou de VAE** (Code du travail L6112-3)\n- L'employeur ne peut pas refuser la participation à un jury sauf si motif grave (ex. nécessité de service exceptionnelle)\n- Le forfait 15 €/h Uniformation **ne se substitue pas au salaire** : c'est un complément qui **finance le coût employeur** (salaire + charges) du temps de jury, sans dépassement",
+        "vigilance": "**Forfait 15 €/h plafonné** : peut être inférieur au salaire chargé réel d'un cadre. Reste à charge employeur si le salaire chargé excède 15 €/h.\n\n**Convocation et attestation indispensables** : sans la convocation officielle de l'organisme certificateur ET l'attestation de participation, le remboursement n'est pas accordé. Les conserver soigneusement.\n\n**Sur temps de travail uniquement** : le forfait s'applique aux heures de jury **pendant le temps de travail** du salarié. Si le salarié participe à un jury sur son temps libre / week-end, pas de financement Uniformation (voir éventuellement indemnisation par l'organisme certificateur lui-même).\n\n**Délai 1 mois avant démarrage** : DAF Jury saisie « phase avant », sinon refus.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 13, 19",
+          "Article L6112-3 Code du travail (participation aux jurys)",
+          "Article L6113-3 Code du travail",
+          "Convention Collective Nationale ALISFA — chapitre VIII"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF Jury", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Code du travail L6112-3 (participation jury)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006904004", "type": "legislation"},
+          {"titre": "France Compétences — RNCP / RS", "url": "https://www.francecompetences.fr/recherche/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13"
+      }
+    },
+
+    {
+      "id": "fin-conv-formation-benevoles-dirigeants-2026",
+      "_theme_target": "financement_uniformation",
+      "question_type": "Comment financer la formation des bénévoles dirigeants en 2026 ?",
+      "mots_cles": [
+        "formation bénévoles dirigeants", "DAF dirigeants bénévoles",
+        "ACT 100% dirigeants", "membres bureau", "CA",
+        "commissions", "fonds conventionnels", "article 2.1.5",
+        "1800 euros jour", "65 euros heure", "15 euros heure",
+        "non certifiantes", "5 stagiaires"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "reponse": {
+        "synthese": "La branche ALISFA finance la formation des **bénévoles dirigeants** (membres d'instance : bureau, CA, commissions) des structures employant au moins un·e salarié·e. Article 2.1.5 CCN ALISFA. Toutes thématiques de formation **hors certifiantes**. Deux modalités : **DAF de moins de 5 stagiaires d'une même entreprise** (15 €/h ou 65 €/h selon durée) ou **DAF de 5 stagiaires et plus** (1 800 €/jour). Possibilité d'**ACT 100 % dirigeants bénévoles** (action collective inter-structures avec minimum 5 stagiaires sur 2 structures min) pour mutualiser les formations entre fédérations / centres sociaux d'un même territoire.",
+        "fondement_legal": "Article 2.1.5 chapitre VIII Convention Collective Nationale ALISFA — formation des dirigeants bénévoles. Référence à l'**accord multi-professionnel du 8 avril 2011** sur la formation des dirigeants bénévoles.",
+        "minimum_legal": "**Texte de référence — Article 2.1.5 CCN ALISFA (Formation des dirigeants bénévoles)** :\n*« En référence à l'accord multi-professionnel du 8 avril 2011 sur la formation des dirigeants bénévoles, il est considéré que le développement des compétences des dirigeants bénévoles, notamment pour s'adapter à l'évolution du cadre juridique et au fonctionnement de la branche professionnelle, est essentiel pour la branche professionnelle. Ainsi, chaque année, la CPNEF fixera les priorités et les financements pouvant y être affectés dans les modalités de la répartition de la part conventionnelle. »*\n\n**Objectifs** : financer des actions de formation à destination des bénévoles dirigeants. Toutes thématiques de formation (les **formations certifiantes sont exclues** — pas de DAF certifiante pour les bénévoles).\n\n**Modalités de formation** : présentiel, FOAD (formation ouverte à distance), tout format pédagogique.\n\n**Publics éligibles** : **dirigeants bénévoles** dans des structures **employant au moins un·e salarié·e** :\n- Membres d'**instance** : bureau, Conseil d'Administration (CA)\n- **Commissions** statutaires de la structure\n- Délégués fédéraux bénévoles\n\n**Prises en charge** :\n\n**1. DAF moins de 5 stagiaires d'une même entreprise** (fonds conventionnels) :\n- Coûts pédagogiques :\n  - **15 € TTC / heure** si formation > 105h\n  - **65 € TTC / heure** si formation = ou < 105h\n\n**2. DAF de 5 stagiaires et plus d'une même entreprise** (fonds conventionnels) :\n- Coûts pédagogiques : **1 800 € TTC / jour**\n\n**3. ACT 100 % dirigeants bénévoles** :\n- Action collective inter-structures (**2 structures minimum** avec **un minimum de 5 stagiaires**)\n- À l'initiative de plusieurs structures, des Référents en Régions, ou des Délégations Régionales Uniformation\n- Coûts pédagogiques : **1 800 € TTC / jour**\n- **Action pluri-annuelle possible**\n\n**Frais annexes** : pas de prise en charge dans ce dispositif.\n\n**Rémunération** : sans objet (les bénévoles ne sont pas rémunérés en tant que tels).\n\n**Prise en charge en dehors du plafond annuel de DAF** — pas d'imputation sur le quota de DAF salariés.",
+        "plus_formation": "**Démarche pour DAF (moins de 5 ou 5+ stagiaires d'une même entreprise)** :\n1. Connecter à l'espace privé adhérent Uniformation (n°Icom + code)\n2. Rubrique « mes dossiers », puis cliquez « saisir » et « avant » et saisir une DAF avant le démarrage de la formation (**minimum 1 mois avant**), sélectionner la phase « avant »\n\n**Pièces justificatives DAF** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires\n- Programme avec les dates de formation\n\n**Démarche pour ACT 100 % dirigeants bénévoles (action collective inter-structures)** :\n1. Solliciter le/la Référent·e Régional·e (RR) ou la Délégation Territoriale UNIFORMATION pour obtenir le **formulaire de Demande de Prise en charge d'une Action Collective (DFAC)**\n2. Envoyer (**minimum 1 mois avant le démarrage** de l'action) le formulaire DFAC renseigné à votre Délégation Régionale Uniformation\n\n**Pièces justificatives ACT 100 % bénévoles** :\n- Formulaire de demande de prise en charge complété\n- Devis nominatif au nom de la structure avec le(s) nom(s) du ou des stagiaires + les **NIR (N° de sécurité sociale) des dirigeants bénévoles** (spécifique à ce dispositif)\n- Programme avec les dates de formation\n\n**Thématiques typiques pour les bénévoles dirigeants ALISFA** :\n- **Gouvernance associative** : rôle du président, du trésorier, conduite d'AG\n- **Cadre juridique** : loi 1901, statuts, agréments CAF, conventions Étatiques\n- **Évolution du cadre EAJE** : décret Norma 2021-1131, Code action sociale R2324\n- **Gestion financière associative** : budget, contrôle de gestion, fiscalité\n- **Politique RH employeur** : convention collective ALISFA, dialogue social, GPEC\n- **Stratégie et projet associatif** : projet social, démarches qualité\n- **Numérique et IA** : outils gouvernance, IA générative, cybersécurité\n- **Égalité femmes/hommes**, **RGPD**, **Laïcité** dans les structures\n\n**Articulation** :\n- Les bénévoles dirigeants peuvent **aussi participer aux DAF de salariés** dans les groupes ≥ 5 stagiaires (groupe majoritairement composé de salariés) — cf. articles `fin-leg-daf-50sal-2026` et `fin-conv-daf-11-49-2026`\n- L'**ACT 100 % bénévoles** est différente : groupe **uniquement** de bénévoles dirigeants",
+        "vigilance": "**Structure employant au moins 1 salarié·e** : condition d'accès. Une association uniquement bénévole (sans salarié) ne peut pas mobiliser ce dispositif.\n\n**Pas de formations certifiantes** : les bénévoles dirigeants ne peuvent pas mobiliser ce dispositif pour préparer un diplôme RNCP. Pour cela, mobiliser le CPF du bénévole en tant que personne physique.\n\n**NIR obligatoire pour ACT 100 % bénévoles** : le numéro de sécurité sociale des bénévoles est demandé à la saisie de la DFAC. Anticiper la collecte avec respect du RGPD.\n\n**Délai 1 mois avant démarrage** : DAF/DFAC respectée, sinon refus systématique.\n\n**Priorisation annuelle CPNEF** : la CPNEF fixe chaque année les priorités thématiques et les enveloppes affectées à la formation des dirigeants bénévoles. Vérifier les priorités 2026 sur alisfa.fr.\n\n**Pluriannualité** : les ACT 100 % dirigeants peuvent s'étendre sur plusieurs années — utile pour des parcours structurants type \"Cycle gouvernance\" sur 3 ans.\n\n**Texte en vigueur au 13 mars 2026.**",
+        "sources": [
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, pages 14, 19-20",
+          "Article 2.1.5 chapitre VIII Convention Collective Nationale ALISFA — Formation des dirigeants bénévoles",
+          "Accord multi-professionnel du 8 avril 2011 sur la formation des dirigeants bénévoles"
+        ],
+        "liens": [
+          {"titre": "Espace privé adhérent Uniformation — saisie DAF bénévoles", "url": "https://www.uniformation.fr/", "type": "officiel"},
+          {"titre": "Site de branche ALISFA — priorités CPNEF formation bénévoles", "url": "https://www.alisfa.fr", "type": "officiel"},
+          {"titre": "Annuaire Délégations Régionales Uniformation", "url": "https://www.uniformation.fr/employeurs/contactez-nous", "type": "officiel"},
+          {"titre": "Le Mouvement associatif — Formation des bénévoles", "url": "https://lemouvementassociatif.org/", "type": "officiel"}
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - PDF CPNEF 2026-03-13 + accord multi-professionnel 8 avril 2011"
+      }
+    }
+
+  ]
+}

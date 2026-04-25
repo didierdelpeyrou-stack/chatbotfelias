@@ -1,0 +1,278 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F6 lot I1 — Intentions directeur Budget formation + simulateurs (4 articles)",
+    "lot": "I1/I3",
+    "topic": "Budget formation 2026 par taille structure, simulateur fonds Uniformation, abondement employeur CPF, diagnostic GPEC",
+    "generated_at": "2026-04-25",
+    "source_principale": "CCN ALISFA (financement formation au 13 mars 2026) + CPNEF + Uniformation + RGI Pôle emploi",
+    "theme_target": "intentions_directeur"
+  },
+
+  "articles": [
+
+    {
+      "id": "int-budget-formation-2026",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Quel budget formation 2026 puis-je espérer pour ma structure ALISFA selon le nombre de salariés ?",
+      "mots_cles": [
+        "budget formation 2026", "8 salariés",
+        "20 salariés", "50 salariés",
+        "fonds légaux Uniformation",
+        "fonds conventionnels ALISFA",
+        "CPNEF 0,2", "alternance",
+        "simulateur formation"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "estimer_budget_formation",
+      "reponse": {
+        "synthese": "Le budget formation d'une structure ALISFA en 2026 dépend de **4 enveloppes complémentaires** : (1) **fonds légaux** (employeurs < 50 salariés, contribution OPCO Uniformation), (2) **fonds conventionnels ALISFA** (toutes tailles, accord de branche), (3) **fonds alternance** (toutes tailles), (4) **CPNEF 0,2 %** (gérée directement par CPNEF, toutes tailles). Estimation médiane par taille : **8 salariés ≈ 4 000-7 000 €/an mobilisables**, **20 salariés ≈ 12 000-20 000 €/an**, **50 salariés ≈ 30 000-50 000 €/an**. À cela s'ajoutent CPF des salariés et financements ciblés (CAF, État, Région, plans dispositifs).",
+        "fondement_legal": "**Code du travail** — articles **L6131-1 et suivants** (contributions formation) — **CCN ALISFA — accords formation au 13 mars 2026** (fonds conventionnels) — **Décret n° 2018-1342 du 28 décembre 2018** (réforme financement formation Loi Avenir Professionnel) — **Convention collective nationale ALISFA — règles CPNEF 0,2 %**.",
+        "minimum_legal": "**Cadre des 4 enveloppes formation 2026** :\n\n**ENVELOPPE 1 — Fonds légaux Uniformation (réservés < 50 salariés)** :\n- **Source** : contribution légale formation (1 % de la masse salariale brute) — collectée par OPCO Uniformation\n- **Bénéficiaires** : structures de **moins de 50 salariés** (à apprécier au 31 décembre N-1)\n- **Mobilisation** : plan de développement des compétences (PDC) — formations validantes ou non — durée libre — modalités présentielle, distanciel, hybride\n- **Plafond annuel** : variable selon la taille (ex. ~ 800-1 200 € / salarié / an pour 5-15 salariés, ~ 600-900 €/salarié pour 16-49 salariés)\n- **Demande** : via plateforme Uniformation (mon-compte-formation Uniformation)\n\n**ENVELOPPE 2 — Fonds conventionnels ALISFA (toutes tailles)** :\n- **Source** : contribution conventionnelle de branche (article relatif aux fonds conventionnels CCN ALISFA)\n- **Bénéficiaires** : toutes les structures relevant de la CCN ALISFA, **quelle que soit la taille**\n- **Mobilisation** : actions définies par les **partenaires sociaux de la branche** (CPNEF + Uniformation)\n- **Priorités 2025-2026** :\n  - Petite enfance (RSAI, EJE, formation continue assistant·es maternel·les MAM)\n  - Animation socio-éducative (BPJEPS, DEJEPS, BAFA, BAFD)\n  - Numérique (CNFS, médiation numérique, IA générative)\n  - Encadrement (CAFERUIS, animation d'équipe)\n  - Bénévolat et gouvernance\n  - Inclusion handicap\n- **Modalité** : appel à projets ou financement sur dossier (Uniformation gère)\n\n**ENVELOPPE 3 — Fonds alternance (toutes tailles)** :\n- **Source** : Taxe d'apprentissage + contribution alternance\n- **Bénéficiaires** : toutes structures, **selon contrat d'apprentissage ou de professionnalisation signé**\n- **Niveau de prise en charge (NPEC) 2026 par diplôme** (cf. table p. 26 CCN ALISFA) :\n  - **CAP AEPE** : 6 467 € / an de contrat\n  - **DE EJE** : 7 900 € / an\n  - **BPJEPS** : 8 357 €\n  - **DEJEPS** : 9 551 €\n  - **DESJEPS** : 8 966 €\n  - **DEAES** : 5 600 €\n  - **DETISF** : 6 800 €\n  - **DEES** : 7 425 €\n  - **CAFERUIS** : 8 200 €\n  - **CAFDES** : 9 400 €\n- **Pas de plafond global** : chaque contrat est financé individuellement\n\n**ENVELOPPE 4 — CPNEF 0,2 % (toutes tailles, gérée directement par CPNEF)** :\n- **Source** : contribution conventionnelle spécifique 0,2 % de la masse salariale\n- **Bénéficiaires** : toutes structures ALISFA\n- **Gestion** : **directement par la CPNEF** (Commission Paritaire Nationale Emploi-Formation), pas par Uniformation\n- **Mobilisation** : actions de **politique de branche** (études, expérimentations, observatoire des métiers, certifications nouvelles)\n- **Pas d'enveloppe individuelle par structure** mais **bénéfices indirects** (formations CCN, ressources, accompagnement GPEC)\n\n**Estimations indicatives par taille de structure** :\n\n**8 salariés (TPE)** :\n- Fonds légaux : ~ 5 000-8 000 €/an mobilisables\n- Fonds conventionnels : selon projets ~ 2 000-5 000 €/an\n- Alternance : 1 contrat = 6 500 à 9 500 € (couvre coûts du diplôme)\n- **Total enveloppe formation mobilisable : ~ 8 000-13 000 €/an**\n- + CPF de chaque salarié (possibilités complémentaires)\n\n**20 salariés** :\n- Fonds légaux : ~ 14 000-22 000 €/an\n- Fonds conventionnels : ~ 4 000-8 000 €/an\n- Alternance : 1-2 contrats = 6 500 à 19 000 €\n- **Total enveloppe formation mobilisable : ~ 18 000-32 000 €/an**\n\n**50 salariés (limite du < 50)** :\n- **Bascule du régime légal** : à 50 salariés, perte des fonds légaux pleins (régime employeur ≥ 50 différent)\n- Fonds conventionnels : ~ 8 000-15 000 €/an\n- Alternance : 2-3 contrats = 13 000 à 28 000 €\n- **Total enveloppe formation mobilisable : ~ 25 000-50 000 €/an** (selon utilisation alternance)\n\n**Au-delà de 50 salariés** :\n- Régime employeur ≥ 50 salariés (contribution employeur **obligatoirement abondée** — cf. réforme Loi Avenir Professionnel 2018)\n- Plus de **fonds légaux mutualisés** mais **fonds conventionnels** + **alternance** restent\n- **Plan de développement des compétences** financé sur **fonds propres employeur** (politique RH formation)",
+        "plus_formation": "**Maximiser le budget formation** :\n\n**Astuces pour TPE (< 11 salariés)** :\n- **Solliciter Uniformation EARLY** : versements souvent rapides en début d'année\n- **Coupler plusieurs salariés** sur la même formation (action collective, économie d'échelle)\n- **CPF abondé** par l'employeur (cf. article `int-cpf-abondement-employeur`)\n- **Alternance même pour profils internes** (VAE alternée, montée en compétences)\n\n**Astuces pour structures 11-49 salariés** :\n- **Plan de développement des compétences pluri-annuel** (lisser les besoins)\n- **Co-financement** : OPCO + CD (action sociale) + CAF (PS)\n- **Alternance pour création de poste** : NPEC couvre 60-80 % du coût d'un nouveau salarié\n- **CIFRE** si projet de R&D (jusqu'à 14 000 €/an, cf. article `cont-cifre`)\n\n**Astuces pour structures ≥ 50 salariés** :\n- **Politique formation pluriannuelle** intégrée à la politique RH globale\n- **Co-investissement employeur + CPF** sur projets stratégiques (ex. management, qualité)\n- **Conventions** avec OPCO sur des programmes pluriannuels (ex. Engagements de Développement de l'Emploi et des Compétences — EDEC)\n\n**Outils utiles** :\n- **Simulateur Uniformation** sur uniformation.fr (espace adhérent)\n- **Mon Compte Formation pro** (CPF salariés)\n- **Application France Compétences** (RNCP, certifications éligibles)\n- **CPNEF ALISFA** : guide annuel des financements branche\n- **Diagnostic GPEC** financé par OPCO (jusqu'à 5 000 € / 2 ans pour TPE-PME)",
+        "obligations_formation": "Aucune. La formation n'est pas une obligation directe sauf cas spécifiques (entretien professionnel obligatoire tous les 2 ans, formations sécurité-santé obligatoires, formations diplômantes pour certaines fonctions réglementaires).",
+        "accompagnement_obligatoire": "**Conseiller·ère Uniformation** dédié à chaque structure (gratuit, sur demande). **CPNEF ALISFA** : ressources, outils, guides annuels mis à jour. Pour les TPE, **diagnostic GPEC TPE-PME** subventionné OPCO recommandé tous les 2-3 ans (jusqu'à 5 000 €).",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **niveaux de prise en charge alternance** (NPEC) sont **révisés annuellement par la CPNEF ALISFA** (cf. table p. 26 du document CCN ALISFA financement, version 13 mars 2026 utilisée comme référence). **Vigilance** :\n- **Vérifier les NPEC à jour** auprès de Uniformation ou de la CPNEF avant signature d'un contrat d'apprentissage\n- **Le seuil 50 salariés** s'apprécie au **31 décembre N-1** : effectif moyen mensuel sur l'année\n- **Réforme Loi Avenir Professionnel 2018** : régime de financement de la formation différent ≥ 50 salariés (à anticiper si croissance)\n- Les **fonds conventionnels** sont mobilisables **sur demande** (ne se ventilent pas automatiquement) — vigilance calendrier et appels à projets",
+        "sources": [
+          "CCN ALISFA — Convention collective Animation Lien Social Familial (au 13 mars 2026) — financement formation",
+          "Code du travail — articles L6131-1 et suivants",
+          "Décret n° 2018-1342 du 28 décembre 2018 — réforme du financement de la formation",
+          "OPCO Uniformation — niveaux de prise en charge 2026",
+          "CPNEF ALISFA — table NPEC alternance 2026"
+        ],
+        "liens": [
+          {
+            "titre": "Uniformation — OPCO de la cohésion sociale",
+            "url": "https://www.uniformation.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — financement formation et fonds conventionnels",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail Livre III formation professionnelle",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195791/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Mon Compte Formation — CPF",
+            "url": "https://www.moncompteformation.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "France Compétences — référentiel RNCP",
+            "url": "https://www.francecompetences.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - CCN financement 13 mars 2026 + CPNEF + Uniformation"
+      }
+    },
+
+    {
+      "id": "int-simulateur-fonds-uniformation",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment simuler concrètement les fonds Uniformation mobilisables pour ma structure cette année ?",
+      "mots_cles": [
+        "simulateur Uniformation", "espace adhérent",
+        "fonds disponibles", "compte adhérent",
+        "calcul masse salariale",
+        "OPCO cohésion sociale",
+        "demande prise en charge",
+        "engagement crédit"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "simuler_fonds_uniformation",
+      "reponse": {
+        "synthese": "Pour simuler les fonds Uniformation disponibles, **3 outils complémentaires** : (1) **espace adhérent uniformation.fr** (compte personnalisé montrant les soldes en temps réel), (2) **simulateur en ligne** (calcul prévisionnel à partir de la masse salariale), (3) **conseiller·ère dédié·e** (rendez-vous gratuit avant projet). Pour 2026, prévoir 4-6 semaines entre demande de prise en charge et accord pour les actions individuelles, 8-12 semaines pour les actions collectives ou pluri-annuelles.",
+        "fondement_legal": "**OPCO Uniformation** — opérateur de compétences agréé par l'État pour la branche ALISFA — gestion des contributions formation légales et conventionnelles selon les articles **L6332-1 et suivants** du Code du travail.",
+        "minimum_legal": "**3 outils Uniformation pour simuler les fonds** :\n\n**OUTIL 1 — Espace adhérent uniformation.fr** :\n- **Création de compte** : avec SIRET et code adhérent (envoyé chaque année)\n- **Tableau de bord temps réel** : solde fonds légaux + fonds conventionnels + alternance + dossiers en cours\n- **Historique** : actions formées années précédentes, taux de mobilisation, profils formés\n- **Demandes** : dépôt en ligne, suivi de l'instruction, réception des accords\n- **Documents** : conventions de prise en charge, attestations de formation, factures\n\n**OUTIL 2 — Simulateur en ligne** :\n- **Lien** : uniformation.fr/simulateur (accessible sans connexion)\n- **Données à fournir** :\n  - Effectif au 31 décembre N-1\n  - Masse salariale annuelle brute N-1\n  - Branche/CCN (ALISFA = code IDCC 2941)\n  - Type de projets envisagés (PDC, alternance, formations diplômantes, actions collectives)\n- **Restitution** :\n  - **Estimation** des fonds légaux et conventionnels mobilisables\n  - **Estimation** du budget alternance possible (selon contrats)\n  - **Suggestions** de dispositifs adaptés à la taille\n\n**OUTIL 3 — Rendez-vous conseiller·ère Uniformation** :\n- **Gratuit** sur demande (téléphone, visio, sur site)\n- **Conseiller·ère dédié·e** par territoire\n- **Mission** :\n  - Analyse besoins de formation (avec direction et RH)\n  - Aide à la rédaction du **Plan de Développement des Compétences (PDC)**\n  - Identification des **dispositifs financiers** les plus adaptés (PDC, alternance, Pro-A, AFEST, FNE-Formation, etc.)\n  - Aide au montage de dossiers complexes\n  - **Diagnostic GPEC** (jusqu'à 5 000 € sur 2 ans pour TPE-PME)\n  - **Engagement Développement Emploi Compétences (EDEC)** sur projets stratégiques\n\n**Délais types pour la prise en charge** :\n- **Action individuelle simple (PDC court < 7 jours)** : 4 à 6 semaines entre demande et accord\n- **Alternance** : 4 à 8 semaines (CERFA contrat + dossier)\n- **Action collective ou pluri-annuelle** : 8 à 12 semaines\n- **EDEC** : 4 à 6 mois (projet stratégique long)\n\n**Procédure type pour une demande individuelle** :\n1. Identifier le besoin de formation (entretien professionnel, GPEC)\n2. Choisir un organisme de formation (vérifier sa qualification **Qualiopi**)\n3. Obtenir un **devis détaillé** de l'organisme\n4. Déposer la **demande de prise en charge** sur l'espace adhérent\n5. Joindre : devis, programme, profil du salarié, motivation projet\n6. **Délai d'instruction** : 4 à 6 semaines\n7. **Accord ou refus motivé** d'Uniformation\n8. **Réalisation** de la formation\n9. **Justificatifs** : feuille de présence + facture transmis à Uniformation\n10. **Remboursement** par Uniformation (entre 4 et 12 semaines après dossier complet)\n\n**Anticiper les pics d'activité Uniformation** :\n- **Octobre-décembre** : pic de demandes (bouclage budgétaire, fonds restants)\n- **Janvier-mars** : reprise normale\n- **Avril-juin** : période la plus fluide (bonne période pour grosses demandes)\n- **Juillet-août** : ralentissement instruction (vacances équipes)",
+        "plus_formation": "**Astuces directeur·trices** :\n- **Anticiper avec 6-8 semaines d'avance** chaque demande pour éviter le démarrage de formation avant accord\n- **Demande groupée** pour plusieurs salariés sur même formation : 1 dossier collectif (plus rapide)\n- **Faire valider le devis** par le conseiller Uniformation avant de l'envoyer (gain de temps)\n- **Stocker les attestations Qualiopi** des organismes habituellement utilisés (gain de temps)\n- **Tenir un registre interne** des demandes/accords/réalisations (audit, GPEC)\n- **Solliciter le diagnostic GPEC** tous les 2-3 ans (utile pour le plan pluriannuel)\n\n**Plateformes complémentaires utiles** :\n- **Mon Compte Formation pro** (employeur peut abonder le CPF d'un salarié — cf. article `int-cpf-abondement-employeur`)\n- **Plateforme France Travail / employeurs** (POEI, AFPR pour formations pré-embauche)\n- **Plateforme Région** : aide formation des salariés en complément (selon Région)\n- **Ministère du Travail** : FNE-Formation (transitions, mutations, ruptures)\n\n**Communication interne** :\n- **Information annuelle** des salariés sur le budget formation disponible (RGPD : pas individuelle, mais globale)\n- **Réunion CSE** (≥ 11 salariés) : consultation annuelle sur orientations stratégiques formation",
+        "obligations_formation": "Aucune obligation pour utiliser les outils. La consultation annuelle du CSE (≥ 11 salariés) sur les orientations formation est obligatoire (article L2312-24 Code travail).",
+        "accompagnement_obligatoire": "**Conseiller·ère Uniformation** : interlocuteur dédié, gratuit. **CPNEF ALISFA** : ressources et guides annuels. Pour structures complexes (≥ 50 salariés ou multi-sites), création possible d'une commission formation interne (CSE + RH + direction).",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **paramètres de prise en charge** (plafonds, montants, dispositifs) sont **révisés annuellement par Uniformation et CPNEF**. Vérifier les valeurs **à jour** sur uniformation.fr avant toute simulation. **Vigilance** :\n- L'**effectif** s'apprécie au **31 décembre N-1** (basculement régime ≥ 50 salariés possible)\n- Les **fonds conventionnels** sont mobilisables **sur projet** (pas automatique)\n- **Délais d'instruction** : ne **JAMAIS démarrer une formation avant l'accord écrit** d'Uniformation (sinon refus de prise en charge)\n- **Qualiopi** : seuls les organismes Qualiopi sont éligibles aux financements OPCO (vérifier sur la formation choisie)\n- **Un changement** de convention collective (ex. d'un IDCC vers IDCC 2941 ALISFA) modifie l'OPCO compétent",
+        "sources": [
+          "OPCO Uniformation — espace adhérent et simulateur",
+          "Code du travail — articles L6332-1 et suivants (OPCO)",
+          "Article L2312-24 Code travail — consultation CSE orientations formation",
+          "Loi du 5 septembre 2018 (« Avenir Professionnel ») — réforme OPCO"
+        ],
+        "liens": [
+          {
+            "titre": "Uniformation — espace adhérent",
+            "url": "https://www.uniformation.fr/adherent",
+            "type": "officiel"
+          },
+          {
+            "titre": "Uniformation — simulateur fonds formation",
+            "url": "https://www.uniformation.fr/entreprise",
+            "type": "officiel"
+          },
+          {
+            "titre": "Qualiopi — référentiel national qualité organismes formation",
+            "url": "https://www.qualiopi.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — branche et financement formation",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mon Compte Formation pro — version employeur",
+            "url": "https://www.moncompteformation.gouv.fr/espace-prive/employeur/",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Uniformation 2026"
+      }
+    },
+
+    {
+      "id": "int-cpf-abondement-employeur",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Puis-je abonder le CPF d'un salarié pour financer une formation diplômante coûteuse ?",
+      "mots_cles": [
+        "abondement employeur CPF",
+        "co-investissement formation",
+        "Mon Compte Formation pro",
+        "DIPLOME EJE", "DEJEPS",
+        "complément financement",
+        "convention abondement",
+        "loi Avenir Professionnel 2018"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "abonder_cpf_employeur",
+      "reponse": {
+        "synthese": "**Oui**, l'employeur peut abonder le CPF d'un salarié pour co-financer une formation. C'est l'un des leviers majeurs introduits par la **loi Avenir Professionnel 2018** : l'employeur **complète** le solde CPF du salarié sur **Mon Compte Formation pro** pour atteindre le coût total de la formation. **Avantages** : (1) double co-investissement employeur + salarié, (2) optimisation budget formation, (3) souvent éligible Qualiopi sans dossier Uniformation. **Modalités** : signature d'une **convention d'abondement** entre employeur et salarié, abondement crédité directement sur le CPF.",
+        "fondement_legal": "**Code du travail** — articles **L6323-1 et suivants** (CPF) et **L6323-4** (abondement employeur) — **Décret n° 2018-1330 du 28 décembre 2018** relatif au CPF — **Loi n° 2018-771 du 5 septembre 2018** (« Avenir Professionnel »).",
+        "minimum_legal": "**Cadre de l'abondement employeur CPF** :\n\n**Principe** :\nDepuis la **loi Avenir Professionnel 2018**, le CPF est **monétaire** (en €) et non plus en heures. Chaque salarié dispose d'un compte personnel sur **Mon Compte Formation** alimenté annuellement (500 €/an, 800 € pour les non-qualifiés, plafond 5 000 €/8 000 €).\n\nL'**employeur peut** abonder ce compte sur Mon Compte Formation pro pour **co-financer** une formation choisie par le salarié.\n\n**Montant** : librement décidé par l'employeur (de quelques centaines d'euros à plusieurs milliers d'euros selon le projet).\n\n**Mécanisme** :\n1. **Salarié identifie une formation** sur moncompteformation.gouv.fr\n2. **Estimation du coût** restant à charge après mobilisation du CPF\n3. **Demande au directeur** : projet de formation + coût + reste à charge\n4. **Étude par l'employeur** (RH, direction)\n5. **Signature de la convention d'abondement** entre l'employeur et le salarié (montant + conditions)\n6. **Abondement crédité** sur Mon Compte Formation pro (employeur)\n7. **Salarié finalise l'inscription** : CPF salarié + abondement employeur = couverture totale\n8. **Réalisation de la formation**\n9. **Engagement du salarié** : poursuite de la mission, durée minimale post-formation (clause de dédit-formation possible)\n\n**Cas typiques d'abondement employeur dans les structures ALISFA** :\n\n**Cas 1 — Formation diplômante d'un·e salarié·e en poste** :\n- Exemple : un·e animateur·trice avec 15 ans d'expérience souhaite valider un **DEJEPS** (RNCP 4900) en formation continue\n- Coût : ~ 7 500 €\n- CPF salarié : 5 000 €\n- Abondement employeur : 2 500 €\n- **Avantages directeur** : montée en compétence d'un cadre interne, fidélisation, GPEC interne\n\n**Cas 2 — Reconversion interne suite réorganisation** :\n- Exemple : un·e secrétaire administratif·ve devient référent·e RPE\n- Coût formation RPE : ~ 4 000 €\n- CPF salarié : 2 500 €\n- Abondement employeur : 1 500 €\n\n**Cas 3 — Validation des Acquis de l'Expérience (VAE)** :\n- Exemple : un·e directeur·trice d'EAJE avec 12 ans d'expérience valide un **CAFDES** (niveau 7)\n- Coût VAE : ~ 3 500 €\n- CPF salarié : 2 500 €\n- Abondement employeur : 1 000 €\n\n**Cas 4 — Compétences transversales** :\n- Exemple : management, comptabilité, langues, numérique avancé\n- Co-investissement souvent recommandé pour fidéliser\n\n**Avantages comparé à une démarche Uniformation classique** :\n- **Délai plus rapide** : pas de dossier OPCO\n- **Choix libre** de l'organisme par le salarié (parmi les Qualiopi inscrits sur Mon Compte Formation)\n- **Engagement personnel** du salarié (renforcé)\n- **Optimisation fiscale** : l'abondement est **déductible** comme charge de personnel\n- **Complément** : peut s'ajouter à un financement OPCO (Pro-A, alternance) sur certaines parties\n\n**Limites** :\n- **Pas tous les diplômes** sont éligibles CPF : vérifier l'inscription RNCP **et** la mention Mon Compte Formation\n- **Formation choisie par le salarié** : pas de contrôle employeur sur l'organisme (sauf convention)\n- **Réalisation hors temps de travail possible** : l'employeur ne peut pas exiger la présence sur le temps de travail (sauf accord)\n- **Maintien de salaire pendant la formation** : pas obligatoire si formation hors temps de travail (CPF à initiative du salarié)",
+        "plus_formation": "**Optimiser l'abondement** :\n\n**1. Convention d'abondement sécurisée** :\n- Préciser : objet de la formation, montant abondement, durée, OBLIGATIONS du salarié\n- **Clause de dédit-formation** : si rupture du contrat dans les X mois suivant la formation, remboursement partiel ou total\n  - Validité conditionnée par : intérêt de l'employeur + abondement significatif + durée de dédit raisonnable (24-36 mois max)\n  - **Article L6321-12 Code travail**\n- **Volet fiscal** : abondement = charge de personnel déductible\n\n**2. Coupler abondement CPF + Pro-A (alternance pour salarié·e)** :\n- **Pro-A** (Promotion par Alternance) : dispositif pour les salariés en CDI souhaitant changer de métier\n- Financement OPCO selon NPEC du diplôme cible (cf. article `int-budget-formation-2026`)\n- Combinable avec abondement CPF pour combler les écarts\n\n**3. Coupler abondement CPF + FNE-Formation (transitions, mutations)** :\n- Pour les salariés en zone à risque économique\n- Subvention État supplémentaire\n\n**4. Procédure simplifiée employeur** :\n- Compte employeur sur **Mon Compte Formation pro** (créer ou récupérer)\n- Saisie du SIRET, vérification\n- Activation de l'abondement (versement par CB ou virement, ou mandat à un OPCO)\n- **Suivi** des abondements faits dans le tableau de bord\n\n**5. Communication interne** :\n- Mention dans le **livret d'accueil** : possibilité d'abondement CPF par l'employeur\n- **Entretien professionnel** : aborder systématiquement le sujet CPF + abondement\n- **GPEC** : intégrer l'abondement dans la stratégie pluriannuelle",
+        "obligations_formation": "Pas d'obligation. L'abondement est un acte volontaire de l'employeur.",
+        "accompagnement_obligatoire": "**Convention d'abondement écrite** entre employeur et salarié recommandée (cadre, montant, engagements). **Suivi** sur Mon Compte Formation pro. **Information** du salarié sur les conditions de la convention.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **modalités d'abondement employeur CPF** sont stables depuis la loi 2018-771. **Vigilance** :\n- **Mon Compte Formation pro** est **gratuit** pour les employeurs ; ne pas être abusé par des sites payants intermédiaires\n- Vérifier l'**éligibilité Mon Compte Formation** de la formation cible (toutes les formations Qualiopi ne sont pas inscrites)\n- **Clause de dédit-formation** : doit être **équitable et proportionnée** (sinon nullité par juge prud'hommes)\n- **L'abondement n'ouvre pas droit** à des heures de formation sur le temps de travail (sauf accord d'entreprise ou convention spécifique)\n- **Cumul possible** : abondement employeur + financement Uniformation sur la **même** formation, mais pas pour la **même partie** du coût (vérifier avec le conseiller·ère)",
+        "sources": [
+          "Code du travail — articles L6323-1 à L6323-23 (CPF)",
+          "Code du travail — article L6321-12 (clause de dédit-formation)",
+          "Loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)",
+          "Décret n° 2018-1330 du 28 décembre 2018",
+          "Mon Compte Formation pro — modalités employeur"
+        ],
+        "liens": [
+          {
+            "titre": "Mon Compte Formation pro — espace employeur",
+            "url": "https://www.moncompteformation.gouv.fr/espace-prive/employeur/",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail articles L6323-1 et suivants (CPF)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195921/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2018-771 du 5 septembre 2018",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037367660/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Travail-Emploi — abondement employeur CPF",
+            "url": "https://travail-emploi.gouv.fr/formation-professionnelle/formation-en-entreprise/le-compte-personnel-formation-cpf",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — financement formation et CPF",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi 2018-771 + Code travail L6323"
+      }
+    },
+
+    {
+      "id": "int-diagnostic-gpec",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment lancer un diagnostic GPEC subventionné par OPCO Uniformation ?",
+      "mots_cles": [
+        "diagnostic GPEC", "appui conseil RH",
+        "TPE PME prestation OPCO",
+        "5000 euros 2 ans",
+        "consultant RH externe",
+        "plan compétences pluriannuel",
+        "subvention diagnostic",
+        "stratégie ressources humaines"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "lancer_diagnostic_gpec",
+      "reponse": {
+        "synthese": "Un **diagnostic GPEC** (Gestion Prévisionnelle des Emplois et Compétences) est un **audit RH** réalisé par un consultant externe et **subventionné par OPCO Uniformation** (jusqu'à **5 000 € sur 2 ans** pour les **TPE-PME < 250 salariés**). Outil utile pour les directeur·trices ALISFA souhaitant **anticiper** les évolutions d'effectifs, formaliser un **plan pluriannuel de compétences**, **fidéliser les talents**, **préparer une transmission** ou un **changement d'organisation**. Cadre : dispositif **« Appui Conseil RH TPE-PME »** géré par les OPCO et l'État (DGEFP). Démarche : 3 à 5 jours de prestation conseil sur 4-6 semaines.",
+        "fondement_legal": "**Code du travail** — articles **L6332-1-1 et suivants** (missions OPCO appui RH) — **Décret n° 2018-1342 du 28 décembre 2018** (réforme financement formation) — **Programme État « Appui Conseil RH TPE-PME »** géré par la DGEFP en partenariat avec les OPCO.",
+        "minimum_legal": "**Cadre du diagnostic GPEC subventionné** :\n\n**Bénéficiaires** :\n- **Structures de moins de 250 salariés** (TPE et PME)\n- **Toutes les structures ALISFA** sont éligibles : EAJE, centres sociaux, EVS, ADSL, ACM\n- **Pas d'exclusion** sur le secteur d'activité ou la forme juridique (association, GIE, SCI, GIP)\n\n**Subvention OPCO Uniformation** :\n- **Plafond** : jusqu'à **5 000 € sur 2 ans** (modalités évolutives par appel à projet, parfois 7 000-10 000 € selon programmes en cours)\n- **Co-financement** : généralement 50-100 % de la prestation prise en charge\n- **Modalités** : selon le programme \"Appui Conseil RH\" en cours (Plan de Relance, France Compétences, FEDER si applicable)\n\n**Objectifs typiques d'un diagnostic GPEC** :\n- **Anticipation** des départs en retraite (pyramide des âges)\n- **Identification** des compétences clés (\"savoirs\" critiques) à transmettre\n- **Construction** d'un **plan pluriannuel de formation** (3-5 ans)\n- **Définition** des **fiches de poste** et des **trajectoires de carrière**\n- **Préparation** d'une **transmission** (départ d'un cadre, fusion, restructuration)\n- **Optimisation** du **dialogue social** (CSE, accords d'entreprise)\n- **Inclusion** des publics fragiles (handicap, seniors, jeunes)\n- **Numérisation** des process RH (paie, gestion temps, formation)\n\n**Modalités de la prestation** :\n- **Durée** : 3 à 5 jours de conseil étalés sur 4-6 semaines\n- **Phases** :\n  1. **Diagnostic** : analyse de la situation actuelle (effectifs, compétences, climat social, organisation)\n  2. **Cartographie** : pyramide des âges, métiers stratégiques, compétences cibles\n  3. **Préconisations** : plan d'actions (formation, recrutement, mobilité, management, communication)\n  4. **Restitution** : rapport écrit + restitution orale (équipe direction, parfois CA)\n- **Livrable** : rapport de 20-50 pages + plan d'actions opérationnel\n\n**Procédure pour solliciter la subvention** :\n1. **Contacter Uniformation** (conseiller·ère dédié·e ou plateforme appui-conseil-rh)\n2. **Échange préalable** : motivations, contexte, attentes\n3. **Choix du consultant** :\n   - **Liste référencée** par OPCO Uniformation (consultants spécialisés ALISFA, ESS, action sociale)\n   - **Choix libre** parmi les consultants Qualiopi (sous validation OPCO)\n4. **Devis** du consultant + dossier de demande de subvention\n5. **Validation OPCO** : accord écrit + montant subvention\n6. **Réalisation** de la prestation\n7. **Restitution** au commanditaire (direction)\n8. **Justificatifs** : rapport + facture envoyés à OPCO\n9. **Versement** de la subvention\n\n**Consultants spécialisés ALISFA / ESS / action sociale** (références) :\n- **CIDFF** (formation et conseil RH)\n- **OASIS** (cabinet ESS)\n- **CARIF-OREF** régionaux (observatoires emploi)\n- **Cabinets indépendants** spécialisés petite enfance, animation, ESS\n- **Réseau ALISFA** : recommandations via la fédération régionale\n- **AFPA** (formation et accompagnement)",
+        "plus_formation": "**Sujets fréquents en diagnostic GPEC ALISFA** :\n\n**Petite enfance (EAJE, MAM)** :\n- Pénurie EJE diplômé·es sur le marché\n- Gestion des **CDI rares** vs **CDD à répétition**\n- Plan **VAE** pour les personnels expérimentés non-diplômés\n- Anticipation départs retraite EJE référents\n- **RSAI** (Référent Santé Accueil Inclusif) : recrutement ou formation interne\n\n**Centres sociaux et EVS** :\n- **Renouvellement** des animateur·trices BPJEPS\n- **Polyvalence** des postes (animation, médiation, numérique, parentalité)\n- **Bénévolat** : intégration dans la GPEC\n- **CNFS** : pérennisation post-2 ans (quand subvention ANCT s'arrête)\n- **Direction** : préparation de la succession\n\n**ADSL (Aide À Domicile en milieu rural)** :\n- **Pyramide des âges** vieillissante\n- **Reconversion** AVS → AES (réforme 2021)\n- **Permis de conduire** : recrutement difficile\n- Plan **alternance** pour rajeunir l'équipe\n\n**Tous secteurs** :\n- **Numérisation** : montée en compétences sur logiciels métiers\n- **Inclusion handicap** : adapter postes et formations\n- **Diversité** : pratiques d'embauche\n- **Bien-être au travail** : prévention burn-out, RPS\n- **Égalité femmes/hommes** : audit, plan d'actions (obligation > 50 salariés)\n\n**Au-delà du diagnostic — leviers post-GPEC** :\n- **Plan pluriannuel de formation** ouvert sur 3-5 ans\n- **Fiches de poste** mises à jour\n- **Référentiels métiers GPEC ALISFA** (alisfa.fr/gpec)\n- **EDEC** (Engagement Développement Emploi Compétences) avec OPCO si besoins lourds\n- **Conventions de branche** : actions collectives CPNEF\n- **Accord GPEC** d'entreprise (≥ 300 salariés obligatoire, plus petit recommandé)",
+        "obligations_formation": "Aucune obligation. Le diagnostic GPEC est volontaire (sauf accord GPEC obligatoire ≥ 300 salariés et tous les 3 ans, article L2242-20 Code travail).",
+        "accompagnement_obligatoire": "**Conseiller·ère Uniformation** : interlocuteur dédié pour l'instruction. **Choix d'un consultant Qualiopi**. **Validation préalable** par OPCO de la prestation. **Restitution** à la direction et idéalement au CSE (≥ 11 salariés) ou au CA.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Le dispositif **Appui Conseil RH TPE-PME** est **renouvelé annuellement** par les OPCO et l'État. Vérifier les modalités **à jour** (montants, plafonds, programmes) auprès d'Uniformation. **Vigilance** :\n- Le **diagnostic GPEC** est un audit, pas un plan d'actions automatique : prévoir un **suivi de mise en œuvre** (sinon il prend la poussière)\n- **Choix du consultant** crucial : préférer un cabinet **spécialisé ALISFA / action sociale / ESS** plutôt qu'un généraliste\n- **Engagement de la direction** indispensable : sans portage politique, le diagnostic reste lettre morte\n- **Démarche participative** recommandée : impliquer les salariés et le CSE en amont (sinon résistance au changement)\n- **Pas de cumul** avec d'autres prestations OPCO sur la même période (vérifier avec le conseiller·ère)\n- Si l'on est **proche du seuil 250 salariés** au moment de la demande, vérifier l'éligibilité (apprécié au 31/12 N-1)",
+        "sources": [
+          "Code du travail — articles L6332-1-1 et suivants (missions OPCO)",
+          "Code du travail — article L2242-20 (négociation GPEC ≥ 300 salariés)",
+          "Décret n° 2018-1342 du 28 décembre 2018",
+          "Programme « Appui Conseil RH TPE-PME » — DGEFP",
+          "Uniformation — appui conseil RH"
+        ],
+        "liens": [
+          {
+            "titre": "Uniformation — Appui Conseil RH TPE-PME",
+            "url": "https://www.uniformation.fr/entreprise/notre-conseil-en-rh",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Appui Conseil RH",
+            "url": "https://travail-emploi.gouv.fr/emploi-et-insertion/accompagnement-des-mutations-economiques",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC métiers de la branche",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail Livre III formation professionnelle",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195791/",
+            "type": "legislation"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - DGEFP + Uniformation Appui Conseil RH"
+      }
+    }
+
+  ]
+}

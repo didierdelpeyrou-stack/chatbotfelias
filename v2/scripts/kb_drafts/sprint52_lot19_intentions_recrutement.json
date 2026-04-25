@@ -1,0 +1,288 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F6 lot I2 — Intentions directeur Recrutement et alternance (4 articles)",
+    "lot": "I2/I3",
+    "topic": "Recruter en alternance, coût alternance employeur, apprentissage vs professionnalisation, mobiliser contrats aidés",
+    "generated_at": "2026-04-25",
+    "source_principale": "CCN ALISFA + Code travail + service-public + Uniformation + DGEFP",
+    "theme_target": "intentions_directeur"
+  },
+
+  "articles": [
+
+    {
+      "id": "int-recruter-alternance",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment recruter un·e alternant·e dans ma structure ALISFA et quelles sont les démarches ?",
+      "mots_cles": [
+        "recruter alternance", "apprentissage",
+        "professionnalisation", "CFA",
+        "tuteur maître apprentissage",
+        "CERFA", "OPCO Uniformation",
+        "subvention 6000 euros", "recrutement EJE",
+        "contrat apprentissage 2 ans"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "recruter_alternance",
+      "reponse": {
+        "synthese": "Recruter un·e alternant·e en structure ALISFA = **6 étapes clés** : (1) **identifier le besoin** (poste, métier, diplôme cible), (2) **choisir le contrat** (apprentissage ou professionnalisation), (3) **identifier le CFA / centre formation**, (4) **désigner un tuteur ou maître d'apprentissage** dans l'équipe, (5) **rédiger le contrat CERFA** (FA13 apprentissage ou FA14 professionnalisation), (6) **déposer le contrat sur la plateforme Uniformation** dans les 5 jours suivant signature. **Coût employeur** : très réduit grâce aux NPEC (Niveaux Prise En Charge) OPCO + aide État (jusqu'à 6 000 € la première année). **Délai recrutement → embauche** : 6-10 semaines.",
+        "fondement_legal": "**Code du travail** — articles **L6211-1 à L6261-2** (apprentissage) et **L6325-1 à L6325-26** (professionnalisation) — **Loi n° 2018-771 du 5 septembre 2018** (« Avenir Professionnel ») — **Décret n° 2018-1234 du 24 décembre 2018** (réforme apprentissage) — **Convention collective nationale ALISFA** — **CPNEF ALISFA** (Niveaux Prise En Charge alternance 2026).",
+        "minimum_legal": "**6 étapes pour recruter un·e alternant·e** :\n\n**ÉTAPE 1 — Identifier le besoin** :\n- **Type de poste** : EJE, animateur·trice, secrétaire administratif·ve, comptable, technicien·ne d'entretien, médiateur·trice numérique, etc.\n- **Diplôme cible** : CAP AEPE, DE EJE, BPJEPS, DEJEPS, DEAES, BTS SP3S, etc.\n- **Niveau de diplôme** : 3 (CAP) à 7 (Master)\n- **Durée** : 6 mois à 3 ans selon le diplôme\n- **Profil candidat·e** : âge, expérience, motivation, projet professionnel\n\n**ÉTAPE 2 — Choisir le type de contrat** :\n\n**Apprentissage (CERFA FA13)** :\n- **Public** : 16-29 ans (pas de limite d'âge si reconnaissance de handicap, sportif de haut niveau ou projet de création/reprise d'entreprise)\n- **Niveau** : du CAP au diplôme d'ingénieur (RNCP)\n- **Durée** : 6 mois à 3 ans\n- **Rythme** : selon CFA (jours fixes, semaines, mois alternés)\n- **Statut** : **étudiant·e des métiers** + **salarié·e**\n- **Rémunération** : % du SMIC selon âge et année (ex. 18 ans 2e année = 51 % SMIC)\n- **Aide État** : **6 000 €** la première année (entreprises < 250 salariés, depuis le décret du 23 février 2024 prolongé en 2026)\n\n**Professionnalisation (CERFA FA14)** :\n- **Public** : 16-25 ans + jeunes 16-25 sans diplôme + demandeurs d'emploi de + 26 ans + bénéficiaires RSA/AAH/CUI\n- **Niveau** : tous diplômes RNCP, qualifications de branche, certificats CQP\n- **Durée** : 6 à 12 mois (jusqu'à 24 mois selon profil)\n- **Rythme** : 25 % minimum de temps en formation\n- **Statut** : **salarié·e en formation**\n- **Rémunération** : % du SMIC selon âge et niveau de diplôme (ex. 21-25 ans Bac+2 = 80 % SMIC, 26+ ans = SMIC)\n- **Aide État** : pas d'aide spécifique en 2026 sauf cas particuliers\n\n**ÉTAPE 3 — Identifier le CFA / centre de formation** :\n- **CFA** (Centre de Formation des Apprentis) — apprentissage uniquement\n- **Organismes de formation Qualiopi** — professionnalisation\n- **Annuaire** : francecompetences.fr (RNCP) + cfa.gouv.fr (apprentissage)\n- **Réseau ALISFA** : centres partenaires (EFTS, IRTS, CEMEA, CFA petite enfance, etc.)\n- **Organismes spécialisés** :\n  - **EAJE / petite enfance** : ITEP, IRTS, CFA EJE/AEPE\n  - **Animation** : CEMEA, CRAJEP, CFA animation\n  - **Travail social** : EFTS (DEES, DEASS, DECESF, DEAES, DETISF, DEEJE)\n  - **Direction** : CAFDES, CAFERUIS\n\n**ÉTAPE 4 — Désigner le tuteur / maître d'apprentissage** :\n\n**Apprentissage** :\n- **Maître d'apprentissage** : salarié de l'entreprise titulaire d'un diplôme du même domaine ou d'un niveau au moins équivalent + **2 ans d'expérience minimum**\n- **Pas de limite** au nombre d'apprentis tutorés\n- **Bonification de salaire** : prévue par la CCN ALISFA (souvent 50-100 €/mois ou prime annuelle)\n- **Mission** : accompagnement formation + insertion entreprise + lien avec le CFA\n\n**Professionnalisation** :\n- **Tuteur** : salarié titulaire d'un diplôme du même domaine ou expérience ≥ 2 ans\n- **Pas obligatoire** mais **fortement recommandé** dans les entreprises de moins de 11 salariés\n- **Mission** identique au maître d'apprentissage\n\n**ÉTAPE 5 — Rédiger le contrat CERFA** :\n- **CERFA FA13** : apprentissage\n- **CERFA FA14** : professionnalisation\n- **Joindre** : convention de formation (CFA), avenant (si évolution), pièces (CV, diplômes, attestation d'assurance, etc.)\n- **Signatures** : employeur + apprenti·e (ou son représentant légal si mineur·e) + CFA\n\n**ÉTAPE 6 — Déposer le contrat sur Uniformation** :\n- **Plateforme** : espace adhérent Uniformation\n- **Délai** : **5 jours ouvrés** suivant la signature\n- **Pièces** : CERFA + convention de formation + diplôme tuteur + RIB\n- **Instruction** : 4-6 semaines\n- **Accord OPCO** : convention de prise en charge + paiement direct au CFA (apprentissage) ou remboursement employeur (professionnalisation)\n\n**Délai global recrutement → embauche** : 6 à 10 semaines (3-4 sem. recrutement + 4-6 sem. validation OPCO).",
+        "plus_formation": "**Coûts pour l'employeur (estimation 2026)** :\n\n**Apprentissage 1ère année (apprenti 19 ans, DE EJE)** :\n- Salaire 51 % SMIC = ~ 920 €/mois brut\n- Charges patronales TPE = ~ 50-80 €/mois\n- Coût mensuel total : ~ 970-1 000 €\n- **Aide État 6 000 €** la 1ère année (~ 500 €/mois compensation)\n- **Coût mensuel net** : ~ 470-500 € pour l'employeur\n- Coût formation **NPEC OPCO** : 7 900 € (DE EJE) **TOTALEMENT pris en charge** par OPCO Uniformation\n\n**Apprentissage 2e année (apprenti 20 ans, BPJEPS)** :\n- Salaire 61 % SMIC = ~ 1 100 €/mois brut\n- **Aide État** : selon dispositif en cours en 2026 (vérifier sur travail-emploi.gouv.fr)\n- Coût formation **NPEC** : 8 357 € (BPJEPS) — pris en charge OPCO\n\n**Professionnalisation (29 ans, DEJEPS)** :\n- Salaire SMIC = ~ 1 800 €/mois brut\n- Charges = ~ 200 €/mois\n- Coût mensuel total : ~ 2 000 €\n- **Pas d'aide État** sauf cas particulier\n- **Coût formation NPEC** : 9 551 € (DEJEPS) — pris en charge OPCO\n\n**Conseil pour optimiser** :\n- **Apprentissage** plus avantageux financièrement la 1ère année (aide 6 000 €)\n- **Professionnalisation** plus flexible (pas de durée minimum, profils plus variés)\n- **Préférer l'apprentissage** pour jeunes 16-25 ans en première formation\n- **Préférer la professionnalisation** pour reconversion / 26+ ans\n\n**Aides complémentaires possibles** :\n- **Aide handicap** (Agefiph) : jusqu'à 4 000 €/an si l'apprenti a une RQTH\n- **Aide jeune sortant ASE** (DGEFP) : ressources spécifiques\n- **Aide territoriale** : selon Région ou collectivité (regarder sur aides-territoires.beta.gouv.fr)\n\n**Erreurs fréquentes à éviter** :\n1. **Démarrer formation avant signature CERFA** : risque de refus OPCO\n2. **Oublier de désigner le maître d'apprentissage** : mention obligatoire au contrat\n3. **Faire signer un mineur sans représentant légal** : nullité\n4. **Sous-payer l'apprenti** : barème SMIC obligatoire (% selon âge + année)\n5. **Négliger l'accueil et l'intégration** : 30 % d'abandon en 1ère année — investir dans l'accompagnement",
+        "obligations_formation": "Maître d'apprentissage (apprentissage) ou tuteur (professionnalisation) désigné. Convention de formation signée. CERFA déposé sous 5 jours.",
+        "accompagnement_obligatoire": "**Maître d'apprentissage / Tuteur** désigné dans l'équipe (suivi pédagogique, intégration, lien CFA). **Visites du CFA** (au moins 2 par an). **Bilan tripartite** entre alternant·e + tuteur + CFA. **Suivi RH** : entretien à 3 mois, 6 mois, et chaque année.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **NPEC alternance** (table p. 26 CCN ALISFA) sont **révisés annuellement** par la CPNEF. **Aide État apprentissage 6 000 €** : prolongée en 2026 (décret du 23 février 2024) — vérifier sur travail-emploi.gouv.fr le maintien et les modalités. **Vigilance** :\n- L'**aide 6 000 €** est conditionnée à la **non-rupture** du contrat dans les 6 premiers mois\n- **Délai 5 jours ouvrés** pour déposer le CERFA : sanction = refus de prise en charge\n- **Maître d'apprentissage** doit avoir **2 ans d'expérience** dans le métier — vérifier ce point\n- **Visite médicale d'embauche** dans les 2 mois (médecin du travail)\n- Pour **EAJE** : extrait de casier judiciaire (B2) obligatoire pour l'alternant·e (article L131-2 CASF)",
+        "sources": [
+          "Code du travail — articles L6211-1 à L6261-2 (apprentissage) et L6325-1 à L6325-26 (professionnalisation)",
+          "Loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)",
+          "Décret n° 2018-1234 du 24 décembre 2018 — réforme apprentissage",
+          "Décret n° 2024-149 du 23 février 2024 — prolongation aide 6 000 € apprentissage",
+          "Convention collective nationale ALISFA — CPNEF NPEC alternance 2026"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Embaucher un apprenti",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F31704",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Aide à l'embauche d'un apprenti",
+            "url": "https://travail-emploi.gouv.fr/formation-professionnelle/formation-en-alternance-10751",
+            "type": "officiel"
+          },
+          {
+            "titre": "Uniformation — Apprentissage et professionnalisation",
+            "url": "https://www.uniformation.fr/entreprise/recruter-en-alternance",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail Livre VI Apprentissage",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195791/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ALISFA — alternance et NPEC 2026",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6211 + CPNEF NPEC 2026"
+      }
+    },
+
+    {
+      "id": "int-cout-alternant-employeur",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Combien va me coûter concrètement un·e alternant·e dans ma structure ALISFA en 2026 ?",
+      "mots_cles": [
+        "coût alternance employeur",
+        "rémunération apprenti SMIC",
+        "charges patronales TPE",
+        "aide 6000 euros 1ère année",
+        "ROI alternance",
+        "exonérations cotisations",
+        "formation prise en charge OPCO",
+        "comparaison apprentissage professionnalisation"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "estimer_cout_alternance",
+      "reponse": {
+        "synthese": "Le coût d'un·e alternant·e dépend de **3 paramètres** : âge, type de contrat (apprentissage / professionnalisation), niveau de diplôme. **Apprentissage 1ère année** = environ **500-1 000 €/mois net** pour l'employeur (après aide État 6 000 €). **Professionnalisation** = environ **1 500-2 200 €/mois** (rémunération SMIC + charges, pas d'aide). **Le coût de la formation** (~ 6 500 à 9 500 € selon diplôme) est **TOTALEMENT pris en charge par OPCO Uniformation** via les NPEC ALISFA. **ROI** : un alternant 2 ans coûte typiquement **15-30 K€ net** à l'employeur (vs 50-70 K€ pour un CDI au SMIC sur 2 ans).",
+        "fondement_legal": "**Code du travail** — articles **L6243-1 à L6243-3** (rémunération apprentissage), **L6325-11 à L6325-15** (rémunération professionnalisation), **L6243-1-1** (exonérations TPE) — **Décret n° 2024-149 du 23 février 2024** (aide 6 000 €) — **CCN ALISFA** (rémunérations conventionnelles éventuellement supérieures au SMIC).",
+        "minimum_legal": "**Coût d'un·e alternant·e en structure ALISFA — détail 2026** :\n\n**1. RÉMUNÉRATION APPRENTI (% SMIC)** :\n\n| Âge / Année | 1ère année | 2e année | 3e année |\n|---|---|---|---|\n| **< 18 ans** | 27 % SMIC | 39 % SMIC | 55 % SMIC |\n| **18-20 ans** | 43 % SMIC | 51 % SMIC | 67 % SMIC |\n| **21-25 ans** | 53 % SMIC | 61 % SMIC | 78 % SMIC |\n| **≥ 26 ans** | 100 % SMIC | 100 % SMIC | 100 % SMIC |\n\nSMIC mensuel brut 2026 (estimé au 1er janvier) : ~ **1 802 €** (à actualiser).\n\n**2. RÉMUNÉRATION PROFESSIONNALISATION** :\n\n| Profil | < 21 ans | 21-25 ans | ≥ 26 ans |\n|---|---|---|---|\n| **Sans Bac** | 55 % SMIC | 70 % SMIC | 100 % SMIC |\n| **Bac (4 niveau)** | 65 % SMIC | 80 % SMIC | 100 % SMIC |\n| **Bac+2 et plus** | 70 % SMIC | 85 % SMIC | 100 % SMIC |\n\n**3. EXEMPLES CHIFFRÉS (2026)** :\n\n**EXEMPLE A : Apprenti 19 ans en DE EJE (3 ans)** — niveau 6\n- Année 1 : 43 % SMIC = **775 €** brut/mois\n- Année 2 : 51 % SMIC = **919 €** brut/mois\n- Année 3 : 67 % SMIC = **1 207 €** brut/mois\n- Charges patronales (TPE < 11 salariés, exonération) : ~ 50 €/mois en moyenne\n- Coût brut total : ~ 11 000 €/an (an 1) à 15 000 €/an (an 3) charges incluses\n- **Aide État** : 6 000 € (an 1)\n- **Coût net employeur** : ~ 5 000 € (an 1), ~ 11 000 € (an 2), ~ 15 000 € (an 3)\n- **Coût total 3 ans** : **~ 31 000 €** pour 3 ans de formation = **~ 860 €/mois moyen** sur la totalité\n- **Coût de la formation** : **7 900 €/an × 3 = 23 700 €** — **PRIS EN CHARGE PAR OPCO**\n\n**EXEMPLE B : Apprenti 22 ans en BPJEPS (1 an)** — niveau 4\n- Année 1 : 53 % SMIC = **955 €** brut/mois\n- Charges patronales TPE : ~ 60 €/mois\n- Coût brut total : ~ 12 000 € (an 1)\n- **Aide État** : 6 000 €\n- **Coût net employeur** : **~ 6 000 €** sur 1 an = **500 €/mois**\n- **Coût formation** : **8 357 €** — pris en charge OPCO\n\n**EXEMPLE C : Professionnalisation 28 ans en DEJEPS (1 an)** — niveau 5\n- Salaire 100 % SMIC = **1 802 €** brut/mois\n- Charges patronales (entreprise > 11 salariés) : ~ 200-250 €/mois\n- Coût brut total : ~ 25 000 € (an 1)\n- **Pas d'aide État** spécifique en 2026\n- **Coût net employeur** : **~ 25 000 €** sur 1 an = **2 080 €/mois**\n- **Coût formation** : **9 551 €** — pris en charge OPCO\n\n**EXEMPLE D : Apprenti 28 ans (RQTH) en CAFERUIS (1,5 an)** — niveau 6\n- Salaire 100 % SMIC = **1 802 €** brut/mois\n- **Aide handicap Agefiph** : ~ 4 000 €/an\n- Coût net : ~ 18 000 € (1,5 an) après aides = ~ 1 000 €/mois\n- **Coût formation** : 8 200 €/an × 1,5 = **12 300 €** — pris en charge OPCO\n\n**4. EXONÉRATIONS DE COTISATIONS PATRONALES** :\n\n**Apprentissage (toutes tailles)** :\n- **Exonération totale** des cotisations URSSAF (santé, retraite de base, allocations familiales) jusqu'au plafond de 79 % SMIC\n- **Maintien** : versement formation pro, FNAL, CSA, AT/MP\n- **Effet net** : **~ 50-100 €/mois de charges seulement** au lieu de 30-40 % de charges habituelles\n\n**Professionnalisation** :\n- **Pas d'exonération spécifique** sauf cas particuliers (jeunes < 21 ans en TPE-PME, demandeurs d'emploi de longue durée)\n- Charges classiques : ~ 30-40 % du salaire brut\n\n**5. AIDES À L'EMBAUCHE — RÉCAPITULATIF 2026** :\n\n| Type | Montant 1ère année | Conditions |\n|---|---|---|\n| **Aide unique apprentissage** | **6 000 €** | < 250 sal., contrat préparant niveau ≤ Bac+5, signé en 2026 |\n| **Aide handicap (Agefiph)** | jusqu'à 4 000 €/an | RQTH apprenti·e |\n| **Pacte ASE / Jeunes ASE** | varies | Sortants Aide Sociale Enfance |\n| **Régions** | varies | Selon politique régionale |\n| **Aide TPE-PME profession.** | exceptionnel | Aide ponctuelle Plan Relance |\n\n**6. ROI ESTIMATIF SUR 3 ANS** :\n\n**Apprenti DE EJE (3 ans)** :\n- Coût total employeur : ~ 31 000 €\n- **Si embauche post-diplôme** : économie de ~ 6 mois de tutorat préparatoire (15 000 €) + connaissance interne acquise\n- **Si non-embauche** : coût brut de formation = 31 000 €, mais formation 3 ans terrain à un EJE diplômé\n\n**Comparé à embaucher un EJE diplômé en CDI** :\n- Salaire minimum CCN ALISFA 2026 EJE = ~ 2 200 € brut/mois = 26 400 €/an\n- + charges 35 % = 35 600 €/an\n- **Sur 3 ans** : 107 000 €\n- **Différence** : ~ 76 000 € d'économie sur 3 ans (à compétences en construction, certes)",
+        "plus_formation": "**Optimiser le coût d'un·e alternant·e** :\n\n**Choisir le bon profil** :\n- **18-25 ans** : maximiser les exonérations apprentissage\n- **Reconversion (≥ 26 ans)** : préférer professionnalisation si pas de RQTH\n- **RQTH** : apprentissage avec aide Agefiph (cumul possible)\n\n**Co-financer plusieurs alternances** :\n- **2-3 alternants** sur des diplômes différents = mutualisation tutorat (1 maître peut superviser plusieurs apprentis)\n- **Stratégie GPEC** : préparer la succession des seniors, recruter avant départs\n\n**Anticiper l'embauche post-diplôme** :\n- **Pacte alternance** : promesse écrite d'embauche conditionnelle (motivation forte)\n- **Pré-financement** d'une formation continue post-DE EJE (ex. CAFERUIS) si reste dans la structure\n\n**Cumul avec d'autres dispositifs** :\n- Apprentissage + **CIFRE** (doctorant) : 14 000 €/an supplémentaires sur 3 ans pour un projet de recherche\n- Apprentissage + **POE** Pôle Emploi : pré-formation gratuite avant entrée en contrat\n- Apprentissage + **PIC** (Plan d'Investissement dans les Compétences) : aides ciblées Région\n\n**Risques à anticiper** :\n- **Rupture en cours de contrat** :\n  - Apprenti : pendant les 45 premiers jours = libre + pas de remboursement aide\n  - Au-delà : motifs limités (force majeure, faute grave, inaptitude)\n  - **Démission de l'apprenti** : possible avec préavis (15 jours médiateur consulaire)\n- **Inadéquation au poste** : prévoir une **période d'essai** avant signature du CERFA (entretien complet, journée d'observation)\n- **Difficulté du tutorat** : prévoir une formation de 14h pour le maître d'apprentissage (financée OPCO)\n- **Burnout du tuteur** : alléger la charge si plusieurs apprentis tutorés\n\n**Outils pour calculer plus précisément** :\n- **Simulateur Uniformation** : coût exact selon situation\n- **Service Public alternance.gouv.fr** : simulateur officiel État\n- **CPNEF ALISFA** : calculateur dédié branche\n- **Conseiller·ère Uniformation** : devis personnalisé gratuit",
+        "obligations_formation": "Pas d'obligation. Le maître d'apprentissage doit avoir 2 ans d'expérience minimum.",
+        "accompagnement_obligatoire": "**Maître d'apprentissage / Tuteur** désigné, formé (recommandation 14h tutorat OPCO). **Bilan tripartite** apprenti + tuteur + CFA chaque trimestre. **Suivi RH** régulier.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **rémunérations apprentissage et professionnalisation** sont calculées sur le **SMIC en vigueur** (revalorisé chaque 1er janvier). **Aide État 6 000 €** : prolongée par décret 2024-149 du 23 février 2024 et reconduite en 2026 — vérifier sur travail-emploi.gouv.fr les conditions précises (plafond niveau diplôme, taille entreprise, durée contrat). **Vigilance** :\n- Les **NPEC** (table CCN ALISFA p. 26) couvrent la **formation**, **pas la rémunération** : ces deux flux financiers sont distincts\n- **Charges patronales** dépendent de la **taille de l'entreprise** (TPE < 50 salariés : exonérations renforcées)\n- L'**aide État** est versée **trimestriellement** par l'ASP (Agence de Services et de Paiement) sur déclaration DSN\n- Les exemples chiffrés sont **estimations 2026** : utiliser les simulateurs officiels pour le devis exact\n- **Coût de la formation** : intégralement pris en charge par OPCO si convention signée AVANT le démarrage",
+        "sources": [
+          "Code du travail — articles L6243-1 à L6243-3 (rémunération apprentissage)",
+          "Code du travail — articles L6325-11 à L6325-15 (rémunération professionnalisation)",
+          "Décret n° 2024-149 du 23 février 2024 — aide 6 000 € apprentissage",
+          "Convention collective nationale ALISFA — table NPEC 2026",
+          "URSSAF — exonérations alternance 2026"
+        ],
+        "liens": [
+          {
+            "titre": "Travail-Emploi — Aide unique apprentissage 6 000 €",
+            "url": "https://travail-emploi.gouv.fr/formation-professionnelle/formation-en-alternance-10751",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Rémunération de l'apprenti",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2918",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Rémunération en contrat de professionnalisation",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F15478",
+            "type": "officiel"
+          },
+          {
+            "titre": "URSSAF — Apprentissage et exonérations",
+            "url": "https://www.urssaf.fr/portail/home/employeur/calculer-les-cotisations/les-taux-de-cotisations/lemploi-de-jeunes-en-formation-en/lapprenti.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — alternance et NPEC 2026",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6243 + Décret 2024-149"
+      }
+    },
+
+    {
+      "id": "int-apprentissage-vs-professionnalisation",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Apprentissage ou professionnalisation : quel contrat alternance choisir pour ma structure ALISFA ?",
+      "mots_cles": [
+        "apprentissage vs professionnalisation",
+        "comparatif contrats alternance",
+        "choix contrat alternance",
+        "âge alternant",
+        "RNCP CQP",
+        "durée formation",
+        "rémunération comparée",
+        "exonérations charges"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "choisir_apprentissage_professionnalisation",
+      "reponse": {
+        "synthese": "Le **choix entre apprentissage et professionnalisation** dépend de **5 critères** : (1) **âge** du candidat (16-29 vs tous âges), (2) **diplôme cible** (RNCP / CQP), (3) **durée** de formation prévue, (4) **statut souhaité** (étudiant·e des métiers vs salarié·e), (5) **enveloppe budgétaire** (apprentissage = aide 6 000 € + exonérations renforcées). **Règle simple** : **apprentissage** privilégié pour 16-29 ans en première formation diplômante longue (DE EJE, BPJEPS, DEJEPS), **professionnalisation** privilégiée pour reconversion adulte ou formation courte (CQP, formation pro de branche).",
+        "fondement_legal": "**Code du travail** — Livre II Titre I (apprentissage L6211 et suivants) et Titre II Section 2 (professionnalisation L6325 et suivants) — **Loi n° 2018-771 du 5 septembre 2018** (« Avenir Professionnel ») qui a unifié et simplifié les dispositifs.",
+        "minimum_legal": "**Tableau comparatif APPRENTISSAGE vs PROFESSIONNALISATION** :\n\n| Critère | Apprentissage | Professionnalisation |\n|---------|---------------|----------------------|\n| **Public principal** | Jeunes 16-29 ans (sans limite si RQTH, sportif HN, projet création) | 16-25 ans + jeunes sans qualif. + DE > 26 ans + RSA/AAH |\n| **Statut juridique** | **Étudiant·e des métiers** + salarié·e | **Salarié·e** en formation |\n| **Diplômes accessibles** | RNCP uniquement (CAP au Doctorat) | RNCP + CQP de branche + qualifications inscrites |\n| **Durée minimale** | 6 mois | 6 mois |\n| **Durée maximale** | **3 ans** (parfois 4 si extension) | **12 mois standard**, **24 mois** (sans qualif., handicap, RSA) |\n| **Rythme formation** | 25 % minimum (souvent 33-50 %) | 25 % minimum |\n| **CFA / Centre formation** | **CFA** habilité | Organismes formation Qualiopi |\n| **Type contrat** | CDD ou CDI |  CDD (1-12 mois) ou CDI (avec action de pro de 6-12 mois) |\n| **Rémunération** | 27 % à 100 % SMIC selon âge/année | 55 % à 100 % SMIC selon âge/diplôme |\n| **Exonérations cotisations** | **Très importantes** (URSSAF totale jusqu'à 79 % SMIC) | Limitées (cas particuliers) |\n| **Aide État 2026** | **6 000 €** la 1ère année (< 250 sal.) | Pas d'aide spécifique |\n| **Niveau prise en charge formation** | **NPEC OPCO** (intégral) | NPEC OPCO (souvent intégral) |\n| **Maître / Tuteur** | **Maître d'apprentissage** obligatoire (2 ans XP) | Tuteur recommandé non-obligatoire (2 ans XP) |\n| **Rupture** | Très encadrée (45 jours libres, puis motifs limités) | Possibles motifs RH classiques |\n| **Visite médicale** | Obligatoire embauche + 1 par an si < 18 ans | Obligatoire embauche |\n\n**5 critères pour choisir** :\n\n**CRITÈRE 1 — ÂGE DU CANDIDAT** :\n- **16-29 ans** : apprentissage **TRÈS avantageux** (aide 6 000 € + exonérations + statut étudiant·e)\n- **≥ 30 ans** : professionnalisation **plus accessible** (sauf RQTH, sportif, projet création)\n- **Mineur·e** : apprentissage **uniquement** sous certaines conditions (autorisation parentale, visite médicale, etc.)\n\n**CRITÈRE 2 — DIPLÔME CIBLE** :\n- **DE EJE, DEJEPS, DESJEPS, DEAES, DEES, DECESF** (RNCP) : **les deux possibles** ; apprentissage souvent plus structuré (CFA dédiés)\n- **CQP** (Certificat de Qualification Professionnelle de la branche) : **professionnalisation seulement**\n- **Doctorat (CIFRE doctorant)** : **professionnalisation** ou **apprentissage** possible (cf. article `cont-cifre`)\n\n**CRITÈRE 3 — DURÉE FORMATION** :\n- **< 6 mois** : ni l'un ni l'autre (autres dispositifs : POE, FNE, plan développement compétences)\n- **6-12 mois** : **professionnalisation** souvent plus pertinente\n- **12-36 mois** : **apprentissage** plus pertinent (BPJEPS, DEJEPS, DE EJE 3 ans)\n- **> 36 mois** : apprentissage avec extension ou enchaînement\n\n**CRITÈRE 4 — STATUT SOUHAITÉ** :\n- **Étudiant·e** (avec carte étudiant des métiers, droits étudiants : cinéma, transports, etc.) → **apprentissage**\n- **Salarié·e classique** (intégration équipe, ancienneté, pleins droits salariés) → **professionnalisation**\n\n**CRITÈRE 5 — BUDGET ET AIDES** :\n- **Aide 6 000 € + exonérations massives** → **apprentissage** plus avantageux 1ère année\n- **Reconversion d'un salarié seniorité** → **Pro-A** (Promotion par Alternance, professionnalisation pour CDI)\n- **Cumul aides** : apprentissage cumule avec aide handicap (Agefiph), aide ASE\n\n**CAS PRATIQUES ALISFA** :\n\n**Cas 1 — EAJE recrute un futur EJE** :\n- Profil : 22 ans, motivé, déjà CAP AEPE\n- Diplôme cible : **DE EJE** (3 ans, niveau 6)\n- **Contrat recommandé** : APPRENTISSAGE\n- Coût net 1ère année : ~ 5 000 €\n- ROI : très favorable + carte étudiante motivante\n\n**Cas 2 — Centre social embauche animateur·trice** :\n- Profil : 19 ans, sortie de bac\n- Diplôme cible : **BPJEPS** (1 an, niveau 4)\n- **Contrat recommandé** : APPRENTISSAGE\n- Coût net : ~ 6 000 € après aide\n- Bonne entrée dans le métier\n\n**Cas 3 — Reconversion comptable vers RH** :\n- Profil : 35 ans, ex-comptable veut faire RH\n- Diplôme cible : **Bac+3 RH** (1 an), professionnalisation\n- **Contrat recommandé** : PROFESSIONNALISATION\n- Coût net : ~ 25 000 € (SMIC + charges)\n- Adaptation rapide de l'expérience adulte\n\n**Cas 4 — Promotion interne d'un·e ATSEM vers EJE** :\n- Profil : 33 ans, 8 ans d'expérience ATSEM, CAP AEPE\n- Diplôme cible : **DE EJE en VAE alternée** (3 ans, niveau 6)\n- **Contrat recommandé** : **PRO-A** (Promotion par Alternance, dispositif spécifique CDI) ou apprentissage\n- Coût formation : ~ 23 000 € sur 3 ans, **pris en charge par OPCO**\n\n**Cas 5 — Direction prépare succession** :\n- Profil : 28 ans, BPJEPS + 3 ans d'animation\n- Diplôme cible : **CAFERUIS** (1,5 an, niveau 6)\n- **Contrat recommandé** : APPRENTISSAGE (jusqu'à 29 ans)\n- Coût net : ~ 8 000 € après aides\n- Préparation de l'avenir de la structure\n\n**Cas 6 — Sortie ASE / RQTH** :\n- Profil : 24 ans, RQTH, sortant·e ASE\n- Diplôme cible : **CAP AEPE** (1 an, niveau 3)\n- **Contrat recommandé** : APPRENTISSAGE + cumul aides Agefiph + ASE\n- Coût net : très réduit voire négatif (aides cumulées > rémunération)",
+        "plus_formation": "**Décision : 5 questions à se poser** :\n\n1. **Quel âge** a le candidat ?\n2. **Quel diplôme** vise-t-il ? RNCP ou CQP ?\n3. **Combien de temps** dure la formation ?\n4. **Quel statut** souhaite-t-il (étudiant·e vs salarié·e) ?\n5. **Quelle est ma capacité financière** sur la durée du contrat ?\n\n**Ressources pour décider** :\n- **Conseiller·ère Uniformation** : **gratuit**, devis personnalisé en 1 RDV\n- **CFA** : visite + entretien apprenti·e + entreprise\n- **Service Public alternance.gouv.fr** : simulateur officiel\n- **Conseil GPEC** : intégrer la décision dans la stratégie pluriannuelle\n\n**Erreurs à éviter** :\n1. **Choisir professionnalisation pour économiser** : à étudier mais souvent plus cher net que apprentissage 1ère année\n2. **Imposer apprentissage à un 30+ ans** : risque de refus si pas de RQTH/HN/création\n3. **Ne pas anticiper la rupture** : période d'essai SCRUPULEUSE pour éviter ruptures coûteuses\n4. **Oublier la formation tuteur** : OPCO finance 14h tutorat (souvent oublié)\n5. **Ignorer le climat d'équipe** : rentrée d'un alternant nécessite préparation collective",
+        "obligations_formation": "Maître d'apprentissage avec 2 ans d'expérience (apprentissage). Tuteur recommandé (professionnalisation).",
+        "accompagnement_obligatoire": "**Conseiller·ère Uniformation** : interlocuteur dédié pour aider au choix. **Visite CFA / centre formation** avant signature. **Bilan tripartite** alternant + tuteur + CFA tous les trimestres.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **règles d'éligibilité** apprentissage et professionnalisation sont stables depuis la loi 2018-771. **Vigilance** :\n- **Limite âge apprentissage** : 29 ans révolus à la signature (sauf exceptions précitées) — vérifier la date d'anniversaire\n- **Pro-A** est un sous-cas de professionnalisation **réservé aux salariés CDI** souhaitant changer de métier — ne pas confondre avec professionnalisation classique\n- **CQP de branche** ALISFA : seulement quelques CQP existent, vérifier sur le site CPNEF\n- **Diplôme étranger** : équivalence à faire reconnaître (ENIC-NARIC) avant signature\n- **Aide 6 000 € apprentissage** : reconductions annuelles → vérifier conditions précises pour 2026 sur travail-emploi.gouv.fr",
+        "sources": [
+          "Code du travail — articles L6211-1 et suivants (apprentissage)",
+          "Code du travail — articles L6325-1 et suivants (professionnalisation)",
+          "Loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)",
+          "Décret n° 2018-1234 du 24 décembre 2018 — réforme apprentissage",
+          "CPNEF ALISFA — table NPEC 2026"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Comparaison alternance",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/N20180",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Alternance",
+            "url": "https://travail-emploi.gouv.fr/formation-professionnelle/formation-en-alternance-10751",
+            "type": "officiel"
+          },
+          {
+            "titre": "Alternance.gouv — portail officiel",
+            "url": "https://www.alternance.emploi.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Uniformation — Apprentissage et professionnalisation",
+            "url": "https://www.uniformation.fr/entreprise/recruter-en-alternance",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — alternance",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6211 + L6325 + Loi 2018-771"
+      }
+    },
+
+    {
+      "id": "int-mobiliser-contrats-aides",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment mobiliser les contrats aidés (PEC, CUI, contrats territoriaux) pour ma structure ALISFA ?",
+      "mots_cles": [
+        "contrats aidés", "PEC parcours emploi compétences",
+        "CUI Contrat Unique Insertion",
+        "subvention 60 80 pourcent SMIC",
+        "France Travail prescription",
+        "DREETS",
+        "publics éloignés emploi",
+        "QPV",
+        "tutorat obligatoire"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "mobiliser_contrats_aides",
+      "reponse": {
+        "synthese": "Les **contrats aidés** sont des contrats de travail subventionnés par l'État (DGEFP / DREETS) ou les collectivités, destinés à embaucher des personnes éloignées de l'emploi. Pour les structures ALISFA en 2026, le principal dispositif est le **PEC (Parcours Emploi Compétences)** — successeur du CUI-CAE depuis 2018 — avec **subvention 50-80 % SMIC** (selon le profil et la zone géographique). **Public** : DELD, RSA, jeunes < 26 ans, QPV, ZRR, RQTH, sortants ASE. **Procédure** : prescription **France Travail** + dépôt en ligne **plateforme PEC**. **Durée** : 9-24 mois renouvelables. Cumul possible avec d'autres dispositifs (alternance, CIFRE, CIVIS, etc.).",
+        "fondement_legal": "**Code du travail** — articles **L5134-19-1 à L5134-34** (CUI-CAE / PEC) — **Loi n° 2018-771 du 5 septembre 2018** — **Circulaire DGEFP du 11 janvier 2018** sur le PEC — instructions ministérielles annuelles (DGEFP).",
+        "minimum_legal": "**Cadre du PEC (Parcours Emploi Compétences)** :\n\nDepuis le **1er janvier 2018**, le **PEC** a remplacé les anciens **CUI-CAE** (Contrats Uniques d'Insertion - Contrats d'Accompagnement dans l'Emploi). Cadre renforcé sur la **logique parcours d'insertion** plutôt que pure subvention.\n\n**1. Conditions pour la structure (employeur)** :\n- **Type** : association, collectivité territoriale, EPCI, établissement public, organisme à but non lucratif (PA structures privées sauf exceptions)\n- **Toutes les structures ALISFA** sont éligibles : EAJE, centres sociaux, EVS, ADSL, ACM\n- **Engagement** :\n  - Accompagnement professionnel renforcé (tutorat structuré)\n  - Plan de formation sur la durée du contrat (CPF, OPCO, formations métiers)\n  - **Pas de licenciement économique dans les 6 mois** précédant la demande\n  - **Engagement d'effectuer 1 entretien d'embauche** dans la structure ou ailleurs avant fin de contrat\n\n**2. Public éligible** :\n- **DELD** (demandeurs d'emploi de longue durée, ≥ 12 mois sans emploi)\n- **Bénéficiaires RSA, AAH, ASS**\n- **Jeunes 16-25 ans** sans qualification ou avec difficultés d'insertion\n- **Résidents QPV** (Quartiers Politique de la Ville) ou **ZRR** (Zones de Revitalisation Rurale)\n- **Personnes en situation de handicap (RQTH)**\n- **Sortants** de l'Aide Sociale à l'Enfance (ASE)\n- **Sortants** de prison\n- **Réfugiés** statutaires et bénéficiaires de la protection subsidiaire\n- **Femmes** isolées avec enfants à charge (selon politique régionale)\n\n**3. Type de contrat** :\n- **CDD** de **9 à 24 mois** (renouvelable jusqu'à 5 ans pour publics spécifiques : ≥ 50 ans, RQTH, RSA)\n- **Temps partiel possible** (minimum 20h/semaine)\n- **Salaire minimum** : SMIC ou minimum conventionnel ALISFA\n\n**4. Aides à l'employeur (taux 2026)** :\n\n**Aide State (taux variables selon arrêté préfectoral)** :\n- **TAUX STANDARD** : **50 % du SMIC** brut (~ 900 €/mois)\n- **TAUX MAJORÉ public spécifique** : **70-80 % du SMIC** (~ 1 250-1 450 €/mois)\n  - DELD (≥ 24 mois)\n  - RQTH\n  - RSA\n  - Senior (≥ 50 ans)\n  - QPV / ZRR\n- **DURÉE** : versement **mensuel** sur la durée du contrat\n- **Plafond temps de travail** : pris en charge sur **20-26h/semaine** (selon arrêté)\n\n**Exonérations cotisations** :\n- **Exonération URSSAF** sur la part subventionnée (URSSAF, FNAL, CSA, etc.)\n- **Maintien** AT/MP, retraite complémentaire, CSG\n\n**5. Coût net pour l'employeur (estimation 2026)** :\n\n**Exemple : PEC 26h/semaine, SMIC, public RSA (taux 70%)** :\n- Salaire brut mensuel = 1 350 € (au pro-rata 26h/35h)\n- Charges patronales = ~ 200 €\n- **Coût total brut** : 1 550 €\n- **Aide État 70 % SMIC** (sur 26h) = ~ 980 €\n- **Coût net employeur** : **~ 570 €/mois** (au lieu de 1 550 €)\n- Sur **24 mois** = ~ 13 700 € coût total après aides\n\n**6. Procédure de demande** :\n\n**Étape 1 — Identification du candidat·e** :\n- Via **France Travail** (anciennement Pôle Emploi)\n- Via **Mission Locale** (jeunes < 26 ans)\n- Via **Cap Emploi** (RQTH)\n- Via **PLIE** (Plan Local pour l'Insertion et l'Emploi)\n- Via **structures sociales** partenaires (CCAS, CD)\n\n**Étape 2 — Prescription par référent insertion** :\n- Le **prescripteur** (France Travail / Mission Locale / Cap Emploi) **valide** que le profil correspond au PEC\n- **Pré-accord** sur le projet (employeur + profil + tuteur + plan de formation)\n\n**Étape 3 — Dépôt du dossier en ligne** :\n- **Plateforme PEC** (employeur + prescripteur)\n- Pièces : CERFA dédié + projet d'accompagnement + fiche de poste + engagements\n- **Délai instruction DREETS** : 4-6 semaines\n\n**Étape 4 — Validation DREETS** :\n- Direction Régionale de l'Économie, de l'Emploi, du Travail et des Solidarités\n- **Notification écrite** : taux d'aide + durée + plafond heures\n\n**Étape 5 — Embauche et démarrage** :\n- Signature du contrat de travail (CDD aidé)\n- Démarrage du parcours\n\n**Étape 6 — Suivi du parcours** :\n- **Tutorat structuré** par le maître / référent désigné\n- **Bilans périodiques** (à 3, 6, 12, 18 mois)\n- **Plan de formation** mis en œuvre (CPF + OPCO)\n- **Préparation à la sortie** : CV, lettre de motivation, simulations entretien, prise de contact avec autres employeurs\n\n**7. Aides complémentaires possibles** :\n- **Aide Agefiph** (RQTH) : cumulable\n- **CPF** : utilisable pour formations validantes pendant le PEC\n- **Aide Région** : selon politique territoriale\n- **CIVIS** (Contrat d'Insertion dans la Vie Sociale) : pour jeunes 16-25 ans en parallèle\n- **PIC** (Plan d'Investissement dans les Compétences) : formations financées État\n- **France Compétences / OPCO** : compléments via Pro-A si reconversion",
+        "plus_formation": "**Stratégies typiques pour structures ALISFA** :\n\n**Stratégie 1 — Recrutement public éloigné de l'emploi** :\n- **Cible** : poste d'accueil, agent technique, animateur·trice junior\n- **Public** : DELD, RSA, sortant ASE\n- **Bénéfice** : insertion sociale + maillage territorial + image de la structure\n\n**Stratégie 2 — Pré-recrutement futur permanent** :\n- **PEC 24 mois** comme **période d'essai longue** + formation diplômante (BPJEPS, CAP AEPE)\n- À la fin du PEC : embauche en CDI si bon parcours\n- **Cumul** : PEC + apprentissage / professionnalisation possible mais complexe (rare)\n\n**Stratégie 3 — Coordination avec PLIE / Mission Locale** :\n- Partenariat structuré : la structure ALISFA accueille régulièrement des PEC\n- Suivi insertion mutualisé\n- Formation tutorat des cadres\n\n**Stratégie 4 — Action politique de la ville (QPV)** :\n- Préférence pour habitants QPV : sur-aide État + ancrage territorial fort\n- Coordination avec Délégué·e du Préfet, Médiateur·trice de la République\n\n**Pièges à éviter** :\n1. **PEC pour pure substitution d'emploi** : interdit par la circulaire DGEFP (l'aide État ne peut pas remplacer un poste régulier)\n2. **Tutorat insuffisant** : risque d'échec du parcours et de retrait de l'aide\n3. **Sortie sans accompagnement** : risque de retour à la case départ pour la personne\n4. **Mauvaise prescription** : profil non éligible → refus DREETS\n5. **Non-respect des heures** : si la fiche de poste prévoit 35h alors que l'aide est plafonnée à 26h, l'employeur paie le reste sans aide\n\n**Outils pour faciliter** :\n- **France Travail entreprise** : prescription en ligne, suivi candidatures\n- **Plateforme PEC officielle** : dépôt sécurisé\n- **DREETS départementale** : interlocuteur dédié, conseils gratuits\n- **PLIE** local : appui méthodologique, candidats pré-qualifiés\n- **Réseau ALISFA** : partage de bonnes pratiques, mutualisation tutorat",
+        "obligations_formation": "Tutorat structuré obligatoire. Plan de formation sur durée du contrat. Bilans périodiques.",
+        "accompagnement_obligatoire": "**Tuteur ou référent insertion** désigné dans la structure (formation tutorat OPCO recommandée). **Bilans périodiques** à 3, 6, 12, 18 mois. **Préparation à la sortie** structurée. **Coordination** avec le prescripteur (France Travail / Mission Locale / Cap Emploi) pendant tout le parcours.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **taux d'aide PEC** sont fixés par **arrêtés préfectoraux annuels** (variables selon les Régions et les profils). **Vérifier les taux applicables** auprès de la **DREETS** ou de **France Travail** avant le montage du dossier. **Vigilance** :\n- Le **PEC n'est PAS un contrat alternance** : pas de période en formation rémunérée comme l'apprentissage\n- Le **public éligible** est **strictement défini** : prescription externe obligatoire\n- L'**aide est dégressive** dans certaines configurations (ex. taux 80 % an 1, 60 % an 2)\n- **Cumul interdit** avec : apprentissage, professionnalisation, contrat d'engagement Service Civique\n- **Renouvellement** au-delà de 24 mois : motif spécifique (≥ 50 ans, RQTH) + nouvelle demande\n- En **EAJE** : extrait casier B2 obligatoire pour le PEC (article L131-2 CASF, comme tout salarié au contact des enfants)",
+        "sources": [
+          "Code du travail — articles L5134-19-1 à L5134-34 (PEC / CUI-CAE)",
+          "Loi n° 2018-771 du 5 septembre 2018",
+          "Circulaire DGEFP du 11 janvier 2018 — Parcours Emploi Compétences",
+          "Instructions ministérielles annuelles DGEFP",
+          "Arrêtés préfectoraux régionaux 2026 — taux d'aide PEC"
+        ],
+        "liens": [
+          {
+            "titre": "Travail-Emploi — Parcours Emploi Compétences (PEC)",
+            "url": "https://travail-emploi.gouv.fr/emploi-et-insertion/parcours-emploi-competences",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Contrat Unique d'Insertion CUI / PEC",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2304",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail articles L5134-19-1 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195819/",
+            "type": "legislation"
+          },
+          {
+            "titre": "France Travail entreprise — Recruter avec un PEC",
+            "url": "https://www.francetravail.fr/employeur/aides-aux-recrutements",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — recrutement et insertion",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour validation profil et taux d'aide, contacter DREETS départementale + France Travail entreprise.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L5134 + Circulaire DGEFP 2018"
+      }
+    }
+
+  ]
+}

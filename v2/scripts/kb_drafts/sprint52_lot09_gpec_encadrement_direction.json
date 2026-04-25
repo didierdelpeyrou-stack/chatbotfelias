@@ -1,0 +1,257 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F4 lot M3 — Métiers GPEC Encadrement et Direction (5 articles)",
+    "lot": "M3/M5",
+    "topic": "Référent secteur, Coordinateur, Directeur RH/admin/fin, Directeur, Délégué fédéral",
+    "generated_at": "2026-04-25",
+    "source_principale": "Fiches métiers ALISFA + table CPNEF p.26 + Code action sociale R2324",
+    "theme_target": "metiers_gpec"
+  },
+
+  "articles": [
+
+    {
+      "id": "gpec-referent-secteur",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former un·e référent·e secteur dans ma structure ALISFA ?",
+      "mots_cles": [
+        "référent secteur", "référente secteur", "BPJEPS",
+        "DEJEPS", "DESJEPS", "RNCP28557", "RNCP4900", "RNCP4910",
+        "coordination thématique", "encadrement intermédiaire",
+        "centres sociaux", "EVS",
+        "apprentissage 8357 9551 8966 euros"
+      ],
+      "structures_concernees": ["centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "encadrement_direction",
+      "passerelles_gpec": [
+        "animateur", "intervenant_social", "charge_projet",
+        "responsable_coordinateur", "directeur"
+      ],
+      "reponse": {
+        "synthese": "Le ou la référent·e secteur encadre une équipe sur un secteur thématique (jeunesse, famille, séniors, parentalité, animation globale) au sein d'un centre social ou EVS. Diplômes acceptés : **BPJEPS animateur** (RNCP 28557, 8 357 € apprentissage), **DEJEPS Animation socio-éducative** (RNCP 4900, 9 551 €), ou **DESJEPS** (RNCP 4910, 8 966 €). Le niveau du diplôme dépend de la taille du secteur encadré et de l'autonomie attendue.",
+        "fondement_legal": "Code du sport et Code de l'éducation populaire (qualifications JEPS). Pas de cadre réglementaire strict pour la fonction \"référent secteur\" — c'est une fonction de classification interne ALISFA.",
+        "minimum_legal": "**Diplômes acceptés en branche ALISFA** :\n- **BPJEPS animateur** (Bac, niveau 4) — RNCP 28557/39926 — pour secteurs simples ou en équipe restreinte\n- **DEJEPS Animation Socio-Éducative** (Bac+2) — RNCP 4900/39930 — diplôme de référence pour cette fonction\n- **DESJEPS** (Bac+3) — RNCP 4910/39931 — pour secteurs complexes ou pluriéquipes\n- Diplôme du **champ médico-social** (DEEJE, DEES, DECESF) avec expérience en coordination\n- **Master** Sciences sociales / Politiques publiques + expérience\n\n**Financement apprentissage 2026** (table CPNEF p.26) : BPJEPS 8 357 €, DEJEPS 9 551 €, DESJEPS 8 966 €.\n\n**Missions principales** :\n- Encadrer une équipe d'animateurs / intervenants sur le secteur (3-8 personnes)\n- Conduire le projet pédagogique du secteur en lien avec le projet de structure\n- Animer le partenariat thématique (CAF, mairie, écoles, associations)\n- Suivre les budgets et les bilans qualitatifs (PS CAF, AAP)\n- Recruter et accompagner les vacataires / stagiaires / Service Civique\n- Représenter le secteur dans les réunions d'équipe et instances\n\n**Lieux d'exercice** :\n- Centres sociaux multi-secteurs (référent·e jeunesse, famille, animation globale)\n- ADSL avec plusieurs activités\n- EVS structurés en pôles thématiques\n- Fédérations régionales (référent·e thématique réseau)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Coordinateur·trice** (DESJEPS + 3-5 ans expérience) — voir fiche `gpec-responsable-coordinateur`\n- **Directeur·rice** de structure (DESJEPS / DEIS / Master direction ESS + 5-7 ans expérience)\n- **Chargé·e de projet** régional ou de mission fédérale\n- Spécialisations métier : référent·e PS Jeunes, PS ACF, LAEP\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage (forfait coût-contrat selon diplôme)\n- DAF certifiante 2026 (15 €/h pour formations RNCP ≥ 70h)\n- VAE (3 000-5 000 €) pour passer animateur → DEJEPS → DESJEPS\n- DAF formations continues : management d'équipe, conduite de projet, méthodes participatives, outils numériques",
+        "vigilance": "**Distinction référent vs coordinateur** : le référent·e secteur encadre une équipe restreinte sur un thème ; le coordinateur·trice supervise plusieurs secteurs ou plusieurs équipes. Vérifier la classification ALISFA appropriée.\n\n**Direction d'ALSH** : si le secteur inclut un ALSH, voir aussi article `reg-direction-alsh` (cadre réglementaire spécifique avec arrêté 9 février 2007).\n\n**Référent·e PS CAF** : si le secteur correspond à un dispositif CAF (PS Jeunes, PS ACF), des qualifications spécifiques peuvent s'imposer (cf. fiches réglementaires `reg-ref-ps-jeunes-2026` et `reg-ref-ps-acf-2026`).",
+        "sources": [
+          "Fiche métier ALISFA Référent·e secteur (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiels BPJEPS / DEJEPS / DESJEPS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiels JEPS — France Compétences", "url": "https://www.francecompetences.fr/recherche/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — DEJEPS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Référent·e secteur (PDF ALISFA)", "fichier": "cpnef-fiche-metier-referent-e-secteur-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels JEPS"
+      }
+    },
+
+    {
+      "id": "gpec-responsable-coordinateur",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment former un·e responsable ou coordinateur·trice ALISFA ?",
+      "mots_cles": [
+        "responsable", "coordinateur", "coordinatrice",
+        "DESJEPS", "CAFERUIS", "DEIS", "Master direction ESS",
+        "RNCP4910", "encadrement secteur",
+        "8966 euros apprentissage", "management équipe",
+        "centres sociaux", "EAJE", "EVS"
+      ],
+      "structures_concernees": ["centre_social", "EAJE", "ADSL", "EVS"],
+      "metiers_secteur": "encadrement_direction",
+      "passerelles_gpec": [
+        "referent_secteur", "charge_projet", "intervenant_social",
+        "directeur", "directeur_rh_admin_financier"
+      ],
+      "reponse": {
+        "synthese": "Le ou la responsable / coordinateur·trice supervise plusieurs secteurs ou équipes au sein d'une structure ALISFA, avec une fonction d'encadrement intermédiaire entre les référents et la direction. **Diplômes acceptés** : DESJEPS (RNCP 4910, 8 966 € apprentissage), **CAFERUIS** (Certificat d'Aptitude aux Fonctions d'Encadrement et de Responsable d'Unité d'Intervention Sociale — Bac+3), **DEIS** (Diplôme d'État d'Ingénierie Sociale — Bac+5), ou **Master Direction ESS / Management associatif**.",
+        "fondement_legal": "Code du sport (DESJEPS), Code de l'action sociale et des familles (CAFERUIS et DEIS), enseignement supérieur (Masters universitaires).",
+        "minimum_legal": "**Diplômes acceptés en branche ALISFA** :\n- **DESJEPS Animation Socio-Éducative ou Culturelle** (Bac+3) — RNCP 4910/39931 — diplôme central pour la fonction\n- **CAFERUIS** (Bac+3, médico-social) — passerelle vers la direction (RNCP 35506)\n- **DEIS** (Bac+5, ingénierie sociale) — pour structures importantes\n- **Master 1 ou 2** : Sciences sociales, Direction ESS, Management associatif, Gestion des organisations à but non lucratif\n- Diplômes du champ médico-social Bac+3 (DEEJE, DEES, DECESF) avec expérience en coordination ≥ 3 ans\n\n**Financement apprentissage 2026** (table CPNEF p.26) : DESJEPS 8 966 €. Le CAFERUIS et le DEIS ne sont pas listés mais peuvent être financés en DAF certifiante (transitoire 2026, 15 €/h jusqu'au 30 juin) ou en CPF.\n\n**Missions principales** :\n- Encadrer plusieurs équipes ou secteurs (animation, famille, jeunesse, etc.)\n- Conduire la mise en œuvre du projet de structure (diagnostic, programme d'action)\n- Animer les instances : réunions cadres, conseil pédagogique, comité de pilotage\n- Pilotage budgétaire (en lien avec direction et trésorier)\n- Gestion des ressources humaines : recrutement, entretiens, parcours formation\n- Représentation auprès des partenaires (CAF, mairie, fédérations)\n- Conduite du changement, démarche qualité, GPEC interne\n\n**Lieux d'exercice** :\n- Centres sociaux importants (>15 salariés) : coordinateur général ou responsable de pôle\n- EAJE multi-établissements : responsable de pôle petite enfance\n- Associations multi-activités : coordinateur de projet associatif\n- Fédérations régionales : responsable d'un service ou d'une mission",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Directeur·rice** (avec expérience 3-5 ans en coordination + DEIS / Master direction ESS)\n- **Délégué·e fédéral·e** (pour les têtes de réseau)\n- Mobilité vers d'autres branches médico-sociales (CCN 66, CCN BAD…) facilitée par le CAFERUIS/DEIS\n\n**Spécialisations possibles** :\n- Direction d'EAJE (sous condition Code action sociale R2324-46, voir article `reg-direction-eaje`)\n- Direction d'ALSH permanent (avec DESJEPS + arrêté 9 février 2007, voir `reg-direction-alsh`)\n- Pilotage de réseau régional / fédération\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage DESJEPS : 8 966 €\n- DAF certifiante 2026 : 15 €/h pour CAFERUIS / DEIS\n- VAE (3 000-5 000 €) pour passer animateur expérimenté → DESJEPS\n- CPF pour Masters Direction ESS (financements souvent complétés par employeur via DAF)\n- DAF formations continues : management bienveillant, conduite du changement, dialogue social, gestion budgétaire associative",
+        "vigilance": "**Direction d'EAJE** : si le poste inclut une responsabilité directe sur un EAJE (>41 places ou <41 places selon le décret 2021-1131), des conditions strictes de qualification s'appliquent (article R2324-46 Code action sociale). Le DESJEPS seul ne suffit pas — voir article `reg-direction-eaje`.\n\n**Distinction coordinateur vs directeur** : le coordinateur·trice est subordonné·e au directeur·rice (chaîne hiérarchique). Pour devenir directeur·rice de centre social, il faut un agrément CAF spécifique en plus du diplôme.\n\n**CAFERUIS récent** : ce diplôme est plutôt utilisé en CCN 66 (médico-social) qu'en CCN ALISFA. Vérifier la pertinence selon le profil et le poste.\n\n**Master en alternance** : possible via apprentissage si le master est inscrit au RNCP avec mention apprentissage. Vérifier au cas par cas.",
+        "sources": [
+          "Fiche métier ALISFA Responsable / Coordinateur·trice (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Référentiel DESJEPS — France Compétences (RNCP 4910)",
+          "Référentiel CAFERUIS — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel DESJEPS — France Compétences (RNCP 4910)", "url": "https://www.francecompetences.fr/recherche/rncp/4910/", "type": "officiel"},
+          {"titre": "Référentiel CAFERUIS — France Compétences", "url": "https://www.francecompetences.fr/recherche/?text=caferuis", "type": "officiel"},
+          {"titre": "Mon Compte Formation — DESJEPS / CAFERUIS / DEIS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Responsable / Coordinateur·trice (PDF ALISFA)", "fichier": "cpnef-fiche-metier-responsable-coordinateur-trice-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels DESJEPS/CAFERUIS"
+      }
+    },
+
+    {
+      "id": "gpec-directeur-rh-admin-financier",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e directeur·rice RH, administratif et financier ALISFA ?",
+      "mots_cles": [
+        "directeur RH", "directrice RH", "DRH",
+        "directeur administratif financier", "DAF",
+        "Master RH", "Master gestion ESS",
+        "DSCG", "DCG", "expertise comptable",
+        "fédération", "tête de réseau",
+        "structure 50 salariés"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "tete_de_reseau"],
+      "metiers_secteur": "encadrement_direction",
+      "passerelles_gpec": [
+        "responsable_coordinateur", "personnel_admin_financier",
+        "directeur", "delegue_federal"
+      ],
+      "reponse": {
+        "synthese": "Le ou la directeur·rice RH, administratif et financier pilote les fonctions support stratégiques d'une structure ALISFA importante (≥ 50 salariés ou multi-établissements) ou d'une fédération. **Diplômes typiques** : Master 2 RH, Master Gestion ESS, DSCG (Diplôme Supérieur de Comptabilité et de Gestion), Master 2 Droit social ou Sciences de gestion. Hors RNCP financement OPCO standard — formations continues via DAF Uniformation et CPF.",
+        "fondement_legal": "Pas de cadre réglementaire strict — fonction support cadre. Diplômes universitaires Bac+5 reconnus par leur grade.",
+        "minimum_legal": "**Diplômes typiques** :\n- **Master 2 RH** (Ressources Humaines, GRH, Management des Hommes)\n- **Master 2 Gestion / Direction ESS** (Économie Sociale et Solidaire)\n- **Master 2 Droit social** ou Droit du travail\n- **DSCG** (Diplôme Supérieur de Comptabilité et de Gestion — Bac+5, équivalent Master expert-comptable)\n- **DCG** (Diplôme de Comptabilité et de Gestion — Bac+3) si poste plus opérationnel\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale — Bac+5) avec spécialisation gestion\n\n**Financement apprentissage** : la plupart de ces diplômes ne sont pas listés dans la table CPNEF p.26 (forfaits coût-contrat ALISFA). Toutefois, certains masters universitaires en alternance peuvent être éligibles selon les contrats spécifiques de l'OPCO et l'inscription au RNCP. Vérifier avec Uniformation et l'établissement.\n\n**Missions principales** :\n- **RH** : pilotage des recrutements, paie, dialogue social, GPEC, plans de formation, juridique social\n- **Administration** : gestion administrative globale, contrats fournisseurs, conventions partenaires, marchés publics éventuels\n- **Finances** : budget annuel, comptabilité analytique, contrôle de gestion, trésorerie, rapports financiers, audit\n- Représentation auprès des partenaires institutionnels (URSSAF, DDETS, expert-comptable, commissaire aux comptes)\n- Membre du Codir (comité de direction) avec rôle stratégique\n\n**Lieux d'exercice** :\n- Centres sociaux importants (≥ 50 salariés)\n- EAJE multi-gestionnaires (fédérations, structures avec plusieurs SIRET)\n- Fédérations régionales et têtes de réseau ALISFA\n- Délégations régionales OPCO (mais hors champ ALISFA strict)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Directeur·rice général·e** d'une fédération ou tête de réseau\n- **Délégué·e fédéral·e**\n- Mobilité vers le secteur privé lucratif (rare en sens inverse) ou autres branches ESS\n\n**Spécialisations possibles** :\n- Audit social, conseil GPEC\n- Expert-comptable spécialisé secteur associatif (avec DEC — Diplôme d'Expertise Comptable)\n- Consultant·e indépendant·e en stratégie RH ESS\n\n**Modes de financement de la formation continue** :\n- **DAF Uniformation** : pour formations courtes thématiques (paie, droit social, management, fiscalité)\n- **DAF certifiante 2026** : si formation RNCP ≥ 70h (par exemple Master 2 en alternance partielle)\n- **CPF** : Masters universitaires éligibles\n- **PCRH** (Prestation Conseil RH Uniformation) : si la structure veut structurer sa stratégie RH (cf. `fin-conv-pcrh-2026`)\n- **DAF formations continues** : actualités droit social, IA et RH, GEPP/GPEC, dialogue social digital, démarche qualité ISO, comptabilité associative",
+        "vigilance": "**Statut cadre dirigeant** : selon la convention ALISFA et la taille de structure, peut être considéré comme cadre dirigeant (forfait jours, autonomie). Vérifier les clauses du contrat de travail.\n\n**Articulation avec le directeur·rice général·e** : la fonction RH/admin/fin est souvent en binôme avec le directeur général. Bien clarifier les périmètres respectifs.\n\n**Hors champ apprentissage classique** : la plupart des Masters M2 ne sont pas des forfaits coût-contrat ALISFA (table CPNEF p.26). L'apprentissage reste possible via certaines universités, mais les conditions financières dépendent du dispositif.\n\n**Évolution de la fonction** : avec la digitalisation, la fonction RH s'élargit (data RH, IA, gestion des compétences). Anticiper la formation continue.",
+        "sources": [
+          "Fiche métier ALISFA Directeur·rice RH/admin/financier (CPNEF, janvier 2026)",
+          "Référentiels Master RH / DSCG — France Compétences",
+          "Convention Collective Nationale ALISFA — classification cadres dirigeants"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "DSCG — Ordre des Experts-Comptables", "url": "https://www.experts-comptables.fr/dscg", "type": "officiel"},
+          {"titre": "Mon Compte Formation — Master RH / DSCG", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Directeur·rice RH/admin/financier (PDF ALISFA)", "fichier": "cpnef-fiche-metier-rh-administratif-et-financier-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels Master RH/DSCG"
+      }
+    },
+
+    {
+      "id": "gpec-directeur",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e directeur·rice de structure ALISFA ?",
+      "mots_cles": [
+        "directeur", "directrice", "directeur général",
+        "DESJEPS", "DEIS", "Master direction ESS",
+        "RNCP4910", "8966 euros apprentissage",
+        "agrément CAF centre social", "Code action sociale R2324",
+        "décret Norma", "EAJE", "ALSH",
+        "circulaires CNAF"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "encadrement_direction",
+      "passerelles_gpec": [
+        "responsable_coordinateur", "directeur_rh_admin_financier",
+        "delegue_federal", "charge_projet"
+      ],
+      "reponse": {
+        "synthese": "Le ou la directeur·rice pilote l'ensemble d'une structure ALISFA (centre social, EAJE, EVS, ADSL). **Diplômes acceptés** : DESJEPS (RNCP 4910, 8 966 € apprentissage), DEIS (Diplôme d'État d'Ingénierie Sociale, Bac+5), ou Master Direction ESS. Pour les **EAJE**, conditions spécifiques du **Code de l'action sociale (R2324-46)** modifié par le décret Norma 2021-1131 + circulaires CNAF. Pour les **ALSH** : arrêté 9 février 2007 modifié. Pour les **centres sociaux** : agrément CAF spécifique (Lettre-circulaire CNAF Animation Vie Sociale).",
+        "fondement_legal": "Variable selon le type de structure : Code de l'action sociale et des familles (articles R2324-46 pour EAJE, L227 pour ALSH), Lettre-circulaire CNAF Animation Vie Sociale (centres sociaux), Décret n° 2021-1131 du 30 août 2021 (« Norma »).",
+        "minimum_legal": "**Diplômes acceptés en branche ALISFA** (cas général) :\n- **DESJEPS Animation Socio-Éducative ou Culturelle** (Bac+3) — RNCP 4910/39931\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale, Bac+5)\n- **CAFDES** (Certificat d'Aptitude aux Fonctions de Directeur d'Établissement Social et de service social — Bac+5)\n- **Master 2 Direction ESS / Management associatif**\n- Pour les **directrices et directeurs d'EAJE** : voir conditions strictes article R2324-46 Code action sociale (décret 2021-1131 \"Norma\") — DEEJE + 3 ans d'expérience, OU puéricultrice avec 3 ans d'expérience, OU médecin pédiatre — voir article `reg-direction-eaje`\n- Pour les **directeurs/directrices d'ALSH** : BPJEPS LTP/ASEC, DEJEPS, DESJEPS — voir article `reg-direction-alsh`\n\n**Financement apprentissage 2026** (table CPNEF p.26) : DESJEPS 8 966 €. Pour DEIS / CAFDES / Masters : non listés en apprentissage forfait coût-contrat — financement via DAF certifiante, CPF, ou contrats spécifiques avec Uniformation.\n\n**Missions principales** :\n- Direction stratégique de la structure (projet de service, projet pédagogique)\n- Pilotage budgétaire et administratif\n- Encadrement de l'équipe (recrutement, dialogue social, GPEC)\n- Représentation auprès des partenaires (CAF, mairie, conseil départemental, fédération, ministères)\n- Animation des instances de gouvernance (CA, bureau, AG) en appui des bénévoles dirigeants\n- Garantie du respect des cadres réglementaires (Code action sociale, lettres-circulaires CNAF, conventions)\n\n**Lieux d'exercice** :\n- **Centres sociaux** (Direction de centre social — agrément CAF Animation Vie Sociale)\n- **EAJE** : crèches collectives, multi-accueils, jardins d'enfants, micro-crèches (cas spéciaux : référent·e technique pour micro-crèches)\n- **ALSH** (Accueils de Loisirs Sans Hébergement)\n- **EVS** (Espaces de Vie Sociale) — fonction de direction parfois assurée par une bénévole + un·e directeur·rice salarié·e à temps partiel\n- **ADSL** (Associations de Développement Social Local)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Délégué·e fédéral·e** (pour fédérations régionales ou nationales)\n- **Directeur·rice général·e** d'une structure plus importante\n- **Conseiller·ère technique CAF** (mobilité vers la CAF — hors champ ALISFA)\n- Création d'une activité de **conseil indépendant** en management ESS\n\n**Spécialisations selon types de structure** :\n- **Direction EAJE** : voir article `reg-direction-eaje` pour conditions Code action sociale\n- **Direction ALSH** : voir article `reg-direction-alsh` pour cadre L227\n- **Direction de centre social** : agrément CAF + projet social validé tous les 4 ans\n- **Direction LAEP / Médiation familiale** : profil souvent EJE / CCF / Médiateur familial\n\n**Modes de financement de la formation** :\n- Contrat d'apprentissage DESJEPS : 8 966 €\n- DAF certifiante 2026 : 15 €/h pour DEIS / CAFDES / Master direction ESS\n- VAE (3 000-5 000 €) — voie classique pour coordinateurs expérimentés → DESJEPS / DEIS\n- CPF du salarié (tous les diplômes ci-dessus sont éligibles CPF)\n- PCRH (Prestation Conseil RH) Uniformation : pour la structure qui souhaite préparer une succession de direction\n- DAF formations continues : management bienveillant, conduite du changement, comptabilité associative, leadership, dialogue social, IA et direction, écologie sociale",
+        "vigilance": "**Cadre réglementaire selon type de structure** : la fonction de directeur·rice n'est PAS uniforme. Bien identifier le type de structure (EAJE / ALSH / centre social / EVS / ADSL) car les conditions de qualification varient :\n- **EAJE** : Code action sociale R2324-46 — voir article `reg-direction-eaje`\n- **ALSH** : Code action sociale L227 + arrêté 9 février 2007 — voir article `reg-direction-alsh`\n- **Centre social** : agrément CAF + lettre-circulaire AVS\n- **Référent·e technique micro-crèche** : R2324-46-3 — voir article `reg-referent-technique-microcreche`\n\n**Agrément CAF pour centre social** : sans cet agrément (renouvelé tous les 4 ans), pas de Prestation de Service Animation Vie Sociale. Le projet social doit être co-construit avec habitants et validé par CAF.\n\n**Personnalité juridique vs salarié·e** : la direction salariée travaille sous l'autorité de la direction politique (présidence, CA). Bien clarifier les périmètres respectifs en délibération CA.\n\n**Posture stratégique** : la fonction de directeur·rice exige des compétences politiques (lobby auprès des financeurs publics, plaidoyer associatif, défense de la mission sociale). À développer en formation continue.",
+        "sources": [
+          "Fiche métier ALISFA Directeur·rice (CPNEF, janvier 2026)",
+          "Tableau des règles de financement ALISFA — CPNEF 13 mars 2026, page 26",
+          "Code de l'action sociale et des familles, articles R2324-46 (EAJE), L227 (ALSH)",
+          "Décret n° 2021-1131 du 30 août 2021 (« Norma »)",
+          "Lettres-circulaires CNAF (Animation Vie Sociale, EAJE, etc.)"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Code action sociale R2324-46 (qualifications direction EAJE)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049832", "type": "legislation"},
+          {"titre": "Décret 2021-1131 (Norma)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044020833", "type": "legislation"},
+          {"titre": "Référentiel DESJEPS — France Compétences", "url": "https://www.francecompetences.fr/recherche/rncp/4910/", "type": "officiel"},
+          {"titre": "CNAF — Animation de la Vie Sociale (centres sociaux)", "url": "https://www.caf.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Directeur·rice (PDF ALISFA)", "fichier": "cpnef-fiche-metier-directeur-bd.pdf"}
+      ],
+      "niveau": "orange",
+      "escalade": "Vérifier les conditions de qualification spécifiques selon le type de structure (EAJE, ALSH, centre social…) avant tout recrutement définitif. Pour EAJE, conformité au Code action sociale R2324-46 obligatoire. Pour centre social, agrément CAF Animation Vie Sociale. Voir aussi les articles réglementaires dédiés.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + Code action sociale R2324 + référentiels DESJEPS/DEIS/CAFDES"
+      }
+    },
+
+    {
+      "id": "gpec-delegue-federal",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Quel profil pour un·e délégué·e fédéral·e d'un réseau ALISFA ?",
+      "mots_cles": [
+        "délégué fédéral", "déléguée fédérale", "fédération",
+        "tête de réseau", "DESJEPS", "DEIS", "Master ESS",
+        "Sciences politiques", "lobby associatif", "plaidoyer",
+        "représentation institutionnelle", "stratégie réseau"
+      ],
+      "structures_concernees": ["tete_de_reseau"],
+      "metiers_secteur": "encadrement_direction",
+      "passerelles_gpec": [
+        "directeur", "responsable_coordinateur",
+        "directeur_rh_admin_financier", "charge_projet"
+      ],
+      "reponse": {
+        "synthese": "Le ou la délégué·e fédéral·e dirige une fédération ou un réseau ALISFA (régional ou national). Fonction stratégique : représentation institutionnelle, plaidoyer, animation du réseau d'adhérents, dialogue avec les financeurs publics (CNAF, ANCT, État, Régions). **Diplômes typiques** : Master 2 Direction ESS, Sciences politiques, DEIS, DESJEPS + expérience significative en direction. Profil rare et stratégique — souvent recruté avec 10-15 ans d'expérience cadre dans le secteur.",
+        "fondement_legal": "Pas de cadre réglementaire strict. Fonction définie par les statuts de la fédération (loi 1901). Mandat exécutif délégué par le bureau / CA fédéral.",
+        "minimum_legal": "**Profils typiques** :\n- **Master 2 Direction ESS** ou Management associatif (Sciences Po, EHESP, IAE…)\n- **DEIS** (Diplôme d'État d'Ingénierie Sociale, Bac+5)\n- **DESJEPS** + expérience direction de structure ≥ 5 ans\n- **CAFDES** (Bac+5) avec orientation politique/stratégique\n- **Sciences politiques** (Sciences Po Paris, IEP régionaux) avec spécialisation ESS / politiques publiques\n- **Doctorat** dans le champ médico-social/sciences sociales (rare mais valorisant)\n\n**Pas listé en apprentissage forfait coût-contrat ALISFA** (table CPNEF p.26). Profil senior recruté en CDI direct, après expérience.\n\n**Missions principales** :\n- **Représentation institutionnelle** : prise de parole en colloques, médias, instances ministérielles\n- **Plaidoyer / lobby associatif** : défense des intérêts du réseau auprès des décideurs publics (Assemblée, ministères, ANCT, CNAF, conseils régionaux)\n- **Animation du réseau adhérents** : organisation des AG, séminaires fédéraux, formation, ressources mutualisées\n- **Conduite stratégique** : élaboration et mise en œuvre du projet stratégique pluriannuel de la fédération\n- **Pilotage politique** : appui des élus bénévoles (président·e, bureau, CA), articulation politique-technique\n- **Représentation négociations conventionnelles** : à la CPNEF ALISFA, dans les commissions paritaires\n- **Communication externe** : positionnement public, image du réseau, relations presse\n\n**Lieux d'exercice** :\n- Fédérations régionales de centres sociaux ALISFA (URRECSO, FEDR, etc.)\n- Fédérations nationales (FCSF, ALISFA syndicat employeur, etc.)\n- Têtes de réseau thématiques (FNEPE, RNAP, etc.)\n- Coordinations inter-réseaux ESS",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Direction d'une fédération plus importante** ou de niveau supérieur (régional → national)\n- **Cabinet ministériel / DGCS / ANCT** (mobilité vers la fonction publique)\n- **Conseiller·ère politique** ou consultant·e indépendant·e ESS\n- **Présidence salariée** d'une autre association importante\n\n**Compétences à développer en continu** :\n- Maîtrise des politiques publiques (jeunesse, famille, parentalité, animation territoriale)\n- Connaissance du paysage institutionnel (CNAF, ANCT, ministères, Régions, Europe)\n- Stratégie de plaidoyer (campagnes de communication, prises de position publiques)\n- Communication politique (conférences de presse, prises de parole publiques, relations médias)\n- Pilotage budgétaire complexe (subventions multiples, projets européens FSE+)\n- Animation de réseaux (digital, présentiel, hybride)\n\n**Modes de financement de la formation continue** :\n- DAF Uniformation (formations courtes : prise de parole publique, lobbying éthique, plaidoyer associatif, négociation collective…)\n- DAF certifiante 2026 si formation RNCP ≥ 70h\n- CPF pour Master ou DEIS\n- Formations spécifiques inter-réseaux ESS (UNIOPSS, Mouvement associatif, ESS France)\n- DAF formations stratégiques : data politique, intelligence collective, IA et associations, prospective sectorielle",
+        "vigilance": "**Articulation politique-technique** : la fonction de délégué·e fédéral·e exige une articulation étroite avec le ou la président·e bénévole. Risque de tensions si périmètres mal définis. Statuts et délégations claires indispensables.\n\n**Hauteur stratégique vs terrain** : prendre garde à ne pas se déconnecter du terrain. Maintenir des temps réguliers d'écoute des adhérents (visites, journées immersion).\n\n**Représentation engageante** : les prises de position publiques engagent le réseau. Validation des positions politiques en bureau / CA avant prises de parole publiques sensibles.\n\n**Profil rare** : peu de candidats correspondent aux exigences (expertise + posture politique + animation de réseau). Anticiper les recrutements (chasse de tête, mobilité interne progressive).\n\n**Statut salarié vs bénévole dirigeant** : le ou la délégué·e fédéral·e est SALARIÉ·E sous CCN ALISFA (ou CCN équivalente). Ne pas confondre avec la présidence (bénévole).",
+        "sources": [
+          "Fiche métier ALISFA Délégué·e fédéral·e (CPNEF, janvier 2026)",
+          "Référentiels Master direction ESS / DEIS — France Compétences",
+          "Convention Collective Nationale ALISFA — classification cadres dirigeants"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "FCSF — Fédération des Centres Sociaux", "url": "https://www.centres-sociaux.fr/", "type": "officiel"},
+          {"titre": "Le Mouvement associatif", "url": "https://lemouvementassociatif.org/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — Master direction ESS / DEIS", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Délégué·e fédéral·e (PDF ALISFA)", "fichier": "cpnef-fiche-metier-delegue-federal-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + référentiels Master ESS/DEIS"
+      }
+    }
+
+  ]
+}

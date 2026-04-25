@@ -1,0 +1,218 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F4 lot M5 — Métiers GPEC Services et Technique (4 articles)",
+    "lot": "M5/M5 — DERNIER LOT F4",
+    "topic": "Agent entretien, Agent maintenance, Cuisinier, Intervenant médical/paramédical",
+    "generated_at": "2026-04-25",
+    "source_principale": "Fiches métiers ALISFA — recrutement sur compétences/expérience pour la majorité",
+    "theme_target": "metiers_gpec",
+    "note": "Validation user : 'on recrute sur compétences et expériences antérieures' pour services techniques"
+  },
+
+  "articles": [
+
+    {
+      "id": "gpec-agent-entretien-service",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e agent·e d'entretien et de service dans ma structure ALISFA ?",
+      "mots_cles": [
+        "agent entretien", "agente entretien", "agent service",
+        "ATSEM", "femme de ménage", "homme entretien",
+        "CAP APH", "agent propreté hygiène", "CQP nettoyage",
+        "compétences expérience", "pas diplôme requis",
+        "EAJE", "centre social", "hygiène HACCP"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "services_technique",
+      "passerelles_gpec": [
+        "agent_maintenance", "cuisinier",
+        "anim_petite_enfance", "charge_accueil"
+      ],
+      "reponse": {
+        "synthese": "L'agent·e d'entretien et de service assure la propreté, l'hygiène et la logistique quotidienne d'une structure ALISFA (EAJE, centre social, EVS). En branche ALISFA, **le recrutement se fait majoritairement sur compétences et expériences antérieures**, sans exigence de diplôme spécifique. Diplômes facilitateurs : CAP Agent de Propreté et d'Hygiène (CAP APH), CQP nettoyage de la branche propreté, formation HACCP pour les EAJE manipulant des aliments. Métier accessible et formateur, avec passerelles internes possibles.",
+        "fondement_legal": "Pas de cadre réglementaire strict pour le métier d'entretien classique. Pour la manipulation de denrées alimentaires (collations enfants en EAJE) : règlement (CE) n° 852/2004 et arrêté du 21 décembre 2009 (formation HACCP).",
+        "minimum_legal": "**Pré-requis ALISFA** : aucun diplôme spécifique requis. Selon les fiches métiers ALISFA et la pratique de la branche, le recrutement se fait sur **compétences et expériences antérieures** (validé en avril 2026 dans la matrice GPEC ALISFA).\n\n**Diplômes facilitateurs (non obligatoires)** :\n- **CAP Agent de Propreté et d'Hygiène (CAP APH)** — RNCP 25470 (niveau 3)\n- **CQP Agent Machiniste de Propreté Industrielle** — qualification de la branche propreté\n- **CAP Métiers de l'Hygiène, de la Propreté et de l'Environnement** (ancien)\n- **Bac pro Hygiène, Propreté, Stérilisation** (niveau 4) pour postes plus techniques\n\n**Formations obligatoires en EAJE** :\n- **HACCP** (Hazard Analysis Critical Control Point) si manipulation de denrées alimentaires (préparation collations, biberonnerie) — règlement européen 852/2004\n- **Formation hygiène spécifique petite enfance** (changes, bain, nettoyage matériel)\n- **PSC1** (Prévention et Secours Civiques de niveau 1) recommandé\n\n**Missions principales** :\n- Nettoyage et désinfection des locaux (sols, sanitaires, cuisines, salles d'activités)\n- Entretien du matériel pédagogique et mobilier\n- Gestion des déchets (tri sélectif, sortie poubelles)\n- Aide à la préparation et au service des collations / repas (selon poste)\n- Petite logistique (rangement, mise en place de salles pour événements)\n- Vigilance hygiène et sécurité (signalements aux responsables)\n- Possible aide aux animations selon poste (ATSEM en EAJE)\n\n**Lieux d'exercice** :\n- EAJE (poste fréquent — souvent à temps partiel ou plein selon taille de la crèche)\n- Centres sociaux et EVS\n- ADSL (locaux mutualisés)\n- Fédérations / sièges sociaux (équipes plus restreintes)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Cuisinier·ère** (avec formation cuisine/CAP) — voir fiche `gpec-cuisinier`\n- **Agent·e de maintenance** (avec compétences techniques bricolage) — voir fiche `gpec-agent-maintenance`\n- **Animateur·trice petite enfance** (avec CAP AEPE — voie de reconversion possible) — voir fiche `gpec-animateur-petite-enfance`\n- **Chargé·e d'accueil** (avec BTS ou expérience accueil)\n\n**Modes de financement de la formation continue** :\n- **DAF Uniformation** : pour formations courtes (HACCP, hygiène petite enfance, sécurité au travail, manutention, technique de nettoyage écologique)\n- **DAF certifiante 2026** : 15 €/h pour CAP APH ≥ 70h\n- **VAE CAP APH ou Bac pro Hygiène-Propreté** : 3 000 € (simple) — voie pour formaliser l'expérience\n- **VAE CAP AEPE** : pour évoluer vers la petite enfance\n- **CPF** du salarié (CAP APH, CQP propreté éligibles)\n- **CléA** : 15 €/h + évaluations 450/250 € — pour formaliser les compétences transversales (cf. article `fin-clea-2026`)\n- **Conseils départementaux** : formations PMI parfois ouvertes au personnel d'entretien (hygiène petite enfance)\n\n**Cas typiques d'évolution dans la branche** :\n- Agent·e d'entretien expérimenté·e en EAJE → CAP AEPE par VAE → animateur·trice petite enfance\n- Agent·e d'entretien centre social → formation continue accueil → chargé·e d'accueil\n- Agent·e d'entretien polyvalent·e → CQP propreté + maintenance → agent·e de maintenance",
+        "vigilance": "**HACCP en EAJE** : si l'agent·e participe à la préparation/distribution des repas en EAJE, formation HACCP obligatoire (règlement européen 852/2004). Recyclage tous les 4 ans recommandé.\n\n**Risques professionnels** : TMS (Troubles Musculo-Squelettiques) fréquents (port de charges, gestes répétitifs, station debout prolongée). Formation gestes et postures + équipements adaptés indispensables.\n\n**Produits chimiques** : manipulation de produits d'entretien (parfois dangereux). FDS (Fiches de Données de Sécurité) à conserver, équipements de protection individuelle (EPI), formation manipulation. Réglementation REACH.\n\n**Salaire et classification CCN ALISFA** : poste souvent en **bas de la grille de classification** ALISFA. Anticiper la pénurie de candidats avec valorisation salariale et reconnaissance professionnelle (formation, parcours évolutif).\n\n**Temps partiel fréquent** : poste souvent à temps partiel (15-30h/semaine). Vigilance sur les horaires (souvent matinaux ou tardifs pour ne pas gêner l'activité).\n\n**Cumul possible avec ATSEM en école** : en France, l'ATSEM (Agent Territorial Spécialisé des Écoles Maternelles) est un poste de la fonction publique territoriale (mairie). Ne pas confondre avec un poste ALISFA en EAJE associatif.",
+        "sources": [
+          "Fiche métier ALISFA Agent·e d'entretien et de service (CPNEF, janvier 2026)",
+          "Validation matrice GPEC ALISFA — recrutement sur compétences/expérience",
+          "Règlement (CE) n° 852/2004 (HACCP)",
+          "Référentiel CAP Agent de Propreté et d'Hygiène — France Compétences"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Référentiel CAP APH — France Compétences", "url": "https://www.francecompetences.fr/recherche/?text=CAP+agent+proprete", "type": "officiel"},
+          {"titre": "Règlement (CE) 852/2004 (HACCP)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32004R0852", "type": "legislation"},
+          {"titre": "INRS — Risques professionnels en nettoyage", "url": "https://www.inrs.fr/", "type": "officiel"},
+          {"titre": "Mon Compte Formation — CAP APH / CQP Nettoyage", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Agent·e d'entretien et de service (PDF ALISFA)", "fichier": "cpnef-fiche-metier-agent-e-dentretien-et-de-service-bd.pdf"}
+      ],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + validation matrice GPEC"
+      }
+    },
+
+    {
+      "id": "gpec-agent-maintenance",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e agent·e de maintenance dans ma structure ALISFA ?",
+      "mots_cles": [
+        "agent maintenance", "agent technique", "homme entretien",
+        "CAP maintenance bâtiment", "Bac pro maintenance",
+        "habilitations électriques", "BR BS", "B0",
+        "compétences expérience", "pas diplôme spécifique",
+        "polyvalent technique", "petits travaux"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "services_technique",
+      "passerelles_gpec": [
+        "agent_entretien", "cuisinier", "personnel_admin_financier"
+      ],
+      "reponse": {
+        "synthese": "L'agent·e de maintenance assure l'entretien, la maintenance technique et les petits travaux dans les locaux d'une structure ALISFA. En branche ALISFA, **le recrutement se fait majoritairement sur compétences et expériences antérieures**, sans exigence de diplôme spécifique. Habilitations recommandées (électrique BS/BR/B0). Diplômes facilitateurs : CAP/Bac pro maintenance bâtiment ou électricité. Profil polyvalent (plomberie, électricité, peinture, menuiserie) — souvent un seul poste pour toutes ces compétences.",
+        "fondement_legal": "Pas de cadre réglementaire strict pour le métier. Pour les interventions électriques : norme NF C 18-510 (habilitations électriques) — formation et habilitation employeur obligatoires.",
+        "minimum_legal": "**Pré-requis ALISFA** : aucun diplôme spécifique requis. Selon les fiches métiers ALISFA, recrutement sur **compétences et expériences antérieures** (validé en avril 2026 dans la matrice GPEC ALISFA).\n\n**Diplômes facilitateurs (non obligatoires)** :\n- **CAP Maintenance des bâtiments de collectivités** (niveau 3)\n- **CAP Installateur Sanitaire / Plombier** (niveau 3)\n- **CAP Électricien** (niveau 3)\n- **Bac pro Maintenance des Équipements Industriels (MEI)** (niveau 4)\n- **Bac pro Installation des Systèmes Énergétiques et Climatiques (ISEC)** (niveau 4)\n- **TP Agent·e de Maintenance des Bâtiments** (niveau 3 ou 4)\n\n**Habilitations OBLIGATOIRES selon les interventions** :\n- **Habilitation électrique B0** (non électricien chargé d'opérations dans un environnement électrique) — formation 1-2 jours\n- **Habilitation électrique BS** (intervention élémentaire de remplacement) — formation 2-3 jours\n- **Habilitation électrique BR** (intervention générale basse tension) — formation 4-5 jours\n- **CACES** si conduite d'engins (très rare dans une structure ALISFA)\n- **Travail en hauteur** si interventions sur toiture / hauteur\n- **Amiante sous-section 4** si bâtiments anciens (rare en ALISFA)\n\n**Missions principales** :\n- Maintenance préventive et curative des locaux\n- Plomberie de premier niveau (fuites, robinets, joints)\n- Électricité de premier niveau (changement ampoules, prises, disjoncteurs sous habilitation)\n- Menuiserie (réparations portes, mobilier, étagères)\n- Peinture et petits travaux de rafraîchissement\n- Suivi des contrats de maintenance externes (chaudière, ascenseur, alarme, extincteurs)\n- Suivi des contrôles réglementaires (incendie, gaz, électricité)\n- Petits déménagements internes, montage de mobilier\n- Travaux d'aménagement légers\n- Gestion du stock de fournitures techniques\n\n**Lieux d'exercice** :\n- EAJE (avec dimension sécurité enfants accrue)\n- Centres sociaux\n- ADSL, EVS\n- Fédérations multi-sites (agent·e de maintenance itinérant·e)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Agent·e d'entretien et de service** (passerelle horizontale)\n- **Cuisinier·ère** (avec formation cuisine)\n- **Personnel administratif/financier** (très rare, mais possible avec reconversion)\n- Évolution vers **chef·fe d'équipe technique** dans les fédérations multi-établissements\n\n**Modes de financement de la formation continue** :\n- **DAF Uniformation** : pour formations courtes (habilitations électriques, gestes et postures, soudure, sécurité incendie, premiers secours)\n- **DAF certifiante 2026** : 15 €/h pour CAP/Bac pro maintenance ≥ 70h\n- **VAE CAP/Bac pro maintenance** : 3 000-5 000 €\n- **CPF** du salarié (CAP, Bac pro éligibles)\n- **CléA** pour formaliser compétences transversales\n- **Habilitations électriques renouvelables** : tous les 3 ans, formation obligatoire à charge employeur\n\n**Cas typiques d'évolution** :\n- Agent·e d'entretien polyvalent·e → habilitations électriques + formations techniques → agent·e de maintenance\n- Agent·e de maintenance avec longue expérience → fédération avec parcours coordinateur technique inter-établissements\n- Reconversion : agent·e du bâtiment privé → branche ALISFA pour stabilité ESS",
+        "vigilance": "**Habilitations électriques** : engagement de la responsabilité de l'employeur. Toute intervention électrique sans habilitation valide engage la structure en cas d'accident. Recyclage tous les 3 ans. Vérifier les attestations.\n\n**Sécurité enfants en EAJE** : pour les interventions dans les EAJE pendant les heures d'ouverture, vigilance accrue (outils sécurisés, accès limité aux zones à risque, etc.). Privilégier les interventions hors heures d'ouverture quand possible.\n\n**Contrôles réglementaires** : la plupart des structures ALISFA sont des ERP (Établissements Recevant du Public). Soumis à de nombreux contrôles : sécurité incendie (vérification annuelle), gaz, électricité, équipements de jeux extérieurs, etc. L'agent·e de maintenance suit ces contrôles et planifie les interventions correctives.\n\n**Polyvalence vs spécialisation** : poste souvent unique dans une structure (1 ETP couvre plomberie + électricité + menuiserie + peinture). Risque de surcharge. Anticiper le recours à des sous-traitants pour les gros travaux.\n\n**Risques professionnels** : TMS (port de charges, postures), risques chimiques (peintures, solvants), risque électrique. Formation prévention indispensable.\n\n**Travail isolé** : possible (intervention seul·e dans des locaux). Procédure d'astreinte / téléphone d'urgence à formaliser.",
+        "sources": [
+          "Fiche métier ALISFA Agent·e de maintenance (CPNEF, janvier 2026)",
+          "Validation matrice GPEC ALISFA — recrutement sur compétences/expérience",
+          "Norme NF C 18-510 (habilitations électriques)",
+          "Code du travail R4544-9 (habilitations électriques obligatoires)"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "INRS — Habilitations électriques (NF C 18-510)", "url": "https://www.inrs.fr/risques/electriques/habilitation-electrique.html", "type": "officiel"},
+          {"titre": "Code du travail article R4544-9 (habilitations électriques)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018530721", "type": "legislation"},
+          {"titre": "Référentiel CAP Maintenance des bâtiments — France Compétences", "url": "https://www.francecompetences.fr/recherche/?text=CAP+maintenance+batiments", "type": "officiel"},
+          {"titre": "Mon Compte Formation — Habilitations / CAP maintenance", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Agent·e de maintenance (PDF ALISFA)", "fichier": "cpnef-fiche-metier-agent-e-de-maintenance-bd.pdf"}
+      ],
+      "niveau": "orange",
+      "escalade": "Vérifier les habilitations électriques de l'agent·e (BS, BR, B0 selon interventions prévues) — engagement de responsabilité employeur. Renouvellement triennal obligatoire. Pour bâtiments anciens, vérifier exposition amiante.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + matrice GPEC + NF C 18-510"
+      }
+    },
+
+    {
+      "id": "gpec-cuisinier",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e cuisinier·ère dans ma structure ALISFA ?",
+      "mots_cles": [
+        "cuisinier", "cuisinière", "CAP cuisine",
+        "Bac pro cuisine", "HACCP obligatoire",
+        "compétences expérience", "pas diplôme requis ALISFA",
+        "EAJE biberonnerie", "centre social repas",
+        "régime alimentaire enfant", "PAI", "allergies"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "services_technique",
+      "passerelles_gpec": [
+        "agent_entretien", "agent_maintenance"
+      ],
+      "reponse": {
+        "synthese": "Le ou la cuisinier·ère prépare les repas de la structure (collations, déjeuners, goûters), souvent en EAJE (biberonnerie + repas crèche), centres sociaux avec restauration ou en activité ponctuelle (séjours, événements). En branche ALISFA, **le recrutement se fait sur compétences et expériences antérieures**. **Formation HACCP obligatoire** (règlement CE 852/2004). Diplômes facilitateurs : CAP cuisine, Bac pro cuisine, CAP Producteur Salarié de Cuisine. Spécificité petite enfance : connaissance des régimes alimentaires des jeunes enfants, allergies, PAI (Projet d'Accueil Individualisé).",
+        "fondement_legal": "Règlement (CE) n° 852/2004 sur l'hygiène des denrées alimentaires (HACCP). Arrêté du 21 décembre 2009 relatif aux règles sanitaires applicables aux activités de commerce de détail, d'entreposage et de transport de produits d'origine animale. Code de l'action sociale R2324 (EAJE, conditions hygiène). Décret n° 2017-984 du 10 mai 2017 relatif aux PAI (Projets d'Accueil Individualisé) — pour enfants avec allergies/régimes médicaux.",
+        "minimum_legal": "**Pré-requis ALISFA** : aucun diplôme spécifique requis. Recrutement sur **compétences et expériences antérieures** (validé en avril 2026 dans la matrice GPEC ALISFA).\n\n**FORMATION HACCP OBLIGATOIRE** : selon le règlement européen 852/2004, toute personne manipulant des denrées alimentaires destinées à la consommation doit recevoir une formation à l'hygiène alimentaire (HACCP). Pas de durée minimale stricte mais 14 heures recommandées (formation initiale) + recyclage tous les 4 ans.\n\n**Diplômes facilitateurs (non obligatoires)** :\n- **CAP Cuisine** (niveau 3)\n- **CAP Production et Service en Restaurations (PSR)** (niveau 3)\n- **Bac pro Cuisine** (niveau 4)\n- **TP Cuisinier·ère** (Titre Professionnel niveau 3)\n- **CAP Pâtisserie** (utile pour goûters et événements)\n- **Bac pro Restauration** ou **BTS Hôtellerie-Restauration**\n\n**Spécialisations utiles en branche ALISFA** :\n- **Cuisine pour jeunes enfants** : connaissance des textures, allergies fréquentes, équilibre nutritionnel petite enfance, GEMRCN (Groupe d'Étude des Marchés Restauration Collective Nutrition)\n- **Cuisine collective** : volumes, rationnements, économats\n- **Allergies alimentaires et PAI** : gestion fines des risques (lait, gluten, œuf, fruits à coque…)\n- **Bio et circuits courts** : enjeu de plus en plus présent en EAJE\n- **Cuisine équilibrée séniors** (pour structures intergénérationnelles) ou publics fragiles\n\n**Missions principales** :\n- Élaboration des menus en lien avec la direction et les recommandations nutritionnelles\n- Préparation des repas (collations, déjeuners, goûters) selon les volumes\n- Application stricte des règles HACCP (températures, rotations, traçabilité)\n- Gestion des stocks alimentaires (commandes, réception, rotation, inventaire)\n- Adaptation aux régimes spécifiques (allergies, PAI, sans porc, sans gluten, halal, végétarien)\n- Entretien et nettoyage de la cuisine et du matériel\n- Participation aux temps de repas (parfois en EAJE)\n- Sensibilisation des enfants à l'alimentation (éveil au goût, jardin pédagogique)\n\n**Lieux d'exercice** :\n- **EAJE avec restauration interne** (souvent une cuisine sur place dans les multi-accueils >30 berceaux)\n- **EAJE en biberonnerie** (préparation collations, biberons)\n- **Centres sociaux** avec restauration (fréquent en milieu rural ou repas partagés)\n- **ALSH avec repas** (déjeuners, goûters)\n- **Séjours de vacances**, **camps**\n- **Activités ponctuelles** : repas partagés inter-générationnels, événements festifs",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- **Agent·e d'entretien et de service** (passerelle horizontale)\n- **Agent·e de maintenance** (avec compétences techniques)\n- Évolution vers **chef·fe de cuisine** ou **responsable restauration** dans une fédération multi-établissements\n\n**Spécialisations** :\n- Cuisine pour publics spécifiques (allergies, séniors, public médical-paramédical)\n- Cuisine durable / circuits courts / bio\n- Cuisine éducative (animation autour de l'alimentation)\n\n**Modes de financement de la formation continue** :\n- **DAF Uniformation** : HACCP, allergies alimentaires, GEMRCN, cuisine durable, cuisine bio, animation cuisine pédagogique\n- **DAF certifiante 2026** : 15 €/h pour CAP cuisine ≥ 70h\n- **VAE CAP cuisine** : 3 000 € (simple) — voie pour cuisinier·ères expérimenté·es non diplômé·es\n- **CPF** du salarié (CAP cuisine, BP cuisine éligibles)\n- **CléA** : compétences transversales\n- **Formations Cuisine Collective** : recyclage HACCP, GEMRCN, bio en cuisine collective",
+        "vigilance": "**HACCP STRICT** : la non-conformité HACCP en EAJE peut entraîner la fermeture administrative par le Conseil départemental (PMI) ou la DDETS. Formation initiale + recyclage 4 ans + traçabilité quotidienne (températures, rotations) + auto-contrôles obligatoires.\n\n**PAI et allergies** : en EAJE, les PAI (Projets d'Accueil Individualisé) sont obligatoires pour les enfants avec allergies/régimes médicaux. Le ou la cuisinier·ère doit connaître les PAI et adapter les repas. Formation spécifique allergies recommandée.\n\n**GEMRCN** : recommandations nationales sur la nutrition en restauration collective (équilibre, fréquences). Référence pour les EAJE.\n\n**Risques professionnels** : brûlures (plaques, fours), coupures (couteaux), TMS (port de charges, gestes répétitifs). Formation gestes et postures + EPI (équipements de protection).\n\n**Hygiène en biberonnerie** : règles spécifiques en EAJE (préparation des biberons, stérilisation, conservation lait maternel). Formation dédiée si poste comporte cette dimension.\n\n**Bio et circuits courts** : enjeu croissant en branche ALISFA. Loi EGALIM impose 50 % de produits durables dont 20 % bio en restauration collective. Anticipation des coûts et formation à l'approvisionnement responsable.",
+        "sources": [
+          "Fiche métier ALISFA Cuisinier·ère (CPNEF, janvier 2026)",
+          "Validation matrice GPEC ALISFA — recrutement sur compétences/expérience",
+          "Règlement (CE) n° 852/2004 (HACCP)",
+          "Arrêté du 21 décembre 2009 (règles sanitaires)",
+          "GEMRCN — Recommandations nutrition restauration collective",
+          "Loi EGALIM (alimentation durable)"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Règlement (CE) 852/2004 (HACCP)", "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32004R0852", "type": "legislation"},
+          {"titre": "Référentiel CAP Cuisine — France Compétences", "url": "https://www.francecompetences.fr/recherche/?text=CAP+cuisine", "type": "officiel"},
+          {"titre": "GEMRCN — Recommandations nutritionnelles", "url": "https://agriculture.gouv.fr/", "type": "officiel"},
+          {"titre": "Service public — PAI à l'école / EAJE", "url": "https://www.service-public.fr/particuliers/vosdroits/F21392", "type": "officiel"},
+          {"titre": "Mon Compte Formation — CAP / BP Cuisine", "url": "https://www.moncompteformation.gouv.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Cuisinier·ère (PDF ALISFA)", "fichier": "cpnef-fiche-metier-cuisinier-ere-bd.pdf"}
+      ],
+      "niveau": "orange",
+      "escalade": "Vérifier la formation HACCP en cours de validité (recyclage 4 ans). Pour les EAJE, vérifier les PAI des enfants accueillis et la capacité du cuisinier à les appliquer. Conformité GEMRCN et loi EGALIM (bio + durable) à anticiper.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + règlement CE 852/2004 + matrice GPEC"
+      }
+    },
+
+    {
+      "id": "gpec-intervenant-medical-paramedical",
+      "_theme_target": "metiers_gpec",
+      "question_type": "Comment recruter un·e intervenant·e médical·e ou paramédical·e dans ma structure ALISFA ?",
+      "mots_cles": [
+        "intervenant médical", "intervenante médicale",
+        "intervenant paramédical", "DE Infirmier",
+        "DE Puéricultrice", "psychologue", "psychomotricien",
+        "ergothérapeute", "orthophoniste", "médecin",
+        "vacation", "RSAI", "Référent Santé Accueil Inclusif",
+        "EAJE", "centres sociaux", "Code santé publique"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS"],
+      "metiers_secteur": "services_technique",
+      "passerelles_gpec": [
+        "auxiliaire_puericulture", "eje_educateur_jeunes_enfants",
+        "intervenant_specialise"
+      ],
+      "reponse": {
+        "synthese": "L'intervenant·e médical·e ou paramédical·e exerce ponctuellement ou régulièrement dans les structures ALISFA pour des missions ciblées : médecin / pédiatre référent EAJE, infirmier·ère, psychologue clinicien·ne, psychomotricien·ne, ergothérapeute, orthophoniste, RSAI (Référent·e Santé et Accueil Inclusif). **Profession réglementée** — chaque métier a son propre Diplôme d'État (DE) avec règles d'inscription au Conseil de l'Ordre / ARS. Souvent en **vacation** (libéral·e prestataire) plutôt qu'en CDI. **Hors champ Uniformation** pour les coûts pédagogiques (formations diplômantes hors OPCO).",
+        "fondement_legal": "Code de la santé publique. Pour chaque profession, décrets et arrêtés spécifiques (par ex. décret 2004-802 pour infirmiers·ères). Pour les EAJE : décret n° 2021-1131 du 30 août 2021 (« Norma ») article R2324-39-1 (RSAI obligatoire depuis 1er septembre 2022).",
+        "minimum_legal": "**Définition** : professions médicales (médecins) ou paramédicales (infirmiers, psychologues, psychomotriciens, etc.) intervenant dans les structures ALISFA pour leurs compétences spécialisées en santé / développement psycho-moteur / accompagnement psychologique.\n\n**Statut typique** : souvent **prestataire externe libéral·e** (auto-entrepreneur, profession libérale) ou **salarié·e à temps partiel** dans les EAJE / centres sociaux importants.\n\n**Diplômes par profession** :\n\n**1. Médecins (référent·e EAJE)** :\n- DE Médecin + spécialisation pédiatrie ou expérience auprès de jeunes enfants\n- Inscrit·e au Conseil de l'Ordre des Médecins\n- Souvent intervention en libéral, vacation 2-4h/semaine en EAJE\n\n**2. Infirmier·ère / Puéricultrice·teur** :\n- DE Infirmier (DEI) — RNCP 36154 — accessible apprentissage (~7 600 €) selon contrats\n- DE Puériculture (1 an post-DEI, école spécialisée) — pour direction EAJE >40 places (cf. R2324-46)\n- Inscription ARS\n\n**3. RSAI — Référent·e Santé et Accueil Inclusif** (NOUVEAU 2022) :\n- OBLIGATOIRE dans tout EAJE depuis 1er septembre 2022 (décret 2021-1131 article R2324-39-1)\n- Profil : médecin, infirmier·ère puériculteur·trice, infirmier·ère DE, EJE avec formation spécifique\n- Voir article réglementaire dédié `reg-rsai-eaje` (à créer en F5)\n\n**4. Psychologue clinicien·ne** :\n- Master 2 Psychologie (Bac+5)\n- Numéro ADELI (Agence pour le Développement de l'Éducation et des Liens) obligatoire\n- Souvent intervention en LAEP, supervision d'équipe (APP), accompagnement individuel\n\n**5. Psychomotricien·ne** :\n- DE Psychomotricien·ne (3 ans post-Bac, formation école)\n- Inscription au Conseil de l'Ordre\n- Souvent intervention groupe enfants (motricité libre, ateliers)\n\n**6. Orthophoniste** :\n- DE Orthophoniste (5 ans post-Bac, université)\n- Inscription ARS / Conseil de l'Ordre\n- Souvent intervention LAEP, ateliers langage\n\n**7. Ergothérapeute** :\n- DE Ergothérapeute (3 ans post-Bac)\n- Inscription au Conseil de l'Ordre\n- Intervention sur situations handicap, ergonomie EAJE\n\n**8. Diététicien·ne / nutritionniste** :\n- BTS Diététique ou DUT Génie Biologique option Diététique\n- Intervention sur menus EAJE, ateliers parentalité alimentaire\n\n**Missions typiques** :\n- Consultation individuelle (selon profession)\n- Animation d'ateliers thématiques (ex. motricité, prévention santé)\n- Supervision d'équipe (cas du psychologue) — voir article `fin-cpnef-app-equipe-2026`\n- Suivi de l'application des PAI (Projets d'Accueil Individualisé) en EAJE\n- Conseil et expertise de premier niveau\n- Formation des équipes salariées (gestes et postures, troubles du développement…)",
+        "plus_formation": "**Évolutions et passerelles GPEC** :\n- Le métier d'intervenant·e médical·e/paramédical·e est souvent une **fonction d'expert·e** mobilisée par la structure ALISFA, sans véritable évolution interne au sein de la branche\n- Possibilité de **devenir référent·e RSAI** dans un EAJE (avec formation spécifique)\n- Mobilité vers **direction médicale** d'un EAJE (pour médecins/puéricultrices avec expérience)\n- Reconversion vers la **médiation familiale** (DEMF) pour psychologues / médecins\n- Spécialisation en **micro-crèche** (référent·e technique R2324-46-3) — voir article `reg-referent-technique-microcreche`\n\n**Modes de financement de la formation** :\n- Les **diplômes médicaux/paramédicaux** sont **HORS champ Uniformation** (relèvent de l'État, ARS, conseils régionaux, écoles spécialisées). Pas de prise en charge OPCO classique.\n- **DAF Uniformation** : pour formations courtes thématiques de l'intervenant·e salarié·e (gestion situations difficiles, signe avec bébé, méthode Pikler-Loczy, neurosciences, RSAI…)\n- **DPC (Développement Professionnel Continu)** pour les médecins/infirmières — financements ANDPC (Agence Nationale du DPC)\n- **CPF** pour formations diplômantes annexes\n\n**Statut prestataire vs salarié** :\n- **Prestataire libéral·e** : facture à la structure ALISFA (TVA selon statut). Pas de subordination employeur.\n- **Salarié·e à temps partiel** : sous CCN ALISFA, classification cadre généralement.\n\n**Cas typiques** :\n- Médecin pédiatre libéral·e → vacation 4h/semaine en EAJE (référent·e médical·e + RSAI)\n- Psychologue clinicien·ne libéral·e → vacation LAEP 4h/semaine + supervision d'équipe APP mensuelle\n- Infirmier·ère puériculteur·trice → CDI temps partiel direction EAJE + RSAI\n- Psychomotricien·ne → vacation 2h/semaine ateliers motricité en EAJE",
+        "vigilance": "**Profession réglementée** : pour chaque métier, vérifier l'inscription en cours de validité au Conseil de l'Ordre / ARS / numéro ADELI. Sans inscription, exercice illégal.\n\n**RSAI obligatoire EAJE depuis 1er sept 2022** : tout EAJE doit désigner un·e RSAI. Pas d'option, c'est une obligation réglementaire (décret 2021-1131 R2324-39-1). Voir article `reg-rsai-eaje` à créer en F5 pour conditions précises.\n\n**Vacation vs salariat** : si le ou la professionnel·le intervient régulièrement avec horaires fixes et lien hiérarchique, c'est probablement un salariat (et pas une vacation). Risque de requalification — clarifier avec un cabinet juridique en cas de doute.\n\n**Confidentialité médicale** : les intervenant·es médicaux·ales sont soumis·es au secret médical. Bien définir les périmètres de partage d'information avec l'équipe ALISFA (souvent : transmissions générales sans détails médicaux confidentiels).\n\n**Coût élevé** : les vacations médicales/paramédicales coûtent cher (50-150 €/h selon profession). Anticiper le budget. Pour la supervision en APP, mobiliser le dispositif CPNEF 0,2 % (cf. `fin-cpnef-app-equipe-2026`).\n\n**Liaison avec PMI / ARS** : pour les EAJE, le médecin et l'infirmier·ère puéricultrice sont en liaison avec la PMI du Conseil départemental. Pour les centres sociaux portant des actions santé, liaison avec l'ARS possible.\n\n**Texte en vigueur au 25 avril 2026.**",
+        "sources": [
+          "Fiche métier ALISFA Intervenant·e médical·e/paramédical·e (CPNEF, janvier 2026)",
+          "Code de la santé publique (chaque profession)",
+          "Décret n° 2021-1131 du 30 août 2021 (Norma) — article R2324-39-1 (RSAI EAJE)",
+          "Arrêté du 23 septembre 2021 (modalités EAJE)"
+        ],
+        "liens": [
+          {"titre": "Fiches métiers ALISFA + cartographie GPEC", "url": "https://www.alisfa.fr/emploi-et-formation/gpec/", "type": "officiel"},
+          {"titre": "Code action sociale article R2324-39-1 (RSAI)", "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044049818", "type": "legislation"},
+          {"titre": "Décret 2021-1131 (Norma)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044020833", "type": "legislation"},
+          {"titre": "ANDPC — Agence Nationale du DPC (formations médicales/paramédicales)", "url": "https://www.agencedpc.fr/", "type": "officiel"},
+          {"titre": "Conseil de l'Ordre des Médecins", "url": "https://www.conseil-national.medecin.fr/", "type": "officiel"},
+          {"titre": "ADELI (psychologues, paramédicaux)", "url": "https://demarches-simplifiees.fr/", "type": "officiel"}
+        ],
+        "version_gpec": "2025-07-07",
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [
+        {"titre": "Fiche métier Intervenant·e médical·e/paramédical·e (PDF ALISFA)", "fichier": "cpnef-fiche-metier-intervenant-e-medical-e-ou-paramedical-e-bd.pdf"}
+      ],
+      "niveau": "orange",
+      "escalade": "Vérifier l'inscription en cours de validité au Conseil de l'Ordre / ARS / numéro ADELI selon profession. Pour les EAJE, vérifier la conformité avec l'obligation RSAI (article R2324-39-1) — voir aussi article réglementaire dédié `reg-rsai-eaje`. Vacation vs salariat : clarifier avec cabinet juridique si doute.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Fiche métier ALISFA + Code santé publique + R2324-39-1"
+      }
+    }
+
+  ]
+}

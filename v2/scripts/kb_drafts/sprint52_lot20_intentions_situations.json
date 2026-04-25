@@ -1,0 +1,289 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F6 lot I3 (final F6) — Intentions directeur Situations spécifiques RH (4 articles)",
+    "lot": "I3/I3 (final F6)",
+    "topic": "Échec validation formation, financer formation dirigeant, gestion fermeture temporaire EAJE, formation bénévoles",
+    "generated_at": "2026-04-25",
+    "source_principale": "Code travail + Code action sociale + CCN ALISFA + service-public + DGEFP + CAF",
+    "theme_target": "intentions_directeur"
+  },
+
+  "articles": [
+
+    {
+      "id": "int-echec-validation-formation",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Que faire si un salarié ne valide pas sa formation diplômante ?",
+      "mots_cles": [
+        "échec validation formation",
+        "salarié non diplômé",
+        "rattrapage diplôme",
+        "redoublement",
+        "rupture contrat alternance",
+        "VAE alternative",
+        "session rattrapage", "1 an supplémentaire",
+        "bonification financement OPCO"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "gerer_echec_formation",
+      "reponse": {
+        "synthese": "Si un·e salarié·e en alternance ou en formation continue **n'obtient pas son diplôme** lors de la session normale, **5 options** : (1) **session de rattrapage** (souvent en septembre suivant, gratuite ou peu coûteuse), (2) **redoublement** (1 an supplémentaire avec accord OPCO), (3) **VAE partielle** des modules validés vers un diplôme proche, (4) **changement d'orientation** (autre diplôme accessible avec les modules validés), (5) **rupture de contrat alternance** si tous échecs (motif limitée). Procédure : rencontre tripartite **employeur + alternant·e + CFA** dans le mois suivant le résultat. Coût rattrapage : **0 à 500 € en moyenne**, financé OPCO ou CPF.",
+        "fondement_legal": "**Code du travail** — articles **L6222-18 et suivants** (rupture apprentissage), **L6325-26** (rupture professionnalisation) — **arrêtés diplômes** (modalités de rattrapage par diplôme, ex. arrêté DE EJE, BPJEPS, CAP AEPE).",
+        "minimum_legal": "**Cas typiques d'échec validation formation** :\n\n**1. Échec en formation continue (CPF, plan développement compétences)** :\n- **Pas d'impact direct** sur le contrat de travail\n- Le ou la salarié·e reste en poste\n- **Coût formation déjà engagé** : reste à la charge OPCO ou CPF\n- **Solutions** : session de rattrapage, VAE, autre formation\n\n**2. Échec en alternance (apprentissage / professionnalisation)** :\n- **Impact significatif** : le contrat est lié au passage du diplôme\n- **Délai** : convention de prolongation ou rupture à anticiper\n- **5 OPTIONS À EXPLORER** :\n\n**OPTION 1 — Session de rattrapage** :\n- **Disponible** pour la plupart des diplômes (DE EJE, BPJEPS, CAP AEPE, DEAES, etc.)\n- **Modalités** : généralement **épreuves théoriques + soutenance** en septembre suivant\n- **Coût** : très réduit (0 à 500 €), couvert par CPF / OPCO\n- **Avantage** : économique, pas de redoublement\n- **Limites** : parfois 1 seule session de rattrapage par module / par session\n\n**OPTION 2 — Redoublement (1 an supplémentaire)** :\n- **Conditions** :\n  - Accord du **CFA** (justification des modalités d'accompagnement)\n  - **Accord OPCO** (NPEC sur l'année supplémentaire)\n  - **Avenant au contrat de travail** alternance (signature CERFA modificatif)\n- **Procédure** :\n  - Demande écrite de l'apprenti·e + CFA\n  - Bilan tripartite : analyse des causes de l'échec\n  - Plan d'accompagnement renforcé (tutorat, soutien individualisé)\n  - Avenant CERFA déposé sur Uniformation\n- **Coût** : 1 année NPEC supplémentaire (financée OPCO) + rémunération apprenti·e (souvent 2e ou 3e année %SMIC)\n- **Avantage** : maintien du parcours, garantie diplôme\n- **Limites** : impact GPEC (1 an de plus), motivation du tuteur\n\n**OPTION 3 — VAE partielle vers diplôme proche** :\n- **Conditions** : modules validés peuvent être convertis vers un autre diplôme\n- **Exemples ALISFA** :\n  - DE EJE échec → DEAES + complément modules petite enfance\n  - DEJEPS échec → BPJEPS validé (niveau inférieur)\n  - CAFERUIS échec → modules vers Master sciences de l'éducation\n- **Procédure** : VAE classique avec dossier de présentation\n- **Coût** : **3 000-5 000 €** (CPF + abondement employeur)\n- **Avantage** : valorisation du parcours partiel\n- **Limites** : diplôme cible différent, possibilité limitée selon les diplômes\n\n**OPTION 4 — Changement d'orientation (autre diplôme accessible)** :\n- **Évaluation** : modules validés permettent-ils d'accéder à un autre diplôme ?\n- **Exemple** : 4 sur 5 DC validés CAP AEPE → entrée en BAC Pro Service à la Personne\n- **Procédure** : nouveau parcours (alternance ou formation initiale)\n- **Possibilité** : nouveau contrat alternance dans la même structure (continuité)\n\n**OPTION 5 — Rupture de contrat alternance** :\n- **Conditions strictes** :\n  - **Si toutes les options ci-dessus sont écartées**\n  - **Motif** : impossibilité de poursuivre la formation (échec multiple, abandon)\n  - **Procédure légale** : préavis + indemnités selon Code du travail\n- **Cadre apprentissage** :\n  - Article **L6222-18** : rupture par accord des parties + médiateur\n  - Indemnité spécifique si rupture par l'employeur sans faute grave\n- **Cadre professionnalisation** :\n  - Article **L6325-26** : rupture motivée\n- **Conséquences** :\n  - Aide État apprentissage : **non remboursable** si rupture après 6 mois\n  - **Allocations chômage** : ouverture des droits\n\n**Procédure recommandée — RÉUNION TRIPARTITE** :\nDans le mois suivant l'échec, organiser une **rencontre tripartite** :\n- **Employeur** (direction + RH + tuteur)\n- **Alternant·e** (et représentant légal si mineur·e)\n- **CFA** (responsable pédagogique)\n\n**Ordre du jour** :\n1. **Analyse des causes** : difficultés personnelles, scolaires, professionnelles, équilibre vie personnelle\n2. **Bilan des modules** : forces et points faibles\n3. **Évaluation des options** (rattrapage / redoublement / VAE / changement / rupture)\n4. **Décision** + plan d'actions\n5. **Calendrier** précis\n\n**Documenter** la décision : compte-rendu signé par les 3 parties.",
+        "plus_formation": "**Causes fréquentes d'échec et préventions** :\n\n**Causes** :\n- **Difficultés personnelles** : santé, logement, transport, équilibre vie pro/perso\n- **Difficultés scolaires** : modules théoriques difficiles (rapport, mémoire, rédaction)\n- **Difficultés professionnelles** : tutorat insuffisant, intégration ratée, charge de travail excessive\n- **Désintérêt pour la formation** : choix d'orientation inadapté\n- **Absentéisme** : facteur très corrélé à l'échec\n\n**Préventions tutorat** :\n- **Bilans trimestriels structurés** : détection précoce des difficultés\n- **Soutien aux modules théoriques** : mise en relation avec d'autres apprenants ou tuteurs\n- **Aide à la rédaction** : mémoire, rapport de stage, soutenance\n- **Soutien personnel** : référent insertion en cas de problèmes hors travail\n- **Aménagement temporaire** : ex. réduction temporaire des horaires en période d'examens\n\n**Outils utiles** :\n- **Pôle de soutien apprenti·es** au sein du CFA\n- **Référent handicap** si RQTH ou besoin d'aménagements\n- **Médiateur consulaire** Apprentissage (chambre de commerce et d'industrie / chambre des métiers) pour résolution de conflits\n- **Médiateur du travail** OPCO Uniformation pour situations complexes\n\n**Bonification financement OPCO en cas de redoublement** :\n- **Niveau de prise en charge** : maintenu sur l'année supplémentaire\n- **Aide État apprentissage** : pas de seconde aide 6 000 € pour le redoublement (consommée 1ère année)\n- **Mais** : exonérations cotisations URSSAF maintenues\n\n**Cas particuliers** :\n- **RQTH** : aménagements d'épreuves possibles (1/3 temps, secrétaire, matériel adapté) — démarche auprès de la commission MDPH du diplôme\n- **Maternité / paternité** : suspension du parcours pendant le congé, reprise sans pénalité\n- **Grève sociale** au CFA : neutralisation de la session, report\n- **Pandémie / catastrophe** : modalités exceptionnelles d'évaluation (cas COVID)",
+        "obligations_formation": "Aucune obligation directe. Le redoublement nécessite l'accord OPCO + avenant CERFA.",
+        "accompagnement_obligatoire": "**Réunion tripartite** structure / alternant·e / CFA dans le mois suivant l'échec. **Plan d'accompagnement renforcé** documenté en cas de redoublement. **Médiation OPCO** disponible en cas de désaccord persistant.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **modalités de rattrapage et redoublement** dépendent du **diplôme cible** et de l'**organisme certificateur** (Ministère, Branche). **Vigilance** :\n- **Aide État 6 000 €** apprentissage : **non remboursable** si rupture après 6 mois (sauf faute grave de l'apprenti·e)\n- **Convention OPCO** : doit être renouvelée pour le redoublement (avenant à déposer)\n- **VAE partielle** : possible mais souvent peu valorisée par les employeurs futurs (vérifier la lisibilité du parcours)\n- **Rupture pendant la période d'essai** (45 jours apprentissage) : modalités plus simples\n- **Rupture par accord** vs **rupture par faute** : conséquences différentes (allocations chômage, dossier prud'hommes)\n- **EAJE** : si l'apprenti·e ne valide pas sa formation, vigilance casier B2 et obligations PMI",
+        "sources": [
+          "Code du travail — articles L6222-18 et suivants (rupture apprentissage)",
+          "Code du travail — article L6325-26 (rupture professionnalisation)",
+          "Arrêtés des diplômes (modalités rattrapage, redoublement)",
+          "Convention collective nationale ALISFA (modalités spécifiques branche)"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Rupture du contrat d'apprentissage",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2918",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail articles L6222-18 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177921/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Uniformation — Suivi des contrats alternance",
+            "url": "https://www.uniformation.fr/entreprise/recruter-en-alternance",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — accompagnement parcours alternance",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6222 + L6325"
+      }
+    },
+
+    {
+      "id": "int-financer-formation-dirigeant",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment financer ma propre formation en tant que directeur·trice / dirigeant·e d'une structure ALISFA ?",
+      "mots_cles": [
+        "formation dirigeant", "AGEFICE",
+        "AFDAS",
+        "CAFDES", "CAFERUIS direction",
+        "FAFCEA", "VAE direction",
+        "CPF dirigeant", "Mon Compte Formation",
+        "auto-entrepreneur formation",
+        "Pro-A direction"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "financer_formation_dirigeant",
+      "reponse": {
+        "synthese": "**4 dispositifs** pour financer la formation d'un·e dirigeant·e ALISFA : (1) **AGEFICE** (Association de Gestion du Financement de la Formation des Chefs d'Entreprise) pour les **dirigeants non-salariés / TNS / EI / SAS unique**, (2) **CPF + abondement structure** (si dirigeant·e est aussi salarié·e), (3) **OPCO Uniformation Pro-A** (si CDI dans la structure), (4) **VAE** (Validation des Acquis de l'Expérience) pour **CAFDES / CAFERUIS / Master direction ESS** sans formation longue. **Budget moyen** : 5 000-12 000 € pour un diplôme de direction (CAFDES = 9 400 € NPEC + financements complémentaires).",
+        "fondement_legal": "**Code du travail** — articles **L6313-1** (formations professionnelles) — **L6321-1 et suivants** (plan développement compétences) — **L6411-1 et suivants** (VAE) — **AGEFICE** (financement formation chefs d'entreprise non-salariés, organisme paritaire) — **AFDAS** pour artistes-auteurs.",
+        "minimum_legal": "**4 dispositifs principaux pour financer la formation d'un·e dirigeant·e ALISFA** :\n\n**DISPOSITIF 1 — AGEFICE (chef d'entreprise non-salarié·e)** :\n- **Cible** : **TNS** (Travailleurs Non Salariés) — auto-entrepreneur·euses, EI, SARL gérant majoritaire, SAS président unique sans salaire de salarié, EURL, professions libérales\n- **Source de financement** : **Contribution à la Formation Professionnelle (CFP)** — 0,29 % du PASS pour les CCI / 0,17 % pour les CMA — versée à l'**URSSAF**\n- **Bénéfices** :\n  - **Plafond annuel** : ~ **1 950-3 500 €** selon le profil et la formation\n  - **Cumul possible** sur 2-3 ans pour formations plus coûteuses\n  - **Modules accessibles** : management, comptabilité, gestion, RH, communication, numérique, langues, etc.\n  - **Formations diplômantes** parfois éligibles (CAFDES, MBA ESS)\n- **Procédure** :\n  - Compte sur **agefice.fr**\n  - Vérification cotisation à jour (URSSAF)\n  - Devis organisme Qualiopi\n  - Demande en ligne avant démarrage formation\n  - Délai instruction : 4-6 semaines\n- **Vigilance** : seuls les TNS au sens strict sont éligibles AGEFICE — vérifier le statut\n\n**DISPOSITIF 2 — CPF + abondement structure (dirigeant·e salarié·e)** :\n- **Cible** : dirigeant·e qui a aussi un statut de salarié·e (souvent CDI rémunéré dans la structure ALISFA)\n- **Source** : **CPF personnel** + **abondement de la structure** (cf. article `int-cpf-abondement-employeur`)\n- **Stratégie** :\n  - CPF du salarié·e dirigeant·e : 5 000 € accumulés (plafond)\n  - Abondement structure : 2 000-5 000 €\n  - Co-financement : pour formations 7 000-10 000 €\n- **Procédure** : convention d'abondement entre la structure (employeur) et le ou la dirigeant·e (salarié·e)\n- **Vigilance** : doit être validé par le **CSE** (≥ 11 salariés) ou le **CA** pour éviter les conflits d'intérêts\n\n**DISPOSITIF 3 — OPCO Uniformation (Pro-A pour direction)** :\n- **Cible** : dirigeant·e en **CDI** dans la structure (ex. directeur·trice salarié·e d'une association)\n- **Dispositif** : **Pro-A** (Promotion par Alternance) — alternance pour reconversion ou évolution professionnelle\n- **Diplômes éligibles ALISFA** :\n  - **CAFDES** (Direction d'Établissement, niveau 7)\n  - **CAFERUIS** (Encadrement de Service, niveau 6)\n  - **DEIS** (Ingénierie Sociale, niveau 7)\n  - **Master ESS, Sciences sociales, Management public**\n- **Bénéfices** :\n  - **NPEC OPCO** (intégral pour la formation)\n  - **Maintien du salaire** pendant les périodes de formation (pas de perte financière pour le ou la dirigeant·e)\n- **Procédure** :\n  - Devis CFA / EFTS\n  - Pro-A avec OPCO Uniformation\n  - Validation par CA / CSE\n  - Démarrage en alternance (souvent 1-2 jours/semaine)\n- **Durée** : 12 à 24 mois selon le diplôme\n- **NPEC indicatif** :\n  - CAFDES : **9 400 €**\n  - CAFERUIS : **8 200 €**\n  - DEIS : **9 100 €**\n\n**DISPOSITIF 4 — VAE (Validation des Acquis de l'Expérience)** :\n- **Cible** : dirigeant·e expérimenté·e (≥ 1 an dans le métier)\n- **Diplôme cible** : CAFDES, CAFERUIS, Master ESS, DEIS, etc.\n- **Démarche** :\n  - **Recevabilité** (livret 1) : 6-8 semaines\n  - **Préparation du dossier** (livret 2) : 6-12 mois\n  - **Soutenance** devant jury\n  - **Décision** : validation totale, partielle, refus\n- **Coût** : **3 000-5 000 €** environ (frais d'inscription + accompagnement)\n- **Financement** :\n  - **CPF + abondement structure**\n  - **AGEFICE** (TNS)\n  - **Plan de développement compétences** (salarié·e CDI)\n  - **Aide Région** (selon politique régionale)\n- **Avantage majeur** : **PAS de formation longue** à suivre (gagne 2-3 ans vs cursus complet)\n- **Limite** : exigeant en travail personnel (rédaction, soutenance)\n\n**Cumul intelligent des dispositifs** :\n\n**Exemple : Directeur·trice 45 ans, 12 ans d'expérience, dirige un EAJE de 25 places** :\n- **VAE CAFDES** (avec accompagnement EFTS spécialisé)\n- Coût : 5 500 €\n- **CPF dirigeant·e** : 5 000 € (consommés sur la VAE)\n- **Abondement structure** : 500 €\n- **Total** : 5 500 € — financement complet\n- **Délai** : 12 mois\n- **Résultat** : CAFDES obtenu = pérennisation poste + reconnaissance officielle\n\n**Exemple : Auto-entrepreneur·euse animateur·trice ESS qui veut développer une activité** :\n- **AGEFICE** : formation **DEJEPS** Animation (1 500 € sur 1 an + 1 500 € sur année suivante = 3 000 €)\n- **CPF personnel** : 2 500 € (formation continue précédente accumulée)\n- **Total** : 5 500 € sur 2 ans — couverture partielle\n- **Reste à charge** : ~ 4 000 € (organisme à 9 500 €)\n- **Solutions complémentaires** : étalement paiement, prêt 0 % CCI, fonds régionaux\n\n**Exemple : CAFERUIS pour adjoint·e direction salarié·e CDI** :\n- **Pro-A OPCO Uniformation** : NPEC 8 200 € intégralement pris en charge\n- Maintien salaire pendant formation\n- Durée 18 mois\n- **Coût net structure** : 0 € de formation, mais perte temporelle si jours d'absence (à anticiper avec une organisation interne)",
+        "plus_formation": "**Stratégies recommandées pour directeur·trices ALISFA** :\n\n**Stratégie 1 — Anticiper le financement sur 3 ans** :\n- Année 1 : CPF + AGEFICE → modules courts (gestion, RH, droit social)\n- Année 2 : Pro-A → CAFERUIS\n- Année 3 : Pro-A → CAFDES (si projet direction grande structure)\n\n**Stratégie 2 — Cumuler VAE + formation courte complémentaire** :\n- VAE CAFDES (gain de temps)\n- Formations courtes complémentaires : RGPD, comptabilité analytique, communication\n- **Coût total** : ~ 8 000 € sur 18 mois\n\n**Stratégie 3 — Engagement Développement Emploi Compétences (EDEC)** :\n- Pour structures qui forment plusieurs cadres simultanément\n- Convention OPCO Uniformation + DGEFP\n- Subventions État + OPCO renforcées\n- Programme pluriannuel\n\n**Stratégie 4 — Réseau et apprentissage par les pairs** :\n- **Fédération régionale ALISFA** : journées thématiques, échanges de pratiques\n- **CPNEF ALISFA** : ressources, observatoire\n- **Centres sociaux de France / FCSF** : Université d'Été, séminaires\n- **Clubs et associations de directeur·trices ESS** : networking\n- **Coaching individuel** : financement CPF possible\n\n**Erreurs fréquentes à éviter** :\n1. **Attendre une crise** pour se former (préparation = 1-3 ans)\n2. **Ignorer la VAE** : elle est souvent le levier le plus pertinent pour les profils expérimentés\n3. **Ne pas valider en CA** un projet de formation longue : risque de blocage politique\n4. **Sous-estimer le travail personnel** de la VAE : 200-400 h sur 6-12 mois\n5. **Choisir un organisme non-Qualiopi** : pas d'éligibilité aux financements\n6. **Confondre dispositifs salarié·e vs dirigeant·e** : règles différentes selon statut juridique exact",
+        "obligations_formation": "Aucune obligation. La formation des dirigeants est volontaire (sauf cas spécifiques : RGPD, sécurité-santé).",
+        "accompagnement_obligatoire": "**Conseiller·ère AGEFICE** (TNS) ou **Uniformation** (CDI) selon le statut. **CFA / EFTS** pour formations diplômantes longues. **Conseiller VAE** dédié pour les démarches VAE. **CSE / CA** pour validation politique du projet de formation pour les dirigeant·es salarié·es.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **plafonds AGEFICE** et **NPEC OPCO** sont **révisés annuellement**. Vérifier sur agefice.fr et uniformation.fr les valeurs précises pour 2026. **Vigilance** :\n- **Statut juridique du dirigeant·e** détermine le dispositif compétent — vérifier en cas de double statut (salarié·e + président·e bénévole, par exemple)\n- **AGEFICE accessible uniquement aux TNS** : un·e directeur·trice salarié·e d'une association n'y a pas accès\n- **Pro-A** est réservé aux CDI : pas pour CDD, contrat aidé, intérim\n- **VAE** : recevabilité préalable obligatoire (livret 1) — durée du dossier (livret 2) : 6-12 mois minimum\n- **EFTS** : choisir un centre **expérimenté en VAE direction** (ex. EFTS spécialisés ESS) plutôt que généraliste\n- **Conflit d'intérêts** : abondement employeur pour son propre directeur·trice doit être validé par CA/CSE",
+        "sources": [
+          "Code du travail — articles L6313-1, L6321-1, L6411-1 (formation, plan, VAE)",
+          "AGEFICE — Association de Gestion du Financement de la Formation des Chefs d'Entreprise",
+          "OPCO Uniformation — dispositifs Pro-A et formation continue",
+          "France Compétences — VAE et certification professionnelle",
+          "CPNEF ALISFA — formations cadres et direction"
+        ],
+        "liens": [
+          {
+            "titre": "AGEFICE — financement formation chefs d'entreprise",
+            "url": "https://www.agefice.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Validation des Acquis de l'Expérience (VAE)",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2401",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mon Compte Formation — VAE",
+            "url": "https://www.moncompteformation.gouv.fr/espace-prive/html/#/formation/recherche/results?q=VAE",
+            "type": "officiel"
+          },
+          {
+            "titre": "Uniformation — Pro-A (Promotion par Alternance)",
+            "url": "https://www.uniformation.fr/entreprise/proa",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — formations cadres et direction",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6313 + AGEFICE + Uniformation"
+      }
+    },
+
+    {
+      "id": "int-fermeture-temporaire-eaje",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment gérer une fermeture temporaire d'EAJE pour rénovation et la formation des salarié·es pendant cette période ?",
+      "mots_cles": [
+        "fermeture EAJE rénovation",
+        "activité partielle",
+        "FNE-Formation",
+        "chômage technique",
+        "PMI ARS DDETSPP",
+        "réouverture conformité",
+        "salarié·es maintenus formation",
+        "période suspension activité"
+      ],
+      "structures_concernees": ["EAJE"],
+      "intention_directeur": "gerer_fermeture_temporaire_EAJE",
+      "reponse": {
+        "synthese": "Pour une **fermeture temporaire d'EAJE** (rénovation, déménagement, sinistre), **3 dispositifs principaux** : (1) **Activité partielle** (chômage technique) avec maintien partiel du salaire (~70-100 % selon convention) + indemnité État, (2) **FNE-Formation** (formations financées État pendant la baisse d'activité, **100 % du salaire maintenu**), (3) **Plan de développement compétences renforcé** (formations OPCO classiques pendant la période). **Procédures** : **PMI** + **DDETSPP** notifiés, **autorisation de fermeture** parfois requise (selon durée), **information CAF** pour la PSU. **Délai recommandé** : préavis **2-3 mois** avant fermeture pour bien organiser.",
+        "fondement_legal": "**Code du travail** — articles **L5122-1 à L5122-7** (activité partielle) — **Décret n° 2020-325 du 25 mars 2020** modifié — **Code de l'action sociale et des familles** articles **R2324-25 et suivants** (autorisation et conformité EAJE) — **CCN ALISFA** (modalités complémentaires) — **Convention CAF** (modalités PSU pendant fermeture).",
+        "minimum_legal": "**Cadre des fermetures temporaires d'EAJE** :\n\n**1. Causes typiques de fermeture temporaire** :\n- **Rénovation des locaux** (mise aux normes accessibilité, sécurité)\n- **Déménagement** vers de nouveaux locaux\n- **Sinistre** (incendie, dégât des eaux, intempérie)\n- **Sécurité publique** (alerte sanitaire, pandémie, terrorisme)\n- **Travaux PMI imposés** suite à un contrôle\n- **Réorganisation** (regroupement multi-sites)\n\n**Durée typique** : 2 semaines à 6 mois selon le motif.\n\n**2. PROCÉDURES OBLIGATOIRES** :\n\n**A. Autorisation et notification** :\n- **PMI** (Protection Maternelle et Infantile) : information **2 mois avant** par courrier\n  - **Si fermeture > 30 jours** : éventuelle modification de l'agrément\n  - **Réouverture** : visite PMI préalable obligatoire\n- **DDETSPP** : information si activité associée (restauration, ACM périscolaire)\n- **CAF** : information **immédiate** + impact sur la PSU à anticiper\n  - **PSU** ne peut pas couvrir les enfants pendant fermeture (logique)\n  - **Compensation possible** : selon politique CAF départementale, parfois maintien partiel sur frais fixes\n- **Familles** : information **2-3 mois avant** + propositions de relais (autres EAJE, assistante maternelle, RPE)\n- **Salarié·es et CSE** (≥ 11 salariés) : information préalable + consultation CSE\n\n**B. Information aux familles** :\n- **Lettre type** envoyée 2-3 mois avant\n- **Réunion d'information** parents (visio ou présentiel)\n- **Solutions de relais** :\n  - Autres EAJE du territoire (mutualisation)\n  - Assistantes maternelles agréées (RPE pour orientation)\n  - Garde à domicile partagée\n  - Halte-garderie temporaire\n- **Liste de familles à privilégier** lors de la réouverture (ancienneté, fratrie)\n\n**3. ACTIVITÉ PARTIELLE (chômage technique)** :\n\n- **Cadre** : Code du travail L5122-1 et suivants\n- **Objectif** : éviter les licenciements en cas de réduction temporaire de l'activité\n- **Demande** : à effectuer **AVANT le démarrage** sur **activitepartielle.emploi.gouv.fr**\n- **Procédure** :\n  1. **Évaluation** des heures de fermeture / réduction\n  2. **Consultation CSE** (≥ 11 salariés) avec avis motivé\n  3. **Demande en ligne** sur la plateforme (DREETS instruit en 15 jours)\n  4. **Décision** : accord ou refus motivé\n  5. **Application** : salarié·es au chômage partiel pendant la fermeture\n  6. **Reprise** : retour normal à la réouverture\n- **Indemnisation salarié·e** :\n  - **Maintien du salaire à 70 % du brut** au minimum (convention CCN ALISFA peut prévoir 100 %)\n  - **Plancher** : SMIC horaire (~ 8,03 €/h en 2026)\n- **Indemnisation employeur** :\n  - **Allocation État** : 60 % du salaire brut horaire (jusqu'à 4,5 SMIC)\n  - **Reste à charge employeur** : 10 % du brut salarié (différence 70 % - 60 %)\n  - **Si 100 % maintenu** : reste à charge plus élevé (40 %)\n\n**4. FNE-FORMATION (formation pendant baisse d'activité)** :\n\n- **Cadre** : dispositif État (DGEFP) destiné aux salarié·es en activité partielle ou secteur en mutation\n- **Avantage majeur** : **100 % du salaire maintenu** pendant la formation (vs 70 % activité partielle classique)\n- **Conditions** :\n  - Structure en activité partielle (ou secteur en mutation reconnu)\n  - Formation Qualiopi (organisme habilité)\n  - Modules pertinents pour la reprise (compétences métiers, numérique, sécurité, etc.)\n- **Financement** :\n  - **OPCO Uniformation** + **État** (taux variable selon les programmes)\n  - **Salaire 100 %** = pris en charge à 100 % par OPCO + État\n  - **Coût formation** : pris en charge OPCO\n- **Procédure** :\n  1. Demande FNE-Formation à OPCO Uniformation\n  2. Validation projet pédagogique\n  3. Démarrage formation (présentiel ou distanciel)\n  4. Salarié·e en formation = salaire maintenu 100 %\n  5. Bilan en fin de période\n- **Durée typique** : 1-3 mois pendant la période de fermeture\n\n**5. EXEMPLE COMPLET — Rénovation EAJE 3 mois** :\n\n**Contexte** : EAJE 30 places, équipe 12 salarié·es, fermeture 3 mois pour mise aux normes accessibilité.\n\n**Plan d'actions** :\n\n**Phase 1 — Préparation (3-4 mois avant)** :\n- Diagnostic technique des travaux\n- Devis entreprise BTP\n- Identification du financement travaux (CAF, CD, fonds propres)\n- Information PMI\n- Information CAF\n- Information familles\n- Recherche solutions relais\n- Consultation CSE\n- Demande activité partielle DREETS\n- Demande FNE-Formation OPCO Uniformation\n\n**Phase 2 — Pendant la fermeture (3 mois)** :\n- Mois 1-2 : Travaux\n- Mois 1 : 6 salarié·es en FNE-Formation (CAP AEPE recyclage, RSAI mise à jour, gestes 1ers secours)\n- Mois 2 : 6 autres salarié·es en FNE-Formation\n- Mois 3 : Activité partielle (50 % chacun) + préparation réouverture\n\n**Phase 3 — Réouverture** :\n- Visite PMI\n- Communication familles + médias locaux\n- Reprise progressive (semaine 1 : 50 %, semaine 2 : 80 %, semaine 3 : 100 %)\n- Bilan satisfaction familles\n\n**Coût total estimatif** :\n- **Activité partielle** : reste à charge employeur ~ 8 000 € sur 1 mois (12 salarié·es × 1 mois × 10 % du brut)\n- **FNE-Formation** : **0 €** pour la structure (financement intégral)\n- **Fonds propres + CAF + CD** : travaux selon devis\n- **Avantages indirects** : équipe formée, mises à jour réglementaires intégrées",
+        "plus_formation": "**Bonus formation pendant la fermeture** :\n\n**Modules pertinents pour EAJE** :\n- **RSAI** (Référent Santé Accueil Inclusif) : formation/recyclage 14h\n- **CAP AEPE** : recyclage / VAE\n- **DE EJE** : VAE pour EJE expérimenté·es non-diplômé·es\n- **Bientraitance** et **prévention maltraitance**\n- **Communication parents** difficiles\n- **Gestion du stress et burn-out**\n- **HACCP** (recyclage)\n- **Bénévolat et gouvernance** (utile pour les cadres)\n- **Numérique** (logiciel métier petite enfance, dossier pédagogique numérique)\n- **Inclusion handicap**\n\n**Avantages stratégiques de la fermeture programmée** :\n1. **Mise à niveau** des compétences\n2. **Renforcement** de la cohésion d'équipe\n3. **Modernisation** des locaux et process\n4. **Communication** positive sur la modernisation\n5. **Conformité réglementaire** sécurisée pour 5-10 ans\n\n**Risques à anticiper** :\n- **Perte temporaire de PSU CAF** (ressources)\n- **Risque familles** : départ vers d'autres EAJE ou assistantes maternelles\n- **Démotivation équipe** si information mal communiquée\n- **Délais travaux** : prévoir marges (1 mois supplémentaire en réserve)\n- **Conformité réouverture** : vigilance check-list complète avant accueil enfants",
+        "obligations_formation": "Pas d'obligation. La fermeture temporaire est un évènement, pas une formation.",
+        "accompagnement_obligatoire": "**PMI** : visite préalable et de réouverture obligatoire. **CAF** : information et coordination PSU. **DREETS** : instruction activité partielle. **CSE** (≥ 11 salariés) : consultation préalable. **OPCO Uniformation** : appui FNE-Formation et plan de développement compétences.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **modalités d'activité partielle** sont stables depuis la réforme COVID 2020-2022 (fixation des taux). **FNE-Formation** est un dispositif **récurrent** mais avec **modalités évolutives** selon les programmes en cours. Vérifier sur **travail-emploi.gouv.fr** et **uniformation.fr** les conditions précises pour 2026. **Vigilance** :\n- **Demande activité partielle** : doit être validée **AVANT le début de la fermeture** (sinon refus)\n- **Information PMI** : 2 mois avant minimum (vérifier exigence départementale)\n- **CAF** : la PSU est calculée sur la **présence réelle** des enfants — fermeture = perte de PSU\n- **Conventions CAF** parfois prévoient des compensations en cas de travaux décidés en concertation\n- **Familles** : risque de départ définitif si l'information est mal gérée — investir dans la communication\n- **Réouverture** : visite PMI préalable **obligatoire** + dossier de conformité",
+        "sources": [
+          "Code du travail — articles L5122-1 à L5122-7 (activité partielle)",
+          "Code de l'action sociale et des familles — articles R2324-25 et suivants",
+          "Décret n° 2020-325 du 25 mars 2020 (activité partielle)",
+          "Convention CAF Prestation de Service Unique (PSU)",
+          "DGEFP — instructions FNE-Formation 2026"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Activité partielle (chômage technique)",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F35147",
+            "type": "officiel"
+          },
+          {
+            "titre": "Activité partielle — plateforme officielle",
+            "url": "https://activitepartielle.emploi.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — FNE-Formation",
+            "url": "https://travail-emploi.gouv.fr/emploi-et-insertion/accompagnement-des-mutations-economiques",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail Activité partielle L5122",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000020939116/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ALISFA — gestion fermeture temporaire EAJE",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour autorisation de fermeture > 30 jours et plan de réouverture, contacter PMI + CAF + DREETS départementale.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L5122 + Code action sociale R2324"
+      }
+    },
+
+    {
+      "id": "int-formation-benevoles",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment financer et organiser la formation des bénévoles dans une structure ALISFA ?",
+      "mots_cles": [
+        "formation bénévoles",
+        "FDVA Fonds Développement Vie Associative",
+        "compte engagement citoyen CEC",
+        "CFGA gestion association",
+        "formation administrateurs",
+        "FONJEP",
+        "ANIMA programme",
+        "centres sociaux fédération"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL", "ACM"],
+      "intention_directeur": "former_benevoles",
+      "reponse": {
+        "synthese": "**3 dispositifs principaux** pour financer la formation des bénévoles ALISFA : (1) **FDVA** (Fonds pour le Développement de la Vie Associative) — subvention État aux associations, **3 000 à 8 000 €/an** typiques pour formations bénévoles, (2) **Compte d'Engagement Citoyen (CEC)** — bénévoles cumulent jusqu'à **240 €/an** sur leur CPF pour leurs formations personnelles, (3) **Programmes spécifiques branches** (ALISFA, FCSF, FONJEP) ou réseaux fédéraux (Centres sociaux de France, Mouvement Associatif). **Bonus bénévole engagé** : reconnaissance du temps bénévole = avantage fiscal pour l'association + droits CPF pour la personne.",
+        "fondement_legal": "**Loi n° 2017-86 du 27 janvier 2017** (création du Compte d'Engagement Citoyen — CEC) — **Décret n° 2018-606 du 12 juillet 2018** (FDVA) — **Code du travail** articles **L5151-7 et suivants** (CEC) — **Loi du 1er juillet 1901** sur les associations (cadre général).",
+        "minimum_legal": "**Cadre de la formation des bénévoles dans une structure ALISFA** :\n\n**1. PROFILS DE BÉNÉVOLES À FORMER** :\n- **Administrateurs** (CA, bureau) : président·e, trésorier·e, secrétaire\n- **Bénévoles d'animation** : encadrement d'activités, ateliers, sorties\n- **Bénévoles de soutien** : accueil, transport, logistique, aide au devoir\n- **Bénévoles thématiques** : médiation numérique, soutien parentalité, alphabétisation\n- **Bénévoles d'engagement long** : référent·es, coordinateur·trices d'équipe\n\n**2. DISPOSITIF 1 — FDVA (Fonds pour le Développement de la Vie Associative)** :\n\n**Subvention État** géré par les **Préfectures** (FDVA 1 = formation, FDVA 2 = projets innovants).\n\n- **Cible** : associations loi 1901 ou reconnues d'intérêt général\n- **Toutes les structures ALISFA** sont éligibles\n- **Plafond annuel** : **3 000 à 8 000 €** typique selon la taille et le projet (jusqu'à 15 000 € parfois pour grosses structures)\n- **Domaines éligibles** :\n  - **Formation administrateurs** (CFGA, gestion, comptabilité associative, droit)\n  - **Formation bénévoles** d'animation (sécurité, posture, méthodes)\n  - **Formations sectorielles** (parentalité, médiation, animation socio-éducative)\n- **Procédure** :\n  - **Appel à projets annuel** (printemps généralement)\n  - Plateforme **Le Compte Asso** (lecompteasso.associations.gouv.fr)\n  - Dépôt avec budget prévisionnel + projet pédagogique + bilan année N-1\n  - **Délai d'instruction** : 3-6 mois\n  - **Versement** : généralement au cours de l'année N+1\n- **Engagement** :\n  - Compte rendu d'activité l'année suivante\n  - Liste des bénévoles formés\n  - Justificatifs des actions\n\n**3. DISPOSITIF 2 — Compte d'Engagement Citoyen (CEC)** :\n\n**Source de droits CPF** issue de l'engagement bénévole personnel (et non subvention à l'association).\n\n- **Cible** : **bénévoles personnellement** (pas la structure)\n- **Bénéfice** : **240 € par an** crédités sur le **CPF personnel** du bénévole\n- **Plafond** : **5 760 € total** (24 ans cumulés théoriques)\n- **Conditions de validation** :\n  - **Bénévolat associatif d'engagement** = 200 h annuelles minimum dans une association d'intérêt général ou reconnue d'utilité publique\n  - Dont **100 h dans la même association** (dont l'association ALISFA d'accueil, si reconnue)\n  - **Auto-déclaration** annuelle sur Mon Compte Activité\n  - **Validation par le président·e ou le ou la trésorier·e** de l'association\n\n**Avantages pour le bénévole** :\n- **240 € de droits CPF** par an utilisables pour SES formations personnelles (professionnelles ou citoyennes)\n- **Reconnaissance** de l'engagement\n- **Mobilité** : peut servir à se réorienter professionnellement\n\n**Avantages pour l'association** :\n- **Fidélisation** des bénévoles engagés\n- **Reconnaissance institutionnelle**\n- **Communication** positive (« nos bénévoles cumulent des droits CPF »)\n\n**4. DISPOSITIF 3 — Programmes spécifiques** :\n\n**A. CFGA (Certificat de Formation à la Gestion Associative)** :\n- **Programme** : formation diplômante 30 h pour administrateurs et trésoriers\n- **Délivré** par **Le Mouvement Associatif** régional ou autres organismes habilités\n- **Coût** : **300-600 €** pour le bénévole, **subventionnable FDVA**\n- **Modules** : statuts, AG, fiscalité, comptabilité, droit social, communication, gouvernance\n- **Reconnu** comme certification niveau 4 (Bac)\n\n**B. Formations Centres Sociaux de France (FCSF)** :\n- **Université d'Été** annuelle (4-5 jours juillet)\n- **Modules régionaux** par les fédérations départementales\n- **Tarifs préférentiels** pour les associations adhérentes\n- **Sujets** : projet social, démocratie participative, médiation, plaidoyer\n\n**C. Programme ALISFA / FONJEP** :\n- **Formations cadres bénévoles** régionales\n- **Tarifs réduits** pour adhérents\n- Sujets : direction associative, GPEC, politique de la ville, partenariats\n\n**D. Formations spécifiques par thématique** :\n- **Parentalité** : REAAP, REPER, École des Parents et des Éducateurs (EPE)\n- **Numérique** : Web@cadémie, Hub Numérique territorial\n- **Animation** : CEMEA, Léo Lagrange, Francas, FCPE, JPA\n- **Petite enfance** : Mouvement ATD Quart-Monde, Caf locales\n\n**E. CAF — Plans départementaux Animation Vie Sociale (AVS)** :\n- Plan annuel de formation des bénévoles centres sociaux et EVS\n- Souvent gratuit ou très subventionné\n- Sujets : agrément CAF, projet social, démocratie participative, soutien parentalité\n\n**5. CADRE FISCAL — Avantage fiscal pour l'association** :\n\n**Reconnaissance du temps bénévole en don** :\n- L'association peut **valoriser le temps bénévole** comme un don en nature\n- Ex. 1 000 h bénévoles × 15 €/h = 15 000 € **valorisés en compte de résultat**\n- **Avantage** : présentation aux partenaires de la mobilisation réelle de la structure\n- **Limite** : pas un don à un tiers, mais un don à soi-même → **pas d'impact fiscal direct** pour les bénévoles\n\n**Avantages fiscaux pour bénévoles individuels** :\n- **Frais engagés non remboursés** : déductibles à hauteur de **66 %** dans la déclaration d'impôt (formulaire 2042 RICI)\n- **Plafond** : 20 % du revenu imposable\n- **Conditions** : reçus / justificatifs émis par l'association\n- **Exemple** : un bénévole qui paie 200 € de transport non remboursé peut récupérer 132 € sur ses impôts (s'il déclare et que l'association émet le reçu)\n\n**6. ORGANISATION DE LA FORMATION DES BÉNÉVOLES — BONNES PRATIQUES** :\n\n**Étape 1 — Diagnostic des besoins** :\n- Réunion avec le bureau / CA\n- Questionnaire aux bénévoles (anonyme)\n- Entretien avec les bénévoles d'engagement (≥ 100 h/an)\n\n**Étape 2 — Plan annuel** :\n- **2-4 sessions** par an typiquement\n- Mix de formats : journées entières, soirées, week-ends, distanciel\n- **Calendrier** anticipé (souvent 6 mois à l'avance)\n\n**Étape 3 — Sourcing** :\n- **FDVA** + **CEC bénévoles** + **CAF** + **fédérations** + **catalogues partenaires**\n- Demander à plusieurs organismes pour comparer\n\n**Étape 4 — Communication** :\n- **Info systématique** dans la newsletter, les AG, les réunions de bureau\n- **Suivi** : tableau de bord des bénévoles formés\n- **Reconnaissance** : mention dans le rapport d'activité, AG, communication externe\n\n**Étape 5 — Bilan** :\n- **Évaluation** post-formation (questionnaire qualitatif)\n- **Suivi à 6 mois** : applications concrètes\n- **Retour aux financeurs** (FDVA notamment)",
+        "plus_formation": "**Stratégies pour structures ALISFA** :\n\n**Stratégie 1 — Formation collective des administrateurs** :\n- **CFGA** pour 2-3 administrateurs/an = renouvellement progressif des compétences gouvernance\n- Coût : 1 500-2 000 €/an, financé FDVA\n- ROI : structure plus solide juridiquement et financièrement\n\n**Stratégie 2 — Mutualisation inter-associative** :\n- **Plateforme territoriale** (avec d'autres associations ALISFA, ESS) pour formations partagées\n- Économie d'échelle : 50 % d'économie sur le coût pédagogique\n- Sujets : RGPD, comptabilité, communication, médiation, parentalité\n\n**Stratégie 3 — Bénévoles d'engagement avec CEC** :\n- **Identifier 5-10 bénévoles d'engagement** (≥ 200 h/an)\n- Aide au remplissage de la déclaration CEC (Mon Compte Activité)\n- **Reconnaissance** : avantage CPF + valorisation interne\n- Communication : « nos bénévoles cumulent des droits CPF grâce à leur engagement »\n\n**Stratégie 4 — Programme jeunes bénévoles** :\n- **Service Civique** (10 h/sem en moyenne, indemnité État)\n- **Junior Association** : engagement formalisé pour les 11-18 ans\n- **Volontariat international** (européen, de solidarité)\n- **Engagement Service Civique + formation** = passerelle vers le secteur ESS\n\n**Stratégie 5 — Communication interne** :\n- **Livret d'accueil bénévole** : présentation des dispositifs CEC, FDVA, formations\n- **Tableau d'affichage** : prochaines formations\n- **Référent bénévolat** dans la structure (RH ou direction)\n- **Bilan annuel** : nombre de bénévoles formés, droits CPF cumulés, formations valorisées\n\n**Erreurs à éviter** :\n1. **Oublier de déposer le dossier FDVA** dans les délais (souvent printemps)\n2. **Ne pas valider le CEC** des bénévoles engagés (oubli courant)\n3. **Confondre formation salariés vs bénévoles** : sources de financement différentes\n4. **Sous-estimer le temps bénévole** : valorisation comptable utile pour la communication\n5. **Ignorer les fédérations** : ressources et formations souvent disponibles à tarif réduit",
+        "obligations_formation": "Aucune obligation pour les bénévoles. La formation est volontaire mais reconnue par CEC et FDVA.",
+        "accompagnement_obligatoire": "**Référent bénévolat** dans la structure recommandé. **Compte Asso** créé pour la structure (lecompteasso.associations.gouv.fr). **Liaison** avec la fédération régionale ALISFA / centres sociaux pour mutualisation.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **modalités FDVA et CEC** sont stables. **Vigilance** :\n- **FDVA** : appel à projets **annuel** — manquer la fenêtre = manquer la subvention de l'année\n- **CEC** : **auto-déclaration annuelle** par le bénévole + **validation par président·e ou trésorier·e**\n- **Plafond CEC** : 240 €/an cumulables sur 5 760 € total (24 ans)\n- **Distinguer formation bénévoles vs formation salariés** : sources de financement différentes (FDVA pour bénévoles, OPCO pour salariés)\n- **Bénévolat d'engagement** : 200 h dont 100 h dans la même association (vérifier comptabilisation)\n- **Reçu fiscal** pour bénévoles : émission rigoureuse (justificatifs, montants, dates) pour avantage fiscal individuel\n- En cas de **doute** : contacter le **Mouvement Associatif** régional pour conseil",
+        "sources": [
+          "Loi n° 2017-86 du 27 janvier 2017 (création CEC)",
+          "Décret n° 2018-606 du 12 juillet 2018 (FDVA)",
+          "Code du travail — articles L5151-7 et suivants (CEC)",
+          "Loi du 1er juillet 1901 — associations",
+          "Le Compte Asso — plateforme officielle",
+          "Mouvement Associatif — ressources gouvernance"
+        ],
+        "liens": [
+          {
+            "titre": "Le Compte Asso — plateforme officielle",
+            "url": "https://lecompteasso.associations.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Compte d'Engagement Citoyen (CEC)",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F34070",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mon Compte Activité — déclaration CEC",
+            "url": "https://www.moncompteactivite.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Associations.gouv — FDVA et soutien à la vie associative",
+            "url": "https://www.associations.gouv.fr/le-fonds-pour-le-developpement-de-la-vie-associative-fdva.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mouvement Associatif — formations et ressources",
+            "url": "https://lemouvementassociatif.org",
+            "type": "officiel"
+          },
+          {
+            "titre": "Centres sociaux de France — formations bénévoles",
+            "url": "https://www.centres-sociaux.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi 2017-86 + Décret 2018-606"
+      }
+    }
+
+  ]
+}
