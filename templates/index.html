@@ -1599,8 +1599,19 @@ textarea.input-field{display:block}
   /* 4. Bulles : pas d'arrière-plan coloré (économie encre + lisibilité N&B) */
   .chat-area .message {
     page-break-inside: avoid;
+    break-inside: avoid;
     margin-bottom: 12px !important;
     max-width: 100% !important;
+  }
+  /* Garder la question utilisateur attachée à sa réponse — évite que Q1
+     soit en bas de page 1 et R1 en haut de page 2. */
+  .chat-area .msg-user {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  .chat-area .msg-bot {
+    page-break-before: avoid;
+    break-before: avoid;
   }
   .chat-area .msg-bubble {
     border: 1px solid #ddd !important;
@@ -5989,6 +6000,9 @@ async function _trySendStream(body, apiText, historyText) {
   if (body.function && String(body.function).indexOf('wizard_') === 0) return false;
 
   removeTyping();
+  // Flag global : suspend le hide-on-scroll pendant le stream (sinon
+  // auto-scroll = oscillation du bandeau). Cleared dans le finally-like ci-dessous.
+  window.__streaming = true;
   // Bulle progressive : texte brut (pre-wrap) le temps du stream, remplacée
   // par le rendu markdown + badges au done event.
   const tempDiv = addMsg('', false);
@@ -6008,14 +6022,17 @@ async function _trySendStream(body, apiText, historyText) {
     });
   } catch(e) {
     if (tempDiv) tempDiv.remove();
+    window.__streaming = false;
     return false;
   }
   if (!res.ok) {
     if (tempDiv) tempDiv.remove();
+    window.__streaming = false;
     return false;
   }
   if (!res.body || !res.body.getReader) {
     if (tempDiv) tempDiv.remove();
+    window.__streaming = false;
     return false;
   }
 
@@ -6057,6 +6074,7 @@ async function _trySendStream(body, apiText, historyText) {
   }
 
   if (tempDiv) tempDiv.remove();
+  window.__streaming = false;
 
   if (streamError || !finalPayload) {
     return false;
@@ -8037,6 +8055,14 @@ document.addEventListener('DOMContentLoaded', function(){
   const MIN_SCROLL = 80;  // ne pas masquer si on est tout en haut
 
   function onScroll() {
+    // Pendant un stream SSE, l'auto-scroll fait bouger scrollTop à chaque
+    // chunk → le toggle hide-on-scroll oscille (scintillement du bandeau).
+    // On suspend la logique tant que le streaming est actif ; le scroll
+    // handler reprend normalement à la fin (window.__streaming = false).
+    if (window.__streaming === true) {
+      ticking = false;
+      return;
+    }
     const y = chat.scrollTop;
     const dy = y - lastY;
     if (y < MIN_SCROLL) {
