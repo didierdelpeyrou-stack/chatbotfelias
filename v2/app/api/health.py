@@ -12,10 +12,11 @@ from __future__ import annotations
 
 from datetime import UTC, datetime
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Request, Response
 from pydantic import BaseModel
 
 from app import __version__
+from app.metrics.prometheus import render_metrics
 from app.settings import get_settings
 
 router = APIRouter(tags=["health"])
@@ -78,3 +79,13 @@ async def readyz(request: Request) -> ReadinessResponse:
         environment=settings.environment,
         checks=checks,
     )
+
+
+@router.get("/metrics", summary="Prometheus metrics (text/plain)")
+async def metrics() -> Response:
+    """Expose les 5 métriques Prometheus V2 en format text/plain.
+
+    Scraper Prometheus côté infra → indiquer ce path dans `prometheus.yml`.
+    """
+    body, content_type = render_metrics()
+    return Response(content=body, media_type=content_type)

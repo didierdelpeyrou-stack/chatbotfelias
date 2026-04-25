@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import logging
+import time
 from collections.abc import AsyncIterator
 from typing import Any, Literal
 
@@ -25,6 +26,12 @@ from pydantic import BaseModel, Field
 from app.llm.claude import ClaudeError
 from app.llm.context import build_rag_context
 from app.llm.prompts import build_system_prompt, build_user_message
+from app.metrics.prometheus import (
+    record_claude_tokens,
+    record_latency,
+    record_rag,
+    record_request,
+)
 from app.rag.retrieval import search
 from app.settings import get_settings
 
@@ -106,6 +113,7 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
       - tests automatisés (benchmark Sprint 4)
       - clients qui ne supportent pas SSE
     """
+    t_start = time.perf_counter()
     kb_store = getattr(request.app.state, "kb_store", None)
     claude = getattr(request.app.state, "claude_client", None)
     if kb_store is None:
@@ -116,6 +124,7 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
     try:
         kb_dict, kb_index = await kb_store.get(req.module)
     except KeyError:
+        record_request(module=req.module, status="error")
         raise HTTPException(404, f"Module inconnu: {req.module}") from None
 
     report = search(
@@ -127,12 +136,20 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
         "[rag] module=%s top_score=%.2f hors_corpus=%s n_results=%d",
         req.module, report.best_score, report.hors_corpus, len(report.results),
     )
+    # Sprint 3.3 : metrics Prometheus du retrieval
+    record_rag(
+        module=req.module,
+        best_score=report.best_score,
+        hors_corpus=report.hors_corpus,
+    )
 
     confidence = _confidence_payload(report)
     sources = _sources_payload(report)
 
     # 2. Hors corpus → réponse courte, pas d'appel Claude (économie tokens)
     if report.hors_corpus:
+        record_request(module=req.module, status="hors_corpus")
+        record_latency(module=req.module, path="/api/ask", seconds=time.perf_counter() - t_start)
         return AskResponse(
             answer=FALLBACK_HORS_CORPUS_TEXT,
             module=req.module,
@@ -144,6 +161,7 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
 
     # 3. Cas pertinent : construction du contexte + appel Claude
     if claude is None:
+        record_request(module=req.module, status="error")
         raise HTTPException(503, "ClaudeClient non initialisé (clé API manquante ?)")
 
     system_prompt = build_system_prompt(req.module)
@@ -154,7 +172,19 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
         response = await claude.complete(system=system_prompt, user=user_msg)
     except ClaudeError as e:
         logger.error("[claude] %s: %s", type(e).__name__, e)
+        record_request(module=req.module, status="error")
+        record_latency(module=req.module, path="/api/ask", seconds=time.perf_counter() - t_start)
         raise HTTPException(e.http_status, str(e)) from e
+
+    # Sprint 3.3 : metrics Prometheus tokens + latence + status
+    record_claude_tokens(
+        input_tokens=response.input_tokens,
+        output_tokens=response.output_tokens,
+        cache_creation_tokens=response.cache_creation_tokens,
+        cache_read_tokens=response.cache_read_tokens,
+    )
+    record_request(module=req.module, status="ok")
+    record_latency(module=req.module, path="/api/ask", seconds=time.perf_counter() - t_start)
 
     return AskResponse(
         answer=response.text,
