@@ -1,0 +1,435 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F6 lot I4 (extension) — Intentions directeur Pilotage stratégique (6 articles)",
+    "lot": "I4/I4 (extension F6)",
+    "topic": "Embauche CDD remplacement, licenciement inaptitude, plan pluriannuel compétences, transmission direction, équilibre économique EAJE, signalement maltraitance",
+    "generated_at": "2026-04-25",
+    "source_principale": "Code travail + CCN ALISFA + Code action sociale + CAF + HAS + ARS",
+    "theme_target": "intentions_directeur"
+  },
+
+  "articles": [
+
+    {
+      "id": "int-embauche-cdd-remplacement",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Ai-je le droit d'embaucher en CDD pour remplacer un·e salarié·e absent·e (EJE, animateur, etc.) ?",
+      "mots_cles": [
+        "CDD remplacement", "absence salarié",
+        "Code travail L1242", "motif CDD",
+        "remplacement maternité", "arrêt maladie",
+        "fixation salaire CCN ALISFA",
+        "minimum conventionnel",
+        "indemnité fin contrat 10%"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "embaucher_cdd_remplacement",
+      "reponse": {
+        "synthese": "**Oui**, le CDD pour remplacement est un cas de recours **encadré et autorisé** par le Code du travail (article **L1242-2**). Motifs admis : remplacement d'un·e salarié·e absent·e (maladie, maternité, paternité, congé parental, formation, accident, congés, etc.) ou en attente d'arrivée d'un·e remplaçant·e en CDI. **Durée** : jusqu'au retour du salarié remplacé (terme imprécis) ou date fixe (terme précis). **Salaire** : **minimum conventionnel ALISFA** au moins équivalent au poste remplacé. **Indemnité fin de contrat** : **10 %** du brut total (sauf cas exclus : saisonnier, étudiant, etc.). Vigilance EAJE : casier B2 obligatoire avant prise de poste.",
+        "fondement_legal": "**Code du travail** — article **L1242-2** (cas de recours CDD) — **L1242-7** (durée maximale) — **L1242-8** (renouvellement) — **L1243-8** (indemnité fin de contrat) — **CCN ALISFA** (grille de salaires minimums conventionnels par classification).",
+        "minimum_legal": "**Cadre du CDD pour remplacement** :\n\n**1. Motifs autorisés (article L1242-2)** :\n- **Remplacement d'un·e salarié·e absent·e** : maladie, maternité, paternité, congé parental, formation, accident, congés payés, congé sans solde, etc.\n- **Attente d'arrivée d'un·e remplaçant·e en CDI** (recrutement en cours)\n- **Remplacement d'un·e salarié·e passé·e provisoirement à temps partiel** (réduction temporaire de son temps de travail)\n- **Surcroît temporaire d'activité** (motif distinct, voir article connexe)\n\n**2. Durée du CDD remplacement** :\n\n**Terme imprécis** (le plus fréquent pour remplacement) :\n- **Durée minimale** prévue au contrat (ex. « jusqu'au retour de Mme X, au plus tard le 31/12/2026 »)\n- **Pas de durée maximale légale** spécifique : prend fin au retour effectif du salarié remplacé\n- **Durée minimale** doit être prévue mais peut être très courte (ex. 1 jour minimum si remplacement court)\n\n**Terme précis** :\n- **Durée maximale** : 18 mois (renouvellement compris)\n- Cas dérogatoires : 24 mois (remplacement avant départ retraite, attente CDI), 36 mois (jeunes en formation continue)\n- Renouvellement : maximum 2 fois\n\n**3. Période d'essai (article L1242-10)** :\n- 1 jour par semaine de contrat (durée minimale prévue au contrat)\n- Plafonnée à **2 semaines** si CDD ≤ 6 mois\n- Plafonnée à **1 mois** si CDD > 6 mois\n\n**4. Rémunération** :\n- **Au moins équivalente** au minimum conventionnel ALISFA pour le poste\n- **Pas inférieure** à celle du salarié remplacé pour des fonctions identiques\n- **Mêmes droits** que les salariés en CDI : tickets restaurant, prime d'ancienneté (si > 6 mois), formation, congés payés\n\n**5. Indemnité de fin de contrat (IFC, article L1243-8)** :\n- **10 % du salaire brut total** versé pendant le contrat\n- **Versée au terme** du contrat\n- **Exclusions** :\n  - CDD saisonnier ou d'usage\n  - CDD étudiant pendant les vacances scolaires\n  - CDD aidé / contrat de professionnalisation / apprentissage\n  - CDD requalifiés en CDI\n  - **Refus de proposition CDI** par le salarié à l'issue du CDD (au même poste, salaire ≥)\n\n**6. Procédure d'embauche en CDD** :\n\n**Étape 1 — Sourcing** :\n- **Vivier interne** : alternants, anciens salariés, candidatures spontanées\n- **France Travail** (offre d'emploi en ligne)\n- **Plateformes spécialisées** ALISFA (alisfa.fr/emploi, FCSF, jobsocial, etc.)\n- **Réseau** : fédération régionale, autres EAJE/centres sociaux du territoire\n- **Agences spécialisées** intérim social : Adecco Médical, Manpower Social, Domino RH (pour remplacements urgents)\n\n**Étape 2 — Vérifications obligatoires** :\n- **Diplôme** (notamment pour fonctions réglementaires : RSAI, EJE, BAFD, BPJEPS, etc.)\n- **Casier judiciaire B2** (obligation EAJE et ACM, article **L131-2 CASF**)\n- **Visite médicale d'embauche** dans les **2 mois** suivant l'embauche (médecin du travail)\n- **Pour les étrangers** : autorisation de travail (titre de séjour valide)\n- **Vérification employeurs précédents** : références, attestations\n\n**Étape 3 — Contrat écrit obligatoire** :\n- **Doit être signé dans les 2 jours ouvrables** suivant l'embauche\n- **Mentions obligatoires** :\n  - Motif du recours (remplacement, nom du remplacé, fonction)\n  - Date de début (et fin si terme précis)\n  - Durée minimale (si terme imprécis)\n  - Poste / classification CCN ALISFA\n  - Rémunération brute mensuelle\n  - Période d'essai\n  - Convention collective applicable (ALISFA)\n  - Caisse de retraite complémentaire et prévoyance\n  - Durée du congé annuel (5 semaines)\n\n**Étape 4 — Déclarations** :\n- **DPAE** (Déclaration Préalable À l'Embauche) à l'URSSAF avant la prise de poste (8 jours d'avance maximum)\n- **DSN** (Déclaration Sociale Nominative) mensuelle\n- **Adhésion mutuelle** d'entreprise obligatoire\n\n**7. CDD multiples sur même poste — vigilance** :\n- **Délai de carence** entre 2 CDD sur même poste = **1/3 de la durée du CDD précédent** (sauf accord d'entreprise)\n- **Risque de requalification en CDI** si :\n  - Pas de motif valide ou motif inexact\n  - Renouvellement abusif\n  - Cumul CDD sur poste permanent\n- **Sanction** : prud'hommes + indemnité minimale 1 mois de salaire + dommages-intérêts",
+        "plus_formation": "**Cas typiques en structure ALISFA** :\n\n**Cas 1 — Remplacement maternité EJE en EAJE (4-6 mois)** :\n- Motif : remplacement de Mme X, EJE, congé maternité du 01/05/2026 au 30/09/2026\n- Profil : DE EJE diplômé·e (obligation poste réglementaire)\n- Salaire : minimum conventionnel ALISFA EJE = ~ 2 200 €/mois brut\n- IFC : 10 % de 11 000 € (5 mois) = 1 100 €\n- **Astuce** : couplage **alternant·e DE EJE** sur la même période = anticipation départ retraite ou turnover\n\n**Cas 2 — Remplacement arrêt maladie longue (2-3 mois)** :\n- Motif : remplacement de M. Y, animateur, arrêt maladie du 15/04/2026, terme imprécis\n- Profil : BPJEPS animateur (selon poste)\n- Salaire : minimum conventionnel ALISFA animation\n- IFC : 10 % du brut\n- **Astuce** : intégrer la possibilité d'**embauche définitive** si l'arrêt se prolonge ou inaptitude (cf. article `int-licenciement-inaptitude`)\n\n**Cas 3 — Attente arrivée CDI (1 mois)** :\n- Motif : remplacement en attente d'arrivée de Mme Z (CDI signé, démarrage 01/06/2026)\n- Profil : profil similaire au futur titulaire\n- Salaire : minimum conventionnel\n- **Vigilance** : terme précis car date d'arrivée connue ; ne pas confondre avec « surcroît d'activité »\n\n**Cas 4 — Remplacement formation longue salarié (3-6 mois)** :\n- Motif : remplacement de Mme A en formation DEJEPS via Pro-A\n- Profil : niveau de qualification proche\n- Salaire : minimum conventionnel\n- **Avantages** : moins coûteux que professionnalisation classique (le salaire de Mme A est partiellement maintenu via Pro-A)\n\n**Erreurs fréquentes à éviter** :\n1. **Oublier le casier B2** pour EAJE / ACM : risque pénal pour l'employeur si embauche d'une personne condamnée pour atteinte aux mineurs\n2. **Ne pas formaliser le contrat dans les 2 jours** : risque de requalification CDI\n3. **Motif trop vague** : « remplacement temporaire » ne suffit pas, il faut nommer la personne et son motif d'absence\n4. **Salaire inférieur au minimum conventionnel** : le minimum CCN ALISFA s'applique, pas le SMIC seul\n5. **Renouvellement abusif** : si la même personne enchaîne 5 CDD sur 2 ans → requalification probable\n6. **Pas de visite médicale** d'embauche dans les 2 mois : risque pénal employeur",
+        "obligations_formation": "Aucune obligation directe pour l'embauche en CDD. Si fonction réglementaire (RSAI, EJE, BAFD, etc.), diplôme requis comme pour CDI.",
+        "accompagnement_obligatoire": "**Visite médicale d'embauche** dans les 2 mois (médecin du travail). **DPAE** URSSAF avant prise de poste. **Casier B2** vérifié si EAJE / ACM. **Contrat écrit signé** dans les 2 jours ouvrables. **Information CSE** (≥ 11 salariés) si pratique récurrente.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **règles CDD** (Code du travail L1242 et suivants) sont stables. **Vigilance** :\n- **Motif INEXACT ou INSUFFISANT** = cause majeure de requalification CDI aux prud'hommes\n- **Indemnité de fin de contrat 10 %** : oubli fréquent en gestion paie, vigilance bulletin de paie final\n- **Casier judiciaire B2** : obligation pénale en EAJE / ACM (article L131-2 CASF), vérification incontournable\n- **Délai de carence** entre 2 CDD : sanction = requalification\n- **Conventions collectives spécifiques** : la CCN ALISFA peut prévoir des règles plus favorables que le Code du travail (à vérifier au cas par cas)",
+        "sources": [
+          "Code du travail — article L1242-2 (cas de recours CDD)",
+          "Code du travail — articles L1242-7 et L1242-8 (durée et renouvellement)",
+          "Code du travail — article L1243-8 (indemnité fin de contrat)",
+          "Code du travail — article L1242-10 (période d'essai)",
+          "Code de l'action sociale et des familles — article L131-2 (casier B2 EAJE/ACM)",
+          "CCN ALISFA — grille de salaires minimums conventionnels"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail article L1242-2 (cas de recours CDD)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031076039/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code du travail article L1243-8 (IFC)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037383808/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Embauche en CDD",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F31196",
+            "type": "officiel"
+          },
+          {
+            "titre": "URSSAF — Déclaration Préalable À l'Embauche (DPAE)",
+            "url": "https://www.urssaf.fr/portail/home/employeur/embaucher-un-salarie/dpae.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — RH et grille de salaires",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour cas complexes (remplacement multiple, motif limite, requalification potentielle), consulter inspecteur du travail ou conseil juridique CCN ALISFA.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L1242 + CCN ALISFA"
+      }
+    },
+
+    {
+      "id": "int-licenciement-inaptitude",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment licencier un·e salarié·e pour inaptitude médicale ?",
+      "mots_cles": [
+        "licenciement inaptitude médicale",
+        "médecin du travail avis",
+        "obligation reclassement",
+        "Code travail L1226-2",
+        "indemnité licenciement",
+        "préavis non dû",
+        "AT MP origine professionnelle",
+        "indemnité doublée"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "licencier_inaptitude",
+      "reponse": {
+        "synthese": "Le **licenciement pour inaptitude médicale** est une procédure **encadrée par le Code du travail** (articles **L1226-2 à L1226-12**) déclenchée par un **avis du médecin du travail**. Cadre : (1) **étude de reclassement obligatoire** par l'employeur (sauf dispense expresse du médecin), (2) **proposition écrite** des postes adaptés, (3) **refus du salarié** ou **impossibilité de reclassement**, (4) **convocation entretien préalable**, (5) **notification du licenciement**. **Indemnités** : indemnité légale ou conventionnelle ALISFA + congés payés. **Cas AT/MP** (origine professionnelle) : indemnité **doublée** + préavis indemnisé.",
+        "fondement_legal": "**Code du travail** — articles **L1226-2 à L1226-12** (inaptitude origine non professionnelle), **L1226-10 à L1226-23** (inaptitude origine professionnelle AT/MP) — **R4624-42** (avis du médecin du travail) — **L1226-4-3** (indemnité de licenciement doublée si AT/MP).",
+        "minimum_legal": "**Cadre réglementaire du licenciement pour inaptitude** :\n\n**1. Origine de l'inaptitude — distinction fondamentale** :\n\n**Inaptitude d'origine NON PROFESSIONNELLE** :\n- Maladie, accident hors travail\n- Articles L1226-2 à L1226-9\n- Indemnité de licenciement = légale ou conventionnelle ALISFA (selon le plus favorable)\n- Préavis **NON dû** (article L1226-4)\n\n**Inaptitude d'origine PROFESSIONNELLE (AT/MP)** :\n- Accident de travail ou maladie professionnelle reconnu\n- Articles L1226-10 à L1226-23\n- Indemnité de licenciement **DOUBLÉE** (article L1226-14)\n- Préavis **indemnisé** (mais non effectué)\n- Procédure de consultation **CSE obligatoire** sur les propositions de reclassement\n\n**2. Procédure complète** :\n\n**ÉTAPE 1 — Visite médicale et avis du médecin du travail** :\n- Le médecin du travail constate l'inaptitude après **visites médicales** :\n  - **1 visite** suffit si :\n    - Le maintien dans l'emploi présente un danger immédiat\n    - Une visite a déjà eu lieu dans les 30 jours\n    - L'employeur l'a expressément demandée\n  - Sinon, **2 visites espacées de 15 jours**\n- **Avis écrit** du médecin du travail :\n  - Mention obligatoire : **inaptitude définitive** + précisions de capacités résiduelles\n  - **Dispense de reclassement** : si le médecin écrit explicitement « tout maintien dans l'emploi serait gravement préjudiciable à la santé du salarié » ou « l'état de santé du salarié fait obstacle à tout reclassement dans un emploi »\n\n**ÉTAPE 2 — Recherche de reclassement (si pas de dispense)** :\n- **Obligation de recherche LOYALE et SÉRIEUSE** par l'employeur (Cour de cassation)\n- **Périmètre** : poste compatible avec les capacités résiduelles du salarié, **dans toute la structure** (et le groupe le cas échéant)\n- **Adaptations** : aménagement du poste, du temps de travail, des horaires, mutation\n- **Consultation CSE** (≥ 11 salariés) sur les propositions de reclassement (avis simple, non bloquant)\n- **Délai** : pas de durée légale précise, mais **délai raisonnable** (généralement 1 mois)\n- **Documentation** : registre des recherches, échanges écrits avec le médecin du travail\n\n**ÉTAPE 3 — Proposition de reclassement (si possible)** :\n- **Écrite** + détaillée (poste, horaires, salaire, conditions)\n- **Délai de réponse** du salarié : raisonnable (15 jours typiquement)\n- **Refus du salarié** : ouvre la voie au licenciement\n- **Acceptation** : avenant au contrat, retour à l'emploi adapté\n\n**ÉTAPE 4 — Si pas de reclassement possible OU refus** :\n- **Convocation à l'entretien préalable** par lettre recommandée AR ou remise en main propre contre décharge\n- **Délai** : **5 jours ouvrables minimum** entre convocation et entretien\n- **Mention** : possibilité d'être assisté par un conseiller du salarié (liste à la mairie ou DREETS)\n\n**ÉTAPE 5 — Entretien préalable** :\n- **Échange contradictoire** sur les motifs du licenciement\n- **Présentation** des recherches de reclassement effectuées\n- **Possibilité** pour le salarié de présenter ses observations\n\n**ÉTAPE 6 — Notification du licenciement** :\n- Lettre recommandée AR au plus tôt **2 jours ouvrables** après l'entretien préalable\n- **Mention obligatoire** :\n  - Motif précis : « licenciement pour inaptitude médicale et impossibilité de reclassement »\n  - Origine : non professionnelle ou professionnelle (AT/MP)\n  - Recherches de reclassement effectuées\n  - Indemnités versées\n\n**ÉTAPE 7 — Sortie du salarié** :\n- **Pas de préavis effectué** (article L1226-4)\n- **Indemnité compensatrice de préavis** : NON due (sauf AT/MP)\n- **Indemnités versées** :\n  - **Indemnité légale ou conventionnelle ALISFA** de licenciement (selon le plus favorable)\n  - **Indemnité compensatrice de congés payés**\n  - **Si AT/MP** : indemnité **doublée**\n- **Documents de fin de contrat** :\n  - Solde de tout compte\n  - Certificat de travail\n  - Attestation France Travail (chômage)\n  - Reçu pour solde de tout compte\n\n**3. Indemnité légale de licenciement (article R1234-2)** :\n\n- **Calcul** :\n  - **1/4 de mois** de salaire par année d'ancienneté pour les **10 premières années**\n  - **1/3 de mois** au-delà de 10 ans\n- **Salaire de référence** : moyenne des 12 ou des 3 derniers mois (le plus favorable)\n- **Ancienneté** : prise en compte au jour du licenciement\n- **Si AT/MP** : indemnité **DOUBLÉE**\n\n**Exemple** : EJE 8 ans d'ancienneté, salaire moyen 2 400 €/mois\n- Indemnité légale = 8 × (2 400 / 4) = 4 800 €\n- Si AT/MP : 4 800 × 2 = **9 600 €**\n\n**4. Indemnité conventionnelle ALISFA** :\n- Souvent plus favorable que l'indemnité légale\n- **Vérifier la grille CCN ALISFA** (selon ancienneté, classification, motif)\n\n**5. Reprise du salaire si > 1 mois** :\n- Si **plus d'1 mois après l'avis du médecin du travail** sans licenciement ni reclassement, l'employeur DOIT **reprendre le versement du salaire** (article **L1226-4 et L1226-11**)\n- **Sanction** : versement rétroactif + dommages-intérêts possibles aux prud'hommes\n\n**6. Recours du salarié** :\n- **Contestation de l'avis** du médecin du travail : **15 jours** pour saisir le **Conseil de prud'hommes** (formation référée)\n- **Contestation du licenciement** : **12 mois** pour saisir le Conseil de prud'hommes\n- **Motifs de contestation** : recherche reclassement insuffisante, motif réel non médical, discrimination, etc.",
+        "plus_formation": "**Bonnes pratiques pour sécuriser la procédure** :\n\n**1. Anticipation** :\n- **Visites de pré-reprise** régulières en cas d'arrêt maladie long\n- **Échanges anticipés** avec le médecin du travail sur les capacités du salarié\n- **Aménagements préventifs** de poste : ergonomie, horaires, temps partiel thérapeutique\n\n**2. Documentation** :\n- **Registre détaillé** des recherches de reclassement (postes étudiés, motifs de refus, propositions, refus)\n- **Échanges écrits** avec le médecin du travail (e-mail, courrier)\n- **PV CSE** sur les propositions de reclassement\n- **Lettre du salarié** refusant les propositions (si applicable)\n\n**3. Communication interne** :\n- **Information du CSE** dès le constat d'inaptitude\n- **Discussion confidentielle** avec l'équipe (si poste collectif visible)\n- **Préparation** du remplacement (CDD, CDI, alternant·e)\n\n**4. Erreurs fréquentes à éviter** :\n1. **Pas de recherche de reclassement** sérieuse → licenciement sans cause réelle\n2. **Pas de consultation CSE** (≥ 11 salariés) sur le reclassement → nullité\n3. **Confusion non pro / AT/MP** : indemnité doublée si AT/MP, à ne pas oublier\n4. **Délai > 1 mois** après avis sans action → reprise du salaire automatique\n5. **Notification trop hâtive** (< 2 jours ouvrables après entretien) → vice de procédure\n6. **Motif imprécis** dans la lettre de licenciement → contestation gagnante\n\n**5. Coût total estimatif (cas EJE 8 ans, AT/MP, salaire 2 400 €)** :\n- Indemnité licenciement (doublée) : 9 600 €\n- Indemnité préavis (2 mois) : 4 800 €\n- Indemnité congés payés : ~ 1 200 €\n- **Total** : **~ 15 600 €**\n- Risque prud'hommes : indemnité minimale 6 mois si licenciement sans cause = **+ 14 400 €**\n\n**6. Alternatives à envisager AVANT le licenciement** :\n- **Aménagement durable** du poste (RQTH, MDPH, Agefiph)\n- **Mutation interne** vers autre poste dans la structure\n- **Mutation externe** dans une autre structure du groupe / fédération\n- **Rupture conventionnelle** (négociée, plus favorable parfois pour les deux parties)\n- **Mise à la retraite** si âge éligible et maladie longue\n- **Invalidité catégorie 2** (CPAM) si critères médicaux remplis\n\n**Outils utiles** :\n- **Conseiller·ère prud'hommes** (gratuit, liste DREETS)\n- **Médecin du travail** : interlocuteur clé tout au long\n- **Inspection du travail** : conseils gratuits sur la procédure\n- **Conseil juridique** ALISFA / fédération régionale\n- **Avocat en droit social** (pour situations complexes)",
+        "obligations_formation": "Aucune. Mais formation des managers à la prévention de l'inaptitude (RPS, ergonomie, dialogue social) fortement recommandée.",
+        "accompagnement_obligatoire": "**Médecin du travail** : interlocuteur central. **CSE** consulté sur les propositions de reclassement. **Conseiller du salarié** disponible à l'entretien préalable. **Documentation rigoureuse** de toute la procédure (preuves prud'homales).",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **règles inaptitude** sont stables depuis la **loi El Khomri 2016** et la **loi Travail 2017**. **Vigilance MAJEURE** :\n- **Distinction non pro / AT-MP** : conséquences financières considérables (indemnités doublées + préavis indemnisé pour AT/MP)\n- **Reprise du salaire à J+30** après avis : oubli fréquent et coûteux\n- **Recherche reclassement** : obligation de moyens RENFORCÉE (Cour de cassation arrêts récurrents)\n- **CSE** consultation obligatoire ≥ 11 salariés (omission = nullité de la procédure)\n- **Médecin du travail** : son avis est **opposable** à l'employeur, contestation difficile (15 jours pour saisir prud'hommes)\n- **Réglementation EAJE/ACM** : si l'inaptitude touche un·e fonction réglementaire (RSAI, EJE, directeur·trice ACM), prévoir **remplacement immédiat** pour maintien de l'agrément",
+        "sources": [
+          "Code du travail — articles L1226-2 à L1226-12 (inaptitude non pro)",
+          "Code du travail — articles L1226-10 à L1226-23 (inaptitude AT/MP)",
+          "Code du travail — article R4624-42 (avis médecin du travail)",
+          "Code du travail — article L1226-4-3 (indemnité doublée AT/MP)",
+          "Code du travail — article R1234-2 (indemnité légale licenciement)",
+          "Loi El Khomri 2016-1088 + Loi Travail 2017 — réformes inaptitude"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Inaptitude L1226-2 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Licenciement pour inaptitude",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2867",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Inaptitude médicale et licenciement",
+            "url": "https://travail-emploi.gouv.fr/sante-au-travail/suivi-de-la-sante-au-travail-22421/article/inaptitude-au-travail",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail article L1226-14 (indemnité doublée AT/MP)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037387062/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ALISFA — RH et procédures de licenciement",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "Procédure complexe et risquée juridiquement. Toujours consulter un conseil en droit social ou avocat avant la notification. Risque prud'hommes élevé en cas d'erreur procédurale.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L1226 + jurisprudence Cour de cassation"
+      }
+    },
+
+    {
+      "id": "int-plan-pluriannuel-competences",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment construire un plan de développement des compétences pluriannuel pour ma structure ALISFA ?",
+      "mots_cles": [
+        "plan développement compétences",
+        "PDC pluriannuel", "GPEC stratégique",
+        "diagnostic compétences",
+        "fiches de poste",
+        "entretiens professionnels",
+        "consultation CSE L2312-24",
+        "OPCO Uniformation EDEC"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "construire_plan_pluriannuel",
+      "reponse": {
+        "synthese": "Un **plan de développement des compétences pluriannuel (PDC 3-5 ans)** est un outil stratégique RH pour anticiper les évolutions de métiers, de compétences et de financements. **5 étapes structurantes** : (1) **diagnostic** (entretiens professionnels + GPEC + GPMP + benchmark sectoriel), (2) **cartographie** (compétences actuelles vs cibles), (3) **priorisation** (criticité, urgence, budget), (4) **budgétisation pluriannuelle** (Uniformation, CPF, alternance, FNE, EDEC), (5) **mise en œuvre + suivi** (tableau de bord). Cadre légal : **consultation annuelle CSE** obligatoire ≥ 11 salariés (article **L2312-24**). Cible : **80-90 %** des salariés formés sur la période plan, **100 %** des fonctions réglementaires à jour.",
+        "fondement_legal": "**Code du travail** — article **L6321-1** (obligation de l'employeur d'adapter à l'emploi) — **L2312-24** (consultation annuelle CSE sur les orientations stratégiques formation) — **L6315-1** (entretien professionnel tous les 2 ans) — **L2242-20** (négociation GPEC obligatoire ≥ 300 salariés).",
+        "minimum_legal": "**Cadre du Plan de Développement des Compétences (PDC) pluriannuel** :\n\n**1. Pourquoi un PDC pluriannuel ?**\n\n**Avantages** :\n- **Anticipation** : alignement avec les évolutions du secteur (numérique, démographie, réglementation)\n- **Pilotage budgétaire** : étalement des coûts sur 3-5 ans\n- **GPEC** : gestion prévisionnelle des emplois (préparation départs retraite, succession, transmission)\n- **Visibilité salarié·es** : transparence sur les opportunités\n- **Optimisation OPCO** : programmes pluriannuels (EDEC, Pro-A massive)\n- **Conformité légale** : consultation CSE annuelle facilitée\n\n**Limites** :\n- Risque de rigidité face aux évolutions imprévues\n- Nécessite révision annuelle (avenants au plan)\n- Demande un investissement initial en temps (3-6 mois pour la 1ère version)\n\n**2. ÉTAPE 1 — Diagnostic** :\n\n**Sources de données** :\n- **Entretiens professionnels** (obligatoires tous les 2 ans, article L6315-1) : aspirations, compétences, projets\n- **Bilan d'entreprise des entretiens** : synthèse anonymisée, écarts, besoins\n- **Pyramide des âges** : âges, ancienneté, départs prévus à 5 ans (retraite, mobilité)\n- **Benchmark sectoriel** : observatoire CPNEF, fédérations, alisfa.fr\n- **Audits internes** : qualité, satisfaction usagers, climat social, RPS\n- **Évolutions réglementaires** : décrets, arrêtés, lettres-circulaires CAF, réformes diplômes\n- **Évolutions technologiques** : numérique, IA, outils métiers\n- **Consultation CSE** sur les orientations\n- **Analyse de l'écosystème** : partenaires, prestataires, fournisseurs\n\n**Outils** :\n- **Cartographie des compétences actuelles** (matrice salariés × compétences)\n- **Cartographie des compétences cibles** (à 3-5 ans)\n- **GPEC ALISFA** (fiches métiers de la branche)\n- **Diagnostic Appui Conseil RH** subventionné OPCO (cf. article `int-diagnostic-gpec`)\n\n**3. ÉTAPE 2 — Cartographie écart / besoin** :\n\n**Pour chaque salarié et chaque fonction** :\n- Compétences actuelles (auto-évaluation + évaluation manager)\n- Compétences cibles (selon évolution stratégique)\n- **Écart** : compétences manquantes ou à développer\n- **Plan d'action** :\n  - Formation diplômante (DE EJE, BPJEPS, DEJEPS, etc.)\n  - Formation continue (modules courts)\n  - VAE\n  - Coaching / mentorat\n  - Alternance interne\n  - Mobilité interne\n\n**Pour la structure dans son ensemble** :\n- **Compétences critiques** : à maintenir absolument (ex. RSAI, direction réglementaire)\n- **Compétences en développement** : à acquérir (ex. médiation numérique, IA générative)\n- **Compétences en obsolescence** : à reconvertir (ex. métiers manuels remplacés)\n\n**4. ÉTAPE 3 — Priorisation** :\n\n**Matrice de priorisation** :\n\n| Priorité | Critère | Action |\n|---|---|---|\n| **CRITIQUE** | Fonctions réglementaires non pourvues | Formation immédiate année 1 |\n| **HAUTE** | Évolution réglementaire imminente | Formation année 1-2 |\n| **MOYENNE** | Mise à niveau technique courante | Formation année 2-3 |\n| **BASSE** | Développement personnel | Formation année 3-5 |\n\n**Critères supplémentaires** :\n- **Coût** : ROI estimé, impact financier\n- **Disponibilité** : période, charge de travail, remplacement\n- **Volonté du salarié** : motivation, engagement\n- **Contexte stratégique** : projets en cours, transformations\n\n**5. ÉTAPE 4 — Budgétisation pluriannuelle** :\n\n**Sources de financement à mobiliser** :\n- **OPCO Uniformation** (fonds légaux + conventionnels) : ~ 80 % du PDC en TPE-PME\n- **CPF + abondement employeur** : pour formations diplômantes longues\n- **Alternance** : NPEC pour profils en formation initiale ou reconversion\n- **FNE-Formation** : si activité partielle ou mutation économique\n- **EDEC** (Engagement Développement Emploi Compétences) : programme pluriannuel OPCO + DGEFP\n- **Région** : selon politique territoriale\n- **CAF** : plans départementaux Petite Enfance / Animation Vie Sociale\n\n**Format budget pluriannuel type** :\n\n| Année | Investissement formation | Sources financement | Salarié·es formés |\n|---|---|---|---|\n| 2026 | 25 000 € | Uniformation 18k + CPF 5k + alternance 2k | 12/15 |\n| 2027 | 35 000 € | Uniformation 22k + CPF 8k + EDEC 5k | 14/15 |\n| 2028 | 30 000 € | Uniformation 20k + CPF 7k + alternance 3k | 13/15 |\n| 2029-2030 | 60 000 € | Mix divers | 15/15 |\n\n**6. ÉTAPE 5 — Mise en œuvre + suivi** :\n\n**Calendrier annuel** :\n- **Janvier** : présentation du plan annuel au CSE + équipe\n- **Février-mars** : déclenchement formations programmées\n- **Avril-juin** : suivi mi-année, ajustements\n- **Septembre** : évaluation, communication des résultats\n- **Octobre-novembre** : préparation du plan année N+1\n- **Décembre** : bilan annuel + entretiens professionnels\n\n**Indicateurs de pilotage** :\n- % salarié·es formés / total\n- % budget consommé / prévu\n- Taux de réussite formations diplômantes\n- Évolution des compétences (auto-évaluation)\n- Satisfaction salarié·es (enquête)\n- Taux de mobilité interne post-formation\n- Impact sur les indicateurs métiers (qualité, satisfaction usagers, financements obtenus)\n\n**7. Consultation CSE — formalités** :\n- **Article L2312-24** : consultation annuelle obligatoire ≥ 11 salariés\n- **Documents fournis au CSE** :\n  - Bilan formation année N-1\n  - Plan année N\n  - Orientations pluriannuelles\n  - Budget prévisionnel\n- **Avis du CSE** : consultatif, non bloquant, mais à documenter\n- **Modification en cours d'année** : information CSE recommandée",
+        "plus_formation": "**Modèles de plans pluriannuels par taille** :\n\n**TPE (5-10 salariés)** :\n- Plan **3 ans simplifié**, formats Excel ou Word\n- 1 séance d'élaboration / an avec direction + bureau\n- Budget : 5 000-12 000 €/an\n- Cible : 80 % salariés formés sur 3 ans\n\n**PE (11-30 salariés)** :\n- Plan **3-5 ans structuré**, accompagnement Appui Conseil RH OPCO\n- 2 séances / an : élaboration + révision\n- Budget : 12 000-25 000 €/an\n- Cible : 90 % salariés formés sur 5 ans, 100 % fonctions réglementaires\n\n**ME (30-100 salariés)** :\n- Plan **5 ans structuré**, formalisé en accord avec CSE\n- Convention EDEC avec OPCO sur projets stratégiques\n- 3 séances / an : élaboration + révision + bilan\n- Budget : 25 000-60 000 €/an\n- Cible : 95 % salariés formés sur 5 ans, GPEC formelle\n\n**GE (≥ 100 salariés ou multi-sites)** :\n- Plan **5 ans + accord GPEC** négocié avec CSE\n- Convention EDEC + Pro-A massive\n- Comité formation interne\n- Budget : 60 000-200 000 €/an\n- Cible : politique RH formelle, indicateurs ESG, certification\n\n**Erreurs fréquentes à éviter** :\n1. **Plan trop ambitieux** : irréalisable, démotivant\n2. **Plan en chambre** : sans implication des salariés ni du CSE\n3. **Budget mal anticipé** : OPCO refuse pour dépassement\n4. **Pas de suivi** : tableau de bord absent → plan oublié\n5. **Pas de révision** : changements stratégiques non intégrés\n6. **Communication insuffisante** : salariés ne savent pas ce qui leur est proposé\n\n**Outils & ressources gratuites** :\n- **Modèles Uniformation** : trame PDC pluriannuel\n- **CPNEF ALISFA** : référentiels métiers, GPEC\n- **France Compétences** : RNCP, certifications\n- **Mon Compte Formation pro** : suivi CPF et abondements\n- **Centres sociaux de France** : ressources sectorielles\n- **AFREF** (Association Française de Réflexion sur l'Étude de la Formation) : guides méthodo",
+        "obligations_formation": "Pas d'obligation légale du PDC pluriannuel sauf accord d'entreprise. Mais consultation annuelle du CSE (≥ 11 salariés) sur les orientations formation est obligatoire.",
+        "accompagnement_obligatoire": "**Conseiller·ère Uniformation** : appui méthodo gratuit. **Diagnostic Appui Conseil RH** subventionné (jusqu'à 5 000 € OPCO). **CSE / délégués personnels** consultés annuellement. **Fédération régionale ALISFA** : ressources et benchmark sectoriel.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **règles consultation CSE** (article L2312-24) sont stables. **Vigilance** :\n- **Consultation CSE annuelle** : obligation, sous peine de **délit d'entrave** (1 an prison + 7 500 € amende)\n- **Entretien professionnel tous les 2 ans** (L6315-1) : non-respect = sanction prud'homale (abondement CPF du salarié à hauteur de 3 000 €)\n- **Bilan à 6 ans** : si pas d'au moins 1 formation non-obligatoire ET 1 entretien professionnel, abondement CPF + sanction\n- **Non-respect** des engagements du PDC : risque de revendication salariés, déconvergence avec le projet stratégique\n- **OPCO Uniformation** : sollicitation **avant** le démarrage des formations, pas après (sinon refus de prise en charge)\n- **Évolutions réglementaires** : veiller à intégrer les réformes en cours (réforme financement formation, réforme apprentissage, réforme VAE)",
+        "sources": [
+          "Code du travail — article L6321-1 (obligation adaptation employeur)",
+          "Code du travail — article L2312-24 (consultation CSE orientations formation)",
+          "Code du travail — article L6315-1 (entretien professionnel)",
+          "Code du travail — article L2242-20 (négociation GPEC ≥ 300 salariés)",
+          "OPCO Uniformation — guide PDC pluriannuel",
+          "CPNEF ALISFA — référentiels métiers et GPEC"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail article L6321-1",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037385660/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code du travail article L2312-24 (CSE formation)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035610170/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Travail-Emploi — Plan de développement des compétences",
+            "url": "https://travail-emploi.gouv.fr/formation-professionnelle/formation-en-entreprise/plan-de-developpement-des-competences",
+            "type": "officiel"
+          },
+          {
+            "titre": "Uniformation — Plan développement compétences",
+            "url": "https://www.uniformation.fr/entreprise/notre-conseil-en-rh",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches GPEC et référentiels métiers",
+            "url": "https://www.alisfa.fr/emploi-et-formation/gpec",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail L6321 + L2312-24"
+      }
+    },
+
+    {
+      "id": "int-transmission-direction",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment préparer la transmission ou le changement de direction d'une structure ALISFA ?",
+      "mots_cles": [
+        "transmission direction",
+        "succession dirigeant",
+        "tuilage direction",
+        "agrément CAF transfert",
+        "PMI changement direction EAJE",
+        "fusion acquisition association",
+        "CAFDES nouveau directeur",
+        "départ retraite direction"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "preparer_transmission_direction",
+      "reponse": {
+        "synthese": "La **transmission de direction** d'une structure ALISFA (départ retraite, démission, mutation, fusion) est une **opération critique** nécessitant **12-24 mois de préparation**. **5 axes clés** : (1) **identification du successeur** (interne / externe / co-direction), (2) **transmission des compétences réglementaires** (agréments CAF, PMI, ARS, casier B2, autorisations), (3) **transmission opérationnelle** (équipe, partenaires, financements, projets en cours), (4) **transmission stratégique** (vision, gouvernance, projet associatif), (5) **gestion juridique** (contrats, signatures, responsabilité civile et pénale). **Vigilance EAJE** : changement de direction = **modification d'agrément** auprès de la PMI (notification 2 mois avant minimum).",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **R2324-25 et suivants** (autorisation et conformité EAJE) — **L227-4 et suivants** (ACM) — **Convention CAF Animation Vie Sociale** (changement direction centre social agréé) — **Code du travail** articles **L1224-1 et suivants** (transfert d'entreprise/activité) — **Loi du 1er juillet 1901** (modification statutaire association).",
+        "minimum_legal": "**Cadre de la transmission de direction d'une structure ALISFA** :\n\n**1. Types de transmission** :\n\n**A. Transmission interne** :\n- **Promotion d'un·e cadre** existant·e (souvent CAFERUIS ou DEJEPS / DESJEPS)\n- **Avantages** : continuité, connaissance interne, motivation équipe\n- **Inconvénients** : besoin de formation complémentaire (CAFDES si non détenu), changement de regard sur les anciens collègues\n\n**B. Transmission externe** :\n- **Recrutement extérieur** d'un·e directeur·trice expérimenté·e\n- **Avantages** : sang neuf, regard externe, expertise spécifique\n- **Inconvénients** : courbe d'apprentissage, méconnaissance des dynamiques internes, choc culturel possible\n\n**C. Co-direction temporaire (tuilage)** :\n- **Période 6-12 mois** où ancien·ne et nouveau·elle directeur·trice coexistent\n- **Avantages** : transmission progressive, relations partenaires sécurisées\n- **Inconvénients** : coût (double salaire), risque de tensions hiérarchiques\n\n**D. Fusion / acquisition / regroupement** :\n- Cas de structures ALISFA qui fusionnent (centres sociaux qui se rapprochent, EAJE qui rejoignent un grand réseau)\n- Cadre légal : **L1224-1 Code du travail** (transfert des contrats de travail)\n- Convention CAF : nouvelle convention à signer\n- Statuts associatifs : modification en AG extraordinaire\n\n**2. Calendrier type — 12 à 24 mois avant le départ** :\n\n**T-24 mois** :\n- **Décision** au CA / bureau (départ retraite annoncé, vote)\n- **Lancement diagnostic** GPEC focalisé sur la direction\n- **Évaluation interne** : qui pourrait succéder ?\n- **Bilan stratégique** de la structure\n\n**T-18 mois** :\n- **Profil de poste** finalisé (compétences, expérience, diplôme : CAFDES recommandé)\n- **Sourcing externe** lancé (annonces, réseaux fédéraux)\n- **Préparation candidat·es internes** : VAE CAFDES, formation Pro-A\n\n**T-12 mois** :\n- **Recrutement / sélection** finalisé·e\n- **Annonce officielle** : équipe, CA, partenaires, CAF, PMI, ARS, collectivités\n- **Démarrage du tuilage** (recrutement formel ou stage de transmission)\n- **Notification PMI** (EAJE) : modification d'agrément à anticiper\n\n**T-6 mois** :\n- **Tuilage opérationnel** : entretiens partenaires, projets en cours, budgets\n- **Transmission documentaire** : projets, conventions, dossiers RH, financements\n- **Validation administrations** : agréments, conventions CAF, ARS\n\n**T-0** :\n- **Passation officielle** : signature contrats, AG extraordinaire si modification statutaire\n- **Clôture des dossiers** ancien·ne directeur·trice\n- **Lancement officiel** nouveau·elle directeur·trice\n\n**T+3 / T+6 mois** :\n- **Bilan post-transmission** : équipe, partenaires, financements\n- **Ajustements** : projet, organisation, communication\n\n**3. Transmission des autorisations administratives** :\n\n**EAJE — modification d'agrément PMI** :\n- **Notification écrite** à la PMI **2 mois avant** le changement\n- **Pièces** :\n  - CV + diplôme du·de la nouveau·elle directeur·trice (DE EJE / Puéricultrice / Médecin / autre profil L2324-46-3 CSP)\n  - Casier judiciaire B2\n  - Attestation d'aptitude médicale\n  - Lettre de motivation et projet d'établissement\n- **Visite PMI** : visite de conformité possible avant validation\n- **Délai validation** : 2-4 mois\n- **Conséquences** :\n  - **Sans validation** : agrément suspendu = fermeture obligatoire\n  - **Avec validation** : continuité de service\n\n**ACM — directeur·trice de centre de loisirs** :\n- **Déclaration TAM** (Téléprocédure Accueil de Mineurs)\n- **Casier B2** + diplôme (BAFD / DEJEPS / BPJEPS / DEUST avec dérogation)\n- **DDETSPP** notifiée\n\n**Centre social agréé CAF** :\n- **CAF départementale** notifiée\n- **Direction** doit avoir profil compatible avec lettre-circulaire CNAF AVS (CAFDES, CAFERUIS, DEJEPS, DEEJE, DEES, DECESF, etc., voir article `reg-direction-centre-social`)\n- **Projet social** : continuité ou révision\n\n**Autorisations spécifiques selon activités** :\n- **EVS** : CAF\n- **EHPAD** : ARS\n- **Services à domicile** : Conseil Départemental\n- **CHRS** : DREETS\n- **Restauration collective** : DDETSPP (HACCP)\n\n**4. Transmission opérationnelle** :\n\n**Équipe et RH** :\n- **Présentation** au CSE + équipe\n- **Entretiens individuels** avec chaque cadre / salarié·e d'engagement (3-6 mois)\n- **Visite des locaux** + outils + processus\n- **Documentation RH** : contrats, dossiers individuels, accord d'entreprise, règlement intérieur, GPEC\n\n**Partenaires** :\n- **Tournée des partenaires** : CAF, mairie, CD, ARS, Préfecture, fédération, autres associations\n- **Présentation officielle** lors d'AG ou réunions sectorielles\n- **Conventions en cours** : passation lecture + signatures de continuité\n\n**Financements** :\n- **Conventions CAF** : signature de continuité\n- **Subventions** : CD, État, Région, fédération\n- **Comptes bancaires** : pouvoirs de signature à transférer\n- **Audits** : commissaire aux comptes, expert-comptable\n\n**Projets en cours** :\n- **Projet social** (centres sociaux) : co-construction de la révision\n- **Projet pédagogique** (EAJE) : continuité ou évolution\n- **Conventions** en négociation\n- **Travaux** en cours\n\n**5. Transmission stratégique** :\n\n**Vision et projet associatif** :\n- **AG associative** : présentation du successeur, du projet de transition\n- **CA** : implication renforcée pendant la transition\n- **Bureau** : co-construction des décisions stratégiques\n- **Plan stratégique** 3-5 ans : continuité ou révision\n\n**Gouvernance associative** :\n- **Statuts** : modification éventuelle (changement de président·e, bureau)\n- **Délégations** : actualisation des pouvoirs (signature, décisions, RH)\n- **Communication interne** : équipe alignée sur la nouvelle direction\n- **Communication externe** : partenaires, usagers, presse locale\n\n**6. Aspects juridiques** :\n\n**Contrats** :\n- **Bail commercial** ou conventions d'occupation : information au bailleur\n- **Contrats fournisseurs** : continuité (souvent automatique)\n- **Contrats d'assurance** : information assureur, mise à jour\n- **Convention CAF / financeurs** : avenants si nécessaire\n\n**Responsabilité** :\n- **Cession de fonctions** au CA documentée par PV\n- **Décharge** ancien·ne directeur·trice après bilan\n- **Responsabilité pénale** : transmise au successeur dès la prise de fonction (autorité parentale, soins aux enfants, sécurité, etc.)\n- **Assurance RC professionnelle directeur** : transfert ou nouvelle souscription",
+        "plus_formation": "**Bonnes pratiques par contexte** :\n\n**Départ retraite (anticipé 24 mois)** :\n- **Phase 1** : décision et communication interne (1 mois)\n- **Phase 2** : recrutement / formation interne (12 mois)\n- **Phase 3** : tuilage opérationnel (6 mois)\n- **Phase 4** : passation officielle + bilan (3 mois)\n\n**Mutation rapide (6-12 mois)** :\n- Compression du calendrier mais respect des étapes critiques (PMI notification 2 mois)\n- Tuilage allégé : 2-3 mois maximum\n- Risque : tensions, omissions documentaires\n\n**Démission imprévue (1-3 mois)** :\n- **Direction par intérim** : adjoint·e, président·e, salarié·e à compétences proches\n- **Recrutement urgent** : agence intérim social, réseau fédéral\n- **Notification PMI / CAF** : urgence + visite de contrôle possible\n- Risque : non-conformité réglementaire\n\n**Fusion / regroupement** :\n- **Diagnostic juridique** par avocat ou expert-comptable spécialisé ESS\n- **AG extraordinaire** dans chaque association\n- **Transfert L1224-1** : contrats de travail maintenus de plein droit\n- **Convention CAF** : nouvelle convention à signer\n- **Communication** renforcée auprès des familles et partenaires\n\n**Outils utiles pour la transmission** :\n- **Diagnostic Appui Conseil RH** OPCO (jusqu'à 5 000 €) : centré sur la transition\n- **Mentorat dirigeant** : Réseau Entreprendre Social, ESSentiel, fédérations\n- **Coaching individuel** du successeur : CPF + abondement\n- **Formation CAFDES** en VAE pour cadre interne (cf. article `int-financer-formation-dirigeant`)\n- **Outils sectoriels** : guides CPNEF ALISFA, FCSF, MOUVES (Mouvement des Entrepreneurs Sociaux)\n\n**Risques à anticiper** :\n1. **Perte d'agrément CAF / PMI** : si profil successeur non conforme\n2. **Démotivation équipe** : si communication tardive ou incohérente\n3. **Rupture relationnelle** avec partenaires clés\n4. **Pertes financières** : conventions non renouvelées, subventions perdues\n5. **Risque pénal** : responsabilité du nouveau directeur dès prise de fonction\n6. **Conflit interne** : si choix successeur contesté",
+        "obligations_formation": "Successeur doit avoir le diplôme requis pour la fonction réglementaire (DE EJE / Puéricultrice / Médecin pour EAJE, BAFD/DEJEPS pour ACM, CAFDES recommandé pour direction associative).",
+        "accompagnement_obligatoire": "**PMI** (EAJE) : notification 2 mois avant + visite de conformité. **CAF** : information continue. **CA + bureau associatif** : portage politique de la transition. **Conseiller·ère Uniformation** : appui formation successeur. **Fédération régionale** : retours d'expérience.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** Les **règles agréments** sont stables (Code de l'action sociale, Convention CAF). **Vigilance** :\n- **Notification PMI 2 mois avant** : oubli = risque suspension agrément\n- **Profil successeur** doit être conforme dès J0 (sinon agrément suspendu)\n- **Contrats de travail** : protection L1224-1 en cas de transfert d'activité\n- **Responsabilité pénale** : transmise au successeur dès la prise de fonction (vigilance casier B2, formation sécurité, RGPD)\n- **AG extraordinaire** obligatoire pour modification statutaire association\n- **Conventions en cours** : tout n'est pas automatique, vérifier les clauses « intuitu personae »\n- **Communication interne** : la transmission est un évènement émotionnel pour l'équipe, à accompagner avec soin",
+        "sources": [
+          "Code de l'action sociale et des familles — articles R2324-25 et suivants (EAJE)",
+          "Code de l'action sociale et des familles — articles L227-4 et suivants (ACM)",
+          "Code du travail — articles L1224-1 et suivants (transfert)",
+          "Convention CAF Animation Vie Sociale (changement direction)",
+          "Loi du 1er juillet 1901 — associations (modification statutaire)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code action sociale R2324-25 (EAJE)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190744/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code du travail L1224-1 (transfert d'entreprise)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900875/",
+            "type": "legislation"
+          },
+          {
+            "titre": "CAF — Animation Vie Sociale (changement direction)",
+            "url": "https://www.caf.fr/partenaires",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Modification statutaire association",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1129",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — gouvernance et transmission de direction",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour transmission complexe (fusion, restructuration), accompagnement avocat ESS + expert-comptable + conseiller Appui RH OPCO recommandés.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code action sociale R2324 + Convention CAF AVS"
+      }
+    },
+
+    {
+      "id": "int-equilibre-economique-eaje",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment équilibrer le budget d'un EAJE / micro-crèche en 2026 (PSU CAF, contributions familles, charges) ?",
+      "mots_cles": [
+        "équilibre budgétaire EAJE",
+        "PSU CAF prestation service unique",
+        "PAJE CMG micro-crèche",
+        "contribution famille barème",
+        "fonds publics municipal CD",
+        "charges fixes salariales",
+        "taux occupation",
+        "modèle économique micro-crèche"
+      ],
+      "structures_concernees": ["EAJE"],
+      "intention_directeur": "equilibrer_budget_EAJE",
+      "reponse": {
+        "synthese": "L'**équilibre budgétaire d'un EAJE** repose sur **4 sources de financement** : (1) **PSU CAF** (Prestation de Service Unique, ~50-65 % du budget) basée sur le nombre d'**heures de présence facturables**, (2) **Contribution des familles** (~20-30 % du budget) calculée selon barème CAF (taux d'effort 0,06-0,15 % du revenu / heure), (3) **Subventions communes / intercommunalités / CD** (~10-25 %), (4) **Autres** (réserves, dons, mécénat). **Pour les micro-crèches privées sans PSU** : modèle **PAJE CMG** (Complément Mode Garde versé directement aux familles). **Cible taux occupation** : ≥ 70 % effective et ≥ 90 % facturable. **Charges principales** : 75-85 % salariales (équipe pédagogique réglementaire). **Vigilance 2026** : la **réforme PSU 2024** (forfait fixe + réduction contribution famille) impacte les budgets.",
+        "fondement_legal": "**Code de l'action sociale et des familles** — article **R2324-25** (autorisation EAJE) — **Convention CAF Prestation de Service Unique (PSU)** — **arrêté du 30 août 2021 et arrêté Norma** — **Code de la sécurité sociale** — articles **L531-5 et suivants** (PAJE CMG).",
+        "minimum_legal": "**Cadre du modèle économique des EAJE** :\n\n**1. Types d'EAJE et modèles économiques** :\n\n**A. EAJE conventionné CAF (PSU)** :\n- Crèche collective, multi-accueil, halte-garderie, crèche parentale, crèche familiale\n- **Convention PSU CAF** : financement à l'heure de présence facturable\n- **Tarif famille** : selon barème national CAF (taux d'effort)\n- **Public** : tous les enfants, sans condition de ressources des familles (plafond élevé)\n\n**B. Micro-crèche conventionnée CAF (PSU)** :\n- 12 places maximum\n- Mêmes règles que EAJE classique\n- **Financement** : PSU + contribution famille\n\n**C. Micro-crèche PAJE CMG** :\n- 12 places maximum\n- **PAS conventionnée PSU CAF**\n- **Financement** : tarif libre payé par les familles\n- **Aide aux familles** : **Complément de Mode de Garde (CMG)** PAJE versé directement à la famille (selon revenus)\n- **Avantage employeur** : pas de plafonnement des recettes\n- **Inconvénient famille** : reste à charge plus élevé que PSU\n\n**D. Crèche d'entreprise** :\n- Réservée aux salariés d'une entreprise + ouverte au public\n- **Financement** : entreprise + PSU CAF + contribution familles + crédit d'impôt famille (50 % entreprise)\n\n**E. MAM (Maison d'Assistantes Maternelles)** :\n- 1-4 assistantes maternelles agréées qui se regroupent\n- **Financement** : PAJE CMG versé directement aux familles\n- **Modèle économique** : assistantes maternelles indépendantes, structure légère\n\n**2. PSU CAF — Calcul détaillé (réforme 2024)** :\n\n**Forfait PSU 2026 (estimatif)** :\n- **Forfait fixe** : ~ 0,80-1,20 € / heure de présence facturable\n- **Forfait variable** selon ressources de la famille (taux effort)\n- **Plafond CAF** par heure : ~ 8-9 € / heure (combiné PSU + famille)\n- **Réforme 2024** : nouveau **forfait fixe** + **réduction de la contribution famille** + **incitation taux occupation**\n\n**Heures facturables** :\n- **Présence réelle** ou **horaires conventionnels** (selon contrat famille)\n- **Heures réservées** : les familles paient même en cas d'absence\n- **Heures complémentaires** : possibilité d'intégrer pour la PSU\n\n**3. Contribution des familles — barème CAF national 2026** :\n\n**Taux d'effort horaire (% du revenu net mensuel familial)** :\n- **1 enfant à charge** : 0,0610 % (~ 1,22 € / heure pour SMIC mensuel)\n- **2 enfants** : 0,0508 %\n- **3 enfants** : 0,0406 %\n- **4-7 enfants** : 0,0305 %\n- **8+ enfants** : 0,0203 %\n\n**Plancher revenu mensuel** : 750 € (revenu minimum considéré)\n**Plafond revenu mensuel** : 6 200 € (pour le calcul, 2026 estimé)\n\n**Exemple** : Famille 2 enfants, revenu 3 000 €, 35h / semaine\n- Tarif horaire : 3 000 × 0,000508 = 1,52 €/heure\n- Tarif mensuel : 1,52 × 35 × 4,33 = ~ 230 €/mois\n\n**4. Modèle de budget type — EAJE 30 places** :\n\n**RECETTES** (estimation 2026) :\n\n| Source | Montant annuel | % |\n|---|---|---|\n| **PSU CAF** | 350 000 € | 60 % |\n| **Contribution familles** | 130 000 € | 22 % |\n| **Subvention commune** | 60 000 € | 10 % |\n| **Subvention CD** | 25 000 € | 4 % |\n| **Réserves / autres** | 25 000 € | 4 % |\n| **TOTAL** | **590 000 €** | 100 % |\n\n**DÉPENSES** (estimation 2026) :\n\n| Poste | Montant annuel | % |\n|---|---|---|\n| **Salaires + charges patronales** (12 ETP : direction, EJE, AP, AEPE, AESH, RSAI, agent technique) | 470 000 € | 80 % |\n| **Loyer + charges locaux** | 30 000 € | 5 % |\n| **Alimentation** | 25 000 € | 4 % |\n| **Fournitures pédagogiques** | 15 000 € | 2,5 % |\n| **Maintenance + entretien** | 10 000 € | 1,5 % |\n| **Assurances + adhésions** | 8 000 € | 1,5 % |\n| **Formation continue + frais généraux** | 12 000 € | 2 % |\n| **Communication + autres** | 6 000 € | 1 % |\n| **Réserves** | 14 000 € | 2,5 % |\n| **TOTAL** | **590 000 €** | 100 % |\n\n**5. Indicateurs clés de pilotage (KPI)** :\n\n**Taux d'occupation** :\n- **Taux d'occupation effective** : heures de présence réelle / heures d'ouverture théorique\n  - Cible : **≥ 70 %**\n- **Taux d'occupation facturable** : heures facturables / heures d'ouverture théorique\n  - Cible : **≥ 90 %**\n  - Différence avec effective = absences couvertes par contrats\n\n**Coût horaire** :\n- **Coût horaire enfant** = dépenses / heures facturables\n- Cible : ~ **8-10 € / heure** facturable (selon tailles structure)\n\n**Niveau d'encadrement** :\n- **1 adulte pour 5 enfants qui marchent** + **1 pour 8 qui ne marchent pas** (R2324-43 CASF)\n- **Décret Norma 2021** : **40 % personnels titulaires DE EJE** ou Aux Puéricultrice\n\n**Ratio masse salariale** :\n- Cible : **75-80 %** (au-delà de 85 % = vigilance, en-deçà de 70 % = sous-effectif probable)\n\n**6. Leviers d'optimisation** :\n\n**Augmenter les recettes** :\n- **Optimiser le taux occupation facturable** (90 %+) : contrats avec heures réservées élevées\n- **Heures complémentaires** : intégrer les usages réels supérieurs au contrat\n- **Demander revalorisation** subvention commune en cas de hausse coûts\n- **Solliciter Bonus Mixité Sociale** CAF (si conditions remplies)\n- **Mécénat / partenariats entreprises** locales\n- **Convention crèche d'entreprise** : ouvrir des places à des entreprises du territoire\n\n**Réduire les dépenses** :\n- **Mutualisation** : groupements d'achats avec autres EAJE (alimentation, fournitures, entretien)\n- **Énergie** : audit + travaux d'efficacité énergétique (subvention CAF possible)\n- **Formation interne** plutôt qu'externe quand pertinent\n- **Volontariat / Service Civique** : compléments d'équipe à coût réduit (mais hors taux d'encadrement réglementaire)\n- **Bénévoles** parents administrateurs : réduction coûts gouvernance\n\n**7. Réforme PSU 2024 — points d'attention pour 2026** :\n\n- **Forfait fixe** : nouvelle composante stable indépendante du nombre d'heures (sécurise une partie du financement)\n- **Réduction contribution famille** : allègement pour les familles, compensé partiellement par CAF\n- **Taux occupation** : valorisation accrue\n- **Bonus mixité sociale** : majoration si % familles QPV / bas revenus\n- **Bonus inclusion handicap** : majoration pour accueil d'enfants en situation de handicap\n- **Vigilance** : impact à anticiper sur les budgets 2026 (modélisation par CAF départementale)",
+        "plus_formation": "**Stratégies par contexte** :\n\n**EAJE en zone rurale** :\n- **Maillage territorial** : MAM / micro-crèche complémentaire à un EAJE central\n- **Subvention CD majorée** souvent\n- **Bonus zone rurale** CAF possible\n- **Mutualisation** intercommunale\n\n**EAJE en QPV (Quartier Politique de la Ville)** :\n- **Bonus Mixité Sociale** CAF (~ + 10-20 % PSU)\n- **Subvention Politique de la Ville** (collectivité, État, ANCT)\n- **Programme \"1000 premiers jours\"** (PMI, PMI Plus)\n- **Réseau parentalité** REAAP, soutien CLAS\n\n**Micro-crèche PAJE CMG** :\n- **Tarif libre** : entre 8 et 12 €/heure typiquement\n- **Reste à charge famille** : selon revenus, 200-800 €/mois après CMG\n- **Marketing** : qualité, pédagogie, projet (Montessori, Pikler, etc.)\n- **Vigilance** : zone géographique avec besoin de places (analyse territoriale)\n\n**Crèche d'entreprise** :\n- **Crédit d'impôt famille** (CIF) employeur : **50 %** des coûts liés à la crèche, plafonné\n- **Contractualisation** avec entreprises : tarif négocié, fidélisation\n- **Image** : argument RH attractivité\n\n**Erreurs fréquentes à éviter** :\n1. **Sous-évaluer la masse salariale** : 75-85 %, parfois 90 % en sur-staff\n2. **Taux d'occupation faible** : < 70 % effective = perte de PSU significative\n3. **Pas de réserves** : aucun coussin pour absences, fermetures, travaux\n4. **Tarification famille incorrecte** : barème CAF mal appliqué = redressement\n5. **Conventions multiples mal coordonnées** : CAF + commune + CD + ARS\n6. **Décret Norma 2021** mal appliqué : 40 % qualifié·es non respecté = perte agrément\n\n**Outils utiles** :\n- **Convention CAF départementale** : interlocuteur clé\n- **Centres sociaux de France / FNFR / ACEPP** : ressources sectorielles micro-crèches\n- **Outil simulation PSU** sur caf.fr / Mon Compte Partenaires\n- **Logiciel gestion crèche** : Multi-Accueil, Bambineo, KidsKIosk, etc.\n- **Fédérations** : ALISFA, ACEPP, Mutualité Française, FFDC\n- **Expert-comptable spécialisé** EAJE : recommandé pour optimisation",
+        "obligations_formation": "Pas d'obligation directe budgétaire. Mais formation HACCP + RSAI + secours obligatoires (autres articles).",
+        "accompagnement_obligatoire": "**Convention CAF départementale** : interlocuteur PSU. **Expert-comptable spécialisé** EAJE : recommandé. **PMI** : contrôle conformité réglementaire. **Conseiller financement** Uniformation : pour formation salariés.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** La **réforme PSU 2024** est en cours de déploiement, modalités précises 2026 à vérifier auprès de la **CAF départementale**. **Vigilance** :\n- **Décret Norma 2021** : 40 % personnels qualifiés DE EJE ou Aux Puéricultrice obligatoire\n- **Convention PSU** : actualisation annuelle, vérification avec CAF\n- **Bonus Mixité Sociale et Inclusion Handicap** : vérifier éligibilité\n- **Tarification famille** : application stricte du barème CAF (sinon redressement)\n- **Heures réservées vs effectives** : impact sur PSU\n- **Réformes en cours** : « Plan EAJE 2025-2030 » du gouvernement à suivre (volet financement annoncé fin 2025)",
+        "sources": [
+          "Code de l'action sociale et des familles — articles R2324-25 et suivants",
+          "Convention CAF Prestation de Service Unique (PSU)",
+          "Décret n° 2021-1131 du 30 août 2021 (« Norma »)",
+          "Code de la sécurité sociale — articles L531-5 et suivants (PAJE CMG)",
+          "Réforme PSU 2024 — Cnaf"
+        ],
+        "liens": [
+          {
+            "titre": "CAF — Prestation de Service Unique (PSU) crèches",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/petite-enfance",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code action sociale R2324-25 (EAJE)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006190744/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Décret n° 2021-1131 du 30 août 2021 (Norma)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044005757/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — PAJE Complément Mode de Garde (CMG)",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F352",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — petite enfance et financement EAJE",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour optimisation budgétaire complexe ou redressement CAF, faire appel à expert-comptable spécialisé EAJE + conseiller CAF.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Convention CAF PSU + Décret 2021-1131"
+      }
+    },
+
+    {
+      "id": "int-signalement-maltraitance",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Que faire en cas de signalement de maltraitance interne ou suspicion sur un·e salarié·e ?",
+      "mots_cles": [
+        "signalement maltraitance",
+        "information préoccupante CRIP",
+        "Article 226-14 secret professionnel",
+        "L131-1 CASF",
+        "119 SNATED",
+        "procédure interne signalement",
+        "protection victimes témoins",
+        "obligation pénale article 434-3"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "gerer_signalement_maltraitance",
+      "reponse": {
+        "synthese": "Tout signalement de **maltraitance** sur enfant ou personne vulnérable dans une structure ALISFA est **encadré par la loi**. **Obligations de l'employeur** : (1) **recueillir le signalement** sans jugement, (2) **protéger** les victimes et témoins, (3) **transmettre** : **CRIP** (Cellule de Recueil des Informations Préoccupantes du CD) + **119** (SNATED) + **Procureur de la République** si grave. **Sanction pénale** : **3 ans de prison + 45 000 €** d'amende pour non-dénonciation (article **434-3 Code pénal**). Concernant le ou la salarié·e mis·e en cause : **mise à pied conservatoire** à titre provisoire (Code travail), **enquête interne** dans le respect du contradictoire, **sanction** ou **licenciement** selon les conclusions. **Vigilance** : la maltraitance peut être physique, sexuelle, psychologique, ou par négligence.",
+        "fondement_legal": "**Code de l'action sociale et des familles** — articles **L131-1 et suivants** (information préoccupante, signalement) — **L226-3** (CRIP — Cellule Recueil Information Préoccupante) — **Code pénal** — articles **434-3** (non-dénonciation crime), **226-14** (dérogation secret professionnel pour signalement), **227-1 et suivants** (mise en danger mineur) — **Loi du 14 mars 2016** (réforme protection enfance).",
+        "minimum_legal": "**Cadre réglementaire des signalements de maltraitance** :\n\n**1. Définition de la maltraitance** :\n\n**4 catégories** (selon HAS et Conseil de l'Europe) :\n- **Maltraitance physique** : violences corporelles, coups, secousses, brûlures, contention abusive\n- **Maltraitance sexuelle** : actes sexuels non consentis, exhibition, harcèlement, exposition à pornographie\n- **Maltraitance psychologique** : humiliation, dévalorisation, menaces, isolement, chantage affectif\n- **Négligence / privation** : non-réponse aux besoins fondamentaux (nourriture, soins, éducation, sécurité, affection)\n\n**Public concerné** :\n- **Enfants** (mineurs < 18 ans, particulièrement < 6 ans en EAJE / ACM)\n- **Personnes âgées** ou en situation de handicap (ESMS)\n- **Personnes en situation de vulnérabilité** (CHRS, foyers, etc.)\n\n**2. Obligations légales de signalement** :\n\n**Obligation pénale (article 434-3 Code pénal)** :\n- **Toute personne** qui a connaissance de privations, mauvais traitements ou agressions sexuelles infligés à un mineur ou à une personne vulnérable a **OBLIGATION de prévenir** les autorités\n- **Sanction** en cas de non-dénonciation : **3 ans de prison + 45 000 € d'amende**\n- **Exception** : non-applicable aux personnes tenues au secret professionnel (sauf sur enfants < 15 ans ou personnes vulnérables)\n\n**Dérogation au secret professionnel (article 226-14 Code pénal)** :\n- Les **professionnels tenus au secret** (médecin, AS, CCF, etc.) peuvent **transmettre** une information préoccupante **SANS POURSUITE PÉNALE** pour violation du secret\n- **Conditions** : information concerne sévices ou privations infligés à mineur ou personne vulnérable\n\n**3. Acteurs et destinataires des signalements** :\n\n**A. Information Préoccupante (IP)** — niveau département :\n- **Destinataire** : **CRIP** (Cellule de Recueil des Informations Préoccupantes) du **Conseil Départemental**\n- **Cas typiques** : doutes, situation de risque, négligence apparente, comportement inquiétant\n- **Articulation** : la CRIP évalue, oriente vers ASE / mesures éducatives / signalement judiciaire\n\n**B. Signalement Judiciaire** — niveau procureur :\n- **Destinataire** : **Procureur de la République** (TGI / TJ du département)\n- **Cas** : situation de danger immédiat ou évident, faits graves, urgence\n- **Articulation** : déclenche enquête de police judiciaire + ordonnances de placement éventuelles\n\n**C. SNATED (Service National d'Accueil Téléphonique de l'Enfance en Danger)** — niveau national :\n- **Numéro** : **119** (gratuit, 24/7, anonyme possible)\n- **Mission** : recueil signalements + transmission à CRIP départementale\n- **Public** : tout citoyen, professionnel, enfant lui-même\n\n**D. Cellule maltraitance EHPAD / handicap** :\n- **Numéro** : **3977** (maltraitance personnes âgées et handicapées)\n- **Mission** : recueil + orientation\n\n**E. Médecin / pédopsychiatre** :\n- **Évaluation médicale** : peut être saisi en parallèle pour examen médical légal\n- **Lien** avec services hospitaliers spécialisés\n\n**4. Procédure interne RECOMMANDÉE en structure ALISFA** :\n\n**Étape 1 — Recueil du signalement** :\n- **Écoute** sans jugement (enfant, parent, salarié, témoin)\n- **Documentation écrite** : faits précis, dates, lieux, témoins, auteurs présumés\n- **Pas de jugement préalable** sur la véracité — c'est aux autorités de qualifier\n- **Confidentialité** absolue\n\n**Étape 2 — Évaluation du caractère de gravité (rapide)** :\n- **Danger immédiat** ? → SIGNALEMENT JUDICIAIRE PROCUREUR + appel POLICE (17) si urgent\n- **Faits graves mais pas immédiat** ? → SIGNALEMENT JUDICIAIRE PROCUREUR\n- **Doute, situation à risque** ? → INFORMATION PRÉOCCUPANTE CRIP\n- **Toujours possible** : **119 SNATED** comme appui\n\n**Étape 3 — Mesures conservatoires immédiates (concernant un·e salarié·e mis·e en cause)** :\n- **Mise à pied conservatoire** à titre provisoire (Code travail L1332-3)\n- **Suspension immédiate** du contact avec les enfants / personnes vulnérables\n- **Information CSE** (sans nommer si non nécessaire)\n- **Information CA / Bureau** associatif\n\n**Étape 4 — Rédaction du signalement écrit** :\n- **Modèle** disponible sur les sites CD ou Travail-Emploi\n- **Mentions** :\n  - Identité de l'auteur du signalement (sauf anonyme via 119)\n  - Identité de la victime (enfant, personne)\n  - Identité de l'auteur présumé\n  - Faits précis : dates, lieux, témoins\n  - Conséquences observées (médicales, comportementales)\n  - Mesures prises par la structure\n- **Transmission** :\n  - **Procureur** (recommandé AR) si signalement judiciaire\n  - **CRIP** (recommandé AR) si IP\n  - **Copie hiérarchique** (PMI, ARS, CAF, Préfecture selon contexte)\n\n**Étape 5 — Suivi et coopération avec les autorités** :\n- **Disposition d'éléments** : photos, vidéos, écrits internes, témoignages\n- **Collaboration** avec enquêteurs (police, gendarmerie, parquet)\n- **Audiences** prud'homales si rupture du contrat avec le ou la salarié·e mis·e en cause\n- **Suivi médical et psychologique** des victimes (PMI, CMP, services spécialisés)\n\n**Étape 6 — Communication interne** :\n- **Transparence** dans le respect de la confidentialité (présomption d'innocence des accusés)\n- **Soutien équipe** : risque de choc, formation gestion de crise\n- **Médiation interne** par psychologue du travail si pertinent\n- **Préservation de la continuité de service** : remplacement, organisation\n\n**Étape 7 — Communication externe** :\n- **Pas de communication publique** avant la fin de l'enquête (présomption d'innocence)\n- **Information aux familles** (en EAJE) : factuelle, mesurée, en accord avec le procureur\n- **Possible** : communication via la fédération régionale\n- **Médias** : ne pas répondre directement, orienter vers le procureur\n\n**5. Mesures concernant le ou la salarié·e mis·e en cause** :\n\n**Pendant l'enquête** :\n- **Présomption d'innocence** : pas de jugement préalable\n- **Mise à pied conservatoire** : **non disciplinaire** (à différencier d'une sanction), pour suspendre temporairement le contact avec le public\n- **Maintien du salaire** : la mise à pied conservatoire est rémunérée (jusqu'à décision de l'employeur)\n\n**À l'issue de l'enquête** :\n- **Si pas de poursuite / acquittement** : reprise du travail (avec accompagnement)\n- **Si poursuite avec sanction pénale** : licenciement disciplinaire pour faute grave (probablement)\n- **Procédure disciplinaire** parallèle : entretien préalable + notification\n- **Casier judiciaire B2** : si condamnation pour atteinte aux mineurs, **interdiction d'exercer** en EAJE / ACM (article L131-2 CASF)",
+        "plus_formation": "**Bonnes pratiques préventives** :\n\n**Formation des équipes** :\n- **Module \"Bientraitance\"** dès l'embauche\n- **Formation \"Repérage maltraitance\"** annuelle (CIDFF, France Victimes, formations CAF)\n- **Communication non-violente** avec enfants / personnes vulnérables\n- **Gestion du stress et burn-out** (causes fréquentes de maltraitance institutionnelle)\n- **Approche systémique** familiale\n\n**Procédures internes formalisées** :\n- **Charte bientraitance** affichée dans la structure\n- **Procédure écrite** de recueil et de transmission des signalements\n- **Référent·e maltraitance** désigné·e dans la structure (ne pas confondre avec référent harcèlement)\n- **Cahier de signalements** anonyme accessible aux salarié·es\n- **Boîte à idées** ou **lien direct** avec direction / CSE\n\n**Évaluation continue** :\n- **Audits réguliers** : observation pratiques, écoute parents, entretiens enfants\n- **PMI** : visites annuelles régulières (EAJE)\n- **Démarche qualité** : ANESM, HAS, certifications\n- **Évaluation externe** : auditeurs ESS, cabinets spécialisés\n\n**Errors fréquentes à éviter** :\n1. **Ignorer un signalement faible** : escalade dramatique possible\n2. **Jugement préalable** sur la véracité : c'est aux autorités\n3. **Tentation de gérer en interne** sans signalement : sanction pénale + risque humain majeur\n4. **Confusion** des rôles : RH, direction, CSE → procédures distinctes\n5. **Pas de mise à pied conservatoire** : maintien du contact avec public\n6. **Communication désordonnée** : médias, parents, équipe non alignés\n7. **Pas de suivi post-signalement** : équipe traumatisée, victimes oubliées\n\n**Ressources et contacts utiles** :\n- **119 (SNATED)** : 24/7, gratuit, anonyme possible\n- **3977** : maltraitance personnes âgées et handicapées\n- **17 Police / 18 Pompiers** : urgence\n- **Procureur de la République** TGI / TJ départemental\n- **CRIP du Conseil Départemental** : information préoccupante\n- **Préfecture** : référent maltraitance\n- **France Victimes** : 116 006, soutien aux victimes\n- **Plateforme Internet PHAROS** : signalements en ligne\n- **CIDFF** : formation et conseil\n- **Fédérations ALISFA** : retours d'expérience, accompagnement\n- **Avocat en droit pénal** : conseil employeur en cas de procédure",
+        "obligations_formation": "Pas de formation obligatoire spécifique. Formation \"Bientraitance\" et \"Repérage maltraitance\" fortement recommandée pour toute l'équipe.",
+        "accompagnement_obligatoire": "**Procureur** ou **CRIP** : interlocuteurs principaux. **PMI** (EAJE) : visites de contrôle. **Médecin du travail** : suivi salarié·es impactés. **CSE** : information et consultation. **Cabinet psychologie du travail** : soutien équipe en post-crise.",
+        "vigilance": "**Texte en vigueur au 25 avril 2026.** La **législation protection enfance** est stable depuis la **loi 2016-297 du 14 mars 2016**. **Vigilance MAJEURE** :\n- **OBLIGATION pénale de signalement** : non-dénonciation = 3 ans + 45 000 €\n- **Présomption d'innocence** : pas de communication publique avant décision\n- **Mise à pied conservatoire** : RÉMUNÉRÉE et NON DISCIPLINAIRE (à différencier de sanction)\n- **Casier B2** : un·e salarié·e condamné·e pour atteinte aux mineurs ne peut plus exercer en EAJE / ACM (interdiction définitive)\n- **Soutien aux victimes** : pas seulement le signalement, accompagnement long terme nécessaire\n- **Risque pour l'employeur** : responsabilité civile (préjudice victimes) + pénale (négligence dans l'organisation)\n- **Dispositif lanceur d'alerte** (Loi Sapin II 2016) : protection accrue des salarié·es signaleurs",
+        "sources": [
+          "Code de l'action sociale et des familles — articles L131-1 et suivants (signalement)",
+          "Code de l'action sociale et des familles — article L226-3 (CRIP)",
+          "Code pénal — article 434-3 (non-dénonciation crime)",
+          "Code pénal — article 226-14 (dérogation secret professionnel)",
+          "Code pénal — articles 227-1 et suivants (mise en danger mineur)",
+          "Loi n° 2016-297 du 14 mars 2016 (réforme protection enfance)",
+          "HAS — recommandations bientraitance"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code action sociale L131-1 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074069/LEGISCTA000006157568/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code pénal article 434-3 (non-dénonciation)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418779/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Code pénal article 226-14 (dérogation secret)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289589/",
+            "type": "legislation"
+          },
+          {
+            "titre": "SNATED 119 — Service National d'Accueil Téléphonique Enfance en Danger",
+            "url": "https://www.allo119.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Information préoccupante et signalement",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F781",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — bientraitance et procédures",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "OBLIGATION pénale de signalement. En cas de doute ou urgence, contacter immédiatement Procureur, CRIP ou 119. Risque pénal grave en cas d'inaction.",
+      "revision": {
+        "derniere_verification": "2026-04-25",
+        "verifie_par": "ELISFA - Branche ALISFA - Code pénal 434-3 + Loi 2016-297"
+      }
+    }
+
+  ]
+}
