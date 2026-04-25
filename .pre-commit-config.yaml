@@ -1,0 +1,52 @@
+# Pre-commit hooks — vérifications locales avant chaque commit.
+# Installation : `pip install pre-commit && pre-commit install`
+# Exécution manuelle sur tout le repo : `pre-commit run --all-files`
+#
+# Philosophie : ce qui tourne ici doit être ULTRA rapide (<5s).
+# Le CI complet (pytest + docker) reste sur GitHub Actions.
+
+# Exclusions globales : la KB (data/) et les artefacts ne sont PAS du code source
+# et ne doivent pas être normalisés (un \n final dans une KB de 300KB pollue les diffs).
+exclude: |
+  (?x)^(
+    data/.*|
+    fiches_pratiques/.*|
+    .*\.rtf|
+    docs/.*\.docx|
+    .*\.xlsx|
+    demo_backup/.*
+  )$
+
+repos:
+  # ── Hooks standard utiles ──
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace          # Supprime espaces en fin de ligne
+      - id: end-of-file-fixer            # Garantit \n final
+      - id: check-yaml                   # Valide les .yaml (CI, pre-commit)
+      - id: check-json                   # Valide les .json (KB, configs)
+        exclude: ^data/.*\.json$         # KB volumineuses : skip pour vitesse
+      - id: check-added-large-files      # Bloque tout fichier >2 MB
+        args: ['--maxkb=2048']
+      - id: check-merge-conflict         # Bloque les marqueurs <<<<<<< oubliés
+      - id: detect-private-key           # Détecte clés privées commitées
+      - id: mixed-line-ending            # Force LF (vs CRLF Windows)
+
+  # ── Linter Python (cohérent avec le CI) ──
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4
+    hooks:
+      - id: ruff                         # Utilise pyproject.toml — config commune CI
+        args: [--fix]                    # Auto-fix ce qui peut l'être
+
+  # ── Vérification spécifique : pas de print() oubliés en prod ──
+  # Note : disabled pour l'instant car app.py legacy en a beaucoup.
+  # À réactiver après refacto Sprint 1.1.
+  # - repo: local
+  #   hooks:
+  #     - id: no-print-in-prod
+  #       name: Block print() in production code
+  #       entry: bash -c 'grep -rn "print(" app.py *.py utils/ scripts/ 2>/dev/null && exit 1 || exit 0'
+  #       language: system
+  #       pass_filenames: false

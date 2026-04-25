@@ -17,9 +17,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, v2-dev]
   pull_request:
-    branches: [main]
+    branches: [main, v2-dev]
 
 jobs:
   # ══════════════════════════════════════════════
@@ -106,10 +106,10 @@ jobs:
   docker-build:
     name: Docker build
     runs-on: ubuntu-latest
-    # On ne build l'image que si tests+lint passent, et uniquement sur push main
+    # On ne build l'image que si tests+lint passent, sur push vers main ou v2-dev
     # (pour ne pas brûler des minutes CI sur chaque PR intermédiaire).
     needs: [tests, lint]
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/v2-dev')
     steps:
       - uses: actions/checkout@v4
 
