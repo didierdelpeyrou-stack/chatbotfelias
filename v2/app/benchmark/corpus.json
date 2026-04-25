@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "date": "2026-04-25",
+    "n_questions": 50,
+    "distribution": {
+      "juridique": 20,
+      "formation": 10,
+      "rh": 10,
+      "gouvernance": 10
+    },
+    "types": {
+      "precise": 30,
+      "vague": 11,
+      "hors_sujet": 9
+    },
+    "rule": "Double-blind eval — Sprint 4.2 lancera ce corpus sur V1 ET V2, l'évaluateur ne sait pas quelle version a répondu."
+  },
+  "questions": [
+
+    {
+      "id": "Q01",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle durée de préavis en cas de licenciement pour un salarié non-cadre avec 2 ans d'ancienneté ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Rupture du contrat de travail",
+      "correct_keywords": ["2 mois", "ancienneté"],
+      "forbidden_phrases": ["6 mois", "1 an"],
+      "notes": "Préavis ALISFA : 1 mois <2 ans, 2 mois ≥2 ans (non-cadre)."
+    },
+    {
+      "id": "Q02",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quel est le numéro IDCC de la convention collective ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Champ d'application",
+      "correct_keywords": ["1261"],
+      "forbidden_phrases": [],
+      "notes": "IDCC 1261 — info canonique, doit toujours être correct."
+    },
+    {
+      "id": "Q03",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment se calcule le salaire minimum ALISFA selon l'avenant 10-2022 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Rémunération",
+      "correct_keywords": ["points", "valeur"],
+      "forbidden_phrases": [],
+      "notes": "SSC + points × valeur du point. Pas de prime d'ancienneté !"
+    },
+    {
+      "id": "Q04",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la pesée des emplois ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Classification",
+      "correct_keywords": ["critère"],
+      "forbidden_phrases": [],
+      "notes": "Système de classification multicritères ALISFA."
+    },
+    {
+      "id": "Q05",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment l'ancienneté est-elle valorisée dans la CCN ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Ancienneté",
+      "correct_keywords": ["ancienneté"],
+      "forbidden_phrases": ["prime d'ancienneté"],
+      "notes": "Pas de prime d'ancienneté en ALISFA — répandu mais FAUX."
+    },
+    {
+      "id": "Q06",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quels congés exceptionnels pour événements familiaux dans la CCN ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Congés",
+      "correct_keywords": ["jours"],
+      "forbidden_phrases": [],
+      "notes": "Mariage, décès, naissance — barèmes spécifiques."
+    },
+    {
+      "id": "Q07",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle indemnité minimale pour une rupture conventionnelle ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Rupture",
+      "correct_keywords": ["indemnité"],
+      "forbidden_phrases": [],
+      "notes": "Indemnité légale de licenciement minimum (art. L1234-9 C. trav.)."
+    },
+    {
+      "id": "Q08",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quel est le délai de prescription d'une sanction disciplinaire en droit du travail ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Sanctions disciplinaires",
+      "correct_keywords": ["2 mois"],
+      "forbidden_phrases": [],
+      "notes": "Art. L1332-4 — 2 mois à compter de la connaissance des faits."
+    },
+    {
+      "id": "Q09",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelles sont les règles de maintien de salaire en cas d'arrêt maladie ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Arrêt maladie",
+      "correct_keywords": ["salaire"],
+      "forbidden_phrases": [],
+      "notes": "Subrogation employeur + complément CCN ALISFA."
+    },
+    {
+      "id": "Q10",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'une faute grave en droit du travail français ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Disciplinaire",
+      "correct_keywords": ["faute"],
+      "forbidden_phrases": [],
+      "notes": "Faute rendant impossible le maintien du salarié dans l'entreprise."
+    },
+    {
+      "id": "Q11",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle est la durée du préavis pour un cadre selon la CCN ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Rupture du contrat de travail",
+      "correct_keywords": ["3 mois"],
+      "forbidden_phrases": [],
+      "notes": "Préavis cadre : 3 mois (CCN ALISFA Chapitre III)."
+    },
+    {
+      "id": "Q12",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelles sont les étapes d'un entretien préalable au licenciement ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Procédure de licenciement",
+      "correct_keywords": ["convocation", "entretien"],
+      "forbidden_phrases": [],
+      "notes": "Convocation 5 jours, entretien, notification ≥2j après."
+    },
+
+    {
+      "id": "Q13",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "C'est compliqué chez nous, qu'est-ce que je fais ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Question typique vague — V2 doit refuser ou demander précision."
+    },
+    {
+      "id": "Q14",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "On a un souci avec un salarié",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Trop vague pour répondre concrètement — V2 doit demander précision."
+    },
+    {
+      "id": "Q15",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "Comment ça marche le travail ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Question impossible à répondre utilement."
+    },
+    {
+      "id": "Q16",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "On voudrait être en règle",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Question floue — bonne réponse = demande de précision."
+    },
+    {
+      "id": "Q17",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "Que dit la convention ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Sans contexte, impossible — V2 doit refuser/clarifier."
+    },
+
+    {
+      "id": "Q18",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Quelle est la recette de la quiche lorraine ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": ["pâte brisée", "lardons", "œufs"],
+      "notes": "Le V2 doit refuser. V1 a parfois du theme matché par 'lorraine'."
+    },
+    {
+      "id": "Q19",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Combien de planètes dans le système solaire ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": ["8 planètes", "Pluton"],
+      "notes": "Hors-sujet pur — refus attendu."
+    },
+    {
+      "id": "Q20",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Quel est le meilleur film de 2024 ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors-sujet — refus attendu."
+    },
+
+    {
+      "id": "Q21",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment fonctionne le compte personnel de formation (CPF) ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "CPF",
+      "correct_keywords": ["CPF"],
+      "forbidden_phrases": [],
+      "notes": "Question de base, devrait avoir un article dédié."
+    },
+    {
+      "id": "Q22",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quels financements Uniformation pour les structures ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Uniformation",
+      "correct_keywords": ["Uniformation"],
+      "forbidden_phrases": [],
+      "notes": "OPCO de la branche."
+    },
+    {
+      "id": "Q23",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'un plan de développement des compétences ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Plan de formation",
+      "correct_keywords": ["plan", "compétences"],
+      "forbidden_phrases": [],
+      "notes": "Anciennement plan de formation, depuis 2018."
+    },
+    {
+      "id": "Q24",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "À quoi sert l'entretien professionnel obligatoire ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Entretien professionnel",
+      "correct_keywords": ["entretien"],
+      "forbidden_phrases": [],
+      "notes": "Obligatoire tous les 2 ans (loi de 2014)."
+    },
+    {
+      "id": "Q25",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment organiser une formation entre plusieurs associations ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Organisation",
+      "correct_keywords": ["formation"],
+      "forbidden_phrases": [],
+      "notes": "Mutualisation inter-asso."
+    },
+    {
+      "id": "Q26",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la VAE (Validation des Acquis de l'Expérience) ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "VAE",
+      "correct_keywords": ["VAE"],
+      "forbidden_phrases": [],
+      "notes": "Dispositif national de reconnaissance des compétences."
+    },
+
+    {
+      "id": "Q27",
+      "module": "formation",
+      "expected_type": "vague",
+      "question": "On a besoin de former nos gens",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Trop vague — refus/clarification attendu."
+    },
+    {
+      "id": "Q28",
+      "module": "formation",
+      "expected_type": "vague",
+      "question": "On en est où côté formation ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Question typique de Sprint 0.1 — V1 retournait theme 'Droits formation' (faux)."
+    },
+
+    {
+      "id": "Q29",
+      "module": "formation",
+      "expected_type": "hors_sujet",
+      "question": "Quelle est la météo aujourd'hui à Paris ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors-sujet — refus attendu."
+    },
+    {
+      "id": "Q30",
+      "module": "formation",
+      "expected_type": "hors_sujet",
+      "question": "Comment fait-on un gâteau au chocolat ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": ["farine", "œufs", "sucre"],
+      "notes": "Hors-sujet — refus attendu."
+    },
+
+    {
+      "id": "Q31",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment gérer un cas de turnover élevé dans une équipe ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Turnover",
+      "correct_keywords": ["turnover"],
+      "forbidden_phrases": [],
+      "notes": "KB RH ne couvre que 11 articles → peut donner hors_corpus, c'est OK."
+    },
+    {
+      "id": "Q32",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment résoudre un conflit interne entre deux salariés ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Conflit interne",
+      "correct_keywords": ["conflit"],
+      "forbidden_phrases": [],
+      "notes": "Module Conflit interne — partie des 11 articles RH."
+    },
+    {
+      "id": "Q33",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'un management défaillant et comment l'identifier ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Management",
+      "correct_keywords": ["management"],
+      "forbidden_phrases": [],
+      "notes": "KB limitée — peut sortir en hors_corpus, c'est honnête."
+    },
+    {
+      "id": "Q34",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment améliorer le climat social dans une association ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Climat social",
+      "correct_keywords": ["climat"],
+      "forbidden_phrases": [],
+      "notes": "Article 'Climat social dégradé' présent dans la KB RH."
+    },
+    {
+      "id": "Q35",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Que faire face à de l'absentéisme chronique ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Absentéisme",
+      "correct_keywords": ["absentéisme"],
+      "forbidden_phrases": [],
+      "notes": "Module Absentéisme — KB RH."
+    },
+    {
+      "id": "Q36",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment instaurer un dialogue social efficace avec le CSE ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Dialogue social",
+      "correct_keywords": ["dialogue", "social"],
+      "forbidden_phrases": [],
+      "notes": "Module Dialogue social — KB RH."
+    },
+
+    {
+      "id": "Q37",
+      "module": "rh",
+      "expected_type": "vague",
+      "question": "Mes salariés ne sont pas bien",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Vague — V1 tentait de matcher 'GPEC', V2 doit refuser."
+    },
+    {
+      "id": "Q38",
+      "module": "rh",
+      "expected_type": "vague",
+      "question": "Qu'est-ce qu'on peut faire ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Sans contexte, impossible."
+    },
+
+    {
+      "id": "Q39",
+      "module": "rh",
+      "expected_type": "hors_sujet",
+      "question": "Combien font 7 + 5 ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": ["12"],
+      "notes": "Hors-sujet — V2 doit refuser même si trivial."
+    },
+    {
+      "id": "Q40",
+      "module": "rh",
+      "expected_type": "hors_sujet",
+      "question": "Qui était Napoléon Bonaparte ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": ["empereur"],
+      "notes": "Hors-sujet — refus."
+    },
+
+    {
+      "id": "Q41",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la gouvernance d'une association loi 1901 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Loi 1901",
+      "correct_keywords": ["1901"],
+      "forbidden_phrases": [],
+      "notes": "Question canonique gouvernance."
+    },
+    {
+      "id": "Q42",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quels sont les rôles respectifs du CA et du bureau ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Instances associatives",
+      "correct_keywords": ["CA", "bureau"],
+      "forbidden_phrases": [],
+      "notes": "Distinction CA (collégial) vs bureau (exécutif)."
+    },
+    {
+      "id": "Q43",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment organiser une assemblée générale conforme aux statuts ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Assemblée générale",
+      "correct_keywords": ["assemblée"],
+      "forbidden_phrases": [],
+      "notes": "AG annuelle obligatoire."
+    },
+    {
+      "id": "Q44",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment recruter et fidéliser des bénévoles ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Bénévolat",
+      "correct_keywords": ["bénévole"],
+      "forbidden_phrases": [],
+      "notes": "Engagement bénévole — module gouvernance."
+    },
+    {
+      "id": "Q45",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment gérer les tensions entre bénévoles et salariés dans une association ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Tensions",
+      "correct_keywords": ["tension"],
+      "forbidden_phrases": [],
+      "notes": "Sujet sensible et fréquent en associations employeuses."
+    },
+    {
+      "id": "Q46",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Qu'est-ce que le congé d'engagement bénévole de la loi 2024 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Loi 2024",
+      "correct_keywords": ["congé"],
+      "forbidden_phrases": [],
+      "notes": "Loi récente — article dédié dans la KB gouvernance."
+    },
+
+    {
+      "id": "Q47",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "On veut avancer mais on sait pas comment",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Vague — la KB Gouvernance avait correctement renvoyé 'inconnu' en Sprint 0.1."
+    },
+    {
+      "id": "Q48",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "Notre asso n'avance pas",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Vague — V2 doit refuser."
+    },
+
+    {
+      "id": "Q49",
+      "module": "gouvernance",
+      "expected_type": "hors_sujet",
+      "question": "Quel est le score du dernier match de foot du PSG ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors-sujet — refus."
+    },
+    {
+      "id": "Q50",
+      "module": "gouvernance",
+      "expected_type": "hors_sujet",
+      "question": "Comment réparer un robinet qui fuit ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": null,
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors-sujet — refus."
+    }
+  ]
+}
