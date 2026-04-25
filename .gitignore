@@ -26,6 +26,12 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# Couverture pytest (artefact local — régénéré par CI à chaque run)
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
 # Données de run (dupliquées sur VPS — pas en git)
 data/rendez_vous.json
 data/appels_15min.json
