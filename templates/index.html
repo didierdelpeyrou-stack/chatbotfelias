@@ -5810,21 +5810,39 @@ async function sendMsg() {
   addMsg(displayText, true);
   showTyping();
 
-  try {
-    const body = {
-      question: apiText,
-      history: conversationHistory,
-      module: activeModule,
-      function: activeFunction,
-      profile: currentProfile || null,
-      context: getActiveContext(),
-      rdv_proposed: window.__rdvProposedInSession === true,
-      escalation_level: (wizardState && wizardState.escalation && wizardState.escalation.level) || 'vert'
-    };
-    if (docPayload) {
-      body.document = docPayload;
-      body.document_name = docNamePayload;
+  // Phase 4 pt 2 : préparation du body partagé entre /api/ask et /api/ask/stream
+  const body = {
+    question: apiText,
+    history: conversationHistory,
+    module: activeModule,
+    function: activeFunction,
+    profile: currentProfile || null,
+    context: getActiveContext(),
+    rdv_proposed: window.__rdvProposedInSession === true,
+    escalation_level: (wizardState && wizardState.escalation && wizardState.escalation.level) || 'vert'
+  };
+  if (docPayload) {
+    body.document = docPayload;
+    body.document_name = docNamePayload;
+  }
+
+  // Tente d'abord le streaming SSE. Si bail-out (doc, module non-juridique,
+  // wizard, erreur réseau, 501, etc.), fallback vers /api/ask non-streaming.
+  if (!docPayload) {
+    const streamed = await _trySendStream(body, apiText, historyText);
+    if (streamed) {
+      busy = false;
+      sendBtn.disabled = false;
+      sendBtn.classList.remove('loading');
+      if (typeof updatePromptHint === 'function') updatePromptHint(inputField);
+      inputField.focus();
+      return;
     }
+    // Stream a échoué ou n'est pas applicable → on remet le typing avant /api/ask
+    showTyping();
+  }
+
+  try {
     const _t0 = performance.now();
     const res = await fetch('/api/ask', {
       method: 'POST',
@@ -5842,6 +5860,25 @@ async function sendMsg() {
       busy = false; sendBtn.disabled = false; sendBtn.classList.remove('loading'); inputField.focus(); return;
     }
     const data = await res.json();
+    _renderAskAnswer(data, apiText, historyText);
+  } catch (e) {
+    removeTyping();
+    addMsg('Erreur de connexion au serveur. Vérifiez que l\'application est bien lancée.', false);
+  }
+  busy = false;
+  sendBtn.disabled = false;
+  sendBtn.classList.remove('loading');
+  if (typeof updatePromptHint === 'function') updatePromptHint(inputField);
+  inputField.focus();
+}
+
+// ─────────────────────────────────────────────────────────────
+// Phase 4 pt 2 — Post-process unique pour /api/ask + /api/ask/stream
+// Extrait du sendMsg() original (lignes 5847-5935 d'avant Phase 4).
+// Pas de changement de logique — juste un refactor pour permettre
+// au path streaming de réutiliser la même finalisation.
+// ─────────────────────────────────────────────────────────────
+function _renderAskAnswer(data, apiText, historyText) {
     if (typeof updateDebugPanel === 'function') updateDebugPanel(data, window._lastElapsed);
 
     if (data.error) {
@@ -5934,15 +5971,101 @@ async function sendMsg() {
       modeBadge.className = 'mode-badge ' + (data.mode === 'ia' ? 'mode-ia' : 'mode-local');
       if (data.model) modelTag.textContent = data.model.includes('haiku') ? 'Haiku' : data.model.includes('sonnet') ? 'Sonnet' : 'Opus';
     }
-  } catch (e) {
-    removeTyping();
-    addMsg('Erreur de connexion au serveur. V\u00e9rifiez que l\'application est bien lanc\u00e9e.', false);
+}
+
+// ─────────────────────────────────────────────────────────────
+// Phase 4 pt 2 — Tente le streaming SSE via /api/ask/stream.
+// Retourne true si le stream a fini en succès (post-process déjà fait),
+// false si on doit fallback sur /api/ask non-streaming.
+// ─────────────────────────────────────────────────────────────
+async function _trySendStream(body, apiText, historyText) {
+  // Bail-outs côté frontend (le backend ferait 501, autant éviter le RT) :
+  // - module non-juridique : RH/gouvernance/formation ont des post-process
+  //   spécifiques non triviales en mode progressif → on garde /api/ask
+  // - wizard (diagnostic guidé) : escalade gérée hors flux normal
+  // - ?nostream=1 dans l'URL : opt-out debug
+  if (window.__nostream === true) return false;
+  if (body.module && body.module !== 'juridique') return false;
+  if (body.function && String(body.function).indexOf('wizard_') === 0) return false;
+
+  removeTyping();
+  // Bulle progressive : texte brut (pre-wrap) le temps du stream, remplacée
+  // par le rendu markdown + badges au done event.
+  const tempDiv = addMsg('', false);
+  const tempBubble = tempDiv && tempDiv.querySelector('.msg-bubble');
+  if (tempBubble) {
+    tempBubble.style.whiteSpace = 'pre-wrap';
+    tempBubble.classList.add('streaming-bubble');
   }
-  busy = false;
-  sendBtn.disabled = false;
-  sendBtn.classList.remove('loading');
-  if (typeof updatePromptHint === 'function') updatePromptHint(inputField);
-  inputField.focus();
+  const chatArea = document.getElementById('chatArea');
+
+  let res;
+  try {
+    res = await fetch('/api/ask/stream', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body),
+    });
+  } catch(e) {
+    if (tempDiv) tempDiv.remove();
+    return false;
+  }
+  if (!res.ok) {
+    if (tempDiv) tempDiv.remove();
+    return false;
+  }
+  if (!res.body || !res.body.getReader) {
+    if (tempDiv) tempDiv.remove();
+    return false;
+  }
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let accumulated = '';
+  let finalPayload = null;
+  let streamError = false;
+
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      let idx;
+      while ((idx = buffer.indexOf('\n\n')) >= 0) {
+        const eventStr = buffer.slice(0, idx);
+        buffer = buffer.slice(idx + 2);
+        const trimmed = eventStr.trim();
+        if (!trimmed.startsWith('data:')) continue;
+        const dataStr = trimmed.slice(5).trim();
+        if (!dataStr) continue;
+        let evt;
+        try { evt = JSON.parse(dataStr); } catch(e) { continue; }
+        if (evt.type === 'delta' && typeof evt.text === 'string') {
+          accumulated += evt.text;
+          if (tempBubble) tempBubble.textContent = accumulated;
+          if (chatArea) chatArea.scrollTop = chatArea.scrollHeight;
+        } else if (evt.type === 'done' && evt.payload) {
+          finalPayload = evt.payload;
+        } else if (evt.type === 'error') {
+          streamError = true;
+        }
+      }
+    }
+  } catch(e) {
+    streamError = true;
+  }
+
+  if (tempDiv) tempDiv.remove();
+
+  if (streamError || !finalPayload) {
+    return false;
+  }
+
+  if (typeof recordSessionStat === 'function') recordSessionStat(0, true);
+  window._lastElapsed = 0;
+  _renderAskAnswer(finalPayload, apiText, historyText);
+  return true;
 }
 
 // ── Modal RDV ──

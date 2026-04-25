@@ -343,6 +343,44 @@ class TestEmailJuristeEndpoint:
 
 
 # ══════════════════════════════════════════════
+#                /api/ask/stream (Phase 4 pt 2)
+# ══════════════════════════════════════════════
+
+class TestAskStreamEndpoint:
+    """Endpoint streaming SSE. On teste les bails-out (501) : tool use et
+    document joint redirigent vers /api/ask non-streaming.
+    Le path streaming réel n'est pas testé en CI car il nécessite Claude live.
+    """
+
+    def test_doc_joint_renvoie_501_avec_fallback(self, flask_client):
+        resp = flask_client.post("/api/ask/stream", json={
+            "question": "Analyse ce doc",
+            "document": "Contenu d'un document à analyser.",
+            "module": "juridique",
+        })
+        assert resp.status_code == 501
+        body = _assert_json(resp)
+        assert body["error"] == "doc_not_supported_in_stream"
+        assert body["fallback"] == "/api/ask"
+
+    def test_question_vide_rejetee_400(self, flask_client):
+        resp = flask_client.post("/api/ask/stream", json={
+            "question": "",
+            "module": "juridique",
+        })
+        assert resp.status_code == 400
+
+    def test_payload_invalide_400(self, flask_client):
+        resp = flask_client.post("/api/ask/stream", data="pas du json", content_type="text/plain")
+        assert resp.status_code == 400
+
+    def test_route_existe_method_get_405(self, flask_client):
+        # Sanity check : la route est bien enregistrée en POST uniquement
+        resp = flask_client.get("/api/ask/stream")
+        assert resp.status_code == 405
+
+
+# ══════════════════════════════════════════════
 #                /api/feedback
 # ══════════════════════════════════════════════
 

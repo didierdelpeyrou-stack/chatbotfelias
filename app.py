@@ -23,7 +23,7 @@ from functools import wraps
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
-from flask import Flask, request, jsonify, render_template, send_from_directory, abort
+from flask import Flask, Response, request, jsonify, render_template, send_from_directory, abort, stream_with_context
 from flask_cors import CORS
 
 # ── Configuration ──
@@ -2994,6 +2994,307 @@ def ask():
             message=str(e)[:300],
         )
         return _error_response("Erreur de connexion au modèle IA. Veuillez réessayer.", 500)
+
+
+# ══════════════════════════════════════════════
+#        API — /api/ask/stream (Phase 4 pt 2)
+# ══════════════════════════════════════════════
+#
+# Streaming SSE de la réponse Claude pour fluidifier l'UX (premier token <1s
+# vs 8-12s en /api/ask). Le frontend tombe sur /api/ask non-streaming pour
+# les cas non supportés (tool use, mode local sans IA, document joint).
+#
+# Format SSE :
+#   data: {"type": "delta", "text": "..."}\n\n        ← chunks pendant la génération
+#   data: {"type": "done", "payload": {...}}\n\n      ← payload final identique à /api/ask
+#   data: {"type": "error", "message": "...", "http_status": 503}\n\n
+#
+# Le payload "done" reproduit la réponse JSON de /api/ask (answer, niveau,
+# theme, sources_count, confidence, liens, fiches, escalade, etc.) pour que
+# le frontend applique les badges et metadata après le stream.
+#
+# Note : V2 (Sprint 3.2) le fait nativement en async/await. Cet endpoint V1
+# est un patch UX qui sera abandonné au cutover Sprint 7.
+
+def _stream_sse_event(event_type: str, **fields) -> str:
+    """Sérialise un event SSE. Retourne 'data: {...}\\n\\n'."""
+    payload = {"type": event_type, **fields}
+    return "data: " + json.dumps(payload, ensure_ascii=False) + "\n\n"
+
+
+@app.route("/api/ask/stream", methods=["POST"])
+def ask_stream():
+    """Variante streaming de /api/ask. Renvoie SSE.
+
+    Bails-out (501) :
+      - mode dégradé sans IA (client Claude None)
+      - fonction qui utilise des tools (tool_use loop incompatible avec stream simple)
+      - document joint (préfère le path JSON pour l'instant)
+    Le frontend re-fetch /api/ask non-streaming dans ces cas.
+    """
+    # Rate limit (réutilise la même logique que /api/ask)
+    ok, msg = check_rate_limit(request.remote_addr)
+    if not ok:
+        return _error_response(msg, 429)
+
+    refresh_kbs_if_changed()
+
+    data = request.get_json(silent=True)
+    if not data or not isinstance(data, dict):
+        return _error_response("Requête invalide.", 400)
+
+    # Validation Pydantic — réutilise le même modèle
+    payload, err = _validate_request(AskRequest, data)
+    if err:
+        return err
+    if payload is not None:
+        question = (payload.question or "").strip()
+        doc_text = (payload.document or "").strip()
+        doc_name = (payload.document_name or "").strip()[:MAX_DOC_NAME_CHARS]
+        conversation_history = payload.history
+        module = payload.module
+        function_id = payload.function
+        profile_id = payload.profile
+        user_context = payload.context
+        rdv_already_proposed = payload.rdv_proposed
+        escalation_level = str(payload.escalation_level or "vert").lower()
+    else:
+        # Fallback no-pydantic — minimal pour le streaming MVP
+        question = str(data.get("question", "")).strip()
+        doc_text = str(data.get("document") or "").strip()
+        doc_name = ""
+        conversation_history = data.get("history", []) if isinstance(data.get("history"), list) else []
+        module = data.get("module", "juridique")
+        if module not in MODULE_CONFIG:
+            module = "juridique"
+        function_id = data.get("function") or None
+        profile_id = data.get("profile") or None
+        user_context = data.get("context") if isinstance(data.get("context"), dict) else None
+        rdv_already_proposed = bool(data.get("rdv_proposed"))
+        escalation_level = "vert"
+    if escalation_level not in ("vert", "orange", "rouge"):
+        escalation_level = "vert"
+
+    # ── Bails-out : cas non supportés en streaming MVP ──
+    # Le frontend doit fallback sur /api/ask. On renvoie 501 + flag JSON.
+    if doc_text:
+        return jsonify({"error": "doc_not_supported_in_stream", "fallback": "/api/ask"}), 501
+    if not question:
+        return _error_response("Veuillez poser une question.", 400)
+    if len(question) > MAX_QUESTION_CHARS:
+        return _error_response(
+            f"Question trop longue (max {MAX_QUESTION_CHARS} caractères).", 413,
+        )
+    client = get_client()
+    if client is None:
+        return jsonify({"error": "ia_unavailable", "fallback": "/api/ask"}), 501
+
+    # Vérifie tool use → bail-out
+    fn_overlay, fn_meta = get_function_overlay(function_id)
+    if fn_meta and fn_meta.get("use_tools"):
+        return jsonify({"error": "tools_not_supported_in_stream", "fallback": "/api/ask"}), 501
+
+    # ── Pré-Claude : équivalent du chemin /api/ask jusqu'à la construction des messages ──
+    module_cfg = MODULE_CONFIG[module]
+    log_event(
+        "ask_request",
+        module=module,
+        question_hash=hash_question(question),
+        question_length=len(question),
+        function=function_id,
+        profile=profile_id,
+        stream=True,
+    )
+    is_formation = (module == "formation")
+    base_prompt = module_cfg["system_prompt"]
+    current_kb = module_cfg["kb"]
+    current_context_builder = module_cfg["context_builder"]
+
+    guide_block = get_module_guide_block(module, function_id)
+    stable_parts = [base_prompt, RESPONSE_STRUCTURE]
+    if fn_overlay:
+        stable_parts.append(
+            "\n\n═══ FONCTION ACTIVE : "
+            + (fn_meta["label"] if fn_meta else function_id)
+            + " ═══"
+            + fn_overlay
+        )
+    if guide_block:
+        stable_parts.append(guide_block)
+    stable_block = "".join(stable_parts)
+
+    dynamic_parts = []
+    if profile_id and profile_id in USER_PROFILES:
+        profile = USER_PROFILES[profile_id]
+        dynamic_parts.append(
+            f"\n\nPROFIL UTILISATEUR\n"
+            f"Type : {profile['type']} | Rôle : {profile['label']}\n"
+            f"Contexte : {profile['context']}"
+        )
+    if isinstance(user_context, dict) and user_context:
+        ctx_lines = [
+            f"- {k[:60]} : {v[:80]}"
+            for k, v in user_context.items()
+            if isinstance(k, str) and isinstance(v, str) and k.strip() and v.strip()
+        ]
+        if ctx_lines:
+            dynamic_parts.append("\n\nCONTEXTE DE LA DEMANDE (pré-chat) :\n" + "\n".join(ctx_lines))
+    perso_block, perso_meta = build_personalization_block(
+        profile_id=profile_id,
+        user_context=user_context,
+        conversation_history=conversation_history,
+        question=question,
+        active_module=module,
+        rdv_already_proposed=rdv_already_proposed,
+    )
+    if perso_block:
+        dynamic_parts.append(perso_block)
+    dynamic_block = "".join(dynamic_parts)
+
+    # RAG retrieval
+    _t_rag_start = time.time()
+    results = search_knowledge_base(question, kb=current_kb)
+    _rag_latency_ms = int((time.time() - _t_rag_start) * 1000)
+    log_event(
+        "rag_retrieval",
+        module=module,
+        question_hash=hash_question(question),
+        results_count=len(results),
+        top_score=float(results[0]["score"]) if results else 0.0,
+        top_theme=results[0].get("theme_label") if results else None,
+        latency_ms=_rag_latency_ms,
+        stream=True,
+    )
+
+    # Niveau / theme / has_formation_results
+    niveau, theme = "vert", "inconnu"
+    has_formation_results = False
+    if is_formation:
+        theme = "formation"
+        has_formation_results = bool(results)
+        if results:
+            theme = results[0]["theme_label"]
+    elif results:
+        niveau = results[0]["niveau"]
+        theme = results[0]["theme_label"]
+        for r in results:
+            if r["niveau"] == "rouge":
+                niveau = "rouge"; break
+            if r["niveau"] == "orange" and niveau != "rouge":
+                niveau = "orange"
+
+    liens, fiches = collect_links_and_fiches(results)
+    context = current_context_builder(results)
+    user_message = f"QUESTION DE L'ADHÉRENT :\n{question}\n\n{context}"
+
+    messages = []
+    for msg in conversation_history[-20:]:
+        role = msg.get("role")
+        content = msg.get("content", "")
+        if role in ("user", "assistant") and content:
+            messages.append({"role": role, "content": content})
+    messages.append({"role": "user", "content": user_message})
+
+    system_blocks = build_system_blocks(stable_block, dynamic_block)
+    create_kwargs = {
+        "model": CLAUDE_MODEL,
+        "max_tokens": CLAUDE_MAX_TOKENS,
+        "system": system_blocks,
+        "messages": messages,
+        "timeout": 60.0,
+    }
+
+    # ── Construit le payload final qui sera envoyé en event "done" ──
+    # On le construit une fois le stream terminé (avec answer accumulée + post-process).
+    def _build_final_payload(answer: str, usage) -> dict:
+        ans = wizard_postprocess(answer, function_id, escalation_level)
+        sources_list = [
+            s for r in results for s in r["article"]["reponse"].get("sources", [])
+        ] if results else []
+        log_interaction(question, niveau, theme, sources_list, f"reponse_ia_stream_{module}")
+        if is_formation:
+            level_info = FORMATION_LEVELS if has_formation_results else None
+        else:
+            level_info = ESCALADE_CONFIG.get(niveau, ESCALADE_CONFIG["vert"])
+        return {
+            "answer": ans,
+            "niveau": niveau,
+            "theme": theme,
+            "sources_count": len(results),
+            "confidence": compute_confidence(results),
+            "related_suggestions": collect_related_suggestions(results),
+            "mode": "ia",
+            "model": CLAUDE_MODEL,
+            "module": module,
+            "function": function_id,
+            "function_label": (fn_meta["label"] if fn_meta else None),
+            "liens": liens,
+            "fiches": fiches,
+            "escalade": level_info if not is_formation else None,
+            "formation_levels": level_info if is_formation else None,
+            "personalization": perso_meta,
+        }
+
+    @stream_with_context
+    def event_stream():
+        """Generator SSE qui yield les chunks Claude + le done final."""
+        accumulated = []
+        _t_claude_start = time.time()
+        try:
+            with client.messages.stream(**create_kwargs) as stream:
+                for text_chunk in stream.text_stream:
+                    if not text_chunk:
+                        continue
+                    accumulated.append(text_chunk)
+                    yield _stream_sse_event("delta", text=text_chunk)
+                # À la fin du context manager, get_final_message est dispo
+                final_msg = stream.get_final_message()
+            answer_full = "".join(accumulated)
+            usage = getattr(final_msg, "usage", None)
+            _claude_latency_ms = int((time.time() - _t_claude_start) * 1000)
+            log_event(
+                "claude_call",
+                module=module,
+                model=CLAUDE_MODEL,
+                latency_ms=_claude_latency_ms,
+                input_tokens=getattr(usage, "input_tokens", None) if usage else None,
+                output_tokens=getattr(usage, "output_tokens", None) if usage else None,
+                cache_creation_tokens=getattr(usage, "cache_creation_input_tokens", None) if usage else None,
+                cache_read_tokens=getattr(usage, "cache_read_input_tokens", None) if usage else None,
+                stream=True,
+            )
+            _record_claude_ok()
+            _record_claude_usage(usage)
+            payload = _build_final_payload(answer_full, usage)
+            yield _stream_sse_event("done", payload=payload)
+        except Exception as exc:  # noqa: BLE001
+            exc_name = type(exc).__name__
+            _record_claude_error(exc_name)
+            logging.error("[/api/ask/stream] %s: %s", exc_name, exc)
+            log_event(
+                "error_caught",
+                scope="ask_stream",
+                module=module,
+                error_type=exc_name,
+                message=str(exc)[:300],
+            )
+            yield _stream_sse_event(
+                "error",
+                message="Erreur durant la génération. Veuillez réessayer.",
+                http_status=502,
+            )
+
+    return Response(
+        event_stream(),
+        mimetype="text/event-stream",
+        # X-Accel-Buffering: no — empêche nginx de bufferer les SSE en prod
+        headers={
+            "X-Accel-Buffering": "no",
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+        },
+    )
+
 
 # ══════════════════════════════════════════════
 #        API — Prise de Rendez-vous
