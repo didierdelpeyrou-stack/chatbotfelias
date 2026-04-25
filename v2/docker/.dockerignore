@@ -1,0 +1,62 @@
+# Sprint 3.4 — exclusion stricte du build context Docker.
+# Évite d'envoyer 1.4 GB de PDF KB + venv local au démon Docker.
+
+# Virtualenvs locaux (1+ GB)
+.venv/
+.venv_*/
+venv/
+env/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Secrets — JAMAIS dans une image
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# KB volumineuses (1.4 GB) — montées en volume, pas embarquées
+data/alisfa_docs/
+data/cpnef_docs/
+data/alisfa_public/
+data/.trash_*/
+fiches_pratiques/
+
+# Docs / artefacts qui n'ont rien à faire dans l'image
+docs/
+*.docx
+*.xlsx
+*.bak
+*.bak*
+backups/
+demo_backup/
+
+# Editeurs / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Git interne
+.git/
+.github/
+.gitignore
+
+# Tests V1 (image V2 ne les contient pas, mais évite le bruit dans le build)
+tests/
+v2/tests/

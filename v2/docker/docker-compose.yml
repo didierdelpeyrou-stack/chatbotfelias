@@ -1,0 +1,52 @@
+# Sprint 3.4 — docker-compose pour dev local et staging.
+#
+# Usage local depuis chatbot_elisfa/v2/ :
+#   cp .env.example .env  # éditer ANTHROPIC_API_KEY
+#   docker compose -f docker/docker-compose.yml up --build
+#
+# Le service expose :
+#   - http://localhost:8000/         (root)
+#   - http://localhost:8000/healthz   (liveness)
+#   - http://localhost:8000/readyz    (readiness)
+#   - http://localhost:8000/docs      (Swagger UI)
+#   - http://localhost:8000/api/ask   (chat)
+#   - http://localhost:8000/metrics   (Prometheus)
+
+services:
+  chatbot-v2:
+    build:
+      # Le build context est la racine du repo (v2/docker/Dockerfile copie v2/)
+      context: ../..
+      dockerfile: v2/docker/Dockerfile
+    image: chatbot-elisfa-v2:dev
+    container_name: chatbot-elisfa-v2
+    restart: unless-stopped
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      # Lecture depuis .env du dossier v2/ (variables, pas chemins de fichiers)
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-claude-haiku-4-5-20251001}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      # Le KB_DATA_DIR par défaut /app/data (cf. Dockerfile) pointe sur le volume
+
+    volumes:
+      # Sprint 3.1 — hot-reload mtime fonctionne aussi à travers un mount
+      # Read-only : le container ne doit pas modifier les KB de l'hôte
+      - ../../data:/app/data:ro
+
+    # Healthcheck est défini dans le Dockerfile (HEALTHCHECK)
+    # On peut le surcharger ici si besoin pour staging :
+    # healthcheck:
+    #   interval: 10s
+    #   timeout: 3s
+
+    # Limite de ressources — évite qu'un runaway Claude saturer la VM
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 512M

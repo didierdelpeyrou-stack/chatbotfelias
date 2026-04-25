@@ -122,11 +122,21 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Build image (no push)
+      - name: Build V1 image (no push)
         uses: docker/build-push-action@v5
         with:
           context: .
           push: false
           tags: chatbot-elisfa:ci
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          cache-from: type=gha,scope=v1
+          cache-to: type=gha,mode=max,scope=v1
+
+      - name: Build V2 image (Sprint 3.4 — no push)
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: v2/docker/Dockerfile
+          push: false
+          tags: chatbot-elisfa-v2:ci
+          cache-from: type=gha,scope=v2
+          cache-to: type=gha,mode=max,scope=v2

@@ -2,7 +2,7 @@
 
 Refonte du chatbot ELISFA basée sur les audits 2026-04-21. Cohabite avec V1 (Flask, racine du repo) jusqu'au cutover.
 
-## État courant : Sprint 2.1 ✅
+## État courant : Sprint 3.4 ✅ — V2 production-ready
 
 - Scaffold FastAPI minimal opérationnel
 - Endpoints `/`, `/healthz`, `/readyz`, `/docs` (Swagger auto)
@@ -18,10 +18,10 @@ Refonte du chatbot ELISFA basée sur les audits 2026-04-21. Cohabite avec V1 (Fl
 | 2.4 | LLM wrapper Anthropic |
 | 3.1 | KB loader + hot-reload |
 | 3.2 | `/api/ask` streaming |
-| 3.3 | Prometheus (5 metrics) |
-| 3.4 | Docker multi-stage |
+| 3.3 | ✅ Prometheus (5 metrics) — endpoint `/metrics` |
+| 3.4 | ✅ Docker multi-stage + docker-compose dev |
 
-## Démarrage local
+## Démarrage local — Python natif
 
 ```bash
 cd v2/
@@ -30,6 +30,24 @@ source .venv/bin/activate
 pip install -e ".[dev]"
 cp .env.example .env  # éditer ANTHROPIC_API_KEY
 uvicorn app.main:app --reload --port 8000
+```
+
+## Démarrage local — Docker (Sprint 3.4)
+
+Image multi-stage (~180 MB runtime) avec utilisateur non-root et HEALTHCHECK.
+
+```bash
+# Depuis chatbot_elisfa/v2/
+cp .env.example .env  # éditer ANTHROPIC_API_KEY
+docker compose -f docker/docker-compose.yml up --build
+
+# Ou en build manuel (depuis la racine du repo) :
+cd ..  # chatbot_elisfa/
+docker build -f v2/docker/Dockerfile -t chatbot-elisfa-v2:latest .
+docker run --rm -p 8000:8000 \
+  -e ANTHROPIC_API_KEY=sk-ant-... \
+  -v $(pwd)/data:/app/data:ro \
+  chatbot-elisfa-v2:latest
 ```
 
 Tester :
