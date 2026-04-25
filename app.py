@@ -10,6 +10,7 @@ import os
 import re
 import smtplib
 import threading
+import time
 import uuid
 from datetime import datetime, timedelta
 from email.mime.text import MIMEText
@@ -56,6 +57,7 @@ from security import (
 )
 from kb_cache import get_cache, invalidate_all as _kb_invalidate_all
 from observability import init_sentry
+from structured_logger import log_event, hash_question
 
 LOG_DIR.mkdir(exist_ok=True)
 
@@ -732,8 +734,13 @@ for _kb_obj, _kb_name in (
         _idx = _build_kb_index(_kb_obj)
         logging.info("[kb.index] %s : %d articles, %d tokens uniques",
                      _kb_name, _idx["n_articles"], len(_idx["inverted"]))
+        # Sprint 0.4 : log structuré pour suivre la taille des KB dans le temps
+        log_event("kb_loaded", base=_kb_name, articles=_idx["n_articles"],
+                  unique_tokens=len(_idx["inverted"]))
     except Exception as _e:  # noqa: BLE001
         logging.error("[kb.index] échec indexation %s : %s", _kb_name, _e)
+        log_event("kb_load_failed", base=_kb_name, error=type(_e).__name__,
+                  message=str(_e)[:200])
 
 def search_knowledge_base(question, kb=None):
     """Recherche via index inversé si disponible, fallback sinon.
@@ -2604,6 +2611,19 @@ def ask():
 
     module_cfg = MODULE_CONFIG[module]
 
+    # Sprint 0.4 : log structuré entrée API (un seul event par requête, juste avant le RAG)
+    _t_request_start = time.time()
+    log_event(
+        "ask_request",
+        module=module,
+        question_hash=hash_question(question),
+        question_length=len(question),
+        has_document=bool(doc_text),
+        doc_length=len(doc_text) if doc_text else 0,
+        function=function_id,
+        profile=profile_id,
+    )
+
     # ── Sélection du module via table de config ──
     # MODULE_CONFIG centralise prompt / KB / context_builder / is_formation.
     # Plus lisible qu'une chaîne if/elif et plus facile à étendre.
@@ -2683,7 +2703,19 @@ def ask():
     #    (base_gouvernance.json / base_rh.json) via le flux RAG commun ci-dessous.
 
     # 1. Recherche dans la base
+    _t_rag_start = time.time()
     results = search_knowledge_base(question, kb=current_kb)
+    _rag_latency_ms = int((time.time() - _t_rag_start) * 1000)
+    # Sprint 0.4 : log structuré du retrieval — capture distribution des scores pour calibrer V2
+    log_event(
+        "rag_retrieval",
+        module=module,
+        question_hash=hash_question(question),
+        results_count=len(results),
+        top_score=float(results[0]["score"]) if results else 0.0,
+        top_theme=results[0].get("theme_label") if results else None,
+        latency_ms=_rag_latency_ms,
+    )
 
     # Déterminer le niveau / type
     if is_formation:
@@ -2822,7 +2854,22 @@ def ask():
         if uses_tools:
             create_kwargs["tools"] = TOOLS_CALCUL
 
+        _t_claude_start = time.time()
         response = call_claude(client, **create_kwargs)
+        _claude_latency_ms = int((time.time() - _t_claude_start) * 1000)
+        # Sprint 0.4 : log structuré de l'appel Claude — capture latence et tokens pour profiling V2
+        _usage = getattr(response, "usage", None)
+        log_event(
+            "claude_call",
+            module=module,
+            model=CLAUDE_MODEL,
+            latency_ms=_claude_latency_ms,
+            input_tokens=getattr(_usage, "input_tokens", None) if _usage else None,
+            output_tokens=getattr(_usage, "output_tokens", None) if _usage else None,
+            cache_creation_tokens=getattr(_usage, "cache_creation_input_tokens", None) if _usage else None,
+            cache_read_tokens=getattr(_usage, "cache_read_input_tokens", None) if _usage else None,
+            uses_tools=bool(uses_tools),
+        )
 
         # Boucle tool_use : Claude peut appeler plusieurs outils en cascade
         # (ex. calcul_anciennete → indemnite_licenciement). Limite de sécurité
@@ -2901,9 +2948,25 @@ def ask():
         # Erreur typée remontée par call_claude : HTTP status adapté.
         http_status = getattr(e, "http_status", 500)
         logging.error(f"Erreur API Claude (typée): {e}")
+        # Sprint 0.4 : log structuré pour diagnostiquer les pannes Claude (rate limit, timeout…)
+        log_event(
+            "error_caught",
+            scope="ask_runtime",
+            module=module,
+            error_type=type(e).__name__,
+            http_status=http_status,
+            message=str(e)[:300],
+        )
         return jsonify({"error": str(e)}), http_status
     except Exception as e:
         logging.error(f"Erreur inattendue /api/ask: {type(e).__name__}: {e}")
+        log_event(
+            "error_caught",
+            scope="ask_unexpected",
+            module=module,
+            error_type=type(e).__name__,
+            message=str(e)[:300],
+        )
         return jsonify({"error": "Erreur de connexion au modèle IA. Veuillez réessayer."}), 500
 
 # ══════════════════════════════════════════════
