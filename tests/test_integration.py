@@ -431,6 +431,30 @@ class TestAdminEndpoints:
 
 
 # ══════════════════════════════════════════════
+#                Sentry self-test (Sprint 1.2)
+# ══════════════════════════════════════════════
+
+class TestSentryTestEndpoint:
+    """L'endpoint /api/sentry/test doit être admin-only et signaler proprement
+    quand SENTRY_DSN n'est pas configuré (cas par défaut en CI/dev)."""
+
+    def test_sentry_test_sans_auth_401(self, flask_client):
+        resp = flask_client.post("/api/sentry/test")
+        assert resp.status_code == 401
+
+    def test_sentry_test_sans_dsn_503(self, admin_client, admin_credentials, monkeypatch):
+        # SENTRY_DSN absent → endpoint répond 503 avec message clair
+        monkeypatch.delenv("SENTRY_DSN", raising=False)
+        username, password = admin_credentials
+        resp = admin_client.post(
+            "/api/sentry/test", headers=_basic_auth(username, password),
+        )
+        assert resp.status_code == 503
+        data = _assert_json(resp)
+        assert "SENTRY_DSN" in data["error"]
+
+
+# ══════════════════════════════════════════════
 #                OpenAPI / Swagger
 # ══════════════════════════════════════════════
 

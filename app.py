@@ -166,7 +166,34 @@ def _handle_request_too_large(_e):
 
 @app.errorhandler(429)
 def _handle_rate_limited(_e):
-    return jsonify({"error": "Trop de requêtes. Veuillez patienter."}), 429
+    return _error_response("Trop de requêtes. Veuillez patienter.", 429)
+
+
+# ── Helpers communs (Sprint 1.1) ──
+# Évitent la répétition `return jsonify({"error": ...}), N` (34 sites) et
+# le bloc Pydantic identique (5 sites). Les helpers gardent la même signature
+# que les call-sites legacy → refactor sans changement de comportement.
+
+def _error_response(message: str, status: int = 400):
+    """Construit une réponse JSON d'erreur uniforme."""
+    return jsonify({"error": message}), status
+
+
+def _validate_request(model_class, data):
+    """Valide ``data`` contre ``model_class`` Pydantic.
+
+    Renvoie ``(payload, None)`` en cas de succès, ``(None, response)`` en cas
+    d'échec (où ``response`` est prêt à être renvoyé tel quel).
+    Renvoie ``(None, None)`` si Pydantic est absent → l'appelant retombe sur
+    sa validation legacy (chaque handler en a une qui lui est propre).
+    """
+    if not _PYDANTIC_OK:
+        return None, None
+    try:
+        return model_class.model_validate(data), None
+    except _PydanticValidationError as e:
+        return None, _error_response(format_validation_error(e), 400)
+
 
 # ── Logging : rotation par taille + scrub des secrets ──
 # basicConfig écrit dans un fichier qui grossit indéfiniment. Avec plusieurs
@@ -2498,7 +2525,7 @@ def ask():
     # Rate limiting
     ok, msg = check_rate_limit(request.remote_addr)
     if not ok:
-        return jsonify({"error": msg}), 429
+        return _error_response(msg, 429)
 
     # Hot-reload auto des KBs si un JSON a changé sur disque (O(1) si rien n'a
     # bougé, juste 4 ``os.stat``). Évite de rebooter le container après édition.
@@ -2506,7 +2533,7 @@ def ask():
 
     data = request.get_json(silent=True)
     if not data or not isinstance(data, dict):
-        return jsonify({"error": "Requête invalide."}), 400
+        return _error_response("Requête invalide.", 400)
 
     # ── Validation stricte via Pydantic (fix 6) ──
     # Le modèle ``AskRequest`` remplace une centaine de lignes de ``data.get``
@@ -2514,11 +2541,10 @@ def ask():
     # requis, troncature silencieuse du doc, split rétro-compat du format
     # concaténé) sont appliquées APRÈS la validation brute, car elles sont
     # cross-champs et spécifiques au handler.
-    if _PYDANTIC_OK:
-        try:
-            payload = AskRequest.model_validate(data)
-        except _PydanticValidationError as e:
-            return jsonify({"error": format_validation_error(e)}), 400
+    payload, err = _validate_request(AskRequest, data)
+    if err:
+        return err
+    if payload is not None:
         question = (payload.question or "").strip()
         doc_text = (payload.document or "").strip()
         doc_name = (payload.document_name or "").strip()[:MAX_DOC_NAME_CHARS]
@@ -2533,7 +2559,7 @@ def ask():
         # ── Fallback legacy (si pydantic absent pour une raison quelconque) ──
         question = data.get("question", "")
         if not isinstance(question, str):
-            return jsonify({"error": "Le champ 'question' doit être du texte."}), 400
+            return _error_response("Le champ 'question' doit être du texte.", 400)
         question = question.strip()
         doc_text = data.get("document") or ""
         doc_name = data.get("document_name") or ""
@@ -2596,7 +2622,7 @@ def ask():
                 doc_name = m.group(2).strip()[:MAX_DOC_NAME_CHARS]
 
     if not question and not doc_text:
-        return jsonify({"error": "Veuillez poser une question."}), 400
+        return _error_response("Veuillez poser une question.", 400)
     if not question:
         # Question vide mais doc joint : question par défaut
         question = "Analyse ce document"
@@ -2957,7 +2983,7 @@ def ask():
             http_status=http_status,
             message=str(e)[:300],
         )
-        return jsonify({"error": str(e)}), http_status
+        return _error_response(str(e), http_status)
     except Exception as e:
         logging.error(f"Erreur inattendue /api/ask: {type(e).__name__}: {e}")
         log_event(
@@ -2967,7 +2993,7 @@ def ask():
             error_type=type(e).__name__,
             message=str(e)[:300],
         )
-        return jsonify({"error": "Erreur de connexion au modèle IA. Veuillez réessayer."}), 500
+        return _error_response("Erreur de connexion au modèle IA. Veuillez réessayer.", 500)
 
 # ══════════════════════════════════════════════
 #        API — Prise de Rendez-vous
@@ -2978,15 +3004,14 @@ def creer_rdv():
     """Créer un rendez-vous avec un juriste."""
     data = request.get_json(silent=True)
     if not data or not isinstance(data, dict):
-        return jsonify({"error": "Données JSON invalides."}), 400
+        return _error_response("Données JSON invalides.", 400)
 
     # Validation stricte via Pydantic (fix 6), fallback sur validate_contact_fields
     # si pydantic n'est pas disponible (cas dev sans les requirements complets).
-    if _PYDANTIC_OK:
-        try:
-            payload = RdvRequest.model_validate(data)
-        except _PydanticValidationError as e:
-            return jsonify({"error": format_validation_error(e)}), 400
+    payload, err = _validate_request(RdvRequest, data)
+    if err:
+        return err
+    if payload is not None:
         rdv_data = {
             "nom": payload.nom,
             "email": payload.email,
@@ -3002,7 +3027,7 @@ def creer_rdv():
     else:
         ok, err = validate_contact_fields(data, require_sujet=True)
         if not ok:
-            return jsonify({"error": err}), 400
+            return _error_response(err, 400)
         rdv_data = {
             "nom": data["nom"].strip(),
             "email": data["email"].strip(),
@@ -3139,7 +3164,7 @@ def update_rdv(rdv_id):
                 )
 
             return jsonify({"status": "ok", "rdv": rdv})
-    return jsonify({"error": "RDV non trouvé"}), 404
+    return _error_response("RDV non trouvé", 404)
 
 # ══════════════════════════════════════════════
 #     API — Email guidé au juriste
@@ -3253,24 +3278,23 @@ def email_juriste():
     """Envoyer un email structuré au juriste, guidé par le questionnaire."""
     data = request.get_json(silent=True)
     if not data or not isinstance(data, dict):
-        return jsonify({"error": "Données JSON invalides."}), 400
+        return _error_response("Données JSON invalides.", 400)
 
     # Validation Pydantic (fix 6) avec fallback legacy
-    if _PYDANTIC_OK:
-        try:
-            payload = EmailJuristeRequest.model_validate(data)
-        except _PydanticValidationError as e:
-            return jsonify({"error": format_validation_error(e)}), 400
+    payload, err = _validate_request(EmailJuristeRequest, data)
+    if err:
+        return err
+    if payload is not None:
         # Normalise data pour garder la suite du handler inchangée
         data = {**data, **payload.model_dump(exclude_unset=False)}
     else:
         ok, err = validate_contact_fields(data)
         if not ok:
-            return jsonify({"error": err}), 400
+            return _error_response(err, 400)
         if not data.get("theme_guide"):
-            return jsonify({"error": "Le thème est requis."}), 400
+            return _error_response("Le thème est requis.", 400)
         if not isinstance(data.get("reponses"), dict) or len(data["reponses"]) == 0:
-            return jsonify({"error": "Veuillez répondre aux questions guidées."}), 400
+            return _error_response("Veuillez répondre aux questions guidées.", 400)
 
     # Construire l'email
     email_id = str(uuid.uuid4())[:8].upper()
@@ -3551,26 +3575,24 @@ def planifier_appel():
     """Planifier un appel de 15 minutes avec un juriste."""
     data = request.get_json(silent=True)
     if not data or not isinstance(data, dict):
-        return jsonify({"error": "Données JSON invalides."}), 400
+        return _error_response("Données JSON invalides.", 400)
 
     # Validation Pydantic (fix 6) — AppelRequest vérifie nom/email/tel/motif
     # en une passe. date + heure sont vérifiés manuellement ensuite (règle
     # métier : les deux doivent être non vides ET le créneau libre).
-    if _PYDANTIC_OK:
-        try:
-            AppelRequest.model_validate(data)
-        except _PydanticValidationError as e:
-            return jsonify({"error": format_validation_error(e)}), 400
-    else:
+    payload, err = _validate_request(AppelRequest, data)
+    if err:
+        return err
+    if payload is None:
         ok, err = validate_contact_fields(data)
         if not ok:
-            return jsonify({"error": err}), 400
+            return _error_response(err, 400)
         if not data.get("motif", "").strip():
-            return jsonify({"error": "Le champ 'motif' est requis."}), 400
+            return _error_response("Le champ 'motif' est requis.", 400)
 
     for field in ("date", "heure"):
         if not data.get(field, "").strip():
-            return jsonify({"error": f"Le champ '{field}' est requis."}), 400
+            return _error_response(f"Le champ '{field}' est requis.", 400)
 
     motif = data["motif"]
     motif_info = MOTIFS_APPEL.get(motif, MOTIFS_APPEL["autre"])
@@ -3580,7 +3602,7 @@ def planifier_appel():
     cle = f"{data['date']}_{data['heure']}"
     for a in appels:
         if a.get("statut") != "annule" and f"{a.get('date')}_{a.get('heure')}" == cle:
-            return jsonify({"error": "Ce créneau vient d'être réservé. Veuillez en choisir un autre."}), 409
+            return _error_response("Ce créneau vient d'être réservé. Veuillez en choisir un autre.", 409)
 
     # Créer l'appel
     appel = {
@@ -3706,7 +3728,7 @@ def update_appel(appel_id):
             appel["updated_at"] = datetime.now().isoformat()
             save_appels(appels)
             return jsonify({"status": "ok", "appel": appel})
-    return jsonify({"error": "Appel non trouvé"}), 404
+    return _error_response("Appel non trouvé", 404)
 
 # ══════════════════════════════════════════════
 #         API — Webhook MCP (n8n/Zapier/Make)
@@ -3721,12 +3743,12 @@ def webhook_ask():
     sig = request.headers.get("X-Webhook-Signature", "")
     if WEBHOOK_SECRET != "elisfa-webhook-secret-change-me" and sig:
         if not verify_webhook_signature(request.data, sig):
-            return jsonify({"error": "Signature invalide"}), 403
+            return _error_response("Signature invalide", 403)
 
     data = request.get_json()
     question = data.get("question", "").strip()
     if not question:
-        return jsonify({"error": "Le champ 'question' est requis."}), 400
+        return _error_response("Le champ 'question' est requis.", 400)
 
     # Recherche
     results = search_knowledge_base(question)
@@ -3793,7 +3815,7 @@ def webhook_rdv_callback():
     data = request.get_json()
     rdv_id = data.get("rdv_id", "")
     if not rdv_id:
-        return jsonify({"error": "rdv_id requis"}), 400
+        return _error_response("rdv_id requis", 400)
 
     rdvs = load_rdv()
     for rdv in rdvs:
@@ -3805,7 +3827,7 @@ def webhook_rdv_callback():
             rdv["updated_at"] = datetime.now().isoformat()
             save_rdv(rdvs)
             return jsonify({"status": "ok"})
-    return jsonify({"error": "RDV non trouvé"}), 404
+    return _error_response("RDV non trouvé", 404)
 
 # ══════════════════════════════════════════════
 #         API — Configuration MCP
@@ -3914,17 +3936,14 @@ def feedback():
     """
     data = request.get_json(silent=True) or {}
     if not isinstance(data, dict):
-        return jsonify({"error": "Payload invalide."}), 400
+        return _error_response("Payload invalide.", 400)
 
     # Validation Pydantic (fix 6) : rating doit être -1 ou +1, sinon 400
-    if _PYDANTIC_OK:
-        try:
-            FeedbackRequest.model_validate(data)
-        except _PydanticValidationError as e:
-            return jsonify({"error": format_validation_error(e)}), 400
-    else:
-        if data.get("rating") not in (1, -1):
-            return jsonify({"error": "rating doit être -1 ou +1."}), 400
+    payload, err = _validate_request(FeedbackRequest, data)
+    if err:
+        return err
+    if payload is None and data.get("rating") not in (1, -1):
+        return _error_response("rating doit être -1 ou +1.", 400)
 
     entry = {
         "timestamp": datetime.now().isoformat(),
@@ -3980,6 +3999,50 @@ def feedback_stats():
                     "comment": (e.get("comment") or "")[:300],
                 })
     return jsonify({"total": total, "by_function": by_function, "negatives": negatives[-50:]})
+
+
+# ── Sentry test endpoint (Sprint 1.2) ──
+# Permet de valider que la chaîne `app → Sentry → notif email/Slack` fonctionne.
+# Admin-only pour éviter qu'un visiteur ne pollue le projet Sentry.
+@app.route("/api/sentry/test", methods=["POST"])
+@require_admin
+def sentry_test():
+    """Émet un message de test à Sentry et déclenche une exception bénigne.
+
+    Réponse :
+      - 200 si Sentry est actif et a accepté l'event (mais on ne peut pas
+        vérifier l'arrivée côté UI Sentry depuis le code — il faut aller voir)
+      - 503 si SENTRY_DSN absent → rien envoyé (pas d'erreur, juste un info)
+
+    Usage :
+      curl -X POST -u admin:<pass> https://felias-reseau-eli2026.duckdns.org/api/sentry/test
+    """
+    if not os.getenv("SENTRY_DSN", "").strip():
+        return _error_response(
+            "SENTRY_DSN non configuré — endpoint inopérant.", 503
+        )
+    try:
+        import sentry_sdk
+    except ImportError:
+        return _error_response("sentry-sdk non installé.", 503)
+
+    # 1. Message structuré (visible dans Sentry > Issues > level=info)
+    sentry_sdk.capture_message(
+        "ELISFA Sentry self-test triggered (admin)",
+        level="info",
+    )
+    # 2. Exception capturée explicitement (vérifie le wiring exception → Sentry)
+    try:
+        raise RuntimeError("ELISFA Sentry self-test exception (safe to ignore)")
+    except RuntimeError as exc:
+        sentry_sdk.capture_exception(exc)
+
+    return jsonify({
+        "status": "ok",
+        "message": "2 events envoyés (1 message INFO + 1 exception RuntimeError). "
+                   "Vérifier dans la UI Sentry sous quelques secondes.",
+    })
+
 
 @app.route("/api/stats")
 @require_admin
@@ -4376,7 +4439,7 @@ _OPENAPI_PATH = BASE_DIR / "docs" / "openapi.yaml"
 def openapi_spec_yaml():
     """Sert le fichier OpenAPI brut (YAML)."""
     if not _OPENAPI_PATH.exists():
-        return jsonify({"error": "Spécification OpenAPI absente."}), 404
+        return _error_response("Spécification OpenAPI absente.", 404)
     return send_from_directory(
         directory=str(_OPENAPI_PATH.parent),
         path=_OPENAPI_PATH.name,
@@ -4398,14 +4461,14 @@ def openapi_spec_json():
             "error": "PyYAML non installé. Utilisez /api/openapi.yaml."
         }), 501
     if not _OPENAPI_PATH.exists():
-        return jsonify({"error": "Spécification OpenAPI absente."}), 404
+        return _error_response("Spécification OpenAPI absente.", 404)
     try:
         with open(_OPENAPI_PATH, "r", encoding="utf-8") as f:
             spec = yaml.safe_load(f)
         return jsonify(spec)
     except Exception as e:
         logging.error("[openapi] conversion YAML→JSON échouée : %s", e)
-        return jsonify({"error": "Erreur de parsing OpenAPI."}), 500
+        return _error_response("Erreur de parsing OpenAPI.", 500)
 
 
 # Blueprint Swagger UI (le package monte tout le JS/CSS automatiquement)

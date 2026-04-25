@@ -198,6 +198,59 @@ jq 'select(.event=="claude_call") | .latency_ms' logs/events.jsonl | \
 jq 'select(.event=="error_caught")' logs/events.jsonl | tail -20
 ```
 
+### Sentry — monitoring d'erreurs distantes (Sprint 1.2)
+
+Sentry est intégré via [observability.py](./observability.py). Activation conditionnelle : si `SENTRY_DSN` est vide, c'est un no-op silencieux (pas d'erreur au boot).
+
+**Setup initial** (une fois, ~10 min) :
+
+1. Créer un compte gratuit sur [sentry.io](https://sentry.io) → New Project → Python/Flask
+2. Copier le **DSN** (format `https://xxx@oNNN.ingest.sentry.io/MMM`)
+3. L'ajouter dans `.env` du VPS :
+   ```bash
+   SENTRY_DSN=https://xxx@oNNN.ingest.sentry.io/MMM
+   SENTRY_ENVIRONMENT=production
+   SENTRY_RELEASE=$(git rev-parse --short HEAD)
+   ```
+4. `docker-compose restart` → au boot, le log doit afficher `[sentry] Initialisé (env=production, ...)`
+
+**Tester que ça marche end-to-end** (Sprint 1.2) :
+
+```bash
+# Depuis ton poste, après avoir mis SENTRY_DSN en prod :
+curl -X POST -u admin:<password> https://felias-reseau-eli2026.duckdns.org/api/sentry/test
+
+# Réponse attendue :
+# {"status":"ok","message":"2 events envoyés (1 INFO + 1 RuntimeError)..."}
+```
+
+Va ensuite sur Sentry → Issues. Tu dois voir 2 nouveaux événements en quelques secondes :
+- `ELISFA Sentry self-test triggered (admin)` (INFO)
+- `RuntimeError: ELISFA Sentry self-test exception (safe to ignore)` (ERROR)
+
+Si rien n'arrive → vérifier que le DSN est correct (pas de `xxx` placeholder), que le boot a bien initialisé Sentry (cf. logs Flask), et que le pare-feu sortant du VPS autorise `*.ingest.sentry.io:443`.
+
+**Configurer les alertes** (Sentry UI, ~5 min) :
+
+Sentry → Alerts → Create Alert. Règles recommandées :
+
+| Condition | Action | Fréquence |
+|---|---|---|
+| Nouvelle issue créée | Email à toi | Immédiat |
+| Issue avec >10 events/h | Email + Slack si configuré | Toutes les heures |
+| Régression (issue résolue qui revient) | Email | Immédiat |
+
+Évite les règles trop sensibles au début — un setup `>5 events/min` te spamme à la moindre microcoupure réseau Anthropic. Calibrer selon le volume réel après 1-2 semaines.
+
+**Privacy / RGPD** :
+
+Le scrubber [observability.py:_scrub_sentry_event](./observability.py) filtre automatiquement avant envoi :
+- Clés `sk-ant-*` (Anthropic)
+- Tokens `Bearer ...`
+- Adresses email (remplacées par `***@***`)
+
+`send_default_pii=False` désactive aussi la capture d'IP utilisateur côté Sentry. Aucun mot de passe ni hash bcrypt n'est jamais transmis.
+
 ---
 
 ## 🆘 Aide rapide
