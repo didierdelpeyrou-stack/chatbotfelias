@@ -8,6 +8,9 @@
 backups/
 *.bak
 *.bak*
+# Backups KB V1 produits par v2/scripts/migrate_kb_v1_v2.py (Sprint 5.1)
+# Le dossier grossit à chaque rerun ; les originaux sont déjà sous git.
+data/v1_backup/
 
 # Logs
 logs/

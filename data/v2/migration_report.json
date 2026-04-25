@@ -1,0 +1,58 @@
+{
+  "migrated_at": "2026-04-25T17:45:13+00:00",
+  "author": "ELISFA Migration V1→V2",
+  "source": "/Users/didierdelpeyrou/projets claude/Felias/Chat elisfa/chatbot_elisfa/data",
+  "target": "/Users/didierdelpeyrou/projets claude/Felias/Chat elisfa/chatbot_elisfa/data/v2",
+  "files": {
+    "base_juridique.json": {
+      "articles_total": 92,
+      "enrichments_added": {
+        "niveau": 92,
+        "escalade": 80,
+        "revision": 92
+      },
+      "niveaux_distribution": {
+        "vert": 36,
+        "orange": 45,
+        "rouge": 11
+      }
+    },
+    "base_formation.json": {
+      "articles_total": 43,
+      "enrichments_added": {
+        "niveau": 43,
+        "escalade": 43,
+        "revision": 43
+      },
+      "niveaux_distribution": {
+        "vert": 43
+      }
+    },
+    "base_rh.json": {
+      "articles_total": 11,
+      "enrichments_added": {
+        "niveau": 11,
+        "escalade": 11,
+        "revision": 11
+      },
+      "niveaux_distribution": {
+        "vert": 11
+      }
+    },
+    "base_gouvernance.json": {
+      "articles_total": 12,
+      "enrichments_added": {
+        "niveau": 12,
+        "escalade": 12,
+        "revision": 12
+      },
+      "niveaux_distribution": {
+        "vert": 12
+      }
+    }
+  },
+  "totals": {
+    "articles": 158,
+    "themes": 46
+  }
+}
