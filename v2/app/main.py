@@ -28,7 +28,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import __version__
-from app.api import chat, health
+from app.api import chat, feedback, health
 from app.kb.loader import KBStore
 from app.llm.claude import ClaudeClient
 from app.settings import get_settings
@@ -131,6 +131,7 @@ def create_app() -> FastAPI:
     # Routers
     app.include_router(health.router)
     app.include_router(chat.router)
+    app.include_router(feedback.router)
 
     # Endpoint root informatif (utile pour valider le déploiement)
     @app.get("/", summary="Root")
