@@ -1514,6 +1514,127 @@ textarea.input-field{display:block}
   border-top: 1px solid var(--grey-200, #f3f4f6);
   background: var(--grey-50, #fafbfc);
 }
+
+/* ── Phase 4 : Export PDF (window.print() + @media print) ── */
+.export-pdf-fab {
+  position: fixed;
+  bottom: 16px;
+  left: 72px;             /* à 56px du history-fab (44+12 marge) */
+  z-index: 9000;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--grey-300, #e5e7eb);
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.export-pdf-fab:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+
+/* Caché par défaut, affiché uniquement à l'impression */
+.print-only { display: none; }
+
+/* ─────── Règles d'impression ─────── */
+/* Approche `visibility` plutôt que `display` :
+   - body * { visibility:hidden } cache TOUT
+   - .chat-area + descendants restent visibles
+   - les éléments cachés gardent leur layout, mais sont invisibles
+   - en bonus : ils ne consomment pas de pages (browser n'imprime pas le vide)
+   - .chat-area est repositionné en absolute pour démarrer en haut de page */
+@media print {
+  body { background: #fff !important; }
+  body * { visibility: hidden !important; }
+
+  /* Re-show : chat area + print-only header/footer + leurs descendants */
+  .chat-area, .chat-area *,
+  .print-only, .print-only * {
+    visibility: visible !important;
+  }
+
+  /* Positionne le chat en haut absolu pour rentabiliser la page */
+  .chat-area {
+    position: absolute !important;
+    left: 0; top: 0; right: 0;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* 2. Header imprimable */
+  .print-header {
+    display: block !important;
+    border-bottom: 2px solid #1a2744;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  .print-brand {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #1a2744;
+  }
+  .print-meta {
+    font-size: 9pt;
+    color: #555;
+    margin-top: 2px;
+  }
+
+  /* 3. Footer imprimable */
+  .print-footer {
+    display: block !important;
+    margin-top: 16px;
+    padding-top: 8px;
+    border-top: 1px solid #ccc;
+    font-size: 8pt;
+    color: #666;
+    text-align: center;
+  }
+
+  /* 4. Bulles : pas d'arrière-plan coloré (économie encre + lisibilité N&B) */
+  .chat-area .message {
+    page-break-inside: avoid;
+    margin-bottom: 12px !important;
+    max-width: 100% !important;
+  }
+  .chat-area .msg-bubble {
+    border: 1px solid #ddd !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    color: #111 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    background: #fff !important;
+  }
+  .chat-area .msg-user .msg-bubble {
+    border-left: 3px solid #2563eb !important;
+  }
+  .chat-area .msg-bot .msg-bubble {
+    border-left: 3px solid #10b981 !important;
+  }
+  .chat-area .msg-label {
+    font-size: 8pt !important;
+    color: #555 !important;
+    margin-bottom: 3px !important;
+  }
+  /* Liens : afficher l'URL après le texte */
+  .chat-area .msg-bubble a::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+  }
+
+  /* 5. Page setup */
+  @page {
+    margin: 16mm 14mm;
+    size: A4;
+  }
+}
 </style>
 </head>
 <body>
@@ -7967,6 +8088,40 @@ document.addEventListener('DOMContentLoaded', function(){
     updateHistoryBadge();
   }
 })();
+
+// ─────────────────────────────────────────────────────────────
+// Phase 4 — Export PDF de la conversation via window.print()
+// On injecte la date dans #printDate juste avant l'impression.
+// Aucune lib externe : @media print + window.print() suffisent.
+// ─────────────────────────────────────────────────────────────
+window.exportConversationPDF = function() {
+  try {
+    const chatArea = document.getElementById('chatArea');
+    if (!chatArea) return;
+    const messages = chatArea.querySelectorAll('.message');
+    if (messages.length === 0) {
+      // Rien à imprimer — toast non bloquant si dispo, sinon alert sobre
+      if (typeof showToast === 'function') {
+        showToast('Aucune conversation à exporter — pose d\'abord une question.', 'info');
+      } else {
+        alert('Aucune conversation à exporter.');
+      }
+      return;
+    }
+    // Date FR longue (ex. "vendredi 25 avril 2026 à 14:35")
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('fr-FR', {
+      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+    }) + ' à ' + now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+    const printDateEl = document.getElementById('printDate');
+    if (printDateEl) printDateEl.textContent = dateStr;
+
+    // Déclenche l'impression. Le user choisit "Save as PDF" dans le dialog navigateur.
+    window.print();
+  } catch (e) {
+    console.warn('[exportPDF]', e);
+  }
+};
 </script>
 
 <!-- Bouton pour re-afficher le chrome masqué au scroll -->
@@ -7980,6 +8135,22 @@ document.addEventListener('DOMContentLoaded', function(){
   <span class="history-fab-icon">📋</span>
   <span class="history-fab-badge" id="historyFabBadge" aria-hidden="true"></span>
 </button>
+
+<!-- Sprint Phase 4 : Export PDF de la conversation via window.print() + @media print -->
+<button type="button" class="export-pdf-fab" id="exportPdfFab" onclick="exportConversationPDF()" title="Imprimer ou sauver la conversation en PDF" aria-label="Exporter la conversation en PDF">
+  <span aria-hidden="true">📄</span>
+</button>
+
+<!-- Header imprimable (display:none à l'écran, visible uniquement dans le PDF) -->
+<div class="print-only print-header" aria-hidden="true">
+  <div class="print-brand">ELISFA · Assistant juridique CCN ALISFA</div>
+  <div class="print-meta">Conversation exportée le <span id="printDate"></span></div>
+</div>
+
+<!-- Footer imprimable -->
+<div class="print-only print-footer" aria-hidden="true">
+  Réponses informatives, non contractuelles · Pour un avis personnalisé, contactez le pôle juridique ELISFA.
+</div>
 
 <div class="history-panel" id="historyPanel" role="dialog" aria-labelledby="historyPanelTitle" aria-hidden="true">
   <div class="history-panel-header">
