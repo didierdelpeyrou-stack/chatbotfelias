@@ -62,9 +62,15 @@ jobs:
           python --version
           pip list | head -30
 
-      - name: Run pytest
+      - name: Run pytest (V1)
         run: |
-          pytest --tb=short --durations=10
+          pytest tests/ --tb=short --durations=10
+
+      - name: Run pytest (V2)
+        # Sprint 2.1+ : V2 cohabite dans v2/ sur la branche v2-dev.
+        # On lance ses tests dans son propre PYTHONPATH.
+        run: |
+          cd v2 && PYTHONPATH=. pytest tests/ --tb=short
 
       - name: Upload coverage artifacts (facultatif)
         if: always()

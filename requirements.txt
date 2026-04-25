@@ -25,3 +25,11 @@ PyYAML>=6.0
 pytest>=8.0
 requests>=2.31
 openpyxl>=3.1
+
+# ── V2 (Sprint 2.1+) — FastAPI scaffold cohabite avec Flask V1 ──
+# Installées dans le même venv pour que le CI puisse tester V1 et V2.
+fastapi>=0.115
+uvicorn[standard]>=0.32
+pydantic-settings>=2.6
+httpx>=0.27        # client HTTP async (utilisé par TestClient FastAPI)
+pytest-asyncio>=0.24
