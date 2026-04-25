@@ -1383,6 +1383,137 @@ textarea.input-field{display:block}
 }
 
 .em-print-legal { display: none; }
+
+/* ── Phase 3 : Historique des 10 dernières questions (localStorage) ── */
+.history-fab {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  z-index: 9000;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--grey-300, #e5e7eb);
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.history-fab:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.18); }
+.history-fab-icon { line-height: 1; }
+.history-fab-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  background: var(--blue-600, #2563eb);
+  color: #fff;
+  border-radius: 9px;
+  font-size: 11px;
+  font-weight: 700;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.history-fab-badge:not(:empty) { display: inline-flex; }
+
+.history-panel {
+  position: fixed;
+  bottom: 70px;
+  left: 16px;
+  z-index: 9001;
+  width: min(360px, calc(100vw - 32px));
+  max-height: 60vh;
+  background: #fff;
+  border: 1px solid var(--grey-300, #e5e7eb);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.18);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 13px;
+}
+.history-panel[aria-hidden="false"] { display: flex; }
+
+.history-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--grey-200, #f3f4f6);
+  font-weight: 600;
+  background: var(--grey-50, #fafbfc);
+}
+.history-panel-actions { display: flex; gap: 4px; }
+.history-clear-btn,
+.history-close-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--text-muted, #6b7280);
+}
+.history-clear-btn:hover,
+.history-close-btn:hover { background: var(--grey-100, #f3f4f6); color: #111; }
+
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  overflow-y: auto;
+  flex: 1;
+}
+.history-item {
+  padding: 10px 14px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: background .12s ease, border-color .12s ease;
+}
+.history-item:hover {
+  background: var(--blue-50, #eff6ff);
+  border-left-color: var(--blue-500, #3b82f6);
+}
+.history-item-text {
+  color: #111;
+  line-height: 1.35;
+  margin-bottom: 3px;
+  word-break: break-word;
+}
+.history-item-meta {
+  font-size: 11px;
+  color: var(--text-muted, #6b7280);
+  display: flex;
+  gap: 8px;
+}
+.history-item-meta .module-tag {
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  font-weight: 600;
+}
+.history-empty {
+  padding: 20px 14px;
+  text-align: center;
+  color: var(--text-muted, #6b7280);
+  font-style: italic;
+}
+.history-panel-footer {
+  padding: 8px 14px;
+  font-size: 11px;
+  color: var(--text-muted, #6b7280);
+  text-align: center;
+  border-top: 1px solid var(--grey-200, #f3f4f6);
+  background: var(--grey-50, #fafbfc);
+}
 </style>
 </head>
 <body>
@@ -7681,6 +7812,161 @@ document.addEventListener('DOMContentLoaded', function(){
   // Double-clic sur la zone du chat ramène le chrome
   chat.addEventListener('dblclick', () => document.body.classList.remove('chrome-hidden'));
 })();
+
+// ─────────────────────────────────────────────────────────────
+// Phase 3 — Historique des 10 dernières questions (localStorage)
+// Stocké côté navigateur uniquement, jamais transmis au serveur.
+// Hook sur sendMsg() : on intercepte AVANT l'envoi pour capturer
+// la question telle que tapée par l'utilisateur.
+// ─────────────────────────────────────────────────────────────
+(function() {
+  const KEY = 'elisfa_recent_questions_v1';
+  const MAX = 10;
+  const MIN_LEN = 3;        // ignore les questions trop courtes
+  const DEDUP_WINDOW = 3;   // si même texte dans les 3 dernières → skip
+
+  function readHistory() {
+    try {
+      const raw = localStorage.getItem(KEY);
+      const items = raw ? JSON.parse(raw) : [];
+      return Array.isArray(items) ? items : [];
+    } catch(e) { return []; }
+  }
+
+  function writeHistory(items) {
+    try { localStorage.setItem(KEY, JSON.stringify(items.slice(0, MAX))); }
+    catch(e) { /* quota plein, fallback silencieux */ }
+  }
+
+  function recordRecentQuestion(text, module) {
+    if (!text || text.length < MIN_LEN) return;
+    const items = readHistory();
+    // Dedup : si le même texte est dans les N dernières, on ne réenregistre pas
+    if (items.slice(0, DEDUP_WINDOW).some(it => it && it.text === text)) {
+      // mais on rafraîchit quand même la position en haut
+      const filtered = items.filter(it => it.text !== text);
+      filtered.unshift({ text, module: module || '', ts: Date.now() });
+      writeHistory(filtered);
+    } else {
+      items.unshift({ text, module: module || '', ts: Date.now() });
+      writeHistory(items);
+    }
+    updateHistoryBadge();
+  }
+
+  function updateHistoryBadge() {
+    const badge = document.getElementById('historyFabBadge');
+    if (!badge) return;
+    const n = readHistory().length;
+    badge.textContent = n > 0 ? String(n) : '';
+  }
+
+  function relativeTime(ts) {
+    const diff = (Date.now() - ts) / 1000;
+    if (diff < 60) return 'à l’instant';
+    if (diff < 3600) return Math.floor(diff/60) + ' min';
+    if (diff < 86400) return Math.floor(diff/3600) + ' h';
+    return Math.floor(diff/86400) + ' j';
+  }
+
+  function escHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    })[c]);
+  }
+
+  function renderHistoryPanel() {
+    const list = document.getElementById('historyList');
+    if (!list) return;
+    const items = readHistory();
+    updateHistoryBadge();  // garde le badge en sync même si le storage a changé hors recordRecentQuestion
+    if (items.length === 0) {
+      list.innerHTML = '<li class="history-empty">Aucune question récente</li>';
+      return;
+    }
+    list.innerHTML = items.map((it, idx) => {
+      const safe = escHtml((it.text || '').slice(0, 120));
+      const truncated = (it.text || '').length > 120 ? '…' : '';
+      const moduleTag = it.module ? '<span class="module-tag">' + escHtml(it.module) + '</span>' : '';
+      return '<li class="history-item" data-idx="' + idx + '">' +
+             '  <div class="history-item-text">' + safe + truncated + '</div>' +
+             '  <div class="history-item-meta">' + moduleTag + '<span>' + escHtml(relativeTime(it.ts)) + '</span></div>' +
+             '</li>';
+    }).join('');
+    // Click handler unique sur la liste (event delegation)
+    list.onclick = function(ev) {
+      const li = ev.target.closest('.history-item');
+      if (!li) return;
+      const idx = parseInt(li.getAttribute('data-idx'), 10);
+      const items2 = readHistory();
+      const it = items2[idx];
+      if (!it) return;
+      const input = document.getElementById('inputField');
+      if (input) {
+        input.value = it.text;
+        if (typeof autoGrowInput === 'function') autoGrowInput(input);
+        if (typeof updatePromptHint === 'function') updatePromptHint(input);
+        input.focus();
+      }
+      toggleHistoryPanel();  // ferme le panel après sélection
+    };
+  }
+
+  // ── API publique (window-level) ──
+  window.toggleHistoryPanel = function(ev) {
+    if (ev) ev.stopPropagation();
+    const panel = document.getElementById('historyPanel');
+    if (!panel) return;
+    const open = panel.getAttribute('aria-hidden') === 'false';
+    if (open) {
+      panel.setAttribute('aria-hidden', 'true');
+    } else {
+      renderHistoryPanel();
+      panel.setAttribute('aria-hidden', 'false');
+    }
+  };
+
+  window.clearRecentHistory = function() {
+    if (!confirm('Effacer toutes les questions récentes ?')) return;
+    try { localStorage.removeItem(KEY); } catch(e) {}
+    renderHistoryPanel();
+    updateHistoryBadge();
+  };
+
+  // Wrap sendMsg pour capturer la question tapée — on hook AVANT l'envoi
+  // pour que même si la requête échoue, la question reste accessible.
+  if (typeof sendMsg === 'function') {
+    const _origSendMsg = sendMsg;
+    window.sendMsg = async function() {
+      try {
+        const input = document.getElementById('inputField');
+        const text = (input && input.value || '').trim();
+        if (text) {
+          // Capture du module actif si dispo (variable globale dans le script principal)
+          const mod = (typeof activeModule !== 'undefined' && activeModule) ? activeModule : '';
+          recordRecentQuestion(text, mod);
+        }
+      } catch(e) { /* never block sendMsg */ }
+      return _origSendMsg.apply(this, arguments);
+    };
+  }
+
+  // Click hors-panel → ferme
+  document.addEventListener('click', function(ev) {
+    const panel = document.getElementById('historyPanel');
+    const fab = document.getElementById('historyFab');
+    if (!panel || panel.getAttribute('aria-hidden') !== 'false') return;
+    if (panel.contains(ev.target) || (fab && fab.contains(ev.target))) return;
+    panel.setAttribute('aria-hidden', 'true');
+  });
+
+  // Initial badge
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateHistoryBadge);
+  } else {
+    updateHistoryBadge();
+  }
+})();
 </script>
 
 <!-- Bouton pour re-afficher le chrome masqué au scroll -->
@@ -7688,6 +7974,24 @@ document.addEventListener('DOMContentLoaded', function(){
 
 <!-- Accès permanent aux Mentions légales -->
 <button type="button" class="em-footer-link" onclick="openEmLegalModal()" title="Conditions d'utilisation et réserves d'usage">⚖ Mentions légales</button>
+
+<!-- Sprint Phase 3 : Historique des 10 dernières questions (localStorage côté navigateur, jamais envoyé au serveur) -->
+<button type="button" class="history-fab" id="historyFab" onclick="toggleHistoryPanel(event)" title="Vos 10 dernières questions" aria-label="Ouvrir l'historique des questions récentes">
+  <span class="history-fab-icon">📋</span>
+  <span class="history-fab-badge" id="historyFabBadge" aria-hidden="true"></span>
+</button>
+
+<div class="history-panel" id="historyPanel" role="dialog" aria-labelledby="historyPanelTitle" aria-hidden="true">
+  <div class="history-panel-header">
+    <span id="historyPanelTitle">Vos 10 dernières questions</span>
+    <div class="history-panel-actions">
+      <button type="button" class="history-clear-btn" onclick="clearRecentHistory()" title="Effacer toutes les questions">🗑️</button>
+      <button type="button" class="history-close-btn" onclick="toggleHistoryPanel()" aria-label="Fermer l'historique">×</button>
+    </div>
+  </div>
+  <ul class="history-list" id="historyList"></ul>
+  <div class="history-panel-footer">Stocké uniquement dans ce navigateur · jamais envoyé</div>
+</div>
 
 <!-- Matrice d'Eisenhower — overlay plein écran -->
 <div class="em-overlay" id="emOverlay" aria-hidden="true">
