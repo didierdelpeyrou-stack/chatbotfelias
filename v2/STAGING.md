@@ -2,7 +2,7 @@
 
 **Audience :** toi, sur le VPS Hostinger, avec accès SSH root.
 **Prérequis :** V1 tourne déjà sur `felias-reseau-eli2026.duckdns.org` (port 80/443, nginx + Docker).
-**Cible :** V2 cohabite sur `felias-reseau-eli2026-v2.duckdns.org` (sous-domaine séparé).
+**Cible :** V2 cohabite sur `felias.duckdns.org` (sous-domaine séparé).
 **Durée totale estimée :** 3-4h, dont ~30 min de propagation DNS.
 
 ---
@@ -13,7 +13,7 @@
                     Internet
                         │
                         ├── felias-reseau-eli2026.duckdns.org      → nginx :443 → V1 (Flask :8080)
-                        └── felias-reseau-eli2026-v2.duckdns.org   → nginx :443 → V2 (FastAPI :8000)
+                        └── felias.duckdns.org   → nginx :443 → V2 (FastAPI :8000)
                                                                               ↓
                                                                         Docker container
                                                                         chatbot-elisfa-v2-staging
@@ -33,7 +33,7 @@
 DuckDNS gratuit autorise jusqu'à 5 sous-domaines par compte.
 
 1. Va sur [duckdns.org](https://www.duckdns.org/) (login Google/GitHub).
-2. Section **add domain** : tape `felias-reseau-eli2026-v2` → bouton **add**.
+2. Section **add domain** : tape `felias` → bouton **add**.
 3. Dans le tableau, à la ligne du nouveau sous-domaine :
    - **current ip** : colle l'IP publique du VPS (la même que pour `felias-reseau-eli2026`).
    - Clic **update ip**.
@@ -42,8 +42,8 @@ DuckDNS gratuit autorise jusqu'à 5 sous-domaines par compte.
 **Vérifier la propagation** depuis ta machine locale :
 
 ```bash
-host felias-reseau-eli2026-v2.duckdns.org
-# Attendu : felias-reseau-eli2026-v2.duckdns.org has address <IP du VPS>
+host felias.duckdns.org
+# Attendu : felias.duckdns.org has address <IP du VPS>
 ```
 
 Si pas résolu après 5 min, attendre encore 25 min — DuckDNS peut être lent les premières fois.
@@ -87,14 +87,14 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-À ce stade, `http://felias-reseau-eli2026-v2.duckdns.org` répond en HTTP (mais redirige déjà vers HTTPS — qui n'a pas encore de certif → erreur cert attendue).
+À ce stade, `http://felias.duckdns.org` répond en HTTP (mais redirige déjà vers HTTPS — qui n'a pas encore de certif → erreur cert attendue).
 
 ---
 
 ## §4 — Certificat Let's Encrypt — 5 min
 
 ```bash
-sudo certbot --nginx -d felias-reseau-eli2026-v2.duckdns.org
+sudo certbot --nginx -d felias.duckdns.org
 
 # Réponses :
 #   Email     : <ton email pour les alertes d'expiration>
@@ -186,7 +186,7 @@ bash /opt/chatbot_elisfa/v2/scripts/smoke_test_staging.sh
 
 ## §8 — Test utilisateur dans un navigateur — 2 min
 
-Ouvre [https://felias-reseau-eli2026-v2.duckdns.org/docs](https://felias-reseau-eli2026-v2.duckdns.org/docs) — Swagger UI doit s'afficher.
+Ouvre [https://felias.duckdns.org/docs](https://felias.duckdns.org/docs) — Swagger UI doit s'afficher.
 
 Test interactif :
 1. Section **chat** → POST `/api/ask`

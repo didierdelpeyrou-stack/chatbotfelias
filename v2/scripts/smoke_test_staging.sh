@@ -14,7 +14,7 @@
 
 set -u  # pas de set -e : on veut accumuler les erreurs
 
-HOST="${STAGING_HOST:-felias-reseau-eli2026-v2.duckdns.org}"
+HOST="${STAGING_HOST:-felias.duckdns.org}"
 BASE="https://${HOST}"
 FAILED=0
 PASSED=0
