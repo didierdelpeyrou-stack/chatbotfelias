@@ -1,0 +1,1794 @@
+{
+  "started_at": "2026-04-25T12:15:45+00:00",
+  "duration": 73.13461333399755,
+  "rows": [
+    {
+      "question_id": "Q01",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle durée de préavis en cas de licenciement pour un salarié non-cadre avec 2 ans d'ancienneté ?",
+      "v1": {
+        "answer": "## Synthèse\n\nPour un salarié non-cadre avec **2 ans d'ancienneté ininterrompus**, la durée du préavis en cas de licenciement est de **2 mois** sous la CCN ALISFA. C'est cette durée qui s'applique, car elle est plus favorable que le délai légal minimal.\n\n## Fondement légal\n\nL'article L1234-1 du Code du travail pose le principe du préavis obligatoire pour tout licenciement d'un salarié ayant au moins 6 mois d'ancienneté. La loi ne fixe pas de durée minimale précise au-delà de ce seuil, mais la convention collective peut prévoir des délais plus favorables au salarié.\n\nL'article L2251-1 du Code du travail énonce le **principe de faveur** : en cas de concours entre une disposition légale et une disposition conventionnelle, c'est la plus favorable au salarié qui s'applique.\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre III — Préavis de licenciement** — La durée du délai-congé est fixée à **1 mois après la période d'essai**. Elle est portée à **2 mois lorsque le salarié licencié compte 2 ans d'ancienneté ininterrompus** au service du même employeur. Pour les cadres, le préavis conventionnel est de 3 mois.\n:::\n\n## Articulation / hiérarchie des normes\n\nLa CCN ALISFA est plus favorable que le droit commun sur ce point : elle garantit 2 mois dès que le salarié atteint 2 ans d'ancienneté, contre une durée légale moins précise. C'est donc la durée de **2 mois** qui s'impose en vertu du principe de faveur.\n\n## Application\n\n- Le préavis court à compter de la **date de première présentation de la lettre de licenciement en recommandé** (ou de sa remise en main propre avec accusé de réception).\n- Pendant toute la durée du préavis, le salarié bénéficie de **2 heures par jour de travail** (ou **1 journée par semaine**) pour la recherche d'emploi, **rémunérées par l'employeur**.\n- À l'issue des 2 mois, le contrat prend fin et le salarié doit avoir quitté l'entreprise (sauf accord contraire).\n\n## Vigilance\n\n- **Faute grave ou faute lourde** : le préavis n'est **pas dû** en cas de comportement fautif grave. En revanche, si l'employeur dispense le salarié du préavis (rupture immédiate), une **indemnité compensatrice** égale au salaire correspondant aux 2 mois doit être versée.\n- L'ancienneté retenue pour déclencher le seuil des 2 ans est celle acquise **auprès du même employeur** (pas la branche entière).\n- Vérifiez que les 2 ans sont bien **ininterrompus** : les périodes de suspension du contrat (congés maternité, arrêt maladie, etc.) ne rompent pas en principe l'ancienneté, mais des situations particulières peuvent survenir.\n\n## Sources\n\n- Article L1234-1 du Code du travail\n- Article L2251-1 du Code du travail (principe de faveur)\n- CCN ALISFA, Chapitre III — Préavis",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q01",
+          "module": "juridique",
+          "category": "hallucinated",
+          "keywords_matched": [
+            "2 mois",
+            "ancienneté"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [
+            "6 mois"
+          ],
+          "notes": "Phrase interdite détectée."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour un salarié **non-cadre avec 2 ans d'ancienneté** licencié sous la CCN ALISFA, le préavis est de **2 mois** [ART_rupt-01].\n\n---\n\n## Fondement\n\nLa CCN ALISFA fixe une durée de préavis de **1 mois après la période d'essai**, portée à **2 mois lorsque le salarié compte 2 ans d'ancienneté ininterrompus** au service du même employeur [ART_rupt-01].\n\nCette durée conventionnelle s'applique selon le **principe de faveur** : on compare la durée légale (Code du travail) et la durée conventionnelle, et c'est la plus longue qui prime [ART_rupt-01].\n\n---\n\n## Application\n\nLe préavis court à compter de la **date de première présentation de la lettre de licenciement en recommandé**.\n\nPendant ces 2 mois, le salarié bénéficie de **2 heures par jour de travail** (ou **1 journée par semaine**) pour la recherche d'emploi, rémunérées par l'employeur [ART_rupt-01].\n\n---\n\n## ⚠️ Exceptions importantes\n\nLe préavis n'est **pas dû en cas de faute grave ou faute lourde** [ART_rupt-07]. En revanche, l'employeur qui dispense le salarié du préavis doit verser une **indemnité compensatrice** égale au salaire qu'il aurait perçu [ART_rupt-01].\n\n---\n\n## Sources\n\n- [ART_rupt-01] CCN ALISFA, Chapitre III + Code du travail art. L1234-1\n- [ART_rupt-07] Licenciement pour faute grave/lourde",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q01",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "2 mois",
+            "ancienneté"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 12.13
+    },
+    {
+      "question_id": "Q02",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quel est le numéro IDCC de la convention collective ALISFA ?",
+      "v1": {
+        "answer": "Bonjour ! Le numéro IDCC de la convention collective ALISFA est **IDCC 1261**. Cette convention est également identifiée par le numéro de brochure **3218** et est consultable sur Legifrance sous la référence **KALICONT000005635384**.\n\nCe numéro **doit obligatoirement figurer sur les bulletins de paie** de vos salariés et dans vos déclarations sociales (DSN). Si un autre numéro y figure, cela peut indiquer une erreur d'application de convention — n'hésitez pas à vérifier vos paramétrages de paie.\n\nY a-t-il d'autres informations que vous souhaitez connaître sur la CCN ALISFA ? Je peux vous aider notamment sur la rémunération, les conditions de travail, les congés ou la rupture de contrat.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q02",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "1261"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe numéro IDCC de la convention collective ALISFA est **1261** (numéro de brochure : **3218**).\n\n---\n\n## Fondement\n\nLa CCN ALISFA a été signée le 4 juin 1983 et étendue par arrêté du 22 janvier 1987 (JORF 12 février 1987). Elle est identifiée sur Legifrance sous la référence **KALICONT000005635384** [**preamb-02**].\n\n---\n\n## Application\n\nCe numéro IDCC **1261** doit obligatoirement figurer sur les bulletins de paie des salariés relevant de cette convention [**preamb-02**]. Il est également requis pour les déclarations sociales (DSN).\n\n---\n\n## ⚠️ Vérification recommandée\n\nAssurez-vous que le bulletin de paie de vos salariés mentionne bien l'IDCC **1261**. Si un autre numéro y figure, cela peut indiquer une erreur d'application de convention [**preamb-02**].\n\n---\n\n### Sources\n- [**preamb-02**] Préambule & Champ d'application — IDCC et brochure ALISFA",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q02",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "1261"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 4.38
+    },
+    {
+      "question_id": "Q03",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment se calcule le salaire minimum ALISFA selon l'avenant 10-2022 ?",
+      "v1": {
+        "answer": "## Synthèse\n\nLe salaire minimum ALISFA selon l'avenant 10-2022 se compose de trois éléments additifs : le **Salaire Socle Conventionnel (SSC)**, la **rémunération additionnelle liée à la pesée du poste**, et les **points d'ancienneté acquis dans la branche**. Chaque élément est multiplié par la valeur du point (55 € bruts).\n\n## Fondement légal\n\nL'article **L2253-1 du Code du travail** impose que tout salarié perçoive au minimum le salaire minimum conventionnel applicable dans sa branche. L'article **L3231-2** fixe un plancher absolu : le SMIC. Le salaire minimum hiérarchique de branche s'impose à tous les employeurs du champ étendu.\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre V — Rémunération (Avenant n° 10-2022)** — Le salaire minimum conventionnel brut annuel se calcule selon la formule : **SSC + (pesée × 55 €) + (ancienneté Branche × 55 €)**\n\n- **Salaire Socle Conventionnel (SSC)** : 22 100 € bruts annuels au 1er janvier 2024\n- **Valeur du point** : 55 € bruts (fixée au 1er janvier 2024)\n- **Pesée** : nombre de points déterminés par l'employeur selon le contenu réel du poste et les 8 critères classants\n- **Ancienneté Branche** : 1 point par an pour un salarié à temps plein ou ≥0,50 ETP ; 0,5 pt/an pour 0,23–0,50 ETP ; 0,25 pt/an pour <0,23 ETP\n:::\n\n## Articulation / hiérarchie des normes\n\nEn vertu du **principe de faveur (art. L2251-1 du Code du travail)**, le salaire minimum ALISFA ne peut jamais être inférieur au SMIC en vigueur. En 2024, le SSC ALISFA (22 100 €) dépasse largement le SMIC annuel, de sorte que la convention collective s'applique comme minimum plancher. Un accord d'entreprise ne peut diminuer ce minimum.\n\n## Application\n\n**Formule de calcul :**\n\nRémunération brute annuelle = SSC + (pesée × 55) + (ancienneté × 55)\n\nRémunération brute mensuelle = Rémunération annuelle ÷ 12\n\n**Exemple concret :**\n- Animateur à temps plein, pesée 41 points, 5 ans d'ancienneté dans la branche\n- Calcul : 22 100 + (41 × 55) + (5 × 55) = 22 100 + 2 255 + 275 = **24 630 €/an brut = 2 052,50 €/mois**\n\n**Cas du temps partiel :**\nPour un salarié en contrat partiel, appliquer le coefficient de proratisation : (heures mensuelles contractuelles × 12) ÷ 1 820\n\nExemple : contrat 120 h/mois, pesée 69 pts, 3 ans d'ancienneté\n- Salaire temps plein : 22 100 + (69 × 55) + (3 × 55) = 26 060 €/an\n- Prorata : (120 × 12 / 1 820) × 26 060 = **20 617 €/an brut = 1 718 €/mois**\n\n## Vigilance\n\n- **Progression du SSC prévue** : 22 100 € (2024) → 22 600 € (2025) → 23 000 € (2026) → 23 300 € (2027). Vérifier les avenants salariaux les plus récents (notamment l'avenant 06-24 applicable depuis le 1er janvier 2025).\n\n- **La pesée est propre à chaque poste** : elle reflète le contenu réel de l'emploi selon les 8 critères classants (formation, complexité, autonomie, relations au public, responsabilités financières et RH, sécurité, contribution projet), pas le diplôme du salarié.\n\n- **Ancienneté acquise conservée** : si un salarié change d'employeur au sein de la branche ALISFA, ses années d'ancienneté antérieures restent acquises (sous justificatif dans le mois suivant l'embauche).\n\n- **Toujours vérifier le respect du SMIC** : le salaire ALISFA doit être au minimum égal au SMIC en vigueur.\n\n## Sources\n\n- Avenant n° 10-2022 du 6 décembre 2022 — Chapitre V (Rémunération)\n- Avenant n° 10-2022 — Chapitre XII (Classification)\n- Avenant n° 01 du 2 octobre 2023 (correctif classification)\n- Art. L2253-1 et L2251-1 du Code du travail\n- Guide paritaire ALISFA (décembre 2023)\n\n---\n\n**Vous avez besoin de calculer un salaire spécifique ?** N'hésitez pas à me fournir l'emploi repère, la pesée du poste et l'ancienneté : je vous calculerai la rémunération exacte.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q03",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "points",
+            "valeur"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe salaire minimum ALISFA selon l'avenant 10-2022 se calcule selon une formule unique combinant trois composantes :\n\n**Formule** : Rémunération annuelle brute = **SSC + (points pesée × 55€) + (points ancienneté × 55€)**\n\nAvec les valeurs 2024 :\n- **SSC (Salaire Socle Conventionnel)** = 22 100 €/an\n- **Valeur du point** = 55 €/an\n- **Ancienneté branche** = 1 point par année (pour ≥0,50 ETP)\n\n---\n\n## Fondement\n\n[ART_remun-01] [ART_remun-00] L'avenant 10-2022, applicable depuis le 1er janvier 2024, remplace l'ancien système par un dispositif basé sur 8 critères classants. La pesée évalue le poste (formation, complexité, autonomie, relations publiques, responsabilités financières et RH, sécurité, contribution projet). L'ancienneté est personnelle au salarié et conservée en cas de changement d'employeur au sein de la branche.\n\n---\n\n## Application — Exemple concret\n\n**Animatrice temps plein, pesée 41 points, 5 ans d'ancienneté :**\n- 22 100 + (41 × 55) + (5 × 55) = **24 630 €/an = 2 052,50 €/mois brut**\n\n**Temps partiel** : multiplier par (heures contractuelles × 12) ÷ 1 820\n\n---\n\n## Sources\n\n[ART_remun-01] [ART_remun-00] [ART_av-01]\n\n⚠️ **Vérification recommandée** : L'avenant 06-24 applicable depuis le 1er janvier 2025 peut avoir actualisé le SSC et la valeur du point. Consultez le dernier arrêté d'extension en vigueur.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q03",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "points",
+            "valeur"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 14.76
+    },
+    {
+      "question_id": "Q04",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la pesée des emplois ALISFA ?",
+      "v1": {
+        "answer": "## Comment fonctionne la pesée des emplois ALISFA\n\nLa pesée est le système de classification qui détermine le salaire minimum de chacun de vos salariés. Elle repose sur l'évaluation objective de l'emploi (pas de la personne) selon 8 critères mesurables.\n\n## Le principe : 8 critères classants\n\nChaque emploi est évalué sur ces 8 critères, chacun comportant plusieurs niveaux :\n\n| Critère | Niveaux | Points |\n|---|---|---|\n| **Formation requise** | 7 niveaux | SSC, 5, 15, 35, 55, 90, 120 |\n| **Complexité** | 8 niveaux | SSC, 5, 15, 30, 45, 65, 80, 110 |\n| **Autonomie** | 6 niveaux | SSC, 5, 15, 25, 35, 55 |\n| **Relations au public** | 5 niveaux | SSC, 1, 7, 18, 30 |\n| **Responsabilités financières** | 8 niveaux | SSC, 2, 10, 20, 40, 50, 55, 60 |\n| **Responsabilités RH** | 8 niveaux | SSC, 10, 20, 25, 30, 40, 50, 60 |\n| **Sécurité** | 6 niveaux | SSC, 5, 20, 35, 50, 70 |\n| **Contribution au projet** | 5 niveaux | SSC, 10, 20, 30, 45 |\n\n**Pour chaque critère, vous positionnez l'emploi à UN SEUL niveau** en fonction du contenu réel du poste. Vous additionnez les points obtenus : c'est la **pesée totale**.\n\n## Fourchettes min/max obligatoires\n\nChaque emploi repère dispose d'une fourchette encadrée (minimum et maximum) :\n\n- **Animateur-trice d'activité** : 1–58 pts\n- **Animateur-trice** : 43–175 pts\n- **Intervenant-e social-e** : 52–240 pts\n- **Éducateur-trice petite enfance** : 56–235 pts\n- **Coordinateur-trice/encadrement** : 78–295 pts\n- **Directeur-trice/cadre fédéral** : 260–520 pts\n- **Assistant-e gestion/direction** : 25–163 pts\n- **Personnel administratif/financier** : 37–200 pts\n- **Personnel médical/paramédical** : 31–515 pts\n- *(et 6 autres emplois repères)*\n\n**Vous devez peser votre emploi entre le minimum et le maximum.** Le minimum est obligatoire, le maximum est indicatif.\n\n## Calcul du salaire\n\n:::ccn-alisfa\n**Chapitre V, Article 1.1 — Rémunération brute annuelle**\n\nRémunération = SSC + (pesée × 55 €) + (ancienneté Branche × 55 €)\n\n- **SSC 2024** = 22 100 € (2025 = 22 600 €)\n- **Valeur du point** = 55 € bruts\n- **Ancienneté** = 1 point par an dans la branche ALISFA (pour ≥0,50 ETP)\n:::\n\n**Exemple concret** : Animatrice à temps plein, pesée 41 pts, 5 ans dans la branche\n- Salaire annuel = 22 100 + (41 × 55) + (5 × 55) = 22 100 + 2 255 + 275 = **24 630 € bruts/an** (2 052,50 €/mois)\n\n## Ce que vous devez faire concrètement\n\n1. **Rédiger ou mettre à jour la fiche de définition d'emploi** : décrire le contenu réel du poste\n2. **Appliquer la grille paritaire** : pour chaque critère, choisir le niveau qui correspond à la réalité\n3. **Additionner les points** : cela donne la pesée totale\n4. **Vérifier le respect des fourchettes** : votre pesée doit être ≥ minimum et ≤ maximum de l'emploi repère\n5. **Calculer le salaire minimum** : appliquer la formule ci-dessus\n6. **Formaliser par écrit** : le contrat doit mentionner l'emploi repère et la pesée totale\n\n## Points importants\n\n- **La pesée porte sur l'emploi, pas sur la personne.** Deux salariés au même poste avec les mêmes responsabilités doivent avoir la même pesée (même s'ils ont des diplômes différents).\n- **L'employeur n'est pas tenu de communiquer le détail critère par critère** (position officielle CPPNI), mais le **total de pesée doit figurer au contrat**.\n- **Révision obligatoire** : après 5 ans dans l'emploi, vous devez revoir la pesée si le poste a substantiellement changé.\n- **Données observées** (étude CPNEF 2024) : les pesées moyennes varient selon les emplois (ex : Animateur-trice d'activité = 25 pts en moyenne, Directeur-trice = 416 pts).\n\n## Besoin d'aide pour peser un emploi ?\n\nSi vous devez peser un poste et vous ne connaissez pas précisément la pesée, dites-moi :\n- L'emploi repère concerné\n- Les responsabilités principales et le niveau d'autonomie\n- Le niveau de formation requis et la complexité des tâches\n\nJe peux vous guider critère par critère pour trouver la bonne pesée.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q04",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "critère"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLa pesée des emplois ALISFA est un **système paritaire de classification basé sur 8 critères**, applicable depuis le 1er janvier 2024 [classif-01]. Chaque emploi repère dispose d'une **fourchette de pesée (min/max)**, et l'employeur positionne l'emploi au sein de cette fourchette en fonction de la réalité de l'emploi dans la structure.\n\n---\n\n## Fondement\n\n**Grille paritaire d'évaluation [anx-03]** : \n- 15 emplois repères répartis en 5 familles [anx-05]\n- Chaque critère classant comporte plusieurs niveaux de positionnement\n- Pesée = **somme des points attribués critère par critère**\n- Valeur monétaire : **55 € par point de pesée** (2024)\n\n**Exemple [anx-03]** : Animateur/trice (pesée min 43 pts → max 175 pts)\n- Salaire min 2024 : 24 465 € (SSC 22 100 € + 43 pts × 55 €)\n- Salaire max 2024 : 31 725 € (SSC 22 100 € + 175 pts × 55 €)\n\n---\n\n## Application\n\n**3 étapes clés [classif-01]** :\n1. **Rédiger la fiche de définition d'emploi (FDE)** avec missions réelles\n2. **Appliquer la grille paritaire** : retenir un seul niveau par critère\n3. **Additionner les points** → calculer le salaire minimum = SSC + (pesée × 55 €)\n\n**Obligatoire au contrat [anx-03]** : l'emploi repère + le **total des points de pesée** doivent figurer au contrat de travail. ⚠️ L'employeur n'est pas tenu de communiquer le détail critère par critère (position CPPNI saisine 03-2022).\n\n**Révision [anx-03]** : réexamen obligatoire tous les **5 ans** en poste ou en cas d'évolution substantielle de l'emploi.\n\n---\n\n## Sources\n\n[anx-03] — Grille des emplois repères et pesée  \n[classif-01] — Nouveau système de classification ALISFA  \n[anx-05] — Fiches emplois repères",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q04",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "critère"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 13.16
+    },
+    {
+      "question_id": "Q05",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Comment l'ancienneté est-elle valorisée dans la CCN ALISFA ?",
+      "v1": {
+        "answer": "## Synthèse\n\nDans la CCN ALISFA, l'ancienneté n'existe **pas** comme une prime distincte ajoutée au salaire. Elle est valorisée par l'intégration de **points d'ancienneté** directement dans le salaire minimum hiérarchique de branche. Chaque année travaillée génère des points qui augmentent votre rémunération de base — c'est une composante du salaire minimum, pas un supplément.\n\n## Fondement légal\n\nLe Code du travail ne prévoit pas d'obligation de rémunération complémentaire liée à l'ancienneté. La valorisation relève exclusivement de la convention collective. Les sommes correspondantes, étant une composante du salaire brut, sont soumises aux cotisations sociales et à l'impôt sur le revenu.\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre V — Avenant n° 10-2022** — L'ancienneté acquise au sein de la branche ALISFA est valorisée par l'attribution de **points d'ancienneté** à la date anniversaire d'embauche du salarié. Ces points font partie intégrante du salaire minimum hiérarchique (et non une prime distinct).\n\nLa formule est : **Rémunération brute annuelle = SSC + (pesée × valeur du point) + (points d'ancienneté × valeur du point)**\n\nSelon le temps de travail :\n- **≥ 0,50 ETP** : 1 point d'ancienneté par année\n- **0,23 – 0,50 ETP** : 0,5 point par année\n- **< 0,23 ETP** : 0,25 point par année\n:::\n\n## Application concrète\n\n**Exemple** : Animatrice à temps plein, pesée 150 points, 10 ans d'ancienneté dans la branche (2024) :\n- SSC : 22 100 €\n- Salaire additionnel (pesée) : 150 × 55 € = 8 250 €\n- Ancienneté : 10 × 55 € = 550 €\n- **Total annuel : 22 100 + 8 250 + 550 = 30 900 € bruts**\n\nCes 550 € d'ancienneté ne sont donc pas versés en tant que « prime », mais ils constituent une part du salaire minimum que vous devez au salarié.\n\n## Points à retenir\n\n- **Pas de prime d'ancienneté** : c'est une intégration au minimum conventionnel\n- **L'ancienneté compte dans la branche ALISFA** : les années travaillées dans n'importe quelle structure ALISFA s'accumulent (pas uniquement chez l'employeur actuel)\n- **Elle s'ajoute chaque année anniversaire** : à la date d'embauche du salarié\n- **Elle est proratisée selon le temps de travail** : un salarié à 0,5 ETP accumule 0,5 point par an\n\n## Vigilance\n\n- Ne confondez pas ancienneté (durée d'emploi dans la branche) et pesée (complexité du poste)\n- En cas de mobilité entre deux employeurs ALISFA, l'ancienneté se conserve sous réserve de justificatif fourni **dans le mois suivant l'embauche**\n- Certaines périodes de suspension du contrat (congé parental, arrêt maladie prolongé) peuvent impacter le calcul — vérifiez au cas par cas\n- L'ancienneté valorisée est celle acquise dans la **branche ALISFA uniquement** (pas les expériences antérieures d'autres branches)\n\n## Sources\n\nCCN ALISFA (IDCC 1261), Chapitre V — Valorisation de l'ancienneté, Avenant n° 10-2022",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q05",
+          "module": "juridique",
+          "category": "hallucinated",
+          "keywords_matched": [
+            "ancienneté"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [
+            "prime d'ancienneté"
+          ],
+          "notes": "Phrase interdite détectée."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nL'ancienneté dans la CCN ALISFA est valorisée par des **points d'ancienneté intégrés au salaire minimum**, et non par une prime distincte [remun-02].\n\n**Système de points :**\n- **1 point par année** pour les contrats ≥ 0,50 ETP\n- **0,5 point par année** pour 0,23–0,50 ETP\n- **0,25 point par année** pour < 0,23 ETP\n- Points acquis à chaque **date anniversaire d'embauche**\n\n---\n\n## Fondement\n\nLa valorisation relève de l'**avenant 10-2022 de la CCN ALISFA** (Chapitre V). Contrairement à d'autres branches, il n'existe pas de « prime d'ancienneté » au sens classique. Les points d'ancienneté sont une **composante du salaire minimum hiérarchique** [remun-02].\n\n**Formule ALISFA :**\n```\nRémunération brute annuelle = SSC + (pesée × valeur du point) \n                              + (ancienneté × valeur du point) \n                              + (expérience × valeur du point)\n```\n\n---\n\n## Application\n\n**Exemple (temps plein, 2024) :**\n- Salarié avec 10 ans d'ancienneté branche, pesée 150, SSC 22 100 €, valeur du point 55 € :\n- Salaire = 22 100 + (150 × 55) + (10 × 55) = **30 900 € bruts/an**\n- Les 10 points d'ancienneté (550 €/an) ne constituent pas une prime, mais font partie du minimum conventionnel\n\n**Point clé :** L'ancienneté conservée est celle acquise dans **toute la branche ALISFA**, pas uniquement chez l'employeur actuel (justificatif requis) [remun-02].\n\n---\n\n## Sources\n\n[remun-02] — Convention collective ALISFA, avenant 10-2022, Chapitre V",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q05",
+          "module": "juridique",
+          "category": "hallucinated",
+          "keywords_matched": [
+            "ancienneté"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [
+            "prime d'ancienneté"
+          ],
+          "notes": "Phrase interdite détectée."
+        }
+      },
+      "elapsed_seconds": 11.62
+    },
+    {
+      "question_id": "Q06",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quels congés exceptionnels pour événements familiaux dans la CCN ALISFA ?",
+      "v1": {
+        "answer": "## Congés exceptionnels pour événements familiaux dans la CCN ALISFA\n\nLes salariés de la branche ALISFA ont droit à des **jours de congé rémunérés** pour certains événements familiaux. Ces jours sont assimilés à du temps de travail effectif et ne s'imputent pas sur les congés payés légaux.\n\nLe Code du travail fixe des durées minimales, que la CCN ALISFA applique au minimum — et parfois dépasse selon le principe de faveur.\n\n## Fondement légal\n\nLe Code du travail (articles L3142-1 à L3142-5) reconnaît un droit incontournable à des congés pour événements familiaux. L'employeur ne peut pas les refuser. Les durées légales minimales sont :\n\n- **Mariage ou PACS** : 4 jours\n- **Naissance ou adoption** : 3 jours\n- **Mariage d'un enfant** : 1 jour\n- **Décès du conjoint** : 3 jours\n- **Décès d'un parent, beau-parent, frère ou sœur** : 3 jours\n- **Décès d'un enfant** : 12 jours (5 jours minimum + 8 jours de deuil si l'enfant a moins de 25 ans, depuis la loi du 8 juin 2020)\n- **Annonce d'un diagnostic de handicap, pathologie chronique ou cancer chez un enfant** : 5 jours\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre VI — Congés exceptionnels**\n\nLa CCN ALISFA (IDCC 1261) reprend les dispositions légales minimales. Elle reconnaît aux salariés le droit à des congés rémunérés pour événements familiaux (mariage, naissance, décès, etc.). Tout majoration conventionnelle de ces durées s'applique selon le principe de faveur.\n:::\n\n## Application pratique\n\n**Qui peut bénéficier de ces congés ?**  \nTous les salariés, quel que soit leur ancienneté ou leur qualification.\n\n**Comment les faire valoir ?**\n- Le salarié justifie l'événement par une **pièce d'état civil** (acte de naissance, certificat de mariage, certificat de décès, etc.).\n- Le congé se prend **dans une période raisonnable** autour de l'événement (quelques jours avant ou après).\n- Il n'entraîne **aucune perte de salaire** ni d'avantages sociaux.\n- Il ne s'impute **pas sur les congés payés** légaux.\n\n**Points clés à retenir :**\n- Les jours sont **rémunérés** comme du travail effectif.\n- L'employeur doit accorder ces jours — le refus serait une sanction illégale et ouvrirait droit à dommages-intérêts.\n- Pour un **décès d'enfant de moins de 25 ans**, le salarié bénéficie en outre d'un congé de deuil supplémentaire de **8 jours fractionnables** (pris d'une traite ou en plusieurs fois).\n\n## Vigilance\n\n- Ne pas confondre avec le **congé de présence parentale** (enfant gravement malade) ou le **congé de proche aidant** — régimes différents.\n- Distinguer le **congé naissance** (3 jours exceptionnels) du **congé paternité** (25 jours calendaires, 32 pour naissances multiples) — ces deux droits se cumulent.\n- Si votre convention collective contient une disposition **plus favorable** que le minimum légal pour un événement donné, c'est celle-ci qui s'applique.\n\nAvez-vous une situation particulière (événement spécifique, durée à vérifier) ou souhaitez-vous clarifier l'articulation avec un accord d'entreprise ?",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q06",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "jours"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLes salariés ALISFA bénéficient de congés rémunérés pour événements familiaux définis par le Code du travail [Art. L3142-1 à L3142-5]. La CCN ALISFA [conge-06] applique au minimum ces droits et peut les améliorer.\n\n**Durées minimales légales** [L3142-4] :\n- **Mariage / PACS** : 4 jours\n- **Naissance / Adoption** : 3 jours\n- **Mariage enfant** : 1 jour\n- **Décès conjoint** : 3 jours\n- **Décès parent (père, mère, beau-parent, frère, sœur)** : 3 jours\n- **Décès enfant** : **5 jours** (porté à **12 jours** si enfant < 25 ans ou à charge)\n- **Annonce handicap/pathologie chronique/cancer enfant** : 5 jours\n\n**+ Congé de deuil supplémentaire** [L3142-1-1] : **8 jours** fractionnables en cas de décès d'enfant < 25 ans.\n\n---\n\n## Fondement\n\n- **CCN ALISFA** [conge-06] : applique le principe de faveur (durée conventionnelle ou légale, la plus avantageuse prévaut)\n- **Code du travail** [L3142-1 à L3142-5, L3142-1-1] : droits minimums d'ordre public\n- Le congé paternité (25 jours, 32 pour naissances multiples depuis 1er juillet 2021) s'ajoute au congé naissance [conge-06]\n\n---\n\n## Application\n\n✅ Justification par pièce d'état civil (acte de mariage, naissance, décès)  \n✅ Pris au moment de l'événement ou période raisonnable proche  \n✅ **Rémunération maintenue intégralement**  \n✅ N'impute pas sur les congés payés  \n\n---\n\n## Sources\n\n[conge-06] CCN ALISFA (IDCC 1261) — Chapitre Congés  \n[L3142-4] Code du travail — durées minimales  \n[L3142-1-1] Loi 8 juin 2020 n° 2020-692 — congé de deuil enfant\n\n⚠️ **Vérification recommandée** : confirmez si votre accord d'entreprise améliore ces minima.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q06",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "jours"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 10.11
+    },
+    {
+      "question_id": "Q07",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle indemnité minimale pour une rupture conventionnelle ?",
+      "v1": {
+        "answer": "## Synthèse\n\nL'indemnité minimale pour une rupture conventionnelle est déterminée par le droit du travail : elle ne peut être inférieure à l'indemnité légale de licenciement. Or, la Convention Collective ALISFA prévoit une indemnité conventionnelle plus favorable (1/2 mois par année) qui sert donc de **plancher obligatoire**.\n\nConcrètement : vous devez comparer l'indemnité légale et l'indemnité conventionnelle ALISFA, puis verser la **plus avantageuse pour le salarié**.\n\n## Fondement légal\n\nLe Code du travail (articles L1237-11 à L1237-16) encadre la rupture conventionnelle. L'article L1234-9 fixe l'indemnité légale de licenciement comme référence minimale : 1/4 de mois par année d'ancienneté (jusqu'à 10 ans), puis 1/3 de mois au-delà de 10 ans, pour tout salarié ayant au moins 8 mois d'ancienneté.\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre III — Indemnité de licenciement** — La CCN ALISFA prévoit une indemnité conventionnelle de **1/2 mois de salaire par année de présence** dans l'entreprise, pour un salarié ayant 2 ans d'ancienneté ininterrompus au service du même employeur. Cette indemnité s'applique au prorata pour une année incomplète.\n:::\n\n## Articulation / hiérarchie des normes\n\nEn vertu du **principe de faveur** (article L2251-1 du Code du travail), vous devez toujours appliquer la disposition la plus favorable au salarié :\n\n- **Indemnité légale** : 1/4 mois/an (≤ 10 ans) + 1/3 mois/an (> 10 ans)\n- **Indemnité conventionnelle ALISFA** : 1/2 mois/an\n- **Indemnité spécifique de rupture conventionnelle** : au minimum, la plus élevée des deux\n\nLa jurisprudence confirme cet encadrement : l'indemnité spécifique de rupture conventionnelle ne peut être inférieure à l'indemnité de licenciement (Cass. soc. 27 juin 2018).\n\n## Application\n\n**Exemple concret** : salarié avec 8 ans d'ancienneté, salaire 2 500 €/mois\n\n| Calcul | Montant |\n|---|---|\n| Indemnité légale : 1/4 × 8 ans × 2 500 € | 5 000 € |\n| Indemnité CCN ALISFA : 1/2 × 8 ans × 2 500 € | **10 000 €** |\n| **Minimum à verser** | **10 000 €** |\n\nVous pouvez proposer une indemnité plus élevée (négociation libre), mais elle ne peut en aucun cas être inférieure à 10 000 €.\n\n## Vigilance\n\n- **Condition d'ancienneté** : l'indemnité conventionnelle ALISFA s'applique à partir de 2 ans d'ancienneté ininterrompue. En-dessous, seule l'indemnité légale s'applique (si 8 mois minimum).\n- **Salaire de référence** : inclure les primes récurrentes (13e mois, ancienneté, etc.) pour un calcul exact.\n- **Régime social et fiscal** : depuis le 1er septembre 2023, l'employeur verse une contribution patronale unique de 30 % sur la part exonérée de cotisations sociales.\n- **Procédure obligatoire** : la convention doit être signée par les deux parties, transmettre l'indemnité dans le Cerfa 14598*01 et obtenir l'homologation de la DREETS avant que la rupture prenne effet.\n\n## Sources\n\n- Articles L1237-11 à L1237-16 du Code du travail (rupture conventionnelle)\n- Article L1234-9 du Code du travail (indemnité légale de licenciement)\n- CCN ALISFA, Chapitre III (indemnité conventionnelle)\n- Cass. soc. 27 juin 2018 n° 17-15.948 (application du plancher conventionnel)\n- Loi de financement de la Sécurité sociale 2023 (contribution patronale 30 %)\n\nAvez-vous besoin d'aide pour **calculer précisément cette indemnité** avec les données réelles du salarié, ou pour clarifier les étapes de la procédure ?",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q07",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "indemnité"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour une rupture conventionnelle, l'indemnité minimale est **la plus favorable entre** :\n- **Indemnité légale** : 1/4 mois par année d'ancienneté (jusqu'à 10 ans) + 1/3 au-delà [ART_rupt-03]\n- **Indemnité conventionnelle ALISFA** : 1/2 mois par année d'ancienneté [ART_rupt-03]\n\nEn pratique, sous la CCN ALISFA, c'est généralement **l'indemnité conventionnelle qui s'applique** car elle est plus avantageuse.\n\n---\n\n## Fondement\n\nLa rupture conventionnelle est un mode amiable de rupture du CDI [ART_rupt-10]. L'indemnité spécifique versée ne peut **jamais être inférieure** à l'indemnité de licenciement (légale ou conventionnelle, la plus favorable) [ART_rupt-10, ART_rupt-04]. C'est un plancher imposé par la jurisprudence [ART_rupt-10].\n\n---\n\n## Application\n\n**Exemple concret** : Salarié avec 8 ans d'ancienneté, salaire 2 500€\n- Indemnité légale = 2 500€ × 1/4 × 8 = **5 000€**\n- Indemnité conventionnelle ALISFA = 2 500€ × 1/2 × 8 = **10 000€**\n- **À verser : 10 000€** (jamais cumuler, toujours la plus favorable)\n\n---\n\n## Sources\n\n- [ART_rupt-10] Procédure rupture conventionnelle (indemnité ≥ légale/conventionnelle)\n- [ART_rupt-04] Indemnité conventionnelle ALISFA : plancher obligatoire\n- [ART_rupt-03] Calcul indemnité licenciement (légale + conventionnelle ALISFA)\n- Code du travail art. L1237-11 à L1237-16 ; art. L1234-9\n\n⚠️ **Vérification recommandée** : Confirmez l'ancienneté exacte et le salaire de référence (primes récurrentes incluses) avant la signature.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q07",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "indemnité"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 11.5
+    },
+    {
+      "question_id": "Q08",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quel est le délai de prescription d'une sanction disciplinaire en droit du travail ?",
+      "v1": {
+        "answer": "## Prescription des fautes et des sanctions disciplinaires\n\nLa prescription des fautes disciplinaires est encadrée par le Code du travail : **l'employeur dispose d'un délai de 2 mois à compter de la connaissance de la faute pour engager une procédure disciplinaire**. Passé ce délai, la faute est prescrite et aucune sanction ne peut plus être prononcée — l'employeur est réputé y avoir renoncé.\n\nCe délai est **crucial** : il court à partir du moment où l'employeur a effectivement eu connaissance des faits fautifs, pas nécessairement de leur date de réalisation.\n\n## Fondement légal\n\nLe Code du travail (article L1332-4) prévoit que *« Aucune sanction ne peut être prononcée au-delà d'un délai de deux mois suivant le jour où l'employeur a connaissance du fait fautif »*. Ce délai s'applique à toutes les sanctions disciplinaires, de l'avertissement au licenciement.\n\n## Application\n\n- **Point de départ du délai** : le jour où l'employeur prend effectivement connaissance de la faute (date de signalement, découverte, ou investigation)\n- **Terme du délai** : 2 mois calendaires après cette date\n- **Conséquence du non-respect** : la sanction devient nulle ; la faute est prescrite et oubliée légalement\n- **Arrêt de la prescription** : le délai de 2 mois est suspendu par la convocation à entretien préalable — une nouvelle période de 2 mois démarre à partir de cette convocation\n\n## Articulation avec la procédure disciplinaire\n\nUne fois la faute connue et dans le délai de prescription de 2 mois, l'employeur doit **respecter la procédure** :\n- Convoquer le salarié à entretien préalable (RAR ou main propre, délai minimum 5 jours ouvrables)\n- Tenir l'entretien\n- Attendre au minimum 2 jours ouvrables avant notification\n- Notifier la sanction au maximum 1 mois après l'entretien\n\nLa procédure doit débuter dans les 2 mois, mais peut s'étaler au-delà (la procédure elle-même n'est pas prescrite, seule la possibilité de **prononcer** une sanction l'est).\n\n## Vigilance\n\n- **Confusion fréquente** : le délai de 2 mois ne court qu'à partir de la **connaissance** de la faute, pas de sa commission. Une faute découverte 6 mois après les faits peut encore être poursuivie si l'employeur en apprend l'existence dans la fenêtre de prescription.\n- **Non bis in idem** : un même fait ne peut être sanctionné deux fois. Si une sanction a déjà été prononcée pour un fait, aucune autre ne peut l'être.\n- **Vice de procédure** : un respect défaillant du délai de 2 mois (notification après expiration) rend la sanction **nulle** — le juge prud'homal l'annulera.\n\n## Sources\n\n- Article L1332-4 du Code du travail\n- Extraits base documentaire ELISFA : Procédure disciplinaire\n\n---\n\n**Avez-vous une situation disciplinaire en cours ? Je peux vous aider à vérifier le respect des délais et des étapes de procédure.**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q08",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "2 mois"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe délai de prescription d'une sanction disciplinaire en droit du travail est **2 mois à compter de la connaissance de la faute par l'employeur** [ART_disc-01].\n\nPassé ce délai, l'employeur est réputé avoir renoncé à sanctionner le fait en question [ART_disc-02].\n\n---\n\n## Fondement juridique\n\n**Art. L1332-4 du Code du travail** [ART_disc-01] : ce délai s'applique à toutes les fautes professionnelles, indépendamment de leur gravité (avertissement, blâme, mise à pied, licenciement).\n\n**Principe de clarté procédurale** [ART_disc-02] : l'employeur qui connaît une faute doit agir rapidement. Au-delà de 2 mois, il perd son droit à sanction.\n\n---\n\n## Points d'attention\n\n⚠️ **Vérification recommandée auprès du pôle juridique** :\n\n1. **Point de départ du délai** : la prescription court à partir du moment où l'employeur a connaissance de la faute, pas de sa commission. En cas de découverte tardive (ex. : contrôle interne), le délai part de cette découverte.\n\n2. **Respect de la procédure** : même si le délai de 2 mois n'est pas dépassé, toute sanction doit respecter la procédure complète (convocation à entretien, délai de 2 jours entre entretien et notification, max 1 mois) [ART_disc-01].\n\n3. **Non-cumul avec les vices de procédure** : une sanction prescrite est nulle. Un vice de procédure (absence de convocation, défaut de motivation) rend aussi la sanction annulable.\n\n---\n\n## Sources\n\n- **[ART_disc-01]** : Procédure disciplinaire — Code du travail (art. L1332-4)  \n- **[ART_disc-02]** : Sanctions disciplinaires — Principe de non-cumul et prescription",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q08",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "2 mois"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 9.73
+    },
+    {
+      "question_id": "Q09",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelles sont les règles de maintien de salaire en cas d'arrêt maladie ?",
+      "v1": {
+        "answer": "## Synthèse\n\nEn cas d'arrêt maladie, le salarié perçoit les indemnités journalières de la Sécurité sociale (IJSS) après un délai de carence. L'employeur verse un **maintien de salaire complémentaire** pour atteindre un pourcentage de la rémunération habituelle. La convention collective ALISFA améliore les règles légales : délai de carence réduit ou supprimé, taux de maintien plus favorable, et durée allongée pour les salariés ayant une ancienneté suffisante.\n\n## Fondement légal\n\n**Article L1226-1 du Code du travail** — Après 1 an d'ancienneté, l'employeur doit compléter les IJSS de la Sécurité sociale pour maintenir le pouvoir d'achat du salarié en arrêt maladie.\n\n**Délai de carence légal** — 7 jours sans indemnisation (loi). Durant cette période, ni l'Assurance maladie ni l'employeur ne verse de complément, sauf cas particulier (accident du travail / maladie professionnelle).\n\n**Taux et durée légaux** — Le maintien s'entend généralement à 90 % du brut pendant 30 jours, puis 66,66 % les 30 jours suivants (durées progressives selon l'ancienneté).\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\n**Chapitre III — Maintien de salaire en cas de maladie (CCN ALISFA)** — La convention collective améliore le dispositif légal : elle peut prévoir un délai de carence réduit ou entièrement supprimé, une durée de maintien allongée, et un taux de maintien supérieur au minimum légal (90 % → taux amélioré possible). Les conditions d'ancienneté et les durées varient selon les dispositions en vigueur de la CCN ALISFA.\n:::\n\n**Régime de prévoyance obligatoire** — Un régime de prévoyance complémentaire de branche (chapitre VIII CCN ALISFA) vient compléter les garanties :\n- **Incapacité temporaire** : maintien à 90 % du salaire brut pendant 90 jours, puis 66,66 % au-delà, en sus des IJSS.\n- **Conditions** : généralement 1 an d'ancienneté minimum pour bénéficier du complément prévoyance.\n\n## Articulation / hiérarchie des normes\n\nLe Code du travail fixe le **plancher minimum** (maintien après 1 an d'ancienneté, délai de carence 7 jours). La CCN ALISFA améliore ce socle : elle peut supprimer ou réduire le délai de carence, allonger les durées de maintien, ou augmenter les taux. En application du **principe de faveur** (art. L2251-1 C. trav.), c'est la disposition la plus favorable (légale ou conventionnelle) qui s'applique à chaque salarié.\n\n## Application\n\n**Procédure pratique** :\n1. Le salarié transmet son arrêt de travail à la **CPAM** et à l'**employeur** dans les 48 heures (délai légal).\n2. Après la CPAM verse les IJSS (délai de 3 jours en général, après 7 jours de carence).\n3. L'employeur verse le complément de maintien de salaire dès la fin du délai de carence ou immédiatement si celui-ci est supprimé par la CCN.\n4. **Fonctionnement du complément** : maintien = salaire habituel − IJSS reçues (l'employeur comble la différence).\n5. **Pratique de la subrogation** : l'employeur peut aussi verser le salaire intégral et percevoir lui-même les IJSS auprès de la CPAM.\n\n**Contenu du bulletin de paie** : indiquer clairement les IJSS perçues, le complément de maintien versé par l'employeur, et le salaire net total.\n\n## Vigilance\n\n**Conditions d'ancienneté** — Le maintien conventionnel suppose généralement **1 an d'ancienneté minimum** dans la branche. Vérifier les seuils exacts de la CCN en vigueur (peuvent être 6 mois, 1 an, 2 ans, etc.).\n\n**Accident du travail / Maladie professionnelle** — Régime très différent : **pas de délai de carence** ; maintien dès le 1er jour ; taux généralement supérieur (80 à 100 % du salaire). Le salarié bénéficie aussi d'une rente AT/MP en sus du maintien d'employeur.\n\n**Durée cumulative des arrêts** — Les arrêts répétés ou prolongés peuvent affecter le calcul des droits à congés payés (congés non rémunérés durant certains arrêts selon la durée). Vérifier la politique de l'entreprise.\n\n**Contre-visite médicale** — L'employeur peut mandater un médecin pour vérifier le bien-fondé de l'arrêt. Cette contre-visite n'interrompt pas le versement du maintien mais peut alimenter des litiges. Pratiquer avec prudence.\n\n**Dispositions en vigueur** — Les règles de la CCN ALISFA en matière de maintien de salaire maladie (délai de carence, taux, durée) peuvent varier selon les avenants successifs. Consulter la version actualisée de la convention en vigueur dans votre structure.\n\n## Sources\n\n- Art. L1226-1 du Code du travail (maintien de salaire maladie)\n- Art. L2251-1 du Code du travail (principe de faveur)\n- CCN ALISFA (IDCC 1261) — Chapitre III (Maintien de salaire) et Chapitre VIII (Prévoyance)\n- Code de la Sécurité sociale (IJSS, délai de carence)\n- Extraits base documentaire ELISFA\n\n---\n\n**Avez-vous besoin de précisions sur les taux et délais exacts applicables dans votre structure ? Je peux aussi vous aider sur le calcul du complément de maintien ou sur un cas particulier (accident du travail, salarié en période probatoire, etc.).**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q09",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "salaire"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nEn cas d'arrêt maladie, le salarié perçoit **les indemnités journalières de la Sécurité sociale (IJSS)** complétées par un **maintien de salaire** versé par l'employeur, dont les conditions dépendent de l'ancienneté et de la convention collective.\n\n---\n\n## Fondement légal et conventionnel\n\n**Maintien de salaire légal** [ART_conge-03]\n- Après **1 an d'ancienneté** : l'employeur complète les IJSS de la Sécurité sociale\n- Taux : **90% du brut pendant 30 jours**, puis **66,66% les 30 jours suivants** (durées progressives selon ancienneté)\n- Délai de carence : **7 jours** (loi), mais la CCN ALISFA peut le réduire ou le supprimer\n\n**Régime complémentaire de prévoyance** [ART_prev-02]\n- Obligatoire dans la branche ALISFA\n- Incapacité temporaire : maintien à **90% du salaire brut 90 premiers jours**, puis **66,66%**\n- S'ajoute aux IJSS de la Sécurité sociale\n\n---\n\n## Application pratique\n\n1. **Délai de transmission** [ART_conge-03] : le salarié doit transmettre son arrêt à la CPAM et l'employeur dans les **48 heures**\n2. **Calcul du maintien** : l'employeur verse le salaire intégral ou complète la différence (après déduction des IJSS)\n3. **Subrogation possible** : l'employeur peut verser le salaire complet et percevoir directement les IJSS\n\n**⚠️ Exception importante** [ART_conge-03] : en cas d'**accident du travail ou maladie professionnelle**, le délai de carence est **supprimé** et le maintien débute dès le **1er jour**.\n\n---\n\n## Sources\n- [ART_conge-03] Congés & Absences — Arrêt maladie\n- [ART_prev-02] Prévoyance & Complémentaire santé\n- Code du travail, art. L1226-1",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q09",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "salaire"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 22.74
+    },
+    {
+      "question_id": "Q10",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'une faute grave en droit du travail français ?",
+      "v1": {
+        "answer": "## Synthèse\n\nUne **faute grave** en droit du travail est un comportement du salarié rendant **impossible le maintien de celui-ci dans l'entreprise**, même pendant la période de préavis. Elle prive le salarié du droit au préavis et à l'indemnité de licenciement, mais il conserve ses droits aux congés payés et à l'allocation chômage.\n\nLa **faute lourde** est une faute grave aggravée : elle suppose, en plus, une **intention de nuire à l'employeur**. Elle peut entraîner des conséquences plus sévères (notamment la perte de l'indemnité de congés payés selon la jurisprudence récente).\n\n## Fondement légal\n\nLe Code du travail pose le cadre général du licenciement disciplinaire :\n\n- **Article L1232-1** : tout licenciement doit avoir une cause réelle et sérieuse.\n- **Articles L1232-2 à L1232-4** : obligation d'une entretien préalable et du droit de se faire assister.\n- **Article L1234-1** : en cas de faute grave, le salarié n'a droit ni au préavis ni à l'indemnité de licenciement.\n- **Article L1235-1** : la charge de la preuve de la faute grave pèse sur l'employeur.\n\nLes articles **L1331-1 et suivants** encadrent les sanctions disciplinaires et le principe de proportionnalité : le juge prud'homal contrôle que la sanction est justifiée et proportionnée à la faute.\n\n## Fondement conventionnel ALISFA\n\n:::ccn-alisfa\nLa CCN ALISFA (IDCC 1261) renvoie au droit commun du licenciement disciplinaire. Elle ajoute que :\n- La procédure comporte une **mise à pied conservatoire** (suspension immédiate sans sanction) dans l'attente de la décision finale ;\n- En cas de faute grave : pas de préavis, pas d'indemnité de licenciement. Le salarié conserve ses droits au chômage ;\n- L'employeur doit notifier la sanction dans un délai maximal d'**un mois après l'entretien préalable**.\n:::\n\n## Articulation / hiérarchie des normes\n\nLe Code du travail pose les règles minimales. La CCN ALISFA les reprend et ajoute une procédure spécifique (mise à pied conservatoire préalable). Un accord d'entreprise peut prévoir des dispositions plus favorables au salarié (délai de réflexion allongé, procédure renforcée, etc.), mais ne peut pas réduire les droits établis par la loi ou la convention.\n\n## Application\n\n**Pour caractériser une faute grave, l'employeur doit démontrer :**\n\n- Un comportement objectif et avéré du salarié\n- Qui rend impossible le maintien du salarié dans l'entreprise (même avec un préavis)\n- Exemples concrets : vol, violence, insubordination grave et répétée, refus catégorique d'exécuter les tâches essentielles, violation grave de confidentialité\n\n**La procédure à suivre :**\n\n1. **Mise à pied conservatoire immédiate** → suspension temporaire (non rémunérée si licenciement confirmé, rémunérée si la faute n'est pas prouvée ou si elle est finalement qualifiée en faute simple)\n2. **Convocation à entretien préalable** → dans les jours suivants, par courrier RAR ou remise en main propre\n3. **Entretien** → le salarié peut se faire assister ; l'employeur expose les griefs\n4. **Notification de la sanction** → lettres motivée, dans les 30 jours maximum après l'entretien\n\n## Vigilance\n\n- **La charge de la preuve pèse sur l'employeur.** Le juge prud'homal apprécie souverainement si les faits constituent une faute grave. Une qualification insuffisante ou une preuve fragile expose l'employeur à une condamnation pour licenciement abusif.\n\n- **La mise à pied conservatoire n'est pas une sanction.** Si le licenciement n'est pas prononcé pour faute grave (mais pour faute simple, par exemple), la période de mise à pied doit être rémunérée.\n\n- **Prescription des faits :** l'employeur qui a connaissance d'une faute et n'agit pas dans les **2 mois** est réputé y avoir renoncé (il ne peut plus la sanctionner).\n\n- **Proportionnalité :** même une faute grave, si elle est sanctionnée de manière manifestement disproportionnée (ex. : licenciement pour une négligence mineure), peut être annulée ou réformée par le juge.\n\n- **Faute lourde :** plus rare ; elle exige la preuve d'une intention malveillante envers l'employeur (ex. : détournement de fonds, sabotage). Elle est fortement contrôlée par les juges.\n\n## Escalade\n\n**Le licenciement pour faute grave ou lourde est l'une des décisions les plus contentieuses en droit du travail.** Les risques prud'homaux sont élevés (requalification en licenciement abusif, condamnation aux indemnités de préavis et de licenciement, dommages-intérêts). \n\n**Je vous recommande vivement de contacter le pôle juridique ELISFA avant d'engager cette procédure.** Une évaluation personnalisée des faits, un avis sur la qualification juridique et un accompagnement tout au long de la démarche vous éviteront des erreurs coûteuses.\n\n## Sources\n\n- Code du travail : articles L1232-1 et suivants, L1234-1, L1234-9, L1331-1 et suivants, L1235-1\n- Convention collective ALISFA (IDCC 1261) — Dispositions disciplinaires\n- Jurisprudence de la Cour de cassation (Chambre sociale)",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q10",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "faute"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nUne **faute grave** en droit du travail français est un comportement du salarié rendant **impossible le maintien dans l'emploi**, même pendant le préavis. Elle entraîne la perte du préavis et de l'indemnité de licenciement, mais le salarié conserve l'indemnité de congés payés et ses droits au chômage.\n\nLa **faute lourde** ajoute une dimension intentionnelle : c'est une faute grave accompagnée d'une **intention de nuire à l'employeur**.\n\n---\n\n## Fondement\n\n**Cadre légal** [ART_L1232-1, ART_L1232-2 à L1232-4] : Tout licenciement disciplinaire doit avoir une cause réelle et sérieuse. La faute grave se distingue par son caractère rendant impossible le maintien du salarié.\n\n**Convention ALISFA** [ART_rupt-07] : La CCN renvoie au droit commun. La procédure disciplinaire standard s'applique (entretien préalable obligatoire), mais une **mise à pied conservatoire** (suspension immédiate sans sanction) peut intervenir en attente de la décision.\n\n---\n\n## Application\n\n- **Conséquences** : Pas de préavis, pas d'indemnité de licenciement (mais maintien des congés payés et droits au chômage)\n- **Procédure** : Mise à pied conservatoire rapide → convocation à entretien → notification dans le mois maximum\n- **Charge de la preuve** : L'employeur doit prouver la faute grave [ART_L1235-1]\n- **Vigilance** : La qualification relève de l'appréciation souveraine des juges ; une mise à pied conservatoire rémunérée peut être imposée si la faute n'est que simple\n\n---\n\n## Sources\n\n[ART_rupt-07] — Licenciement pour faute grave/lourde | [ART_disc-02] — Sanctions disciplinaires | Code du travail arts. L1232-1, L1235-1\n\n---\n\n⚠️ **Vérification recommandée** : Chaque situation de faute grave est singulière. Pour qualifier précisément un comportement, contactez le **pôle juridique ELISFA**.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q10",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "faute"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 16.37
+    },
+    {
+      "question_id": "Q11",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelle est la durée du préavis pour un cadre selon la CCN ALISFA ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q11",
+          "module": "juridique",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "3 mois"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nSelon la CCN ALISFA, **la durée du préavis pour un cadre est de 3 mois** [rupt-01].\n\n---\n\n## Fondement\n\nLa CCN ALISFA, Chapitre III, fixe cette durée à **3 mois pour les cadres**, tandis que les non-cadres bénéficient d'un préavis de 1 mois (porté à 2 mois après 2 ans d'ancienneté) [rupt-01].\n\nCette durée conventionnelle s'applique aussi bien en **cas de licenciement qu'en cas de démission** [rupt-01] [rupt-02].\n\n---\n\n## Application\n\nLe préavis court à compter de la **date de première présentation de la lettre** (en recommandé pour un licenciement, ou de réception pour une démission).\n\n**Important :** Pendant ce préavis, le cadre licencié bénéficie de **2 heures par jour** (ou 1 journée par semaine) pour la recherche d'emploi, **rémunérées par l'employeur** [rupt-06]. En cas de démission, ces heures ne sont pas rémunérées [rupt-02].\n\n---\n\n## Sources\n\n- [rupt-01] CCN ALISFA, Chapitre III — Durée du préavis de licenciement\n- [rupt-02] CCN ALISFA, Chapitre III — Durée du préavis de démission\n- [rupt-06] CCN ALISFA, Chapitre III — Heures de recherche d'emploi",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q11",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "3 mois"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 4.28
+    },
+    {
+      "question_id": "Q12",
+      "module": "juridique",
+      "expected_type": "precise",
+      "question": "Quelles sont les étapes d'un entretien préalable au licenciement ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q12",
+          "module": "juridique",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "convocation",
+            "entretien"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nL'**entretien préalable** est une étape obligatoire avant tout licenciement disciplinaire (sauf exceptions rares). Il garantit le droit à la défense du salarié. Voici les étapes clés :\n\n1. **Convocation** : lettre recommandée avec AR ou remise en main propre, indiquant date, heure, lieu et objet général\n2. **Délai minimum** : au moins 5 jours ouvrables entre la convocation et l'entretien\n3. **Déroulement** : l'employeur expose les griefs, le salarié peut se défendre et se faire assister (représentant du personnel, avocat, etc.)\n4. **Délai de réflexion** : minimum 2 jours ouvrables après l'entretien avant la notification de la sanction\n5. **Notification** : lettre recommandée motivée, respectant le délai d'un mois maximum après l'entretien\n\n---\n\n## Fondement\n\n[rupt-07] précise que la procédure s'applique pour tout licenciement disciplinaire (faute simple, grave ou lourde). Le principe du contradictoire est garanti par le Code du travail (art. L1232-2 à L1232-4).\n\n[disc-02] détaille que pour les sanctions plus lourdes que l'avertissement, l'entretien préalable est **obligatoire**, avec possibilité d'assistance et respect d'un délai minimum de 2 jours ouvrables entre entretien et notification.\n\n---\n\n## Application\n\nLa charge de la preuve de la faute pèse sur l'employeur [rupt-07]. L'absence ou le vice de cet entretien expose l'employeur à l'annulation du licenciement ou à des dommages-intérêts.\n\n---\n\n## Sources\n\n- [rupt-07] Licenciement pour faute grave ou lourde\n- [disc-02] Sanctions disciplinaires\n- Code du travail (art. L1232-2 à L1232-4)\n\n⚠️ **Vérification recommandée auprès du pôle juridique** pour adapter la procédure à votre cas spécifique.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q12",
+          "module": "juridique",
+          "category": "correct",
+          "keywords_matched": [
+            "convocation",
+            "entretien"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 5.89
+    },
+    {
+      "question_id": "Q13",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "C'est compliqué chez nous, qu'est-ce que je fais ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q13",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q13",
+          "module": "juridique",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q14",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "On a un souci avec un salarié",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q14",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "# ⚠️ PRÉCISION REQUISE\n\nVotre question est trop générale pour que je vous oriente efficacement. Le \"souci\" peut concerner plusieurs domaines distincts : **démission, licenciement, inaptitude, rémunération, accident du travail, harcèlement**, etc.\n\n## Pour vous aider rapidement, précisez :\n\n1. **Nature du problème** : Le salarié demissionne ? Vous envisagez un licenciement ? Problème de santé/inaptitude ? Conflit relatif au salaire ou aux horaires ?\n2. **Contexte** : Ancienneté du salarié ? Cadre ou non-cadre ? Catégorie ALISFA ?\n3. **Étape actuelle** : Avez-vous déjà échangé avec le salarié ? Document écrit ?\n\n---\n\n## 🔴 **SIGNAL D'ALERTE**\n\nSi votre souci implique :\n- Une **démission donnée sous contrainte** ou en circonstances douteuses\n- Un **licenciement pour faute ou motif économique**\n- Un **problème de santé/inaptitude**\n- Un **harcèlement ou discrimination soupçonnés**\n\n**→ Contactez le pôle juridique ELISFA pour un RDV dans les 5 jours.**\n\n---\n\nDès que vous préciserez le contexte, je peux vous fournir les articles CCN ALISFA et dispositions légales pertinentes.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q14",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 4.29
+    },
+    {
+      "question_id": "Q15",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "Comment ça marche le travail ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q15",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "# Réponse ELISFA\n\n## Votre question est très générale 👋\n\nVous me posez une question très ouverte : **\"Comment ça marche le travail ?\"**\n\nPour vous aider au mieux, je dois préciser votre besoin. Êtes-vous employeur ou salarié ? Avez-vous une question spécifique parmi celles-ci ?\n\n---\n\n## Thèmes couverts par ELISFA\n\nJe peux vous renseigner sur :\n\n- **📋 Contrat de travail** : embauche, modification, avenant [ART_contrat-06]\n- **⏰ Durée du travail** : 35h/semaine, aménagements, modulation [ART_temps-01]\n- **🏥 Médecine du travail** : visite d'information, suivi médical [ART_sante-02]\n- **💼 Conditions de travail & QVT** : prévention des risques, burn-out [ART_accord-03]\n- **🚪 Fin de contrat** : certificat de travail, documents obligatoires [ART_rupt-09]\n- **💰 Rémunération, classification ALISFA** (CCN IDCC 1261)\n- **⚖️ Ruptures & licenciement**\n\n---\n\n## Conseils pour votre question\n\n**Reformulez en précisant :**\n- Votre situation (employeur / salarié / manager)\n- Le thème concret (embauche ? salaire ? horaires ? licenciement ?)\n- Le contexte (nouvelle structure ? problématique en cours ?)\n\n**Exemple de question claire :**\n> \"Je suis manager dans un service petite enfance. Comment fonctionne la classification ALISFA pour reclasser un agent après l'avenant 2022 ?\"\n\n👉 **Je suis prêt à répondre précisément une fois votre demande clarifiée.**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q15",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 5.77
+    },
+    {
+      "question_id": "Q16",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "On voudrait être en règle",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q16",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q16",
+          "module": "juridique",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q17",
+      "module": "juridique",
+      "expected_type": "vague",
+      "question": "Que dit la convention ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q17",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## ⚠️ Précision nécessaire\n\nVotre question est trop générale pour une réponse utile. La convention ALISFA (IDCC 1261) [preamb-02] contient **plusieurs centaines de dispositions** couvrant :\n\n- Salaires et grilles de rémunération\n- Durée du travail et congés\n- Formation professionnelle\n- Instances représentatives\n- Ruptures et indemnités\n- Prévoyance et retraite complémentaire\n- Etc.\n\n## Ce que je peux faire\n\n**Posez une question précise**, par exemple :\n- *\"Quels sont les délais de préavis en cas de démission ?\"*\n- *\"Comment fonctionne la rémunération des apprentis ?\"*\n- *\"Quels droits aux congés payés ?\"*\n\nJe répondrai alors avec les articles pertinents et leur application.\n\n---\n\n**Ressource compléte** : La convention complète est consultable sur [Legifrance (KALICONT000005635384)](https://www.legifrance.gouv.fr) ou auprès de votre service RH/ELISFA.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q17",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 3.24
+    },
+    {
+      "question_id": "Q18",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Quelle est la recette de la quiche lorraine ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q18",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## ⚠️ Réponse\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question. \n\n**La recette de la quiche lorraine ne relève pas du domaine juridique, social ou de gouvernance des associations adhérentes.** ELISFA couvre exclusivement :\n- Droit du travail & CCN ALISFA (IDCC 1261)\n- Contrats, rémunération, ruptures\n- Instances représentatives\n- Harcèlement & protection des salariés\n\n---\n\n**Puis-je vous aider sur une question liée à :**\n- La gestion RH de votre association ?\n- L'application de la convention collective ?\n- Un enjeu de gouvernance ou de pilotage ?",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q18",
+          "module": "juridique",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 2.99
+    },
+    {
+      "question_id": "Q19",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Combien de planètes dans le système solaire ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q19",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\n**Cette question sort du champ ELISFA.** \n\nLe système solaire et ses planètes relèvent de l'astronomie, pas de la gouvernance d'associations, du droit du travail ou de la convention collective ALISFA.\n\n---\n\n## Fondement\n\nELISFA est dédié au pilotage et à la gouvernance des associations adhérentes relevant du secteur social et médico-social (branche ALISFA, IDCC 1261). Mon corpus couvre :\n- La classification et la rémunération (avenant n° 10-2022)\n- La convention collective et ses avenants\n- Les instances représentatives\n- Le droit du travail applicable\n\n[HORS CORPUS]\n\n---\n\n## Orientation\n\n**Je n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question.**\n\nSi vous avez une question liée à vos responsabilités d'adhérent ALISFA (calcul de salaire, classification d'emploi, organisation RH, instances, etc.), je suis là pour vous aider ! 🎯",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q19",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 3.92
+    },
+    {
+      "question_id": "Q20",
+      "module": "juridique",
+      "expected_type": "hors_sujet",
+      "question": "Quel est le meilleur film de 2024 ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q20",
+          "module": "juridique",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## ⚠️ Hors du périmètre ELISFA\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question. \n\n**ELISFA** accompagne les associations adhérentes sur des sujets de **pilotage, gouvernance et droit du travail** (convention collective ALISFA, rémunération, classification, instances représentatives, ruptures).\n\nLes recommandations cinématographiques ne relèvent pas de ce champ. 😊\n\n**Puis-je vous aider sur un sujet ELISFA** ? Par exemple :\n- Calcul de salaire selon le nouveau système ALISFA ?\n- Application de l'avenant 10-2022 ?\n- Droits et obligations en matière de formation ?",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q20",
+          "module": "juridique",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 2.9
+    },
+    {
+      "question_id": "Q21",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment fonctionne le compte personnel de formation (CPF) ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q21",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "CPF"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe **CPF (Compte Personnel de Formation)** est un droit individuel permettant à tout salarié d'accumuler des crédits de formation mobilisables librement, financés par l'entreprise. [cpf-01]\n\n**Alimentation annuelle :**\n- **500 €/an** pour un salarié à temps plein\n- **800 €/an** pour les salariés peu qualifiés (niveau < CAP/BEP)\n- **Plafond : 5 000 €** (8 000 € pour peu qualifiés)\n- Prorata pour temps partiels ≥ 50% [cpf-01]\n\n**Utilisation libre :**\n- Le salarié choisit sa formation via **moncompteformation.gouv.fr** [cpf-01]\n- **Hors temps de travail : totale liberté**, sans accord employeur [droit-03]\n- **Sur temps de travail : accord employeur obligatoire** (préavis 60-120 jours selon durée ; silence de 30 jours = accord) [cpf-01]\n\n---\n\n## Fondement légal\n\nArticles **L6323-1 à L6323-23** du Code du travail [cpf-01]\n\n---\n\n## Application ALISFA\n\n**Finançable :**\n- Formations RNCP, bilans de compétences (1 600 € max), VAE, permis de conduire (900 € max) [cpf-01]\n- Les formations de la branche ALISFA (certifications, CQP) peuvent être cofinancées CPF + abondement OPCO [cpf-02]\n\n**Participation du salarié :**\n- **Reste à charge obligatoire : 103,20 € en 2026** (indexé annuellement) [cpf-01]\n- Exonérés : demandeurs d'emploi, travailleurs handicapés, victimes AT/MP [cpf-01]\n\n**Levier employeur :**\n- L'employeur peut **abonder le CPF** via le portail EDEF pour cofinancer une formation stratégique → exonère le salarié du reste à charge [cpf-02]\n- À combiner avec l'**entretien professionnel** (tous les 4 ans) pour co-construire le parcours [oblig-02]\n- Conseil gratuit : orienter vers le **CEP** (Conseil en Évolution Professionnelle) avant inscription [cpf-01]\n\n---\n\n## Sources\n\n[cpf-01] | [droit-03] | [cpf-02] | [oblig-02]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q21",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "CPF"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 7.06
+    },
+    {
+      "question_id": "Q22",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quels financements Uniformation pour les structures ALISFA ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q22",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "Uniformation"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nUniformation, l'OPCO de la branche ALISFA [ART_plan-02], finance les structures adhérentes selon leur taille et le type d'action. Les structures **< 50 salariés** bénéficient des meilleurs taux, tandis que les structures **≥ 50 salariés** accèdent à un budget ouvert dès le 15 avril 2026.\n\n---\n\n## Fondement légal\n\nLes financements s'appuient sur :\n- La contribution unique à la formation professionnelle (CUFPA), collectée par l'URSSAF et redistribuée par France Compétences [ART_cpnef-04]\n- L'arrêté du 29 mars 2019 désignant Uniformation comme OPCO pour ALISFA (IDCC 1261)\n- Les articles L6332-1 et suivants du Code du travail définissant les missions des OPCO\n\n---\n\n## Financements disponibles\n\n### **Plan de développement des compétences (PDC)**\n- **< 50 salariés** : 5 000 €/an/SIREN + allocation remplacement 13 €/h (< 11 salariés) ; pas de plafond pour formations certifiantes RNCP [ART_cat-01]\n- **≥ 50 salariés** : 80% des contributions nettes à partir du 15 avril 2026, sans plafond par demande [ART_plan-02]\n- **Barèmes 2026** : 15 €/h TTC (formations > 105h), 65 €/h TTC (≤ 105h), frais annexes au réel (repas 30 €, hébergement 150-200 €/nuit) [ART_cat-01]\n\n### **Alternance**\n- **Apprentissage** : forfait NPEC + aides employeur (2 000 à 6 000 € selon niveau et conditions) [ART_plan-02]\n- **Professionnalisation** : 18 €/h standard, 21 €/h (handicap/GEIQ) [ART_cat-01]\n- **Tutorat** : 230-345 €/mois × 6 mois + formation tuteur 15 €/h max 40h [ART_cat-01]\n\n### **Services gratuits** [ART_cat-04]\n- Zoom RH (diagnostic < 250 sal.)\n- Formations clés en main (< 50 sal.)\n- Conseillers régionaux dédiés\n- Matinales RH (50+ sal.)\n\n---\n\n## Application\n\n1. **Demande auprès du conseiller régional** Uniformation dédié à votre structure\n2. **Dépôt sur l'extranet** adhérent avant le début de la formation [ART_plan-02]\n3. **Modalités** : budgets individuels avec report possible, frais de gestion 6% [ART_plan-02]\n\n---\n\n## Sources\n\n[ART_plan-02] | [ART_cpnef-04] | [ART_cat-01] | [ART_cat-04]\n\n**Contact Uniformation** : 09 69 32 79 79 | uniformation.fr",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q22",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "Uniformation"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 9.0
+    },
+    {
+      "question_id": "Q23",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'un plan de développement des compétences ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q23",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "plan",
+            "compétences"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nUn **plan de développement des compétences** (PDC, anciennement plan de formation) est l'ensemble des actions de formation décidées par l'employeur pour ses salariés [plan-01]. Il comprend deux catégories distinctes :\n\n1. **Actions d'adaptation au poste** (obligatoires) : maintien dans l'emploi et employabilité\n2. **Actions de développement des compétences** : enrichissement des savoir-faire\n\n---\n\n## Fondement légal\n\nL'article **L6321-1 du Code du travail** impose à l'employeur d'adapter les salariés à leur poste et de maintenir leur employabilité [oblig-01]. \n\n**Distinction importante** [plan-01] :\n- Les formations d'adaptation se déroulent **pendant le temps de travail** avec rémunération maintenue ; le salarié **ne peut pas les refuser**\n- Les formations de développement peuvent se dérouler **hors temps de travail** (max 30h/an ou 2% du forfait) **avec accord écrit du salarié**\n\nL'employeur doit **consulter le CSE** annuellement sur le plan [plan-03].\n\n---\n\n## Financement pour les adhérents ALISFA\n\n**Structures < 50 salariés** [plan-01] :\n- Aide jusqu'à 5 000 € par demande/an (illimitée pour certifications RNCP)\n- Services gratuits Uniformation : accompagnement, diagnostic RH\n\n**Structures ≥ 50 salariés** [plan-01] :\n- Budget ouvert **15 avril 2026**\n- 80% des contributions conventionnelles nettes allouées\n- Couverture complète (pédagogie, rémunération, frais annexes)\n\n---\n\n## Sources\n\n[plan-01] | [plan-03] | [oblig-01]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q23",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "plan",
+            "compétences"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 5.42
+    },
+    {
+      "question_id": "Q24",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "À quoi sert l'entretien professionnel obligatoire ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q24",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "entretien"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nL'entretien professionnel est un rendez-vous **obligatoire entre l'employeur et le salarié**, exclusivement consacré à **ses perspectives d'évolution professionnelle et de développement de compétences**. [oblig-02]\n\n**⚠️ Réforme 2025** : La fréquence change. Passant de tous les 2 ans à **tous les 4 ans**, avec un bilan récapitulatif tous les **8 ans** (au lieu de 6 ans), selon la **Loi n°2025-989 du 24 octobre 2025**. [oblig-02]\n\n---\n\n## Fondement légal (minimum)\n\nL'entretien professionnel est une **obligation de l'employeur** [Article L6315-1 du Code du travail]. Il s'applique à tous les salariés, quel que soit leur contrat (CDI, CDD, temps partiel, apprentissage). [oblig-04]\n\nNe pas le confondre avec l'**entretien annuel d'évaluation** : ce dernier porte sur les performances individuelles ; l'entretien professionnel porte sur le **parcours de carrière**. [oblig-02]\n\n---\n\n## Ses objectifs concrets\n\nL'entretien professionnel vise à :\n- **Évaluer les besoins en formation** du salarié\n- **Identifier des actions de développement** (CEP, CPF, VAE, certifications) [oblig-02]\n- **Construire ensemble** un parcours professionnel cohérent\n- **Vérifier l'accès à au moins une formation non obligatoire** tous les 8 ans [oblig-02]\n\n---\n\n## Enrichissement ALISFA\n\nLa CCN ALISFA renforce ce dispositif : l'entretien doit aborder **les moyens d'accès au CEP, CPF, VAE** et la **détermination des objectifs de professionnalisation**. La branche recommande un **passeport formation** récapitulant les compétences acquises. [oblig-02]\n\n**Uniformation propose des outils gratuits** pour structurer l'entretien.\n\n---\n\n## Sanction en cas de carence\n\nEntreprises de **50+ salariés** : si aucun entretien n'a eu lieu ET pas de formation réalisée, **abondement correctif de 3 000 € sur le CPF du salarié**. [oblig-02], [oblig-04]\n\n---\n\n## Sources\n- [oblig-02] ; [oblig-04] ; [ART L6315-1 Code travail]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q24",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "entretien"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 7.48
+    },
+    {
+      "question_id": "Q25",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment organiser une formation entre plusieurs associations ALISFA ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q25",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "formation"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour organiser une **formation mutualisée entre plusieurs associations ALISFA**, vous disposez de trois leviers principaux :\n\n1. **Financement collectif via Uniformation** : les projets collectifs de branche\n2. **Cumul des budgets CPF individuels** des salariés participants\n3. **Mobilisation d'une action collective CPNEF** si le projet répond aux besoins prioritaires de la branche\n\n---\n\n## Fondement\n\n### Le minimum légal\nAucun obstacle réglementaire n'existe pour une formation mutualisée. L'employeur reste responsable de l'adaptation et l'employabilité de ses salariés [ART_oblig-03]. Le financement peut provenir du plan de développement des compétences de chaque structure [ART_rac-01].\n\n### L'opportunité ALISFA : projets collectifs via Uniformation\n**[ART_cpnef-04]** L'OPCO Cohésion sociale finance en priorité **(3) les actions collectives (projets de branche CPNEF)**. Ces projets permettent de **mutualiser les coûts pédagogiques** entre plusieurs employeurs tout en bénéficiant d'une prise en charge jusqu'à 100 %.\n\n---\n\n## Application — 3 scénarios\n\n| Scénario | Démarche | Coût pour vous |\n|---|---|---|\n| **Formation interne simple** | Chaque asso finance via son PDC + CPF salarié [ART_rac-01] | Reste à charge selon barème Uniformation |\n| **Action collective branche** | Coordonner avec CPNEF + déposer auprès d'Uniformation | Potentiellement 0 € si prise en charge 100 % |\n| **Combinaison optimale** | Action collective (coûts pédago) + Transitions Pro pour rémunération [ART_rac-01] | Dépend du projet |\n\n### Étapes concrètes\n1. **Identifier le besoin commun** : compétence, certification prioritaire (CAP AEPE, CPJEPS, DE EJE, etc.) [ART_rac-01]\n2. **Solliciter votre conseiller ALISFA** (Uniformation) pour qualifier le projet en « action collective »\n3. **Dépôt sur l'extranet** : mentionner les structures partenaires + effectifs\n4. **Attendre validation CPNEF** (délai : ~3-4 semaines)\n\n---\n\n## Sources\n\n- **[ART_cpnef-04]** : Missions OPCO Uniformation + projets collectifs CPNEF  \n- **[ART_rac-01]** : Dispositifs de financement cumulables (DAF Certifiante, Transitions Pro, CPF)  \n- **[ART_oblig-03]** : Contribution ALISFA 2,3% — financement garanti\n\n### Contact direct\n**Conseiller sectoriel ALISFA — Uniformation :** [extranet adhérent]  \n**CPNEF ALISFA :** cpnef@cpnef.com / 01 58 46 13 45",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q25",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "formation"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 8.97
+    },
+    {
+      "question_id": "Q26",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la VAE (Validation des Acquis de l'Expérience) ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q26",
+          "module": "formation",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "VAE"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLa VAE permet à tout salarié de faire reconnaître son expérience professionnelle pour obtenir un diplôme ou une certification, **sans condition minimale de durée depuis la réforme de 2022** [vae-01]. C'est particulièrement pertinent dans le secteur ALISFA où de nombreux collaborateurs ont acquis des compétences sans diplôme formel (animateurs, agents petite enfance, agents d'entretien).\n\n---\n\n## Fondement légal\n\n**Minimum légal :** [vae-01]\n- Toute personne peut faire valider ses acquis pour obtenir une certification RNCP, via la plateforme **France VAE** (francevae.fr)\n- **Suppression de la durée minimale** d'expérience depuis la loi du 21 décembre 2022\n- Droit à un **congé VAE de 48h** [art. L6422-1 C. trav.]\n- Financeable par le **CPF** [cpf-01]\n\n---\n\n## Application en pratique ALISFA\n\n**Parcours simplifié :**\n1. Positionnement et conseil via France VAE\n2. Accompagnement renforcé par un **AAP (Architecte Accompagnateur de Parcours)** [vae-03]\n3. Aide à la rédaction du dossier + préparation au jury (financée)\n\n**Financement :**\n- Uniformation finance l'accompagnement VAE dans le **plan de développement des compétences** [vae-01]\n- Possible en **VAE collective** (plusieurs salariés, même diplôme)\n\n**Valorisation :** Une VAE réussie entraîne un **repositionnement et revalorisation salariale** selon la CCN ALISFA [vae-01]\n\n**Certifications prioritaires dans la branche :** EJE, CAFERUIS, CAFDES, DEJEPS, BPJEPS, CAP Accompagnant Éducatif Petite Enfance [vae-03]\n\n---\n\n## Sources\n\n- [vae-01] : Fonctionnement VAE réformée 2022\n- [vae-03] : VAE réformée, AAP et financement diversifié\n- [cpf-01] : CPF comme levier de financement\n\n**Contact pour orientation :** Votre référent régional CPNEF/Uniformation ou le CEP gratuit [vae-03]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q26",
+          "module": "formation",
+          "category": "correct",
+          "keywords_matched": [
+            "VAE"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 7.54
+    },
+    {
+      "question_id": "Q27",
+      "module": "formation",
+      "expected_type": "vague",
+      "question": "On a besoin de former nos gens",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q27",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nVous avez l'**obligation légale** d'assurer la formation de vos salariés pour adapter leur profil à leur poste et maintenir leur employabilité [oblig-01]. Au-delà, la branche ALISFA propose des **dispositifs enrichis** et des financements via Uniformation.\n\n---\n\n## Fondement légal\n\n**Minimum requis** [oblig-01] :\n- Adapter les salariés à leur poste de travail (art. L6321-1 du Code du travail)\n- Maintenir leur capacité à occuper un emploi\n- Organiser un entretien professionnel **tous les 2 ans** (art. L6315-1)\n- Réaliser un bilan récapitulatif **tous les 6 ans**\n\nNon-respect = risque de dommages-intérêts en cas de licenciement + pénalité CPF de 3 000€ (si >50 salariés).\n\n---\n\n## Vos leviers : branche ALISFA\n\n[oblig-01] vous permet d'aller **bien au-delà** :\n- **Plan de développement des compétences** ambitieux (petite enfance, animation, médiation)\n- **Taux de contribution formation supérieur** : 2,3% vs 1% légal minimum\n- **Financements Uniformation** (OPCO spécialisé)\n- Dispositifs comme **Pro-A** (reconversion interne)\n- Certificats de branche ALISFA\n\n---\n\n## Application immédiate\n\n1. Vérifiez vos **derniers entretiens professionnels** (2 ans max ?)\n2. Construisez/actualisez votre **plan de formation 2025**\n3. Contactez **Uniformation** pour auditer vos financements\n4. Consultez votre **CSE** si effectifs ≥ 50\n\n---\n\n## Sources\n- [oblig-01] — Obligations employeur en formation  \n- Code du travail : articles L6321-1, L6315-1\n\n**Besoin d'aide pour structurer votre plan ?** Contactez le pôle formation ELISFA.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q27",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 4.51
+    },
+    {
+      "question_id": "Q28",
+      "module": "formation",
+      "expected_type": "vague",
+      "question": "On en est où côté formation ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q28",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nVous êtes à jour sur les droits et obligations en matière de formation dans la branche ALISFA. Voici l'essentiel :\n\n**Pour vos salariés :**\n- CPF : 500 €/an (portatif, plafond 5 000 €) [CPF-01]\n- Entretien professionnel : tous les 2 ans, + bilan tous les 6 ans [DROIT-01]\n- Accès gratuit au CEP (conseil en évolution professionnelle) [DROIT-01]\n- VAE et congé bilan de compétences possibles [DROIT-01]\n\n**Pour votre structure :**\n- Contribution formation : **2,3 % de la masse salariale** (vs 1 % légal) [OBLIG-03]\n- Obligation d'adapter les salariés à leur poste et maintenir leur employabilité [OBLIG-01]\n- Consultation obligatoire du CSE sur le plan de développement des compétences [PLAN-01]\n\n---\n\n## Financement du plan de développement des compétences\n\nSelon votre taille [PLAN-01] :\n\n- **< 50 salariés** : jusqu'à 5 000 €/demande (illimité pour certifications RNCP) + accompagnement gratuit\n- **≥ 50 salariés** : budget ouvert à partir du 15 avril 2026 ; 80% des contributions nettes ; couverture complète (pas de plafond par demande)\n\nUniformation propose aussi des **formations gratuites mutualisées** et diagnostic RH.\n\n---\n\n## Prochains pas\n\n1. **Vérifiez vos entretiens professionnels** : obligation tous les 2 ans + bilan récapitulatif\n2. **Co-construisez votre plan** avec le CSE (consultation annuelle)\n3. **Contactez Uniformation** pour un diagnostic personnalisé et accès aux financements\n\n**Besoin d'aide pour un dossier précis (CPF, VAE, pro-A) ?** Je suis là.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q28",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 5.84
+    },
+    {
+      "question_id": "Q29",
+      "module": "formation",
+      "expected_type": "hors_sujet",
+      "question": "Quelle est la météo aujourd'hui à Paris ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q29",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## Réponse\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question. Pour un avis personnalisé, contactez le pôle juridique.\n\n---\n\n**Explication** : Votre question porte sur la météorologie à Paris, qui ne relève ni du droit du travail, ni de la formation professionnelle, ni de la gouvernance des associations adhérentes ELISFA. Les articles de la base couvrent exclusivement les obligations formation, les contributions, et la gestion des ressources humaines dans la branche ALISFA.\n\nPour la météo, consultez un service météorologique (Météo-France, etc.).",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q29",
+          "module": "formation",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 1.97
+    },
+    {
+      "question_id": "Q30",
+      "module": "formation",
+      "expected_type": "hors_sujet",
+      "question": "Comment fait-on un gâteau au chocolat ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q30",
+          "module": "formation",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "# Je n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question.\n\nVotre question porte sur la **recette d'un gâteau au chocolat**, qui n'entre pas dans le champ de compétence d'ELISFA.\n\nELISFA est dédié au **pilotage et à la gouvernance des formations professionnelles** dans les associations adhérentes de la branche ALISFA (services aux personnes, action sociale, sanitaire, etc.).\n\nPour un avis ou un accompagnement sur les sujets suivants, n'hésitez pas :\n- 🎓 **Plan de développement des compétences** de votre structure\n- 📋 **Entretien professionnel** et parcours salariés  \n- 💼 **Tutorat, apprentissage, alternance**\n- 🏆 **VAE, certifications, CPF**\n- 📞 **Financement des formations** via Uniformation\n\nPour tout besoin personnalisé, contactez **le pôle juridique ELISFA**.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q30",
+          "module": "formation",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 4.3
+    },
+    {
+      "question_id": "Q31",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment gérer un cas de turnover élevé dans une équipe ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q31",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "turnover"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe turnover élevé révèle généralement un diagnostic multi-factoriel en RH. Avant d'agir, trois questions préalables :\n\n1. **Concernant la dynamique** : Le turnover est-il concentré sur une équipe/métier précis, ou généralisé ? Touche-t-il davantage les CDI ou les contrats courts ?\n2. **Sur le timing** : À quel moment les ruptures interviennent-elles (pendant la période d'essai, après 6-12 mois, lors d'une transition) ?\n3. **Sur les causes déclarées** : Avez-vous des entretiens de départ ou des retours d'étonnement qui pointent un facteur dominant (rémunération, management, conditions de travail, perspective professionnelle) ?\n\n---\n\n## Fondement cadre\n\nTrois leviers du turnover relèvent directement de la gouvernance RH ALISFA :\n\n**[rh-06] Onboarding structuré** : Un parcours d'intégration défaillant divise le risque de rupture précoce par 3 selon les études ANDRH. Les structures ALISFA doivent formellement mettre en place : accueil du J1, désignation d'un parrain/marraine, points réguliers pendant 3-6 mois, et bilan de fin de période d'essai.\n\n**[rh-02] Entretiens professionnels** : L'absence d'entretien professionnel tous les 2 ans et d'évaluation annuelle signale une carence d'anticipation des parcours. C'est un premier levier de fidélisation via la clarté des perspectives.\n\n**[rh-04] QVCT & RPS** : Les risques psycho-sociaux (surcharge, manque de reconnaissance, harcèlement, burn-out des directions) sont des accélérateurs puissants de départ [Garbe, Dialogue social].\n\n---\n\n## Application — Diagnostic guidé\n\n**Phase 1 : Cartographier**\n- Calculez le taux : (départs annuels / effectif moyen) × 100\n- Séquencez par ancienneté : % de départs avant 6 mois / 6-12 mois / 1-3 ans / 3+ ans\n- Identifiez le (les) métier(s) touché(s) : directeur, animateur, ASM, agent logistique ?\n\n**Phase 2 : Écouter**\n- Relancez les entretiens de départ formalisés (fiche écrite, non culpabilisante)\n- Organisez des retours d'étonnement auprès des équipes (confidentialité obligatoire [rh-06])\n\n**Phase 3 : Corriger selon le profil**\n\n| **Symptôme** | **Action prioritaire** | **Article source** |\n|---|---|---|\n| Ruptures dans les 3 mois | Revoir l'onboarding ; vérifier la clarté du contrat et la formation sécurité | [rh-06] |\n| Pas d'entretien depuis 2+ ans | Programmer systématiquement entretiens professionnels + bilans à 6 ans | [rh-02] |\n| Plaintes sur les conditions (surcharge, respect) | DUERP actualisé ; plan RPS ; reconnaissance managériale | [rh-04] |\n| Salaires perçus en-dessous du marché | Audit sur l'emploi repère appliqué ; comparaison Avenant 10-22 [ART_rh-01] | [rh-01] |\n\n---\n\n## Sources\n\n- **[rh-01]** Recrutement & intégration, emplois repères\n- **[rh-02]** Entretiens professionnels & évaluation  \n- **[rh-04]** QVCT & prévention RPS  \n- **[rh-06]** Parcours d'intégration (onboarding)\n\n**Prochaine étape** : Quelle est votre question la plus pressante parmi ces quatre leviers ? (onboarding / entretiens / QVCT / emplois repères)",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q31",
+          "module": "rh",
+          "category": "correct",
+          "keywords_matched": [
+            "turnover"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 11.57
+    },
+    {
+      "question_id": "Q32",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment résoudre un conflit interne entre deux salariés ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q32",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "conflit"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour résoudre un conflit entre deux salariés, il faut d'abord diagnostiquer précisément la nature du conflit (interpersonnel, lié aux responsabilités, au leadership, aux conditions de travail ?). Le gestionnaire ne dispose pas d'un cadre légal spécifique dans la base ELISFA, mais peut s'appuyer sur son **pouvoir de direction** et le **dialogue social** pour structurer une démarche.\n\n---\n\n## Diagnostic préalable (questions)\n\nAvant de proposer une solution, je dois comprendre :\n\n1. **Nature du conflit** : \n   - Conflit d'ordre personnel (incompatibilité, tensions relationnelles) ?\n   - Conflit lié aux tâches (chevauchement, responsabilités floues) ?\n   - Conflit lié au climat de travail ou à des décisions managériales ?\n\n2. **Escalade** :\n   - Y a-t-il déjà eu des incidents documentés, plaintes, absences ?\n   - Des tiers (équipe, clients) sont-ils impactés ?\n\n3. **Contexte RH** :\n   - Quel est le positionnement sur l'emploi repère de chacun ? [rh-01]\n   - Ont-ils eu des entretiens professionnels ou d'évaluation récents ? [rh-02, rh-07]\n\n---\n\n## Leviers managériaux recommandés\n\n**A. Entretien individuel avec chacun** (hors de la présence de l'autre)\n- Écoute sans jugement du point de vue de chacun\n- Identification des faits objectifs vs. perceptions\n- Recentrage sur les objectifs du poste et l'emploi repère [rh-01]\n\n**B. Clarification des rôles et responsabilités**\n- Redéfinir si nécessaire les périmètres, les objectifs, les attentes\n- Documenter par écrit (fiche de poste actualisée)\n\n**C. Dialogue collectif encadré** (si possible)\n- Réunion avec les deux parties en présence du manager et/ou du CSE si le climat l'exige\n- Focus sur les enjeux professionnels, non sur les griefs personnels\n- Aboutir à un accord minimum (règles de cohabitation, communication)\n\n**D. Suivi régulier**\n- Points hebdomadaires ou bimensuels pour vérifier la détente\n- Reconnaître les progrès\n\n---\n\n## ⚠️ Points d'attention\n\n- **Ne pas attendre une escalade** : un conflit latent impacte le turnover et le climat social (leviers du pilotage GEPP [rh-10])\n- **Documenter les étapes** pour justifier les décisions RH en aval (réévaluation, mobilité, séparation si nécessaire)\n- **Associer le CSE** si le conflit affecte les conditions de travail ou la santé d'au moins un salarié\n\n---\n\n## Sources\n\nJe n'ai pas d'article ELISFA spécifiquement dédié à la **résolution de conflits interpersonnels**. \n\nPour un diagnostic plus fin et une stratégie adaptée à votre contexte, **contactez le pôle juridique ELISFA ou un médiateur/consultant en RH de la branche.**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q32",
+          "module": "rh",
+          "category": "false_refuse",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "conflit"
+          ],
+          "forbidden_found": [],
+          "notes": "Aurait dû répondre mais a refusé (V2 trop strict ?)."
+        }
+      },
+      "elapsed_seconds": 9.71
+    },
+    {
+      "question_id": "Q33",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Qu'est-ce qu'un management défaillant et comment l'identifier ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q33",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "management"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nUn **management défaillant** n'a pas de définition légale unique, mais il se caractérise par **l'absence ou l'insuffisance de pilotage structuré** dans les domaines clés de la gestion RH, de la prévention des risques et du dialogue social. Dans le contexte ALISFA, cela se traduit par des dysfonctionnements organisationnels, un turnover anormal, une dégradation du climat social, et des ruptures de conformité.\n\n---\n\n## Fondement — Repères théoriques et légaux\n\nLe management associatif repose sur trois piliers légalement et contractuellement définis :\n\n1. **Pilier RH structuré** [ART_rh-01, ART_rh-06] : recrutement formalisé, intégration graduelle, contrats conformes à la CCN ALISFA\n2. **Pilier évaluation et dialogue** [ART_rh-02] : entretiens professionnels tous les 2 ans, évaluations annuelles, traçabilité\n3. **Pilier santé et prévention** [ART_rh-04] : DUERP à jour, prévention des RPS, QVCT pilotée\n\n---\n\n## Identification — 7 signaux d'alerte\n\n| **Domaine** | **Signaux de défaillance** |\n|---|---|\n| **Recrutement** | Contrats non écrits, absence de DPAE, salariés mal positionnés sur les emplois repères [ART_rh-01] |\n| **Intégration** | Pas de parcours d'onboarding, absence de formation sécurité J1, turnover < 6 mois anormal [ART_rh-06] |\n| **Évaluation** | Entretiens professionnels non tenus (tous les 2 ans obligatoire [ART_rh-02]), pas de compte-rendu écrit, opacité sur les critères |\n| **Dialogue social** | Pas de référent harcèlement nommé (≥ 11 salariés), absence de CSE ou absence de réunion [ART_rh-04] |\n| **Prévention** | DUERP absent ou obsolète, pas de médecine du travail [ART_rh-04] |\n| **Mobilité & formation** | Aucun plan de développement, blocages internes, absence Pro-A [ART_rh-03] |\n| **Climat RH** | Tensions répétées, plaintes absentéisme, démissions non explicitées |\n\n---\n\n## Application — Pour votre diagnostic\n\n**Posez-vous ces questions fermées :**\n\n1. ✅ Vos salariés ont-ils des contrats écrits mentionnant leur emploi repère (avenant 10-22) ?\n2. ✅ Organisez-vous des entretiens professionnels tous les 2 ans ?\n3. ✅ Avez-vous un DUERP rédigé et mis à jour cette année ?\n4. ✅ Avez-vous nommé un référent harcèlement ?\n5. ✅ Vos nouveaux recrutés reçoivent-ils une formation sécurité J1 ?\n\n**Si ≥ 3 réponses « non » → management défaillant probable.**\n\n---\n\n## Sources\n\n- [ART_rh-01] Recrutement & intégration — CCN ALISFA, avenant 10-22 (6 déc. 2022), C. trav. L1221-1 et suivants\n- [ART_rh-02] Entretiens professionnels — C. trav. L6315-1, avenant 10-22 & 06-24\n- [ART_rh-03] GEPP — C. trav. L2242-20, L6324-1 (Pro-A)\n- [ART_rh-04] QVCT & prévention — C. trav. L4121-1, R4121-1 (DUERP), L1153-5-1 (harcèlement)\n\n**Souhaitez-vous approfondir l'un de ces signaux pour votre structure ?**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q33",
+          "module": "rh",
+          "category": "correct",
+          "keywords_matched": [
+            "management"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 10.5
+    },
+    {
+      "question_id": "Q34",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment améliorer le climat social dans une association ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q34",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "climat"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nL'amélioration du climat social dans une association ALISFA repose sur **trois piliers complémentaires** :\n\n1. **Structurer le dialogue social** (obligatoire si ≥ 11 salariés)\n2. **Sécuriser les parcours professionnels** (intégration, évaluation, mobilité)\n3. **Prévenir les ruptures** par une gestion anticipée des conflits et des attentes\n\nSans diagnostic préalable, je propose un questionnement guidé.\n\n---\n\n## Questions de diagnostic (pour affiner la réponse)\n\n**Votre structure compte :**\n- Combien de salariés ? (seuil CSE = 11)\n- Avez-vous un CSE/délégués ? Sont-ils actifs ?\n- Avez-vous observé : turnover élevé, absences, tensions manifestes, ou plutôt des signaux faibles ?\n\n---\n\n## Fondement — Levier 1 : Dialogue social structuré\n\n**[ART_rh-05]**  \nLe dialogue social local est le **socle du climat social**. Il doit reposer sur :\n- **CSE actif** (si ≥ 11 salariés) : réunions régulières, ordre du jour conjoint, registre des délibérations\n- **Financement de l'activité syndicale** : avenant 03-23 (bons syndicaux) permet la mutualisation dans les petites structures\n- **Respect du cadre légal** : Art. L2311-1 et suivants C. trav.\n\n---\n\n## Fondement — Levier 2 : Intégration & trajectoires claires\n\n**[ART_rh-06], [ART_rh-01]**  \nUn salarié bien intégré, avec un parrain et des objectifs clairs (J1-3 mois), divise le risque de rupture par 3.  \n**[ART_rh-02]**  \nL'entretien professionnel tous les 2 ans + évaluation annuelle structurent l'évolution et préviennent les malentendus.\n\n---\n\n## Fondement — Levier 3 : GEPP & mobilité\n\n**[ART_rh-03]**  \nAnticiper les métiers en tension (directeurs EAJE, animateurs qualifiés) et proposer des passerelles internes (Pro-A, CPF, avenant 10-22 sur les emplois repères) sécurisent les trajectoires et réduisent le départ des talents.\n\n---\n\n## Application immédiate\n\n1. ✅ **Audit du CSE** : existe-t-il ? Qui sont les élus ? Fréquence des réunions ?  \n2. ✅ **Parcours d'intégration** : documenté et suivi ?  \n3. ✅ **Entretiens professionnels** : programmés et tracés ?  \n4. ✅ **Plan de formation** : répondez-vous aux enjeux métiers identifiés ?\n\n---\n\n## Sources\n\n- [ART_rh-05] Dialogue social & CSE  \n- [ART_rh-06] Onboarding  \n- [ART_rh-01] Recrutement  \n- [ART_rh-02] Entretiens professionnels  \n- [ART_rh-03] GEPP  \n\n**→ Pour un diagnostic personnalisé, précisez votre contexte (taille, signaux observés).**",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q34",
+          "module": "rh",
+          "category": "correct",
+          "keywords_matched": [
+            "climat"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 8.6
+    },
+    {
+      "question_id": "Q35",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Que faire face à de l'absentéisme chronique ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q35",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "absentéisme"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q35",
+          "module": "rh",
+          "category": "false_refuse",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "absentéisme"
+          ],
+          "forbidden_found": [],
+          "notes": "Aurait dû répondre mais a refusé (V2 trop strict ?)."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q36",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment instaurer un dialogue social efficace avec le CSE ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q36",
+          "module": "rh",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "dialogue",
+            "social"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour instaurer un dialogue social efficace avec le CSE, vous devez respecter un cadre légal strict et structurer quatre dimensions : **organisation électorale**, **fonctionnement régulier**, **communication conjointe**, et **respect des obligations informationnelles**.\n\n---\n\n## Fondement\n\n**Cadre légal** [ART_rh-05] :\n- CSE **obligatoire dès 11 salariés** [Art. L2311-1 s. C. trav.]\n- Réunions mensuelles (≥50 sal.) ou bimensuelles (<50 sal.) [Art. L2315-1]\n- Attributions élargies à ≥50 salariés (consultations obligatoires, BDESE) [Art. L2312-8]\n- Financement mutualisé de l'activité syndicale via avenant 03-23 dans la branche ALISFA\n\n**Spécificités ALISFA** [ART_rh-05] :\n- Avenant 03-23 : bons syndicaux (financement collectif pour petites structures)\n- Chapitre II CCN ALISFA : représentants du personnel\n\n---\n\n## Application (5 étapes)\n\n**1. Organiser les élections CSE** [ART_rh-05]\n- Procédure d'accord préélectoral (PV signé)\n- Vote à bulletin secret obligatoire\n- Risque de **délit d'entrave** en cas d'absence [Art. L2317-1 C. trav.]\n\n**2. Établir un fonctionnement régulier** [ART_rh-05]\n- Calendrier fixe : 1×/mois (≥50 sal.) ou 1×/2 mois (<50 sal.)\n- Ordre du jour conjoint (employeur + secrétaire CSE)\n- Registre des délibérations obligatoire\n\n**3. Alimenter la BDESE** [ART_rh-05]\n- Obligatoire si ≥50 salariés [Art. L2312-8]\n- Transparence économique et sociale\n\n**4. Négocier la NAO** [ART_rh-05]\n- Si ≥50 salariés et présence de délégué syndical\n- Négociation annuelle obligatoire [Art. L2242-1 C. trav.]\n\n**5. Respecter la confidentialité** [ART_rh-05]\n- Informations économiques réservées aux élus\n- Protéger les données sensibles\n\n---\n\n## Vigilance\n\n⚠️ **Entrave légale** : L'absence d'élection dans une structure assujettie = délit [Art. L2317-1]  \n⚠️ **Petites structures** (<50 sal.) : aménagements mais pas d'exonération  \n⚠️ **Confidentialité** : les infos économiques ne sont pas publiques\n\n---\n\n## Sources\n\n**[ART_rh-05]** — *Comment organiser le dialogue social et le CSE dans une structure ALISFA ?*  \n**Code du travail** : Art. L2311-1, L2312-5, L2312-8, L2315-7, L2143-3, L2242-1, L2317-1  \n**CCN ALISFA (IDCC 1261)** — Chapitre II  \n**Avenant 03-23** — Bons syndicaux (financement mutualisé)",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q36",
+          "module": "rh",
+          "category": "correct",
+          "keywords_matched": [
+            "dialogue",
+            "social"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 9.08
+    },
+    {
+      "question_id": "Q37",
+      "module": "rh",
+      "expected_type": "vague",
+      "question": "Mes salariés ne sont pas bien",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q37",
+          "module": "rh",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "# Diagnostic — Malaise salarial\n\nAvant de proposer des actions, j'ai besoin de **préciser le périmètre du problème** pour vous conseiller au mieux.\n\n## Questions de diagnostic\n\n**Sur la nature du malaise :**\n- Turnover élevé (départs volontaires) ou absentéisme ?\n- Manque de reconnaissance / rémunération insuffisante ?\n- Défaut de dialogue ou de clarté sur les carrières ?\n- Charge de travail, ambiance d'équipe, ou manque de perspective d'évolution ?\n\n**Sur le contexte :**\n- Taille de votre structure (< 50 ; 50–300 ; > 300 salariés) ?\n- Avez-vous une politique RH formalisée (fiches de poste, entretiens annuels, plan de formation) ?\n- Y a-t-il une représentation du personnel (délégués syndicaux, CSE) ?\n\n---\n\n## Piste initiale — GEPP recommandée\n\nMême si vous êtes **< 300 salariés**, une démarche de **Gestion des Emplois et Parcours Professionnels (GEPP)** peut transformer le climat social [ART_rh-10] : \n- Diagnostic des compétences actuelles et besoins futurs\n- Identification d'écarts → plan d'action (mobilité interne, formation, clarté de carrière)\n- Signal fort aux salariés : \"Votre avenir nous préoccupe\"\n\n**État des lieux rapide possible via PCRH** (prestation de conseil RH financée partiellement par l'État).\n\n---\n\n## Prochaine étape\n\nRépondez aux questions ci-dessus → je vous proposerai un diagnostic guidé et des leviers adaptés à votre contexte.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q37",
+          "module": "rh",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 5.12
+    },
+    {
+      "question_id": "Q38",
+      "module": "rh",
+      "expected_type": "vague",
+      "question": "Qu'est-ce qu'on peut faire ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q38",
+          "module": "rh",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q38",
+          "module": "rh",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q39",
+      "module": "rh",
+      "expected_type": "hors_sujet",
+      "question": "Combien font 7 + 5 ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q39",
+          "module": "rh",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q39",
+          "module": "rh",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q40",
+      "module": "rh",
+      "expected_type": "hors_sujet",
+      "question": "Qui était Napoléon Bonaparte ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q40",
+          "module": "rh",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q40",
+          "module": "rh",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 0.01
+    },
+    {
+      "question_id": "Q41",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment fonctionne la gouvernance d'une association loi 1901 ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q41",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "1901"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nUne association loi 1901 repose sur trois organes (définis librement par les statuts) : l'**Assemblée Générale** (souveraine, rassemble les adhérents), le **Conseil d'Administration** (gère entre deux AG), et le **Bureau** (gestion courante : président, trésorier, secrétaire) [**ART_gv-09**, **ART_gv-03**].\n\nLa gouvernance allie deux dimensions :\n- **Dimension associative** : démocratie interne, objet d'intérêt général, bénévolat\n- **Dimension employeur** : responsabilités légales et CCN (si salariés) [**ART_gv-01**]\n\n---\n\n## Fondement légal\n\nLoi du 1er juillet 1901 (liberté statutaire) : **elle n'impose pas de structure particulière**. Les règles précises relèvent des statuts, qui ont force de contrat entre les adhérents [**ART_gv-09**, **ART_gv-03**].\n\n---\n\n## Fonctionnement\n\n| Instance | Rôle |\n|----------|------|\n| **AG** | Délibère sur comptes, élection du CA, orientations, modifications statutaires, dissolution |\n| **CA** | Administre au quotidien, vote budget, embauche, met en œuvre la stratégie |\n| **Bureau** | Gestion courante, signatures, représentation |\n\n**Points clés** :\n- Tenant une AG par an minimum (obligatoire de fait)\n- Respect strict des statuts (convocations, quorum, PV signés)\n- Déclaration des changements de dirigeants à la préfecture dans **3 mois** (art. 5 loi 1901) ; amende 1 500 € si oubli\n- AG et CA peuvent être à distance depuis 2020 [**ART_gv-09**]\n\n---\n\n## Vigilance particulière — Associations employeuses\n\nSi vous avez des salariés : le président **cumule** le statut de représentant légal (bénévole) et de responsable d'employeur (obligations Code du travail + CCN ALISFA — IDCC 1261) [**ART_gv-01**]. Responsabilité civile couverte par assurance RC mandataires sociaux recommandée.\n\n---\n\n## Sources\n\n[ART_gv-01], [ART_gv-09], [ART_gv-03]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q41",
+          "module": "gouvernance",
+          "category": "correct",
+          "keywords_matched": [
+            "1901"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 6.83
+    },
+    {
+      "question_id": "Q42",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quels sont les rôles respectifs du CA et du bureau ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q42",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "CA",
+            "bureau"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe CA et le Bureau jouent des rôles distincts et complémentaires [gv-09] :\n\n- **Assemblée générale (AG)** : instance souveraine réunissant tous les adhérents. Elle délibère sur l'approbation des comptes, l'élection du CA, les modifications statutaires, la dissolution et les orientations stratégiques.\n\n- **Conseil d'administration (CA)** : élu par l'AG, il administre l'association entre deux AG. Il met en œuvre la politique définie par l'AG, arrête le budget et les comptes avant présentation à l'AG, embauche/licencie le directeur salarié et gère l'association au quotidien.\n\n- **Bureau** (président, trésorier, secrétaire) : émanation du CA, il assure la gestion courante, exécute les décisions du CA et représente l'association vis-à-vis des tiers (signatures bancaires, contrats) [gv-03, gv-09].\n\n## Fondement\n\nLa loi du 1er juillet 1901 laisse aux associations une **grande liberté statutaire** : elle n'impose pas de structure particulière. Les règles précises sont celles fixées par vos **statuts** [gv-09].\n\n## Application\n\n**Vigilance majeure** : respecter scrupuleusement vos statuts. Un acte pris en violation des règles statutaires (convocation irrégulière, absence de quorum, dépassement de pouvoirs) peut être annulé en justice [gv-09].\n\nBonnes pratiques obligatoires :\n- Tenir au moins une AG ordinaire par an\n- Convoquer dans les délais statutaires (souvent 15 jours)\n- Conserver les procès-verbaux signés par le président et secrétaire\n- Déclarer tout changement de dirigeants à la préfecture dans les 3 mois\n\n## Sources\n\n[gv-03], [gv-09]",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q42",
+          "module": "gouvernance",
+          "category": "correct",
+          "keywords_matched": [
+            "CA",
+            "bureau"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 6.25
+    },
+    {
+      "question_id": "Q43",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment organiser une assemblée générale conforme aux statuts ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q43",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "assemblée"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nPour organiser une AG conforme à vos statuts, suivez cette structure en trois étapes : **convocation → déroulement → formalisation**. [ART_gv-03]\n\n---\n\n## Fondement\n\nContrairement aux idées reçues, la loi 1901 n'impose **pas** une structure d'AG précise : c'est vos **statuts qui font loi** entre les membres. [ART_gv-09] Toutefois, les bonnes pratiques assurent la légalité et la légitimité de vos décisions.\n\n---\n\n## Application — Points clés\n\n### 1️⃣ **Convocation**\n- **Respectez les délais statutaires** (souvent 15 jours minimum) [ART_gv-03]\n- Ordre du jour **clair et détaillé**\n- Précisez : date, heure, lieu (ou modalité distante depuis 2020) [ART_gv-09]\n\n### 2️⃣ **Déroulement**\n- Vérifiez le **quorum statutaire** avant de voter\n- Appliquez les règles de vote prévues (majorité simple, 2/3, consensus)\n- Respectez les délais de parole\n\n### 3️⃣ **Formalisation** ✅ OBLIGATOIRE\n- **Procès-verbal signé** par le président ET le secrétaire [ART_gv-03]\n- Conservez-le dans un **registre spécial** [ART_gv-09]\n- Mettez à disposition des adhérents et autorités de contrôle\n\n### 4️⃣ **Rythme**\n- **Minimum 1 AG ordinaire/an** [ART_gv-03]\n- L'absence d'AG fragilise gravement votre légitimité et risque une requalification en « gestion de fait »\n\n---\n\n## ⚠️ Vigilance\n\nLes décisions importantes (achat immobilier, emprunt, embauche directeur) doivent être **explicitement autorisées par les statuts ou le CA**. [ART_gv-09]\n\n**Modification statutaire ?** Déclarez-la à la préfecture (RNA) dans les **3 mois**, sinon amende de 1 500 €. [ART_gv-09]\n\n---\n\n## Sources\n\n[ART_gv-03] — Organiser l'AG, CA et Bureau ALISFA  \n[ART_gv-09] — Rôles respectifs des trois instances",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q43",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "assemblée"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 7.91
+    },
+    {
+      "question_id": "Q44",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment recruter et fidéliser des bénévoles ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q44",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "bénévole"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "# Recruter et fidéliser des bénévoles\n\n## Synthèse\nLa question du recrutement et de la fidélisation des bénévoles est **fondamentale** pour la vie associative, mais elle sort du périmètre précis des articles ELISFA disponibles, qui traitent plutôt de la gouvernance formelle (instances), du statut juridique du bénévole et de la protection légale des dirigeants.\n\n## Ce que je peux vous dire (fondé sur le corpus)\n\n### Statut juridique du bénévole\nLe bénévole s'engage **librement et sans rémunération** [gv-04]. Il ne doit pas se trouver dans un lien de subordination caractérisé, sinon sa relation est requalifiée en contrat de travail. Cela signifie :\n- **Éviter** horaires imposés, sanctions, rémunération déguisée [gv-04]\n- **Rédiger une charte du bénévolat** distinguant clairement missions bénévoles et missions salariées [gv-04]\n- Rembourser les **frais engagés sur justificatifs** (non forfaitaires) [gv-04]\n\n### Droits des bénévoles (motivants pour la fidélisation)\n- Remboursement des frais engagés [gv-10]\n- Accès à la **formation via le FDVA** [gv-10]\n- **Compte d'Engagement Citoyen (CEC)** : 240 € par année (100+ heures dans la même asso) pour financer une formation [gv-10]\n- Couverture **assurance RC de l'association** [gv-04]\n\n### Responsabilité des dirigeants\nFormer et accompagner les bénévoles avec professionnalisme montre que l'asso les **valorise** [gv-07].\n\n## Ce que je n'ai pas en base fiable\n**[HORS CORPUS]** : stratégies opérationnelles de recrutement (sourcing, communication), profiling des candidats, rétention, motivation intrinsèque, cycles de fidélisation.\n\n## Pour un avis complet\n**Je n'ai pas d'information fiable dans la base ELISFA pour couvrir les meilleures pratiques en recrutement et fidélisation.** Contactez le **pôle juridique** pour une approche structurée ou consultez des ressources spécialisées (France Bénévolat, INJEP).",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q44",
+          "module": "gouvernance",
+          "category": "correct",
+          "keywords_matched": [
+            "bénévole"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 7.46
+    },
+    {
+      "question_id": "Q45",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Comment gérer les tensions entre bénévoles et salariés dans une association ?",
+      "v1": {
+        "answer": "[ERROR HTTP 429]",
+        "status": "error_HTTP_429",
+        "eval": {
+          "question_id": "Q45",
+          "module": "gouvernance",
+          "category": "incorrect",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "tension"
+          ],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nGérer les tensions entre bénévoles et salariés est un **enjeu structurel** des associations ALISFA. Ces tensions naissent souvent de rôles mal définis, d'une asymétrie de statut ou de ressources entre deux populations. Le cadre légal distingue clairement ces deux catégories, mais les bonnes pratiques les articulent positivement.\n\n---\n\n## Fondement juridique\n\n**Les trois éléments du contrat de travail** [ART_gv-04] délimitent la frontière :\n- **Prestation** (travail fourni)\n- **Rémunération** (salaire ou avantage financier régulier)\n- **Lien de subordination** (ordre, contrôle, sanction hiérarchique)\n\nLe bénévole échappe au lien de subordination ; le salarié le subit. **Attention** : un bénévole placé sous direction, horaires imposés ou sanctions **encourt une requalification en travail dissimulé** [ART_gv-04], exposant l'association à des rappels de salaire et à des poursuites pénales.\n\n---\n\n## Application pratique : 5 leviers\n\n**1. Charte du bénévolat** [ART_gv-04]  \nRédiger un document interne distinguant clairement les missions bénévoles (libres, non dirigées, remboursement de frais sur justificatif) des fonctions salariées (subordination, rémunération, horaires). À afficher et à faire signer.\n\n**2. Rôles et responsabilités explicites** [ART_gv-03]  \n- Bénévoles : soutien ponctuel, conseil, représentation (gouvernance)\n- Salariés : exécution en continu, responsabilité opérationnelle, compte rendu au manager\n\n**3. Dialogue régulier** [ART_gv-03]  \nOrganiser des espaces de dialogue distincts : réunion du CA (bénévoles dirigeants), réunion d'équipe (salariés + bénévoles opérationnels si pertinent), sans confusion des rôles.\n\n**4. Formation des dirigeants bénévoles** [ART_gv-07]  \nLes administrateurs ignorent souvent leur responsabilité d'employeur. Une formation annuelle sur la CCN ALISFA et l'hygiène-sécurité réduit les malentendus.\n\n**5. Assurance Responsabilité Civile des Mandataires Sociaux** [ART_gv-07]  \nCouvre les dirigeants bénévoles en cas de conflit (discrimination, harcèlement entre équipes, accident du travail). Elle apaise les rapports en limitant l'exposition personnelle.\n\n---\n\n## Vigilance\n\nLes tensions naissent rarement du cadre légal, mais de **l'absence de cadre interne**. Une association sans charte du bénévolat et sans règlement intérieur clair court le risque de requalifications contentieuses et de mal-être chez les deux populations.\n\n---\n\n## Sources\n\n[ART_gv-04] — Statut du bénévole et articulation bénévole-salarié  \n[ART_gv-07] — Responsabilité civile et pénale des dirigeants bénévoles  \n[ART_gv-03] — Organisation des instances (CA, AG, dialogue)\n\nPour un accompagnement personnalisé sur un conflit particulier, contactez le pôle juridique ELISFA.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q45",
+          "module": "gouvernance",
+          "category": "correct",
+          "keywords_matched": [
+            "tension"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "elapsed_seconds": 9.01
+    },
+    {
+      "question_id": "Q46",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Qu'est-ce que le congé d'engagement bénévole de la loi 2024 ?",
+      "v1": {
+        "answer": "## Le congé d'engagement bénévole de la loi 2024\n\nLa **loi du 15 avril 2024** introduit un droit nouveau : le **congé d'engagement bénévole**, qui permet à un salarié du secteur privé de s'absenter sans perdre sa rémunération pour participer à des activités bénévoles.\n\n### Modalités essentielles\n\n| Aspect | Détail |\n|---|---|---|\n| **Durée annuelle** | 6 jours ouvrables / an (possibilité de report partiel selon accord) |\n| **Bénéficiaires** | Tous les salariés en CDI ou CDD (secteur privé) |\n| **Maintien de salaire** | Obligatoire : le salarié perçoit sa rémunération habituelle |\n| **Procédure** | Demande préalable à l'employeur, délai de prévenance selon accord ou usage |\n| **Organisations éligibles** | Associations, ONG, organismes d'intérêt général agréés |\n\n### Ce que cela change pour les associations\n\n- **Effet indirect positif** : les bénévoles salariés du secteur privé peuvent désormais s'engager en association sans pénalité salariale ➜ facilite le recrutement.\n- **Pas de charge pour l'association** : le coût est supporté par l'employeur du bénévole, non par l'association.\n- **Distinction claire** : ce congé s'ajoute aux protections existantes du bénévole (CEC 240€/an, remboursement frais, formation FDVA).\n\n### À ne pas confondre\n\n- **Congé d'engagement bénévole** (loi 2024) = droit du salarié privé vis-à-vis de son employeur\n- **Compte d'Engagement Citoyen (CEC)** = crédit d'heures de formation pour le bénévole lui-même (240€/an, cumulable 5 ans)\n- **Congé de formation bénévole** (ancien, limité) = aboli et remplacé par cette nouvelle loi\n\n---\n\n📚 **Sources :**\n- [Loi n° 2024-406 du 15 avril 2024 — Engagement bénévole](https://www.legifrance.gouv.fr/)\n- [Guide JeVeuxAider — Congé d'engagement](https://www.jeveuxaider.gouv.fr/)\n- [Dossier Avise — Loi 2024 et bénévolat](https://www.avise.org/)\n\n---\n\n💡 *Pour un accompagnement personnalisé : contactez **votre syndicat employeur ELISFA et vos fédérations** (FCSF, ACEPP, FFEC…) ou une permanence Vie Associative de votre territoire (DLA, Guid'Asso).*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q46",
+          "module": "gouvernance",
+          "category": "correct",
+          "keywords_matched": [
+            "congé"
+          ],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": null
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nLe contexte ELISFA disponible ne contient **pas d'article spécifique sur un \"congé d'engagement bénévole\" de la loi 2024** [HORS CORPUS].\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question avec précision. Pour un avis personnalisé sur ce dispositif et son articulation avec vos obligations de gouvernance ou d'emploi, contactez le pôle juridique.\n\n---\n\n## À titre informatif\n\nSi vous faites référence à une mesure législative récente (post-2024) visant à protéger le temps des bénévoles dans leur emploi principal, ou à un droit nouveau inscrit au Compte d'Engagement Citoyen (CEC) [gv-10], je recommande de :\n\n1. **Vérifier auprès de sources officielles** : site Service-Public.fr, portail du volontariat, ou circulaires d'application ministérielles\n2. **Consulter votre fédération ALISFA** si cette mesure impacte vos relations avec les salariés ou bénévoles dirigeants\n3. **Clarifier auprès du pôle juridique** l'articulation avec votre charte du bénévolat interne [gv-04]\n\n---\n\n**Besoin de précisions ?** N'hésitez pas à reformuler votre question ou à me demander un point sur les droits existants des bénévoles.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q46",
+          "module": "gouvernance",
+          "category": "false_refuse",
+          "keywords_matched": [],
+          "keywords_missing": [
+            "congé"
+          ],
+          "forbidden_found": [],
+          "notes": "Aurait dû répondre mais a refusé (V2 trop strict ?)."
+        }
+      },
+      "elapsed_seconds": 8.2
+    },
+    {
+      "question_id": "Q47",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "On veut avancer mais on sait pas comment",
+      "v1": {
+        "answer": "## Avancer : par où commencer ?\n\nCette formule résume souvent un moment clé pour une association : **une énergie, mais une direction floue**. Avant de proposer des actions, clarifions ensemble ce que \"avancer\" signifie pour vous.\n\n## Les 3 questions fondamentales\n\n**1. Avancer vers quoi ?**\n- Mieux servir vos bénéficiaires ?\n- Pérenniser l'association (financièrement, humainement) ?\n- Transformer votre gouvernance ou votre organisation interne ?\n- Agrandir, innover, vous adapter à un changement externe ?\n- Résoudre une tension (bénévoles/salariés, tradition/modernité, etc.) ?\n\n**2. Avancer d'où ?**\n- Quel est votre contexte actuel ? (taille, secteur, âge de l'association, effectifs)\n- Avez-vous identifié des blocages, des faiblesses, des conflits ?\n- Ou cherchez-vous simplement à clarifier votre stratégie ?\n\n**3. Avancer avec qui ?**\n- Qui pilote ce besoin de changement ? (bureau, équipe salariée, assemblée générale ?)\n- Sont tous les membres mobilisés sur ce sujet ?\n\n---\n\n## Les trois niveaux de diagnostic rapide\n\n### **Niveau 1 : Clarifier votre raison d'être et votre cap (2-3h)**\n- **SWOT associatif** : 30 min en groupe pour identifier forces, faiblesses, opportunités, menaces\n- **Revisiter votre mission** : le document fondateur reflète-t-il votre réalité d'aujourd'hui ?\n- **Fixer 3-5 priorités claires** pour les 18 prochains mois\n\n👉 **Outils gratuits** : EVA (11 modules, dont \"Gouvernance\"), Guid'Asso (questions structurantes)\n\n### **Niveau 2 : Auditer votre gouvernance et vos ressources (1-2 jours)**\nSi vous avez un **conseil d'administration** ou un **bureau** :\n- Rôles et responsabilités sont-ils clairs ?\n- Votre CA/bureau décide-t-il ou gère-t-il ?\n- Communication interne : qui sait quoi, et comment ?\n\nSi vous avez des **salariés** :\n- Comment articulent-ils avec les bénévoles ?\n- Existe-t-il une fiche de fonction, un projet associatif partagé ?\n\nSi vous avez des **bénévoles** :\n- Comment les recrutez, accueillez, formez, reconnaissez-vous ? (les 6 piliers GRH)\n- Y a-t-il une tension recrutement/fidélisation ?\n\n👉 **Ressources** : **DLA** de votre département (gratuit), **Certif'Asso** (20h+10h)\n\n### **Niveau 3 : Accompagnement structuré (3-6 mois)**\n- Diagnostic **associatif complet** : environnement, culture, structure, interactions, projets, visibilité\n- Plan stratégique participatif\n- Plan d'action détaillé avec indicateurs\n\n👉 **Ressources** : **FDVA** de votre région (1-5K€), **DLA**, **syndicat employeur ELISFA** (si vous êtes adhérent)\n\n---\n\n## Prochaine étape : posez-moi le contexte\n\nPour affiner ma guidance, aidez-moi à comprendre :\n\n1. **Quel est votre secteur ?** (social, loisirs, éducation, environnement, santé…)\n2. **Avez-vous des salariés ?** Combien de bénévoles ?\n3. **Quel est le problème ou le rêve qui pousse cette envie d'avancer ?**\n   - Exemple : \"On perd des bénévoles\" / \"On veut passer de 5 à 15 salariés\" / \"Notre CA est démotivé\"\n4. **Quelle est votre région ?** (pour vous orienter vers vos fédérations locales ou DLA)\n\n---\n\n💡 *Pour un accompagnement personnalisé : contactez **votre syndicat employeur ELISFA et vos fédérations** (FCSF, ACEPP, FFEC…) ou une permanence Vie Associative de votre territoire (DLA, Guid'Asso).*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q47",
+          "module": "gouvernance",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "# 🎯 Clarifier votre trajectoire\n\nVotre question est légitime ! Pour vous **aider concrètement**, j'ai besoin de précisions :\n\n## Vers où voulez-vous avancer ?\n\nCochez les priorités qui vous concernent :\n\n- **Structurer/consolider la gouvernance** (AG, CA, Bureau) ?  \n  → Consulter [gv-03]\n  \n- **Clarifier les rôles bénévoles/salariés** (notamment en management) ?  \n  → Consulter [gv-04]\n\n- **Lancer un projet d'activité** (recrutement, nouveau service, financement public) ?\n\n- **Répondre à une obligation légale/administrative** (statuts, RGPD, déclaration) ?\n\n- **Pérenniser l'association** (transition dirigeante, financement) ?\n\n---\n\n## 💡 Pour démarrer maintenant\n\n**Si c'est votre première vraie question** : \n- Vérifiez que vos **statuts et règlement intérieur sont à jour** [ART_gv-03]  \n- Programmez une **AG annuelle régulière** (légalement conseillé) [ART_gv-03]\n\n**Si vous animez des bénévoles** :\n- Distinguez clairement **bénévoles vs salariés** par écrit (charte) [ART_gv-04]  \n- Remboursez les frais justifiés, jamais du forfaitaire [ART_gv-04]\n\n---\n\n## 📝 Posez votre vraie question \n\nDécrivez en 2-3 lignes le **blocage concret** :  \n*« On veut recruter un salarié mais on sait pas comment ? »*  \n*« Notre CA n'existe plus de facto ? »*  \n*« Comment organiser l'AG pour la première fois ? »*\n\n**Je répondrai précisément**, citations à l'appui. ✅",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q47",
+          "module": "gouvernance",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "elapsed_seconds": 12.78
+    },
+    {
+      "question_id": "Q48",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "Notre asso n'avance pas",
+      "v1": {
+        "answer": "## Vous sentez un blocage dans votre association\n\nC'est une situation courante et justement identifiable. Pour vous aider efficacement, je dois d'abord **comprendre la nature du blocage** — car \"ne pas avancer\" peut recouvrir des réalités très différentes.\n\n## Quelques questions structurantes pour préciser\n\n- **Sur le plan stratégique** : L'association a-t-elle un projet clair et partagé ? Les membres savent-ils où elle va ?\n- **Sur le plan opérationnel** : Les projets / activités sont-ils en cours mais lents, ou sont-ils au point mort ?\n- **Sur le plan humain** : Y a-t-il une démotivation, un désengagement, des tensions entre les acteurs ?\n- **Sur le plan financier** : Le manque de ressources est-il le frein principal ?\n- **Sur le plan gouvernance** : Les prises de décision sont-elles paralysées ? Le CA et le bureau fonctionnent-ils ?\n- **Sur le plan externe** : L'environnement a-t-il changé (baisse de subventions, changement de partenaires, etc.) ?\n\n## Pour avancer, nous vous proposons une **démarche diagnostique légère**\n\nUn diagnostic associatif complet aide à identifier les leviers d'action. Il comporte trois phases :\n\n| Phase | Contenu | Durée |\n|---|---|---|\n| **Comprendre** | Analyser les 7 composantes clés (environnement, gouvernance, culture, structure, interactions, services, espace public) | 1-2 semaines |\n| **Analyser** | SWOT interne/externe, identification des forces/faiblesses/opportunités/menaces | 1-2 semaines |\n| **Agir** | Plan d'action priorisé, avec responsables et calendrier | 1 semaine |\n\n## Quelques pistes immédiates\n\nSelon le type de blocage, des solutions rapides existent :\n\n- **Blocage décisionnel** → Clarifier la gouvernance (rôles CA/Bureau/AG), fluidifier les réunions\n- **Blocage humain** → Renforcer la cohésion, reconnaître les bénévoles, former le CA\n- **Blocage financier** → Diversifier les ressources (subventions, levée de fonds, mécénat)\n- **Blocage stratégique** → Revisiter la mission et la vision, adapter le projet aux besoins actuels\n- **Blocage structurel** → Adapter la structure (taille du CA, nombre de commissions, etc.) à la réalité\n\n---\n\n## Comment progresser ensemble ?\n\n**Pour aller plus loin, je vous propose de me dire :**\n\n1. **Quel type d'association** êtes-vous ? (secteur : social, culturel, éducatif, sport… | taille : nombre de bénévoles, de salariés)\n2. **Quel est le principal symptôme** du blocage ? (réunions qui n'aboutissent pas | projets abandonnés | bénévoles qui partent | conflits | manque de visibilité)\n3. **Avez-vous un diagnostic** précédent, ou c'est la première fois que vous soulevez la question ?\n\n---\n\n💡 *Pour un accompagnement personnalisé : contactez **votre syndicat employeur ELISFA et vos fédérations** (FCSF, ACEPP, FFEC…) ou une permanence Vie Associative de votre territoire (DLA, Guid'Asso).*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q48",
+          "module": "gouvernance",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "Je n'ai pas d'information fiable dans la base ELISFA pour répondre précisément à cette question. Pour un avis personnalisé, contactez le pôle juridique ELISFA (rdv-juriste@elisfa.fr) ou demandez un appel de 15 minutes via le formulaire.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q48",
+          "module": "gouvernance",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 9.42
+    },
+    {
+      "question_id": "Q49",
+      "module": "gouvernance",
+      "expected_type": "hors_sujet",
+      "question": "Quel est le score du dernier match de foot du PSG ?",
+      "v1": {
+        "answer": "## Hors de mon périmètre\n\nJe suis l'Assistant Gouvernance & Bénévolat d'**ELISFA**, spécialisé dans :\n\n- **Gouvernance associative** (CA, bureau, AG, structures loi 1901)\n- **Gestion du bénévolat** (loi 2024, EVA, Certif'Asso, CEC…)\n- **Vie associative** (diagnostic, partenariats, tensions)\n- **Convention ALISFA** (IDCC 1261)\n\nLes **scores de football** ne relèvent pas de ces domaines. 😊\n\n## Comment puis-je vous aider ?\n\nVous travaillez dans une **association loi 1901** (centre social, crèche, club sportif, etc.) ? Je peux vous accompagner sur :\n\n- ✅ Structurer votre gouvernance\n- ✅ Recruter et fidéliser des bénévoles\n- ✅ Mettre en place une formation Certif'Asso\n- ✅ Résoudre des tensions interne\n- ✅ Réaliser un diagnostic SWOT\n- ✅ Comprendre vos obligations légales\n\n**Quelle est votre question associative ?**\n\n💡 *Pour un accompagnement personnalisé : contactez **votre syndicat employeur ELISFA et vos fédérations** (FCSF, ACEPP, FFEC…) ou une permanence Vie Associative de votre territoire (DLA, Guid'Asso).*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q49",
+          "module": "gouvernance",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## Synthèse\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question.\n\n---\n\n## Fondement\n\nLa question porte sur le résultat d'un match de football du PSG. Or, ELISFA est spécialisée dans le **pilotage et la gouvernance des associations adhérentes** : cadre juridique loi 1901, CCN ALISFA, instances (AG/CA/Bureau), bénévolat, financement public, RGPD, dissolution.\n\nLes articles contextuels disponibles ([gv-01], [gv-09], [gv-04], [gv-05]) couvrent exclusivement la gouvernance associative et n'ont aucun rapport avec l'actualité sportive.\n\n---\n\n## Pour un avis personnalisé\n\nContactez le **pôle juridique** d'ELISFA si votre question concerne la gouvernance d'une association adhérente.",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q49",
+          "module": "gouvernance",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 4.91
+    },
+    {
+      "question_id": "Q50",
+      "module": "gouvernance",
+      "expected_type": "hors_sujet",
+      "question": "Comment réparer un robinet qui fuit ?",
+      "v1": {
+        "answer": "## Hors de mon champ de compétences\n\nJe suis l'Assistant Gouvernance & Bénévolat d'**ELISFA**, expert dans la gestion des associations loi 1901 et la branche ALISFA.\n\nVotre question porte sur **la maintenance technique d'un bâtiment**, qui n'entre pas dans mes domaines :\n- Gouvernance associative (CA, bureau, AG)\n- Bénévolat et gestion des ressources humaines\n- Vie associative (loi 1901, loi ESS, partenariats)\n- Résolution de tensions internes\n\n---\n\n## Comment vous aider autrement ?\n\nSi vous posez cette question **dans un contexte associatif**, je peux vous assister :\n\n- **Gestion des locaux** : responsabilités du bureau vs. équipe salariée dans un contrat de maintenance ?\n- **Budget** : comment budgétiser les frais de maintenance et dépannage ?\n- **Assurance** : couverture des sinistres dans les statuts et responsabilité civile ?\n- **Recours bénévoles** : impliquer des bénévoles aux compétences techniques (droits, sécurité) ?\n\n---\n\n💡 *Pour un accompagnement personnalisé sur la gouvernance ou le bénévolat : contactez **votre syndicat employeur ELISFA et vos fédérations** (FCSF, ACEPP, FFEC…) ou une permanence Vie Associative de votre territoire (DLA, Guid'Asso).*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q50",
+          "module": "gouvernance",
+          "category": "false_response",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Aurait dû refuser mais a tenté de répondre."
+        }
+      },
+      "v2": {
+        "answer": "## ⚠️ Hors de mon champ de compétences\n\nJe n'ai pas d'information fiable dans la base ELISFA pour répondre à cette question.\n\n**Votre question** porte sur la **réparation d'un robinet**, qui relève de la **plomberie/maintenance technique** — un sujet **totalement en dehors** du pilotage et de la gouvernance associative.\n\n---\n\n## Pour vous aider correctement :\n\nSi votre robinet qui fuit est situé dans **vos locaux associatifs**, je peux vous orienter sur :\n- Les **procédures de maintenance** à mettre en place dans vos règles de fonctionnement\n- La **responsabilité civile** de l'association en cas dégât des eaux\n- Le **budget** à prévoir pour la maintenance immobilière\n\n**Mais** pour le dépannage technique lui-même, adressez-vous à :\n- Un **plombier professionnel**\n- Votre **propriétaire** (si locataire)\n- Votre **assurance multirisque associative**\n\n---\n\n*Avez-vous une question de gouvernance ou de gestion associative ? Je suis là pour ça ! 😊*",
+        "status": "ok",
+        "eval": {
+          "question_id": "Q50",
+          "module": "gouvernance",
+          "category": "hors_corpus_ok",
+          "keywords_matched": [],
+          "keywords_missing": [],
+          "forbidden_found": [],
+          "notes": "Refus correct sur question hors_corpus."
+        }
+      },
+      "elapsed_seconds": 5.33
+    }
+  ]
+}
