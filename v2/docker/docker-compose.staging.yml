@@ -1,0 +1,74 @@
+# Sprint 4.4 — docker-compose pour staging VPS.
+#
+# Diff vs docker-compose.yml (dev) :
+#   - port 8000 NON exposé publiquement (bind 127.0.0.1 uniquement → nginx reverse proxy)
+#   - restart: always (vs unless-stopped)
+#   - logging driver json-file avec rotation (évite le disque saturé)
+#   - volume nommé pour les logs (persistence des feedbacks entre redéploiements)
+#   - lecture .env.staging (pas .env)
+#
+# Usage sur le VPS :
+#   cd /opt/chatbot_elisfa/v2
+#   cp .env.staging.example .env.staging  # éditer ANTHROPIC_API_KEY
+#   docker compose -f docker/docker-compose.staging.yml --env-file .env.staging up -d --build
+#   docker compose -f docker/docker-compose.staging.yml logs -f
+#
+# Le service écoute sur 127.0.0.1:8000 — nginx (cf. v2/docker/nginx/v2-staging.conf)
+# le proxifie en HTTPS sur le sous-domaine staging.
+
+services:
+  chatbot-v2-staging:
+    build:
+      context: ../..
+      dockerfile: v2/docker/Dockerfile
+    image: chatbot-elisfa-v2:staging
+    container_name: chatbot-elisfa-v2-staging
+    restart: always
+
+    # Bind 127.0.0.1 → seul nginx local peut accéder, jamais d'exposition directe
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-claude-haiku-4-5-20251001}
+      CLAUDE_MAX_TOKENS: ${CLAUDE_MAX_TOKENS:-2000}
+      CLAUDE_TIMEOUT_SECONDS: ${CLAUDE_TIMEOUT_SECONDS:-30}
+      ENVIRONMENT: ${ENVIRONMENT:-staging}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      RAG_TOP_K: ${RAG_TOP_K:-5}
+      RAG_SCORE_MIN_HORS_CORPUS: ${RAG_SCORE_MIN_HORS_CORPUS:-1.5}
+      KB_DATA_DIR: ${KB_DATA_DIR:-/app/data}
+      ELISFA_FEEDBACK_LOG: ${ELISFA_FEEDBACK_LOG:-/app/logs/feedback.jsonl}
+      METRICS_ENABLED: ${METRICS_ENABLED:-true}
+
+    volumes:
+      # KB en read-only (le container ne doit pas modifier le contenu source)
+      - ../../data:/app/data:ro
+      # Logs persistants pour feedback.jsonl + events.jsonl entre redéploiements
+      - elisfa-v2-logs:/app/logs
+
+    # Rotation des logs Docker (évite la saturation disque sur petit VPS)
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+    # Healthcheck du Dockerfile suffit, mais on resserre les délais en staging
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 512M
+
+volumes:
+  elisfa-v2-logs:
+    name: elisfa-v2-logs
