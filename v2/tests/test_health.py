@@ -12,10 +12,16 @@ from fastapi.testclient import TestClient
 
 
 @pytest.fixture
-def client(monkeypatch) -> TestClient:
-    """App fraîche par test — settings clear pour éviter les effets de bord."""
+def client(monkeypatch):
+    """App fraîche par test — settings clear pour éviter les effets de bord.
+
+    On utilise `with TestClient(app)` pour DÉCLENCHER le lifespan (Sprint 3.1 :
+    KBStore est instancié via lifespan).
+    """
     monkeypatch.setenv("ENVIRONMENT", "development")
     monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key-not-real")
+    # data_dir absolu vers les KB V1 réelles (relatif depuis v2/)
+    monkeypatch.setenv("KB_DATA_DIR", "../data")
 
     # Reset le cache lru sur get_settings (sinon les monkeypatch ne prennent pas)
     from app import settings as settings_module
@@ -23,7 +29,8 @@ def client(monkeypatch) -> TestClient:
 
     from app.main import create_app
     app = create_app()
-    return TestClient(app)
+    with TestClient(app) as c:
+        yield c
 
 
 class TestRoot:

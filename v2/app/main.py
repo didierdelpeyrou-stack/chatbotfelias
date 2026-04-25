@@ -22,12 +22,14 @@ import logging
 import sys
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import __version__
 from app.api import health
+from app.kb.loader import KBStore
 from app.settings import get_settings
 
 
@@ -62,6 +64,18 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         __version__, settings.environment, settings.port,
     )
     log.info("Anthropic key configured: %s", bool(settings.anthropic_api_key))
+
+    # Sprint 3.1 — chargement des 4 KB + index TF-IDF
+    # Résolution path : settings.kb_data_dir est relatif au dossier v2/
+    data_dir = Path(__file__).resolve().parent.parent / settings.kb_data_dir.lstrip("./")
+    if not data_dir.exists():
+        # fallback sur le path tel quel (Docker monte /app/data en absolu)
+        data_dir = Path(settings.kb_data_dir)
+    store = KBStore(data_dir=data_dir)
+    summary = await store.load_all()
+    log.info("📚 KB store: %s", summary)
+    app.state.kb_store = store
+    # Sprint 2.4 — ClaudeClient sera injecté Sprint 3.2 (endpoint /api/ask)
 
     yield  # ← ici l'app tourne et sert les requêtes
 

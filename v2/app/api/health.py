@@ -65,8 +65,10 @@ async def readyz(request: Request) -> ReadinessResponse:
         "settings_loaded": True,  # Si on est ici, les settings sont OK
         "anthropic_key_configured": bool(settings.anthropic_api_key),
     }
-    # Sprint 3.1 : checks["kb_loaded"] = bool(request.app.state.kb_store)
-    # Sprint 2.4 : checks["claude_ready"] = bool(request.app.state.claude_client)
+    # Sprint 3.1 — KB store chargé et au moins 1 base disponible
+    kb_store = getattr(request.app.state, "kb_store", None)
+    checks["kb_loaded"] = bool(kb_store and kb_store.stats())
+    # Sprint 3.2 : checks["claude_ready"] = bool(request.app.state.claude_client)
 
     all_ok = all(checks.values())
     return ReadinessResponse(
