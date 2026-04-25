@@ -1906,8 +1906,13 @@ def build_context(search_results):
     return ctx
 
 # ── Collecte des liens et fiches depuis les résultats ──
+# Plafonds : limites cohérentes avec frontend (6 liens, 5 fiches max).
+# Réduction du bruit informationnel (cf. audit UX 2026-04-25 : 13 fiches sur "préavis licenciement").
+MAX_LIENS_PAR_REPONSE = 6
+MAX_FICHES_PAR_REPONSE = 5
+
 def collect_links_and_fiches(search_results):
-    """Extrait les liens et fiches pratiques des articles trouvés."""
+    """Extrait les liens et fiches pratiques des articles trouvés (priorisation par ordre RAG)."""
     liens = []
     fiches = []
     seen_urls = set()
@@ -1926,7 +1931,50 @@ def collect_links_and_fiches(search_results):
                 seen_fiches.add(fiche["fichier"])
                 fiches.append(fiche)
 
-    return liens, fiches
+    return liens[:MAX_LIENS_PAR_REPONSE], fiches[:MAX_FICHES_PAR_REPONSE]
+
+
+# ── Suggestions « Voir aussi » : titres d'articles 2..N retenus par le RAG ──
+def collect_related_suggestions(search_results, max_count=3):
+    """Renvoie une liste de suggestions formulées comme questions naturelles à partir
+    des articles retrouvés (hors top-1 déjà utilisé), pour relancer l'utilisateur."""
+    if not search_results or len(search_results) < 2:
+        return []
+    suggestions = []
+    seen = set()
+    for r in search_results[1:]:  # on saute le top-1, déjà couvert par la réponse
+        article = r.get("article", {})
+        # Schéma V1 : "question_type" est en réalité une question naturelle ("À qui s'applique...")
+        title = (article.get("question_type") or article.get("title") or article.get("titre") or "").strip()
+        if not title or title in seen:
+            continue
+        seen.add(title)
+        suggestions.append({"title": title, "question": title, "theme": r.get("theme_label", "")})
+        if len(suggestions) >= max_count:
+            break
+    return suggestions
+
+
+# ── Indicateur de confiance ──
+# Préfigure le mécanisme de seuil hors_corpus prévu en V2 (cf. audit RAG 2026-04-21).
+# Donne à l'utilisateur un signal clair sur la qualité du retrieval.
+SCORE_HIGH = 5.0    # ≥ 5.0 → confiance forte
+SCORE_MEDIUM = 1.5  # 1.5–5.0 → confiance moyenne ; < 1.5 → confiance faible (proche du seuil hors_corpus V2)
+
+def compute_confidence(search_results):
+    """Renvoie {score, label, message} basé sur le score TF-IDF du meilleur article retrouvé.
+
+    Labels : 'none' (aucun résultat), 'low', 'medium', 'high'.
+    Sera remplacé par un score normalisé par module en V2 (Sprint 2.2).
+    """
+    if not search_results:
+        return {"score": 0.0, "label": "none", "message": "Aucune source identifiée — réponse générale, à vérifier."}
+    best = float(search_results[0].get("score", 0.0))
+    if best >= SCORE_HIGH:
+        return {"score": best, "label": "high", "message": "Sources fiables et pertinentes."}
+    if best >= SCORE_MEDIUM:
+        return {"score": best, "label": "medium", "message": "Sources partiellement pertinentes — à recouper."}
+    return {"score": best, "label": "low", "message": "Sources peu pertinentes — consultez un professionnel pour confirmer."}
 
 # ══════════════════════════════════════════════
 #     Orchestrateur — Validation & config module
@@ -2717,6 +2765,8 @@ def ask():
             "niveau": niveau,
             "theme": theme,
             "sources_count": len(results),
+            "confidence": compute_confidence(results),
+            "related_suggestions": collect_related_suggestions(results),
             "mode": "local",
             "module": module,
             "function": function_id,
@@ -2834,6 +2884,8 @@ def ask():
             "niveau": niveau,
             "theme": theme,
             "sources_count": len(results),
+            "confidence": compute_confidence(results),
+            "related_suggestions": collect_related_suggestions(results),
             "mode": "ia",
             "model": CLAUDE_MODEL,
             "module": module,

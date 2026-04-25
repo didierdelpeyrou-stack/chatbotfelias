@@ -229,11 +229,49 @@ body.chrome-hidden .chrome-peek{opacity:.85;pointer-events:auto}
 .escalade-rouge .escalade-btn{background:var(--red-500);color:#fff}
 .escalade-btn:hover{transform:scale(1.05)}
 
-/* Feedback */
-.feedback-bar{display:flex;gap:8px;margin-top:10px;align-items:center}
-.feedback-btn{background:var(--grey-100);border:1px solid var(--grey-200);padding:5px 12px;border-radius:8px;font-size:12px;cursor:pointer;transition:all .2s}
-.feedback-btn:hover{background:var(--blue-50);border-color:var(--blue-500)}
-.feedback-btn.selected{background:var(--blue-100);border-color:var(--blue-500);color:var(--blue-600)}
+/* Feedback — visibilité renforcée pour collecte de données utilisateurs (préfigure ML reranker V2) */
+.feedback-bar{display:flex;gap:8px;margin-top:14px;padding:10px 14px;background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid var(--blue-200,#bfdbfe);border-radius:10px;align-items:center;flex-wrap:wrap}
+.feedback-bar > span{font-size:13px;font-weight:600;color:var(--blue-900,#1e3a5f)}
+.feedback-btn{background:#fff;border:1px solid var(--blue-200,#bfdbfe);padding:6px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer;transition:all .2s;color:var(--blue-700,#1d4ed8)}
+.feedback-btn:hover{background:var(--blue-100);border-color:var(--blue-500);transform:translateY(-1px)}
+.feedback-btn.selected{background:var(--blue-600);border-color:var(--blue-600);color:#fff}
+
+/* Mode debug — panneau latéral fixe (visible avec ?debug=1) */
+.debug-panel{position:fixed;top:0;right:0;bottom:0;width:340px;background:#0f172a;color:#e2e8f0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;line-height:1.5;padding:14px;z-index:9000;overflow-y:auto;box-shadow:-4px 0 20px rgba(0,0,0,.3);display:none}
+.debug-panel.open{display:block}
+.debug-panel h3{font-size:12px;color:#7dd3fc;margin:0 0 8px;letter-spacing:.5px;text-transform:uppercase;border-bottom:1px solid #334155;padding-bottom:6px}
+.debug-panel .dbg-row{display:flex;justify-content:space-between;gap:8px;margin-bottom:4px;padding:3px 0;border-bottom:1px dashed #334155}
+.debug-panel .dbg-key{color:#94a3b8}
+.debug-panel .dbg-val{color:#fbbf24;font-weight:600;text-align:right;word-break:break-all}
+.debug-panel .dbg-section{margin-top:14px}
+.debug-panel .dbg-close{position:absolute;top:10px;right:10px;background:transparent;border:1px solid #475569;color:#cbd5e1;width:22px;height:22px;border-radius:50%;cursor:pointer;font-size:13px;line-height:1;display:flex;align-items:center;justify-content:center}
+
+/* "Voir aussi" — suggestions de questions liées (top-2..top-N) */
+.related-section{margin-top:10px;padding:10px 14px;background:#fafafb;border:1px solid var(--grey-200);border-radius:10px}
+.related-section .related-title{font-size:11px;font-weight:700;color:var(--grey-600);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.related-section .related-list{display:flex;flex-wrap:wrap;gap:6px}
+.related-section .related-chip{background:#fff;border:1px solid var(--grey-300,#d1d5db);color:var(--grey-700,#374151);padding:5px 11px;border-radius:14px;font-size:12px;cursor:pointer;transition:all .15s;font-family:inherit}
+.related-section .related-chip:hover{background:var(--blue-50);border-color:var(--blue-400,#60a5fa);color:var(--blue-700,#1d4ed8)}
+
+/* Message actions — barre boutons (copier, etc.) sous bulle bot */
+.msg-actions{display:flex;gap:6px;margin-top:6px;align-items:center;opacity:0;transition:opacity .15s}
+.message:hover .msg-actions, .msg-actions:focus-within{opacity:1}
+.msg-action-btn{background:transparent;border:1px solid var(--grey-200);color:var(--grey-600);padding:3px 9px;border-radius:6px;font-size:11px;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:4px}
+.msg-action-btn:hover{background:var(--blue-50);border-color:var(--blue-300,#93c5fd);color:var(--blue-700,#1d4ed8)}
+.msg-action-btn.copied{background:#d1fae5;border-color:#6ee7b7;color:#065f46}
+
+/* Confidence indicator — badge sous la réponse */
+.confidence-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:16px;font-size:11px;font-weight:600;margin-top:8px;letter-spacing:.2px;text-transform:uppercase;cursor:help}
+.confidence-badge .conf-score{font-size:10px;font-weight:500;opacity:.7;text-transform:none;letter-spacing:0;margin-left:2px}
+.confidence-badge.high{background:#d1fae5;color:#065f46;border:1px solid #6ee7b7}
+.confidence-badge.medium{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}
+.confidence-badge.low{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+.confidence-badge.none{background:#f3f4f6;color:#4b5563;border:1px solid #d1d5db}
+.confidence-badge .conf-dot{width:8px;height:8px;border-radius:50%}
+.confidence-badge.high .conf-dot{background:#059669}
+.confidence-badge.medium .conf-dot{background:#d97706}
+.confidence-badge.low .conf-dot{background:#dc2626}
+.confidence-badge.none .conf-dot{background:#6b7280}
 
 /* Typing */
 .typing-indicator{display:flex;gap:5px;padding:14px 18px;background:#fff;border:1px solid var(--grey-200);border-radius:16px 16px 16px 4px;box-shadow:0 1px 3px rgba(0,0,0,.06);width:fit-content}
@@ -363,11 +401,24 @@ textarea.input-field{display:block}
    RESPONSIVE — Desktop large (1200px+)
    ══════════════════════════════════════ */
 @media(min-width:1200px){
-  .chat-area{padding:28px 10%}
-  .message{max-width:72%}
-  .welcome-card{max-width:640px}
-  .input-area{padding:16px 10%}
-  .banner{padding:10px 10%}
+  .chat-area{padding:28px 5%}
+  .message{max-width:75%}
+  .welcome-card{max-width:760px}
+  .input-area{padding:16px 5%}
+  .banner{padding:9px 5%}
+  .banner.collapsed{padding:3px 5%}
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — Très grand écran (1600px+) — éviter trop de blanc
+   ══════════════════════════════════════ */
+@media(min-width:1600px){
+  .chat-area{padding:32px 8%;max-width:1600px;margin:0 auto;width:100%}
+  .message{max-width:78%}
+  .welcome-card{max-width:880px}
+  .input-area{padding:18px 8%;max-width:1600px;margin:0 auto;width:100%;box-sizing:border-box}
+  .banner{padding:9px 8%}
+  .banner.collapsed{padding:3px 8%}
 }
 
 /* ══════════════════════════════════════
@@ -1400,6 +1451,10 @@ textarea.input-field{display:block}
       <span class="pc-icon" id="profileBadgeIcon"></span>
       <span class="pc-name" id="profileBadgeName"></span>
     </div>
+    <button type="button" class="pdf-lib-btn" onclick="clearConversation()" title="Effacer la conversation et recommencer" style="margin-right:6px">
+      <span aria-hidden="true">&#128465;</span>
+      <span class="pdf-lib-btn-label">Effacer</span>
+    </button>
     <button type="button" class="pdf-lib-btn" onclick="openPdfLibrary()" title="Bibliothèque PDF ALISFA">
       <span aria-hidden="true">&#128218;</span>
       <span class="pdf-lib-btn-label">Bibliothèque PDF</span>
@@ -1461,22 +1516,22 @@ textarea.input-field{display:block}
   </div>
 </div>
 
-<div class="banner" id="bannerJuridique" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerJuridique')">
+<div class="banner collapsed" id="bannerJuridique" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerJuridique')">
   <span style="font-size:16px">&#9888;</span>
   <span class="banner-text">Cet outil fournit une <strong>information juridique g&eacute;n&eacute;rale</strong>. Il ne constitue pas une consultation individualis&eacute;e. En cas de doute, contactez le p&ocirc;le juridique ELISFA.</span>
   <button class="banner-close" title="R&eacute;duire" onclick="event.stopPropagation();toggleBanner('bannerJuridique')">&times;</button>
 </div>
-<div class="banner" id="bannerRH" style="display:none;background:linear-gradient(135deg,#e8edcf,#d4dba8);border-bottom:1px solid #9dac3b" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerRH')">
+<div class="banner collapsed" id="bannerRH" style="display:none;background:linear-gradient(135deg,#e8edcf,#d4dba8);border-bottom:1px solid #9dac3b" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerRH')">
   <span style="font-size:16px">&#128101;</span>
   <span class="banner-text">Assistant <strong>Management et RH</strong> &mdash; Diagnostic interactif et renvois vers <strong>ELISFA</strong> et <a href="javascript:void(0)" onclick="event.stopPropagation();openFederationsModal()" style="color:#3d4a1a;font-weight:700;text-decoration:underline;cursor:pointer">votre f&eacute;d&eacute;ration</a>. <strong>100 fiches &bull; 13 modules &bull; 15+ cadres.</strong></span>
   <button class="banner-close" title="R&eacute;duire" onclick="event.stopPropagation();toggleBanner('bannerRH')">&times;</button>
 </div>
-<div class="banner" id="bannerFormation" style="display:none;background:linear-gradient(135deg,#fef9c3,#fef08a);border-bottom:1px solid #facc15" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerFormation')">
+<div class="banner collapsed" id="bannerFormation" style="display:none;background:linear-gradient(135deg,#fef9c3,#fef08a);border-bottom:1px solid #facc15" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerFormation')">
   <span style="font-size:16px">&#127891;</span>
   <span class="banner-text">Cet outil vous informe sur vos <strong>obligations et opportunit&eacute;s en formation professionnelle</strong> (CCN ALISFA / Uniformation). <a href="javascript:void(0)" onclick="event.stopPropagation();openActeursFormationModal()" style="color:#92400e;font-weight:700;text-decoration:underline;cursor:pointer">Contactez vos acteurs de la formation</a></span>
   <button class="banner-close" title="R&eacute;duire" onclick="event.stopPropagation();toggleBanner('bannerFormation')">&times;</button>
 </div>
-<div class="banner" id="bannerGouvernance" style="display:none;background:linear-gradient(135deg,#dbeafe,#bfdbfe);border-bottom:1px solid #3b82f6" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerGouvernance')">
+<div class="banner collapsed" id="bannerGouvernance" style="display:none;background:linear-gradient(135deg,#dbeafe,#bfdbfe);border-bottom:1px solid #3b82f6" onclick="if(this.classList.contains('collapsed'))toggleBanner('bannerGouvernance')">
   <span style="font-size:16px">&#127970;</span>
   <span class="banner-text">Assistant <strong>Gouvernance &amp; B&eacute;n&eacute;volat</strong> &mdash; Loi 1901, CA, AG, engagement b&eacute;n&eacute;vole, diagnostic associatif. <a href="javascript:void(0)" onclick="event.stopPropagation();openGouvernanceContactModal()" style="color:#1e3a5f;font-weight:700;text-decoration:underline;cursor:pointer">Trouver un accompagnement</a></span>
   <button class="banner-close" title="R&eacute;duire" onclick="event.stopPropagation();toggleBanner('bannerGouvernance')">&times;</button>
@@ -1486,7 +1541,7 @@ textarea.input-field{display:block}
   <!-- Welcome Juridique -->
   <div class="welcome-card" id="welcomeCardJuridique">
     <div class="welcome-icon">&#9878;</div>
-    <h2>Bienvenue sur l'assistant ELISFA</h2>
+    <h2><span class="welcome-greeting"></span>Bienvenue sur l'assistant ELISFA</h2>
     <p>Posez vos questions juridiques. L'assistant vous fournit des r&eacute;ponses sourc&eacute;es avec liens vers les textes officiels.</p>
     <div class="features-row">
       <div class="feature-tag"><span>&#128218;</span> Base documentaire compl&egrave;te</div>
@@ -1504,7 +1559,7 @@ textarea.input-field{display:block}
   <!-- Welcome Formation -->
   <div class="welcome-card" id="welcomeCardFormation" style="display:none">
     <div class="welcome-icon">&#127891;</div>
-    <h2>Bienvenue sur l'assistant ELISFA Formation</h2>
+    <h2><span class="welcome-greeting"></span>Bienvenue sur l'assistant ELISFA Formation</h2>
     <p>Posez vos questions sur la formation professionnelle dans la branche ALISFA : obligations, dispositifs, financements Uniformation et droits des salari&eacute;s.</p>
     <div class="features-row">
       <div class="feature-tag"><span>&#128218;</span> Base formation compl&egrave;te</div>
@@ -1543,7 +1598,7 @@ textarea.input-field{display:block}
   <!-- Welcome Management RH -->
   <div class="welcome-card" id="welcomeCardRH" style="display:none">
     <div class="welcome-icon">&#128101;</div>
-    <h2>Assistant Management &amp; RH ELISFA</h2>
+    <h2><span class="welcome-greeting"></span>Assistant Management &amp; RH ELISFA</h2>
     <p>Diagnostic interactif de vos probl&eacute;matiques RH. L'assistant vous guide par questions ferm&eacute;es, identifie les causes et vous propose un plan d'action structur&eacute;.</p>
     <div class="features-row">
       <div class="feature-tag"><span>&#128203;</span> 100 fiches pratiques</div>
@@ -1569,7 +1624,7 @@ textarea.input-field{display:block}
   <!-- Welcome Gouvernance -->
   <div class="welcome-card" id="welcomeCardGouvernance" style="display:none">
     <div class="welcome-icon">&#127970;</div>
-    <h2>Assistant Gouvernance &amp; B&eacute;n&eacute;volat ELISFA</h2>
+    <h2><span class="welcome-greeting"></span>Assistant Gouvernance &amp; B&eacute;n&eacute;volat ELISFA</h2>
     <p>Gouvernance associative, engagement b&eacute;n&eacute;vole, loi 1901, fonctionnement du CA et de l'AG, diagnostic associatif. L'assistant vous guide avec des r&eacute;f&eacute;rences juridiques et th&eacute;oriques.</p>
     <div class="features-row">
       <div class="feature-tag"><span>&#127963;</span> Loi 1901 &amp; gouvernance</div>
@@ -1675,8 +1730,16 @@ textarea.input-field{display:block}
   <span id="footerFnLabel">ELISFA</span> &bull; R&eacute;ponses informatives, non contractuelles &bull;
   <a href="javascript:void(0)" onclick="openContactChoiceModal()" style="color:var(--blue-600);text-decoration:underline;font-weight:600">Contacter un juriste</a>
   &bull; <a href="javascript:void(0)" onclick="openEmLegalModal()" style="color:var(--text-muted);text-decoration:underline;font-weight:600">Mentions l&eacute;gales</a>
+  &bull; <span id="sessionStats" title="Statistiques de votre session courante">0 question</span>
   &bull; Propuls&eacute; par Claude IA
 </div>
+
+<!-- Mode debug : panneau latéral activable via ?debug=1 (utilisé pour calibrer les seuils RAG en pré-V2) -->
+<aside class="debug-panel" id="debugPanel" aria-hidden="true">
+  <button class="dbg-close" onclick="document.getElementById('debugPanel').classList.remove('open')" title="Fermer">&times;</button>
+  <h3>RAG Debug — derni&egrave;re requ&ecirc;te</h3>
+  <div id="debugContent"><em style="color:#64748b">Posez une question pour voir les m&eacute;tadonn&eacute;es.</em></div>
+</aside>
 
 <!-- ═══ Modal RDV ═══ -->
 <div class="modal-overlay" id="rdvModal">
@@ -2631,11 +2694,119 @@ function selectProfile(profileId) {
   if (wc) wc.style.display = 'block';
   // Filtrer les modules selon profil sélectionné
   applyProfileModuleFilter();
+  applyWelcomeGreeting();
 }
 
 function changeProfile() {
   document.getElementById('profileOverlay').style.display = 'flex';
 }
+
+// ── Salutation personnalisée dans les welcome cards selon profil ──
+function applyWelcomeGreeting() {
+  const greetings = document.querySelectorAll('.welcome-greeting');
+  if (!greetings.length) return;
+  const p = (currentProfile && USER_PROFILES[currentProfile]) ? USER_PROFILES[currentProfile] : null;
+  const text = p ? `Bonjour ${p.name} — ` : '';
+  greetings.forEach(g => { g.textContent = text; });
+}
+
+// ── Effacer la conversation et recommencer (reset propre) ──
+function clearConversation() {
+  if (typeof conversationHistory !== 'undefined') conversationHistory = [];
+  const chat = document.getElementById('chatArea');
+  if (chat) chat.querySelectorAll('.message').forEach(m => m.remove());
+  // Re-afficher la welcome card du module actif
+  const wcId = { juridique: 'welcomeCardJuridique', formation: 'welcomeCardFormation', rh: 'welcomeCardRH', gouvernance: 'welcomeCardGouvernance' };
+  const wc = document.getElementById(wcId[activeModule] || 'welcomeCardJuridique');
+  if (wc) wc.style.display = 'block';
+  // Reset variables d'état si présentes
+  if (typeof lastNiveau !== 'undefined') lastNiveau = null;
+  if (typeof lastTheme !== 'undefined') lastTheme = null;
+  if (typeof lastChatbotAnswer !== 'undefined') lastChatbotAnswer = '';
+  resetSessionStats();
+  showToast('Conversation effacée — vous pouvez recommencer', 'info', 2200);
+}
+
+// ── Statistiques de session (compteur + temps moyen pour transparence UX) ──
+let _sessionStats = { count: 0, totalTime: 0, errors: 0 };
+function resetSessionStats() {
+  _sessionStats = { count: 0, totalTime: 0, errors: 0 };
+  renderSessionStats();
+}
+function recordSessionStat(elapsedSeconds, ok) {
+  _sessionStats.count += 1;
+  _sessionStats.totalTime += elapsedSeconds;
+  if (!ok) _sessionStats.errors += 1;
+  renderSessionStats();
+}
+function renderSessionStats() {
+  const el = document.getElementById('sessionStats');
+  if (!el) return;
+  const n = _sessionStats.count;
+  if (n === 0) { el.textContent = '0 question'; return; }
+  const avg = (_sessionStats.totalTime / n).toFixed(1);
+  el.textContent = `${n} question${n > 1 ? 's' : ''} • ${avg}s en moyenne`;
+}
+
+// ── Mode debug ?debug=1 — panneau latéral RAG, score, theme, top-5 articles ──
+const DEBUG_MODE = new URLSearchParams(window.location.search).get('debug') === '1';
+function updateDebugPanel(data, elapsedSeconds) {
+  if (!DEBUG_MODE) return;
+  const panel = document.getElementById('debugPanel');
+  const content = document.getElementById('debugContent');
+  if (!panel || !content) return;
+  panel.classList.add('open');
+  const rows = [
+    ['Module', data.module || '—'],
+    ['Theme RAG', data.theme || '—'],
+    ['Sources count', String(data.sources_count ?? 0)],
+    ['Confidence label', (data.confidence && data.confidence.label) || '—'],
+    ['Confidence score', (data.confidence && typeof data.confidence.score === 'number') ? data.confidence.score.toFixed(3) : '—'],
+    ['Niveau', data.niveau || '—'],
+    ['Mode', data.mode || '—'],
+    ['Modèle', data.model || '—'],
+    ['Function', data.function || '—'],
+    ['Latence (s)', typeof elapsedSeconds === 'number' ? elapsedSeconds.toFixed(2) : '—'],
+    ['Liens', String((data.liens || []).length)],
+    ['Fiches', String((data.fiches || []).length)],
+    ['Related (voir aussi)', String((data.related_suggestions || []).length)],
+  ];
+  let html = rows.map(([k, v]) => `<div class="dbg-row"><span class="dbg-key">${k}</span><span class="dbg-val">${v}</span></div>`).join('');
+  if (data.related_suggestions && data.related_suggestions.length) {
+    html += '<div class="dbg-section"><h3>Top suggestions liées</h3>';
+    html += data.related_suggestions.map(s => `<div style="padding:4px 0;border-bottom:1px dashed #334155;color:#cbd5e1">• ${escapeHtml(s.title || '')}</div>`).join('');
+    html += '</div>';
+  }
+  if (data.personalization) {
+    html += '<div class="dbg-section"><h3>Personalization</h3><pre style="white-space:pre-wrap;color:#cbd5e1;font-size:10px;margin:0">' + escapeHtml(JSON.stringify(data.personalization, null, 2)) + '</pre></div>';
+  }
+  content.innerHTML = html;
+}
+
+// ── Raccourcis clavier — Cmd/Ctrl+K (focus input), Cmd/Ctrl+L (clear), Esc (close modales) ──
+document.addEventListener('keydown', function(e) {
+  const isMod = e.metaKey || e.ctrlKey;
+  // Cmd/Ctrl+K → focus input
+  if (isMod && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    const input = document.getElementById('inputField');
+    if (input) { input.focus(); input.select?.(); }
+    return;
+  }
+  // Cmd/Ctrl+L → clear conversation
+  if (isMod && e.key.toLowerCase() === 'l') {
+    e.preventDefault();
+    if (typeof clearConversation === 'function') clearConversation();
+    return;
+  }
+  // Esc → fermer modales ouvertes
+  if (e.key === 'Escape') {
+    const openModals = document.querySelectorAll('.modal-overlay[style*="display: flex"], .modal-overlay.open');
+    if (openModals.length > 0) {
+      openModals.forEach(m => { m.style.display = 'none'; m.classList.remove('open'); });
+    }
+  }
+});
 
 function initProfile() {
   const saved = localStorage.getItem('elisfa_profile');
@@ -2646,6 +2817,7 @@ function initProfile() {
     document.getElementById('profileBadgeName').textContent = p.name;
     document.getElementById('profileBadge').classList.add('active');
     document.getElementById('profileOverlay').style.display = 'none';
+    applyWelcomeGreeting();
   }
 }
 // Init profile on load
@@ -4861,6 +5033,77 @@ function addBadge(parentDiv, niveau) {
   parentDiv.querySelector('.msg-bubble').appendChild(badge);
 }
 
+// \u2500\u2500 Indicateur de confiance \u2014 pr\u00e9figure le seuil hors_corpus V2 \u2500\u2500
+// Affiche un badge sous la bulle de r\u00e9ponse selon le score RAG du best match.
+// Le score brut est visible dans le badge (transparence) et le tooltip donne le d\u00e9tail.
+function addConfidenceBadge(parentDiv, confidence) {
+  if (!confidence || !confidence.label) return;
+  const labels = {
+    high: 'Confiance forte',
+    medium: 'Confiance moyenne',
+    low: 'Confiance faible',
+    none: 'Hors corpus'
+  };
+  const label = labels[confidence.label] || confidence.label;
+  const message = confidence.message || '';
+  const score = (typeof confidence.score === 'number') ? confidence.score : null;
+  const scoreFmt = score !== null ? score.toFixed(1) : '\u2014';
+  const badge = document.createElement('div');
+  badge.className = `confidence-badge ${confidence.label}`;
+  badge.title = message + (score !== null ? ` (score RAG : ${score.toFixed(2)})` : '');
+  badge.innerHTML = `<span class="conf-dot"></span><span>${label}</span><span class="conf-score">\u00b7 ${scoreFmt}</span>`;
+  const bubble = parentDiv.querySelector('.msg-bubble');
+  if (bubble) bubble.appendChild(badge);
+}
+
+// \u2500\u2500 Suggestions \u00ab Voir aussi \u00bb : 3 questions li\u00e9es issues du RAG (top-2..top-N) \u2500\u2500
+function addRelatedSuggestions(parentDiv, suggestions) {
+  if (!suggestions || !suggestions.length) return;
+  const wrapper = document.createElement('div');
+  wrapper.className = 'related-section';
+  const title = document.createElement('div');
+  title.className = 'related-title';
+  title.innerHTML = '<span aria-hidden="true">&#128270;</span> Voir aussi';
+  wrapper.appendChild(title);
+  const list = document.createElement('div');
+  list.className = 'related-list';
+  suggestions.forEach(s => {
+    const chip = document.createElement('button');
+    chip.type = 'button';
+    chip.className = 'related-chip';
+    chip.textContent = s.title || s.question || '';
+    chip.title = (s.theme || '').slice(0, 120);
+    chip.addEventListener('click', () => { if (typeof ask === 'function') ask(chip.textContent); });
+    list.appendChild(chip);
+  });
+  wrapper.appendChild(list);
+  parentDiv.appendChild(wrapper);
+}
+
+// \u2500\u2500 Toolbar d'actions (copier, etc.) sous bulle bot \u2500\u2500
+function addMessageActions(parentDiv, rawText) {
+  const bar = document.createElement('div');
+  bar.className = 'msg-actions';
+  bar.innerHTML = `<button type="button" class="msg-action-btn" onclick="copyMessage(this)" title="Copier la r\u00e9ponse"><span aria-hidden="true">&#128203;</span> Copier</button>`;
+  // Stocker le texte brut (markdown source) pour copier-coller propre dans email/doc
+  parentDiv.dataset.rawText = rawText || '';
+  parentDiv.appendChild(bar);
+}
+
+async function copyMessage(btn) {
+  const msg = btn.closest('.message');
+  const text = (msg && msg.dataset.rawText) || (msg && msg.querySelector('.msg-bubble')?.innerText) || '';
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.classList.add('copied');
+    const old = btn.innerHTML;
+    btn.innerHTML = '<span aria-hidden="true">&#10003;</span> Copi\u00e9';
+    setTimeout(() => { btn.classList.remove('copied'); btn.innerHTML = old; }, 1800);
+  } catch (e) {
+    showToast('Impossible de copier (clipboard non autoris\u00e9)', 'error', 2500);
+  }
+}
+
 // ── Personnalisation : module suggéré + urgence/RDV (1 fois par session) ──
 window.__rdvProposedInSession = window.__rdvProposedInSession || false;
 
@@ -5330,11 +5573,16 @@ async function sendMsg() {
       body.document = docPayload;
       body.document_name = docNamePayload;
     }
+    const _t0 = performance.now();
     const res = await fetch('/api/ask', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body)
     });
+    const _elapsed = (performance.now() - _t0) / 1000;
+    if (typeof recordSessionStat === 'function') recordSessionStat(_elapsed, res.ok);
+    // Debug panel : alimenté avec data dès qu'on aura parsé la réponse
+    window._lastElapsed = _elapsed;
     removeTyping();
     if (!res.ok) {
       const errData = await res.json().catch(() => null);
@@ -5342,6 +5590,7 @@ async function sendMsg() {
       busy = false; sendBtn.disabled = false; sendBtn.classList.remove('loading'); inputField.focus(); return;
     }
     const data = await res.json();
+    if (typeof updateDebugPanel === 'function') updateDebugPanel(data, window._lastElapsed);
 
     if (data.error) {
       addMsg('Une erreur est survenue : ' + data.error, false);
@@ -5361,6 +5610,9 @@ async function sendMsg() {
 
       if (isWizardAnswer) {
         const msgDiv = addMsg(data.answer, false);
+        addConfidenceBadge(msgDiv, data.confidence);
+        addRelatedSuggestions(msgDiv, data.related_suggestions);
+        addMessageActions(msgDiv, data.answer);
         addFeedback(msgDiv, data, apiText);
         showRHChoices(false);
       } else if (data.module === 'gouvernance') {
@@ -5371,7 +5623,10 @@ async function sendMsg() {
         gouvBadge.style.cssText = 'background:linear-gradient(135deg,#1e3a5f,#2563eb);color:#fff;display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:20px;font-size:11px;margin-top:6px';
         gouvBadge.innerHTML = '&#127970; Gouvernance & B\u00e9n\u00e9volat';
         msgDiv.querySelector('.msg-bubble')?.after(gouvBadge);
+        addConfidenceBadge(msgDiv, data.confidence);
         applyPersonalization(msgDiv, data);
+        addRelatedSuggestions(msgDiv, data.related_suggestions);
+        addMessageActions(msgDiv, data.answer);
         addFeedback(msgDiv, data, apiText);
       } else if (data.module === 'rh') {
         // Module Management RH — affichage spécifique
@@ -5383,11 +5638,14 @@ async function sendMsg() {
         rhBadge.style.cssText = 'background:linear-gradient(135deg,#6b7a2e,#8B9A2B);color:#fff;display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:20px;font-size:11px;margin-top:6px';
         rhBadge.innerHTML = '&#128101; Management RH';
         msgDiv.querySelector('.msg-bubble')?.after(rhBadge);
+        addConfidenceBadge(msgDiv, data.confidence);
         // Action buttons ({{JURIDIQUE}}, {{RDV}}, etc.)
         addRHActions(msgDiv, data.answer);
         // Theoretical references [Author, concept]
         addRHRefs(msgDiv, data.answer);
         applyPersonalization(msgDiv, data);
+        addRelatedSuggestions(msgDiv, data.related_suggestions);
+        addMessageActions(msgDiv, data.answer);
         addFeedback(msgDiv, data, apiText);
         // Show Yes/No buttons ONLY when the assistant asks a closed question
         if (!isRHDiagnostic(data.answer) && isRHClosedQuestion(data.answer)) {
@@ -5399,16 +5657,20 @@ async function sendMsg() {
         const msgDiv = addMsg(data.answer, false);
         if (data.module === 'formation') {
           addFormationBadge(msgDiv);
+          addConfidenceBadge(msgDiv, data.confidence);
           addLiens(msgDiv, data.liens);
           addFiches(msgDiv, data.fiches);
           addFormationLevelBanner(msgDiv, data.formation_levels);
         } else {
           addBadge(msgDiv, data.niveau);
+          addConfidenceBadge(msgDiv, data.confidence);
           addLiens(msgDiv, data.liens);
           addFiches(msgDiv, data.fiches);
           addEscaladeBanner(msgDiv, data.niveau, data.theme);
         }
         applyPersonalization(msgDiv, data);
+        addRelatedSuggestions(msgDiv, data.related_suggestions);
+        addMessageActions(msgDiv, data.answer);
         addFeedback(msgDiv, data, apiText);
       }
 
