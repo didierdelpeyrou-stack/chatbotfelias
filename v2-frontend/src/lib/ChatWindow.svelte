@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { chat, addMessage, updateMessage, newId, dispatcher, clearPending } from './store.svelte';
+  import { chat, addMessage, updateMessage, newId, dispatcher, clearPending, currentMessages } from './store.svelte';
   import { askStream, askOnce } from './api';
   import { MODULES } from './types';
   import { SUGGESTIONS } from './suggestions';
@@ -10,9 +10,12 @@
   let scrollContainer: HTMLDivElement | undefined = $state();
   let lastQuestion = $state('');
 
-  // Auto-scroll en bas à chaque nouveau message ou token
+  // Sprint 4.6 F1.7 — messages réactifs du module courant
+  let messages = $derived(currentMessages());
+
+  // Auto-scroll en bas à chaque nouveau message, token, ou changement de module
   $effect(() => {
-    chat.messages; // dépendance
+    messages; // dépendance
     queueMicrotask(() => {
       if (scrollContainer) {
         scrollContainer.scrollTop = scrollContainer.scrollHeight;
@@ -84,7 +87,7 @@
         });
 
         // Sécurité : le serveur n'a pas envoyé 'done' explicitement
-        const last = chat.messages.find((m) => m.id === assistantId);
+        const last = currentMessages().find((m) => m.id === assistantId);
         if (last?.pending) {
           updateMessage(assistantId, {
             pending: false,
@@ -120,7 +123,7 @@
   // Question liée à chaque réponse assistant pour le feedback (parcours pairé)
   function questionFor(assistantIdx: number): string {
     for (let i = assistantIdx - 1; i >= 0; i--) {
-      if (chat.messages[i].role === 'user') return chat.messages[i].content;
+      if (messages[i].role === 'user') return messages[i].content;
     }
     return '';
   }
@@ -141,7 +144,7 @@
 <div class="flex-1 flex flex-col min-h-0 bg-grey-50">
   <div bind:this={scrollContainer} class="flex-1 overflow-y-auto">
     <div class="max-w-5xl mx-auto px-4 py-4">
-      {#if chat.messages.length === 0}
+      {#if messages.length === 0}
         <div class="text-center mt-12 mb-8 px-4">
           <div class="text-5xl mb-4">{currentModuleMeta.emoji}</div>
           <h2 class="text-xl font-semibold text-grey-800 mb-2">
@@ -162,7 +165,7 @@
           </div>
         </div>
       {:else}
-        {#each chat.messages as message, i (message.id)}
+        {#each messages as message, i (message.id)}
           <MessageBubble
             {message}
             questionForFeedback={message.role === 'assistant' ? questionFor(i) : undefined}
