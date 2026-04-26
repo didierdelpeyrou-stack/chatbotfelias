@@ -1,0 +1,446 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.2-data F6 lot I6 — Intentions directeur Pratiques opérationnelles (6 articles)",
+    "lot": "I6/I6 (extension F6)",
+    "topic": "Restauration EGalim, politique bénévolat, intéressement, prévention RPS/DUERP, cybersécurité/PCA, communication de crise",
+    "generated_at": "2026-04-26",
+    "source_principale": "Loi EGalim + Code travail + Code monétaire + ANSSI + INRS + Code action sociale",
+    "theme_target": "intentions_directeur"
+  },
+
+  "articles": [
+
+    {
+      "id": "int-restauration-egalim",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment se conformer à la loi EGalim pour la restauration en EAJE / centre social / ACM ?",
+      "mots_cles": [
+        "loi EGalim restauration collective",
+        "50% durable 20% bio",
+        "menu végétarien hebdomadaire",
+        "lutte anti-gaspillage",
+        "qualité produits PMI",
+        "circuit court producteurs locaux",
+        "convention collective restauration",
+        "bilan annuel obligatoire"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "conformite_loi_egalim",
+      "reponse": {
+        "synthese": "La **loi EGalim** (n° 2018-938 du 30 octobre 2018) impose à la **restauration collective publique** (EAJE municipaux, ACM, écoles) **depuis le 1er janvier 2022** : (1) **50 % de produits durables ou de qualité** (dont **20 % bio**), (2) un **menu végétarien hebdomadaire**, (3) **lutte contre le gaspillage alimentaire**, (4) **interdiction du plastique** à usage unique. **Loi EGalim 2** (2021) renforce les contrôles. **Loi Climat et Résilience 2021** étend partiellement aux structures privées subventionnées. **En pratique pour ALISFA** : EAJE municipaux et ACM en délégation = **OBLIGATOIRES**. EAJE associatifs / centres sociaux : **fortement recommandé** + souvent imposé par convention CAF / commune. **Bilan annuel** à publier sur ma-cantine.agriculture.gouv.fr.",
+        "fondement_legal": "**Loi n° 2018-938 du 30 octobre 2018** (« EGalim ») — articles L230-5-1 et suivants du Code rural — **Loi n° 2021-1357 du 18 octobre 2021** (« EGalim 2 ») — **Loi n° 2021-1104 du 22 août 2021** (« Climat et Résilience ») — **Décret n° 2019-351 du 23 avril 2019** (modalités d'application) — **Décret n° 2024-XXX** (évolution 2024-2026 du référentiel).",
+        "minimum_legal": "**Cadre de la loi EGalim pour structures ALISFA** :\n\n**1. Champ d'application** :\n\n**A. Restauration collective publique (obligatoire)** :\n- Cantines des écoles maternelles et primaires\n- **EAJE en gestion publique** (municipale, EPCI)\n- **ACM en délégation de service public**\n- Restaurants administratifs\n- Établissements pénitentiaires, hôpitaux, EHPAD publics\n\n**B. Restauration collective privée subventionnée (extension Loi Climat 2021)** :\n- **EAJE associatifs** recevant subvention publique > 50 %\n- **Centres sociaux** avec restauration collective + subvention publique\n- **ACM associatifs** subventionnés\n- **Application progressive** : 2022 (50/20), 2024 (renforcement), 2026 (vérifications)\n\n**C. Restauration privée pure (recommandé non obligatoire)** :\n- EAJE 100 % privé sans subvention publique\n- Micro-crèches privées PAJE CMG\n- **Recommandé** par bonnes pratiques + image\n\n**2. Obligations principales** :\n\n**A. Approvisionnement durable et qualité (article L230-5-1 Code rural)** :\n- **50 % minimum** de produits **durables ou de qualité** (en valeur HT)\n- **20 % minimum** de produits **issus de l'agriculture biologique** (inclus dans les 50 %)\n\n**Définition \"produits durables ou de qualité\"** :\n- **Bio** (Label AB, Eurofeuille, Bio Cohérence, Demeter)\n- **Label Rouge** (qualité supérieure)\n- **AOP/AOC** (Appellation d'Origine Protégée/Contrôlée)\n- **IGP** (Indication Géographique Protégée)\n- **STG** (Spécialité Traditionnelle Garantie)\n- **Pêche durable** (MSC, label rouge pêche, AB pêche)\n- **HVE** (Haute Valeur Environnementale, niveau 3)\n- **Certification environnementale** (PDO, etc.)\n- **Produits fermiers**\n- **Commerce équitable** (équivalent UE)\n- **\"Région Ultra Périphérique\"** (DROM)\n- **\"Issus de circuits courts\"** (selon définition territoriale)\n\n**B. Menu végétarien hebdomadaire (Loi EGalim 2 - 2021)** :\n- **1 menu végétarien minimum par semaine** dans la restauration collective\n- **Définition** : menu sans viande ni poisson (œufs et produits laitiers autorisés)\n- **Application** : depuis 1er novembre 2019 (école primaire), élargie 2021-2022\n\n**C. Lutte contre le gaspillage alimentaire (article L541-15-3 Code environnement)** :\n- **Diagnostic** annuel obligatoire sur le gaspillage alimentaire\n- **Plan d'actions** correctives\n- **Don** des invendus possibles à associations habilitées\n- **Tri** des biodéchets (compostage, méthanisation)\n\n**D. Interdiction du plastique à usage unique (Loi AGEC 2020)** :\n- **2020** : Suppression bouteilles plastique en restauration scolaire\n- **2025** : Suppression de tous les ustensiles, contenants et couverts plastique en restauration collective\n- **Substitution** : matériaux biodégradables, compostables, réutilisables\n- **Vigilance EAJE** : biberons et dispositifs spécifiques nourrissons exemptés\n\n**E. Information des convives** :\n- **Affichage** des menus avec mention origine produits\n- **Information** sur les produits AOP, bio, locaux\n- **Charte qualité** affichée\n\n**3. Bilan annuel obligatoire** :\n\n**Plateforme officielle** : **ma-cantine.agriculture.gouv.fr** (gérée par DGAL)\n\n**Données à transmettre** :\n- **Achats annuels** : valeur HT par catégorie (durable, bio, conventionnel)\n- **Calculs** : pourcentages durables et bio\n- **Démarche anti-gaspillage** : diagnostic, actions, dons\n- **Menu végétarien** : confirmation hebdomadaire\n- **Substitution plastique** : état d'avancement\n\n**Périodicité** :\n- **Bilan annuel** au plus tard 31 mars année N+1\n- **Public et accessible**\n- **Vérifications inopinées** par DDETSPP / DDPP\n\n**4. Sanctions en cas de non-respect** :\n\n**Phase 1 — Sensibilisation (2022-2024)** :\n- **Avertissement**\n- **Mise en demeure**\n- **Plan d'amélioration** négocié\n\n**Phase 2 — Contrôles renforcés (2025+)** :\n- **Amendes administratives** : jusqu'à **7 500 €** par établissement\n- **Astreinte** journalière\n- **Suspension d'agrément** si récidive grave\n- **Médiatisation** des établissements non-conformes\n\n**5. Stratégie de mise en œuvre — par taille de structure** :\n\n**Petite structure (< 30 repas/jour)** :\n- **Approvisionnement direct** : circuits courts, producteurs locaux\n- **Cuisine sur place** : flexibilité menus\n- **Coût** : 1,5-2,5 € par repas\n- **Stratégie** : engagement progressif, partenariats locaux\n\n**Moyenne structure (30-150 repas/jour)** :\n- **Mix** : approvisionnement local + plateformes spécialisées (Manger Bio Ici et Maintenant, Bio Local, etc.)\n- **Centrale d'achats** régionale possible\n- **Coût** : 2-3 € par repas\n- **Stratégie** : structurer la démarche\n\n**Grande structure (≥ 150 repas/jour)** :\n- **Centrale d'achats nationale** : Sodexo, Compass, Elior (avec produits bio/durables)\n- **Liaison froide** : adaptée aux grosses structures\n- **Coût** : 2,50-3,50 € par repas\n- **Stratégie** : démarche qualité formalisée + audit\n\n**6. Coût budgétaire — comparaison** :\n\n**Repas conventionnel** : ~ 1,8-2,2 € (matières premières)\n**Repas EGalim 50/20** : ~ 2,2-2,8 € (+ 15-25 %)\n**Repas EGalim 100 % bio local** : ~ 2,8-3,5 € (+ 50 %)\n\n**Compensations possibles** :\n- **Réduction du gaspillage** : -20 % de pertes alimentaires = économie\n- **Subventions** : CAF Bonus EAJE, CD, ARS, France AgriMer\n- **Approvisionnement direct producteur** : moins cher que grossiste\n- **Mutualisation** entre structures : achats groupés\n- **Outils gestion** : optimisation menus, prévisionnel précis\n\n**7. Impacts pédagogiques** :\n\n**EAJE** :\n- **Éveil au goût** : produits frais, saisonniers\n- **Sensibilisation** parents : information menus, ateliers\n- **Cuisine pédagogique** : enfants impliqués\n\n**Centres sociaux** :\n- **Ateliers cuisine** durable\n- **Jardin pédagogique** (potager)\n- **Partenariats** producteurs : visites de fermes\n\n**ACM** :\n- **Sensibilisation** environnement\n- **Activités** : compostage, tri, gaspillage\n- **Liaison** avec écoles et programmes éducatifs",
+        "plus_formation": "**Bonnes pratiques pour structures ALISFA** :\n\n**Démarche progressive 3 ans** :\n\n**Année 1 — Diagnostic et sensibilisation** :\n- **Bilan** des achats actuels (calcul % bio, % durable)\n- **Identification** producteurs locaux (PNR, AMAP, AOP)\n- **Sensibilisation** équipe cuisine + parents\n- **Premiers tests** : 1 menu/mois bio, 1 fruit/semaine local\n- **Inscription** ma-cantine.agriculture.gouv.fr\n\n**Année 2 — Montée en puissance** :\n- **Cible** : 30 % durable / 10 % bio\n- **Menu végétarien** hebdomadaire (obligatoire)\n- **Réduction gaspillage** : tri, mesures, ajustements quantités\n- **Substitution plastique** : ustensiles, contenants\n- **Communication** : affichage origine produits\n\n**Année 3 — Conformité totale** :\n- **Cible** : 50 % durable / 20 % bio\n- **Bilan complet** sur ma-cantine.agriculture.gouv.fr\n- **Démarche qualité** formalisée\n- **Communication externe** : mise en avant des progrès\n\n**Outils utiles** :\n- **ma-cantine.agriculture.gouv.fr** : plateforme officielle (calcul + bilan + ressources)\n- **CNRC** (Centre National de la Restauration Collective) : ressources sectorielles\n- **Réseau Local et Bio** : annuaires producteurs régionaux\n- **Manger Bio Ici et Maintenant** : centrale d'achat coopérative\n- **Restau'Co** : fédération restauration collective\n- **ADEME** : guides anti-gaspillage\n- **CIVAM** : ressources circuits courts\n- **Logiciels** : MealCanteen, Easilys, Salamandre (gestion menus + calculs EGalim)\n\n**Cas pratiques fréquents** :\n\n**Cas 1 — EAJE 60 places, gestion associative** :\n- Subvention CAF + commune > 50 %\n- Application EGalim **fortement recommandée**\n- Coût supplémentaire : ~ 8 000 €/an\n- Bénéfices : qualité, image, partenariats locaux\n\n**Cas 2 — Centre social cuisine collective** :\n- Restau social adultes en précarité\n- Conformité EGalim **selon convention CAF**\n- Cas typique : approvisionnement direct producteurs + Banques alimentaires\n- Coût : variable, parfois moins cher (dons + circuits courts)\n\n**Cas 3 — ACM été 80 enfants** :\n- Liaison froide avec prestataire conventionné\n- Vérification certifications du prestataire\n- Communication parents : menus EGalim mis en avant\n- Coût : prestation 5-7 € par repas\n\n**Erreurs fréquentes à éviter** :\n1. **Confondre durable et bio** : 20 % bio = inclus dans 50 % durable\n2. **Sous-estimer le surcoût** initial (anticiper 15-25 %)\n3. **Pas de tri biodéchets** : sanction Code environnement\n4. **Bilan annuel oublié** : sanction administrative\n5. **Plastique non substitué** depuis 2025 : amende\n6. **Menu végétarien oublié** : sanction administrative\n7. **Communication insuffisante** : équipe cuisine non formée → résistance\n\n**Financement possible** :\n- **CAF départementale** : Bonus qualité repas EAJE\n- **France AgriMer** : aides aux circuits courts\n- **Région** : politique alimentation durable\n- **ADEME** : aides anti-gaspillage\n- **CD** : politique alimentation territoriale",
+        "obligations_formation": "Formation HACCP obligatoire pour 1 personne. Formation \"alimentation durable\" recommandée pour cuisinier·es (financée OPCO Uniformation).",
+        "accompagnement_obligatoire": "**ma-cantine.agriculture.gouv.fr** : plateforme officielle de bilan. **DDETSPP** : contrôles. **CAF départementale** : si Bonus repas conventionné. **CNRC ou cabinet conseil** : pour structures complexes.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** La **loi EGalim** est applicable depuis 2018-2022. La **Loi Climat 2021** étend l'obligation aux structures privées subventionnées. **Vigilance** :\n- **Calcul HT** des achats (et non TTC)\n- **Périmètre** : tous les achats annuels, pas un mois échantillon\n- **Bilan annuel obligatoire** : oubli = sanction\n- **Plastique** : interdiction effective 2025, prévoir transition\n- **Évolution** : les seuils 50/20 peuvent être renforcés (vérifier les décrets en cours)\n- **Vigilance EAJE** : exception pour biberons et dispositifs nourrissons\n- **Conventionnement CAF** : peut imposer EGalim même si non obligatoire légalement",
+        "sources": [
+          "Loi n° 2018-938 du 30 octobre 2018 (« EGalim »)",
+          "Loi n° 2021-1357 du 18 octobre 2021 (« EGalim 2 »)",
+          "Loi n° 2021-1104 du 22 août 2021 (« Climat et Résilience »)",
+          "Loi n° 2020-105 du 10 février 2020 (« AGEC » — anti-gaspillage)",
+          "Code rural et de la pêche maritime — articles L230-5-1 et suivants",
+          "Décret n° 2019-351 du 23 avril 2019"
+        ],
+        "liens": [
+          {
+            "titre": "ma-cantine — plateforme officielle Loi EGalim",
+            "url": "https://ma-cantine.agriculture.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2018-938 du 30 octobre 2018 (EGalim)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037547946/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2021-1357 du 18 octobre 2021 (EGalim 2)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044220374/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Agriculture.gouv — Loi EGalim et restauration collective",
+            "url": "https://agriculture.gouv.fr/loi-egalim-2",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — restauration collective et démarche qualité",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour structures avec restauration importante ou en délégation publique, faire un audit conformité EGalim + plan d'amélioration triennal.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi EGalim 2018-938 + Loi Climat 2021-1104"
+      }
+    },
+
+    {
+      "id": "int-politique-engagement-benevole",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment construire une politique d'engagement bénévole structurée pour ma structure ALISFA ?",
+      "mots_cles": [
+        "politique engagement bénévole",
+        "recrutement bénévoles",
+        "intégration bénévoles",
+        "fidélisation reconnaissance",
+        "Charte bénévolat",
+        "association loi 1901",
+        "convention bénévole",
+        "BAFA BAFD volontaire"
+      ],
+      "structures_concernees": ["centre_social", "EVS", "ADSL", "ACM"],
+      "intention_directeur": "politique_engagement_benevole",
+      "reponse": {
+        "synthese": "Une **politique d'engagement bénévole structurée** est essentielle pour les structures ALISFA, où le bénévolat est un pilier (administrateurs, animateurs, accompagnateurs). **5 étapes clés** : (1) **Diagnostic** des besoins et profils, (2) **Recrutement** ciblé et accueil, (3) **Intégration et formation**, (4) **Fidélisation** par reconnaissance, (5) **Évaluation et renouvellement**. **Outils** : Charte du bénévolat, fiches missions écrites, convention de bénévolat (selon HCVA), parcours d'engagement, valorisation comptable du temps bénévole. **Cadre légal** : loi du 1er juillet 1901 + Loi Hamon 2014 + obligations RH (assurance, sécurité). **Ratio recommandé ALISFA** : **3-5 bénévoles par salarié·e** dans les centres sociaux dynamiques.",
+        "fondement_legal": "**Loi du 1er juillet 1901** — relative au contrat d'association — **Loi n° 2014-856 du 31 juillet 2014** (« Hamon » sur l'ESS) — **Code du travail** — articles **L8231-1 et suivants** (distinction bénévolat / salariat) — **Loi n° 2017-86 du 27 janvier 2017** (CEC — Compte d'Engagement Citoyen) — **Code général des impôts** — article 200 et 238 bis (déduction frais bénévoles).",
+        "minimum_legal": "**Cadre de la politique d'engagement bénévole** :\n\n**1. Profils de bénévoles dans les structures ALISFA** :\n\n**A. Bénévoles dirigeants (CA, bureau)** :\n- **Président·e, trésorier·e, secrétaire**\n- **Engagement structurel** : représentation légale, gouvernance\n- **Temps** : 5-15 h/mois selon responsabilités\n- **Profil** : compétences variées (gestion, droit, communication)\n- **Reconnaissance** : remboursements de frais + avantage fiscal sur frais non remboursés\n\n**B. Bénévoles d'engagement (référents, coordinateurs)** :\n- **Engagement régulier** : ≥ 200 h/an (cf. CEC)\n- **Mission spécifique** : projet, secteur, événement\n- **Profil** : motivés, fidèles, formés\n- **Reconnaissance** : CEC (240 €/an CPF), formations, communication interne\n\n**C. Bénévoles d'activité (encadrants ateliers, sorties)** :\n- **Engagement régulier ou ponctuel**\n- **Mission** : animation directe avec usagers\n- **Profil** : compétences spécifiques (animation, sport, créativité)\n- **Reconnaissance** : remerciements, pots, événements festifs\n\n**D. Bénévoles ponctuels** :\n- **Événements** : kermesses, fêtes, AG\n- **Engagement** : 1-3 fois par an\n- **Profil** : variés, parfois familles\n- **Reconnaissance** : convivialité, remerciements\n\n**E. Volontaires en Service Civique** :\n- **Cadre formel** : indemnité État (~ 600 €/mois)\n- **Engagement** : 6-12 mois, 24-35 h/semaine\n- **Profil** : 16-25 ans (pré-emploi)\n- **Différence** : statut spécifique, ni salariat, ni bénévolat pur\n- **Cadre** : agence du Service Civique, contrat\n\n**2. Distinction juridique bénévolat / salariat** :\n\n**Critères du bénévolat (jurisprudence)** :\n- **Pas de rémunération** ni en nature ni en espèces\n- **Liberté** d'engagement (pas de subordination juridique)\n- **Pas d'obligation** de résultat\n- **Pas de sanction** disciplinaire\n\n**Risques de requalification en salariat** :\n- Rémunération même informelle (chèques cadeaux récurrents > 5 fois/an)\n- Subordination forte (horaires, contrôle, sanctions)\n- Exécution répétée d'une tâche normalement salariée\n- **Sanction** : reconnaissance par prud'hommes du contrat de travail + cotisations URSSAF rétroactives\n\n**3. Stratégie de recrutement** :\n\n**Sources** :\n- **Réseau personnel** : familles, anciens usagers, voisins\n- **Sites spécialisés** : francebenevolat.org, jeveuxaider.gouv.fr, tousbenevoles.org\n- **Réseaux sociaux** : Facebook locale, LinkedIn, Insta\n- **Partenaires institutionnels** : mairie, écoles, associations partenaires\n- **Médias locaux** : presse, radio\n- **Salon des associations** : annuel, communal\n- **Service civique** : pré-recrutement service.gouv\n- **Fédérations** : ALISFA, FCSF\n\n**Profil de mission** :\n- **Mission claire** (1 page) : objectifs, tâches, durée, profil recherché\n- **Présentation** publique sur supports communication\n- **Entretien** d'engagement préalable\n- **Période d'essai** informelle (1-2 mois)\n\n**4. Procédure d'intégration** :\n\n**Étape 1 — Accueil structuré** :\n- **Livret d'accueil bénévole** : présentation structure, projet, équipe, règles\n- **Tour de la structure** + présentation aux salariés\n- **Briefing** sur la mission spécifique\n- **Charte du bénévolat** signée\n\n**Étape 2 — Convention de bénévolat (recommandée)** :\n- **Document écrit** entre structure et bénévole\n- **Mentions** :\n  - Identité des parties\n  - Mission précise\n  - Engagement temporel (durée, fréquence)\n  - Conditions matérielles (lieu, équipements, frais)\n  - Couverture assurance\n  - Engagement déontologique\n  - Modalités de résiliation\n- **Signature** : cadre clair pour les deux parties\n\n**Étape 3 — Formation** :\n- **Formation initiale** : posture, sécurité, premiers secours\n- **Formation continue** : selon besoins\n- **Formations financées** : FDVA (administrateurs), CEC (formations personnelles), OPCO via fédération\n- **Cf. article connexe** `int-formation-benevoles`\n\n**Étape 4 — Tutorat / accompagnement** :\n- **Référent·e bénévolat** dans la structure (RH, direction, ou bénévole expérimenté)\n- **Bilans** réguliers (3, 6, 12 mois)\n- **Soutien** en cas de difficulté\n\n**5. Stratégie de fidélisation** :\n\n**Reconnaissance non-financière** :\n- **Remerciements** publics (AG, journal, site)\n- **Diplômes** ou attestations\n- **Mises en avant** sur supports communication\n- **Événements** dédiés (pots, repas, sorties)\n- **Cadeaux** symboliques (limités à 30 €/an pour ne pas requalifier)\n\n**Reconnaissance institutionnelle** :\n- **Décorations** : médaille de la jeunesse, sports et engagement associatif\n- **Médailles** territoriales (municipales, départementales)\n- **Prix associatifs** régionaux\n\n**Reconnaissance financière** :\n- **Remboursement frais** : transport, repas, fournitures (sur justificatifs)\n- **Avance frais** parfois\n- **Reçus fiscaux** : pour frais non remboursés (déductibles à 66 % impôts)\n\n**Reconnaissance en compétences** :\n- **CEC** : 240 €/an sur CPF (cf. article connexe)\n- **VAE** : valorisation compétences acquises\n- **Attestations** d'engagement pour CV\n- **Accès** à des formations qualifiantes (CFGA, BAFA, etc.)\n\n**6. Gouvernance bénévole — bonnes pratiques** :\n\n**Renouvellement du CA** :\n- **Statuts** : durée mandat (3-4 ans typique), renouvellement par tiers\n- **Diversité** : âge, origine, compétences\n- **Préparation succession** : anticiper départs\n- **Démocratie interne** : élections en AG\n\n**Formation des administrateurs** :\n- **CFGA** (Certificat de Formation à la Gestion Associative) : 30 h, niveau 4\n- **Formations sectorielles** : financements, gouvernance, RH, comptabilité\n- **Accès FDVA** : subvention État pour formations dédiées\n\n**Animation de la vie associative** :\n- **AG annuelle** + AG extraordinaire si besoin\n- **CA** : 4-6 réunions/an minimum\n- **Bureau** : périodicité plus rapprochée\n- **Communication interne** : newsletter, réunions thématiques\n\n**7. Valorisation comptable du temps bénévole (recommandée)** :\n\n**Méthode (Avis CNCC + DAS-2)** :\n- **Heures bénévoles** × **valeur horaire SMIC**\n- **Inscription** en compte de résultat (annexe \"contributions volontaires\")\n- **Avantages** :\n  - Présentation aux financeurs : visibilité de la mobilisation\n  - Transparence : équilibre activité salariée / bénévole\n  - **Pas d'impact** fiscal direct\n\n**Exemple** :\n- 50 bénévoles × 100 h/an = 5 000 h\n- Valeur SMIC horaire ~ 11,30 € = **56 500 €** valorisés\n- Inscription : « contributions volontaires en nature » dans annexe\n\n**8. Couverture assurance bénévoles** :\n\n**Obligation** : la structure doit couvrir ses bénévoles\n- **Responsabilité civile** (RC associative) : couvre les dommages causés ou subis par les bénévoles dans le cadre de leur mission\n- **Accident corporel** : assurance complémentaire recommandée\n- **Indemnités journalières** : selon contrat\n\n**Coût** : ~ 200-800 €/an pour une structure moyenne",
+        "plus_formation": "**Cas pratiques fréquents** :\n\n**Cas 1 — Centre social 30 bénévoles, recherche stratégie pérennisation** :\n- Audit profils + missions\n- Mise en place charte + conventions\n- Référent·e bénévolat\n- Programme reconnaissance trimestrielle\n- Bilan annuel CEC/FDVA\n- **Bénéfice** : fidélisation, mobilisation accrue\n\n**Cas 2 — EVS rural en quête de bénévoles (zone de désengagement)** :\n- Stratégie territoriale : visites maisons, partenaires locaux\n- Communication ciblée seniors actifs (retraités)\n- Mise en réseau avec autres associations\n- Service Civique pour jeunes\n- **Réussite** : 5 nouveaux bénévoles/an\n\n**Cas 3 — Renouvellement bureau associatif** :\n- Anticipation 12-18 mois\n- Formation CFGA pour candidats\n- Mentorat par sortants\n- Vote en AG\n- **Bénéfice** : gouvernance pérennisée\n\n**Cas 4 — Crise bénévolat post-COVID** :\n- Constat : -30 % bénévoles depuis 2020\n- Plan d'actions : recrutement actif + formation + reconnaissance\n- Service Civique massif\n- Numérisation des engagements\n- **2 ans** pour retrouver le niveau\n\n**Erreurs fréquentes à éviter** :\n1. **Pas de fiches missions claires** : bénévoles perdus\n2. **Confusion bénévolat / salariat** : risque requalification\n3. **Pas de reconnaissance** : taux d'attrition élevé\n4. **Mauvaise couverture assurance** : risque juridique\n5. **Non-déclaration CEC** : bénévoles privés de droits CPF\n6. **Pas de charte** : règles floues, conflits\n7. **Mauvaise transmission CA** : crise de gouvernance\n\n**Outils utiles** :\n- **francebenevolat.org** : ressources et plateforme\n- **jeveuxaider.gouv.fr** : annonces missions\n- **Le Compte Asso** : démarches subventions\n- **Mon Compte Activité** : déclaration CEC\n- **HCVA** (Haut Conseil à la Vie Associative) : ressources réglementaires\n- **Mouvement Associatif** : régional + national, formations\n- **Centres sociaux de France** : guides spécifiques\n- **Logiciels CRM bénévoles** : Heeds, AssoConnect, etc.\n\n**Indicateurs de pilotage** :\n- **Nombre** total de bénévoles actifs\n- **Heures** annuelles bénévoles cumulées\n- **Ratio** bénévoles / salariés\n- **Taux d'attrition** (bénévoles qui partent)\n- **Taux de fidélisation** > 1 an, > 3 ans\n- **Taux de transformation** (bénévoles qui deviennent administrateurs)\n- **Diversité** : âge, sexe, origine sociale\n- **Satisfaction** des bénévoles (enquête annuelle)",
+        "obligations_formation": "Pas d'obligation. Formation \"Animation de la vie associative\" recommandée pour direction + référent·e bénévolat.",
+        "accompagnement_obligatoire": "**Référent·e bénévolat** désigné·e dans la structure. **Charte du bénévolat** rédigée et signée. **Convention de bénévolat** recommandée pour engagements réguliers. **Couverture assurance** vérifiée annuellement. **Mouvement Associatif régional** : ressources et appui méthodologique.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** La **loi 1901** est stable. La **Loi Hamon 2014** structure l'ESS. **Vigilance** :\n- **Distinction bénévolat / salariat** : risque de requalification (jurisprudence)\n- **CEC** : auto-déclaration annuelle, validation par président·e ou trésorier·e\n- **Reçu fiscal** : émission rigoureuse, contrôle administration\n- **Couverture assurance** : à vérifier annuellement\n- **Évolutions** : Loi sur l'Engagement Bénévole en discussion (potentielles évolutions 2026-2027)",
+        "sources": [
+          "Loi du 1er juillet 1901 — contrat d'association",
+          "Loi n° 2014-856 du 31 juillet 2014 (« Hamon » sur l'ESS)",
+          "Loi n° 2017-86 du 27 janvier 2017 — création CEC",
+          "Code du travail — articles L8231-1 et suivants (distinction bénévolat)",
+          "Code général des impôts — articles 200 et 238 bis (déduction frais bénévoles)",
+          "Avis CNCC sur la valorisation comptable du bénévolat"
+        ],
+        "liens": [
+          {
+            "titre": "France Bénévolat — ressources et missions",
+            "url": "https://www.francebenevolat.org",
+            "type": "officiel"
+          },
+          {
+            "titre": "JeVeuxAider.gouv — plateforme officielle",
+            "url": "https://www.jeveuxaider.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Le Compte Asso",
+            "url": "https://lecompteasso.associations.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Mouvement Associatif — guides gouvernance",
+            "url": "https://lemouvementassociatif.org",
+            "type": "officiel"
+          },
+          {
+            "titre": "HCVA — Haut Conseil à la Vie Associative",
+            "url": "https://www.associations.gouv.fr/le-haut-conseil-a-la-vie-associative-hcva.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — animation associative et bénévolat",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi 1901 + Loi Hamon 2014"
+      }
+    },
+
+    {
+      "id": "int-interessement-participation",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment mettre en place un accord d'intéressement ou de participation dans ma structure ALISFA ?",
+      "mots_cles": [
+        "accord intéressement",
+        "participation salariés bénéfices",
+        "PEE plan épargne entreprise",
+        "PERCO PER plan retraite",
+        "Loi Pacte 2019",
+        "association ESS intéressement",
+        "fiscalité avantageuse",
+        "DUE intéressement"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "mettre_en_place_interessement",
+      "reponse": {
+        "synthese": "L'**intéressement** est un dispositif **facultatif** d'épargne salariale qui permet d'**associer les salariés aux résultats** ou à la **performance** de la structure. **Élargi aux associations en 2008** et renforcé par la **Loi Pacte 2019**, il est applicable aux structures ALISFA. **Avantages** : (1) **fiscalité avantageuse** (exonération charges sociales hors CSG/CRDS et forfait social), (2) **motivation et fidélisation** des équipes, (3) **complément de rémunération** sans alourdir la masse salariale fixe. **Procédure** : accord d'intéressement (3 ans) ou DUE (Décision Unilatérale Employeur) pour < 50 salariés (loi 2022). **Plafond** : 75 % du PASS (~ 32 994 €/an en 2025). **Vigilance ALISFA** : applicable mais peu courant — nécessite excédent comptable ou indicateurs de performance.",
+        "fondement_legal": "**Code du travail** — articles **L3311-1 à L3315-5** (intéressement) — **L3321-1 et suivants** (participation) — **L3331-1 et suivants** (épargne salariale) — **Loi n° 2008-1258 du 3 décembre 2008** (extension aux associations) — **Loi n° 2019-486 du 22 mai 2019** (« Pacte ») — **Loi n° 2022-1158 du 16 août 2022** (« Pouvoir d'achat ») — **Loi de finances pour 2024**.",
+        "minimum_legal": "**Cadre de l'intéressement et de la participation** :\n\n**1. Distinction Intéressement / Participation / PEE / PERCO** :\n\n**A. Intéressement** :\n- **Facultatif** pour toutes structures (associations incluses)\n- **Accord triennal** : 3 ans renouvelable\n- **Prime variable** liée à des indicateurs (résultats, performance, qualité)\n- **Plafond annuel** : 75 % du PASS / salarié (~ **32 994 €** en 2025)\n- **Plafond global** : 20 % de la masse salariale brute\n- **Versement** : annuel, proportionnel au temps de présence\n- **Fiscalité** : exonéré de cotisations (sauf CSG-CRDS et forfait social)\n\n**B. Participation** :\n- **Obligatoire** ≥ 50 salariés (≥ 11 dans certains cas spéciaux)\n- **Calcul** : formule légale basée sur le bénéfice\n- **Déblocage** : généralement 5 ans\n- **Pour associations** : **non-applicable** (pas de \"bénéfice\" au sens fiscal)\n\n**C. PEE (Plan d'Épargne Entreprise)** :\n- **Facultatif** pour toutes structures\n- **Support** d'épargne avec abondement employeur\n- **Avantage fiscal** : exonéré IR pour le salarié\n- **Déblocage** : 5 ans (sauf cas exceptionnel)\n\n**D. PERCO / PER Collectif Entreprise** :\n- **Facultatif** pour toutes structures\n- **Épargne retraite** complémentaire\n- **Abondement** employeur jusqu'à 16 % PASS\n- **Disponibilité** : à la retraite\n\n**2. Spécificité associations / ESS** :\n\n**Avant 2008** :\n- Intéressement et PEE **non applicables** aux associations\n- Justification : pas de \"bénéfice\" au sens commercial\n\n**Depuis 2008 (Loi du 3 décembre 2008)** :\n- **Intéressement applicable** aux associations\n- **PEE applicable**\n- **PERCO/PER** applicable\n- **Participation** : reste non applicable (pas d'actionnariat)\n\n**Conditions spécifiques** :\n- **Indicateurs de performance** : peuvent être qualitatifs (qualité de service) en plus de quantitatifs (excédent comptable)\n- **Excédent comptable** : peut servir de base de calcul\n- **Formule de calcul** : à définir dans l'accord\n\n**3. Formules d'intéressement adaptées ALISFA** :\n\n**A. Excédent comptable (le plus simple)** :\n- **Formule** : X % de l'excédent comptable annuel = enveloppe d'intéressement\n- **Exemple** : 25 % de l'excédent → si excédent = 40 000 €, prime totale = 10 000 €\n- **Répartition** : proportionnelle au salaire ou égale\n- **Avantage** : direct et compréhensible\n- **Risque** : pas d'excédent = pas d'intéressement\n\n**B. Indicateurs qualitatifs** :\n- **Taux d'occupation** EAJE\n- **Taux de satisfaction** familles / usagers\n- **Taux d'absentéisme**\n- **Taux de réalisation** des objectifs du projet associatif\n- **Pondération** entre indicateurs\n- **Avantage** : aligne sur projet stratégique\n- **Complexité** : nécessite tableau de bord\n\n**C. Formule mixte** :\n- 50 % excédent comptable + 50 % indicateurs qualitatifs\n- **Recommandé** pour structures ALISFA\n\n**4. Procédure de mise en place** :\n\n**Étape 1 — Diagnostic et faisabilité** :\n- **État financier** : excédents possibles ?\n- **Climat social** : équipe motivée ?\n- **Indicateurs disponibles** : SI métier, comptabilité analytique\n- **Validation** CA et bureau\n\n**Étape 2 — Choix de la modalité** :\n- **Accord négocié** (avec CSE / délégués syndicaux ≥ 50 sal.)\n- **DUE** (Décision Unilatérale Employeur) : possible < 50 salariés depuis 2022\n- **Référendum salariés** : majorité 2/3 < 11 salariés\n\n**Étape 3 — Rédaction de l'accord** :\n- **Mentions obligatoires** :\n  - Champ d'application (qui est concerné)\n  - Durée : 3 ans (renouvelable)\n  - Période de calcul (souvent 1 an comptable)\n  - **Formule de calcul** précise\n  - **Plafonds** (individuel et global)\n  - **Modalités de répartition** (proportionnelle salaire ou égale)\n  - **Modalités de versement**\n  - **Information** des salariés\n  - **Procédure** de modification, dénonciation\n\n**Étape 4 — Validation et dépôt** :\n- **Signature** : direction + représentants (ou DUE)\n- **Dépôt** sur **téléaccord** (DREETS) en ligne\n- **Délai** : 15 jours après signature\n- **Communication** aux salariés\n\n**Étape 5 — Application** :\n- **Suivi** des indicateurs\n- **Calcul** annuel (clôture comptable)\n- **Versement** : avant 5 mois après clôture (si non, charges sociales applicables)\n- **Bulletin de paie** : ligne distincte « intéressement »\n\n**Étape 6 — Renouvellement** :\n- **Évaluation** après 3 ans\n- **Ajustement** formule si nécessaire\n- **Re-signature** ou DUE\n\n**5. Fiscalité (estimative 2026)** :\n\n**Pour la structure** :\n- **Cotisations** : exonérées (sauf CSG-CRDS et forfait social)\n- **Forfait social** : 20 % standard, 10 % si PEE/PERCO/PER, **0 % si < 50 salariés** (Loi Pacte)\n- **Charge déductible** : à 100 % du résultat fiscal\n\n**Pour le salarié** :\n- **Imposition** : intégré aux revenus salariés (sauf si placement sur PEE)\n- **CSG-CRDS** : 9,7 % retenus\n- **Si placement PEE** : exonération IR (déblocage 5 ans)\n\n**Comparaison avec une augmentation classique de 1 000 €** :\n\n| Critère | Salaire classique | Intéressement |\n|---|---|---|\n| Coût total employeur | ~ 1 400 € (1 000 + charges 40 %) | ~ 1 100 € (1 000 + forfait 10-20 %) |\n| Net salarié | ~ 750 € | ~ 900 € (CSG-CRDS uniquement) |\n| Si placement PEE | - | ~ 920 € + abondement |\n\n**Bénéfice net structure** : 20-25 % d'économie sur le coût salarié.\n\n**6. Combinaison avec PEE / PER** :\n\n**Stratégie optimale** :\n- **Accord d'intéressement** : prime variable\n- **PEE** : option de placement de l'intéressement (déblocage 5 ans)\n- **PER Collectif** : épargne retraite avec abondement\n\n**Avantages cumulés** :\n- Salarié : exonération IR si placement\n- Structure : déduction fiscale + 0/10/20 % forfait social selon configuration\n- Long terme : épargne pour retraite\n\n**7. Volume cible** :\n\n**Structures ALISFA TPE (5-10 salariés)** :\n- Intéressement : 500-1 500 €/an/salarié\n- Coût total : 5 000-15 000 €/an\n- Excédent nécessaire : 20-30 K€\n\n**Structures moyennes (10-50 salariés)** :\n- Intéressement : 1 000-3 000 €/an/salarié\n- Coût total : 20 000-100 000 €/an\n- Excédent nécessaire : 80-300 K€\n\n**Structures grandes (≥ 50 salariés)** :\n- Intéressement + PEE + PER\n- Coût total : 100-500 K€/an\n- **Vigilance** : forfait social 10-20 %",
+        "plus_formation": "**Cas pratiques fréquents** :\n\n**Cas 1 — EAJE associatif 25 salariés, première mise en place** :\n- Excédent moyen : 40 000 €/an\n- Formule : 25 % excédent → enveloppe ~ 10 000 €/an\n- Répartition proportionnelle salaire\n- Prime moyenne : 400 €/salarié/an\n- DUE (< 50 salariés)\n- Forfait social : 0 %\n- **Bénéfice** : motivation, transparence financière\n\n**Cas 2 — Centre social 60 salariés, accord négocié** :\n- Indicateurs mixtes : 50 % excédent + 50 % qualité (taux participation, satisfaction)\n- Enveloppe annuelle : 30 000 €\n- Prime moyenne : 500 €/salarié\n- Forfait social : 20 %\n- **Bénéfice** : alignement sur projet stratégique\n\n**Cas 3 — Multi-sites 120 salariés, accord triennal + PEE** :\n- Intéressement : 80 K€/an\n- PEE avec abondement 50 % : 40 K€/an supplémentaires\n- Forfait social : 10 % (PEE)\n- **Coût total** : 120 K€/an\n- **Bénéfice** : fidélisation, image RH\n\n**Erreurs fréquentes à éviter** :\n1. **Formule trop complexe** : incompréhensible pour les salariés\n2. **Promesse non tenue** : si pas d'excédent, pas de prime, déception\n3. **Prime forfaitaire** sans formule = requalifié en salaire (pas avantage fiscal)\n4. **Pas de dépôt** téléaccord : invalidation\n5. **Versement tardif** (> 5 mois après clôture) : charges sociales applicables\n6. **Pas de communication** : manque d'effet motivationnel\n7. **Ignorer les < 50 sal. et DUE** : opportunité manquée\n\n**Outils utiles** :\n- **Téléaccord** : dépôt en ligne (https://www.teleaccords.travail-emploi.gouv.fr)\n- **URSSAF** : guide intéressement\n- **AMF** (Association Française de la Gestion Financière) : modèles\n- **Cabinets ESS** : modèles d'accord adaptés\n- **Banques (BPCE, Crédit Mutuel, Caisses d'épargne)** : PEE/PER prêts à l'emploi\n- **Logiciels paie** : intégration intéressement (Sage, Cegid, etc.)\n\n**Questions à se poser avant la mise en place** :\n1. **Excédent récurrent** ? (sinon dispositif vide de sens)\n2. **Climat social** mature ? (sinon tensions sur la formule)\n3. **Indicateurs disponibles** ? (sinon difficulté de mesure)\n4. **Engagement long terme** ? (3 ans minimum, pas réversible facilement)\n5. **Communication** : capacité à expliquer la formule\n6. **Coût administratif** : SI paie, comptabilité, communication",
+        "obligations_formation": "Pas d'obligation. Formation \"Politique RH et rémunération\" recommandée pour direction + RH (modules CAFDES, modules courts OPCO).",
+        "accompagnement_obligatoire": "**Expert-comptable** : conseil sur faisabilité et formule. **Avocat en droit social** : pour rédaction accord. **Conseiller·ère URSSAF** : pour validation fiscale. **Banque** ou **organisme financier** : pour PEE/PER si combiné.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Le **cadre de l'intéressement** est stable depuis la **Loi Pacte 2019** + **Loi Pouvoir d'Achat 2022**. **Vigilance** :\n- **Forfait social** évolue selon les lois de finances (vérifier 2026)\n- **Plafonds** PASS révisés annuellement\n- **DUE** simplifiée < 50 salariés depuis 2022 (opportunité)\n- **Versement** dans les 5 mois après clôture comptable (sinon charges)\n- **Formule** non discriminatoire et objective (sinon URSSAF requalifie)\n- **Documentation** rigoureuse pour contrôles\n- **Évolutions** : projets de loi sur le partage de la valeur en cours",
+        "sources": [
+          "Code du travail — articles L3311-1 à L3315-5 (intéressement)",
+          "Code du travail — articles L3331-1 et suivants (épargne salariale)",
+          "Loi n° 2008-1258 du 3 décembre 2008 (extension associations)",
+          "Loi n° 2019-486 du 22 mai 2019 (« Pacte »)",
+          "Loi n° 2022-1158 du 16 août 2022 (« Pouvoir d'achat »)"
+        ],
+        "liens": [
+          {
+            "titre": "Téléaccord — plateforme officielle",
+            "url": "https://www.teleaccords.travail-emploi.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Intéressement et participation",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F31878",
+            "type": "officiel"
+          },
+          {
+            "titre": "URSSAF — Intéressement et épargne salariale",
+            "url": "https://www.urssaf.fr/portail/home/employeur/calculer-les-cotisations/les-elements-a-prendre-en-compte/lepargne-salariale.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail Intéressement L3311 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ALISFA — politique de rémunération et épargne salariale",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - Loi 2008-1258 + Loi Pacte 2019"
+      }
+    },
+
+    {
+      "id": "int-prevention-rps-duerp",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment prévenir les risques psychosociaux (RPS) et tenir le DUERP dans ma structure ALISFA ?",
+      "mots_cles": [
+        "DUERP Document Unique",
+        "risques psychosociaux RPS",
+        "stress burn-out",
+        "Loi 2021-1018 réforme",
+        "Code travail R4121-1",
+        "ANACT INRS",
+        "plan prévention",
+        "obligation employeur sécurité"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "prevention_rps_duerp",
+      "reponse": {
+        "synthese": "Le **DUERP** (Document Unique d'Évaluation des Risques Professionnels) est **OBLIGATOIRE** pour **toute structure ayant au moins 1 salarié** (article **R4121-1 Code travail**). Il doit identifier et évaluer **tous les risques** professionnels (physiques, chimiques, biologiques, psychosociaux), formaliser un **plan d'actions de prévention** et être **mis à jour au moins annuellement**. Les **Risques PsychoSociaux (RPS)** — stress, harcèlement, violence, burn-out, surcharge — sont particulièrement critiques en structures ALISFA (forte charge émotionnelle, public vulnérable). **Réforme 2021** (loi 2021-1018) renforce le DUERP et impose la **conservation 40 ans**. **Sanction** : 1 500 € amende + risque pénal en cas d'accident grave.",
+        "fondement_legal": "**Code du travail** — articles **L4121-1 à L4121-5** (obligation de sécurité de l'employeur), **R4121-1 à R4121-4** (DUERP) — **Loi n° 2021-1018 du 2 août 2021** (« Santé au travail ») — **Décret n° 2022-395 du 18 mars 2022** (modalités DUERP) — **Accord National Interprofessionnel** (ANI) du 2 juillet 2008 sur le stress + 26 mars 2010 sur harcèlement et violence.",
+        "minimum_legal": "**Cadre du DUERP et de la prévention RPS** :\n\n**1. Obligation légale du DUERP** :\n\n**A. Champ d'application** :\n- **TOUTES** les structures ayant **au moins 1 salarié**\n- **Aucune exception** : EAJE, centres sociaux, EVS, ADSL, ACM\n- **Y compris** salariés en CDD, alternance, contrats aidés\n\n**B. Contenu obligatoire** :\n- **Identification** de tous les risques professionnels (par unité de travail)\n- **Évaluation** de chaque risque (probabilité × gravité)\n- **Plan d'actions** de prévention (correctives + préventives)\n- **Indicateurs** de suivi\n- **Responsabilités** : qui fait quoi\n- **Calendrier** de mise en œuvre\n\n**C. Catégories de risques à identifier** :\n\n**Risques physiques** :\n- TMS (Troubles Musculo-Squelettiques) : portage enfants, station debout prolongée\n- Chutes de plain-pied : sols glissants, jouets au sol\n- Chutes de hauteur : escabeaux, mobilier\n- Manutention : matériel, mobilier, alimentation\n- Bruit : pleurs enfants, activités sonores\n- Vibrations : équipements\n\n**Risques chimiques** :\n- Produits ménagers et désinfectants\n- Allergènes alimentaires\n- Produits artistiques (peintures, colles)\n\n**Risques biologiques** :\n- Maladies infantiles transmissibles\n- Hépatites, MST (services à domicile)\n- Hygiène (changes, repas)\n- Pandémies (COVID, grippe)\n\n**Risques liés à l'environnement** :\n- Trajets domicile-travail\n- Sorties extérieures\n- Climat (chaleur, froid)\n\n**Risques PsychoSociaux (RPS)** :\n- **Stress** : surcharge, exigences\n- **Burn-out** : épuisement émotionnel (très fréquent en petite enfance)\n- **Harcèlement moral** : entre collègues, hiérarchie\n- **Harcèlement sexuel** (cf. article connexe)\n- **Violences** : verbales, physiques (parents, usagers)\n- **Conflits** internes\n- **Charge émotionnelle** : protection enfance, deuils, situations difficiles\n- **Insécurité** de l'emploi (CDD répétés)\n- **Manque de reconnaissance**\n- **Conflits de valeurs** : entre projet associatif et pratiques\n\n**2. Méthodologie d'évaluation des risques** :\n\n**Étape 1 — Identification** :\n- **Observation** sur le terrain par unité de travail\n- **Entretiens** salariés et bénévoles\n- **Analyse** des incidents et accidents passés\n- **Bilan** médical (médecin du travail)\n\n**Étape 2 — Cotation** :\n- **Probabilité** d'occurrence (1-4) :\n  1 = improbable, 2 = peu probable, 3 = probable, 4 = certain\n- **Gravité** des conséquences (1-4) :\n  1 = mineure, 2 = modérée, 3 = grave, 4 = mortelle\n- **Risque résiduel** = Probabilité × Gravité (1-16)\n\n**Étape 3 — Priorisation** :\n- **Risque ≥ 9** (probabilité ≥ 3 + gravité ≥ 3) : action immédiate\n- **Risque 4-8** : action planifiée année 1\n- **Risque 1-3** : surveillance, action long terme\n\n**Étape 4 — Plan d'actions** :\n- **Mesures techniques** : équipements, aménagements\n- **Mesures organisationnelles** : procédures, organisation\n- **Mesures humaines** : formation, communication, sensibilisation\n- **Mesures médicales** : suivi, vaccinations\n\n**3. Format et tenue du DUERP** :\n\n**Format** :\n- **Tableur Excel** ou logiciel dédié (Lascom, Préventica, etc.)\n- **Document écrit, daté, signé** par direction\n- **Disponible** sur le lieu de travail (CSE, médecin du travail, salariés, inspection)\n\n**Mise à jour** :\n- **Annuelle** au minimum (article R4121-2)\n- **Lors de toute** modification importante (réorganisation, nouveaux équipements, accident)\n- **Lors de tout accident** ou maladie professionnelle\n\n**Conservation** :\n- **40 ans** depuis la Loi 2021-1018 (avant : pas de durée précise)\n- **Versions successives** conservées\n- **Numérisation** sur plateforme dédiée à venir (Loi 2021)\n\n**4. Focus RPS — Spécificités structures ALISFA** :\n\n**Risques RPS particulièrement présents** :\n\n**A. Métiers de la petite enfance** :\n- **Charge émotionnelle** : pleurs enfants, deuils, séparations, problèmes familiaux\n- **Charge physique** : portage, station debout, postures contraintes\n- **Confrontation** à des familles en difficulté\n- **Suspicion** de maltraitance : traumatisme professionnel\n- **Burn-out** : taux élevé dans la branche\n\n**B. Métiers de l'animation** :\n- **Conflits** : entre adolescents, avec familles\n- **Insécurité** territoriale (zones difficiles)\n- **Charge** mentale projet\n- **Précarité** salariale (CDD répétés)\n\n**C. Métiers du social** :\n- **Confrontation** à la précarité, violences, addictions\n- **Charge émotionnelle** : signalements, protection enfance\n- **Insécurité** parfois physique\n\n**D. Métiers d'encadrement** :\n- **Surcharge** managériale (multi-tâches, polyvalence)\n- **Solitude** du dirigeant\n- **Pression** financière (équilibre budget, conventions)\n- **Conflits** entre instance gouvernance et terrain\n\n**Mesures préventives RPS** :\n\n**Au niveau individuel** :\n- **Formation** : gestion du stress, communication non violente\n- **Soutien psychologique** : possibilité de consultation gratuite (ex. via mutuelle)\n- **Bilan annuel** RH\n- **Accompagnement** post-événement traumatique\n\n**Au niveau collectif** :\n- **Analyse de pratiques** : groupe APP mensuel\n- **Réunions d'équipe** régulières\n- **Communication** transparente\n- **Reconnaissance** systématique\n- **Cohésion** d'équipe (événements, sorties)\n\n**Au niveau organisationnel** :\n- **Charge de travail** raisonnable\n- **Définition** claire des rôles et missions\n- **Procédures** écrites pour cas difficiles\n- **Soutien** hiérarchique\n- **Mobilité** interne possible\n\n**5. Acteurs de la prévention** :\n\n**A. Médecin du travail** :\n- **Visites médicales** régulières (embauche, périodique, reprise)\n- **Conseils** sur l'aménagement de postes\n- **Suivi spécifique** des salariés à risque\n- **Action de prévention** collective\n\n**B. CSE / CSSCT** :\n- **Information** et consultation sur le DUERP\n- **Visites de l'entreprise**\n- **Enquête** en cas d'accident\n- **Participation** au plan d'actions\n\n**C. Inspection du travail (DREETS)** :\n- **Contrôles** inopinés\n- **Conseils** gratuits\n- **Sanctions** en cas de non-conformité\n\n**D. Référent RH ou QSE** (selon taille) :\n- **Coordination** de la prévention\n- **Tenue** du DUERP\n- **Animation** des actions\n\n**E. ANACT / ARACT** régionaux :\n- **Conseil** gratuit aux structures\n- **Outils méthodologiques**\n- **Formations**\n\n**F. INRS** :\n- **Ressources nationales** : guides, fiches, formations\n- **Études** scientifiques\n\n**6. Sanctions en cas de non-conformité** :\n\n**Pas de DUERP** :\n- **Amende** : 1 500 € par salarié concerné\n- **Mise en demeure** par inspecteur du travail\n- **Récidive** : amendes accrues\n\n**DUERP non à jour** :\n- Mêmes sanctions\n\n**Accident grave avec mauvais DUERP** :\n- **Faute inexcusable** de l'employeur\n- **Cotisations majorées** AT/MP\n- **Indemnités** doublées pour la victime\n- **Risque pénal** : 5 ans + 75 000 € pour mise en danger\n\n**Insuffisance dans la prévention** :\n- Litige prud'homal en cas de burn-out\n- Reconnaissance maladie professionnelle\n- Indemnités aux victimes",
+        "plus_formation": "**Bonnes pratiques pour structures ALISFA** :\n\n**TPE (< 11 salariés)** :\n- **DUERP simplifié** : tableur Excel\n- **Mise à jour annuelle** lors d'une réunion d'équipe\n- **Médecin du travail** : visite + conseils\n- **Coût** : 0 € (DUERP) + cotisations médecin du travail (~ 80 € / salarié / an)\n\n**PME (11-49 salariés)** :\n- **DUERP structuré** : logiciel ou tableur élaboré\n- **CSE** consulté annuellement\n- **Plan annuel** d'actions\n- **Référent prévention** désigné\n- **Coût** : 500-2 000 €/an (logiciel + formation)\n\n**Grande structure (≥ 50 salariés)** :\n- **Service QSE** intégré\n- **Logiciel dédié**\n- **CSSCT** active (≥ 300 sal.)\n- **Audits réguliers**\n- **Formation continue** des managers\n- **Coût** : 5 000-30 000 €/an\n\n**Cas pratiques fréquents** :\n\n**Cas 1 — EAJE 30 places, premier DUERP** :\n- Visite médecin du travail + entretiens équipe\n- Identification : TMS portage, RPS charge émotionnelle, biologique\n- Plan d'actions : équipements ergonomiques + analyse de pratiques mensuelle\n- Mise à jour annuelle\n\n**Cas 2 — Centre social après burn-out d'un cadre** :\n- Mise à jour DUERP focalisée RPS\n- Plan d'actions : redéfinition des charges + accompagnement individuel\n- Formation managers sur la prévention\n- Communication équipe\n\n**Cas 3 — ADSL services à domicile zone rurale** :\n- DUERP focalisé : risques routiers + isolement + agression\n- Équipements : géolocalisation téléphone, dispositif d'alerte\n- Procédures : double-référent, briefing pré-intervention\n\n**Erreurs fréquentes à éviter** :\n1. **Pas de DUERP** : sanction directe + responsabilité pénale\n2. **DUERP générique** : copie d'un autre, pas adapté\n3. **Pas de mise à jour** : DUERP figé\n4. **RPS ignorés** : focus uniquement sur risques physiques\n5. **Plan d'actions oublié** : DUERP rempli mais sans suivi\n6. **Pas de communication** : équipe ne sait pas qu'il existe\n7. **Pas de consultation CSE** ≥ 11 sal. = délit d'entrave\n\n**Outils utiles** :\n- **INRS** : ressources gratuites (https://www.inrs.fr)\n- **ANACT** : guides RPS et DUERP\n- **ARACT régionaux** : conseil gratuit\n- **Logiciels** : Lascom, Préventica, Risq Manager, Qualisys\n- **Modèles** : INRS, ARS, fédérations sectorielles\n- **Médecin du travail** : appui méthodologique\n- **Cabinets QSE** : pour structures complexes",
+        "obligations_formation": "Pas d'obligation directe pour le DUERP. Formation \"Prévention RPS\" et \"Gestion du stress\" recommandée pour direction + managers (financée OPCO Uniformation).",
+        "accompagnement_obligatoire": "**Médecin du travail** : visite obligatoire embauche + périodique + appui méthodologique. **CSE / CSSCT** : consultation annuelle. **Référent prévention** dans la structure (peut cumuler avec autre fonction). **ANACT/ARACT** : conseil gratuit.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** La **Loi Santé au Travail 2021-1018** a renforcé le DUERP. **Vigilance** :\n- **Conservation 40 ans** (versions successives)\n- **Mise à jour annuelle** + à chaque évolution\n- **Consultation CSE** ≥ 11 sal. obligatoire = délit d'entrave\n- **RPS** souvent sous-évalués en structures ALISFA (fort taux de burn-out)\n- **Plateforme nationale** DUERP en cours de déploiement (à suivre)\n- **Sanctions** en cas d'accident : faute inexcusable possible\n- **Évolutions** : digitalisation progressive du DUERP",
+        "sources": [
+          "Code du travail — articles L4121-1 à L4121-5 (sécurité)",
+          "Code du travail — articles R4121-1 à R4121-4 (DUERP)",
+          "Loi n° 2021-1018 du 2 août 2021 (Santé au Travail)",
+          "Décret n° 2022-395 du 18 mars 2022 (DUERP)",
+          "ANI 2 juillet 2008 (stress)",
+          "ANI 26 mars 2010 (harcèlement et violence)"
+        ],
+        "liens": [
+          {
+            "titre": "INRS — Document Unique d'Évaluation des Risques Professionnels",
+            "url": "https://www.inrs.fr/demarche/evaluation-risques-professionnels/document-unique.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANACT — Risques psychosociaux",
+            "url": "https://www.anact.fr/risques-psychosociaux",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2021-1018 du 2 août 2021",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043884445/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Décret n° 2022-395 du 18 mars 2022",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000045369840/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Travail-Emploi — Document Unique et prévention",
+            "url": "https://travail-emploi.gouv.fr/sante-au-travail/prevention-des-risques-pour-la-sante-au-travail",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — santé sécurité au travail",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "Obligation légale stricte. En cas d'accident grave sans DUERP à jour, risque de faute inexcusable + responsabilité pénale.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - Code travail R4121 + Loi 2021-1018"
+      }
+    },
+
+    {
+      "id": "int-cybersecurite-pca",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment sécuriser les systèmes informatiques et établir un plan de continuité d'activité (PCA) ?",
+      "mots_cles": [
+        "cybersécurité PME",
+        "ANSSI MonAideCyber",
+        "ransomware sauvegarde",
+        "plan continuité activité PCA",
+        "RGPD article 32",
+        "phishing sensibilisation",
+        "double authentification 2FA",
+        "RGPD violation 72h"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "cybersecurite_continuite_activite",
+      "reponse": {
+        "synthese": "La **cybersécurité** et le **Plan de Continuité d'Activité (PCA)** sont devenus critiques pour les structures ALISFA, qui traitent des **données sensibles** (enfants, familles) et dépendent de plus en plus du numérique (paie, gestion, communication, planification). **Risques majeurs** : (1) **rançonneware** (chiffrement données + chantage), (2) **fuite de données** (sanctions RGPD), (3) **fraude au faux président** (virement détourné), (4) **panne** matérielle (sinistre). **6 mesures essentielles** : (1) **Sauvegardes** régulières externalisées, (2) **Mots de passe robustes + 2FA**, (3) **Mises à jour** systématiques, (4) **Sensibilisation équipe** au phishing, (5) **Antivirus** + pare-feu, (6) **PCA documenté**. **ANSSI** propose **MonAideCyber**, audit gratuit pour TPE-PME.",
+        "fondement_legal": "**RGPD** — article **32** (sécurité des traitements) — **Loi Informatique et Libertés** modifiée — **Code pénal** — articles **323-1 à 323-7** (atteintes aux systèmes de traitement automatisé) — **Loi Godfrain de 1988** + Loi LCEN 2004 — **Loi de programmation militaire** 2018.",
+        "minimum_legal": "**Cadre de la cybersécurité pour structures ALISFA** :\n\n**1. Risques majeurs** :\n\n**A. Ransomware (rançongiciel)** :\n- **Mécanisme** : virus chiffre tous les fichiers + demande rançon (1 000-50 000 €) en cryptomonnaie\n- **Vecteurs** : pièce jointe e-mail, lien malveillant, USB infectée\n- **Conséquences** : perte de TOUTES les données + blocage activité (3-15 jours)\n- **Cas réels en ALISFA** : ~ 5-10 cas connus / an en France (centres sociaux, EAJE)\n\n**B. Phishing et fraude au faux président** :\n- **Phishing** : e-mail frauduleux récupère identifiants (banque, CAF, fournisseurs)\n- **Faux président** : escroc se fait passer pour le directeur, demande virement urgent\n- **Pertes** : 5 000-100 000 € selon cas\n- **Difficultés** : récupération difficile (transferts internationaux)\n\n**C. Fuite de données personnelles** :\n- **Causes** : erreur humaine, vol, intrusion\n- **Conséquences RGPD** : notification CNIL en 72h + amende possible jusqu'à 4 % CA\n- **Image** : perte confiance familles, partenaires\n\n**D. Panne matérielle / catastrophe** :\n- **Causes** : incendie, inondation, vol, défaillance hardware\n- **Conséquences** : perte de données + arrêt activité\n\n**E. Erreur humaine** :\n- **Suppression accidentelle** de fichiers\n- **Mauvais paramétrage** (envoi mass mailing public)\n- **Perte de matériel** (téléphone, clé USB, PC portable)\n\n**2. 6 mesures essentielles de sécurité** :\n\n**Mesure 1 — Sauvegardes régulières externalisées** :\n- **Règle 3-2-1** :\n  - **3 copies** des données\n  - **2 supports différents** (disque dur + cloud)\n  - **1 copie hors site** (chiffrée)\n- **Périodicité** : quotidienne automatique (nuit)\n- **Tests** de restauration trimestriels\n- **Solutions** : Acronis Cyber Protect, Veeam, Backblaze, Synology+OneDrive\n- **Coût** : 200-1 000 €/an pour TPE\n\n**Mesure 2 — Authentification robuste** :\n- **Mots de passe** : 12 caractères + complexité (majuscule, minuscule, chiffre, spécial)\n- **Pas de réutilisation** entre comptes\n- **Gestionnaire de mots de passe** : Bitwarden (gratuit), 1Password, Dashlane\n- **2FA** (Authentification 2 Facteurs) : code SMS ou Google Authenticator sur comptes critiques\n- **Comptes critiques à protéger** :\n  - Messagerie professionnelle\n  - Banque en ligne\n  - Logiciel de paie\n  - Plateformes CAF / URSSAF / CSE\n  - Mon Compte Pro Formation\n  - Hébergement web et site\n\n**Mesure 3 — Mises à jour systématiques** :\n- **Système d'exploitation** : Windows, macOS, Linux\n- **Logiciels métiers** : paie, comptabilité, gestion crèche\n- **Antivirus** : à jour quotidienne automatique\n- **Navigateurs** + extensions\n- **Routeur / box** : firmware\n- **Politique** : mises à jour automatiques activées\n\n**Mesure 4 — Sensibilisation équipe** :\n- **Formation cybersécurité** annuelle (1-2 heures)\n- **Modules** :\n  - Reconnaissance phishing (e-mail suspect)\n  - Vigilance liens cliqués\n  - Utilisation USB inconnue\n  - Bonnes pratiques mots de passe\n  - Procédure incident\n- **Tests phishing** internes (envoi de faux e-mails pour mesurer la vigilance)\n- **Communication** régulière : alertes ANSSI, exemples concrets\n\n**Mesure 5 — Antivirus + pare-feu** :\n- **Antivirus professionnel** : Bitdefender, Kaspersky, ESET, Microsoft Defender\n- **Pare-feu** : intégré OS + matériel (box / routeur professionnel)\n- **Filtrage e-mail** : Microsoft 365, Google Workspace incluent du filtrage\n- **VPN** pour télétravail\n- **Coût** : 30-100 €/poste/an\n\n**Mesure 6 — Plan de Continuité d'Activité (PCA)** :\n\n**Définition** : document décrivant les **actions à mener en cas d'incident majeur** (cyberattaque, sinistre, panne) pour **maintenir** ou **rétablir l'activité essentielle**.\n\n**Contenu** :\n- **Identification** des activités essentielles (paie, accueil, sécurité enfants)\n- **Identification** des risques majeurs\n- **Procédures** pas-à-pas en cas d'incident\n- **Contacts** clés : responsable IT, prestataires, ANSSI, CNIL, banque\n- **Solutions de secours** : équipement de secours, plans alternatifs\n- **Communication** : équipe, familles, partenaires\n- **Délais cibles** : RTO (Recovery Time Objective) et RPO (Recovery Point Objective)\n\n**Tests** :\n- **Annuels** : simulation d'incident + revue procédures\n- **Mise à jour** documentation\n\n**3. Procédure en cas d'incident** :\n\n**Étape 1 — Contention immédiate** :\n- **Déconnecter** la machine infectée du réseau\n- **NE PAS éteindre** (pour analyse forensique)\n- **NE PAS payer** la rançon (pas de garantie + finance les criminels)\n- **NE PAS donner** d'informations supplémentaires aux attaquants\n\n**Étape 2 — Notification rapide** :\n- **CSE / direction** informée\n- **Prestataire IT** ou consultant cybersécurité contacté\n- **ANSSI** : assistance technique gratuite (https://www.cybermalveillance.gouv.fr)\n- **Cyber Police / Gendarmerie** : dépôt de plainte\n- **Banque** : si fraude financière\n- **CNIL** : si fuite de données personnelles, notification dans **72h** maximum (RGPD article 33)\n\n**Étape 3 — Évaluation et restauration** :\n- **Diagnostic** : nature de l'attaque, ampleur\n- **Restauration** depuis sauvegardes\n- **Renforcement** sécurité : nouveaux mots de passe, audit\n- **Communication** familles si nécessaire\n\n**Étape 4 — Bilan et amélioration** :\n- **Retour d'expérience** documenté\n- **Mise à jour** PCA\n- **Formation** complémentaire équipe\n- **Audit** sécurité externe\n\n**4. Outils gratuits ANSSI / Cybermalveillance** :\n\n**A. MonAideCyber** :\n- **Audit gratuit** pour TPE-PME et associations\n- **3-5 jours** d'accompagnement\n- **Plan d'actions** personnalisé\n- **Inscription** : monaidecyber.ssi.gouv.fr\n\n**B. Cybermalveillance.gouv.fr** :\n- **Dispositif national** d'assistance aux victimes\n- **Diagnostic** en ligne\n- **Mise en relation** avec prestataires labellisés\n- **Ressources** gratuites (guides, vidéos)\n\n**C. Diag CyberSec ANSSI** :\n- **Auto-diagnostic** en ligne\n- **80 questions** sur 13 domaines\n- **Rapport** personnalisé\n\n**5. Coût estimatif de la cybersécurité** :\n\n**TPE (5-10 salariés)** :\n- Antivirus + sauvegardes : 500-1 500 €/an\n- Sensibilisation : 500-1 000 €/an\n- Audit annuel : 1 000-3 000 € (ou MonAideCyber gratuit)\n- **Total** : ~ 2 000-5 000 €/an\n\n**PME (10-50 salariés)** :\n- Antivirus + sauvegardes : 1 500-5 000 €/an\n- Prestataire IT externe : 5 000-15 000 €/an\n- Sensibilisation : 1 000-3 000 €/an\n- Audit annuel : 3 000-8 000 €\n- **Total** : ~ 10 000-30 000 €/an\n\n**Grande structure (≥ 50 salariés)** :\n- Service IT interne : 50 000-150 000 €/an (1 ETP)\n- Outils sécurisés professionnels\n- Audits réguliers\n- **Total** : ~ 60 000-200 000 €/an\n\n**Financement possible** :\n- **Région** : aides numérique\n- **CAF** : numérisation EAJE\n- **OPCO Uniformation** : formation cybersécurité\n- **Plan France Relance / France 2030** : aides numérique inclusif et cybersécurité",
+        "plus_formation": "**Recommandations pratiques par taille** :\n\n**TPE / structure démarrage** :\n- **Microsoft 365** ou **Google Workspace** : sécurisé par défaut (cloud)\n- **Bitwarden** gratuit pour mots de passe\n- **Sauvegarde** : Backblaze 70 €/an + disque externe\n- **Antivirus** : Microsoft Defender (gratuit Windows) + complément si Mac\n- **Sensibilisation** : MOOC ANSSI gratuit\n\n**PME** :\n- **Microsoft 365 Business Premium** : sécurité avancée (Conditional Access, Defender for Cloud)\n- **Veeam** ou **Acronis** : sauvegarde professionnelle\n- **2FA** sur tous les comptes critiques\n- **Prestataire IT** : maintenance préventive\n- **Audit annuel** par cabinet labellisé\n\n**Grande structure** :\n- **SOC** (Security Operations Center) externalisé\n- **DLP** (Data Loss Prevention)\n- **SIEM** (Security Information Event Management)\n- **Red Team** : tests de pénétration annuels\n\n**Cas pratiques fréquents** :\n\n**Cas 1 — EAJE 30 places, premier audit cybersécurité** :\n- MonAideCyber demandé (gratuit ANSSI)\n- Diagnostic : pas de sauvegarde externe, mots de passe faibles\n- Plan d'actions : sauvegardes externalisées + 2FA + sensibilisation\n- Coût : 800 €/an (sauvegardes + outils)\n- **Bénéfice** : réduction risque attaque\n\n**Cas 2 — Centre social après attaque ransomware** :\n- Données chiffrées, demande 8 000 € rançon\n- **Restauration** depuis sauvegardes externes (perte 24h)\n- Notification CNIL (fuite suspectée)\n- Audit ANSSI gratuit\n- Renforcement sécurité\n- **Coût total** : 5 000 € (consultant + restauration)\n\n**Cas 3 — Fraude au faux président** :\n- E-mail \"directeur\" demande virement 8 000 € urgent\n- Comptable vérifie par téléphone → suspicion détectée\n- Plainte police\n- Sensibilisation équipe renforcée\n- Procédure de double-validation virements > 2 000 €\n\n**Erreurs fréquentes à éviter** :\n1. **Pas de sauvegarde externe** : risque catastrophique\n2. **Mots de passe faibles** : 80 % des attaques exploitent ce point\n3. **Pas de 2FA** : protection minimale\n4. **Pas de mises à jour** : vulnérabilités ouvertes\n5. **Pas de sensibilisation équipe** : phishing efficace\n6. **Pas de PCA** : panique en cas d'incident\n7. **Payer la rançon** : finance les criminels + pas de garantie\n8. **Pas de notification CNIL** en cas de fuite : sanction supplémentaire\n\n**Outils utiles gratuits** :\n- **Cybermalveillance.gouv.fr** : assistance victimes\n- **ANSSI** : ressources, MonAideCyber\n- **CNIL** : guides RGPD et sécurité\n- **MOOC SecNum académie** : formation gratuite ANSSI\n- **HaveIBeenPwned.com** : vérifier si vos données ont fuité\n- **Bitwarden** : gestionnaire mots de passe\n- **Microsoft Defender** : antivirus intégré Windows",
+        "obligations_formation": "Formation cybersécurité annuelle de l'équipe recommandée (1-2h, financée OPCO Uniformation).",
+        "accompagnement_obligatoire": "**Référent cybersécurité** désigné (souvent direction ou IT). **Prestataire IT** pour structures ≥ 30 salariés. **MonAideCyber ANSSI** : audit gratuit. **Cybermalveillance.gouv.fr** : assistance victime.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** La **cybersécurité** est de plus en plus encadrée (RGPD, Loi LPM 2018). **Vigilance** :\n- **Notification CNIL 72h** en cas de fuite de données : oubli = sanction\n- **PCA** non obligatoire mais fortement recommandé\n- **Évolutions** : NIS2 (2024-2025) renforce les obligations cybersécurité pour certaines entités\n- **Cyberattaques en hausse** : structures ALISFA de plus en plus ciblées\n- **Investissement minimum** : ~ 1-2 % du chiffre d'affaires recommandé pour la cybersécurité\n- **Test des sauvegardes** : trimestriel, sinon risque que les sauvegardes ne fonctionnent pas en cas d'incident",
+        "sources": [
+          "RGPD — article 32 (sécurité des traitements)",
+          "Code pénal — articles 323-1 à 323-7 (cybercriminalité)",
+          "Loi n° 2018-2018 (Loi Programmation Militaire)",
+          "ANSSI — Agence Nationale Sécurité Systèmes Information",
+          "Cybermalveillance.gouv.fr — dispositif national"
+        ],
+        "liens": [
+          {
+            "titre": "Cybermalveillance.gouv.fr — assistance et prévention",
+            "url": "https://www.cybermalveillance.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANSSI — MonAideCyber audit gratuit",
+            "url": "https://monaidecyber.ssi.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANSSI — guide cybersécurité",
+            "url": "https://www.ssi.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "CNIL — sécurité des données personnelles",
+            "url": "https://www.cnil.fr/fr/securite",
+            "type": "officiel"
+          },
+          {
+            "titre": "EUR-Lex — Règlement RGPD article 32",
+            "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679",
+            "type": "legislation"
+          },
+          {
+            "titre": "ALISFA — numérique et cybersécurité",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "En cas d'incident grave (ransomware, fraude), contacter immédiatement Cybermalveillance.gouv.fr + ANSSI + Police (cyber).",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - RGPD article 32 + ANSSI + Cybermalveillance"
+      }
+    },
+
+    {
+      "id": "int-communication-crise",
+      "_theme_target": "intentions_directeur",
+      "question_type": "Comment gérer la communication de crise (incident grave, médiatisation, fermeture imprévue) ?",
+      "mots_cles": [
+        "communication de crise",
+        "cellule de crise",
+        "porte-parole unique",
+        "médias presse locale",
+        "réseaux sociaux gestion",
+        "incident grave protocole",
+        "transparence vs confidentialité",
+        "post-crise rétablissement"
+      ],
+      "structures_concernees": ["EAJE", "centre_social", "ADSL", "EVS", "ACM"],
+      "intention_directeur": "communication_crise",
+      "reponse": {
+        "synthese": "La **communication de crise** est essentielle pour préserver la **confiance des familles, partenaires et autorités** en cas d'**incident grave** (accident, signalement maltraitance, fraude, sinistre, médiatisation). **5 principes clés** : (1) **Anticiper** avec un plan de communication de crise, (2) **Désigner un porte-parole unique**, (3) **Communiquer rapidement et transparente** sans compromettre l'enquête, (4) **Coordonner avec autorités** (procureur, PMI, CAF), (5) **Capitaliser** post-crise pour reconstruire la confiance. **Risques en cas de mauvaise gestion** : amplification médiatique, perte d'agrément, fuite des familles, démotivation équipe. **Vigilance ALISFA** : présomption d'innocence + protection des mineurs sont systématiquement à respecter.",
+        "fondement_legal": "**Code pénal** — articles **226-13** (secret professionnel) et **226-14** (dérogation pour signalement) — **Loi du 29 juillet 1881** sur la liberté de la presse — **RGPD** (protection données personnelles dans communication) — **Code de l'action sociale** — articles relatifs à la confidentialité.",
+        "minimum_legal": "**Cadre de la communication de crise** :\n\n**1. Types de crises en structure ALISFA** :\n\n**A. Crise sanitaire / accident** :\n- Accident grave d'enfant ou de salarié·e\n- Pandémie locale (épidémie, foyer COVID)\n- Intoxication alimentaire\n- Catastrophe naturelle\n\n**B. Crise sociale / RH** :\n- Conflit interne grave (grève)\n- Démission collective\n- Suicide ou tentative de salarié·e\n- Burn-out médiatisé\n\n**C. Crise pénale / justice** :\n- Signalement de maltraitance (cf. article connexe)\n- Mise en examen d'un·e salarié·e\n- Plainte d'une famille\n- Audition police / gendarmerie\n\n**D. Crise financière / juridique** :\n- Fraude (faux président, détournement)\n- Cyberattaque (ransomware, fuite données)\n- Liquidation judiciaire\n- Perte d'agrément\n\n**E. Crise médiatique / réputation** :\n- Article négatif presse locale\n- Buzz négatif réseaux sociaux\n- Témoignage d'usager mécontent\n- Polémique politique\n\n**2. Anticipation — Plan de Communication de Crise (PCC)** :\n\n**Élaboration en amont** :\n- **Identification** des risques majeurs\n- **Scénarios** prédéfinis (5-10 cas typiques)\n- **Procédures** de réponse pas-à-pas\n- **Modèles** de communiqués\n- **Liste** de contacts utiles (médias, autorités, conseil juridique)\n- **Cellule de crise** : composition, rôles\n- **Tests** annuels (exercice de simulation)\n\n**Composition de la cellule de crise** :\n- **Directeur·trice** : décisionnaire principal\n- **Président·e CA** ou bureau : autorité politique\n- **Responsable RH** : aspects salariés\n- **Référent·e communication** : médias et publics\n- **Conseil juridique** (avocat ou expert) : appel selon nécessité\n- **Référent·e métier** (selon la nature de la crise) : médecin, psychologue\n\n**3. Principes fondamentaux de communication de crise** :\n\n**A. Rapidité** :\n- **Réagir dans les heures** suivant l'incident\n- **Pas de silence prolongé** : laisse place aux rumeurs\n- **Première communication** dans les 24h maximum\n\n**B. Transparence** :\n- **Dire ce que l'on sait** (sans inventer)\n- **Dire ce que l'on ne sait pas** (humilité)\n- **Dire ce que l'on va faire** (action)\n- **Pas de mensonge** : risque catastrophique si découvert\n\n**C. Empathie** :\n- **Reconnaître** la souffrance des victimes\n- **Excuses** sincères si responsabilité\n- **Soutien** explicite\n\n**D. Cohérence** :\n- **Porte-parole unique** : direction ou président\n- **Message** identique sur tous les canaux\n- **Coordination** étroite équipe\n\n**E. Respect** :\n- **Présomption d'innocence** des éventuels accusés\n- **Protection** des mineurs (anonymat absolu)\n- **Confidentialité** sur les détails non publics\n- **Coordination** avec les autorités (procureur, police)\n\n**4. Procédure de gestion de crise** :\n\n**Étape 1 — Détection (T+0)** :\n- **Information** au directeur·trice + président·e CA\n- **Convocation immédiate** cellule de crise\n- **Évaluation** : nature, ampleur, urgence, parties impliquées\n\n**Étape 2 — Stabilisation (T+0 à T+2h)** :\n- **Mesures conservatoires** (mise à pied, isolement zone, sécurité)\n- **Notification** autorités (procureur, CRIP, PMI, CAF si requis)\n- **Information** salariés essentiels (équipe direct concernée)\n- **Briefing** équipe (consigne de silence média sans accord)\n\n**Étape 3 — Première communication (T+2h à T+24h)** :\n- **Communiqué interne** salariés + bénévoles\n- **Communication** aux familles (e-mail, SMS, réunion)\n- **Communiqué de presse** si médiatisation prévue\n- **Coordination** avec porte-parole autorités si applicable\n\n**Étape 4 — Suivi pendant la crise** :\n- **Communiqués** réguliers (1 fois / jour minimum)\n- **Interviews** : préparation soigneuse, porte-parole unique\n- **Réseaux sociaux** : modération, réponses réfléchies\n- **Soutien** familles, équipe, victimes\n- **Coordination** continue cellule de crise\n\n**Étape 5 — Sortie de crise** :\n- **Communication** sur les actions engagées\n- **Bilan** transparent\n- **Reconstruction** confiance : actions visibles, communication continue\n- **Soutien** durable victimes\n\n**Étape 6 — Post-crise (J+30 et au-delà)** :\n- **Retour d'expérience** : ce qui a fonctionné, ce qui n'a pas\n- **Mise à jour** PCC\n- **Formation** équipe\n- **Communication** annuelle sur les progrès\n\n**5. Communication aux différents publics** :\n\n**A. Familles / usagers** :\n- **Ton** : empathique, factuel, rassurant\n- **Canal** : e-mail individuel + réunion collective si possible\n- **Contenu** : faits, mesures prises, contact\n- **Vigilance** : pas de détails compromettants pour l'enquête\n\n**B. Équipe salariée** :\n- **Ton** : transparent, soutenant\n- **Canal** : réunion physique ou visio\n- **Contenu** : faits, organisation, instructions communication\n- **Soutien** : cellule d'écoute si besoin\n\n**C. Autorités (procureur, police, PMI, CAF)** :\n- **Ton** : factuel, coopératif\n- **Canal** : courrier officiel + appels téléphoniques\n- **Contenu** : tous les faits + documents pertinents\n- **Coordination** : éviter contradictions avec eux\n\n**D. Médias** :\n- **Ton** : factuel, posé, sans excès\n- **Canal** : communiqué de presse + interviews\n- **Contenu** : ce qui peut être dit publiquement\n- **Vigilance** :\n  - **Pas de off-record** (tout peut être publié)\n  - **Préparation** des éléments de langage\n  - **Anticipation** des questions difficiles\n  - **Refus** poli si non-information\n\n**E. Réseaux sociaux** :\n- **Modération active** : réponse aux commentaires\n- **Désactivation possible** des commentaires si harcèlement\n- **Posts** factuels, mesurés\n- **Ne pas** entrer dans les polémiques\n\n**F. Partenaires institutionnels** :\n- **Information** rapide (CAF, mairie, fédération)\n- **Concertation** avant communication publique\n- **Soutien** mutuel possible\n\n**6. Outils de communication** :\n\n**Communiqué de presse type** :\n```\n[Logo + en-tête structure]\nCommuniqué — [Lieu], le [date]\n\n[Titre factuel]\n\n[Paragraphe 1] : Faits objectifs (sans spéculation)\n[Paragraphe 2] : Empathie + soutien aux victimes\n[Paragraphe 3] : Mesures conservatoires prises\n[Paragraphe 4] : Coopération avec autorités\n[Paragraphe 5] : Engagement à informer\n\nContact presse : [nom, fonction, téléphone, e-mail]\n```\n\n**Modèle e-mail aux familles** :\n```\nObjet : [Information importante] — [Nom structure]\n\nMadame, Monsieur,\n\nJe vous informe d'un événement survenu [date, contexte général sans détail compromettant].\n\nLes mesures suivantes ont été prises immédiatement :\n- [Mesure 1]\n- [Mesure 2]\n\nLes autorités compétentes [...] ont été informées et coopèrent avec nous.\n\nVotre enfant est en sécurité. [Informations spécifiques]\n\nNous restons à votre disposition pour toute question.\n[Coordonnées contact dédié]\n\n[Direction]\n```\n\n**7. Pièges à éviter** :\n\n**Pièges juridiques** :\n- **Diffamation** : accuser publiquement sans preuve\n- **Atteinte présomption innocence** : nommer un suspect\n- **Atteinte vie privée** : divulguer détails sur mineurs\n- **Violation secret enquête** : commenter procédure en cours\n\n**Pièges médiatiques** :\n- **Off-record** trahis\n- **Phrases sorties du contexte**\n- **Rumeur amplifiée** par silence\n- **Comparaison** maladroite avec d'autres affaires\n\n**Pièges relationnels** :\n- **Communication équipe** insuffisante\n- **Familles** mal informées\n- **Autorités** mal coordonnées\n- **Bénévoles** oubliés",
+        "plus_formation": "**Cas pratiques fréquents** :\n\n**Cas 1 — Accident grave d'un enfant en EAJE** :\n- Premiers secours\n- Cellule de crise convoquée\n- Notification PMI + parents immédiate\n- Communication aux autres familles : transparente, empathique\n- Médias : préparé via communiqué\n- Suivi famille touchée\n- Bilan + actions correctives\n\n**Cas 2 — Signalement maltraitance médiatisé** :\n- Coordination étroite avec procureur\n- Présomption d'innocence respectée\n- Communication minimaliste : « les faits sont en cours d'investigation »\n- Soutien interne : équipe + familles\n- Pas de spéculation publique\n- Reconstruction post-décision judiciaire\n\n**Cas 3 — Cyberattaque ransomware avec fuite de données** :\n- Notification CNIL 72h\n- Information familles (transparence sur fuite)\n- Coordination ANSSI + cabinet juridique\n- Communication réseaux sociaux mesurée\n- Renforcement sécurité publique\n\n**Cas 4 — Article négatif presse locale** :\n- Lecture attentive\n- Droit de réponse exercé si erreurs factuelles\n- Communication interne pour rassurer équipe\n- Communication aux familles : faits + perspective\n- Pas d'escalade médiatique\n\n**Cas 5 — Liquidation judiciaire** :\n- Information AG extraordinaire\n- Communication équipe : transparente, soutien\n- Communication familles : continuité d'accueil + perspective\n- Coordination avec administrateur judiciaire\n- Médias : porte-parole unique direction\n\n**Erreurs fréquentes à éviter** :\n1. **Silence prolongé** : amplification rumeurs\n2. **Multiples porte-parole** : messages contradictoires\n3. **Mensonge ou minimisation** : dévoilement catastrophique\n4. **Communication via réseaux sociaux** sans préparation\n5. **Confidentialité brisée** : données mineurs ou victimes divulguées\n6. **Pas de coordination** avec autorités : contradictions\n7. **Pas de soutien** aux victimes : récidive juridique potentielle\n8. **Pas de PCC** : panique, improvisation\n\n**Outils utiles** :\n- **Avocat spécialisé droit médias** : conseil avant prise de parole\n- **Agence de communication de crise** : structures complexes\n- **Fédération** ALISFA / FCSF : retours d'expérience\n- **Service Communication mairie / collectivités** : coordination institutionnelle\n- **Cellule d'écoute psychologique** : pour équipe, familles, victimes\n\n**Préparation annuelle** :\n- **Exercice** simulation de crise (1 fois/an)\n- **Mise à jour** PCC\n- **Formation** porte-parole (médias, prise de parole)\n- **Sensibilisation** équipe\n- **Audit** des risques majeurs",
+        "obligations_formation": "Pas d'obligation. Formation \"Communication de crise\" et \"Prise de parole médias\" recommandée pour direction + président·e CA.",
+        "accompagnement_obligatoire": "**Cellule de crise** prévue dans PCC. **Avocat spécialisé** : conseil juridique avant communication. **Coordination autorités** (procureur, PMI, CAF, ANSSI selon nature) systématique. **Cellule d'écoute** psychologique pour équipe + familles si besoin.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** **Vigilance** :\n- **Présomption d'innocence** : ne JAMAIS nommer un accusé non condamné\n- **Protection mineurs** : anonymat absolu (Code action sociale + RGPD)\n- **Coordination autorités** : ne pas devancer leurs communications\n- **Off-record** : tout peut être publié, ne rien dire qu'on ne souhaite voir public\n- **Réseaux sociaux** : danger de la viralité, modération nécessaire\n- **Évolutions médias** : la communication numérique évolue rapidement, formation continue recommandée\n- **Journalistes locaux** : entretenir des relations professionnelles avant la crise (pas après)",
+        "sources": [
+          "Code pénal — articles 226-13 et 226-14 (secret professionnel)",
+          "Loi du 29 juillet 1881 sur la liberté de la presse",
+          "RGPD — protection données personnelles",
+          "Code de l'action sociale et des familles — confidentialité",
+          "Recommandations ANSSI sur communication post-cyber-attaque"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code pénal article 226-13 (secret professionnel)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289590/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Légifrance — Loi du 29 juillet 1881 sur la liberté de la presse",
+            "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070722/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Diffamation et droit de réponse",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F32079",
+            "type": "officiel"
+          },
+          {
+            "titre": "Cybermalveillance.gouv — communication post-incident",
+            "url": "https://www.cybermalveillance.gouv.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — gestion de crise et communication",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "Avant toute prise de parole publique en cas d'incident grave, consulter avocat spécialisé droit des médias + coordonner avec autorités (procureur, PMI, CAF).",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - Branche ALISFA - Code pénal 226-13 + Loi presse 1881"
+      }
+    }
+
+  ]
+}
