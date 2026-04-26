@@ -29,10 +29,24 @@ export interface UserProfile {
  * l'onboarding. Toutes optionnelles. Whitelist côté backend.
  */
 /** Sprint 4.6 F6 — Annuaire d'orientation */
+export type ActeurType =
+  | 'elisfa'
+  | 'federation'
+  | 'syndicat'
+  | 'opco'
+  | 'etat'
+  | 'deconcentre'
+  | 'collectivite'
+  | 'operateur'
+  | 'vie_asso'
+  | 'ressource'
+  | 'urgence'
+  | 'partenaire';
+
 export interface Acteur {
   id: string;
   nom: string;
-  type: 'elisfa' | 'federation' | 'syndicat' | 'opco' | 'institutionnel' | 'operateur' | 'partenaire' | 'ressource';
+  type: ActeurType;
   role: string;
   description?: string;
   email?: string;
@@ -58,7 +72,13 @@ export interface OrientationDetail {
 
 export interface RegionInfo {
   region: string;
+  code?: string;
+  type?: 'metropole' | 'drom' | 'com';
   elisfa_referent: string;
+  elisfa_email?: string;
+  region_label?: string;
+  region_url?: string;
+  prefecture_url?: string;
   fcsf_federations: string[];
   acepp_federations: string[];
 }

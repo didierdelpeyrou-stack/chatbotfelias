@@ -1,7 +1,8 @@
 <script lang="ts">
-  // Sprint 4.6 F6 Phase 1 — Annuaire d'orientation
+  // Sprint 4.6 F6 v2 — Annuaire d'orientation enrichi
   // 3 onglets : Mon problème (orientations) / Ma région / Tous les acteurs
-  import type { Acteur, OrientationSummary, OrientationDetail, RegionInfo } from './types';
+  // Toutes les fiches ont des liens cliquables. Détail région amélioré.
+  import type { Acteur, ActeurType, OrientationSummary, OrientationDetail, RegionInfo } from './types';
   import { fetchOrientations, fetchOrientationDetail, fetchRegions, fetchActeurs } from './api';
 
   interface Props {
@@ -13,13 +14,13 @@
   type Tab = 'orientation' | 'region' | 'acteurs';
   let activeTab = $state<Tab>('orientation');
 
-  // Données chargées paresseusement (1 fetch par onglet)
   let orientations = $state<OrientationSummary[] | null>(null);
   let orientationDetail = $state<OrientationDetail | null>(null);
   let regions = $state<RegionInfo[] | null>(null);
   let selectedRegion = $state<string | null>(null);
   let acteurs = $state<Acteur[] | null>(null);
   let acteursFilter = $state<string>('');
+  let postalCode = $state<string>('');
   let loading = $state(false);
   let error = $state<string | null>(null);
 
@@ -73,6 +74,8 @@
     if (e.key === 'Escape') {
       if (orientationDetail) {
         backToOrientations();
+      } else if (selectedRegion) {
+        selectedRegion = null;
       } else {
         onClose();
       }
@@ -96,17 +99,70 @@
     regions?.find((r) => r.region === selectedRegion) ?? null,
   );
 
-  // Couleur badge par type acteur
-  const TYPE_BADGES: Record<Acteur['type'], { label: string; className: string }> = {
+  // Groupement régions par type pour l'onglet "Ma région"
+  let regionsMetropole = $derived(regions?.filter((r) => r.type === 'metropole' || !r.type) ?? []);
+  let regionsDrom = $derived(regions?.filter((r) => r.type === 'drom') ?? []);
+  let regionsCom = $derived(regions?.filter((r) => r.type === 'com') ?? []);
+
+  // Groupement acteurs par type pour l'onglet "Tous"
+  const TYPE_ORDER: ActeurType[] = [
+    'elisfa', 'federation', 'opco', 'etat', 'deconcentre',
+    'collectivite', 'vie_asso', 'operateur', 'ressource',
+    'partenaire', 'urgence',
+  ];
+  const TYPE_GROUP_LABELS: Record<ActeurType, string> = {
+    elisfa: 'ELISFA & branche ALISFA',
+    federation: 'Fédérations partenaires',
+    syndicat: 'Syndicats',
+    opco: 'OPCO & formation',
+    etat: 'État & sites officiels',
+    deconcentre: 'Pouvoirs déconcentrés (Préfecture, DREETS, ARS…)',
+    collectivite: 'Collectivités territoriales',
+    vie_asso: 'Vie associative & accompagnement',
+    operateur: 'Opérateurs spécialisés',
+    ressource: 'Ressources & doctrine',
+    partenaire: 'Partenaires conseil',
+    urgence: 'Urgence',
+  };
+
+  let groupedActeurs = $derived(() => {
+    const list = filteredActeurs();
+    const groups: Array<[ActeurType, Acteur[]]> = [];
+    for (const t of TYPE_ORDER) {
+      const items = list.filter((a) => a.type === t);
+      if (items.length > 0) groups.push([t, items]);
+    }
+    return groups;
+  });
+
+  // Lien dynamique vers lannuaire.service-public.fr (préfilltré code postal si fourni)
+  let lannuaireUrl = $derived(() => {
+    const cp = postalCode.trim();
+    if (cp && /^\d{5}$/.test(cp)) {
+      return `https://lannuaire.service-public.fr/recherche?whoami=particulier&query=${cp}`;
+    }
+    return 'https://lannuaire.service-public.fr';
+  });
+
+  // Couleur badge par type
+  const TYPE_BADGES: Record<ActeurType, { label: string; className: string }> = {
     elisfa: { label: 'ELISFA', className: 'bg-blue-50 text-blue-700 border-blue-200' },
     federation: { label: 'Fédération', className: 'bg-purple-50 text-purple-700 border-purple-200' },
     syndicat: { label: 'Syndicat', className: 'bg-blue-50 text-blue-700 border-blue-200' },
     opco: { label: 'OPCO', className: 'bg-orange-50 text-orange-700 border-orange-200' },
-    institutionnel: { label: 'Institution', className: 'bg-grey-100 text-grey-700 border-grey-200' },
-    operateur: { label: 'Opérateur', className: 'bg-green-50 text-green-700 border-green-200' },
-    partenaire: { label: 'Partenaire', className: 'bg-grey-100 text-grey-700 border-grey-200' },
+    etat: { label: 'État', className: 'bg-navy-100 text-navy-900 border-navy-200' },
+    deconcentre: { label: 'Déconcentré', className: 'bg-blue-50 text-blue-700 border-blue-200' },
+    collectivite: { label: 'Collectivité', className: 'bg-green-50 text-green-700 border-green-200' },
+    operateur: { label: 'Opérateur', className: 'bg-grey-100 text-grey-700 border-grey-200' },
+    vie_asso: { label: 'Vie asso', className: 'bg-purple-50 text-purple-700 border-purple-200' },
     ressource: { label: 'Ressource', className: 'bg-grey-100 text-grey-600 border-grey-200' },
+    urgence: { label: 'Urgence', className: 'bg-red-100 text-red-700 border-red-200' },
+    partenaire: { label: 'Partenaire', className: 'bg-grey-100 text-grey-700 border-grey-200' },
   };
+
+  function shortUrl(u: string): string {
+    return u.replace(/^https?:\/\//, '').replace(/\/$/, '');
+  }
 </script>
 
 <svelte:window onkeydown={onKeyDown} />
@@ -115,7 +171,15 @@
   {@const badge = TYPE_BADGES[a.type]}
   <div class="bg-white border border-grey-200 rounded-lg p-3 hover:border-grey-300 hover:shadow-sm transition">
     <div class="flex items-start justify-between gap-2 mb-1">
-      <h4 class="font-semibold text-sm text-navy-900 leading-snug">{a.nom}</h4>
+      <h4 class="font-semibold text-sm text-navy-900 leading-snug">
+        {#if a.url}
+          <a href={a.url} target="_blank" rel="noopener noreferrer" class="hover:underline">
+            {a.nom}
+          </a>
+        {:else}
+          {a.nom}
+        {/if}
+      </h4>
       <span class="shrink-0 text-[10px] uppercase font-bold tracking-wider rounded px-1.5 py-0.5 border {badge.className}">
         {badge.label}
       </span>
@@ -124,21 +188,26 @@
     {#if a.description}
       <p class="text-xs text-grey-600 leading-relaxed">{a.description}</p>
     {/if}
-    {#if a.email || a.phone || a.url}
-      <div class="mt-2 flex flex-wrap gap-2 text-xs">
-        {#if a.email}
-          <a href={`mailto:${a.email}`} class="text-blue-600 hover:underline">✉ {a.email}</a>
-        {/if}
-        {#if a.phone}
-          <a href={`tel:${a.phone.replace(/\s/g, '')}`} class="text-blue-600 hover:underline">📞 {a.phone}</a>
-        {/if}
-        {#if a.url}
-          <a href={a.url} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
-            🔗 {a.url.replace(/^https?:\/\//, '').replace(/\/$/, '')}
-          </a>
-        {/if}
-      </div>
-    {/if}
+    <div class="mt-2 flex flex-wrap gap-2 text-xs">
+      {#if a.url}
+        <a
+          href={a.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-center gap-1"
+        >🔗 {shortUrl(a.url)}</a>
+      {/if}
+      {#if a.email}
+        <a href={`mailto:${a.email}`} class="text-blue-600 hover:text-blue-800 hover:underline">
+          ✉ {a.email}
+        </a>
+      {/if}
+      {#if a.phone}
+        <a href={`tel:${a.phone.replace(/\s/g, '')}`} class="text-blue-600 hover:text-blue-800 hover:underline">
+          📞 {a.phone}
+        </a>
+      {/if}
+    </div>
   </div>
 {/snippet}
 
@@ -197,9 +266,9 @@
           <p class="text-sm text-grey-500 py-8 text-center">Chargement…</p>
         {:else if error}
           <p class="text-sm text-red-600 py-4">⚠️ {error}</p>
+
         {:else if activeTab === 'orientation'}
           {#if orientationDetail}
-            <!-- Vue détail orientation -->
             <button
               class="text-xs text-grey-600 hover:text-grey-900 mb-3 cursor-pointer"
               onclick={backToOrientations}
@@ -255,15 +324,96 @@
             <h3 class="text-base font-semibold text-navy-900 flex items-center gap-2 mb-3">
               <span>📍</span>
               <span>{selectedRegionInfo.region}</span>
+              {#if selectedRegionInfo.type === 'drom'}
+                <span class="text-[10px] uppercase font-bold tracking-wider rounded px-1.5 py-0.5 bg-orange-100 text-orange-700 border border-orange-200">DROM</span>
+              {:else if selectedRegionInfo.type === 'com'}
+                <span class="text-[10px] uppercase font-bold tracking-wider rounded px-1.5 py-0.5 bg-purple-100 text-purple-700 border border-purple-200">COM</span>
+              {/if}
             </h3>
-            <div class="bg-white border-2 border-blue-300 rounded-lg p-3 mb-4">
+
+            <!-- Référent ELISFA -->
+            <div class="bg-white border-2 border-blue-300 rounded-lg p-3 mb-3">
               <div class="text-[10px] uppercase tracking-wider font-bold text-blue-600 mb-1">
                 Votre référent ELISFA
               </div>
               <p class="text-sm text-navy-900 font-medium">{selectedRegionInfo.elisfa_referent}</p>
+              {#if selectedRegionInfo.elisfa_email}
+                <a href={`mailto:${selectedRegionInfo.elisfa_email}`} class="text-xs text-blue-600 hover:underline">
+                  ✉ {selectedRegionInfo.elisfa_email}
+                </a>
+              {/if}
             </div>
+
+            <!-- Conseil régional + Préfecture -->
+            <div class="grid sm:grid-cols-2 gap-2 mb-4">
+              {#if selectedRegionInfo.region_url}
+                <a
+                  href={selectedRegionInfo.region_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bg-white border border-green-200 hover:border-green-500 hover:bg-green-50 rounded-lg p-3 transition"
+                >
+                  <div class="text-[10px] uppercase tracking-wider font-bold text-green-700 mb-0.5">
+                    🏛 Conseil régional
+                  </div>
+                  <p class="text-sm font-medium text-navy-900">
+                    {selectedRegionInfo.region_label ?? selectedRegionInfo.region}
+                  </p>
+                  <p class="text-xs text-blue-600 mt-1">{shortUrl(selectedRegionInfo.region_url)}</p>
+                </a>
+              {/if}
+              {#if selectedRegionInfo.prefecture_url}
+                <a
+                  href={selectedRegionInfo.prefecture_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bg-white border border-blue-200 hover:border-blue-500 hover:bg-blue-50 rounded-lg p-3 transition"
+                >
+                  <div class="text-[10px] uppercase tracking-wider font-bold text-blue-700 mb-0.5">
+                    🇫🇷 Préfecture de région
+                  </div>
+                  <p class="text-sm font-medium text-navy-900">
+                    {selectedRegionInfo.region_label ?? selectedRegionInfo.region}
+                  </p>
+                  <p class="text-xs text-blue-600 mt-1">{shortUrl(selectedRegionInfo.prefecture_url)}</p>
+                </a>
+              {/if}
+            </div>
+
+            <!-- Recherche par code postal / commune -->
+            <div class="bg-grey-50 border border-grey-200 rounded-lg p-3 mb-4">
+              <div class="text-[10px] uppercase tracking-wider font-bold text-grey-600 mb-2">
+                Trouver mon département / communauté / commune
+              </div>
+              <div class="flex flex-col sm:flex-row gap-2">
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  pattern="\d{5}"
+                  maxlength="5"
+                  placeholder="Code postal (ex : 75001)"
+                  class="flex-1 text-sm border border-grey-300 rounded-md px-3 py-1.5 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none"
+                  value={postalCode}
+                  oninput={(e) => (postalCode = (e.target as HTMLInputElement).value)}
+                />
+                <a
+                  href={lannuaireUrl()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-xs text-white bg-blue-600 hover:bg-blue-700 rounded-md px-3 py-1.5 font-semibold flex items-center gap-1 justify-center transition"
+                >
+                  Rechercher sur Service-Public ↗
+                </a>
+              </div>
+              <p class="text-[11px] text-grey-500 mt-1.5 leading-snug">
+                Ouvre l'annuaire officiel des collectivités locales (mairies,
+                conseils départementaux, intercommunalités…) pour votre territoire.
+              </p>
+            </div>
+
+            <!-- FCSF -->
             {#if selectedRegionInfo.fcsf_federations.length > 0}
-              <div class="mb-4">
+              <div class="mb-3">
                 <h4 class="text-[11px] uppercase tracking-wider font-bold text-green-700 mb-2 flex items-center gap-1">
                   <span>🏠</span> Fédérations FCSF (centres sociaux)
                 </h4>
@@ -274,8 +424,10 @@
                 </ul>
               </div>
             {/if}
+
+            <!-- ACEPP -->
             {#if selectedRegionInfo.acepp_federations.length > 0}
-              <div>
+              <div class="mb-3">
                 <h4 class="text-[11px] uppercase tracking-wider font-bold text-purple-700 mb-2 flex items-center gap-1">
                   <span>🍼</span> Fédérations ACEPP (petite enfance)
                 </h4>
@@ -286,18 +438,24 @@
                 </ul>
               </div>
             {/if}
+
             {#if selectedRegionInfo.fcsf_federations.length === 0 && selectedRegionInfo.acepp_federations.length === 0}
               <p class="text-xs text-grey-500 italic">
-                Pas de fédération régionale référencée. Contactez directement votre référent ELISFA ci-dessus.
+                Pas de fédération régionale référencée. Contactez directement votre référent ELISFA
+                ou utilisez l'annuaire ci-dessus pour trouver les contacts locaux.
               </p>
             {/if}
           {:else if regions}
             <p class="text-xs text-grey-600 mb-3">
-              Choisissez votre région pour obtenir votre référent ELISFA + fédérations
-              partenaires (FCSF / ACEPP).
+              Choisissez votre territoire pour obtenir votre référent ELISFA, le Conseil régional,
+              la Préfecture, et les fédérations partenaires.
             </p>
-            <div class="grid sm:grid-cols-2 gap-2">
-              {#each regions as r}
+
+            <h4 class="text-[11px] uppercase tracking-wider font-bold text-grey-500 mb-2">
+              🇫🇷 Métropole
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2 mb-4">
+              {#each regionsMetropole as r}
                 {@const total = r.fcsf_federations.length + r.acepp_federations.length}
                 <button
                   type="button"
@@ -311,6 +469,42 @@
                 </button>
               {/each}
             </div>
+
+            {#if regionsDrom.length > 0}
+              <h4 class="text-[11px] uppercase tracking-wider font-bold text-orange-700 mb-2">
+                🌴 DROM (Outre-Mer)
+              </h4>
+              <div class="grid sm:grid-cols-2 gap-2 mb-4">
+                {#each regionsDrom as r}
+                  <button
+                    type="button"
+                    class="text-left bg-white border border-grey-200 hover:border-orange-400 hover:bg-orange-50 rounded-lg p-3 cursor-pointer transition flex items-center justify-between"
+                    onclick={() => (selectedRegion = r.region)}
+                  >
+                    <span class="font-medium text-sm text-navy-900">🌴 {r.region}</span>
+                    <span class="text-[10px] uppercase font-bold tracking-wider text-orange-600">DROM</span>
+                  </button>
+                {/each}
+              </div>
+            {/if}
+
+            {#if regionsCom.length > 0}
+              <h4 class="text-[11px] uppercase tracking-wider font-bold text-purple-700 mb-2">
+                🏝 COM (Collectivités d'Outre-Mer)
+              </h4>
+              <div class="grid sm:grid-cols-2 gap-2 mb-2">
+                {#each regionsCom as r}
+                  <button
+                    type="button"
+                    class="text-left bg-white border border-grey-200 hover:border-purple-400 hover:bg-purple-50 rounded-lg p-3 cursor-pointer transition flex items-center justify-between"
+                    onclick={() => (selectedRegion = r.region)}
+                  >
+                    <span class="font-medium text-sm text-navy-900">🏝 {r.region}</span>
+                    <span class="text-[10px] uppercase font-bold tracking-wider text-purple-600">COM</span>
+                  </button>
+                {/each}
+              </div>
+            {/if}
           {/if}
 
         {:else if activeTab === 'acteurs'}
@@ -324,12 +518,21 @@
           {#if filteredActeurs().length === 0}
             <p class="text-xs text-grey-500 italic py-4 text-center">Aucun acteur trouvé.</p>
           {:else}
-            <p class="text-[11px] text-grey-500 mb-2">
+            <p class="text-[11px] text-grey-500 mb-3">
               {filteredActeurs().length} acteur{filteredActeurs().length > 1 ? 's' : ''}
             </p>
-            <div class="flex flex-col gap-2">
-              {#each filteredActeurs() as a}
-                {@render acteurCard(a)}
+            <div class="flex flex-col gap-5">
+              {#each groupedActeurs() as [type, list]}
+                <div>
+                  <h4 class="text-[11px] uppercase tracking-wider font-bold text-grey-600 mb-2 sticky top-0 bg-white py-1 border-b border-grey-100">
+                    {TYPE_GROUP_LABELS[type]} ({list.length})
+                  </h4>
+                  <div class="flex flex-col gap-2">
+                    {#each list as a}
+                      {@render acteurCard(a)}
+                    {/each}
+                  </div>
+                </div>
               {/each}
             </div>
           {/if}
