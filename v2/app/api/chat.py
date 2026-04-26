@@ -67,6 +67,14 @@ class AskRequest(BaseModel):
             " ajouté au system prompt."
         ),
     )
+    profile_extras: dict[str, str] | None = Field(
+        None,
+        description=(
+            "Sprint 4.6 — caractéristiques de la structure (taille, type, public...) "
+            "saisies à l'onboarding. Injectées dans le system prompt pour adapter "
+            "la réponse au contexte précis de l'utilisateur."
+        ),
+    )
 
 
 class AskResponse(BaseModel):
@@ -129,18 +137,49 @@ def _apply_mode_overlay(system_prompt: str, mode_id: str | None, module: str) ->
     return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{overlay}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 
-def _apply_profile_context(system_prompt: str, profile_id: str | None) -> str:
+def _apply_profile_context(
+    system_prompt: str,
+    profile_id: str | None,
+    profile_extras: dict[str, str] | None = None,
+) -> str:
     """Sprint 4.6 F1.5 : injecte le contexte utilisateur (qui est l'utilisateur ?).
 
     Le contexte adapte le niveau et le ton de la réponse (vulgarisation pour
     bénévoles, technique pour pros). N'a aucun effet si profile_id absent ou
     inconnu.
+
+    profile_extras (Sprint 4.6) : caractéristiques de la structure saisies à
+    l'onboarding (type, taille, public). Ajoutées en bullets après le contexte
+    général du profil pour personnaliser encore plus la réponse.
     """
     profile = get_profile(profile_id)
-    if profile is None:
+    if profile is None and not profile_extras:
         return system_prompt
-    ctx = profile["context"].strip()
-    block = f"PROFIL DE L'UTILISATEUR\n{ctx}"
+
+    parts = ["PROFIL DE L'UTILISATEUR"]
+    if profile is not None:
+        parts.append(profile["context"].strip())
+
+    if profile_extras:
+        # Ne whiteliste que les clés attendues (sécurité — pas de prompt injection)
+        ALLOWED_KEYS = {
+            "type_structure": "Type de structure",
+            "headcount": "Effectif salariés",
+            "statut_juridique": "Statut juridique",
+            "public_principal": "Public principal",
+            "benevoles": "Effectif bénévoles",
+            "region": "Région",
+            "type_structure_other": "Autre type (précision)",
+        }
+        lines: list[str] = []
+        for key, label in ALLOWED_KEYS.items():
+            value = profile_extras.get(key)
+            if value and isinstance(value, str) and len(value) <= 200:
+                lines.append(f"- {label} : {value.strip()}")
+        if lines:
+            parts.append("CARACTÉRISTIQUES DE LA STRUCTURE :\n" + "\n".join(lines))
+
+    block = "\n\n".join(parts)
     return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{block}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 
@@ -239,7 +278,7 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
     system_prompt = build_system_prompt(effective_module)
     # Sprint 4.6 F1 : overlay de mode optionnel (urgence, analyse, rédaction, …)
     system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
-    system_prompt = _apply_profile_context(system_prompt, req.profile)
+    system_prompt = _apply_profile_context(system_prompt, req.profile, req.profile_extras)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -372,7 +411,7 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     system_prompt = build_system_prompt(effective_module)
     # Sprint 4.6 F1 : overlay de mode (cohérent avec /api/ask)
     system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
-    system_prompt = _apply_profile_context(system_prompt, req.profile)
+    system_prompt = _apply_profile_context(system_prompt, req.profile, req.profile_extras)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 

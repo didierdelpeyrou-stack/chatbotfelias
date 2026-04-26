@@ -24,6 +24,20 @@ export interface UserProfile {
   summary: string;
 }
 
+/**
+ * Sprint 4.6 — caractéristiques de la structure recueillies en 2e étape de
+ * l'onboarding. Toutes optionnelles. Whitelist côté backend.
+ */
+export interface ProfileExtras {
+  type_structure?: string;       // EAJE / Centre social / ALSH / EVS / MJC / Autre
+  type_structure_other?: string; // précision si "Autre"
+  headcount?: string;            // < 11 / 11-49 / 50-249 / 250+
+  statut_juridique?: string;     // Asso loi 1901 / SCIC / Autre
+  public_principal?: string;     // Petite enfance / Enfance / Jeunesse / Adultes / Tous publics
+  benevoles?: string;            // < 10 / 10-50 / 50+ / Pas de bénévoles
+  region?: string;               // texte libre court
+}
+
 export interface Source {
   id: string | null;
   title: string | null;

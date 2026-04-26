@@ -1,13 +1,14 @@
 // Client API V2 — appels REST + SSE streaming
-import type { AskResponse, Mode, Module, UserProfile } from './types';
+import type { AskResponse, Mode, Module, ProfileExtras, UserProfile } from './types';
 
 const API_BASE = ''; // relatif (proxy Vite en dev, même domaine en prod)
 
 export interface AskRequest {
   question: string;
   module: Module;
-  mode?: string | null;     // Sprint 4.6 F1   — id de mode optionnel
-  profile?: string | null;  // Sprint 4.6 F1.5 — id de profil utilisateur optionnel
+  mode?: string | null;          // Sprint 4.6 F1   — id de mode optionnel
+  profile?: string | null;       // Sprint 4.6 F1.5 — id de profil utilisateur optionnel
+  profile_extras?: ProfileExtras | null;  // Sprint 4.6 — caractéristiques structure
 }
 
 /** GET /api/modes — liste des modes disponibles (filtrable par module). */

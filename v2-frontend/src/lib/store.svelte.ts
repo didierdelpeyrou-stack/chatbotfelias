@@ -1,5 +1,5 @@
 // Store global de la conversation — Svelte 5 runes
-import type { ChatMessage, Module } from './types';
+import type { ChatMessage, Module, ProfileExtras } from './types';
 
 function ulid(): string {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
@@ -14,20 +14,23 @@ interface PersistedState {
   modeByModule?: Partial<Record<Module, string | null>>;
   /** Sprint 4.6 F1.5 — profil utilisateur sélectionné à l'onboarding. */
   profileId?: string | null;
+  /** Sprint 4.6 — caractéristiques de la structure (étape 2 de l'onboarding). */
+  profileExtras?: ProfileExtras;
 }
 
 function loadState(): PersistedState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { module: 'juridique', messages: [], modeByModule: {}, profileId: null };
+    if (!raw) return { module: 'juridique', messages: [], modeByModule: {}, profileId: null, profileExtras: {} };
     const parsed = JSON.parse(raw) as PersistedState;
     // Sécurité : invalide messages pendant streaming si rechargement à mi-course
     parsed.messages = (parsed.messages || []).map((m) => ({ ...m, pending: false }));
     parsed.modeByModule = parsed.modeByModule ?? {};
     parsed.profileId = parsed.profileId ?? null;
+    parsed.profileExtras = parsed.profileExtras ?? {};
     return parsed;
   } catch {
-    return { module: 'juridique', messages: [], modeByModule: {}, profileId: null };
+    return { module: 'juridique', messages: [], modeByModule: {}, profileId: null, profileExtras: {} };
   }
 }
 
@@ -48,6 +51,8 @@ export const chat = $state({
   modeByModule: initial.modeByModule ?? {} as Partial<Record<Module, string | null>>,
   /** Sprint 4.6 F1.5 — profil utilisateur (null = pas encore sélectionné). */
   profileId: initial.profileId as string | null,
+  /** Sprint 4.6 — caractéristiques structure (étape 2 onboarding). */
+  profileExtras: (initial.profileExtras ?? {}) as ProfileExtras,
 });
 
 // Persiste à chaque changement (debounced via microtask)
@@ -60,6 +65,7 @@ $effect.root(() => {
       messages: chat.messages,
       modeByModule: chat.modeByModule,
       profileId: chat.profileId,
+      profileExtras: chat.profileExtras,
     };
     if (pending) return;
     pending = true;
@@ -105,6 +111,16 @@ export function getCurrentMode(): string | null {
 /** Sprint 4.6 F1.5 — change le profil utilisateur (persisté localStorage). */
 export function setProfile(profileId: string | null): void {
   chat.profileId = profileId;
+}
+
+/** Sprint 4.6 — met à jour les caractéristiques structure (merge partiel). */
+export function setProfileExtras(extras: Partial<ProfileExtras>): void {
+  chat.profileExtras = { ...chat.profileExtras, ...extras };
+}
+
+/** Sprint 4.6 — efface les caractéristiques structure. */
+export function clearProfileExtras(): void {
+  chat.profileExtras = {};
 }
 
 /**

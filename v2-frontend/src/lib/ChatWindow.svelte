@@ -2,6 +2,7 @@
   import { chat, addMessage, updateMessage, newId, dispatcher, clearPending } from './store.svelte';
   import { askStream, askOnce } from './api';
   import { MODULES } from './types';
+  import { SUGGESTIONS } from './suggestions';
   import MessageBubble from './MessageBubble.svelte';
   import InputBar from './InputBar.svelte';
 
@@ -46,6 +47,7 @@
     const startedAt = performance.now();
     const activeMode = modeOverride !== undefined ? modeOverride : (chat.modeByModule[chat.module] ?? null);
     const activeProfile = chat.profileId;
+    const activeProfileExtras = chat.profileExtras;
     addMessage({
       id: assistantId,
       role: 'assistant',
@@ -61,7 +63,7 @@
       let receivedAnyEvent = false;
 
       try {
-        await askStream({ question: text, module: chat.module, mode: activeMode, profile: activeProfile }, (event) => {
+        await askStream({ question: text, module: chat.module, mode: activeMode, profile: activeProfile, profile_extras: activeProfileExtras }, (event) => {
           receivedAnyEvent = true;
           if (event.type === 'sources') {
             updateMessage(assistantId, {
@@ -92,7 +94,7 @@
       } catch (streamErr) {
         // Stream KO avant tout token : fallback /api/ask non-streaming
         if (!receivedAnyEvent || !answerSoFar) {
-          const res = await askOnce({ question: text, module: chat.module, mode: activeMode, profile: activeProfile });
+          const res = await askOnce({ question: text, module: chat.module, mode: activeMode, profile: activeProfile, profile_extras: activeProfileExtras });
           updateMessage(assistantId, {
             content: res.answer,
             sources: res.sources,
@@ -124,6 +126,16 @@
   }
 
   let currentModuleMeta = $derived(MODULES.find((m) => m.id === chat.module)!);
+
+  let suggestionHoverClass = $derived(
+    currentModuleMeta.accent === 'blue'
+      ? 'hover:bg-blue-50 hover:border-blue-300'
+      : currentModuleMeta.accent === 'orange'
+        ? 'hover:bg-orange-50 hover:border-orange-300'
+        : currentModuleMeta.accent === 'green'
+          ? 'hover:bg-green-50 hover:border-green-300'
+          : 'hover:bg-navy-100 hover:border-navy-700',
+  );
 </script>
 
 <div class="flex-1 flex flex-col min-h-0 bg-grey-50">
@@ -138,36 +150,15 @@
           <p class="text-sm text-grey-600 max-w-md mx-auto">
             Module <strong class="text-grey-800">{currentModuleMeta.label}</strong> sélectionné. Posez votre question ci-dessous, je m'appuie sur la base documentaire ALISFA pour vous répondre.
           </p>
-          <div class="mt-6 grid sm:grid-cols-2 gap-2 max-w-xl mx-auto text-left">
-            {#if chat.module === 'juridique'}
-              <button class="bg-white hover:bg-blue-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Quelle est la durée de la période d\'essai en CDI ?')}>
-                Durée de la période d'essai en CDI ?
+          <div class="mt-6 grid sm:grid-cols-2 gap-2 max-w-2xl mx-auto text-left">
+            {#each SUGGESTIONS[chat.module] as suggestion}
+              <button
+                class="bg-white {suggestionHoverClass} border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer leading-snug"
+                onclick={() => handleSend(suggestion)}
+              >
+                {suggestion}
               </button>
-              <button class="bg-white hover:bg-blue-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Comment fonctionne le RSAI en EAJE ?')}>
-                Comment fonctionne le RSAI en EAJE ?
-              </button>
-            {:else if chat.module === 'formation'}
-              <button class="bg-white hover:bg-orange-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Comment financer une formation BAFA ?')}>
-                Comment financer une formation BAFA ?
-              </button>
-              <button class="bg-white hover:bg-orange-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Qu\'est-ce que le CPF de transition ?')}>
-                Qu'est-ce que le CPF de transition ?
-              </button>
-            {:else if chat.module === 'rh'}
-              <button class="bg-white hover:bg-green-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Combien d\'emplois repères dans la branche ALISFA ?')}>
-                Les 15 emplois repères ALISFA ?
-              </button>
-              <button class="bg-white hover:bg-green-50 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Comment calculer une indemnité de licenciement ?')}>
-                Calcul indemnité licenciement ?
-              </button>
-            {:else}
-              <button class="bg-white hover:bg-navy-100 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Quelles obligations RGPD pour mon association ?')}>
-                Obligations RGPD pour mon asso ?
-              </button>
-              <button class="bg-white hover:bg-navy-100 border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer" onclick={() => handleSend('Comment fonctionne une CPO avec une mairie ?')}>
-                CPO avec une mairie ?
-              </button>
-            {/if}
+            {/each}
           </div>
         </div>
       {:else}
