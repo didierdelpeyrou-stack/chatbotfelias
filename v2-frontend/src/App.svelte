@@ -7,11 +7,13 @@
   import WizardModal from './lib/WizardModal.svelte';
   import WelcomeModal from './lib/WelcomeModal.svelte';
   import AnnuaireModal from './lib/AnnuaireModal.svelte';
+  import FichesMetiersModal from './lib/FichesMetiersModal.svelte';
   import { chat, submitFromExternal } from './lib/store.svelte';
 
   let legalOpen = $state(false);
   let wizardOpen = $state(false);
   let annuaireOpen = $state(false);
+  let fichesOpen = $state(false);
 
   // Sprint 4.6 F1.5 — Onboarding : ouvert auto si pas de profil ; ré-ouvrable
   // depuis le chip Header. La distinction se fait via `welcomeIsOnboarding`.
@@ -44,6 +46,7 @@
   onShowLegal={() => (legalOpen = true)}
   {onShowProfile}
   onShowAnnuaire={() => (annuaireOpen = true)}
+  onShowFiches={() => (fichesOpen = true)}
 />
 <ModuleSelector />
 <ModeSelector onOpenWizard={() => (wizardOpen = true)} />
@@ -51,6 +54,7 @@
 
 <LegalModal open={legalOpen} onClose={() => (legalOpen = false)} />
 <AnnuaireModal open={annuaireOpen} onClose={() => (annuaireOpen = false)} />
+<FichesMetiersModal open={fichesOpen} onClose={() => (fichesOpen = false)} />
 <WizardModal
   open={wizardOpen}
   module={chat.module}

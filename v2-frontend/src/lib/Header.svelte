@@ -8,8 +8,9 @@
     onShowLegal: () => void;
     onShowProfile: () => void;
     onShowAnnuaire: () => void;
+    onShowFiches: () => void;
   }
-  let { onShowLegal, onShowProfile, onShowAnnuaire }: Props = $props();
+  let { onShowLegal, onShowProfile, onShowAnnuaire, onShowFiches }: Props = $props();
 
   let profiles: UserProfile[] = $state([]);
   onMount(async () => {
@@ -59,6 +60,15 @@
     >
       <span>🏛</span>
       <span class="hidden md:inline">Annuaire</span>
+    </button>
+    <button
+      class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
+      title="Bibliothèque des 25 fiches métiers CPNEF"
+      aria-label="Fiches métiers"
+      onclick={onShowFiches}
+    >
+      <span>📄</span>
+      <span class="hidden md:inline">Fiches métiers</span>
     </button>
     <button
       class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"

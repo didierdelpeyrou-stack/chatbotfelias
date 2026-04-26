@@ -2,6 +2,7 @@
 import type {
   Acteur,
   AskResponse,
+  FichesMetiersResponse,
   Mode,
   Module,
   OrientationDetail,
@@ -67,6 +68,13 @@ export async function fetchActeurs(): Promise<Acteur[]> {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const body = await res.json() as { acteurs: Acteur[] };
   return body.acteurs;
+}
+
+/** Sprint 4.6 F5 — GET /api/fiches-metiers : 25 fiches CPNEF + docs annexes. */
+export async function fetchFichesMetiers(): Promise<FichesMetiersResponse> {
+  const res = await fetch(`${API_BASE}/api/fiches-metiers`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json() as Promise<FichesMetiersResponse>;
 }
 
 /** /api/ask — one-shot JSON (fallback si SSE indispo). */

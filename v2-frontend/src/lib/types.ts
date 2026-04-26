@@ -93,6 +93,36 @@ export interface ProfileExtras {
   region?: string;               // texte libre court
 }
 
+/** Sprint 4.6 F5 — Fiches métiers CPNEF ALISFA (25 fiches en 5 familles) */
+export interface FicheMetier {
+  id: string;
+  nom: string;
+  famille_id: string;
+  pdf_url: string;
+  description: string;
+}
+
+export interface FamilleMetier {
+  id: string;
+  label: string;
+  icon: string;
+  description: string;
+  fiches: FicheMetier[];
+}
+
+export interface DocAnnexe {
+  id: string;
+  label: string;
+  url: string;
+  description: string;
+}
+
+export interface FichesMetiersResponse {
+  familles: FamilleMetier[];
+  docs_annexes: DocAnnexe[];
+  total: number;
+}
+
 export interface Source {
   id: string | null;
   title: string | null;
