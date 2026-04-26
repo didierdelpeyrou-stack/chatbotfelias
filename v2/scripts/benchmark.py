@@ -243,6 +243,8 @@ async def main():
     parser.add_argument("--limit", type=int, default=None, help="Limiter à N questions (pour test rapide)")
     parser.add_argument("--out-dir", type=Path, default=Path("benchmark_results"))
     parser.add_argument("--module", choices=["juridique", "formation", "rh", "gouvernance"], help="Limiter à un module")
+    parser.add_argument("--llm-judge", action="store_true",
+                        help="Évalue V2 avec Claude Haiku 4.5 au lieu du rule-based")
     args = parser.parse_args()
 
     corpus = load_corpus()
@@ -253,11 +255,46 @@ async def main():
         questions = questions[:args.limit]
 
     print(f"📊 Benchmark : {len(questions)} questions sur V1 ({V1_URL}) ↔ V2 ({V2_URL})")
+    if args.llm_judge:
+        print("🧑‍⚖️  LLM-judge actif : Claude Haiku 4.5 évaluera chaque réponse V2")
     started = datetime.now(UTC).isoformat(timespec="seconds")
     t0 = time.perf_counter()
     rows = await run_benchmark(questions)
     duration = time.perf_counter() - t0
-    print(f"✅ Terminé en {duration:.1f}s")
+    print(f"✅ Bench terminé en {duration:.1f}s")
+
+    # Sprint 5.2-stack Phase A2 : LLM-judge évaluation
+    if args.llm_judge:
+        from app.benchmark.llm_judge import judge_answer
+        from app.llm.claude import ClaudeClient
+        from app.settings import get_settings
+
+        settings = get_settings()
+        if not settings.anthropic_api_key:
+            print("⚠️ ANTHROPIC_API_KEY manquante : LLM-judge désactivé")
+        else:
+            judge_client = ClaudeClient(
+                api_key=settings.anthropic_api_key,
+                model=settings.claude_model,
+                max_tokens=300,  # JSON court suffit
+                timeout=30.0,
+            )
+            t_judge = time.perf_counter()
+            sem = asyncio.Semaphore(5)
+
+            async def _judge(row, version="v2"):
+                q = next((q for q in questions if q.id == row["question_id"]), None)
+                if q is None:
+                    return row
+                async with sem:
+                    new_eval = await judge_answer(judge_client, q, row[version]["answer"])
+                row[version]["eval_rule"] = row[version]["eval"]
+                row[version]["eval"] = new_eval.model_dump()
+                return row
+
+            print(f"🧑‍⚖️  Jugement de {len(rows)} réponses V2 par LLM-judge...")
+            await asyncio.gather(*[_judge(r) for r in rows])
+            print(f"✅ LLM-judge terminé en {time.perf_counter() - t_judge:.1f}s")
 
     # Synthèse à l'écran
     v1_evals = [EvalResult.model_validate(r["v1"]["eval"]) for r in rows]
