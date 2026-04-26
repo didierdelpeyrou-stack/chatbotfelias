@@ -31,6 +31,7 @@ from app import __version__
 from app.api import chat, feedback, health
 from app.kb.loader import KBStore
 from app.llm.claude import ClaudeClient
+from app.rag.embeddings import make_embedder
 from app.settings import get_settings
 
 
@@ -72,7 +73,14 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     if not data_dir.exists():
         # fallback sur le path tel quel (Docker monte /app/data en absolu)
         data_dir = Path(settings.kb_data_dir)
-    store = KBStore(data_dir=data_dir)
+    # Sprint 5.2-stack : embedder Voyage AI (fallback gracieux si pas de clé)
+    embedder = make_embedder(
+        api_key=settings.voyage_api_key,
+        model=settings.voyage_model,
+    )
+    app.state.embedder = embedder
+
+    store = KBStore(data_dir=data_dir, embedder=embedder)
     summary = await store.load_all()
     log.info("📚 KB store: %s", summary)
     app.state.kb_store = store

@@ -46,6 +46,16 @@ class Settings(BaseSettings):
     claude_max_tokens: int = Field(default=2000, alias="CLAUDE_MAX_TOKENS")
     claude_timeout_seconds: float = 60.0
 
+    # ── Voyage AI (Sprint 5.2-stack — embeddings sémantiques) ──
+    # Si vide, fallback gracieux sur TF-IDF seul (pas d'embeddings).
+    voyage_api_key: str = Field(default="", alias="VOYAGE_API_KEY")
+    voyage_model: str = Field(default="voyage-3-large", alias="VOYAGE_MODEL")
+    # α : pondération hybride score = α·tfidf_norm + (1-α)·cosine_sim
+    # 0.0 = embeddings seuls, 1.0 = TF-IDF seul. Calibré via grid search.
+    rag_hybrid_alpha: float = Field(default=0.5, alias="RAG_HYBRID_ALPHA")
+    # Si tfidf_normalized > seuil, on skip les embeddings (gain latence)
+    rag_skip_embedding_threshold: float = Field(default=0.85, alias="RAG_SKIP_EMBEDDING_THRESHOLD")
+
     # ── RAG ──
     # Cf. audit RAG 2026-04-21 : seuils calibrés Sprint 4 (benchmark V1↔V2).
     rag_top_k: int = 5

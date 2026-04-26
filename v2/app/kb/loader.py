@@ -26,6 +26,7 @@ from typing import Any
 
 from app.kb.schema import KnowledgeBase
 from app.kb.validators import KBValidationError, validate_kb_file
+from app.rag.embeddings import Embedder
 from app.rag.index import build_index
 
 logger = logging.getLogger(__name__)
@@ -56,9 +57,16 @@ class KBStore:
         kb_dict, index = await store.get("juridique")
     """
 
-    def __init__(self, data_dir: Path | str, *, modules: Iterable[str] = DEFAULT_MODULES):
+    def __init__(
+        self,
+        data_dir: Path | str,
+        *,
+        modules: Iterable[str] = DEFAULT_MODULES,
+        embedder: Embedder | None = None,
+    ):
         self.data_dir = Path(data_dir)
         self.modules = tuple(modules)
+        self.embedder = embedder  # Si None ou is_active=False : pas d'embeddings
         self._loaded: dict[str, LoadedKB] = {}
         self._locks: dict[str, asyncio.Lock] = {m: asyncio.Lock() for m in self.modules}
 
@@ -91,12 +99,21 @@ class KBStore:
         return summary
 
     async def _load_one(self, module: str) -> LoadedKB:
-        """Charge une seule KB : valide + indexe. Atomique sous lock."""
+        """Charge une seule KB : valide + indexe. Atomique sous lock.
+
+        Si self.embedder est actif (Sprint 5.2-stack), calcule aussi les
+        embeddings sémantiques de tous les articles + les stocke dans index.
+        """
         path = self._path_for(module)
         async with self._locks[module]:
             kb = validate_kb_file(path)
             kb_dict = kb.to_v1_dict()
             index = build_index(kb_dict)
+
+            # Sprint 5.2-stack : indexation embeddings si embedder actif
+            if self.embedder is not None and self.embedder.is_active:
+                await self._index_embeddings(module, kb_dict, index)
+
             loaded = LoadedKB(
                 kb=kb,
                 kb_dict=kb_dict,
@@ -144,6 +161,62 @@ class KBStore:
             loaded = await self._load_one(module)
 
         return loaded.kb_dict, loaded.index
+
+    # ── Sprint 5.2-stack : indexation embeddings sémantiques ──
+    async def _index_embeddings(
+        self, module: str, kb_dict: dict[str, Any], index: dict[str, Any],
+    ) -> None:
+        """Calcule + stocke les embeddings de tous les articles dans index.
+
+        Format ajouté à index :
+          - 'embeddings': np.ndarray (N, dim) — embeddings normalisés
+          - 'flat_ids': list[(theme_idx, article_idx)] — mapping plat→arborescent
+
+        En cas d'erreur API, on log un warning et on continue sans embeddings
+        (fallback gracieux : retrieval.py utilise alors TF-IDF seul).
+        """
+        if self.embedder is None:
+            return
+
+        themes = kb_dict.get("themes", [])
+        flat_ids: list[tuple[int, int]] = []
+        texts: list[str] = []
+
+        for ti, theme in enumerate(themes):
+            for ai, article in enumerate(theme.get("articles", [])):
+                # Texte à embedder : titre + champs clés de la réponse.
+                # On évite la verbosité totale pour limiter les tokens (et le coût).
+                parts = [
+                    str(article.get("question_type", "")),
+                    " | ".join(article.get("mots_cles", [])[:15]),
+                ]
+                reponse = article.get("reponse", {})
+                for field in ("synthese", "fondement_legal", "fondement_ccn"):
+                    val = reponse.get(field)
+                    if val:
+                        parts.append(str(val)[:800])  # Tronquer à 800 chars/champ
+                texts.append("\n".join(p for p in parts if p))
+                flat_ids.append((ti, ai))
+
+        if not texts:
+            logger.info("[kb.embed] %s : aucun article à indexer", module)
+            return
+
+        try:
+            t0 = asyncio.get_event_loop().time()
+            embeddings = await self.embedder.embed_documents(texts)
+            duration = asyncio.get_event_loop().time() - t0
+            index["embeddings"] = embeddings
+            index["flat_ids"] = flat_ids
+            logger.info(
+                "[kb.embed] %s : %d articles indexés (dim=%d) en %.2fs",
+                module, len(texts), self.embedder.dim, duration,
+            )
+        except Exception as exc:
+            logger.warning(
+                "[kb.embed] %s : indexation embeddings échouée (%s) — fallback TF-IDF",
+                module, exc,
+            )
 
     # ── Inspection (utile pour /readyz et le mode debug) ──
     def is_loaded(self, module: str) -> bool:

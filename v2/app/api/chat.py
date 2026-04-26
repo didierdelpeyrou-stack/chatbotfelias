@@ -32,7 +32,7 @@ from app.metrics.prometheus import (
     record_rag,
     record_request,
 )
-from app.rag.retrieval import search
+from app.rag.retrieval import search, search_hybrid
 from app.settings import get_settings
 
 logger = logging.getLogger(__name__)
@@ -127,14 +127,26 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
         record_request(module=req.module, status="error")
         raise HTTPException(404, f"Module inconnu: {req.module}") from None
 
-    report = search(
-        req.question, kb_dict, kb_index,
-        top_k=settings.rag_top_k,
-        threshold=settings.rag_score_min_hors_corpus,
-    )
+    # Sprint 5.2-stack : pipeline hybride si embedder actif, sinon TF-IDF
+    embedder = getattr(request.app.state, "embedder", None)
+    if embedder is not None and embedder.is_active:
+        report = await search_hybrid(
+            req.question, kb_dict, kb_index, embedder,
+            top_k=settings.rag_top_k,
+            threshold=settings.rag_score_min_hors_corpus,
+            alpha=settings.rag_hybrid_alpha,
+            skip_embedding_threshold=settings.rag_skip_embedding_threshold,
+        )
+    else:
+        report = search(
+            req.question, kb_dict, kb_index,
+            top_k=settings.rag_top_k,
+            threshold=settings.rag_score_min_hors_corpus,
+        )
     logger.info(
-        "[rag] module=%s top_score=%.2f hors_corpus=%s n_results=%d",
+        "[rag] module=%s top_score=%.2f hors_corpus=%s n_results=%d hybrid=%s",
         req.module, report.best_score, report.hors_corpus, len(report.results),
+        embedder is not None and embedder.is_active,
     )
     # Sprint 3.3 : metrics Prometheus du retrieval
     record_rag(
@@ -240,11 +252,22 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     except KeyError:
         raise HTTPException(404, f"Module inconnu: {req.module}") from None
 
-    report = search(
-        req.question, kb_dict, kb_index,
-        top_k=settings.rag_top_k,
-        threshold=settings.rag_score_min_hors_corpus,
-    )
+    # Sprint 5.2-stack : pipeline hybride si embedder actif (cohérent /api/ask)
+    embedder = getattr(request.app.state, "embedder", None)
+    if embedder is not None and embedder.is_active:
+        report = await search_hybrid(
+            req.question, kb_dict, kb_index, embedder,
+            top_k=settings.rag_top_k,
+            threshold=settings.rag_score_min_hors_corpus,
+            alpha=settings.rag_hybrid_alpha,
+            skip_embedding_threshold=settings.rag_skip_embedding_threshold,
+        )
+    else:
+        report = search(
+            req.question, kb_dict, kb_index,
+            top_k=settings.rag_top_k,
+            threshold=settings.rag_score_min_hors_corpus,
+        )
 
     # Hors corpus → on émet la réponse fallback en 1 chunk + done (pas d'appel Claude)
     if report.hors_corpus:
