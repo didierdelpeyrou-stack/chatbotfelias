@@ -38,7 +38,12 @@ services:
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
       RAG_TOP_K: ${RAG_TOP_K:-5}
       RAG_SCORE_MIN_HORS_CORPUS: ${RAG_SCORE_MIN_HORS_CORPUS:-1.5}
-      KB_DATA_DIR: ${KB_DATA_DIR:-/app/data}
+      # Sprint 5.2-stack : Voyage AI embeddings (fallback gracieux si VOYAGE_API_KEY vide)
+      VOYAGE_API_KEY: ${VOYAGE_API_KEY:-}
+      VOYAGE_MODEL: ${VOYAGE_MODEL:-voyage-3-large}
+      RAG_HYBRID_ALPHA: ${RAG_HYBRID_ALPHA:-0.5}
+      RAG_SKIP_EMBEDDING_THRESHOLD: ${RAG_SKIP_EMBEDDING_THRESHOLD:-0.85}
+      KB_DATA_DIR: ${KB_DATA_DIR:-/app/data/v2}
       ELISFA_FEEDBACK_LOG: ${ELISFA_FEEDBACK_LOG:-/app/logs/feedback.jsonl}
       METRICS_ENABLED: ${METRICS_ENABLED:-true}
 

@@ -44,7 +44,8 @@ ENV PATH="/opt/venv/bin:$PATH"
 # Copie minimale pour profiter du cache Docker layer :
 # 1. requirements.txt change rarement → couche cachée
 # 2. code change souvent → couche après
-COPY requirements.txt .
+# Note : build context = racine du repo, donc requirements.txt est dans v2/
+COPY v2/requirements.txt .
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt
 
@@ -57,8 +58,10 @@ FROM python:3.12-slim AS runtime
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PATH="/opt/venv/bin:$PATH" \
-    # Sprint 3.1 : KB par défaut montée dans /app/data (volume)
-    KB_DATA_DIR=/app/data
+    # Sprint 5.2-stack : KB enrichie V2 (271 articles dont 156 formation)
+    # /app/data/v2 = base_*.json + cache embeddings _embeddings_*.npz
+    # Pour fallback V1 (KB legacy), surcharger via KB_DATA_DIR=/app/data
+    KB_DATA_DIR=/app/data/v2
 
 # Utilitaire HTTP pour HEALTHCHECK (curl est ~30 KB après cleanup)
 RUN apt-get update \

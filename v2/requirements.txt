@@ -1,0 +1,21 @@
+# V2 runtime requirements (pour Docker build).
+# Synchronisé avec pyproject.toml [project.dependencies].
+# Pour le dev local, préférer `pip install -e .[dev]`.
+
+# Web async natif
+fastapi>=0.115
+uvicorn[standard]>=0.32
+
+# Validation + config
+pydantic>=2.10
+pydantic-settings>=2.6
+
+# LLM Anthropic
+anthropic>=0.40
+
+# Observability (Sprint 3.3)
+prometheus-client>=0.21
+
+# Embeddings sémantiques (Sprint 5.2-stack — Voyage AI)
+numpy>=2.0
+httpx>=0.27

@@ -130,12 +130,51 @@ Champs à remplir :
 | `CLAUDE_MODEL` | `claude-haiku-4-5-20251001` |
 | `ENVIRONMENT` | `staging` |
 | `LOG_LEVEL` | `INFO` |
+| **`VOYAGE_API_KEY`** | **Sprint 5.2-stack** : compte gratuit https://dash.voyageai.com — clé `pa-...` |
+| `VOYAGE_MODEL` | `voyage-3-large` (1024 dim, recommandé Anthropic) |
+| `RAG_HYBRID_ALPHA` | `0.5` (équilibré TF-IDF + embeddings, calibré bench) |
+| `KB_DATA_DIR` | `/app/data/v2` (KB enrichie 271 articles, IMPORTANT) |
 
 `.env.staging` est dans `.gitignore` → ne fuit pas. Vérifie :
 
 ```bash
 git check-ignore -v .env.staging   # doit imprimer "Got check"
 ```
+
+---
+
+## §5b — Cache embeddings Voyage (Sprint 5.2-stack) — 5 min
+
+Le cache embeddings est généré localement (5-10 min sur free tier) puis
+persisté dans `data/v2/_embeddings_*.npz` (~1 MB total). Il **doit être
+dans le volume** monté du container, sinon V2 met 20+ min à booter (rate-limit).
+
+**Option A — Cache déjà généré localement** (si tu as fait la Phase A1) :
+
+```bash
+# Depuis ta machine locale, push les caches sur le VPS
+scp data/v2/_embeddings_*.npz user@<vps-ip>:/opt/chatbot_elisfa/data/v2/
+```
+
+**Option B — Générer sur le VPS** (5-10 min, conservateur free tier) :
+
+```bash
+# Sur le VPS, dans le container une fois lancé
+ssh user@<vps-ip>
+cd /opt/chatbot_elisfa/v2
+docker compose -f docker/docker-compose.staging.yml exec chatbot-v2-staging \
+    python scripts/build_embeddings_cache.py
+```
+
+**Vérifier** :
+
+```bash
+ls -la /opt/chatbot_elisfa/data/v2/_embeddings_*.npz
+# Attendu : 4 fichiers .npz, total ~1 MB
+```
+
+Si pas de cache : V2 fonctionne en **TF-IDF seul** (fallback gracieux),
+score V2 = ~70 % au lieu de 75 %. Mieux vaut générer le cache avant le bêta.
 
 ---
 
