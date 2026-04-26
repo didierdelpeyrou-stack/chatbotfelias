@@ -1,0 +1,45 @@
+<script lang="ts">
+  import { clearConversation } from './store.svelte';
+
+  interface Props {
+    onShowLegal: () => void;
+  }
+  let { onShowLegal }: Props = $props();
+
+  function onClear() {
+    if (confirm("Effacer toute la conversation ? Cette action est irréversible.")) {
+      clearConversation();
+    }
+  }
+</script>
+
+<header class="bg-gradient-to-r from-navy-900 to-navy-700 text-white shadow-md">
+  <div class="max-w-5xl mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3">
+    <span class="text-xl sm:text-2xl">⚖</span>
+    <div class="flex-1 min-w-0">
+      <h1 class="font-semibold text-sm sm:text-lg truncate leading-tight">
+        Chatbot ELISFA
+      </h1>
+      <p class="text-[11px] sm:text-xs text-white/70 truncate hidden xs:block sm:block">
+        Assistant management associatif — branche ALISFA
+      </p>
+    </div>
+    <button
+      class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
+      title="Mentions légales / RGPD"
+      aria-label="Mentions légales"
+      onclick={onShowLegal}
+    >
+      <span class="hidden sm:inline">Mentions légales</span>
+      <span class="sm:hidden">ℹ︎</span>
+    </button>
+    <button
+      class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer"
+      title="Effacer la conversation"
+      onclick={onClear}
+    >
+      <span class="hidden sm:inline">↻ Nouvelle conversation</span>
+      <span class="sm:hidden">↻</span>
+    </button>
+  </div>
+</header>

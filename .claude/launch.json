@@ -12,6 +12,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-c", "import os,http.server,socketserver\nPORT=int(os.environ.get('PORT','8766'))\nos.chdir('/Users/didierdelpeyrou/Desktop/Chat elisfa/chatbot_elisfa/static')\nwith socketserver.TCPServer(('',PORT),http.server.SimpleHTTPRequestHandler) as s:\n  print(f'Preview on {PORT}');s.serve_forever()"],
       "port": 8766
+    },
+    {
+      "name": "v2-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "v2-frontend", "run", "dev", "--", "--port", "5173"],
+      "port": 5173
     }
   ]
 }

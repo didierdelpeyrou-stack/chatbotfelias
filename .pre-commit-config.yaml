@@ -26,7 +26,10 @@ repos:
       - id: end-of-file-fixer            # Garantit \n final
       - id: check-yaml                   # Valide les .yaml (CI, pre-commit)
       - id: check-json                   # Valide les .json (KB, configs)
-        exclude: ^data/.*\.json$         # KB volumineuses : skip pour vitesse
+        # Exclusions :
+        #  - data/* : KB volumineuses (skip pour vitesse)
+        #  - v2-frontend/tsconfig*.json : format JSONC TypeScript (commentaires autorisés)
+        exclude: '^(data/.*\.json|v2-frontend/tsconfig.*\.json)$'
       - id: check-added-large-files      # Bloque tout fichier >2 MB
         args: ['--maxkb=2048']
       - id: check-merge-conflict         # Bloque les marqueurs <<<<<<< oubliés

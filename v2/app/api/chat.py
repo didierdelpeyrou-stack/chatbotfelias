@@ -215,13 +215,32 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
 
 # ────────────────────────── Endpoint SSE (streaming) ──────────────────────────
 
-async def _sse_stream(claude, system: str, user: str) -> AsyncIterator[bytes]:
+async def _sse_stream(
+    claude,
+    system: str,
+    user: str,
+    sources: list[dict[str, Any]] | None = None,
+    hors_corpus: bool = False,
+) -> AsyncIterator[bytes]:
     """Wrap les chunks Claude en évents SSE (text/event-stream).
 
     Format : "data: <json>\n\n"
-    Chaque event contient {"type": "delta", "text": "..."}.
-    Final event : {"type": "done"}.
+    Sequence :
+      1. {"type": "sources", "sources": [...], "hors_corpus": bool} — premier event (Sprint 4.5-frontend)
+      2. {"type": "delta", "text": "..."} — token par token
+      3. {"type": "done"} — fin
+    En cas d'erreur Claude :
+      - {"type": "error", "message": "...", "http_status": N}
     """
+    # Sprint 4.5-frontend : envoie sources AVANT les tokens pour que le client
+    # affiche le panneau sources dès le début du streaming.
+    if sources is not None:
+        sources_payload = json.dumps(
+            {"type": "sources", "sources": sources, "hors_corpus": hors_corpus},
+            ensure_ascii=False,
+        )
+        yield f"data: {sources_payload}\n\n".encode()
+
     try:
         async for chunk in claude.stream(system=system, user=user):
             payload = json.dumps({"type": "delta", "text": chunk}, ensure_ascii=False)
@@ -269,9 +288,17 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
             threshold=settings.rag_score_min_hors_corpus,
         )
 
+    # Sprint 4.5-frontend : on construit le payload sources une fois pour le réutiliser
+    sources_list = _sources_payload(report)
+
     # Hors corpus → on émet la réponse fallback en 1 chunk + done (pas d'appel Claude)
     if report.hors_corpus:
         async def _fallback_stream():
+            sources_evt = json.dumps(
+                {"type": "sources", "sources": sources_list, "hors_corpus": True},
+                ensure_ascii=False,
+            )
+            yield f"data: {sources_evt}\n\n".encode()
             payload = json.dumps({"type": "delta", "text": FALLBACK_HORS_CORPUS_TEXT})
             yield f"data: {payload}\n\n".encode()
             yield b'data: {"type": "done"}\n\n'
@@ -289,6 +316,6 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
     return StreamingResponse(
-        _sse_stream(claude, system_prompt, user_msg),
+        _sse_stream(claude, system_prompt, user_msg, sources=sources_list, hors_corpus=False),
         media_type="text/event-stream",
     )
