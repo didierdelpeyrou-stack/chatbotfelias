@@ -1,11 +1,21 @@
 // Client API V2 — appels REST + SSE streaming
-import type { AskResponse, Module } from './types';
+import type { AskResponse, Mode, Module } from './types';
 
 const API_BASE = ''; // relatif (proxy Vite en dev, même domaine en prod)
 
 export interface AskRequest {
   question: string;
   module: Module;
+  mode?: string | null;  // Sprint 4.6 F1 — id de mode optionnel
+}
+
+/** GET /api/modes — liste des modes disponibles (filtrable par module). */
+export async function fetchModes(module?: Module): Promise<Mode[]> {
+  const url = module ? `${API_BASE}/api/modes?module=${module}` : `${API_BASE}/api/modes`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const body = await res.json() as { modes: Mode[] };
+  return body.modes;
 }
 
 /** /api/ask — one-shot JSON (fallback si SSE indispo). */

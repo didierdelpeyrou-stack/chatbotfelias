@@ -2,6 +2,15 @@
 
 export type Module = 'juridique' | 'formation' | 'rh' | 'gouvernance';
 
+/** Sprint 4.6 F1 — modes d'usage par module (urgence, analyse, rédaction, ...) */
+export interface Mode {
+  id: string;
+  label: string;
+  icon: string;
+  module: Module;
+  placeholder: string;
+}
+
 export interface Source {
   id: string | null;
   title: string | null;
@@ -30,6 +39,7 @@ export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;       // markdown raw
   module?: Module;
+  mode?: string | null;  // Sprint 4.6 F1 — id de mode utilisé (juridique_urgence, …)
   sources?: Source[];
   hors_corpus?: boolean;
   pending?: boolean;     // true pendant le streaming

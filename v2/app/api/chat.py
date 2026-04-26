@@ -25,6 +25,7 @@ from pydantic import BaseModel, Field
 
 from app.llm.claude import ClaudeError
 from app.llm.context import build_rag_context
+from app.llm.modes import MODES, get_mode, get_modes_for_module
 from app.llm.prompts import build_system_prompt, build_user_message, resolve_module_for_theme
 from app.metrics.prometheus import (
     record_claude_tokens,
@@ -48,6 +49,14 @@ class AskRequest(BaseModel):
 
     question: str = Field(..., min_length=1, max_length=4000)
     module: ModuleName = "juridique"
+    mode: str | None = Field(
+        None,
+        max_length=80,
+        description=(
+            "ID de mode optionnel (ex. 'juridique_urgence'). Si fourni et valide,"
+            " l'overlay est ajouté au system prompt. Sinon mode chat libre."
+        ),
+    )
 
 
 class AskResponse(BaseModel):
@@ -87,6 +96,27 @@ def _confidence_payload(report) -> dict[str, Any]:
         "threshold": report.threshold,
         "hors_corpus": report.hors_corpus,
     }
+
+
+def _apply_mode_overlay(system_prompt: str, mode_id: str | None, module: str) -> str:
+    """Sprint 4.6 F1 : suffixe l'overlay du mode si valide pour ce module.
+
+    Retourne le system_prompt original si mode_id absent, inconnu, ou cohérent
+    avec un autre module (sécurité : un mode 'rh_urgence' ne s'applique pas
+    à module='juridique').
+    """
+    mode = get_mode(mode_id)
+    if mode is None:
+        return system_prompt
+    if mode["module"] != module:
+        # Mode non-cohérent avec le module : on log et on ignore silencieusement
+        logger.info(
+            "[modes] mode %s incompatible avec module %s : ignoré",
+            mode_id, module,
+        )
+        return system_prompt
+    overlay = mode["overlay"].strip()
+    return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{overlay}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 
 def _sources_payload(report) -> list[dict[str, Any]]:
@@ -182,6 +212,8 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
     top1_theme_id = report.results[0].theme_id if report.results else None
     effective_module = resolve_module_for_theme(top1_theme_id, fallback=req.module)
     system_prompt = build_system_prompt(effective_module)
+    # Sprint 4.6 F1 : overlay de mode optionnel (urgence, analyse, rédaction, …)
+    system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -312,6 +344,8 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     top1_theme_id = report.results[0].theme_id if report.results else None
     effective_module = resolve_module_for_theme(top1_theme_id, fallback=req.module)
     system_prompt = build_system_prompt(effective_module)
+    # Sprint 4.6 F1 : overlay de mode (cohérent avec /api/ask)
+    system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -319,3 +353,33 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
         _sse_stream(claude, system_prompt, user_msg, sources=sources_list, hors_corpus=False),
         media_type="text/event-stream",
     )
+
+
+# ────────────────────────── Endpoint Modes (Sprint 4.6 F1) ──────────────────────────
+
+@router.get("/api/modes", summary="Liste des modes disponibles par module")
+async def list_modes(module: ModuleName | None = None) -> dict[str, Any]:
+    """Retourne les modes (overlays prompt) disponibles, filtrables par module.
+
+    Réponse : { "modes": [{id, label, icon, module, placeholder}, ...] }
+
+    L'overlay (prompt système) n'est PAS retourné — il reste côté serveur
+    pour ne pas exposer le prompt engineering.
+    """
+    if module:
+        items = get_modes_for_module(module)
+    else:
+        items = list(MODES.values())
+
+    return {
+        "modes": [
+            {
+                "id": m["id"],
+                "label": m["label"],
+                "icon": m["icon"],
+                "module": m["module"],
+                "placeholder": m["placeholder"],
+            }
+            for m in items
+        ],
+    }

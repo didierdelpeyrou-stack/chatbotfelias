@@ -10,18 +10,21 @@ const STORAGE_KEY = 'elisfa-v2-state';
 interface PersistedState {
   module: Module;
   messages: ChatMessage[];
+  /** Sprint 4.6 F1 — mode actif par module (mémorisé entre sessions). */
+  modeByModule?: Partial<Record<Module, string | null>>;
 }
 
 function loadState(): PersistedState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { module: 'juridique', messages: [] };
+    if (!raw) return { module: 'juridique', messages: [], modeByModule: {} };
     const parsed = JSON.parse(raw) as PersistedState;
     // Sécurité : invalide messages pendant streaming si rechargement à mi-course
     parsed.messages = (parsed.messages || []).map((m) => ({ ...m, pending: false }));
+    parsed.modeByModule = parsed.modeByModule ?? {};
     return parsed;
   } catch {
-    return { module: 'juridique', messages: [] };
+    return { module: 'juridique', messages: [], modeByModule: {} };
   }
 }
 
@@ -38,6 +41,8 @@ const initial = loadState();
 export const chat = $state({
   module: initial.module as Module,
   messages: initial.messages,
+  /** Sprint 4.6 F1 — mode actif par module. null = chat libre. */
+  modeByModule: initial.modeByModule ?? {} as Partial<Record<Module, string | null>>,
 });
 
 // Persiste à chaque changement (debounced via microtask)
@@ -45,7 +50,11 @@ let pending = false;
 $effect.root(() => {
   $effect(() => {
     // touch reactive deps
-    const snap = { module: chat.module, messages: chat.messages };
+    const snap = {
+      module: chat.module,
+      messages: chat.messages,
+      modeByModule: chat.modeByModule,
+    };
     if (pending) return;
     pending = true;
     queueMicrotask(() => {
@@ -74,4 +83,15 @@ export function clearConversation(): void {
 
 export function setModule(m: Module): void {
   chat.module = m;
+}
+
+/** Sprint 4.6 F1 — change le mode actif pour le module courant (ou un autre). */
+export function setMode(modeId: string | null, module?: Module): void {
+  const m = module ?? chat.module;
+  chat.modeByModule = { ...chat.modeByModule, [m]: modeId };
+}
+
+/** Sprint 4.6 F1 — mode actif pour le module courant (ou null si aucun). */
+export function getCurrentMode(): string | null {
+  return chat.modeByModule[chat.module] ?? null;
 }

@@ -34,11 +34,13 @@
     // 2. Push placeholder assistant en streaming
     const assistantId = newId();
     const startedAt = performance.now();
+    const activeMode = chat.modeByModule[chat.module] ?? null;
     addMessage({
       id: assistantId,
       role: 'assistant',
       content: '',
       module: chat.module,
+      mode: activeMode,
       pending: true,
     });
 
@@ -48,7 +50,7 @@
       let receivedAnyEvent = false;
 
       try {
-        await askStream({ question: text, module: chat.module }, (event) => {
+        await askStream({ question: text, module: chat.module, mode: activeMode }, (event) => {
           receivedAnyEvent = true;
           if (event.type === 'sources') {
             updateMessage(assistantId, {
@@ -79,7 +81,7 @@
       } catch (streamErr) {
         // Stream KO avant tout token : fallback /api/ask non-streaming
         if (!receivedAnyEvent || !answerSoFar) {
-          const res = await askOnce({ question: text, module: chat.module });
+          const res = await askOnce({ question: text, module: chat.module, mode: activeMode });
           updateMessage(assistantId, {
             content: res.answer,
             sources: res.sources,

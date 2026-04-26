@@ -2,7 +2,7 @@
   "metadata": {
     "version": "2.0",
     "date": "2026-04-26",
-    "n_questions": 70,
+    "n_questions": 95,
     "distribution": {
       "juridique": 20,
       "formation": 30,
@@ -24,7 +24,41 @@
         "fonctions_reglementaires",
         "intentions_directeur"
       ]
-    }
+    },
+    "enrichissements": [
+      {
+        "date": "2026-04-26",
+        "sprint": "4.5-bench",
+        "ajouts": [
+          "Q71",
+          "Q72",
+          "Q73",
+          "Q74",
+          "Q75",
+          "Q76",
+          "Q77",
+          "Q78",
+          "Q79",
+          "Q80",
+          "Q81",
+          "Q82",
+          "Q83",
+          "Q84",
+          "Q85",
+          "Q86",
+          "Q87",
+          "Q88",
+          "Q89",
+          "Q90",
+          "Q91",
+          "Q92",
+          "Q93",
+          "Q94",
+          "Q95"
+        ],
+        "note": "Sprint 4.5-bench : +25 questions ciblant Sprint 5.3 KB enrichie (RH + Gouvernance)."
+      }
+    ]
   },
   "questions": [
     {
@@ -1016,6 +1050,442 @@
       "correct_keywords": [],
       "forbidden_phrases": [],
       "notes": "Question trop vague → V2 doit refuser hors_corpus"
+    },
+    {
+      "id": "Q71",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Quelle est la durée maximale de la période d'essai pour un employé en CDI dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Période d'essai (CCN ELISFA Chap III)",
+      "correct_keywords": [
+        "2 mois",
+        "période d'essai",
+        "CDI"
+      ],
+      "forbidden_phrases": [
+        "6 mois",
+        "8 mois"
+      ],
+      "notes": "rh-14 — CCN ELISFA Chap III art 4 : 2 mois employé, 3 mois agent maîtrise, 4 mois cadre."
+    },
+    {
+      "id": "Q72",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Combien d'emplois repères sont définis par l'avenant 10-22 dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Classification ALISFA (avenant 10-22)",
+      "correct_keywords": [
+        "15 emplois repères",
+        "avenant 10-22",
+        "6 décembre 2022"
+      ],
+      "forbidden_phrases": [
+        "10 emplois",
+        "20 emplois"
+      ],
+      "notes": "rh-35 — Avenant 10-22 du 6 décembre 2022 définit 15 emplois repères ALISFA."
+    },
+    {
+      "id": "Q73",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Quelle est la durée du préavis de licenciement éco pour un cadre avec 3 ans d'ancienneté en ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Préavis licenciement (Chap III art 8)",
+      "correct_keywords": [
+        "3 mois",
+        "cadre",
+        "préavis"
+      ],
+      "forbidden_phrases": [
+        "1 mois cadre",
+        "6 mois"
+      ],
+      "notes": "rh-17 — Préavis cadre = 3 mois (vs 1 ou 2 mois non-cadre selon ancienneté)."
+    },
+    {
+      "id": "Q74",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Comment se calcule l'indemnité de licenciement légale dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Indemnité licenciement (CCN + Code travail)",
+      "correct_keywords": [
+        "1/4 mois",
+        "1/3 mois",
+        "ancienneté"
+      ],
+      "forbidden_phrases": [
+        "1/2 mois par année"
+      ],
+      "notes": "rh-18 — 1/4 mois par année jusqu'à 10 ans + 1/3 mois au-delà (article R1234-2 Code travail)."
+    },
+    {
+      "id": "Q75",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Quelle est la durée maximale du forfait jours pour un cadre dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Forfait jours cadre (Chap XI)",
+      "correct_keywords": [
+        "216 jours",
+        "forfait jours",
+        "cadre"
+      ],
+      "forbidden_phrases": [
+        "218 jours",
+        "100 jours"
+      ],
+      "notes": "rh-36 — CCN Chap XI : forfait annuel max 216 jours travaillés/an pour cadres autonomes."
+    },
+    {
+      "id": "Q76",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Combien de jours pour un mariage du salarié dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Congés exceptionnels (Chap VI art 4)",
+      "correct_keywords": [
+        "4 jours",
+        "mariage"
+      ],
+      "forbidden_phrases": [
+        "1 jour",
+        "10 jours"
+      ],
+      "notes": "rh-29 — CCN Chap VI art 4 : 4 jours pour mariage du salarié (≥ 4 jours légal)."
+    },
+    {
+      "id": "Q77",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Quelle est la procédure disciplinaire pour un avertissement écrit dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Discipline et sanctions (Chap III art 5)",
+      "correct_keywords": [
+        "entretien préalable",
+        "écrit",
+        "motivé"
+      ],
+      "forbidden_phrases": [
+        "sans entretien",
+        "verbal"
+      ],
+      "notes": "rh-15 — Convocation entretien préalable + sanction écrite motivée + recours possible."
+    },
+    {
+      "id": "Q78",
+      "module": "rh",
+      "expected_type": "vague",
+      "question": "Comment gérer un salarié en arrêt maladie longue durée ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Maintien salaire maladie (Chap IX) + IJSS",
+      "correct_keywords": [
+        "IJSS",
+        "subrogation",
+        "complément"
+      ],
+      "forbidden_phrases": [],
+      "notes": "rh-33 — Maintien salaire selon ancienneté + IJSS + subrogation possible."
+    },
+    {
+      "id": "Q79",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Quelles sont les règles de tarification PSU pour un EAJE associatif ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "PSU et tarification EAJE (réglementaire CAF)",
+      "correct_keywords": [
+        "barème",
+        "QF",
+        "ressources",
+        "modulé"
+      ],
+      "forbidden_phrases": [
+        "forfait fixe",
+        "tarif unique"
+      ],
+      "notes": "rh-24 — SMHB lié à classification + barème PSU CAF modulé selon QF."
+    },
+    {
+      "id": "Q80",
+      "module": "rh",
+      "expected_type": "hors_sujet",
+      "question": "Quel est le meilleur restaurant à Lyon ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": "(hors corpus)",
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors corpus pur. Doit déclencher le fallback hors_corpus."
+    },
+    {
+      "id": "Q81",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Qu'est-ce que la loi Hamon de 2014 et que définit-elle pour l'ESS ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "ESS et loi Hamon 2014",
+      "correct_keywords": [
+        "loi Hamon",
+        "31 juillet 2014",
+        "ESS",
+        "but non lucratif"
+      ],
+      "forbidden_phrases": [
+        "loi 2018",
+        "loi de finances"
+      ],
+      "notes": "gv-13 — Loi 2014-856 du 31 juillet 2014 (loi Hamon) définit le périmètre ESS + 4 principes."
+    },
+    {
+      "id": "Q82",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Une convention pluriannuelle d'objectifs (CPO) avec une mairie peut durer combien de temps maximum ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "CPO (Décret 2018-514)",
+      "correct_keywords": [
+        "3 ans",
+        "5 ans",
+        "CPO"
+      ],
+      "forbidden_phrases": [
+        "10 ans",
+        "1 an"
+      ],
+      "notes": "gv-19 — Décret 2018-514 : CPO recommandé 3 ans, max 5 ans."
+    },
+    {
+      "id": "Q83",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quel est le seuil de cotisation à l'AGEFIPH pour un poste manquant en 2024 (OETH 6%) ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "OETH (Code travail L5212)",
+      "correct_keywords": [
+        "OETH",
+        "6%",
+        "AGEFIPH",
+        "5 200 €"
+      ],
+      "forbidden_phrases": [
+        "10%",
+        "1 000 €"
+      ],
+      "notes": "gv-45 — OETH 6% effectif > 20 salariés, contribution AGEFIPH ~5 200 €/poste manquant."
+    },
+    {
+      "id": "Q84",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quel délai légal pour déclarer en préfecture un changement de président d'association loi 1901 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Déclaration préfecture (loi 1901 + décret 1901)",
+      "correct_keywords": [
+        "3 mois",
+        "préfecture",
+        "déclaration"
+      ],
+      "forbidden_phrases": [
+        "1 an",
+        "6 mois"
+      ],
+      "notes": "gv-32 — Loi 1901 art 5 + décret 1901 : 3 mois max pour déclarer modifications."
+    },
+    {
+      "id": "Q85",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Sous quel délai déclarer une cessation des paiements pour une association ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Cessation paiements (Code commerce L631-4)",
+      "correct_keywords": [
+        "45 jours",
+        "cessation des paiements",
+        "tribunal judiciaire"
+      ],
+      "forbidden_phrases": [
+        "3 mois",
+        "30 jours"
+      ],
+      "notes": "gv-38 — Code commerce L631-4 : 45 jours max pour DCP au tribunal judiciaire."
+    },
+    {
+      "id": "Q86",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Faut-il un consentement parental pour publier des photos d'enfants en EAJE ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "RGPD photos enfants (article 8)",
+      "correct_keywords": [
+        "consentement",
+        "parental",
+        "RGPD",
+        "écrit"
+      ],
+      "forbidden_phrases": [
+        "pas obligatoire",
+        "implicite"
+      ],
+      "notes": "gv-27 — RGPD article 8 + Code civil 9 : consentement parental explicite obligatoire."
+    },
+    {
+      "id": "Q87",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Combien de jours par an pour le congé d'engagement bénévole de la loi 2024 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Congé engagement bénévole (loi 2024-364)",
+      "correct_keywords": [
+        "6 jours",
+        "engagement bénévole",
+        "loi 2024",
+        "1 an d'ancienneté"
+      ],
+      "forbidden_phrases": [
+        "10 jours",
+        "12 jours"
+      ],
+      "notes": "gv-47 — Loi 2024-364 : 6 jours/an non rémunérés pour bénévolat statutaire."
+    },
+    {
+      "id": "Q88",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quelle est la sanction pénale du harcèlement sexuel au travail ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Harcèlement sexuel (Code pénal 222-33)",
+      "correct_keywords": [
+        "2 ans",
+        "30 000",
+        "Code pénal",
+        "harcèlement sexuel"
+      ],
+      "forbidden_phrases": [
+        "amende seulement",
+        "5 ans"
+      ],
+      "notes": "gv-44 — Article 222-33 Code pénal : 2 ans + 30 000 € pour harcèlement sexuel."
+    },
+    {
+      "id": "Q89",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Une association loi 1901 dissoute peut-elle redistribuer son actif net à ses membres ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Dissolution et dévolution (loi 1901 art 9)",
+      "correct_keywords": [
+        "interdit",
+        "membres",
+        "association similaire",
+        "dévolution"
+      ],
+      "forbidden_phrases": [
+        "possible",
+        "autorisé"
+      ],
+      "notes": "gv-37 — Loi 1901 art 9 : actif obligatoirement dévolu à association similaire, JAMAIS aux membres."
+    },
+    {
+      "id": "Q90",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Quel pourcentage de réduction d'impôt pour un don d'un particulier à une association d'intérêt général ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Mécénat (CGI 200)",
+      "correct_keywords": [
+        "66%",
+        "réduction d'impôt",
+        "20%",
+        "revenu imposable"
+      ],
+      "forbidden_phrases": [
+        "50%",
+        "100%"
+      ],
+      "notes": "gv-35 — CGI article 200 : 66% du don dans la limite de 20% du revenu imposable."
+    },
+    {
+      "id": "Q91",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "Comment associer les habitants à la vie de notre centre social ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Participation usagers/habitants (Laville/Fraisse)",
+      "correct_keywords": [
+        "pouvoir d'agir",
+        "co-construction",
+        "conseil habitants",
+        "participation"
+      ],
+      "forbidden_phrases": [],
+      "notes": "gv-17 — Échelle Laville-Fraisse : information, consultation, concertation, co-décision."
+    },
+    {
+      "id": "Q92",
+      "module": "gouvernance",
+      "expected_type": "hors_sujet",
+      "question": "Quelle est la capitale du Brésil ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": "(hors corpus)",
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Hors corpus pur. Doit déclencher le fallback hors_corpus."
+    },
+    {
+      "id": "Q93",
+      "module": "rh",
+      "expected_type": "precise",
+      "question": "Combien de jours de congés payés par an dans la branche ALISFA ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Congés payés (CCN Chap VI)",
+      "correct_keywords": [
+        "25 jours",
+        "5 semaines",
+        "ouvrés",
+        "congés payés"
+      ],
+      "forbidden_phrases": [
+        "20 jours",
+        "30 jours ouvrables"
+      ],
+      "notes": "rh-27 — CCN Chap VI art 1 : 25 jours ouvrés (5 semaines) min légal + plafond ALISFA."
+    },
+    {
+      "id": "Q94",
+      "module": "gouvernance",
+      "expected_type": "precise",
+      "question": "Sous combien de temps notifier la CNIL en cas de fuite de données personnelles ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "RGPD article 33 (notification fuite)",
+      "correct_keywords": [
+        "72 heures",
+        "CNIL",
+        "notification"
+      ],
+      "forbidden_phrases": [
+        "1 mois",
+        "24 heures"
+      ],
+      "notes": "gv-25 — RGPD article 33 : notification CNIL sous 72h."
+    },
+    {
+      "id": "Q95",
+      "module": "gouvernance",
+      "expected_type": "vague",
+      "question": "Notre asso ALISFA peut-elle se transformer en SCIC ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Transformation asso → SCIC (loi 2014-856)",
+      "correct_keywords": [
+        "SCIC",
+        "multi-sociétariat",
+        "transformation",
+        "loi Hamon"
+      ],
+      "forbidden_phrases": [],
+      "notes": "gv-40 — Possible via loi Hamon 2014-856 art 33 (transformation directe), procédure 6-12 mois."
     }
   ]
 }
