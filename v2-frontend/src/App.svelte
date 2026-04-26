@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Header from './lib/Header.svelte';
-  import ModuleSelector from './lib/ModuleSelector.svelte';
-  import ModeSelector from './lib/ModeSelector.svelte';
+  // UX-1 Zen-Gemini — Layout Sidebar (desktop) + Drawer (mobile) + chat plein écran
+  import Sidebar from './lib/Sidebar.svelte';
+  import MenuDrawer from './lib/MenuDrawer.svelte';
   import ChatWindow from './lib/ChatWindow.svelte';
   import LegalModal from './lib/LegalModal.svelte';
   import WizardModal from './lib/WizardModal.svelte';
@@ -14,12 +14,8 @@
   let wizardOpen = $state(false);
   let annuaireOpen = $state(false);
   let fichesOpen = $state(false);
+  let drawerOpen = $state(false);
 
-  // Sprint 4.6 F1.5 — Onboarding : ouvert auto si pas de profil ; ré-ouvrable
-  // depuis le chip Header. La distinction se fait via `welcomeIsOnboarding`.
-  // chat.profileId === null → 1re visite OU utilisateur a explicitement passé
-  // l'onboarding ; on ne ré-ouvre pas tant qu'il n'a pas cliqué sur le chip.
-  // Pour différencier, on stocke un flag de "welcome déjà montré" en sessionStorage.
   const ONBOARDING_SHOWN_KEY = 'elisfa-v2-onboarding-shown';
   let welcomeOpen = $state(false);
   let welcomeIsOnboarding = $state(true);
@@ -42,15 +38,31 @@
   }
 </script>
 
-<Header
-  onShowLegal={() => (legalOpen = true)}
-  {onShowProfile}
-  onShowAnnuaire={() => (annuaireOpen = true)}
-  onShowFiches={() => (fichesOpen = true)}
-/>
-<ModuleSelector />
-<ModeSelector onOpenWizard={() => (wizardOpen = true)} />
-<ChatWindow />
+<div class="flex min-h-screen bg-white">
+  <!-- Desktop sidebar (hidden on mobile) -->
+  <Sidebar
+    {onShowProfile}
+    onShowAnnuaire={() => (annuaireOpen = true)}
+    onShowFiches={() => (fichesOpen = true)}
+    onShowLegal={() => (legalOpen = true)}
+  />
+
+  <!-- Mobile drawer (hidden on desktop) -->
+  <MenuDrawer
+    open={drawerOpen}
+    onClose={() => (drawerOpen = false)}
+    {onShowProfile}
+    onShowAnnuaire={() => (annuaireOpen = true)}
+    onShowFiches={() => (fichesOpen = true)}
+    onShowLegal={() => (legalOpen = true)}
+  />
+
+  <!-- Main chat area (flex-1) -->
+  <ChatWindow
+    onOpenWizard={() => (wizardOpen = true)}
+    onOpenMenu={() => (drawerOpen = true)}
+  />
+</div>
 
 <LegalModal open={legalOpen} onClose={() => (legalOpen = false)} />
 <AnnuaireModal open={annuaireOpen} onClose={() => (annuaireOpen = false)} />

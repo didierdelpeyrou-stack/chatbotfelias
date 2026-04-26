@@ -1,4 +1,5 @@
 <script lang="ts">
+  // UX-1 Zen-Gemini — Chat centered (max-w-3xl ≈ 720px) + hero welcome screen
   import { chat, addMessage, updateMessage, newId, dispatcher, clearPending, currentMessages } from './store.svelte';
   import { askStream, askOnce } from './api';
   import { MODULES } from './types';
@@ -6,24 +7,25 @@
   import MessageBubble from './MessageBubble.svelte';
   import InputBar from './InputBar.svelte';
 
+  interface Props {
+    onOpenWizard: () => void;
+    onOpenMenu: () => void;
+  }
+  let { onOpenWizard, onOpenMenu }: Props = $props();
+
   let busy = $state(false);
   let scrollContainer: HTMLDivElement | undefined = $state();
   let lastQuestion = $state('');
 
-  // Sprint 4.6 F1.7 — messages réactifs du module courant
   let messages = $derived(currentMessages());
 
-  // Auto-scroll en bas à chaque nouveau message, token, ou changement de module
   $effect(() => {
-    messages; // dépendance
+    messages;
     queueMicrotask(() => {
-      if (scrollContainer) {
-        scrollContainer.scrollTop = scrollContainer.scrollHeight;
-      }
+      if (scrollContainer) scrollContainer.scrollTop = scrollContainer.scrollHeight;
     });
   });
 
-  // Sprint 4.6 F4 — consomme les soumissions externes (wizard, CTA, …)
   $effect(() => {
     const req = dispatcher.pending;
     if (req && !busy) {
@@ -38,14 +40,8 @@
     busy = true;
     lastQuestion = text;
 
-    // 1. Push message utilisateur
-    addMessage({
-      id: newId(),
-      role: 'user',
-      content: text,
-    });
+    addMessage({ id: newId(), role: 'user', content: text });
 
-    // 2. Push placeholder assistant en streaming
     const assistantId = newId();
     const startedAt = performance.now();
     const activeMode = modeOverride !== undefined ? modeOverride : (chat.modeByModule[chat.module] ?? null);
@@ -61,7 +57,6 @@
     });
 
     try {
-      // Phase 2 : streaming SSE — sources reçues d'abord, puis tokens progressifs.
       let answerSoFar = '';
       let receivedAnyEvent = false;
 
@@ -69,33 +64,22 @@
         await askStream({ question: text, module: chat.module, mode: activeMode, profile: activeProfile, profile_extras: activeProfileExtras }, (event) => {
           receivedAnyEvent = true;
           if (event.type === 'sources') {
-            updateMessage(assistantId, {
-              sources: event.sources,
-              hors_corpus: event.hors_corpus,
-            });
+            updateMessage(assistantId, { sources: event.sources, hors_corpus: event.hors_corpus });
           } else if (event.type === 'delta') {
             answerSoFar += event.text;
             updateMessage(assistantId, { content: answerSoFar });
           } else if (event.type === 'done') {
-            updateMessage(assistantId, {
-              pending: false,
-              duration_ms: performance.now() - startedAt,
-            });
+            updateMessage(assistantId, { pending: false, duration_ms: performance.now() - startedAt });
           } else if (event.type === 'error') {
             throw new Error(event.message);
           }
         });
 
-        // Sécurité : le serveur n'a pas envoyé 'done' explicitement
         const last = currentMessages().find((m) => m.id === assistantId);
         if (last?.pending) {
-          updateMessage(assistantId, {
-            pending: false,
-            duration_ms: performance.now() - startedAt,
-          });
+          updateMessage(assistantId, { pending: false, duration_ms: performance.now() - startedAt });
         }
       } catch (streamErr) {
-        // Stream KO avant tout token : fallback /api/ask non-streaming
         if (!receivedAnyEvent || !answerSoFar) {
           const res = await askOnce({ question: text, module: chat.module, mode: activeMode, profile: activeProfile, profile_extras: activeProfileExtras });
           updateMessage(assistantId, {
@@ -111,16 +95,12 @@
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Erreur inconnue';
-      updateMessage(assistantId, {
-        pending: false,
-        error: message,
-      });
+      updateMessage(assistantId, { pending: false, error: message });
     } finally {
       busy = false;
     }
   }
 
-  // Question liée à chaque réponse assistant pour le feedback (parcours pairé)
   function questionFor(assistantIdx: number): string {
     for (let i = assistantIdx - 1; i >= 0; i--) {
       if (messages[i].role === 'user') return messages[i].content;
@@ -141,39 +121,61 @@
   );
 </script>
 
-<div class="flex-1 flex flex-col min-h-0 bg-grey-50">
+<main class="flex-1 flex flex-col min-h-0 bg-white">
+  <!-- Mobile-only floating top bar with hamburger + module label -->
+  <div class="md:hidden flex items-center gap-2 px-3 py-2 border-b border-grey-100 bg-white/95 backdrop-blur sticky top-0 z-20">
+    <button
+      class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-grey-100 cursor-pointer transition"
+      onclick={onOpenMenu}
+      aria-label="Ouvrir le menu"
+    >
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="flex items-center gap-1.5 text-sm font-semibold text-navy-900 truncate">
+      <span>{currentModuleMeta.emoji}</span>
+      <span class="truncate">{currentModuleMeta.label}</span>
+    </div>
+  </div>
+
+  <!-- Scrollable conversation area -->
   <div bind:this={scrollContainer} class="flex-1 overflow-y-auto">
-    <div class="max-w-5xl mx-auto px-4 py-4">
-      {#if messages.length === 0}
-        <div class="text-center mt-12 mb-8 px-4">
-          <div class="text-5xl mb-4">{currentModuleMeta.emoji}</div>
-          <h2 class="text-xl font-semibold text-grey-800 mb-2">
+    {#if messages.length === 0}
+      <!-- Hero welcome screen -->
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 py-10 sm:py-16">
+        <div class="text-center mb-8">
+          <div class="text-6xl sm:text-7xl mb-5">{currentModuleMeta.emoji}</div>
+          <h2 class="text-2xl sm:text-3xl font-semibold text-navy-900 mb-2">
             Bonjour 👋
           </h2>
-          <p class="text-sm text-grey-600 max-w-md mx-auto">
-            Module <strong class="text-grey-800">{currentModuleMeta.label}</strong> sélectionné. Posez votre question ci-dessous, je m'appuie sur la base documentaire ALISFA pour vous répondre.
+          <p class="text-sm sm:text-base text-grey-600 max-w-xl mx-auto leading-relaxed">
+            Module <strong class="text-navy-900">{currentModuleMeta.label}</strong>.
+            <span class="hidden sm:inline">{currentModuleMeta.banner}</span>
           </p>
-          <div class="mt-6 grid sm:grid-cols-2 gap-2 max-w-2xl mx-auto text-left">
-            {#each SUGGESTIONS[chat.module] as suggestion}
-              <button
-                class="bg-white {suggestionHoverClass} border border-grey-200 rounded-lg p-3 text-sm text-grey-700 transition cursor-pointer leading-snug"
-                onclick={() => handleSend(suggestion)}
-              >
-                {suggestion}
-              </button>
-            {/each}
-          </div>
         </div>
-      {:else}
+        <div class="grid sm:grid-cols-2 gap-2 sm:gap-3 max-w-2xl mx-auto">
+          {#each SUGGESTIONS[chat.module] as suggestion}
+            <button
+              class="bg-white {suggestionHoverClass} border border-grey-200 rounded-xl p-3 sm:p-3.5 text-sm text-grey-700 transition cursor-pointer leading-snug text-left hover:shadow-sm"
+              onclick={() => handleSend(suggestion)}
+            >
+              {suggestion}
+            </button>
+          {/each}
+        </div>
+      </div>
+    {:else}
+      <div class="max-w-3xl mx-auto px-3 sm:px-6 py-4 sm:py-6">
         {#each messages as message, i (message.id)}
           <MessageBubble
             {message}
             questionForFeedback={message.role === 'assistant' ? questionFor(i) : undefined}
           />
         {/each}
-      {/if}
-    </div>
+      </div>
+    {/if}
   </div>
 
-  <InputBar disabled={busy} onSend={handleSend} />
-</div>
+  <InputBar disabled={busy} onSend={handleSend} {onOpenWizard} />
+</main>
