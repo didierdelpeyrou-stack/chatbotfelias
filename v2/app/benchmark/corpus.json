@@ -1,23 +1,32 @@
 {
   "metadata": {
-    "version": "1.0",
-    "date": "2026-04-25",
-    "n_questions": 50,
+    "version": "2.0",
+    "date": "2026-04-26",
+    "n_questions": 70,
     "distribution": {
       "juridique": 20,
-      "formation": 10,
+      "formation": 30,
       "rh": 10,
       "gouvernance": 10
     },
     "types": {
-      "precise": 30,
-      "vague": 11,
+      "precise": 49,
+      "vague": 12,
       "hors_sujet": 9
     },
-    "rule": "Double-blind eval — Sprint 4.2 lancera ce corpus sur V1 ET V2, l'évaluateur ne sait pas quelle version a répondu."
+    "rule": "Double-blind eval — Sprint 4.2 lancera ce corpus sur V1 ET V2, l'évaluateur ne sait pas quelle version a répondu.",
+    "extension_sprint52": {
+      "date": "2026-04-26",
+      "questions_added": 20,
+      "themes_covered": [
+        "financement_uniformation",
+        "metiers_gpec",
+        "fonctions_reglementaires",
+        "intentions_directeur"
+      ]
+    }
   },
   "questions": [
-
     {
       "id": "Q01",
       "module": "juridique",
@@ -25,8 +34,14 @@
       "question": "Quelle durée de préavis en cas de licenciement pour un salarié non-cadre avec 2 ans d'ancienneté ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Rupture du contrat de travail",
-      "correct_keywords": ["2 mois", "ancienneté"],
-      "forbidden_phrases": ["6 mois", "1 an"],
+      "correct_keywords": [
+        "2 mois",
+        "ancienneté"
+      ],
+      "forbidden_phrases": [
+        "6 mois",
+        "1 an"
+      ],
       "notes": "Préavis ALISFA : 1 mois <2 ans, 2 mois ≥2 ans (non-cadre)."
     },
     {
@@ -36,7 +51,9 @@
       "question": "Quel est le numéro IDCC de la convention collective ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Champ d'application",
-      "correct_keywords": ["1261"],
+      "correct_keywords": [
+        "1261"
+      ],
       "forbidden_phrases": [],
       "notes": "IDCC 1261 — info canonique, doit toujours être correct."
     },
@@ -47,7 +64,10 @@
       "question": "Comment se calcule le salaire minimum ALISFA selon l'avenant 10-2022 ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Rémunération",
-      "correct_keywords": ["points", "valeur"],
+      "correct_keywords": [
+        "points",
+        "valeur"
+      ],
       "forbidden_phrases": [],
       "notes": "SSC + points × valeur du point. Pas de prime d'ancienneté !"
     },
@@ -58,7 +78,9 @@
       "question": "Comment fonctionne la pesée des emplois ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Classification",
-      "correct_keywords": ["critère"],
+      "correct_keywords": [
+        "critère"
+      ],
       "forbidden_phrases": [],
       "notes": "Système de classification multicritères ALISFA."
     },
@@ -69,8 +91,12 @@
       "question": "Comment l'ancienneté est-elle valorisée dans la CCN ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Ancienneté",
-      "correct_keywords": ["ancienneté"],
-      "forbidden_phrases": ["prime d'ancienneté"],
+      "correct_keywords": [
+        "ancienneté"
+      ],
+      "forbidden_phrases": [
+        "prime d'ancienneté"
+      ],
       "notes": "Pas de prime d'ancienneté en ALISFA — répandu mais FAUX."
     },
     {
@@ -80,7 +106,9 @@
       "question": "Quels congés exceptionnels pour événements familiaux dans la CCN ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Congés",
-      "correct_keywords": ["jours"],
+      "correct_keywords": [
+        "jours"
+      ],
       "forbidden_phrases": [],
       "notes": "Mariage, décès, naissance — barèmes spécifiques."
     },
@@ -91,7 +119,9 @@
       "question": "Quelle indemnité minimale pour une rupture conventionnelle ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Rupture",
-      "correct_keywords": ["indemnité"],
+      "correct_keywords": [
+        "indemnité"
+      ],
       "forbidden_phrases": [],
       "notes": "Indemnité légale de licenciement minimum (art. L1234-9 C. trav.)."
     },
@@ -102,7 +132,9 @@
       "question": "Quel est le délai de prescription d'une sanction disciplinaire en droit du travail ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Sanctions disciplinaires",
-      "correct_keywords": ["2 mois"],
+      "correct_keywords": [
+        "2 mois"
+      ],
       "forbidden_phrases": [],
       "notes": "Art. L1332-4 — 2 mois à compter de la connaissance des faits."
     },
@@ -113,7 +145,9 @@
       "question": "Quelles sont les règles de maintien de salaire en cas d'arrêt maladie ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Arrêt maladie",
-      "correct_keywords": ["salaire"],
+      "correct_keywords": [
+        "salaire"
+      ],
       "forbidden_phrases": [],
       "notes": "Subrogation employeur + complément CCN ALISFA."
     },
@@ -124,7 +158,9 @@
       "question": "Qu'est-ce qu'une faute grave en droit du travail français ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Disciplinaire",
-      "correct_keywords": ["faute"],
+      "correct_keywords": [
+        "faute"
+      ],
       "forbidden_phrases": [],
       "notes": "Faute rendant impossible le maintien du salarié dans l'entreprise."
     },
@@ -135,7 +171,9 @@
       "question": "Quelle est la durée du préavis pour un cadre selon la CCN ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Rupture du contrat de travail",
-      "correct_keywords": ["3 mois"],
+      "correct_keywords": [
+        "3 mois"
+      ],
       "forbidden_phrases": [],
       "notes": "Préavis cadre : 3 mois (CCN ALISFA Chapitre III)."
     },
@@ -146,11 +184,13 @@
       "question": "Quelles sont les étapes d'un entretien préalable au licenciement ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Procédure de licenciement",
-      "correct_keywords": ["convocation", "entretien"],
+      "correct_keywords": [
+        "convocation",
+        "entretien"
+      ],
       "forbidden_phrases": [],
       "notes": "Convocation 5 jours, entretien, notification ≥2j après."
     },
-
     {
       "id": "Q13",
       "module": "juridique",
@@ -206,7 +246,6 @@
       "forbidden_phrases": [],
       "notes": "Sans contexte, impossible — V2 doit refuser/clarifier."
     },
-
     {
       "id": "Q18",
       "module": "juridique",
@@ -215,7 +254,11 @@
       "expected_hors_corpus": true,
       "expected_topic_hint": null,
       "correct_keywords": [],
-      "forbidden_phrases": ["pâte brisée", "lardons", "œufs"],
+      "forbidden_phrases": [
+        "pâte brisée",
+        "lardons",
+        "œufs"
+      ],
       "notes": "Le V2 doit refuser. V1 a parfois du theme matché par 'lorraine'."
     },
     {
@@ -226,7 +269,10 @@
       "expected_hors_corpus": true,
       "expected_topic_hint": null,
       "correct_keywords": [],
-      "forbidden_phrases": ["8 planètes", "Pluton"],
+      "forbidden_phrases": [
+        "8 planètes",
+        "Pluton"
+      ],
       "notes": "Hors-sujet pur — refus attendu."
     },
     {
@@ -240,7 +286,6 @@
       "forbidden_phrases": [],
       "notes": "Hors-sujet — refus attendu."
     },
-
     {
       "id": "Q21",
       "module": "formation",
@@ -248,7 +293,9 @@
       "question": "Comment fonctionne le compte personnel de formation (CPF) ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "CPF",
-      "correct_keywords": ["CPF"],
+      "correct_keywords": [
+        "CPF"
+      ],
       "forbidden_phrases": [],
       "notes": "Question de base, devrait avoir un article dédié."
     },
@@ -259,7 +306,9 @@
       "question": "Quels financements Uniformation pour les structures ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Uniformation",
-      "correct_keywords": ["Uniformation"],
+      "correct_keywords": [
+        "Uniformation"
+      ],
       "forbidden_phrases": [],
       "notes": "OPCO de la branche."
     },
@@ -270,7 +319,10 @@
       "question": "Qu'est-ce qu'un plan de développement des compétences ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Plan de formation",
-      "correct_keywords": ["plan", "compétences"],
+      "correct_keywords": [
+        "plan",
+        "compétences"
+      ],
       "forbidden_phrases": [],
       "notes": "Anciennement plan de formation, depuis 2018."
     },
@@ -281,7 +333,9 @@
       "question": "À quoi sert l'entretien professionnel obligatoire ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Entretien professionnel",
-      "correct_keywords": ["entretien"],
+      "correct_keywords": [
+        "entretien"
+      ],
       "forbidden_phrases": [],
       "notes": "Obligatoire tous les 2 ans (loi de 2014)."
     },
@@ -292,7 +346,9 @@
       "question": "Comment organiser une formation entre plusieurs associations ALISFA ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Organisation",
-      "correct_keywords": ["formation"],
+      "correct_keywords": [
+        "formation"
+      ],
       "forbidden_phrases": [],
       "notes": "Mutualisation inter-asso."
     },
@@ -303,11 +359,12 @@
       "question": "Comment fonctionne la VAE (Validation des Acquis de l'Expérience) ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "VAE",
-      "correct_keywords": ["VAE"],
+      "correct_keywords": [
+        "VAE"
+      ],
       "forbidden_phrases": [],
       "notes": "Dispositif national de reconnaissance des compétences."
     },
-
     {
       "id": "Q27",
       "module": "formation",
@@ -330,7 +387,6 @@
       "forbidden_phrases": [],
       "notes": "Question typique de Sprint 0.1 — V1 retournait theme 'Droits formation' (faux)."
     },
-
     {
       "id": "Q29",
       "module": "formation",
@@ -350,10 +406,13 @@
       "expected_hors_corpus": true,
       "expected_topic_hint": null,
       "correct_keywords": [],
-      "forbidden_phrases": ["farine", "œufs", "sucre"],
+      "forbidden_phrases": [
+        "farine",
+        "œufs",
+        "sucre"
+      ],
       "notes": "Hors-sujet — refus attendu."
     },
-
     {
       "id": "Q31",
       "module": "rh",
@@ -361,7 +420,9 @@
       "question": "Comment gérer un cas de turnover élevé dans une équipe ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Turnover",
-      "correct_keywords": ["turnover"],
+      "correct_keywords": [
+        "turnover"
+      ],
       "forbidden_phrases": [],
       "notes": "KB RH ne couvre que 11 articles → peut donner hors_corpus, c'est OK."
     },
@@ -372,7 +433,9 @@
       "question": "Comment résoudre un conflit interne entre deux salariés ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Conflit interne",
-      "correct_keywords": ["conflit"],
+      "correct_keywords": [
+        "conflit"
+      ],
       "forbidden_phrases": [],
       "notes": "Module Conflit interne — partie des 11 articles RH."
     },
@@ -383,7 +446,9 @@
       "question": "Qu'est-ce qu'un management défaillant et comment l'identifier ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Management",
-      "correct_keywords": ["management"],
+      "correct_keywords": [
+        "management"
+      ],
       "forbidden_phrases": [],
       "notes": "KB limitée — peut sortir en hors_corpus, c'est honnête."
     },
@@ -394,7 +459,9 @@
       "question": "Comment améliorer le climat social dans une association ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Climat social",
-      "correct_keywords": ["climat"],
+      "correct_keywords": [
+        "climat"
+      ],
       "forbidden_phrases": [],
       "notes": "Article 'Climat social dégradé' présent dans la KB RH."
     },
@@ -405,7 +472,9 @@
       "question": "Que faire face à de l'absentéisme chronique ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Absentéisme",
-      "correct_keywords": ["absentéisme"],
+      "correct_keywords": [
+        "absentéisme"
+      ],
       "forbidden_phrases": [],
       "notes": "Module Absentéisme — KB RH."
     },
@@ -416,11 +485,13 @@
       "question": "Comment instaurer un dialogue social efficace avec le CSE ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Dialogue social",
-      "correct_keywords": ["dialogue", "social"],
+      "correct_keywords": [
+        "dialogue",
+        "social"
+      ],
       "forbidden_phrases": [],
       "notes": "Module Dialogue social — KB RH."
     },
-
     {
       "id": "Q37",
       "module": "rh",
@@ -443,7 +514,6 @@
       "forbidden_phrases": [],
       "notes": "Sans contexte, impossible."
     },
-
     {
       "id": "Q39",
       "module": "rh",
@@ -452,7 +522,9 @@
       "expected_hors_corpus": true,
       "expected_topic_hint": null,
       "correct_keywords": [],
-      "forbidden_phrases": ["12"],
+      "forbidden_phrases": [
+        "12"
+      ],
       "notes": "Hors-sujet — V2 doit refuser même si trivial."
     },
     {
@@ -463,10 +535,11 @@
       "expected_hors_corpus": true,
       "expected_topic_hint": null,
       "correct_keywords": [],
-      "forbidden_phrases": ["empereur"],
+      "forbidden_phrases": [
+        "empereur"
+      ],
       "notes": "Hors-sujet — refus."
     },
-
     {
       "id": "Q41",
       "module": "gouvernance",
@@ -474,7 +547,9 @@
       "question": "Comment fonctionne la gouvernance d'une association loi 1901 ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Loi 1901",
-      "correct_keywords": ["1901"],
+      "correct_keywords": [
+        "1901"
+      ],
       "forbidden_phrases": [],
       "notes": "Question canonique gouvernance."
     },
@@ -485,7 +560,10 @@
       "question": "Quels sont les rôles respectifs du CA et du bureau ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Instances associatives",
-      "correct_keywords": ["CA", "bureau"],
+      "correct_keywords": [
+        "CA",
+        "bureau"
+      ],
       "forbidden_phrases": [],
       "notes": "Distinction CA (collégial) vs bureau (exécutif)."
     },
@@ -496,7 +574,9 @@
       "question": "Comment organiser une assemblée générale conforme aux statuts ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Assemblée générale",
-      "correct_keywords": ["assemblée"],
+      "correct_keywords": [
+        "assemblée"
+      ],
       "forbidden_phrases": [],
       "notes": "AG annuelle obligatoire."
     },
@@ -507,7 +587,9 @@
       "question": "Comment recruter et fidéliser des bénévoles ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Bénévolat",
-      "correct_keywords": ["bénévole"],
+      "correct_keywords": [
+        "bénévole"
+      ],
       "forbidden_phrases": [],
       "notes": "Engagement bénévole — module gouvernance."
     },
@@ -518,7 +600,9 @@
       "question": "Comment gérer les tensions entre bénévoles et salariés dans une association ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Tensions",
-      "correct_keywords": ["tension"],
+      "correct_keywords": [
+        "tension"
+      ],
       "forbidden_phrases": [],
       "notes": "Sujet sensible et fréquent en associations employeuses."
     },
@@ -529,11 +613,12 @@
       "question": "Qu'est-ce que le congé d'engagement bénévole de la loi 2024 ?",
       "expected_hors_corpus": false,
       "expected_topic_hint": "Loi 2024",
-      "correct_keywords": ["congé"],
+      "correct_keywords": [
+        "congé"
+      ],
       "forbidden_phrases": [],
       "notes": "Loi récente — article dédié dans la KB gouvernance."
     },
-
     {
       "id": "Q47",
       "module": "gouvernance",
@@ -556,7 +641,6 @@
       "forbidden_phrases": [],
       "notes": "Vague — V2 doit refuser."
     },
-
     {
       "id": "Q49",
       "module": "gouvernance",
@@ -578,6 +662,358 @@
       "correct_keywords": [],
       "forbidden_phrases": [],
       "notes": "Hors-sujet — refus."
+    },
+    {
+      "id": "Q51",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel niveau de prise en charge OPCO Uniformation pour un contrat d'apprentissage CAP AEPE en 2026 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "NPEC alternance ALISFA",
+      "correct_keywords": [
+        "6 467",
+        "CAP AEPE",
+        "CPNEF"
+      ],
+      "forbidden_phrases": [
+        "non éligible",
+        "5 000"
+      ],
+      "notes": "NPEC CCN ALISFA p.26 : CAP AEPE = 6 467 €/an"
+    },
+    {
+      "id": "Q52",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Combien d'enveloppes de financement formation pour une structure ALISFA en 2026 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Sources financement formation",
+      "correct_keywords": [
+        "fonds légaux",
+        "conventionnels",
+        "alternance",
+        "CPNEF"
+      ],
+      "forbidden_phrases": [
+        "uniquement Uniformation"
+      ],
+      "notes": "4 enveloppes : légaux + conventionnels + alternance + CPNEF 0,2%"
+    },
+    {
+      "id": "Q53",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment abonder le CPF d'un salarié pour financer un DEJEPS ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Abondement employeur CPF",
+      "correct_keywords": [
+        "Mon Compte Formation",
+        "convention",
+        "abondement"
+      ],
+      "forbidden_phrases": [
+        "interdit",
+        "uniquement Pôle Emploi"
+      ],
+      "notes": "Loi Avenir Pro 2018 — abondement employeur sur Mon Compte Formation pro"
+    },
+    {
+      "id": "Q54",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quelle aide État pour un contrat d'apprentissage signé en 2026 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Aide unique apprentissage",
+      "correct_keywords": [
+        "6 000",
+        "première année"
+      ],
+      "forbidden_phrases": [
+        "3 000",
+        "supprimée"
+      ],
+      "notes": "Décret 2024-149 : 6 000 € pour la 1ère année, structures < 250 sal."
+    },
+    {
+      "id": "Q55",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Qu'est-ce que le PEC Parcours Emploi Compétences ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Contrats aidés PEC",
+      "correct_keywords": [
+        "50",
+        "SMIC",
+        "France Travail"
+      ],
+      "forbidden_phrases": [
+        "100% État",
+        "supprimé"
+      ],
+      "notes": "PEC remplace CUI-CAE depuis 2018. Aide 50-80% SMIC selon profil."
+    },
+    {
+      "id": "Q56",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel diplôme pour devenir Éducateur de Jeunes Enfants (EJE) ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "GPEC métier EJE",
+      "correct_keywords": [
+        "DE EJE",
+        "3 ans",
+        "Bac+3"
+      ],
+      "forbidden_phrases": [
+        "DEAES suffit",
+        "BTS"
+      ],
+      "notes": "DE EJE niveau 6, 3 ans formation, RNCP"
+    },
+    {
+      "id": "Q57",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quelles missions d'un animateur RPE Relais Petite Enfance ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "GPEC RPE",
+      "correct_keywords": [
+        "assistantes maternelles",
+        "information familles",
+        "professionnalisation"
+      ],
+      "forbidden_phrases": [
+        "accueil enfants directement",
+        "encadrement EAJE"
+      ],
+      "notes": "RPE = informer familles + accompagner ass mat (réforme 2021)"
+    },
+    {
+      "id": "Q58",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel diplôme pour être animateur en accueil de loisirs (ALSH) ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "GPEC animateur",
+      "correct_keywords": [
+        "BAFA",
+        "BPJEPS",
+        "CAP AEPE"
+      ],
+      "forbidden_phrases": [
+        "aucun diplôme",
+        "uniquement Bac"
+      ],
+      "notes": "BAFA pour temporaires, BPJEPS pour permanents, CAP AEPE possible"
+    },
+    {
+      "id": "Q59",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel rôle d'un agent d'entretien en EAJE ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "GPEC services techniques",
+      "correct_keywords": [
+        "nettoyage",
+        "désinfection",
+        "hygiène"
+      ],
+      "forbidden_phrases": [
+        "encadrement enfants",
+        "responsable cuisine"
+      ],
+      "notes": "Agent entretien = nettoyage locaux selon protocole hygiène crèche"
+    },
+    {
+      "id": "Q60",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Qu'est-ce que la RSAI Référente Santé Accueil Inclusif en EAJE ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "RSAI réforme Norma 2021",
+      "correct_keywords": [
+        "RSAI",
+        "santé",
+        "EAJE",
+        "obligatoire"
+      ],
+      "forbidden_phrases": [
+        "facultatif",
+        "uniquement médecin"
+      ],
+      "notes": "RSAI obligatoire 1er sept 2022 (décret Norma 2021-1131)"
+    },
+    {
+      "id": "Q61",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel diplôme pour diriger un ACM Accueil Collectif de Mineurs ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Direction ACM ALSH",
+      "correct_keywords": [
+        "BAFD",
+        "DEJEPS",
+        "BPJEPS"
+      ],
+      "forbidden_phrases": [
+        "BAFA suffit",
+        "aucun diplôme"
+      ],
+      "notes": "Arrêté 9 février 2007 modifié — BAFD ou DEJEPS ou BPJEPS UC direction"
+    },
+    {
+      "id": "Q62",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Faut-il un référent harcèlement sexuel dans une structure de 30 salariés ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Référent harcèlement obligation",
+      "correct_keywords": [
+        "obligatoire",
+        "tous",
+        "L1153-5-1"
+      ],
+      "forbidden_phrases": [
+        "non obligatoire",
+        "uniquement 250 salariés"
+      ],
+      "notes": "Loi 2018-771 : obligatoire pour TOUS employeurs sans seuil"
+    },
+    {
+      "id": "Q63",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Combien de personnes formées HACCP sont obligatoires en cuisine collective ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "HACCP restauration collective",
+      "correct_keywords": [
+        "1 personne",
+        "14 heures",
+        "obligatoire"
+      ],
+      "forbidden_phrases": [
+        "aucune",
+        "tous les salariés"
+      ],
+      "notes": "Décret 2011-731 : au moins 1 personne formée HACCP 14h"
+    },
+    {
+      "id": "Q64",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quelles qualifications pour être Médiateur Familial DEMF ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "DE Médiation Familiale",
+      "correct_keywords": [
+        "DEMF",
+        "Bac+3",
+        "595 heures"
+      ],
+      "forbidden_phrases": [
+        "aucune formation",
+        "Bac+5 obligatoire"
+      ],
+      "notes": "Décret 2003-1166 : DE Médiation Familiale niveau 6, 595h + 105h stage"
+    },
+    {
+      "id": "Q65",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quel budget formation puis-je prévoir pour 8 salariés en 2026 ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Budget formation TPE",
+      "correct_keywords": [
+        "4 000",
+        "fonds légaux",
+        "Uniformation"
+      ],
+      "forbidden_phrases": [
+        "aucun budget"
+      ],
+      "notes": "TPE 8 sal : ~5-8K fonds légaux + conventionnels + alternance"
+    },
+    {
+      "id": "Q66",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment dois-je gérer une fermeture temporaire d'EAJE pour rénovation 3 mois ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Fermeture temporaire EAJE",
+      "correct_keywords": [
+        "activité partielle",
+        "PMI",
+        "FNE-Formation"
+      ],
+      "forbidden_phrases": [
+        "pas possible",
+        "fermeture définitive"
+      ],
+      "notes": "Activité partielle + FNE-Formation + notification PMI 2 mois avant"
+    },
+    {
+      "id": "Q67",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Que faire en cas de signalement de maltraitance d'enfant ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Signalement maltraitance",
+      "correct_keywords": [
+        "119",
+        "CRIP",
+        "procureur"
+      ],
+      "forbidden_phrases": [
+        "régler en interne",
+        "ignorer"
+      ],
+      "notes": "Obligation pénale 434-3 : CRIP / procureur / 119 SNATED"
+    },
+    {
+      "id": "Q68",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Comment se conformer à la loi EGalim en restauration EAJE ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Loi EGalim restauration",
+      "correct_keywords": [
+        "50%",
+        "20% bio",
+        "végétarien"
+      ],
+      "forbidden_phrases": [
+        "pas concerné",
+        "100% bio"
+      ],
+      "notes": "EGalim 2018 : 50% durable / 20% bio + menu végé hebdo"
+    },
+    {
+      "id": "Q69",
+      "module": "formation",
+      "expected_type": "precise",
+      "question": "Quelle procédure pour licencier un salarié pour inaptitude médicale ?",
+      "expected_hors_corpus": false,
+      "expected_topic_hint": "Licenciement inaptitude",
+      "correct_keywords": [
+        "médecin du travail",
+        "reclassement",
+        "L1226"
+      ],
+      "forbidden_phrases": [
+        "licenciement immédiat",
+        "sans procédure"
+      ],
+      "notes": "Code travail L1226-2 : avis médecin + reclassement obligatoire"
+    },
+    {
+      "id": "Q70",
+      "module": "formation",
+      "expected_type": "vague",
+      "question": "Comment je peux améliorer ma structure ?",
+      "expected_hors_corpus": true,
+      "expected_topic_hint": "Question trop vague",
+      "correct_keywords": [],
+      "forbidden_phrases": [],
+      "notes": "Question trop vague → V2 doit refuser hors_corpus"
     }
   ]
 }
