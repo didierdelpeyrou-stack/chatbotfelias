@@ -1,12 +1,13 @@
 // Client API V2 — appels REST + SSE streaming
-import type { AskResponse, Mode, Module } from './types';
+import type { AskResponse, Mode, Module, UserProfile } from './types';
 
 const API_BASE = ''; // relatif (proxy Vite en dev, même domaine en prod)
 
 export interface AskRequest {
   question: string;
   module: Module;
-  mode?: string | null;  // Sprint 4.6 F1 — id de mode optionnel
+  mode?: string | null;     // Sprint 4.6 F1   — id de mode optionnel
+  profile?: string | null;  // Sprint 4.6 F1.5 — id de profil utilisateur optionnel
 }
 
 /** GET /api/modes — liste des modes disponibles (filtrable par module). */
@@ -16,6 +17,14 @@ export async function fetchModes(module?: Module): Promise<Mode[]> {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const body = await res.json() as { modes: Mode[] };
   return body.modes;
+}
+
+/** Sprint 4.6 F1.5 — GET /api/profiles : liste des 5 profils utilisateur. */
+export async function fetchProfiles(): Promise<UserProfile[]> {
+  const res = await fetch(`${API_BASE}/api/profiles`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const body = await res.json() as { profiles: UserProfile[] };
+  return body.profiles;
 }
 
 /** /api/ask — one-shot JSON (fallback si SSE indispo). */

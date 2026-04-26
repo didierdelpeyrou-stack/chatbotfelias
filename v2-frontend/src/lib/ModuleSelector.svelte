@@ -1,6 +1,8 @@
 <script lang="ts">
-  import { MODULES, type Module } from './types';
+  import { onMount } from 'svelte';
+  import { MODULES, type Module, type UserProfile } from './types';
   import { chat, setModule } from './store.svelte';
+  import { fetchProfiles } from './api';
 
   const accentClasses: Record<string, { bg: string; ring: string; text: string }> = {
     blue: { bg: 'bg-blue-50', ring: 'ring-blue-500', text: 'text-blue-700' },
@@ -9,6 +11,30 @@
     navy: { bg: 'bg-navy-100', ring: 'ring-navy-700', text: 'text-navy-900' },
   };
 
+  // Sprint 4.6 F1.5 — Filtre les modules selon le profil utilisateur sélectionné
+  let profiles: UserProfile[] = $state([]);
+  onMount(async () => {
+    try {
+      profiles = await fetchProfiles();
+    } catch {
+      /* silencieux : on affichera les 4 modules par défaut */
+    }
+  });
+
+  let allowedModules = $derived(() => {
+    const p = profiles.find((pp) => pp.id === chat.profileId);
+    return p ? p.modules : (MODULES.map((m) => m.id) as Module[]);
+  });
+
+  let visibleModules = $derived(MODULES.filter((m) => allowedModules().includes(m.id)));
+
+  // Si le module courant n'est pas autorisé par le nouveau profil, on bascule sur le premier autorisé
+  $effect(() => {
+    if (visibleModules.length > 0 && !visibleModules.find((m) => m.id === chat.module)) {
+      setModule(visibleModules[0].id);
+    }
+  });
+
   function pick(m: Module) {
     setModule(m);
   }
@@ -16,7 +42,7 @@
 
 <div class="border-b border-grey-200 bg-white">
   <div class="max-w-5xl mx-auto px-4 py-2 flex gap-1.5 overflow-x-auto">
-    {#each MODULES as mod}
+    {#each visibleModules as mod}
       {@const a = accentClasses[mod.accent]}
       {@const active = chat.module === mod.id}
       <button

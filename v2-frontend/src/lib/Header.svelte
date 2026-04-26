@@ -1,10 +1,25 @@
 <script lang="ts">
-  import { clearConversation } from './store.svelte';
+  import { clearConversation, chat } from './store.svelte';
+  import { onMount } from 'svelte';
+  import { fetchProfiles } from './api';
+  import type { UserProfile } from './types';
 
   interface Props {
     onShowLegal: () => void;
+    onShowProfile: () => void;
   }
-  let { onShowLegal }: Props = $props();
+  let { onShowLegal, onShowProfile }: Props = $props();
+
+  let profiles: UserProfile[] = $state([]);
+  onMount(async () => {
+    try {
+      profiles = await fetchProfiles();
+    } catch {
+      /* silencieux : le chip profil n'apparaîtra pas */
+    }
+  });
+
+  let currentProfile = $derived(profiles.find((p) => p.id === chat.profileId) ?? null);
 
   function onClear() {
     if (confirm("Effacer toute la conversation ? Cette action est irréversible.")) {
@@ -24,6 +39,17 @@
         Assistant management associatif — branche ALISFA
       </p>
     </div>
+    {#if currentProfile}
+      <button
+        class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
+        title="Modifier votre profil"
+        aria-label="Profil utilisateur"
+        onclick={onShowProfile}
+      >
+        <span>{currentProfile.icon}</span>
+        <span class="hidden md:inline truncate max-w-[14ch]">{currentProfile.name}</span>
+      </button>
+    {/if}
     <button
       class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
       title="Mentions légales / RGPD"

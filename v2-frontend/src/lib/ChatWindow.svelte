@@ -45,6 +45,7 @@
     const assistantId = newId();
     const startedAt = performance.now();
     const activeMode = modeOverride !== undefined ? modeOverride : (chat.modeByModule[chat.module] ?? null);
+    const activeProfile = chat.profileId;
     addMessage({
       id: assistantId,
       role: 'assistant',
@@ -60,7 +61,7 @@
       let receivedAnyEvent = false;
 
       try {
-        await askStream({ question: text, module: chat.module, mode: activeMode }, (event) => {
+        await askStream({ question: text, module: chat.module, mode: activeMode, profile: activeProfile }, (event) => {
           receivedAnyEvent = true;
           if (event.type === 'sources') {
             updateMessage(assistantId, {
@@ -91,7 +92,7 @@
       } catch (streamErr) {
         // Stream KO avant tout token : fallback /api/ask non-streaming
         if (!receivedAnyEvent || !answerSoFar) {
-          const res = await askOnce({ question: text, module: chat.module, mode: activeMode });
+          const res = await askOnce({ question: text, module: chat.module, mode: activeMode, profile: activeProfile });
           updateMessage(assistantId, {
             content: res.answer,
             sources: res.sources,

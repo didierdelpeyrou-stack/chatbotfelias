@@ -26,6 +26,7 @@ from pydantic import BaseModel, Field
 from app.llm.claude import ClaudeError
 from app.llm.context import build_rag_context
 from app.llm.modes import MODES, get_mode, get_modes_for_module
+from app.llm.profiles import get_profile, list_profiles
 from app.llm.prompts import build_system_prompt, build_user_message, resolve_module_for_theme
 from app.metrics.prometheus import (
     record_claude_tokens,
@@ -55,6 +56,15 @@ class AskRequest(BaseModel):
         description=(
             "ID de mode optionnel (ex. 'juridique_urgence'). Si fourni et valide,"
             " l'overlay est ajouté au system prompt. Sinon mode chat libre."
+        ),
+    )
+    profile: str | None = Field(
+        None,
+        max_length=80,
+        description=(
+            "Sprint 4.6 F1.5 — ID de profil utilisateur optionnel (ex. 'benevole_president',"
+            " 'pro_directeur'). Adapte le niveau et le ton de la réponse via un contexte"
+            " ajouté au system prompt."
         ),
     )
 
@@ -117,6 +127,21 @@ def _apply_mode_overlay(system_prompt: str, mode_id: str | None, module: str) ->
         return system_prompt
     overlay = mode["overlay"].strip()
     return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{overlay}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+
+def _apply_profile_context(system_prompt: str, profile_id: str | None) -> str:
+    """Sprint 4.6 F1.5 : injecte le contexte utilisateur (qui est l'utilisateur ?).
+
+    Le contexte adapte le niveau et le ton de la réponse (vulgarisation pour
+    bénévoles, technique pour pros). N'a aucun effet si profile_id absent ou
+    inconnu.
+    """
+    profile = get_profile(profile_id)
+    if profile is None:
+        return system_prompt
+    ctx = profile["context"].strip()
+    block = f"PROFIL DE L'UTILISATEUR\n{ctx}"
+    return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{block}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 
 def _sources_payload(report) -> list[dict[str, Any]]:
@@ -214,6 +239,7 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
     system_prompt = build_system_prompt(effective_module)
     # Sprint 4.6 F1 : overlay de mode optionnel (urgence, analyse, rédaction, …)
     system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
+    system_prompt = _apply_profile_context(system_prompt, req.profile)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -346,6 +372,7 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     system_prompt = build_system_prompt(effective_module)
     # Sprint 4.6 F1 : overlay de mode (cohérent avec /api/ask)
     system_prompt = _apply_mode_overlay(system_prompt, req.mode, req.module)
+    system_prompt = _apply_profile_context(system_prompt, req.profile)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -381,5 +408,32 @@ async def list_modes(module: ModuleName | None = None) -> dict[str, Any]:
                 "placeholder": m["placeholder"],
             }
             for m in items
+        ],
+    }
+
+
+# ────────────────────────── Endpoint Profils utilisateur (Sprint 4.6 F1.5) ──────────────────────────
+
+@router.get("/api/profiles", summary="Liste des profils utilisateur (onboarding)")
+async def get_profiles_endpoint() -> dict[str, Any]:
+    """Retourne les 5 profils utilisateur disponibles.
+
+    Réponse : { "profiles": [{id, name, icon, type, modules, context_short}, ...] }
+
+    Le `context` complet (texte injecté dans le system prompt) n'est PAS exposé —
+    seul un résumé court est renvoyé pour affichage UI.
+    """
+    return {
+        "profiles": [
+            {
+                "id": p["id"],
+                "name": p["name"],
+                "icon": p["icon"],
+                "type": p["type"],
+                "modules": p["modules"],
+                # Premier mot de contexte tronqué : aperçu UI sans révéler le prompt
+                "summary": p["context"].split(".")[0] + ".",
+            }
+            for p in list_profiles()
         ],
     }

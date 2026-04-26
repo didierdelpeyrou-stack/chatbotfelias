@@ -5,18 +5,40 @@
   import ChatWindow from './lib/ChatWindow.svelte';
   import LegalModal from './lib/LegalModal.svelte';
   import WizardModal from './lib/WizardModal.svelte';
+  import WelcomeModal from './lib/WelcomeModal.svelte';
   import { chat, submitFromExternal } from './lib/store.svelte';
 
   let legalOpen = $state(false);
   let wizardOpen = $state(false);
 
+  // Sprint 4.6 F1.5 — Onboarding : ouvert auto si pas de profil ; ré-ouvrable
+  // depuis le chip Header. La distinction se fait via `welcomeIsOnboarding`.
+  // chat.profileId === null → 1re visite OU utilisateur a explicitement passé
+  // l'onboarding ; on ne ré-ouvre pas tant qu'il n'a pas cliqué sur le chip.
+  // Pour différencier, on stocke un flag de "welcome déjà montré" en sessionStorage.
+  const ONBOARDING_SHOWN_KEY = 'elisfa-v2-onboarding-shown';
+  let welcomeOpen = $state(false);
+  let welcomeIsOnboarding = $state(true);
+
+  $effect(() => {
+    if (chat.profileId === null && !sessionStorage.getItem(ONBOARDING_SHOWN_KEY)) {
+      welcomeOpen = true;
+      welcomeIsOnboarding = true;
+      sessionStorage.setItem(ONBOARDING_SHOWN_KEY, '1');
+    }
+  });
+
+  function onShowProfile() {
+    welcomeIsOnboarding = false;
+    welcomeOpen = true;
+  }
+
   function onWizardSubmit(synthesis: string, modeId: string) {
-    // Push une soumission externe — ChatWindow la consomme via $effect.
     submitFromExternal({ question: synthesis, modeOverride: modeId });
   }
 </script>
 
-<Header onShowLegal={() => (legalOpen = true)} />
+<Header onShowLegal={() => (legalOpen = true)} {onShowProfile} />
 <ModuleSelector />
 <ModeSelector onOpenWizard={() => (wizardOpen = true)} />
 <ChatWindow />
@@ -27,4 +49,9 @@
   module={chat.module}
   onClose={() => (wizardOpen = false)}
   onSubmit={onWizardSubmit}
+/>
+<WelcomeModal
+  open={welcomeOpen}
+  isOnboarding={welcomeIsOnboarding}
+  onClose={() => (welcomeOpen = false)}
 />

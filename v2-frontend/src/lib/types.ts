@@ -11,6 +11,19 @@ export interface Mode {
   placeholder: string;
 }
 
+/** Sprint 4.6 F1.5 — profil utilisateur (porté de V1 USER_PROFILES). */
+export type ProfileType = 'benevole' | 'professionnel';
+
+export interface UserProfile {
+  id: string;
+  name: string;
+  icon: string;
+  type: ProfileType;
+  modules: Module[];
+  /** Aperçu court (1 phrase) pour affichage UI ; le contexte complet reste server-side. */
+  summary: string;
+}
+
 export interface Source {
   id: string | null;
   title: string | null;

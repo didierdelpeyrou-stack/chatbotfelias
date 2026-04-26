@@ -12,19 +12,22 @@ interface PersistedState {
   messages: ChatMessage[];
   /** Sprint 4.6 F1 — mode actif par module (mémorisé entre sessions). */
   modeByModule?: Partial<Record<Module, string | null>>;
+  /** Sprint 4.6 F1.5 — profil utilisateur sélectionné à l'onboarding. */
+  profileId?: string | null;
 }
 
 function loadState(): PersistedState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { module: 'juridique', messages: [], modeByModule: {} };
+    if (!raw) return { module: 'juridique', messages: [], modeByModule: {}, profileId: null };
     const parsed = JSON.parse(raw) as PersistedState;
     // Sécurité : invalide messages pendant streaming si rechargement à mi-course
     parsed.messages = (parsed.messages || []).map((m) => ({ ...m, pending: false }));
     parsed.modeByModule = parsed.modeByModule ?? {};
+    parsed.profileId = parsed.profileId ?? null;
     return parsed;
   } catch {
-    return { module: 'juridique', messages: [], modeByModule: {} };
+    return { module: 'juridique', messages: [], modeByModule: {}, profileId: null };
   }
 }
 
@@ -43,6 +46,8 @@ export const chat = $state({
   messages: initial.messages,
   /** Sprint 4.6 F1 — mode actif par module. null = chat libre. */
   modeByModule: initial.modeByModule ?? {} as Partial<Record<Module, string | null>>,
+  /** Sprint 4.6 F1.5 — profil utilisateur (null = pas encore sélectionné). */
+  profileId: initial.profileId as string | null,
 });
 
 // Persiste à chaque changement (debounced via microtask)
@@ -54,6 +59,7 @@ $effect.root(() => {
       module: chat.module,
       messages: chat.messages,
       modeByModule: chat.modeByModule,
+      profileId: chat.profileId,
     };
     if (pending) return;
     pending = true;
@@ -94,6 +100,11 @@ export function setMode(modeId: string | null, module?: Module): void {
 /** Sprint 4.6 F1 — mode actif pour le module courant (ou null si aucun). */
 export function getCurrentMode(): string | null {
   return chat.modeByModule[chat.module] ?? null;
+}
+
+/** Sprint 4.6 F1.5 — change le profil utilisateur (persisté localStorage). */
+export function setProfile(profileId: string | null): void {
+  chat.profileId = profileId;
 }
 
 /**
