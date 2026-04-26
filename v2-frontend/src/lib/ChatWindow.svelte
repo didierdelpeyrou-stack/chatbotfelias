@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { chat, addMessage, updateMessage, newId } from './store.svelte';
+  import { chat, addMessage, updateMessage, newId, dispatcher, clearPending } from './store.svelte';
   import { askStream, askOnce } from './api';
   import { MODULES } from './types';
   import MessageBubble from './MessageBubble.svelte';
@@ -19,7 +19,17 @@
     });
   });
 
-  async function handleSend(text: string) {
+  // Sprint 4.6 F4 — consomme les soumissions externes (wizard, CTA, …)
+  $effect(() => {
+    const req = dispatcher.pending;
+    if (req && !busy) {
+      const { question, modeOverride } = req;
+      clearPending();
+      void handleSend(question, modeOverride);
+    }
+  });
+
+  async function handleSend(text: string, modeOverride?: string | null) {
     if (busy) return;
     busy = true;
     lastQuestion = text;
@@ -34,7 +44,7 @@
     // 2. Push placeholder assistant en streaming
     const assistantId = newId();
     const startedAt = performance.now();
-    const activeMode = chat.modeByModule[chat.module] ?? null;
+    const activeMode = modeOverride !== undefined ? modeOverride : (chat.modeByModule[chat.module] ?? null);
     addMessage({
       id: assistantId,
       role: 'assistant',

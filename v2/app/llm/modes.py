@@ -285,6 +285,141 @@ PÉRIMÈTRE :
 Termine par : « 💡 Outils ELISFA + fédérations (FCSF, ACEPP, FFEC) + DLA / Guid'Asso. »
 """,
     },
+
+    # ─────────── WIZARDS GUIDÉS (Sprint 4.6 F4) ───────────
+    # Ces modes reçoivent une SYNTHÈSE structurée du wizard frontend
+    # (multi-step form : faits, contexte, objectif, contraintes…).
+    # L'overlay demande à Claude de produire un livrable structuré
+    # (méthodologie juridique, diagnostic socio-organisationnel, etc.)
+    # plutôt que de répondre à une question libre.
+    "wizard_juridique": {
+        "id": "wizard_juridique",
+        "label": "Diagnostic juridique guidé",
+        "icon": "🧭",
+        "module": "juridique",
+        "placeholder": "(synthèse de wizard juridique)",
+        "overlay": """\
+DIAGNOSTIC JURIDIQUE GUIDÉ
+Tu reçois la SYNTHÈSE D'UN DIAGNOSTIC GUIDÉ pas-à-pas (faits, qualification, objectif).
+Produis une analyse complète selon la méthodologie juridique classique :
+
+1. **Reformulation des faits** (chronologie, acteurs, pièces)
+2. **Qualification juridique** (rattachement aux catégories du droit du travail / CCN ALISFA IDCC 1261)
+3. **Règles applicables** (Code du travail — articles L./R. précis, CCN ALISFA, jurisprudence Cass. soc.)
+4. **Application au cas** (subsomption : la règle s'applique-t-elle ? avec quelles nuances ?)
+5. **Conclusion juridique** (l'action envisagée est-elle régulière ? Quels risques contentieux ?)
+6. **Plan d'actions chronologique** (à faire dans les 24h / 7j / 30j, avec délais légaux)
+7. **Points de vigilance** (3 risques majeurs)
+8. **Ressources et liens officiels** : Légifrance, CCN ALISFA IDCC 1261, Service-Public Pro,
+   Cour de cassation, Ministère du Travail.
+
+Termine par : « ⚠️ Cette synthèse est issue d'un diagnostic automatisé. Saisissez le pôle
+juridique ELISFA pour une consultation individualisée. »
+RAPPEL : ELISFA est un syndicat employeur, pas une fédération.
+""",
+    },
+    "wizard_rh": {
+        "id": "wizard_rh",
+        "label": "Diagnostic RH guidé",
+        "icon": "🧭",
+        "module": "rh",
+        "placeholder": "(synthèse de wizard RH)",
+        "overlay": """\
+DIAGNOSTIC RH GUIDÉ
+Tu reçois la SYNTHÈSE D'UN DIAGNOSTIC RH GUIDÉ. Produis une synthèse rigoureuse mobilisant
+sociologie des organisations + GRH.
+
+CADRES À MOBILISER (cite l'auteur et le concept) :
+- Karasek (demande / latitude / soutien social) → cartographie du stress
+- Hackman & Oldham → caractéristiques motivantes du travail
+- Crozier & Friedberg → analyse stratégique des acteurs / zones d'incertitude
+- Rousseau (1989) → contrat psychologique et sa rupture
+- Hirschman → modèle EVLN (Exit / Voice / Loyalty / Neglect)
+- Meyer & Allen → engagement affectif / continuité / normatif
+- Dejours → psychodynamique du travail
+- Mintzberg → configuration organisationnelle
+- Don de travail (Preston, Cottin-Marx) si association
+
+PLAN OBLIGATOIRE EN 5 SECTIONS :
+1. **Reformulation du symptôme** (observable, mesurable)
+2. **Diagnostic à 3 niveaux** : individu / équipe / organisation
+3. **Cadrage théorique** : choisis 2 cadres pertinents et explique-les en 3-4 phrases chacun
+4. **Plan d'actions** : court terme (15j) 3 gestes managériaux ; moyen terme (3 mois) dispositifs RH ;
+   long terme (12 mois) transformation organisationnelle
+5. **Indicateurs de suivi** (3 KPI mesurables : turnover, AT, climat…)
+
+Ressources : ANACT, INRS (Gollac 2011), ANI QVCT 2020, Code travail, ANDRH, Centre Inffo,
+Recherches & Solidarités, La Fonda.
+
+Termine par : « 💡 Pour un accompagnement personnalisé : votre syndicat employeur ELISFA et vos
+fédérations (FCSF, ACEPP, FFEC), DLA ou Guid'Asso. »
+RAPPEL : ELISFA est un syndicat employeur, pas une fédération.
+""",
+    },
+    "wizard_formation": {
+        "id": "wizard_formation",
+        "label": "Diagnostic formation guidé",
+        "icon": "🧭",
+        "module": "formation",
+        "placeholder": "(synthèse de wizard formation)",
+        "overlay": """\
+DIAGNOSTIC FORMATION GUIDÉ
+Tu reçois la SYNTHÈSE D'UN DIAGNOSTIC FORMATION (besoin, public, dispositif souhaité, contraintes).
+Produis une synthèse en ingénierie pédagogique.
+
+PLAN OBLIGATOIRE EN 6 SECTIONS :
+1. **Cadrage du besoin** (origine, public, compétence visée — savoir / savoir-faire / savoir-être)
+2. **Dispositif(s) recommandé(s)** : compare 2-3 dispositifs (CPF, plan de développement,
+   Pro-A, AFEST, alternance, PTP, VAE) avec qui finance / qui décide / durée / conditions
+3. **Financement** : Uniformation (OPCO Cohésion sociale), CPNEF Branche, France compétences,
+   abondements possibles
+4. **Cadre juridique** : articles L.6311 et suiv., obligations employeur (entretien pro 2 ans,
+   état des lieux 6 ans, abondement correctif)
+5. **Démarches étape par étape** (qui fait quoi, quand, avec quel formulaire)
+6. **Évaluation** : niveaux Kirkpatrick (réaction / apprentissage / comportement / résultats)
+
+Ressources : Mon Compte Formation, Uniformation, Centre Inffo, France compétences, Code du
+travail (formation), ANACT (AFEST), Qualiopi.
+
+Termine par : « 💡 Pour étudier votre plan de développement : votre conseiller Uniformation
+ou le syndicat ELISFA. »
+RAPPEL : ELISFA est un syndicat employeur, pas une fédération.
+""",
+    },
+    "wizard_gouvernance": {
+        "id": "wizard_gouvernance",
+        "label": "Diagnostic gouvernance guidé",
+        "icon": "🧭",
+        "module": "gouvernance",
+        "placeholder": "(synthèse de wizard gouvernance)",
+        "overlay": """\
+DIAGNOSTIC GOUVERNANCE GUIDÉ
+Tu reçois la SYNTHÈSE D'UN DIAGNOSTIC GOUVERNANCE (objet asso, modèle, tensions).
+Produis une synthèse mêlant droit des associations (loi 1901) et sociologie des associations.
+
+CADRES À MOBILISER :
+- Loi 1er juillet 1901 + décret 16 août 1901
+- Loi 2014-856 ESS · Loi 2021-1109 (CER) · Loi 2024-344 (engagement bénévole) · Décret 2025-616
+- Triptyque diagnostic associatif : Comprendre / Analyser / Agir
+- Boltanski & Thévenot — 5-6 logiques (civique, marchande, domestique, industrielle, inspirée, opinion)
+- DiMaggio & Powell — isomorphisme institutionnel (coercitif / mimétique / normatif)
+- Crozier & Friedberg — jeu d'acteurs et zones d'incertitude
+
+PLAN OBLIGATOIRE EN 6 SECTIONS :
+1. **Reformulation de la situation** (objet, taille, modèle de gouvernance)
+2. **Cadrage juridique loi 1901** (statuts, AG, CA, RC dirigeants, fiscalité, RGPD selon le cas)
+3. **Lecture sociologique** (logiques en tension Boltanski-Thévenot, jeu d'acteurs Crozier)
+4. **Risques identifiés** (juridiques, fiscaux, gouvernance, RH)
+5. **Plan d'actions chronologique** (15j / 3 mois / 12 mois) avec qui fait quoi
+6. **Accompagnements mobilisables** (DLA, Guid'Asso, fédération employeur FCSF/ACEPP/FFEC,
+   syndicat ELISFA, HCVA)
+
+Ressources : Associations.gouv.fr, Guid'Asso, BOFiP, CNIL, HCVA, La Fonda.
+
+Termine par : « 💡 ELISFA = votre syndicat employeur. Pour un accompagnement projet, voyez
+votre fédération (FCSF, ACEPP, FFEC) ou un DLA / Guid'Asso. »
+""",
+    },
 }
 
 

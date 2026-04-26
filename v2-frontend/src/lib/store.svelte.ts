@@ -95,3 +95,24 @@ export function setMode(modeId: string | null, module?: Module): void {
 export function getCurrentMode(): string | null {
   return chat.modeByModule[chat.module] ?? null;
 }
+
+/**
+ * Sprint 4.6 F4 — file d'attente d'envoi externe (wizard, futurs CTA, …).
+ * Format : { question, modeOverride? } ; remis à null après consommation.
+ */
+export interface PendingSubmission {
+  question: string;
+  modeOverride?: string | null;
+}
+
+export const dispatcher = $state({
+  pending: null as PendingSubmission | null,
+});
+
+export function submitFromExternal(req: PendingSubmission): void {
+  dispatcher.pending = req;
+}
+
+export function clearPending(): void {
+  dispatcher.pending = null;
+}
