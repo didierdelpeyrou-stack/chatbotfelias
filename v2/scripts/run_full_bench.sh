@@ -212,7 +212,8 @@ log "(durée estimée : 5-10 minutes selon rate-limit Anthropic)"
 echo
 
 cd "$V2_DIR"
-PYTHONPATH=. "$PYTHON" scripts/benchmark.py "${EXTRA_ARGS[@]}" 2>&1 | tee "$BENCH_LOG"
+# Bash strict mode + array vide : utiliser l'expansion conditionnelle
+PYTHONPATH=. "$PYTHON" scripts/benchmark.py ${EXTRA_ARGS[@]+"${EXTRA_ARGS[@]}"} 2>&1 | tee "$BENCH_LOG"
 BENCH_RC=${PIPESTATUS[0]}
 
 echo
