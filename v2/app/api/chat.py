@@ -209,17 +209,41 @@ def _apply_profile_context(
 
 
 def _sources_payload(report) -> list[dict[str, Any]]:
-    """Réduit chaque RAGResult à des champs utilisables côté UI."""
-    return [
-        {
-            "id": r.article.get("id"),
-            "title": r.article.get("question_type"),
+    """Réduit chaque RAGResult à des champs utilisables côté UI.
+
+    Sprint 4.6 UX-3 : on expose aussi les `liens` (URLs officielles légifrance,
+    associations.gouv.fr, alisfa.fr…) et les `references` (citations textuelles
+    type "Cass. com. 20 mai 2003") déjà présents dans le KB. Permet au frontend
+    d'afficher des liens cliquables au lieu des IDs internes [gv-07] cryptiques.
+    """
+    out: list[dict[str, Any]] = []
+    for r in report.results:
+        article = r.article or {}
+        reponse = article.get("reponse", {}) if isinstance(article, dict) else {}
+        liens_raw = reponse.get("liens", []) if isinstance(reponse, dict) else []
+        refs_raw = reponse.get("sources", []) if isinstance(reponse, dict) else []
+        liens = [
+            {
+                "titre": str(lien.get("titre", ""))[:300],
+                "url": str(lien.get("url", "")),
+                "type": lien.get("type"),
+            }
+            for lien in liens_raw
+            if isinstance(lien, dict) and lien.get("url") and lien.get("titre")
+        ]
+        references = [
+            s.strip() for s in refs_raw if isinstance(s, str) and s.strip()
+        ]
+        out.append({
+            "id": article.get("id"),
+            "title": article.get("question_type"),
             "theme_label": r.theme_label,
             "score": r.score,
             "score_normalized": r.score_normalized,
-        }
-        for r in report.results
-    ]
+            "liens": liens,
+            "references": references,
+        })
+    return out
 
 
 # ────────────────────────── Endpoint JSON (one-shot) ──────────────────────────

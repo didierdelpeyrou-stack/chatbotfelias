@@ -97,18 +97,59 @@
       </div>
 
       {#if showSources && sources.length > 0}
-        <div class="mt-2 ml-1 flex flex-col gap-1.5 max-w-[92%]">
+        <div class="mt-2 ml-1 flex flex-col gap-2 max-w-[92%] w-full">
           {#each sources as src}
-            <div class="text-xs bg-grey-50 border border-grey-200 rounded-md px-3 py-2">
-              <div class="flex items-baseline gap-2 flex-wrap">
-                <span class="font-mono text-grey-700">{src.id ?? '?'}</span>
-                <span class="text-grey-500">·</span>
-                <span class="text-grey-600">{src.theme_label}</span>
-                <span class="text-grey-500">·</span>
-                <span class="text-grey-500">score {(src.score_normalized * 100).toFixed(0)}%</span>
+            <div class="text-xs bg-grey-50 border border-grey-200 rounded-lg px-3 py-2.5">
+              <!-- Titre + score -->
+              <div class="flex items-start justify-between gap-2 mb-1">
+                <p class="font-medium text-navy-900 leading-snug flex-1">
+                  {src.title ?? src.id ?? '?'}
+                </p>
+                <span class="shrink-0 text-[10px] uppercase font-bold tracking-wider text-grey-500 bg-white border border-grey-200 rounded px-1.5 py-0.5">
+                  {(src.score_normalized * 100).toFixed(0)}%
+                </span>
               </div>
-              {#if src.title}
-                <p class="text-grey-700 mt-0.5 leading-snug">{src.title}</p>
+              <p class="text-[10px] uppercase tracking-wider text-grey-500 mb-2">
+                {src.theme_label}{src.id ? ` · ${src.id}` : ''}
+              </p>
+
+              <!-- Liens officiels cliquables -->
+              {#if src.liens && src.liens.length > 0}
+                <div class="mt-2">
+                  <div class="text-[10px] uppercase tracking-wider font-bold text-blue-700 mb-1">
+                    🔗 Liens officiels
+                  </div>
+                  <ul class="flex flex-col gap-0.5">
+                    {#each src.liens as l}
+                      <li>
+                        <a
+                          href={l.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="text-blue-600 hover:text-blue-800 hover:underline inline-flex items-baseline gap-1 leading-snug"
+                        >
+                          <span class="text-grey-400">→</span>
+                          <span>{l.titre}</span>
+                          <span class="text-[10px] text-grey-400">↗</span>
+                        </a>
+                      </li>
+                    {/each}
+                  </ul>
+                </div>
+              {/if}
+
+              <!-- Références textuelles -->
+              {#if src.references && src.references.length > 0}
+                <div class="mt-2">
+                  <div class="text-[10px] uppercase tracking-wider font-bold text-grey-600 mb-1">
+                    📎 Références citées
+                  </div>
+                  <ul class="flex flex-col gap-0.5 text-grey-700">
+                    {#each src.references as r}
+                      <li class="leading-snug">• {r}</li>
+                    {/each}
+                  </ul>
+                </div>
               {/if}
             </div>
           {/each}

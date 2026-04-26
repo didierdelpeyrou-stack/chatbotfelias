@@ -123,12 +123,22 @@ export interface FichesMetiersResponse {
   total: number;
 }
 
+export interface SourceLien {
+  titre: string;
+  url: string;
+  type?: string | null;
+}
+
 export interface Source {
   id: string | null;
   title: string | null;
   theme_label: string;
   score: number;
   score_normalized: number;
+  /** Sprint 4.6 UX-3 — liens cliquables (Légifrance, alisfa.fr, gouv.fr, etc.) */
+  liens?: SourceLien[];
+  /** Sprint 4.6 UX-3 — citations textuelles (Cass. com. ..., Art. L121-1, etc.) */
+  references?: string[];
 }
 
 export interface AskResponse {
