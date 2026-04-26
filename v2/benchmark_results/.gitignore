@@ -1,0 +1,13 @@
+# Logs serveurs lancés par run_full_bench.sh
+v1_*.log
+v2_*.log
+bench_*.log
+
+# Runs locaux datés (à committer manuellement si milestone)
+# Le run du Sprint 4.2 (results_2026-04-25.json) est conservé pour référence.
+run_2026*.json
+run_2026*.md
+
+# Garder uniquement les rapports milestone explicites :
+!REPORT_*.md
+!results_*.json
