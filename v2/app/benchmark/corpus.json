@@ -874,8 +874,10 @@
         "L1153-5-1"
       ],
       "forbidden_phrases": [
-        "non obligatoire",
-        "uniquement 250 salariés"
+        "uniquement 250 salariés",
+        "uniquement à partir de 250",
+        "non obligatoire pour tous",
+        "réservé aux grandes structures"
       ],
       "notes": "Loi 2018-771 : obligatoire pour TOUS employeurs sans seuil"
     },

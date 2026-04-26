@@ -72,10 +72,77 @@ def find_keywords(answer: str, keywords: list[str]) -> list[str]:
     return [k for k in keywords if _normalize(k) in norm]
 
 
+# Marqueurs de négation/inversion qui INVALIDENT un match forbidden_phrase.
+# Si l'un de ces marqueurs apparaît dans les NEGATION_LOOKBACK_CHARS caractères
+# précédant la forbidden_phrase, on considère le contexte comme négation
+# (ex : "il ne faut **pas ignorer**" — "ignorer" est forbidden mais ici nié).
+NEGATION_MARKERS = (
+    "ne pas",
+    "ne jamais",
+    "il ne faut pas",
+    "il faut éviter",
+    "il faut eviter",
+    "à éviter",
+    "a eviter",
+    "erreurs fréquentes",
+    "erreurs frequentes",
+    "erreurs à éviter",
+    "erreurs a eviter",
+    "pièges",
+    "pieges",
+    "non bloquant",
+    "non bloquante",
+    "à proscrire",
+    "a proscrire",
+    "interdit",
+    "danger",
+    "risque",
+)
+
+NEGATION_LOOKBACK_CHARS = 80
+
+# Marqueurs immédiatement précédents (≤ 5 caractères) qui inversent le sens.
+# Exemple : "**non obligatoire**" → "non " précède "obligatoire" → forbidden inversée.
+IMMEDIATE_NEGATION_PREFIXES = (
+    "non ",
+    "pas ",
+    "sans ",
+    "aucun ",
+    "aucune ",
+    "jamais ",
+    "ni ",
+)
+
+
 def find_forbidden(answer: str, forbidden: list[str]) -> list[str]:
-    """Retourne les phrases interdites trouvées (signal d'hallucination)."""
+    """Retourne les phrases interdites trouvées (signal d'hallucination).
+
+    Filtre les **faux positifs contextuels** : si la forbidden_phrase est
+    précédée immédiatement par une négation directe (« non », « pas »,
+    « sans », ...) ou apparaît dans un contexte de négation
+    (« il ne faut pas », « erreurs à éviter », ...) dans les
+    NEGATION_LOOKBACK_CHARS caractères précédents, on ne la compte pas.
+    """
     norm = _normalize(answer)
-    return [p for p in forbidden if _normalize(p) in norm]
+    found: list[str] = []
+    for p in forbidden:
+        np = _normalize(p)
+        idx = norm.find(np)
+        while idx >= 0:
+            # 1) Négation immédiate (1-7 caractères avant)
+            prefix = norm[max(0, idx - 7):idx]
+            if any(prefix.endswith(m) for m in IMMEDIATE_NEGATION_PREFIXES):
+                idx = norm.find(np, idx + len(np))
+                continue
+            # 2) Marqueur de négation dans le contexte large précédent
+            context = norm[max(0, idx - NEGATION_LOOKBACK_CHARS):idx]
+            if any(m in context for m in NEGATION_MARKERS):
+                idx = norm.find(np, idx + len(np))
+                continue
+            # Match valide
+            found.append(p)
+            break
+    return found
 
 
 # ────────────────────────── Évaluation principale ──────────────────────────

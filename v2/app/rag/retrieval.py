@@ -123,6 +123,11 @@ def search(
 
     # 6. Seuil hors_corpus (R1)
     hors_corpus = best_raw_score < threshold
+    # NOTE Sprint 5.2-bench : un fix "ratio score/tokens" a été testé pour
+    # détecter les questions vagues type "améliorer ma structure" mais
+    # créait 23% de faux HC sur les questions valides courtes. Le rule-based
+    # RAG ne peut pas distinguer fiablement Q70 vague (ratio 3.96) de Q33
+    # valide (ratio 4.02). Délégué à Claude au stade génération.
 
     return RetrievalReport(
         results=results,
