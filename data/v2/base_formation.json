@@ -50,6 +50,20 @@
           "financement_cpnef_0_2",
           "intentions_directeur"
         ]
+      },
+      {
+        "date": "2026-04-26",
+        "source": "Tableau ALISFA financement formation au 13 mars 2026 + Référentiel GPEC ALISFA 2025-07-07 + Code travail + Code action sociale + Légifrance + CAF + ANCT + France Compétences",
+        "sprint": "5.2-data",
+        "articles_added": 6,
+        "themes_touched": [
+          "financement_uniformation",
+          "metiers_gpec",
+          "fonctions_reglementaires",
+          "contrats_aides",
+          "financement_cpnef_0_2",
+          "intentions_directeur"
+        ]
       }
     ]
   },
@@ -9380,6 +9394,462 @@
           "revision": {
             "derniere_verification": "2026-04-25",
             "verifie_par": "ELISFA - Branche ALISFA - Code pénal 434-3 + Loi 2016-297"
+          }
+        },
+        {
+          "id": "int-relations-cse",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Comment mettre en place et faire fonctionner un CSE dans ma structure ALISFA ?",
+          "mots_cles": [
+            "CSE Comité Social Économique",
+            "seuil 11 salariés",
+            "élection CSE protocole accord préélectoral",
+            "consultation annuelle obligations",
+            "BDESE base données économiques sociales",
+            "heures délégation",
+            "CSSCT 300 salariés",
+            "Code travail L2311-1"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "mettre_en_place_cse",
+          "reponse": {
+            "synthese": "Le **Comité Social et Économique (CSE)** est l'instance unique de représentation des salariés depuis l'**ordonnance Macron du 22 septembre 2017**. **Obligatoire dès 11 salariés** pendant 12 mois consécutifs sur les 3 dernières années (article **L2311-2 Code du travail**). Composition variable selon l'effectif : **1 titulaire + 1 suppléant** (11-24 sal.), **2+2** (25-49 sal.), jusqu'à **35+35** (≥ 10 000 sal.). **Heures de délégation** : 10 h/mois (11-49 sal.), 18 h/mois (50-74 sal.), 21 h/mois (≥ 75 sal.). **Consultations annuelles obligatoires** : (1) orientations stratégiques, (2) situation économique et financière, (3) politique sociale (formation, conditions de travail, égalité F/H). **CSSCT** obligatoire ≥ 300 salariés. Procédure d'élection : protocole d'accord préélectoral + 2 tours possibles.",
+            "fondement_legal": "**Code du travail** — articles **L2311-1 à L2317-2** (CSE) — **L2312-8 à L2312-21** (consultations) — **L2315-1 et suivants** (heures délégation) — **R2314-1 et suivants** (élections) — **Ordonnance n° 2017-1386 du 22 septembre 2017** (création CSE en remplacement DP/CE/CHSCT).",
+            "minimum_legal": "**Cadre du CSE en structure ALISFA** :\n\n**1. Seuil de mise en place** :\n- **CSE obligatoire** dès **11 salariés** pendant **12 mois consécutifs sur les 3 dernières années**\n- **Décompte effectif** : équivalent temps plein, exclus apprentis et certains contrats aidés\n- **Sanction non mise en place** : **délit d'entrave** (1 an prison + 7 500 €) + risque condamnation prud'homale\n\n**2. Composition selon l'effectif** :\n\n| Effectif | Titulaires | Suppléants | Heures délégation/mois (titulaire) |\n|---|---|---|---|\n| 11-24 | 1 | 1 | 10 h |\n| 25-49 | 2 | 2 | 10 h |\n| 50-74 | 4 | 4 | 18 h |\n| 75-99 | 5 | 5 | 19 h |\n| 100-124 | 6 | 6 | 21 h |\n| 125-149 | 7 | 7 | 21 h |\n| 150-174 | 8 | 8 | 21 h |\n| 175-199 | 9 | 9 | 21 h |\n| 200-249 | 10 | 10 | 22 h |\n| 250-299 | 11 | 11 | 22 h |\n| 300-399 | 11 | 11 | 22 h (CSSCT obligatoire) |\n| 400+ | jusqu'à 35 | 35 | 24 h (CSSCT) |\n\n**3. Procédure d'élection** :\n\n**Étape 1 — Information préalable** :\n- **Note d'information** affichée 90 jours avant la fin de mandat (ou avant les premières élections)\n- **Invitation aux organisations syndicales** représentatives + non-représentatives implantées dans la structure\n- **Pas de syndicat ?** : élections sans protocole, candidatures libres\n\n**Étape 2 — Protocole d'Accord Préélectoral (PAP)** :\n- **Réunion** avec les syndicats invités\n- **Négociation** : nombre de sièges, collèges électoraux, modalités vote, durée mandat (max 4 ans)\n- **Signature** par les organisations syndicales représentatives\n- **À défaut d'accord** : double majorité requise OU recours à l'inspecteur du travail (DREETS)\n\n**Étape 3 — Organisation du scrutin** :\n- **2 tours possibles** :\n  - **1er tour** : candidatures syndicales uniquement\n  - **2e tour** (si quorum 50 % non atteint au 1er) : candidatures libres + syndicales\n- **Modalités** : urne, vote électronique, vote par correspondance possibles\n- **Durée campagne** : minimum 30 jours\n- **Date de scrutin** : pendant les heures de travail (sauf accord contraire)\n\n**Étape 4 — Proclamation et installation** :\n- **PV** affiché et envoyé à l'inspection du travail\n- **Réunion de prise de fonction** : présidence par employeur, désignation secrétaire CSE\n- **Règlement intérieur** du CSE rédigé\n\n**4. Attributions du CSE** :\n\n**A. Réclamations individuelles et collectives** :\n- Les salariés saisissent le CSE de leurs réclamations\n- Le CSE transmet à l'employeur, qui répond dans les 6 jours ouvrables\n\n**B. Consultations obligatoires** :\n\n**Consultations annuelles** :\n1. **Orientations stratégiques** de l'entreprise (article L2312-24)\n2. **Situation économique et financière** (article L2312-25)\n3. **Politique sociale, conditions de travail, emploi** (article L2312-26)\n\n**Consultations ponctuelles** :\n- Modification de l'organisation économique ou juridique\n- Conditions d'emploi et de travail\n- Restructuration, licenciement collectif (≥ 10 salariés)\n- Inaptitude médicale (cas par cas, ≥ 11 salariés)\n- Plan de développement compétences\n- Égalité professionnelle F/H\n\n**C. Activités sociales et culturelles (ASC)** :\n- À partir de 50 salariés\n- **Budget ASC** : entre 0,2 % et 1 % de la masse salariale (selon CCN ALISFA)\n- Gestion par le CSE : sorties, chèques cadeaux, soutiens vacances, etc.\n\n**D. Santé, sécurité, conditions de travail** :\n- À partir de 11 salariés : missions reprises du CHSCT\n- À partir de 300 salariés : **CSSCT** (Commission Santé Sécurité Conditions de Travail) obligatoire\n- Intervention en cas d'accident, droit d'alerte, expertise CHSCT\n\n**5. BDESE (Base de Données Économiques, Sociales et Environnementales)** :\n- Obligatoire **≥ 50 salariés** (article L2312-18)\n- Mise à disposition du CSE et des syndicats\n- **Contenu** : 9 thèmes (investissements, fonds propres, rémunération, activités sociales, RH, comparaison F/H, alternance, sous-traitance, environnement)\n- **Format** : numérique de préférence (extranet, espace partagé)\n- **Mise à jour** : continue ou trimestrielle\n\n**6. Heures de délégation** :\n- **Crédit d'heures mensuel** par titulaire (cf. tableau supra)\n- **Mutualisable** entre titulaires et suppléants (depuis 2017)\n- **Reportables** sur 12 mois (max 1,5 × le crédit mensuel)\n- **Réunions CSE** : non décomptées du crédit d'heures\n- **Salaire maintenu** intégralement\n\n**7. Réunions CSE** :\n- **Périodicité** : **1 fois/2 mois** minimum (≥ 50 sal.) ou **1 fois/mois** (cf. règlement intérieur)\n- **Présidence** : employeur (ou son représentant)\n- **Convocation** : 3 jours ouvrables avant\n- **Ordre du jour** : conjoint employeur + secrétaire\n- **PV** : tenu par secrétaire, validé en réunion suivante\n- **Confidentialité** : information confidentielle marquée comme telle\n\n**8. Dotation de fonctionnement** :\n- Budget de fonctionnement : **0,20 %** de la masse salariale (≥ 50 salariés)\n- Distinct du budget ASC (0,2-1 %)\n- **Utilisation** : formation des élus, expertise, déplacements, communication\n\n**9. Formation des élus CSE** :\n- **Formation économique** : 5 jours (≥ 50 salariés), pris en charge par OPCO ou employeur\n- **Formation santé/sécurité** : 5 jours (CSSCT) ou 3 jours (CSE 11-49 sal.)\n- **Renouvellement** : si 4 ans de mandat, formation de remise à niveau\n\n**10. Protection des élus** :\n- **Statut protégé** : licenciement soumis à autorisation de l'inspection du travail\n- **Pendant le mandat** + **6 mois après** la fin du mandat\n- **Discrimination** : interdite (sanctions civiles + pénales)",
+            "plus_formation": "**Bonnes pratiques pour structures ALISFA** :\n\n**Première mise en place (11-49 salariés)** :\n- **Préparation** : 6 mois avant le seuil 11 salariés franchi durablement\n- **Formation préalable** des élu·es désigné·es (souvent volontaires en TPE)\n- **Règlement intérieur du CSE** : modèle ALISFA disponible via fédération\n- **Calendrier annuel** des consultations + réunions\n\n**Renouvellement (mandat tous les 2 à 4 ans)** :\n- **Bilan** des consultations passées\n- **Évolution** des pratiques selon retours élu·es\n- **Communication interne** sur les rôles du CSE auprès des nouveaux salarié·es\n\n**Multi-sites / multi-établissements** :\n- **CSE central** + **CSE d'établissement** (≥ 11 sal.)\n- **Commission de coordination** entre établissements\n- **Accord d'entreprise** sur les modalités\n\n**Coopération employeur ↔ CSE** :\n- **Réunions préparatoires informelles** entre direction et bureau CSE\n- **Calendrier annuel partagé**\n- **Transparence** sur les sujets stratégiques\n- **Médiation interne** en cas de conflit (avant prud'hommes)\n\n**Documents clés à formaliser** :\n- **Règlement intérieur du CSE** (rédigé par les élu·es)\n- **Procès-verbaux** de chaque réunion (par secrétaire CSE)\n- **PAP** (Protocole d'Accord Préélectoral)\n- **PV électoral** (à transmettre DREETS)\n- **BDESE** (≥ 50 sal.)\n- **Calendrier consultations annuelles**\n\n**Erreurs fréquentes à éviter** :\n1. **Reporter la mise en place** au-delà du seuil = délit d'entrave\n2. **Ne pas inviter les syndicats** : nullité du PAP, contestation aux prud'hommes\n3. **Ordres du jour mal préparés** : tensions entre direction et élu·es\n4. **Pas de PV** : impossibilité de prouver les consultations\n5. **BDESE absente** ≥ 50 sal. : sanction prud'homale + délit d'entrave\n6. **Confondre budget fonctionnement et ASC** : usages distincts, comptes séparés\n\n**Outils utiles** :\n- **Modèles ALISFA** : fédération régionale, FCSF, ACEPP\n- **Service Travail-Emploi** : guide CSE complet\n- **Inspection du travail (DREETS)** : conseils gratuits\n- **Formation OPCO Uniformation** : modules \"Présider un CSE\", \"Élu CSE\"\n- **Logiciels CSE** : pour la gestion administrative (BDESE, PV, ASC)\n- **Avocat en droit social** : pour situations complexes",
+            "obligations_formation": "Pas de formation obligatoire pour mettre en place le CSE. Formation économique (5j) et santé/sécurité (3-5j) financées OPCO pour les élu·es.",
+            "accompagnement_obligatoire": "**Inspection du travail** : conseils gratuits, dépôt PAP. **Fédération régionale ALISFA** : modèles documentaires, retours d'expérience. **OPCO Uniformation** : formation des élu·es + président·e. **Avocat en droit social** : situations complexes.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** Les règles CSE sont stables depuis l'**ordonnance Macron du 22 septembre 2017**. **Vigilance** :\n- **Délit d'entrave** : 1 an de prison + 7 500 € d'amende pour non-mise en place ou obstruction\n- **PAP nul** = élections nulles : éviter à tout prix (consultation DREETS)\n- **Statut protégé des élu·es** : licenciement soumis à autorisation de l'inspecteur du travail\n- **BDESE** : obligatoire ≥ 50 salariés, mise à jour continue (oubli fréquent)\n- **Consultations annuelles** : 3 obligatoires, omission = sanction prud'homale\n- **Mandats à renouveler** : préparation 6 mois avant la fin du mandat",
+            "sources": [
+              "Code du travail — articles L2311-1 à L2317-2 (CSE)",
+              "Code du travail — articles L2312-8 à L2312-26 (consultations)",
+              "Code du travail — articles L2315-1 et suivants (heures délégation)",
+              "Code du travail — articles R2314-1 et suivants (élections)",
+              "Ordonnance n° 2017-1386 du 22 septembre 2017 — création CSE",
+              "Loi du 5 septembre 2018 (« Avenir Professionnel »)"
+            ],
+            "liens": [
+              {
+                "titre": "Légifrance — Code du travail Comité Social Économique L2311 et suivants",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000035609776/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Légifrance — Ordonnance n° 2017-1386 du 22 septembre 2017",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000035607388/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Travail-Emploi — Comité Social et Économique (CSE)",
+                "url": "https://travail-emploi.gouv.fr/dialogue-social/le-comite-social-et-economique-cse",
+                "type": "officiel"
+              },
+              {
+                "titre": "Service Public — Élections du CSE",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F35194",
+                "type": "officiel"
+              },
+              {
+                "titre": "ALISFA — dialogue social et instances de représentation",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour mise en place initiale ou contestations électorales, consulter inspecteur du travail (DREETS) ou avocat en droit social.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - Code travail L2311 + Ordonnance 2017-1386"
+          }
+        },
+        {
+          "id": "int-rgpd-structure-alisfa",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Comment mettre ma structure ALISFA en conformité avec le RGPD (DPO, registres, droits usagers) ?",
+          "mots_cles": [
+            "RGPD conformité",
+            "Règlement UE 2016/679",
+            "DPO Délégué Protection Données",
+            "registre traitements",
+            "droits usagers accès rectification effacement",
+            "EAJE familles données enfants",
+            "consentement éclairé",
+            "CNIL contrôle"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "mettre_en_conformite_rgpd",
+          "reponse": {
+            "synthese": "Toute structure ALISFA traitant des **données personnelles** (enfants, familles, salarié·es, bénévoles, usagers) doit être conforme au **RGPD européen** (Règlement UE 2016/679) et à la **Loi Informatique et Libertés** modifiée. **5 obligations principales** : (1) **Registre des traitements** écrit (article 30 RGPD), (2) **Information des personnes** (consentement éclairé, mentions légales, formulaires), (3) **Droits des usagers** (accès, rectification, effacement, portabilité, opposition), (4) **Sécurité** (mots de passe, chiffrement, sauvegardes, formation équipe), (5) **DPO** (Délégué à la Protection des Données) **obligatoire** si traitement systématique de données sensibles (santé, mineurs, etc.). En EAJE / ACM, les **données enfants < 15 ans** sont **sensibles** : vigilance accrue.",
+            "fondement_legal": "**Règlement (UE) 2016/679** du 27 avril 2016 (RGPD) — applicable depuis le **25 mai 2018** — **Loi n° 78-17 du 6 janvier 1978** modifiée (Loi Informatique et Libertés) — **Décret n° 2019-536 du 29 mai 2019** modifiant la Loi IL — **Délibérations CNIL** (recommandations sectorielles).",
+            "minimum_legal": "**Cadre RGPD pour structures ALISFA** :\n\n**1. Données personnelles concernées** :\n\n**Données usagers** :\n- **Enfants** (EAJE, ACM) : nom, prénom, date naissance, photos, vaccins, allergies, troubles santé, situation familiale, autorité parentale\n- **Familles** : nom, adresse, téléphone, e-mail, employeur, revenus (pour PSU CAF), n° allocataire CAF, n° sécu, RIB, numéro fiscal\n- **Adultes vulnérables** (centres sociaux, ADSL) : situation sociale, santé, parcours\n- **Bénévoles** : nom, contact, engagement\n\n**Données salariés** :\n- État civil, contrat, rémunération, IBAN, n° sécu, données de paie\n- Évaluations, formations, comportement professionnel\n- Données médicales (médecin du travail) — accès limité\n- **Casier B2** (EAJE / ACM) — donnée sensible, conservation limitée\n\n**Catégories particulières (\"sensibles\")** :\n- Santé\n- Origine ethnique, religion, opinions politiques\n- Orientation sexuelle\n- Données biométriques\n- Données concernant des **mineurs < 15 ans** (consentement parental requis pour traitement spécifique)\n\n**2. Bases légales du traitement (article 6 RGPD)** :\n\nUne donnée ne peut être traitée que si l'une des **6 bases légales** est mobilisable :\n- **Consentement** : le plus utilisé pour photos, communications marketing\n- **Exécution d'un contrat** : pour gérer le contrat d'accueil enfant\n- **Obligation légale** : déclarations PMI, CAF, sécurité sociale, fiscalité\n- **Intérêt vital** : urgence médicale, protection enfance\n- **Mission d'intérêt public** : pour service public (rare en ALISFA)\n- **Intérêt légitime** : RH, sécurité, prospection (sous conditions)\n\n**3. Obligations principales** :\n\n**A. Registre des traitements (article 30)** :\n- **OBLIGATOIRE** pour toute structure traitant des données\n- **Format** : fichier Excel ou logiciel dédié\n- **Pour chaque traitement** :\n  - Nom du traitement\n  - Finalité (pourquoi)\n  - Base légale\n  - Catégories de données traitées\n  - Catégories de personnes concernées\n  - Destinataires (qui accède aux données)\n  - Durée de conservation\n  - Mesures de sécurité\n  - Transferts hors UE\n- **Exemples de traitements** en EAJE :\n  - Inscription enfants\n  - Gestion paie salariés\n  - Vidéosurveillance\n  - Site internet / formulaires en ligne\n  - Newsletter\n  - Gestion bénévoles\n\n**B. Information des personnes** :\n- **Mentions légales** dans tous les formulaires : finalité, base légale, durée conservation, droits, contact DPO\n- **Affichage** dans les locaux\n- **Site internet** : politique de confidentialité accessible\n- **Cookies** : consentement explicite (Loi UE)\n\n**C. Droits des personnes** :\n- **Droit d'accès** : copie de ses données (1 mois max)\n- **Droit de rectification** : correction d'erreur\n- **Droit à l'effacement** (\"droit à l'oubli\") : sous conditions\n- **Droit d'opposition** : refus de traitement\n- **Droit à la portabilité** : récupération format réutilisable\n- **Droit à la limitation** : suspension temporaire du traitement\n- **Procédure** : formulaire dédié, réponse en 1 mois max, gratuit\n\n**D. Sécurité (article 32)** :\n- **Mots de passe** : robustes, renouvelés régulièrement\n- **Comptes utilisateurs** individuels (pas de partage)\n- **Sauvegardes** régulières + chiffrement\n- **Antivirus** + pare-feu\n- **Mises à jour** régulières des logiciels\n- **Formation** des salariés à la sécurité\n- **Gestion des prestataires** : contrats avec clauses RGPD (sous-traitants)\n\n**E. Notification de violation de données (article 33)** :\n- **Obligation de notifier la CNIL** dans les **72h** en cas de fuite de données\n- **Information des personnes** si risque élevé\n- **Documentation** dans le registre des violations\n\n**4. DPO (Délégué à la Protection des Données)** :\n\n**Obligatoire** si :\n- **Autorité publique ou organisme public**\n- **Suivi régulier et systématique** de personnes à grande échelle (CCTV, profilage)\n- **Traitement systématique** de données sensibles (santé, religion, etc.)\n\n**En pratique pour les structures ALISFA** :\n- **EAJE** (santé enfants, photos) : DPO **fortement recommandé** (souvent rendu obligatoire par la CAF)\n- **Centres sociaux** (situation familiale, parcours sociaux) : DPO **fortement recommandé**\n- **EVS, ADSL** : DPO recommandé selon volumétrie\n\n**Modalités** :\n- **DPO interne** : salarié·e formé·e (souvent direction ou secrétariat)\n- **DPO externe** : prestataire (cabinet, mutualisation avec autres associations)\n- **DPO mutualisé** : groupement / fédération (FCSF, ALISFA régionale)\n- **Coût** : 1 500-5 000 €/an pour DPO externe TPE-PME\n\n**Missions du DPO** :\n- **Conseil et information** sur RGPD\n- **Contrôle** : audits internes\n- **Formation** des salariés\n- **Point de contact** avec CNIL\n- **Gestion des demandes** des personnes\n- **Tenue du registre**\n\n**5. Procédure de mise en conformité** :\n\n**Étape 1 — Audit initial (1-2 mois)** :\n- Cartographie des traitements\n- Identification des risques\n- État des lieux des outils et pratiques\n\n**Étape 2 — Plan d'actions (2-3 mois)** :\n- Rédaction du registre des traitements\n- Mise à jour des mentions légales et formulaires\n- Renforcement de la sécurité technique\n- Désignation DPO\n- Formation des équipes\n\n**Étape 3 — Mise en œuvre opérationnelle (3-6 mois)** :\n- Application des mesures correctrices\n- Documentation\n- Tests\n\n**Étape 4 — Vie continue** :\n- **Audit annuel** ou bisannuel\n- **Mise à jour continue** du registre\n- **Formation continue** des équipes\n- **Veille juridique** (jurisprudence, recommandations CNIL)\n\n**6. Sanctions en cas de non-conformité** :\n\n**CNIL** :\n- **Avertissement** ou mise en demeure\n- **Amende administrative** : jusqu'à **20 millions €** ou **4 %** du CA mondial (par jour)\n- **Obligation de mise en conformité** sous astreinte\n\n**Civil / Prud'hommes** :\n- Dommages-intérêts pour les personnes lésées\n- Préjudice moral et matériel\n\n**Pénal** :\n- **5 ans de prison + 300 000 €** pour utilisation de données contre la finalité initiale (article 226-21 Code pénal)\n- **Notamment** : mise en relation, fichage, etc.\n\n**Image** :\n- Médiatisation des sanctions par CNIL\n- Perte de confiance des familles, partenaires\n- Conséquences potentielles sur agréments CAF, PMI",
+            "plus_formation": "**Recommandations sectorielles CNIL** :\n\n**Petite enfance / EAJE** :\n- **Recommandation CNIL n° 2018-XXX** sur les EAJE (consultable cnil.fr)\n- **Photos d'enfants** : consentement parental préalable, pas de diffusion réseaux sociaux sans accord\n- **Vidéosurveillance** : autorisation préfectorale + information familles + finalité légitime\n- **Vaccinations / allergies** : conservation strictement limitée à la durée d'accueil\n- **Casier B2** salariés : conservation limitée (5 ans maximum après fin contrat)\n\n**Centres sociaux et ADSL** :\n- **Données familiales** : consentement + droit à l'effacement\n- **Photos d'activités** : consentement clarifié\n- **Réseaux sociaux** : politique d'utilisation des images\n\n**ACM** :\n- **Inscription en ligne** : sécurité + consentement\n- **Données médicales enfants** : accès limité, conservation limitée\n- **Données socio-économiques** (CAF) : finalité limitée à la facturation\n\n**Bonnes pratiques techniques** :\n- **Espaces partagés** sécurisés : Drive sécurisé professionnel (pas Google Drive personnel)\n- **Logiciels métiers RGPD-compatibles** : Multi-Accueil, KidsKIosk, Bambineo, Inoxio, etc.\n- **Sauvegardes externalisées** chiffrées\n- **Postes de travail** verrouillés en dehors des heures\n- **Politique de mots de passe** stricte (12 caractères + complexité)\n- **2FA** (authentification double facteur) sur les comptes critiques\n- **Suppression sécurisée** des données obsolètes\n\n**Outils gratuits CNIL** :\n- **Guide PME** RGPD (gratuit, téléchargeable)\n- **Outil PIA** (Privacy Impact Assessment) : analyse d'impact gratuite\n- **MOOC CNIL** : formation en ligne gratuite\n- **Modèles** : registres, mentions légales, contrats sous-traitants\n\n**Erreurs fréquentes à éviter** :\n1. **Considérer le RGPD comme \"trop compliqué\"** : sanctions progressives, structures ALISFA souvent contrôlées\n2. **Pas de DPO** alors que recommandé : risque accru\n3. **Photos sur Facebook** sans consentement : fuites de données potentielles\n4. **Fichiers Excel non protégés** : facile à dérober\n5. **Pas de formation salariés** : la fuite vient souvent d'erreurs internes (e-mail mal envoyé, clé USB perdue)\n6. **Conservation indéfinie** : durée non justifiée = sanction CNIL\n\n**Coût estimatif de la mise en conformité** :\n- **Audit + plan d'actions** : 2 000-5 000 € (consultant externe)\n- **DPO externe** : 1 500-5 000 €/an\n- **Formation salariés** : 500-1 500 € (OPCO Uniformation finançable)\n- **Logiciels métiers RGPD-compatibles** : 50-300 €/mois selon taille structure\n- **Sécurité technique** : 500-2 000 € initial + 200-800 €/an (sauvegardes, mises à jour)",
+            "obligations_formation": "Formation des salarié·es au RGPD recommandée annuellement (financée OPCO Uniformation).",
+            "accompagnement_obligatoire": "**DPO** (interne, externe ou mutualisé) recommandé voire obligatoire selon les traitements. **CNIL** : interlocuteur en cas de notification de violation. **Audit annuel** ou bisannuel recommandé.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** Le **RGPD** est applicable depuis le **25 mai 2018**, la Loi Informatique et Libertés modifiée par décret 2019-536. **Vigilance** :\n- **Données enfants < 15 ans** sont sensibles : consentement parental requis pour traitements spécifiques (article 8 RGPD)\n- **Casier B2** salariés EAJE/ACM : conservation strictement limitée (5 ans max post-rupture contrat)\n- **Sanctions CNIL** : peuvent être très lourdes même pour TPE\n- **Évolution** : les recommandations CNIL sont actualisées régulièrement (vérifier cnil.fr/sectoriel)\n- **Notification 72h** en cas de fuite : préparer une procédure d'urgence\n- **Sous-traitants** (logiciels SaaS, hébergeurs, prestataires paie) : contrat RGPD obligatoire avec clauses spécifiques",
+            "sources": [
+              "Règlement (UE) 2016/679 du 27 avril 2016 (RGPD)",
+              "Loi n° 78-17 du 6 janvier 1978 modifiée (Informatique et Libertés)",
+              "Décret n° 2019-536 du 29 mai 2019",
+              "CNIL — recommandations sectorielles et guides",
+              "Code pénal — articles 226-16 et suivants (atteintes aux données)"
+            ],
+            "liens": [
+              {
+                "titre": "CNIL — site officiel",
+                "url": "https://www.cnil.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "CNIL — Guide RGPD pour les TPE-PME",
+                "url": "https://www.cnil.fr/fr/principes-cles/le-rgpd-quels-changements-pour-les-tpe-pme",
+                "type": "officiel"
+              },
+              {
+                "titre": "Légifrance — Loi Informatique et Libertés modifiée",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460/",
+                "type": "legislation"
+              },
+              {
+                "titre": "EUR-Lex — Règlement (UE) 2016/679 (RGPD)",
+                "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679",
+                "type": "legislation"
+              },
+              {
+                "titre": "ALISFA — RGPD et protection des données",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour mise en conformité initiale ou notification de violation, consulter DPO + cabinet RGPD spécialisé.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - RGPD UE 2016/679 + Loi 78-17"
+          }
+        },
+        {
+          "id": "int-negocier-conventions-financeurs",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Comment négocier les conventions avec les financeurs (CAF, Conseil Départemental, État, collectivités) ?",
+          "mots_cles": [
+            "convention CAF négociation",
+            "Conseil Départemental subvention",
+            "Politique Ville ANCT",
+            "indicateurs résultats objectifs",
+            "renouvellement agrément",
+            "FONJEP poste",
+            "convention pluriannuelle objectifs",
+            "DSP délégation service public"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "negocier_conventions_financeurs",
+          "reponse": {
+            "synthese": "La négociation des conventions avec les financeurs (CAF, CD, État, communes) est **stratégique pour la pérennité financière** d'une structure ALISFA. **5 leviers** : (1) **Préparer un dossier solide** (projet, bilan, indicateurs, demande chiffrée), (2) **Comprendre les attentes** du financeur (ses politiques, ses critères, ses contraintes), (3) **Argumenter en termes d'impact** (chiffres, témoignages, ROI social), (4) **Négocier les conditions** (montant, durée, modalités, indicateurs), (5) **Inscrire dans une logique partenariale pluriannuelle**. **Conventions types** : convention pluriannuelle d'objectifs (3-5 ans), agrément CAF, prestation de service, FONJEP poste, contrat de ville, DSP. **Préparation** : 6-12 mois avant échéance.",
+            "fondement_legal": "**Code général des collectivités territoriales** — article **L1611-4** (subventions aux associations) — **Loi n° 2000-321 du 12 avril 2000** — articles 9-1 et suivants (subventions, intérêt général) — **Loi du 1er juillet 1901** (capacité juridique des associations) — **Convention CAF** (PSU, agréments, prestations) — **Code de l'action sociale et des familles**.",
+            "minimum_legal": "**Cadre des conventions financeurs en structure ALISFA** :\n\n**1. Principaux financeurs** :\n\n**A. CAF (Caisse d'Allocations Familiales)** :\n- **PSU** (Prestation de Service Unique) : EAJE, micro-crèches\n- **AVS** (Animation de la Vie Sociale) : centres sociaux, EVS\n- **PS Jeunes**, **PS ACF** (Animation Collective Familles), **PS Médiation Familiale**, **CLAS**, **REAAP** : prestations spécifiques\n- **Contrats Enfance Jeunesse / CTG** (Contrat Territorial Global) : conventions pluriannuelles avec collectivités + structures\n- **Bonus** : Mixité Sociale, Inclusion Handicap, Territoire Inclusif Numérique\n\n**B. Conseil Départemental** :\n- **Subventions** sociales et éducatives\n- **PMI** (Protection Maternelle et Infantile) : agrément + contrôles EAJE\n- **ASE** (Aide Sociale à l'Enfance) : conventions AED, AEMO, MECS\n- **Politique seniors** : APA, services aux personnes âgées\n- **Politique handicap** : MDPH, services médico-sociaux\n- **Animation territoriale** : centres sociaux, EVS\n\n**C. État (DREETS, ARS, ANCT, DGEFP)** :\n- **DREETS** : politique de la ville (QPV), formation, IAE\n- **ARS** : santé, médico-social\n- **ANCT** : Conseillers Numériques France Services (CNFS), tiers-lieux\n- **DGEFP** : EDEC, FNE-Formation, contrats aidés\n- **DGESN** : sport, jeunesse, vie associative\n- **DDETSPP** : ACM, formation, inclusion\n- **FONJEP** : postes financés (jeunesse, animation, vie associative)\n- **FDVA** : Fonds Développement Vie Associative\n\n**D. Communes / Intercommunalités** :\n- **Subventions** annuelles ou pluriannuelles\n- **Mise à disposition** locaux, fluides, communication\n- **Conventions d'objectifs** pluriannuelles\n- **Délégation de Service Public (DSP)** : pour gestion d'équipement\n\n**E. Régions** :\n- **Formation initiale** (apprentissage, formation continue)\n- **Politique jeunesse**\n- **Économie sociale et solidaire** (ESS)\n- **Politique territoriale** (zones rurales, centres-bourgs)\n\n**F. Europe (FSE, FEDER, FEADER)** :\n- **Insertion par l'activité économique**\n- **Soutien aux territoires ruraux**\n- **Innovation sociale** (économie circulaire, transition écologique)\n- **Pour structures ≥ 100 K€** typiquement (montage complexe)\n\n**2. Types de conventions** :\n\n**A. Convention annuelle simple** :\n- **Durée** : 1 an, renouvelable\n- **Avantage** : simplicité\n- **Inconvénient** : insécurité financière, négociation chaque année\n\n**B. Convention pluriannuelle d'objectifs (CPO)** :\n- **Durée** : 3-5 ans\n- **Cadre** : article 9-1 de la loi du 12 avril 2000\n- **Contenu** : projet, indicateurs, montants pluriannuels, modalités de paiement\n- **Avantages** : sécurité, visibilité, partenariat fort\n- **Recommandé** pour structures stables ≥ 50 K€/an de subvention\n\n**C. Convention de Service Public / DSP** :\n- **Durée** : 5-15 ans typiquement\n- **Cadre** : Code de la commande publique\n- **Procédure** : appel d'offres ou négociée\n- **Contenu** : prestation à fournir, redevance, contrôles\n- **Risques** : exigences fortes, possibilité de non-renouvellement\n\n**D. Agrément + Convention de fonctionnement** :\n- **CAF** : agrément AVS (centres sociaux, EVS), agrément PSU (EAJE)\n- **PMI** : agrément EAJE\n- **DDETSPP** : agrément ACM\n- **ARS** : agrément ESSMS\n- **Durée variable** : 4 ans typiquement renouvelable\n- **Renouvellement** : visite de contrôle préalable\n\n**3. Calendrier type de négociation** :\n\n**T-12 mois — Diagnostic et préparation** :\n- **Bilan** activité année écoulée\n- **Évaluation interne** : forces, faiblesses, opportunités\n- **Veille** sur les politiques du financeur (orientations stratégiques, appels à projets)\n- **Analyse** budget prévisionnel\n- **Première rencontre informelle** avec interlocuteur·trice\n\n**T-9 mois — Constitution du dossier** :\n- **Projet** détaillé : ambition, public, action, méthode\n- **Budget prévisionnel** : ressources, dépenses, équilibre\n- **Indicateurs** : quantitatifs (nombre, %, fréquence) + qualitatifs (témoignages, satisfaction)\n- **Plan d'actions** : étapes, partenaires, calendrier\n- **Annexes** : statuts, dernier bilan, comptes annuels, RIB, attestations\n\n**T-6 mois — Dépôt et négociation** :\n- **Dépôt** sur la plateforme dédiée (Le Compte Asso, plateforme CAF, plateforme Région)\n- **Réunion de présentation** : 30-60 minutes typiquement\n- **Discussion** : ajustements, demandes complémentaires\n- **Compromis** : montant, durée, modalités\n\n**T-3 mois — Validation et signature** :\n- **Décision** finale du financeur (CA, commission)\n- **Convention rédigée** : envoi pour relecture\n- **Signature** des deux parties\n- **Notification officielle**\n\n**T-0 — Démarrage** :\n- **Versement initial** (souvent 50-70 % à la signature)\n- **Suivi** trimestriel ou semestriel\n- **Solde final** après bilan\n\n**4. Argumentaire pour la négociation** :\n\n**Présenter sa structure** :\n- **Mission, vision, valeurs**\n- **Public accompagné** : profils, nombre, évolution\n- **Implantation territoriale** : maillage, partenaires, complémentarité\n- **Légitimité** : ancienneté, agréments, partenariats reconnus\n\n**Présenter les résultats** :\n- **Chiffres** : nombre de bénéficiaires, taux d'occupation, taux de retour, taux d'insertion\n- **Témoignages** : familles, salariés, partenaires\n- **Études d'impact** : enquête de satisfaction, retours sur investissement social (ROI)\n- **Comparaison** avec d'autres structures du territoire ou de la branche\n\n**Présenter le projet** :\n- **Innovation** : nouveaux dispositifs, méthodes, partenariats\n- **Réponse à un besoin** : analyse territoriale, diagnostic\n- **Cohérence** avec les politiques du financeur\n- **Co-construction** avec les usagers\n\n**Justifier le montant demandé** :\n- **Décomposition** : RH (75-85 %), fonctionnement, investissements\n- **Comparaison** : avec d'autres structures, avec coûts de droit commun\n- **Effet de levier** : 1 € investi = X € d'impact social\n- **Co-financement** : autres sources mobilisées (montre la solidité)\n\n**5. Points d'attention dans la négociation** :\n\n**Indicateurs et résultats** :\n- **Quantitatifs réalistes** : éviter les promesses excessives (sanction si non-atteinte)\n- **Qualitatifs mesurables** : enquêtes, focus groups\n- **Périmètre** : éviter les indicateurs sur lesquels la structure n'a pas la main\n\n**Modalités de paiement** :\n- **Avances** : utiles pour la trésorerie\n- **Solde** : conditionné à un bilan complet\n- **Acomptes intermédiaires** : selon la durée\n\n**Clauses de sortie / sanctions** :\n- **Cas de non-atteinte** des objectifs : pénalité, réduction, retrait\n- **Cas de force majeure** : pandémie, sinistre\n- **Préavis** : 6 mois minimum recommandé pour résiliation\n\n**Évolution** :\n- **Indexation** sur indicateurs (SMIC, indice prix)\n- **Avenants** annuels possibles\n- **Renégociation** anticipée si contexte change\n\n**6. Renouvellement / non-renouvellement** :\n\n**Préparation 6-12 mois avant échéance** :\n- **Bilan complet** d'exécution\n- **Auto-évaluation** par rapport aux objectifs\n- **Évolution** du contexte (besoins du territoire, politiques publiques)\n- **Projet** pour la nouvelle période\n\n**Risques de non-renouvellement** :\n- **Politique** : changement d'élus, réorientation\n- **Budgétaire** : restriction des financements publics\n- **Performance** : non-atteinte des objectifs\n- **Concurrence** : autre structure plus performante\n\n**Stratégies pour anticiper** :\n- **Diversification** des financeurs\n- **Excellence opérationnelle** : indicateurs robustes\n- **Communication** : visibilité du projet, mobilisation partenariale\n- **Co-construction** avec les financeurs : adaptabilité",
+            "plus_formation": "**Bonnes pratiques pour structures ALISFA** :\n\n**Structures en croissance (5-10 ans d'activité)** :\n- **Diversifier** les sources : 3-5 financeurs différents (réduit la dépendance)\n- **Convention pluriannuelle** dès que possible\n- **Indicateurs solides** : SI métier (logiciel de gestion)\n- **Implication** dans les instances territoriales (conseil de territoire, comité programmation)\n\n**Structures matures (≥ 10 ans)** :\n- **CPO** systématiques\n- **Représentation** dans les fédérations régionales / nationales\n- **Force de proposition** : co-construction des politiques publiques\n- **Influence** : plaidoyer, communication\n\n**Cas pratiques fréquents** :\n\n**Cas 1 — Renouvellement agrément CAF AVS centre social** :\n- Préparation 12 mois avant\n- **Évaluation interne** (auto-diagnostic)\n- **Évaluation externe** parfois exigée\n- **Visite CAF** + entretien\n- **Projet social** révisé en concertation avec habitants\n- **Risque** : non-renouvellement = fermeture probable du centre\n\n**Cas 2 — Première convention pluriannuelle avec commune** :\n- Diagnostic territoire + besoins identifiés\n- Proposition de projet\n- Négociation montant et durée\n- Implication CSE / CA\n- Communication aux familles et adhérents\n\n**Cas 3 — DSP pour gestion d'EAJE municipal** :\n- Réponse à appel d'offres\n- Concurrence avec autres opérateurs (Babilou, Crèche Attitude, etc.)\n- Argumentation sur l'ancrage local et la dimension associative\n- **Risque** : si non-retenu, perte d'activité majeure\n\n**Cas 4 — Demande FDVA pour formation bénévoles** :\n- Dépôt sur Le Compte Asso\n- Plafond ~ 5 000 €\n- Justification par projet pédagogique\n\n**Erreurs fréquentes à éviter** :\n1. **Préparer trop tard** : 6-12 mois sont nécessaires\n2. **Indicateurs trop ambitieux** : risque non-atteinte = sanction\n3. **Pas de bilan annuel rigoureux** : le financeur n'a pas confiance\n4. **Méconnaissance des politiques** du financeur : argumentation hors sujet\n5. **Pas de diversification** : dépendance à un seul financeur (risque catastrophique)\n6. **Communication politique faible** : oubli des élus, des partenaires\n7. **Conventions oubliées** dans des tiroirs : non-suivi des engagements\n\n**Outils utiles** :\n- **Le Compte Asso** : plateforme centralisée pour État, certaines collectivités\n- **Plateforme CAF / Mon Compte Partenaires** : pour conventions PSU, AVS, etc.\n- **Plateforme Région** : selon Région\n- **Aides Territoires** (aides-territoires.beta.gouv.fr) : recensement de toutes les aides\n- **Logiciels de gestion** projets / subventions : Sphynx, Magma, etc.\n- **Conseil en stratégie** : Société générale ESS, ESSentiel, ESS+\n- **Fédérations** : ALISFA, FCSF, ACEPP, FNFR (ressources et lobbying)\n- **Avocat ESS** : pour DSP, fusions, conventions complexes",
+            "obligations_formation": "Pas d'obligation. Formation \"Pilotage stratégique\" et \"Communication financeurs\" recommandées (CAFDES, CAFERUIS, ou modules courts OPCO).",
+            "accompagnement_obligatoire": "**Conseiller·ère financeur** : interlocuteur·trice clé. **CA / bureau associatif** : portage politique. **Fédération régionale** : ressources et benchmark. **Expert-comptable** : analyse économique. **Avocat ESS** pour DSP / conventions complexes.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** Les **règles de subventionnement** (loi 2000-321) sont stables. **Vigilance** :\n- **Indicateurs** : engagements à tenir sous peine de sanction (réduction, retrait, remboursement)\n- **Délais** : préparation 6-12 mois avant l'échéance pour ne pas se retrouver en urgence\n- **Diversification** : ne pas dépendre d'un seul financeur (> 50 % du budget = risque)\n- **Renouvellement agrément** CAF / PMI : préparation rigoureuse, visite incontournable\n- **Conventions DSP** : engageantes (5-15 ans), nécessitent expertise juridique\n- **Loi Lecornu / réformes** : suivre les évolutions annuelles des politiques publiques\n- **Évolution politique** : changement d'élus, restriction budgétaire — anticiper les diversifications",
+            "sources": [
+              "Loi n° 2000-321 du 12 avril 2000 — articles 9-1 et suivants (subventions)",
+              "Code général des collectivités territoriales — article L1611-4",
+              "Loi du 1er juillet 1901 — capacité juridique associations",
+              "Convention CAF Animation Vie Sociale (AVS) et Prestation Service Unique (PSU)",
+              "Code de la commande publique — DSP",
+              "Code de l'action sociale et des familles"
+            ],
+            "liens": [
+              {
+                "titre": "Le Compte Asso — plateforme officielle subventions",
+                "url": "https://lecompteasso.associations.gouv.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "CAF — Mon Compte Partenaires",
+                "url": "https://www.caf.fr/partenaires",
+                "type": "officiel"
+              },
+              {
+                "titre": "Légifrance — Loi n° 2000-321 du 12 avril 2000",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000215117/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Aides Territoires — recensement aides publiques",
+                "url": "https://aides-territoires.beta.gouv.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "ANCT — politique de la ville et territoires",
+                "url": "https://agence-cohesion-territoires.gouv.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "ALISFA — financement et conventions",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour DSP, fusion, ou non-renouvellement d'agrément, consulter avocat ESS + expert-comptable + conseil stratégique.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - Loi 2000-321 + Conventions CAF"
+          }
+        },
+        {
+          "id": "int-demarche-qualite-essms",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Comment mener la démarche qualité (évaluation interne / externe) dans ma structure ALISFA / ESSMS ?",
+          "mots_cles": [
+            "démarche qualité ESSMS",
+            "évaluation interne externe",
+            "HAS référentiel",
+            "ANESM ANAP",
+            "loi 2002-2",
+            "renouvellement agrément 5 ans",
+            "amélioration continue",
+            "indicateurs qualité"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "demarche_qualite_essms",
+          "reponse": {
+            "synthese": "Les **ESSMS** (Établissements et Services Sociaux et Médico-Sociaux) doivent réaliser une **évaluation interne tous les 5 ans** + **une évaluation externe tous les 7 ans** (loi du 2 janvier 2002 modifiée). Depuis la **réforme HAS 2022**, le **référentiel unique** s'applique : 9 chapitres, 18 critères, ~150 indicateurs (qualité accueil, bientraitance, projet personnalisé, formation, sécurité). **Les EAJE et centres sociaux ALISFA** ne sont pas tous ESSMS au sens strict mais sont **soumis à des contrôles équivalents** (CAF, PMI, DDETSPP). **Démarche** : (1) **diagnostic initial**, (2) **plan d'amélioration**, (3) **mise en œuvre** continue, (4) **évaluation périodique**. **Bénéfices** : agrément renouvelé, partenariats renforcés, équipe mobilisée.",
+            "fondement_legal": "**Loi n° 2002-2 du 2 janvier 2002** (rénovation action sociale et médico-sociale) — **Code de l'action sociale et des familles** articles **L312-8, R312-12 et suivants** (évaluation ESSMS) — **Loi n° 2019-774 du 24 juillet 2019** (création HAS pour évaluation ESSMS) — **Décret n° 2022-742 du 28 avril 2022** (référentiel unique HAS).",
+            "minimum_legal": "**Cadre de la démarche qualité dans les structures ALISFA** :\n\n**1. ESSMS — qui est concerné ?**\n\n**ESSMS au sens strict (article L312-1 CASF)** :\n- **Établissements pour personnes handicapées** : MAS, FAM, IME, ITEP, etc.\n- **EHPAD** et établissements pour personnes âgées\n- **MECS, foyers de l'enfance** (ASE)\n- **CHRS** et établissements d'insertion\n- **Centres maternels et parentaux**\n- **CAMSP, CMPP**\n\n**Structures ALISFA NON ESSMS strictement** :\n- **EAJE** (crèches, micro-crèches) : régies par Code action sociale R2324\n- **Centres sociaux et EVS** : régis par Convention CAF AVS\n- **ADSL** : services à domicile sans agrément ESSMS\n- **ACM** : régis par Code action sociale L227\n\n**MAIS** ces structures sont **soumises à des évaluations équivalentes** par CAF, PMI, DDETSPP, dans des modalités similaires.\n\n**2. Cadre réglementaire général** :\n\n**Pour les ESSMS stricto sensu** :\n- **Évaluation interne** : tous les **5 ans** (article L312-8 CASF)\n- **Évaluation externe** : tous les **7 ans** par organisme habilité HAS\n- **Référentiel HAS unique** depuis avril 2022\n- **Sanctions** : non-renouvellement de l'agrément si évaluation négative\n\n**Pour les EAJE (CAF + PMI)** :\n- **Visites PMI** régulières (annuelles ou plus fréquentes)\n- **Renouvellement d'autorisation** : tous les **5 à 10 ans** selon le département\n- **Démarche qualité encouragée** par CAF (formations, accompagnement)\n\n**Pour les centres sociaux et EVS (CAF)** :\n- **Renouvellement agrément AVS** : tous les **2 à 4 ans**\n- **Évaluation participative** avec habitants\n- **Bilan partenarial** annuel\n\n**Pour les ACM (DDETSPP)** :\n- **Visites de conformité** régulières\n- **Évaluation projet pédagogique**\n- **Renouvellement déclaration TAM** annuel\n\n**3. Référentiel HAS unique (réforme 2022)** :\n\n**Structure** :\n- **9 chapitres**\n- **18 critères**\n- **~150 indicateurs**\n- **3 piliers** : la personne, les professionnels, l'établissement\n\n**Chapitres principaux** :\n1. **Accueil et accompagnement** : projet personnalisé, dossier individuel\n2. **Prise en compte de la santé** : prévention, soins, accès aux droits\n3. **Bientraitance** : prévention de la maltraitance, écoute, expression\n4. **Vie quotidienne** : autonomie, choix, dignité\n5. **Inclusion sociale** : participation, accès à la cité\n6. **Compétences professionnelles** : formation, supervision\n7. **Pilotage et gouvernance** : projet d'établissement, instances participatives\n8. **Gestion des risques** : sécurité, événements indésirables\n9. **Engagement environnemental** : développement durable\n\n**Indicateurs typiques** (pour EAJE / centres sociaux) :\n- Taux d'occupation effective\n- Taux de satisfaction familles\n- Taux d'absentéisme salarié\n- Taux de formation continue\n- Nombre d'événements indésirables\n- Taux de présence aux instances participatives\n- Délai d'attente d'une famille en demande de place\n- Démarche projet personnalisé pour chaque enfant accueilli\n\n**4. Démarche en 6 étapes** :\n\n**Étape 1 — Préparation et engagement** :\n- **Décision** au CA : portage politique\n- **Désignation** d'un·e coordinateur·trice qualité (souvent direction ou cadre)\n- **Budget** : 5 000-20 000 € selon prestation externe ou interne\n- **Calendrier** : 12-24 mois généralement\n- **Communication** équipe : pourquoi, comment, qui fait quoi\n\n**Étape 2 — Diagnostic initial** :\n- **Auto-évaluation** par l'équipe (questionnaire, grille HAS)\n- **Recueil des perceptions** : familles, partenaires, salariés\n- **Analyse documentaire** : projet d'établissement, procédures, indicateurs\n- **Visite de terrain** : observation des pratiques\n- **Synthèse** : forces, faiblesses, axes de progrès\n\n**Étape 3 — Plan d'amélioration** :\n- **Priorités** : 5-10 axes d'amélioration par an\n- **Objectifs** : SMART (Spécifique, Mesurable, Atteignable, Réaliste, Temporel)\n- **Actions** : qui, quoi, quand, comment, combien\n- **Indicateurs** : mesure des progrès\n- **Validation** au CA + CSE + équipe\n\n**Étape 4 — Mise en œuvre** :\n- **Pilotage** : réunions périodiques (mensuelles, trimestrielles)\n- **Tableaux de bord** : suivi en temps réel\n- **Documentation** : procédures écrites, traces, photos, rapports\n- **Formation** des équipes selon besoins identifiés\n- **Communication** : transparence sur l'avancement\n\n**Étape 5 — Évaluation périodique** :\n- **Bilan annuel** : indicateurs, écarts, ajustements\n- **Évaluation interne** complète tous les 5 ans (ou rythme propre)\n- **Évaluation externe** par organisme tiers (ESSMS uniquement, mais recommandée pour autres structures)\n- **Rapport** : transmis aux financeurs et autorités\n\n**Étape 6 — Amélioration continue** :\n- **PDCA** (Plan-Do-Check-Act) : cycle continu\n- **Veille** : évolutions réglementaires, bonnes pratiques\n- **Benchmarking** : comparaison avec autres structures\n- **Innovation** : nouveaux dispositifs, méthodes\n\n**5. Évaluation externe (ESSMS)** :\n\n**Procédure** :\n- **Choix d'un organisme habilité HAS** (liste publique sur has-sante.fr)\n- **Devis** : 8 000-25 000 € selon taille structure\n- **Préparation** : 6 mois en amont\n- **Visite** : 2-5 jours sur site selon taille\n- **Rapport** : remis à la structure et à l'autorité\n- **Décision** : autorité de tarification (renouvellement, mise en demeure, fermeture)\n\n**Coût estimatif total démarche qualité** :\n- **Petite structure** (< 10 sal.) : **5 000-10 000 €** sur 5 ans\n- **Moyenne structure** (10-50 sal.) : **15 000-30 000 €** sur 5 ans\n- **Grande structure** (≥ 50 sal.) : **30 000-80 000 €** sur 5 ans\n\n**Financement possible** :\n- **OPCO Uniformation** : formations + parfois prestation conseil\n- **CAF** : plans départementaux qualité\n- **CD** : subventions accompagnement\n- **ARS** (ESSMS) : financement spécifique\n- **Fonds européens** : FSE, INTERREG sur projets innovants",
+            "plus_formation": "**Bonnes pratiques par taille de structure** :\n\n**Petite structure (< 10 salariés)** :\n- **Démarche allégée** : auto-évaluation collective annuelle\n- **Coordinateur·trice qualité** = direction (cumul de fonctions)\n- **Outils simples** : tableur Excel, Google Forms\n- **Mutualisation** avec d'autres structures (groupement, fédération)\n- **Formation collective** : 2-3 jours / an\n\n**Structure moyenne (10-50 salariés)** :\n- **Coordinateur·trice qualité** dédié·e (0,2-0,5 ETP)\n- **Outils dédiés** : logiciel qualité (Sphynx, Magma, Optimum)\n- **Comité qualité** trimestriel\n- **Évaluation externe** quinquennale (ESSMS)\n- **Implication** CSE et instances participatives\n\n**Grande structure (≥ 50 salariés)** :\n- **Service qualité** intégré (1-3 ETP)\n- **Démarche certifiante** (ISO 9001, AFNOR, label sectoriel)\n- **Audits réguliers** internes et externes\n- **Innovation continue** : groupes de travail, recherche-action\n- **Communication structurée** : site, réseaux sociaux, presse\n\n**Cas pratiques fréquents** :\n\n**Cas 1 — EAJE en renouvellement d'autorisation PMI** :\n- Préparation 6 mois en amont\n- Auto-évaluation participative équipe + familles\n- Plan d'amélioration partagé\n- Visite PMI préparée\n- Renouvellement validé\n\n**Cas 2 — Centre social en renouvellement agrément AVS** :\n- Diagnostic territorial co-construit avec habitants\n- Projet social révisé\n- Bilan participatif partenaires\n- Validation CAF départementale\n\n**Cas 3 — Première démarche qualité dans une structure historique** :\n- Engagement CA fort\n- Communication interne soignée (résistance possible)\n- Accompagnement consultant externe\n- Plan triennal avec étapes claires\n\n**Erreurs fréquentes à éviter** :\n1. **Démarche imposée d'en haut** : résistance équipe = échec\n2. **Pas d'implication usagers** : démarche déconnectée du terrain\n3. **Documentation excessive** : équipe noyée sous les procédures\n4. **Pas de suivi** : plan d'amélioration oublié dans un tiroir\n5. **Évaluation externe en urgence** : risque mauvaise notation\n6. **Pas de communication** des résultats : démotivation équipe\n\n**Outils utiles** :\n- **Référentiel HAS** : disponible has-sante.fr\n- **Outils ANAP** : plateforme d'accompagnement nationale\n- **Logiciels qualité** : Sphynx Quality, Magma, Optimum, Equiwell\n- **Réseaux** : Réseau Qualité ESSMS, Groupements régionaux\n- **Fédérations** : ALISFA, FCSF, ACEPP, FNADEPA\n- **Cabinets conseil** spécialisés ESS / médico-social\n- **Formations OPCO Uniformation** : modules dédiés\n\n**Bénéfices à attendre** :\n1. **Renouvellement** des agréments / autorisations\n2. **Mobilisation** des équipes\n3. **Amélioration** des pratiques\n4. **Visibilité** auprès des financeurs et partenaires\n5. **Image** institutionnelle renforcée\n6. **Réduction** des risques (juridiques, financiers, de réputation)",
+            "obligations_formation": "Pas d'obligation directe pour les EAJE / centres sociaux. ESSMS au sens strict : évaluation interne 5 ans + externe 7 ans obligatoires.",
+            "accompagnement_obligatoire": "**Coordinateur·trice qualité** désigné·e. **Comité qualité** instauré. **CSE / instances participatives** consultées. **Cabinet conseil** spécialisé pour structures matures.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** Le **référentiel HAS unique** est applicable depuis 2022. **Vigilance** :\n- **ESSMS au sens strict** : non-respect des obligations = non-renouvellement agrément, voire fermeture\n- **EAJE et centres sociaux** : démarche qualité non obligatoire formellement, mais conditions de renouvellement d'agrément\n- **Évaluation externe** : organisme habilité HAS uniquement (vérifier liste officielle)\n- **Documentation** : preuves traçables (registres, photos, rapports), sinon risque non-conformité\n- **Réformes en cours** : référentiel HAS et instructions évoluent, vérifier les versions à jour\n- **Coût** non négligeable : prévoir budget pluriannuel",
+            "sources": [
+              "Loi n° 2002-2 du 2 janvier 2002 (rénovation action sociale)",
+              "Code de l'action sociale et des familles — articles L312-8, R312-12 et suivants",
+              "Loi n° 2019-774 du 24 juillet 2019 (création HAS pour ESSMS)",
+              "Décret n° 2022-742 du 28 avril 2022 (référentiel HAS unique)",
+              "HAS — référentiels d'évaluation ESSMS"
+            ],
+            "liens": [
+              {
+                "titre": "HAS — Évaluation des ESSMS",
+                "url": "https://www.has-sante.fr/jcms/p_3068471/fr/qualite-dans-les-essms",
+                "type": "officiel"
+              },
+              {
+                "titre": "Légifrance — Loi n° 2002-2 du 2 janvier 2002",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000215460/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Légifrance — Décret n° 2022-742 du 28 avril 2022 (référentiel HAS)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000045682487/",
+                "type": "legislation"
+              },
+              {
+                "titre": "ANAP — Agence Nationale d'Appui à la Performance ESMS",
+                "url": "https://www.anap.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "ALISFA — qualité et évaluation",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour préparation évaluation externe ou démarche complexe, faire appel à cabinet qualité spécialisé ESSMS.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - Loi 2002-2 + HAS référentiel 2022"
+          }
+        },
+        {
+          "id": "int-accord-entreprise",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Comment négocier un accord d'entreprise (temps de travail, salaires, télétravail) dans ma structure ALISFA ?",
+          "mots_cles": [
+            "accord entreprise",
+            "négociation collective",
+            "ordre négociation Code travail",
+            "primauté accord branche",
+            "DUE Décision Unilatérale Employeur",
+            "annualisation temps travail",
+            "télétravail accord",
+            "Loi Travail 2017"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "negocier_accord_entreprise",
+          "reponse": {
+            "synthese": "Un **accord d'entreprise** permet d'adapter les règles du Code du travail et de la CCN ALISFA aux spécificités de la structure. Depuis la **Loi Travail 2017** (Ordonnances Macron), l'**accord d'entreprise prime sur la convention de branche** sur de nombreux sujets. **Sujets fréquents** : annualisation du temps de travail, télétravail, primes, congés exceptionnels, intéressement, organisation des ACM. **Modalités selon effectif** : (1) **< 11 salariés** : Référendum salariés (validation 2/3 majorité), (2) **11-49 salariés sans CSE** : référendum, (3) **avec CSE** : signature CSE OU référendum si CSE non syndiqué, (4) **≥ 50 salariés avec délégué syndical** : négociation classique. **Durée** : indéterminée ou déterminée. **Dépôt** : DREETS + Conseil de prud'hommes obligatoire.",
+            "fondement_legal": "**Code du travail** — articles **L2232-21 à L2232-29** (négociation dans entreprises sans délégué syndical) — **L2253-3** (primauté accord d'entreprise sur branche) — **L2231-5 et suivants** (validité, dépôt, publicité) — **Ordonnances Macron 2017** (n° 2017-1385 et 2017-1386) — **Loi El Khomri 2016** (renforcement accord d'entreprise).",
+            "minimum_legal": "**Cadre des accords d'entreprise en structure ALISFA** :\n\n**1. Hiérarchie des sources juridiques (depuis 2017)** :\n\n**A. Domaines où la BRANCHE prime (article L2253-1)** :\n- Salaires minima\n- Classifications\n- Mutualisation des fonds (formation)\n- Égalité professionnelle\n- Travail des seniors\n- Conditions de travail mineurs et apprentis\n\n**Sur ces sujets** : l'accord d'entreprise ne peut PAS être moins favorable que la CCN ALISFA.\n\n**B. Domaines où l'ENTREPRISE peut primer (article L2253-3)** :\n- **Temps de travail** : durée, heures supplémentaires, annualisation\n- **Congés** : RTT, congés exceptionnels, fractionnement\n- **Salaires** : primes, intéressement, épargne salariale (au-dessus du minimum branche)\n- **Conditions de travail** : télétravail, horaires variables\n- **Formation professionnelle** : abondements\n- **Organisation des relations collectives** : CSE, dialogue social\n\n**Sur ces sujets** : l'accord d'entreprise prime, même s'il est moins favorable que la branche (sauf clause de verrouillage spécifique).\n\n**2. Modalités de négociation selon l'effectif** :\n\n**A. Très petites entreprises (TPE) — < 11 salariés** :\n- **Pas de CSE** ni délégué syndical\n- **Procédure simplifiée** :\n  1. Projet d'accord rédigé par l'employeur\n  2. Communication aux salariés (15 jours minimum)\n  3. **Référendum** : approbation à la **majorité des 2/3** des salariés\n  4. Signature\n  5. Dépôt\n\n**B. Petites entreprises 11-49 salariés AVEC CSE non syndiqué** :\n- **Option 1** : signature par les **élu·es titulaires CSE** représentant **majorité des suffrages exprimés** aux dernières élections\n- **Option 2** : référendum salariés (majorité 2/3)\n\n**C. Petites entreprises 11-49 salariés SANS CSE** :\n- **Référendum salariés** (majorité 2/3) — comme TPE\n\n**D. Entreprises ≥ 50 salariés AVEC délégué syndical** :\n- **Négociation classique** avec organisations syndicales représentatives\n- **Validité** : signature par un ou plusieurs syndicats représentant la **majorité** (> 50 % des suffrages exprimés)\n- **Si pas de majorité** : possibilité de référendum d'approbation par les salariés\n\n**E. Entreprises ≥ 50 salariés SANS délégué syndical** :\n- **Négociation avec un·e élu·e CSE mandaté·e** par syndicat\n- **Ou** négociation avec élus CSE titulaires (mêmes règles que 11-49 sal.)\n\n**3. Sujets fréquemment négociés en ALISFA** :\n\n**A. Temps de travail / annualisation** :\n- **Décompte** annuel du temps de travail (1 600 h ou 1 607 h)\n- **Modulation** : variations selon les périodes (vacances scolaires en EAJE, périodes d'activité en ACM)\n- **Avantages** : adapter à l'activité saisonnière (pic ACM été, fermeture vacances scolaires EAJE)\n- **Limites** : durée maximale 48 h/semaine, repos hebdomadaire 35 h consécutives\n\n**B. Télétravail** :\n- **Cadre** : Code du travail L1222-9 et suivants\n- **Sujets à négocier** : éligibilité (postes, anciennneté), nombre de jours/semaine, lieux autorisés, équipements, prise en charge frais, droit à la déconnexion\n- **Postes** : limité aux fonctions administratives (direction, comptabilité, communication, RH) — pas pour métiers d'accueil enfants/adultes\n\n**C. Primes et intéressement** :\n- **Prime d'ancienneté** : modalités spécifiques\n- **Prime exceptionnelle** : 13e mois, prime de fin d'année\n- **Intéressement** : depuis 2008 ouvert aux associations, formule de calcul\n- **Avantages** : motivation, rétention\n\n**D. Congés exceptionnels** :\n- **Mariage / PACS** : 4-5 jours\n- **Naissance / adoption** : 11 jours (paternité 25 jours depuis 2021)\n- **Décès proches** : 3-5 jours\n- **Déménagement** : 1-2 jours\n- **Possibilité** d'aller au-delà du minimum CCN\n\n**E. Égalité F/H** :\n- **Accord ou plan d'action** obligatoire ≥ 50 salariés\n- **Index Pénicaud** (cf. article connexe)\n- **Mesures** : égalité salariale, parentalité, lutte contre le sexisme\n\n**F. Qualité de vie au travail (QVT)** :\n- **Prévention RPS**\n- **Aménagement des locaux**\n- **Droit à la déconnexion**\n- **Soutien psychologique** : accès à des consultations\n\n**4. Procédure de négociation type** :\n\n**Étape 1 — Cadrage (1-2 mois)** :\n- **Définition du sujet** et du périmètre\n- **Diagnostic** initial (ex. analyse pyramide des âges, climat social)\n- **Objectifs** : qualitatifs et quantitatifs\n- **Calendrier** indicatif\n- **Information** au CSE / représentants\n\n**Étape 2 — Négociation (3-6 mois)** :\n- **Réunions** régulières (mensuelles)\n- **Documents préparatoires** : analyse comparative (autres ALISFA, statistiques)\n- **Échanges** entre les parties\n- **Médiation interne** si blocages\n- **Rédaction du projet** d'accord\n\n**Étape 3 — Signature et validation (1-2 mois)** :\n- **Lecture finale** du projet\n- **Signature** par les parties\n- **Référendum** si nécessaire\n- **Validation** finale\n\n**Étape 4 — Dépôt et publicité (1 mois)** :\n- **Dépôt** sur la plateforme de **téléaccord** (DREETS) en ligne\n- **Dépôt** au **Conseil de prud'hommes** du lieu de signature\n- **Publication** anonymisée sur Légifrance (sauf exception)\n- **Communication interne** : affichage, livret salarié\n- **Communication CSE** : information formelle\n\n**Étape 5 — Application et suivi** :\n- **Mise en œuvre** : SI paie, communication, formation managers\n- **Suivi** : indicateurs, retours salariés\n- **Révision** : possible par avenant\n- **Dénonciation** : possible avec préavis 3 mois\n\n**5. DUE (Décision Unilatérale Employeur) — alternative** :\n\n**Cadre** :\n- **Article L1321-1** Code du travail\n- **Sans accord collectif**, l'employeur peut imposer **unilatéralement** certaines règles\n- **Sujets typiques** : règlement intérieur, primes, avantages divers\n\n**Limites** :\n- **Ne peut pas être moins favorable** que CCN ALISFA / Code travail\n- **Modifiable unilatéralement** par employeur (préavis raisonnable)\n- **Moins solide** qu'un accord (résistance des salariés possible)\n- **Pas de validité** sur les sujets nécessitant accord collectif (RTT, télétravail systématique, etc.)\n\n**Quand préférer DUE vs accord** :\n- **DUE** : sujets simples, sans engagement long terme (ex. prime ponctuelle)\n- **Accord** : sujets stratégiques engageants (RTT, télétravail, intéressement)\n\n**6. Sanctions en cas d'irrégularité** :\n\n**Procédure non respectée** :\n- **Nullité** de l'accord\n- **Réintégration** des règles antérieures\n- **Risque prud'homal** : contestations salariés\n\n**Accord moins favorable que branche sur sujet verrouillé** :\n- **Substitution** par la disposition de branche\n- **Pas de validité** de l'accord sur ce point spécifique\n\n**Pas de dépôt** :\n- **Inopposabilité** aux salariés\n- **Mise en demeure** par DREETS\n- **Nullité** de fait",
+            "plus_formation": "**Cas pratiques fréquents en ALISFA** :\n\n**Cas 1 — Annualisation du temps de travail en EAJE** :\n- Contexte : fermetures vacances scolaires, irrégularité des présences\n- Négociation : période de référence annuelle, durée moyenne 35h, pics 39-44h\n- Limites : repos hebdomadaire 35h, contreparties pour modulation\n- **Bénéfice** : optimisation organisation, économie heures supplémentaires\n- **Dépôt** : DREETS + prud'hommes\n\n**Cas 2 — Télétravail pour fonctions administratives** :\n- Contexte : direction, comptabilité, communication\n- Conditions : 1-2 jours/semaine, anciennneté 6 mois, lieu fixe\n- Frais : indemnité forfaitaire 50 €/mois\n- Équipements : ordinateur portable + smartphone fournis\n- **Risque** : tension avec équipes pédagogiques (pas de télétravail possible)\n\n**Cas 3 — Prime d'intéressement / participation** :\n- Contexte : structure positive, équipe stable\n- Formule : selon excédent comptable / rentabilité projet\n- Versement : annuel\n- Bénéficiaires : tous les salariés ≥ 3 mois ancienneté\n- **Bénéfice** : motivation, fidélisation\n\n**Cas 4 — Mise en place du droit à la déconnexion** :\n- Cadre : Loi Travail 2016 (≥ 50 salariés obligatoire)\n- Modalités : pas de mails après 19h, pas le week-end\n- Outils : message d'absence, paramétrage messagerie\n- **Risque** : si non négocié = sanction prud'homale\n\n**Erreurs fréquentes à éviter** :\n1. **Confondre DUE et accord** : portées différentes\n2. **Pas de référendum** dans les TPE : nullité\n3. **Sujets verrouillés** mal interprétés : substitution branche\n4. **Pas de dépôt** : inopposabilité\n5. **Communication insuffisante** : résistance équipe à l'application\n6. **Pas de révision** : accord obsolète après quelques années\n7. **Négocier sans préparation** : déséquilibre des forces\n\n**Outils utiles** :\n- **Téléaccord** (https://www.teleaccords.travail-emploi.gouv.fr) : dépôt en ligne\n- **Légifrance** : recherche d'accords similaires (anonymisés)\n- **Modèles ALISFA** : fédération régionale, FCSF, ACEPP\n- **Avocat en droit social** : pour structures complexes ou sujets sensibles\n- **Conseil DREETS** : gratuit\n- **Inspection du travail** : interlocuteur en cas de doute\n\n**Quand consulter un·e avocat·e en droit social** :\n- Première mise en place d'un accord\n- Sujet complexe (RTT, intéressement, télétravail)\n- Tensions sociales\n- Risque contestation\n- Restructuration / fusion",
+            "obligations_formation": "Pas d'obligation. Formation \"Pilotage social\" ou \"Négociation collective\" recommandée pour direction (modules CAFDES, CAFERUIS, formations OPCO).",
+            "accompagnement_obligatoire": "**Inspection du travail (DREETS)** : conseils gratuits. **CSE / délégués syndicaux** : interlocuteurs principaux. **Avocat en droit social** pour situations complexes. **Fédération régionale** : modèles et bonnes pratiques.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** Les **règles de négociation collective** sont stables depuis les **Ordonnances Macron 2017**. **Vigilance** :\n- **Hiérarchie** branche / entreprise : connaître les sujets verrouillés\n- **Procédure selon effectif** : ne pas se tromper de modalité\n- **Référendum** : organisation rigoureuse (urne, anonymat, calcul majorité)\n- **Dépôt obligatoire** : DREETS + prud'hommes, sinon inopposabilité\n- **Publication Légifrance** : anonymisée mais publique (penser à la confidentialité)\n- **Évolutions à suivre** : réformes politiques en cours, jurisprudence Cour de cassation",
+            "sources": [
+              "Code du travail — articles L2232-21 à L2232-29 (entreprises sans DS)",
+              "Code du travail — article L2253-3 (primauté accord d'entreprise)",
+              "Code du travail — articles L2231-5 et suivants (validité, dépôt)",
+              "Ordonnances n° 2017-1385 et 2017-1386 du 22 septembre 2017",
+              "Loi El Khomri n° 2016-1088 du 8 août 2016"
+            ],
+            "liens": [
+              {
+                "titre": "Téléaccord — plateforme officielle de dépôt",
+                "url": "https://www.teleaccords.travail-emploi.gouv.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "Travail-Emploi — Négociation collective",
+                "url": "https://travail-emploi.gouv.fr/dialogue-social/negociation-collective",
+                "type": "officiel"
+              },
+              {
+                "titre": "Légifrance — Code du travail négociation collective",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Légifrance — Ordonnance n° 2017-1385 du 22 septembre 2017",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000035607372/",
+                "type": "legislation"
+              },
+              {
+                "titre": "ALISFA — relations sociales et accords d'entreprise",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour première négociation ou sujets complexes, consulter avocat en droit social + DREETS.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - Code travail L2232 + Ordonnances Macron 2017"
+          }
+        },
+        {
+          "id": "int-egalite-femmes-hommes",
+          "_theme_target": "intentions_directeur",
+          "question_type": "Quelles obligations en matière d'égalité femmes-hommes (Index Pénicaud, accord, plan d'action) ?",
+          "mots_cles": [
+            "égalité femmes hommes",
+            "Index Pénicaud Avenir Pro",
+            "obligation 50 salariés",
+            "écart rémunération",
+            "loi Rixain 2021",
+            "représentation cadres dirigeants 30%",
+            "accord plan action",
+            "Code travail L1142-7"
+          ],
+          "structures_concernees": [
+            "EAJE",
+            "centre_social",
+            "ADSL",
+            "EVS",
+            "ACM"
+          ],
+          "intention_directeur": "egalite_femmes_hommes",
+          "reponse": {
+            "synthese": "L'**égalité professionnelle femmes-hommes** est une obligation légale renforcée. **Toute structure ≥ 50 salariés** doit : (1) **Calculer et publier l'Index Pénicaud** chaque 1er mars (note /100 sur 4-5 indicateurs : écart rémunération, augmentations, congé maternité, plus hautes rémunérations, parité), (2) **Atteindre 75/100 minimum** sous 3 ans sinon **pénalités** jusqu'à 1 % de la masse salariale, (3) **Négocier un accord ou plan d'action** sur l'égalité, (4) **Loi Rixain 2021** : représentation **30 % de chaque sexe** parmi les **cadres dirigeants** d'ici 2027 (40 % en 2030). Pour les structures **< 50 salariés** : pas d'obligation Index, mais **principe de non-discrimination** (article **L1142-1 Code du travail**) reste applicable. **Sources** : 92 % de femmes dans la branche ALISFA — vigilance accrue sur la mixité.",
+            "fondement_legal": "**Code du travail** — articles **L1142-1 à L1144-3** (égalité professionnelle, non-discrimination) — **L1142-7** (Index Pénicaud) — **Loi n° 2018-771 du 5 septembre 2018** (« Avenir Professionnel ») — **Loi n° 2021-1774 du 24 décembre 2021** (« Rixain ») — **Décret n° 2019-15 du 8 janvier 2019** (modalités Index Pénicaud).",
+            "minimum_legal": "**Cadre de l'égalité F/H en structure ALISFA** :\n\n**1. Contexte sectoriel ALISFA** :\n- **92 % de femmes** dans la branche (CCN ALISFA, observatoire CPNEF)\n- **Mixité faible** : recrutement masculin difficile (animation, petite enfance)\n- **Salaire moyen** : moins d'écart F/H que dans d'autres secteurs (effet de pyramide)\n- **Représentation cadres** : encore souvent féminine (mais variable selon structures)\n\n**2. Obligations légales selon la taille** :\n\n**A. Structures < 50 salariés** :\n- **Principe de non-discrimination** (article L1142-1) : pas de différence de traitement basée sur le sexe (à compétences égales)\n- **Affichage obligatoire** : article 6 de la loi 1789, articles L1146-1 et suivants (parité, harcèlement)\n- **Pas d'Index** Pénicaud à publier\n- **Pas d'accord obligatoire** mais recommandé\n\n**B. Structures 50-249 salariés** :\n- **Index Pénicaud** : calcul + publication annuelle (1er mars)\n- **Accord ou plan d'action** obligatoire (L2242-1, L2242-17)\n- **Représentation 30 % chaque sexe** parmi cadres dirigeants (Loi Rixain, 2027)\n- **CSE consultation** sur la politique sociale\n\n**C. Structures ≥ 250 salariés** :\n- **Mêmes obligations** + 1 indicateur supplémentaire dans Index (5 au total)\n- **Représentation 30 %** en 2027, **40 %** en 2030 (Loi Rixain)\n- **BDESE** complète sur égalité F/H\n\n**3. Index Pénicaud — détail des indicateurs** :\n\n**Pour structures 50-249 salariés (4 indicateurs, score sur 100)** :\n\n| Indicateur | Points |\n|---|---|\n| 1. Écart de rémunération F/H (corrigé selon âge et catégorie) | 40 |\n| 2. Écart de répartition des augmentations individuelles | 35 |\n| 3. Pourcentage de salariées augmentées au retour de congé maternité | 15 |\n| 4. Représentation F/H parmi les 10 plus hautes rémunérations | 10 |\n| **TOTAL** | **100** |\n\n**Pour structures ≥ 250 salariés (5 indicateurs)** :\n\n| Indicateur | Points |\n|---|---|\n| 1. Écart de rémunération F/H (corrigé) | 40 |\n| 2. Écart de répartition des augmentations | 20 |\n| 3. Écart de répartition des promotions | 15 |\n| 4. Pourcentage de salariées augmentées au retour de congé maternité | 15 |\n| 5. Représentation F/H parmi les 10 plus hautes rémunérations | 10 |\n| **TOTAL** | **100** |\n\n**Niveau d'alerte** :\n- **≥ 75/100** : conforme\n- **< 75/100** : **3 ans pour atteindre 75** + plan d'action obligatoire + pénalité possible jusqu'à 1 % masse salariale\n- **< 85/100** : nouvelles obligations 2022 (publication d'objectifs de progression et mesures correctives)\n\n**Publication** :\n- **Site internet** de l'employeur (visible publiquement)\n- **Plateforme État** : Egapro (https://egapro.travail-emploi.gouv.fr)\n- **CSE** : information préalable\n- **DREETS** : transmission obligatoire\n\n**4. Loi Rixain (24 décembre 2021)** :\n\n**Représentation des sexes parmi les cadres dirigeants** :\n- **2027** : **30 % minimum** de chaque sexe\n- **2030** : **40 % minimum** de chaque sexe\n\n**Champ d'application** :\n- Entreprises ≥ 1 000 salariés (initialement)\n- **Étendu progressivement** aux structures ≥ 250 salariés\n- **Vigilance** : projet d'extension aux ≥ 50 salariés (à suivre)\n\n**Sanctions** :\n- **Pénalité financière** jusqu'à 1 % masse salariale\n- **Publication** des résultats\n\n**Définition cadres dirigeants** :\n- Salariés ayant des **responsabilités importantes** + **autonomie** + **rémunération** dans les plus hautes\n\n**5. Accord ou plan d'action sur l'égalité F/H** :\n\n**Procédure** :\n- **Négociation triennale** obligatoire ≥ 50 salariés (article L2242-17)\n- **Accord** d'entreprise OU **plan d'action** unilatéral\n- **Validité** : 4 ans maximum\n\n**Contenu obligatoire** :\n- **Diagnostic** de l'égalité F/H dans la structure\n- **Objectifs** chiffrés à atteindre\n- **Mesures concrètes** : recrutement, rémunération, promotion, formation, articulation vie pro/perso, lutte contre harcèlement\n- **Indicateurs de suivi**\n- **Calendrier** de mise en œuvre\n- **Évaluation** annuelle\n\n**Exemples de mesures** :\n\n**Recrutement** :\n- Annonces neutres en genre\n- Parité dans les jurys\n- Cibler le sous-représenté (recruter plus d'hommes en EAJE)\n\n**Rémunération** :\n- **Audit** des grilles salariales\n- **Correction** des écarts injustifiés\n- **Augmentation** au retour de congé maternité\n\n**Promotion** :\n- **Plan de mentoring** pour les femmes\n- **Garanties** non-discrimination dans les promotions\n\n**Formation** :\n- Accès aux formations qualifiantes\n- Compatibilité avec contraintes parentales\n\n**Articulation vie pro/perso** :\n- **Télétravail** possible\n- **Horaires flexibles**\n- **Crèche d'entreprise** ou aide à la garde\n- **Congé paternité étendu** (au-delà des 25 jours légaux)\n\n**Harcèlement et violences** :\n- **Référent harcèlement** désigné (cf. article connexe)\n- **Procédure** de signalement\n- **Formation** des managers\n\n**6. Sanctions en cas de non-respect** :\n\n**Index Pénicaud** :\n- **Non publication** : pénalité jusqu'à **1 %** de la masse salariale\n- **Score < 75 sur 3 ans** : pénalité supplémentaire\n\n**Accord / plan d'action** :\n- **Pas d'accord ou plan** ≥ 50 salariés : pénalité jusqu'à **1 %** masse salariale\n- **Inscription** sur la liste des entreprises non-conformes\n\n**Discrimination** :\n- **Code pénal** : 3 ans + 45 000 € pour discrimination\n- **Prud'hommes** : dommages-intérêts en cas de différence de traitement injustifiée\n\n**7. Bonus / labels** :\n\n**Label \"Égalité professionnelle\"** (AFNOR) :\n- Validation par audit externe\n- Renouvellement triennal\n- Image positive auprès des financeurs et candidats\n\n**Index ≥ 85/100** :\n- Communication possible : « entreprise conforme »\n- Avantage dans appels d'offres publics\n\n**Charte de la diversité** :\n- Engagement public\n- Signature par direction\n- Communication interne et externe",
+            "plus_formation": "**Bonnes pratiques pour structures ALISFA** :\n\n**Calcul de l'Index — méthode pratique** :\n\n**Étape 1 — Données nécessaires** :\n- **Effectif** : F + H par catégorie (CSP) et tranche d'âge\n- **Rémunération moyenne brute** par catégorie et tranche d'âge\n- **Augmentations individuelles** sur la période\n- **Promotions** sur la période (≥ 250 sal.)\n- **Salariées** au retour de congé maternité\n- **10 plus hautes rémunérations** : nombre F et H\n\n**Étape 2 — Calcul** :\n- **Outil officiel** : sur egapro.travail-emploi.gouv.fr (gratuit)\n- **Outil tableur** : modèle Excel téléchargeable\n- **Logiciel paie** : la plupart intègrent un module Index\n- **Cabinet RH** : prestation 1 000-3 000 € pour structures complexes\n\n**Étape 3 — Publication** :\n- **Avant le 1er mars** chaque année\n- **Site internet** structure : page dédiée accessible\n- **Plateforme Egapro** : transmission officielle\n- **CSE** : présentation et discussion\n\n**Cas spécifiques branche ALISFA** :\n\n**Cas 1 — EAJE 60 salariées (98 % femmes)** :\n- **Indicateur 4** (10 plus hautes rémunérations) : peut être ininterprétable si toutes femmes\n- **Solution** : utilisation de la \"non comparable\" → score maximum sur cet indicateur\n- **Vigilance** : Indicateur 1 (rémunération) reste calculable, peut révéler des écarts par catégorie\n\n**Cas 2 — Centre social mixte 80 salariés** :\n- Mixité plus équilibrée\n- **Indicateurs 1 et 2** plus interprétables\n- **Risque** : écart si recrutement récent à différents niveaux\n\n**Cas 3 — Structure < 50 salariés en croissance** :\n- **Pas d'Index** obligatoire\n- **Mais** : recommandé de calculer informellement pour anticiper le franchissement du seuil\n- **Recrutement masculin** : enjeu de mixité\n\n**Erreurs fréquentes à éviter** :\n1. **Oubli de publier au 1er mars** : pénalité applicable\n2. **Pas de plan d'action** alors que score < 85 : sanction renforcée 2022\n3. **Calcul biaisé** : tranche d'âge ou CSP mal défini\n4. **Pas de communication CSE** avant publication\n5. **Pas de plan correctif** : aucun progrès = pénalité 2026 et au-delà\n6. **Ignorer la dimension mixité H** : la branche manque d'hommes, plan recrutement nécessaire\n7. **Confondre Index et accord égalité** : 2 obligations distinctes\n\n**Outils utiles** :\n- **Egapro** : plateforme officielle de calcul et de transmission\n- **Modèles ALISFA** : fédération régionale, FCSF\n- **Charte de la diversité** : engagement à signer (gratuit)\n- **Label AFNOR Égalité** : pour démarche avancée\n- **Conseil DREETS** : gratuit\n- **Inspection du travail** : sanction en cas de non-conformité\n- **Cabinet RH spécialisé** : pour audit et plan d'action\n\n**Bénéfices à attendre** :\n- **Conformité légale** : pas de pénalité\n- **Image** auprès des candidats / partenaires\n- **Mobilisation** des équipes\n- **Réduction** des inégalités réelles\n- **Avantage** dans appels d'offres publics (si label ou Index élevé)",
+            "obligations_formation": "Pas d'obligation directe. Formation \"Égalité professionnelle\" et \"Lutte contre la discrimination\" recommandée pour managers et RH (financée OPCO Uniformation).",
+            "accompagnement_obligatoire": "**Référent égalité F/H** désigné dans la structure (recommandé). **Référent harcèlement** désigné (cf. article connexe). **CSE** consulté sur les indicateurs et le plan d'action. **DREETS** : transmission Index annuelle.",
+            "vigilance": "**Texte en vigueur au 26 avril 2026.** L'**Index Pénicaud** est applicable depuis 2018 (4 indicateurs jusqu'à 250 sal., 5 au-delà). La **Loi Rixain** a été promulguée le **24 décembre 2021** avec mise en œuvre progressive jusqu'en 2030. **Vigilance** :\n- **Branche très féminisée** (92 %) : interpréter les indicateurs avec prudence\n- **Score < 85** depuis 2022 : nouvelles obligations (objectifs de progression publics)\n- **Loi Rixain** : extension progressive aux structures plus petites prévue\n- **Publication 1er mars** : oubli = pénalité automatique\n- **Plan d'action** : doit être mis à jour annuellement\n- **Évolutions législatives** : suivre les éventuelles réformes en cours",
+            "sources": [
+              "Code du travail — articles L1142-1 à L1144-3 (égalité professionnelle)",
+              "Code du travail — article L1142-7 (Index Pénicaud)",
+              "Loi n° 2018-771 du 5 septembre 2018 (« Avenir Professionnel »)",
+              "Loi n° 2021-1774 du 24 décembre 2021 (« Rixain »)",
+              "Décret n° 2019-15 du 8 janvier 2019 (modalités Index)"
+            ],
+            "liens": [
+              {
+                "titre": "Egapro — plateforme officielle Index Pénicaud",
+                "url": "https://egapro.travail-emploi.gouv.fr",
+                "type": "officiel"
+              },
+              {
+                "titre": "Travail-Emploi — Égalité femmes-hommes en entreprise",
+                "url": "https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-entre-les-femmes-et-les-hommes",
+                "type": "officiel"
+              },
+              {
+                "titre": "Légifrance — Loi n° 2021-1774 du 24 décembre 2021 (Rixain)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000044562931/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Légifrance — Décret n° 2019-15 du 8 janvier 2019 (Index)",
+                "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037964714/",
+                "type": "legislation"
+              },
+              {
+                "titre": "Charte de la diversité — engagement public",
+                "url": "https://www.charte-diversite.com",
+                "type": "officiel"
+              },
+              {
+                "titre": "ALISFA — égalité F/H et politique RH",
+                "url": "https://www.alisfa.fr/emploi-et-formation",
+                "type": "officiel"
+              }
+            ],
+            "version_alisfa": "2026-03-13"
+          },
+          "fiches_pratiques": [],
+          "niveau": "orange",
+          "escalade": "Pour structures < 50 salariés en franchissement de seuil, anticiper Index Pénicaud. Pour score < 75, plan d'action obligatoire avec accompagnement DREETS / cabinet RH.",
+          "revision": {
+            "derniere_verification": "2026-04-26",
+            "verifie_par": "ELISFA - Branche ALISFA - Code travail L1142 + Loi Rixain 2021"
           }
         }
       ]
