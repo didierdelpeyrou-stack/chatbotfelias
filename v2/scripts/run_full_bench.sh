@@ -166,8 +166,10 @@ fi
 
 # ────────────────────────── Démarrage V2 ──────────────────────────
 log "Démarrage V2 (FastAPI) sur port $V2_PORT..."
+# IMPORTANT : KB_DATA_DIR=../data/v2 pour charger la KB enrichie (156 art)
+# et pas la KB V1 (43 art). Override possible via .env.
 (cd "$V2_DIR" && \
-    PYTHONPATH=. KB_DATA_DIR=../data \
+    PYTHONPATH=. KB_DATA_DIR=../data/v2 \
     nohup "$PYTHON" -m uvicorn app.main:app --host 127.0.0.1 --port "$V2_PORT" \
     > "$V2_LOG" 2>&1) &
 V2_PID=$!

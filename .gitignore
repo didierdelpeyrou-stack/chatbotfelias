@@ -58,3 +58,6 @@ tests/rag_eval_report_*.json
 .idea/
 .DS_Store
 *.swp
+
+# Caches embeddings Voyage (Sprint 5.2-stack)
+data/v2/_embeddings_*.npz

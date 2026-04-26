@@ -123,9 +123,11 @@ class VoyageEmbedder(Embedder):
         "voyage-3-lite": 512,
         "voyage-multilingual-2": 1024,
     }
-    _BATCH_SIZE = 128
+    _BATCH_SIZE = 16  # Free tier conservateur : batchs petits
     _API_URL = "https://api.voyageai.com/v1/embeddings"
-    _MAX_RETRIES = 3
+    _MAX_RETRIES = 5
+    _INITIAL_BACKOFF = 10.0  # Premier retry après 10s
+    _INTER_BATCH_SLEEP = 30.0  # Conservateur : 1 batch / 30s = 2 RPM
 
     def __init__(self, api_key: str, model: str = "voyage-3-large", *, cache_size: int = 512):
         self.api_key = api_key
@@ -161,9 +163,10 @@ class VoyageEmbedder(Embedder):
                 async with httpx.AsyncClient(timeout=30.0) as client:
                     resp = await client.post(self._API_URL, json=payload, headers=headers)
                     if resp.status_code == 429:
-                        # Rate limit : backoff exponentiel
-                        wait = 2 ** attempt
-                        logger.warning("[voyage] rate limit, retry in %ds", wait)
+                        # Rate limit : backoff exponentiel large pour free tier
+                        wait = self._INITIAL_BACKOFF * (2 ** attempt)
+                        logger.warning("[voyage] rate limit, retry in %.0fs (attempt %d/%d)",
+                                       wait, attempt + 1, self._MAX_RETRIES)
                         await asyncio.sleep(wait)
                         continue
                     resp.raise_for_status()
@@ -173,18 +176,26 @@ class VoyageEmbedder(Embedder):
             except (httpx.HTTPError, KeyError, ValueError) as exc:
                 last_exc = exc
                 if attempt < self._MAX_RETRIES - 1:
-                    await asyncio.sleep(2 ** attempt)
+                    await asyncio.sleep(self._INITIAL_BACKOFF * (2 ** attempt))
                     continue
 
         raise RuntimeError(f"Voyage API failed after {self._MAX_RETRIES} retries: {last_exc}")
 
     async def embed_documents(self, texts: list[str]) -> np.ndarray:
-        """Batch indexing au boot. Cf. _BATCH_SIZE pour la taille max."""
+        """Batch indexing au boot. Cf. _BATCH_SIZE pour la taille max.
+
+        Free tier : ~3 RPM, on espace les chunks de _INTER_BATCH_SLEEP secondes.
+        Pour 156 articles avec batch=32 = 5 chunks = ~110s de boot (acceptable).
+        """
         if not texts:
             return np.zeros((0, self.dim), dtype=np.float32)
         chunks = [texts[i:i + self._BATCH_SIZE] for i in range(0, len(texts), self._BATCH_SIZE)]
         results = []
-        for chunk in chunks:
+        for i, chunk in enumerate(chunks):
+            if i > 0:
+                logger.info("[voyage] batch %d/%d : sleeping %ds (free tier RPM)",
+                            i + 1, len(chunks), int(self._INTER_BATCH_SLEEP))
+                await asyncio.sleep(self._INTER_BATCH_SLEEP)
             vecs = await self._call_api(chunk, input_type="document")
             results.append(vecs)
         return np.vstack(results)

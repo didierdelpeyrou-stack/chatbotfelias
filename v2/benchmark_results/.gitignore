@@ -3,6 +3,10 @@ v1_*.log
 v2_*.log
 bench_*.log
 
+# Caches embeddings (générés via scripts/build_embeddings_cache.py)
+# Locaux car spécifiques au modèle Voyage choisi + à la KB exacte
+../data/v2/_embeddings_*.npz
+
 # Runs locaux datés (à committer manuellement si milestone)
 # Le run du Sprint 4.2 (results_2026-04-25.json) est conservé pour référence.
 run_2026*.json
