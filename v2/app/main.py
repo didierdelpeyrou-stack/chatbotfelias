@@ -80,7 +80,12 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     )
     app.state.embedder = embedder
 
-    store = KBStore(data_dir=data_dir, embedder=embedder)
+    # Sprint 4.6 : si EMBEDDING_CACHE_DIR est défini (Docker staging volume RW),
+    # le cache embeddings est isolé du mount KB :ro. Sinon legacy = même dir.
+    cache_dir = Path(settings.embedding_cache_dir) if settings.embedding_cache_dir else None
+    if cache_dir is not None:
+        cache_dir.mkdir(parents=True, exist_ok=True)
+    store = KBStore(data_dir=data_dir, embedder=embedder, embedding_cache_dir=cache_dir)
     summary = await store.load_all()
     log.info("📚 KB store: %s", summary)
     app.state.kb_store = store

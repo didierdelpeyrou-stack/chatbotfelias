@@ -14,11 +14,15 @@
 set -e
 
 # Si on tourne en root (cas normal au boot du container), corrige les
-# perms du volume logs avant de basculer en elisfa.
+# perms des volumes RW avant de basculer en elisfa.
 if [ "$(id -u)" = "0" ]; then
     # Crée /app/logs si absent (idempotent), fixe owner/group à elisfa:elisfa
     mkdir -p /app/logs
     chown -R elisfa:elisfa /app/logs 2>/dev/null || true
+
+    # Sprint 4.6 : cache embeddings dans volume nommé RW (séparé du mount KB :ro)
+    mkdir -p /app/var/embeddings
+    chown -R elisfa:elisfa /app/var 2>/dev/null || true
 
     # `su` est dispo de base sur python:3.12-slim, pas besoin de gosu/tini
     # exec : remplace le PID 1 par le process uvicorn (pour que SIGTERM

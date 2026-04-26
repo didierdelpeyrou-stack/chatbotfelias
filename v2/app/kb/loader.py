@@ -71,8 +71,14 @@ class KBStore:
         *,
         modules: Iterable[str] = DEFAULT_MODULES,
         embedder: Embedder | None = None,
+        embedding_cache_dir: Path | str | None = None,
     ):
         self.data_dir = Path(data_dir)
+        # Sprint 4.6 : cache embeddings dans un dir séparé (RW) si fourni.
+        # Sinon → même dir que les KB (legacy, OK en dev mais KO si /app/data:ro).
+        self.embedding_cache_dir = (
+            Path(embedding_cache_dir) if embedding_cache_dir else self.data_dir
+        )
         self.modules = tuple(modules)
         self.embedder = embedder  # Si None ou is_active=False : pas d'embeddings
         self._loaded: dict[str, LoadedKB] = {}
@@ -175,7 +181,7 @@ class KBStore:
         """Chemin du cache embeddings sur disque (modèle-aware)."""
         emb = self.embedder
         model = getattr(emb, "model", "unknown") if emb else "none"
-        return self.data_dir / f"_embeddings_{module}_{model}.npz"
+        return self.embedding_cache_dir / f"_embeddings_{module}_{model}.npz"
 
     def _kb_fingerprint(self, kb_dict: dict[str, Any]) -> str:
         """Empreinte stable de la KB pour invalider le cache si elle change.

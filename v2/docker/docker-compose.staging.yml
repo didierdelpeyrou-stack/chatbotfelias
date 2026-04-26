@@ -44,6 +44,8 @@ services:
       RAG_HYBRID_ALPHA: ${RAG_HYBRID_ALPHA:-0.5}
       RAG_SKIP_EMBEDDING_THRESHOLD: ${RAG_SKIP_EMBEDDING_THRESHOLD:-0.85}
       KB_DATA_DIR: ${KB_DATA_DIR:-/app/data/v2}
+      # Sprint 4.6 : cache embeddings isolé du mount KB :ro (volume RW dédié)
+      EMBEDDING_CACHE_DIR: /app/var/embeddings
       ELISFA_FEEDBACK_LOG: ${ELISFA_FEEDBACK_LOG:-/app/logs/feedback.jsonl}
       METRICS_ENABLED: ${METRICS_ENABLED:-true}
 
@@ -52,6 +54,8 @@ services:
       - ../../data:/app/data:ro
       # Logs persistants pour feedback.jsonl + events.jsonl entre redéploiements
       - elisfa-v2-logs:/app/logs
+      # Cache embeddings persistant entre redéploiements (gain ~60s au boot)
+      - elisfa-v2-embeddings:/app/var/embeddings
 
     # Rotation des logs Docker (évite la saturation disque sur petit VPS)
     logging:
@@ -77,3 +81,5 @@ services:
 volumes:
   elisfa-v2-logs:
     name: elisfa-v2-logs
+  elisfa-v2-embeddings:
+    name: elisfa-v2-embeddings

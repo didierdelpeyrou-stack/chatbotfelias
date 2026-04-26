@@ -69,6 +69,10 @@ class Settings(BaseSettings):
 
     # ── KB ──
     kb_data_dir: str = "../data"  # Réutilise les KB du V1 pendant la cohabitation
+    # Sprint 4.6 — chemin séparé pour le cache embeddings (write nécessaire).
+    # Si vide → cache écrit dans kb_data_dir (legacy). En staging Docker, le KB
+    # est mounté :ro et le cache va dans un volume RW dédié (/app/var/embeddings).
+    embedding_cache_dir: str = Field(default="", alias="EMBEDDING_CACHE_DIR")
 
 
 @lru_cache(maxsize=1)
