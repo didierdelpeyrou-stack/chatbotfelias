@@ -179,6 +179,31 @@ def _apply_profile_context(
         if lines:
             parts.append("CARACTÉRISTIQUES DE LA STRUCTURE :\n" + "\n".join(lines))
 
+    # Sprint 4.6 UX-2 : instruction d'adressage explicite. Sans elle, Claude
+    # traite le profil comme un descriptif passif et utilise "vous" pour
+    # n'importe quel rôle (cf. bug : utilisateur directeur, question sur
+    # président → réponse traitait l'utilisateur comme président).
+    profile_label = profile["name"] if profile else "votre rôle"
+    parts.append(
+        "INSTRUCTION D'ADRESSAGE (impérative) :\n"
+        f'- Adresse-toi DIRECTEMENT à l\'utilisateur avec "vous". '
+        f'"vous" = {profile_label} (l\'utilisateur), JAMAIS un autre rôle.\n'
+        "- Si la question porte sur un AUTRE rôle (ex : utilisateur directeur, "
+        "question sur les responsabilités du président), :\n"
+        "    1. Garde la 3e personne pour le rôle évoqué dans la question "
+        '(ex: "le président bénévole encourt...").\n'
+        "    2. AJOUTE une section finale `## Ce que cela implique pour vous` "
+        f"(en tant que {profile_label}) qui couvre :\n"
+        "       • L'impact concret sur votre poste et votre quotidien\n"
+        "       • Les actions à mener de votre côté (alerter, vérifier, "
+        "documenter, demander une délégation, etc.)\n"
+        "       • Les risques personnels éventuels (responsabilité salariée, "
+        "faute lourde, sanction disciplinaire, recours, etc.)\n"
+        "- Si la question est directement sur le rôle de l'utilisateur, "
+        "réponds normalement à la 2e personne sans section additionnelle.\n"
+        "- Adapte le niveau (vulgarisation ou technique) selon le profil ci-dessus."
+    )
+
     block = "\n\n".join(parts)
     return f"{system_prompt}\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n{block}\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
