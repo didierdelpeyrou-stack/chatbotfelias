@@ -1,0 +1,348 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 G-Vague3 — Numérique & RGPD pour associations ALISFA (6 articles)",
+    "lot": "G3/G6",
+    "topic": "RGPD bases légales, registre/DPO, photos enfants EAJE/ALSH, hébergement données, communication numérique, cybersécurité",
+    "generated_at": "2026-04-26",
+    "source_principale": "RGPD UE 2016/679, Loi Informatique et Libertés 1978 modifiée 2018, CNIL guides associations, ANSSI",
+    "theme_target": "gouvernance"
+  },
+
+  "articles": [
+
+    {
+      "id": "gv-25",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Quelles obligations RGPD s'imposent à une association ALISFA et comment les mettre en œuvre ?",
+      "mots_cles": [
+        "RGPD", "Règlement général protection données",
+        "loi informatique libertés", "CNIL",
+        "base légale traitement", "consentement",
+        "intérêt légitime", "données personnelles",
+        "ALISFA EAJE adhérent salarié bénévole"
+      ],
+      "reponse": {
+        "synthese": "Le **Règlement Général sur la Protection des Données (RGPD)** s'impose à toute association qui traite des données personnelles — donc **toutes les associations ALISFA** dès qu'elles ont un fichier adhérents, salariés, bénévoles, familles. Les **6 obligations clés** sont : (1) **identifier les bases légales** des traitements (consentement, contrat, intérêt légitime, obligation légale, mission d'intérêt public, sauvegarde des intérêts vitaux), (2) **tenir un registre des traitements** (article 30 RGPD), (3) **respecter les droits des personnes** (information, accès, rectification, effacement, opposition, portabilité), (4) **sécuriser les données** (article 32), (5) **encadrer la sous-traitance** (article 28 — contrats de sous-traitance), (6) **désigner un DPO** si traitement \"à grande échelle\" ou de catégories particulières. Sanctions CNIL : jusqu'à **20 M€ ou 4% du CA mondial**.",
+        "fondement_legal": "**Règlement UE 2016/679** du 27 avril 2016 (RGPD) — applicable depuis le 25 mai 2018. **Loi n°78-17 du 6 janvier 1978** (Informatique et Libertés) modifiée par **loi n°2018-493 du 20 juin 2018** (transposition RGPD) puis **ordonnance 2018-1125 du 12 décembre 2018**. **Décret n°2019-536 du 29 mai 2019** (modalités de mise en œuvre). **Code pénal** : articles **226-16 à 226-24** (atteinte aux droits de la personne dans les fichiers).",
+        "fondement_ccn": "Pas de disposition CCN spécifique RGPD, mais **respect du droit du travail** sur le traitement des données salariés (CV, paie, évaluations, géolocalisation). **CSE** consulté sur les outils de surveillance (badges, vidéosurveillance, suivi internet).",
+        "application": "**Mise en œuvre RGPD étape par étape** :\n\n**1. Identifier les bases légales (article 6 RGPD)**\nSelon le type de personne et de traitement :\n\n| Type de traitement | Base légale typique |\n|---|---|\n| Adhésion / cotisations | **Contrat** (article 6.1.b) |\n| Inscription enfants EAJE/ALSH | **Contrat** (article 6.1.b) |\n| Newsletter | **Consentement** explicite (article 6.1.a) |\n| Comptabilité | **Obligation légale** (article 6.1.c) |\n| Vidéosurveillance EAJE | **Intérêt légitime** + signalisation (article 6.1.f) |\n| Données médicales enfants | **Consentement** + **catégorie particulière** (article 9) |\n| Photos enfants pour communication | **Consentement** des deux parents (article 6.1.a + 8) |\n\n**2. Tenir le registre des traitements (article 30 RGPD)**\n- **Obligatoire** dès 1 traitement (toutes les associations)\n- **Modèle CNIL** disponible : tableur Excel ou registre numérique\n- **Pour chaque traitement** : finalité, base légale, catégories de données, catégories de personnes, destinataires, durées de conservation, mesures de sécurité\n- **Tenir à jour** : revoir au moins 1×/an + à chaque nouveau traitement\n- **Présentation** : doit pouvoir être présenté à la CNIL en cas de contrôle\n\n**3. Respecter les droits des personnes (articles 12-22 RGPD)**\n- **Information** (article 13) : toute collecte = information préalable claire (mention RGPD dans formulaires d'inscription, sur le site, dans contrats)\n- **Accès** (article 15) : toute personne peut demander **copie de ses données** + finalité + durée + destinataires (réponse en 1 mois max, gratuite)\n- **Rectification** (article 16) : corriger données inexactes\n- **Effacement / droit à l'oubli** (article 17) : si données plus nécessaires + pas de motif légal de conservation\n- **Opposition** (article 21) : pour newsletter, prospection\n- **Portabilité** (article 20) : récupérer ses données dans format lisible\n→ Mettre en place un **email dédié** : rgpd@asso.fr ou contact@asso.fr avec procédure de traitement\n\n**4. Sécuriser les données (article 32)**\n- **Mots de passe robustes** + double authentification quand possible\n- **Chiffrement** (HTTPS site web obligatoire ; chiffrement disque pour ordinateurs portables)\n- **Sauvegardes** régulières + testées\n- **Mises à jour** logiciels et OS\n- **Antivirus** + pare-feu\n- **Gestion des accès** : limiter selon besoin du poste (principe de minimisation)\n- **Verrouillage écran** automatique + politique BYOD si applicable\n\n**5. Encadrer la sous-traitance (article 28)**\n- **Contrat de sous-traitance** écrit avec chaque prestataire (logiciel SaaS, cabinet comptable, hébergeur, mailing) précisant : finalité, durée, mesures de sécurité, transferts hors UE, droits CNIL\n- **Vérifier** la conformité RGPD du sous-traitant (certification, hébergement UE)\n- **Liste tenue** : maintenir registre des sous-traitants\n\n**6. Désigner un DPO ou un référent RGPD**\n- **DPO obligatoire** (article 37) si :\n  - autorité publique (centres sociaux conventionnés CAF souvent oui)\n  - suivi régulier et systématique à grande échelle (rare en ALISFA)\n  - traitement à grande échelle de catégories particulières (santé, opinions, etc.)\n- **DPO mutualisé** : possible (intercommunal, fédération FCSF, ACEPP) — réduit les coûts\n- **Référent RGPD** (sans titre DPO) : recommandé pour toutes les associations ALISFA\n- **Mission DPO** : conseiller la direction, contrôler conformité, point contact CNIL et personnes\n\n**7. Faire le bilan RGPD annuel**\n- Revoir le registre\n- Tester les sauvegardes\n- Auditer les accès aux fichiers\n- Former l'équipe (1×/an minimum)\n- Vérifier les contrats sous-traitants",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques RGPD :\n- **Sanctions CNIL** : jusqu'à 20 M€ ou 4% du CA mondial. Plus pragmatique pour associations : **mise en demeure** publique (réputation), avertissement, sanction pécuniaire 3 000-50 000 € fréquente\n- **Plaintes** : la CNIL contrôle souvent sur plainte (parent mécontent, salarié, ancien adhérent)\n- **Données particulières** (article 9) : santé enfants, opinions philosophiques, origine, vie privée → **consentement explicite + sécurité renforcée**\n- **Mineurs (article 8)** : RGPD impose consentement parental jusqu'à 15 ans (France) — important pour EAJE/ALSH photos, formulaires en ligne, applications\n- **Transferts hors UE** (article 44) : un service hébergé aux USA (Google, Mailchimp, Zoom) = transfert hors UE → vérifier clauses contractuelles types ou DPF (Data Privacy Framework)\n- **Fuite de données** (article 33) : notification CNIL en **72 heures** si fuite + notification aux personnes si risque élevé\n- **Newsletter sans consentement** : sanction CNIL classique (~5 000-15 000 €)\n- **Caméras EAJE non déclarées** : risque pénal + fermeture\n- **Évolutions IA et RGPD** : l'utilisation d'IA générative (ChatGPT) avec données personnelles = nouveau risque. Politique interne nécessaire.",
+        "sources": [
+          "Règlement UE 2016/679 (RGPD)",
+          "Loi n°78-17 du 6 janvier 1978 modifiée par loi 2018-493",
+          "Décret n°2019-536 du 29 mai 2019",
+          "CNIL — Guide RGPD pour associations (2024)",
+          "Code pénal — articles 226-16 à 226-24"
+        ],
+        "liens": [
+          {
+            "titre": "CNIL — Le RGPD pour les associations",
+            "url": "https://www.cnil.fr/fr/rgpd-passez-a-laction"
+          },
+          {
+            "titre": "CNIL — Modèle registre des traitements",
+            "url": "https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement"
+          },
+          {
+            "titre": "Légifrance — Règlement RGPD UE 2016/679",
+            "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A02016R0679-20160504"
+          },
+          {
+            "titre": "CNIL — Désigner un DPO",
+            "url": "https://www.cnil.fr/fr/le-delegue-la-protection-des-donnees-dpo"
+          },
+          {
+            "titre": "Associations.gouv.fr — RGPD et associations",
+            "url": "https://www.associations.gouv.fr/rgpd.html"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "RGPD UE 2016/679 + Loi I&L 1978 modifiée 2018 + CNIL guides 2024"
+      }
+    },
+
+    {
+      "id": "gv-26",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Comment mettre en œuvre un registre des traitements et désigner un DPO en association ?",
+      "mots_cles": [
+        "registre des traitements", "article 30 RGPD",
+        "DPO", "délégué protection données",
+        "DPO mutualisé", "référent RGPD",
+        "ALISFA centres sociaux EAJE",
+        "FCSF ACEPP RGPD"
+      ],
+      "reponse": {
+        "synthese": "Le **registre des traitements** (article 30 RGPD) est le **document central** de conformité RGPD : il liste tous les traitements de données personnelles de l'association. **Obligatoire** dès le premier traitement, **simplifié** pour les associations < 250 salariés (mais quand même requis). Le **DPO (Délégué à la Protection des Données)** est un référent désigné, indépendant, qui conseille, contrôle et fait le lien avec la CNIL. **Obligatoire** pour : autorités publiques, traitements de catégories particulières à grande échelle, suivi régulier de personnes à grande échelle. Pour les associations ALISFA, le DPO **n'est pas toujours obligatoire** mais **fortement recommandé** — souvent **mutualisé** au niveau d'une fédération (FCSF, ACEPP, ELISFA) ou d'un EPCI pour réduire les coûts.",
+        "fondement_legal": "**RGPD articles 30** (registre), **37 à 39** (DPO obligation, missions, indépendance), **57-58** (CNIL contrôle). **Loi 78-17 modifiée 2018** : transposition. **CNIL — délibération du 16 décembre 2010 + délibération 2017** : recommandations DPO. **Décret 2019-536 du 29 mai 2019** : modalités de désignation du DPO.",
+        "fondement_ccn": "Pas de disposition CCN, mais le **DPO interne** doit avoir une fiche de poste claire (souvent rattachée à direction générale) avec **garanties d'indépendance** (article 38.3 RGPD : pas d'instructions sur l'exercice de la mission, pas de sanction pour avoir conseillé conformément).",
+        "application": "**Construire un registre des traitements RGPD** :\n\n**1. Identifier tous les traitements de l'association**\nExemples typiques en association ALISFA :\n- Gestion adhérents/cotisations\n- Inscription enfants EAJE / ALSH\n- Comptabilité / paie\n- Newsletter / communication\n- Site internet (cookies, formulaires)\n- Gestion bénévoles\n- Vidéosurveillance locaux\n- Photos / vidéos d'activités\n- Évaluations / suivi salariés\n- CV / dossiers de recrutement\n- Données santé enfants (allergies, traitements médicaux)\n- Aides aux familles (CCAS, CAF — données financières)\n\n**2. Pour chaque traitement, documenter (modèle CNIL)**\n\n| Champ | Exemple — \"Inscription enfants EAJE\" |\n|-------|-------------------------------------|\n| **Finalité** | Gestion administrative et pédagogique de l'accueil enfant |\n| **Base légale** | Contrat (article 6.1.b RGPD) + obligation légale (PMI) |\n| **Catégories personnes** | Enfants 0-3 ans + parents/responsables légaux |\n| **Catégories données** | Identité, contact, situation familiale, ressources (QF), santé, allergies, photos consenties |\n| **Destinataires** | Direction, équipe pédagogique, comptable, CAF, PMI, médecin de la structure |\n| **Transferts hors UE** | Non |\n| **Durée conservation** | 1 an après départ + archivage légal 5 ans |\n| **Mesures sécurité** | Logiciel chiffré, accès par mot de passe, sauvegardes quotidiennes |\n\n**3. Tenir le registre à jour**\n- **Format** : tableur Excel CNIL ou logiciel dédié (DPO Connect, Witik, Dastra)\n- **Revue annuelle** obligatoire\n- **Mise à jour** dès qu'un nouveau traitement démarre (nouveau partenaire, nouveau service)\n- **Disponibilité** : sur demande de la CNIL en cas de contrôle\n\n**4. Désigner un DPO — décision et profil**\n\n**A. Cas de désignation obligatoire (article 37 RGPD)**\n- **Autorité publique** : centre social conventionné CAF avec mission d'intérêt public peut être considéré comme tel (interprétation large)\n- **Suivi régulier à grande échelle** : peu fréquent en ALISFA (sauf grande structure > 1 000 familles)\n- **Catégories particulières à grande échelle** : EAJE qui collecte santé d'enfants à grande échelle peut être borderline\n→ **Solution prudente** : si doute, désigner un DPO ou au moins un référent RGPD\n\n**B. Profil du DPO**\n- **Compétences** : juridique RGPD + technique (sécurité informatique) + métier (connaissance association)\n- **Indépendance** : ne peut pas être directement sanctionné pour ses avis ; rattachement direction générale (pas RH ou IT par principe)\n- **Confidentialité** : tenu au secret professionnel (article 38.5 RGPD)\n- **Formation** : certification CNIL (CDPO Bureau Veritas, DPO AFNOR) recommandée\n\n**C. DPO interne, externe ou mutualisé**\n\n| Modalité | Avantages | Inconvénients |\n|----------|-----------|---------------|\n| **DPO interne** | Connaissance fine, disponibilité | Coût ETP, formation, indépendance fragile |\n| **DPO externe** (cabinet) | Expertise, indépendance | Coût (5 000-15 000 €/an) |\n| **DPO mutualisé** (FCSF, ACEPP, ELISFA, EPCI) | Coût réduit, partage de bonnes pratiques | Moins disponible, peut survoler |\n→ **Recommandation ALISFA** : **DPO mutualisé** au niveau fédération ou réseau territorial\n\n**5. Missions du DPO (article 39 RGPD)**\n- Informer et conseiller la direction et les salariés/bénévoles\n- Contrôler le respect du RGPD (audits internes)\n- Conseiller sur les analyses d'impact (PIA — Privacy Impact Assessment) pour les traitements à risque\n- Coopérer avec la CNIL\n- Être le **point de contact** avec les personnes concernées\n\n**6. Communication aux personnes**\n- Coordonnées du DPO **publiées** sur le site web et dans les mentions légales\n- Email dédié : dpo@asso.fr\n- Mention dans les formulaires d'inscription, contrats, communications RH",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points d'attention :\n- **Désignation DPO formalisée** : doit être notifiée à la CNIL (formulaire en ligne) — sinon non-conformité\n- **Cumul DPO et autres fonctions** : possible mais PAS avec les fonctions de direction des traitements (DSI, RH dirigeant) — risque conflit d'intérêts\n- **DPO mutualisé** : doit avoir suffisamment de temps pour chaque structure (au moins quelques heures/mois). Sinon dilution = inefficace\n- **Registre incomplet** : la CNIL contrôle souvent sur ce point. Un registre absent ou partiel = sanction quasi-systématique\n- **Mise à jour oubliée** : un nouveau partenariat, nouveau logiciel, nouvelle activité = nouveau traitement à inscrire\n- **Confusion DPO / référent RGPD** : un référent sans certification ni indépendance n'a pas le statut DPO. Pour les associations qui n'ont pas l'obligation, c'est OK, mais ne pas se prévaloir d'un DPO inexistant\n- **Externalisation cabinet juridique** : vérifier qu'il a la certification DPO (sinon son rôle est seulement consultatif, pas DPO au sens RGPD)",
+        "sources": [
+          "RGPD UE 2016/679 — articles 30, 37 à 39",
+          "Loi n°78-17 du 6 janvier 1978 modifiée 2018",
+          "Décret n°2019-536 du 29 mai 2019",
+          "CNIL — Guide DPO 2024 + référentiel certification",
+          "AFCDP — Association Française des Correspondants à la Protection des Données"
+        ],
+        "liens": [
+          {
+            "titre": "CNIL — Le délégué à la protection des données (DPO)",
+            "url": "https://www.cnil.fr/fr/le-delegue-la-protection-des-donnees-dpo"
+          },
+          {
+            "titre": "CNIL — Modèle registre simplifié",
+            "url": "https://www.cnil.fr/fr/RGDP-le-registre-des-activites-de-traitement"
+          },
+          {
+            "titre": "CNIL — Notification désignation DPO en ligne",
+            "url": "https://designations.cnil.fr/dpo/"
+          },
+          {
+            "titre": "AFCDP — Annuaire des DPO",
+            "url": "https://www.afcdp.net/"
+          },
+          {
+            "titre": "FCSF — Mutualisation DPO centres sociaux",
+            "url": "https://www.centres-sociaux.fr/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "RGPD articles 30/37-39 + CNIL guide DPO 2024"
+      }
+    },
+
+    {
+      "id": "gv-27",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Quelles règles RGPD pour les photos et vidéos d'enfants en EAJE, ALSH ou centre social ?",
+      "mots_cles": [
+        "photos enfants", "vidéos enfants",
+        "RGPD article 8", "consentement parental",
+        "droit à l image", "EAJE ALSH",
+        "centre social communication", "site web réseaux sociaux"
+      ],
+      "reponse": {
+        "synthese": "Photographier ou filmer des enfants dans une structure ALISFA (EAJE, ALSH, centre social, séjour) implique **deux régimes juridiques cumulatifs** : **(1) le RGPD** (article 8 — protection renforcée des mineurs) qui exige le **consentement parental** pour les enfants jusqu'à **15 ans** (en France), **(2) le droit à l'image** (article 9 du Code civil) qui s'applique **à vie** — chaque parent doit consentir explicitement à la diffusion de l'image de son enfant. **Règle pratique** : recueillir un **formulaire de consentement parental détaillé** précisant l'usage (photos internes, site web, journal local, réseaux sociaux), la durée (généralement 1 an scolaire renouvelable), le retrait possible à tout moment. Refuser une photo sans consentement = **droit absolu** des parents.",
+        "fondement_legal": "**RGPD article 8** : consentement parental obligatoire pour mineurs jusqu'à 16 ans (UE), **15 ans en France** (loi 2018-493 article 45). **Code civil article 9** : droit au respect de la vie privée + droit à l'image (Cour de cassation 1965). **Loi 17 juillet 1970** : pénalisation atteinte à l'intimité. **Code pénal article 226-1** : 1 an de prison + 45 000 € pour photographie sans consentement dans un lieu privé. **Convention internationale des droits de l'enfant 1989 article 16** : protection de la vie privée des enfants.",
+        "fondement_ccn": "Pas de disposition CCN, mais **règles internes** à formaliser : protocole photos/vidéos signé par direction + équipe + parents. Inscription dans le **règlement intérieur** ou **projet pédagogique** EAJE/ALSH.",
+        "application": "**Protocole photos/vidéos d'enfants en structure ALISFA** :\n\n**1. Distinguer les usages**\n\n| Usage | Niveau de consentement requis |\n|-------|------------------------------|\n| **Photos internes** (album, panneau intérieur EAJE) | Consentement simple |\n| **Photos pour journal local / presse** | Consentement spécifique + nominal |\n| **Site web de l'association** | Consentement explicite + RGPD information |\n| **Réseaux sociaux** (Facebook, Instagram) | Consentement renforcé + sensibilisation aux risques |\n| **Vidéos / portraits** | Consentement + précisions usage et durée |\n| **Photos pour rapport d'activité financeur** | Consentement spécifique |\n\n**2. Construire le formulaire de consentement (modèle)**\n```\nAUTORISATION DE PRISE DE VUES ET DE PUBLICATION D'IMAGES\nSaison [2026-2027]\n\nJe soussigné(e) ____________________ , représentant(e) légal(e) de\n____________________ (enfant), inscrit(e) à [structure],\n\nAUTORISE / N'AUTORISE PAS (cocher) la prise de vues photo/vidéo\nde mon enfant dans le cadre des activités de la structure.\n\nJe consens à la diffusion suivante (cocher chaque usage) :\n[ ] Affichage interne (panneaux, album partagé entre familles)\n[ ] Journal interne / Newsletter aux familles\n[ ] Site internet de l'association : www.asso.fr\n[ ] Page Facebook officielle\n[ ] Compte Instagram officiel\n[ ] Communication presse (journal local, magazine de la mairie)\n[ ] Rapport d'activité (CAF, mairie, partenaires)\n\nConditions :\n- Durée : 1 an, renouvelable tacitement sauf retrait écrit\n- Aucune mention nominative (le prénom seul, sans nom de famille)\n- Aucune cession à tiers commerciaux\n- Conservation max 3 ans après fin du consentement\n- Droit de retrait à tout moment par simple email à : contact@asso.fr\n\nCe consentement est révocable à tout moment, sans justification.\n\nFait à _______, le ____________\nSignature(s) du/des représentant(s) légal/légaux : _______\n```\n→ **Si parents séparés** : nécessaire d'obtenir le consentement des **DEUX parents** détenteurs de l'autorité parentale\n\n**3. Bonnes pratiques de prise de vues**\n- **Photos de groupe** privilégiées (enfants moins identifiables individuellement)\n- **Visages floutés** ou de dos pour les communications externes (sécurité)\n- **Pas de prénom + nom** sur photos publiées (juste prénom)\n- **Consentement actualisé chaque année** (rentrée scolaire EAJE/ALSH)\n- **Liste à jour** des refus (afficher discrètement aux équipes pour éviter erreurs)\n\n**4. Diffusion sur réseaux sociaux**\n- **Pas de photo identifiable** sur Facebook/Instagram public sans consentement spécifique réseaux sociaux\n- **Sensibiliser parents** : rappeler dans le formulaire que les photos sur RS peuvent être copiées, indexées Google, utilisées par tiers (deepfake, IA)\n- **Compte privé** plutôt que public si possible\n- **Métadonnées EXIF** : effacer la géolocalisation des photos avant publication\n\n**5. Gestion des refus**\n- **Lister les enfants sans consentement** dans un classeur accessible à tous les animateurs\n- **Procédure photo** : quand un photographe vient (journal local), prévenir et écarter les enfants concernés\n- **Pas de discrimination** : les enfants sans autorisation participent normalement aux activités\n- **Communication aux parents** : si refus de l'enfant lui-même (enfant > 12 ans peut s'opposer), respecter son avis\n\n**6. Accompagner le retrait du consentement**\n- **Réception de la demande** : accuser réception sous 48h\n- **Suppression effective** : retirer les photos du site web, de Facebook, des supports physiques\n- **Difficultés** : photos imprimées dans des magazines (pas effaçables) — informer le parent de cette limite\n- **Délai** : 30 jours max pour mise en conformité\n\n**7. Spécificités séjours et camps**\n- **Consentement spécifique séjours** : prendre photos en colonie ≠ en EAJE\n- **Diffusion limitée** : albums internes + restitution aux familles, pas de diffusion publique\n- **Photos collectives** uniquement (pas de portraits individuels diffusés)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques :\n- **Plainte parent** : un parent qui découvre une photo de son enfant sur le site sans consentement peut porter plainte CNIL (sanction 5 000-20 000 €) + pénal (article 226-1) + civil (dommages et intérêts)\n- **Photos dépassant l'usage prévu** : photo prise pour rapport CAF utilisée dans une plaquette publicitaire = **détournement de finalité** (RGPD article 5.1.b)\n- **Enfants placés ASE / sous protection** : protection renforcée, pas de photo en règle générale (consentement référent ASE)\n- **Mineur étranger** : si traitement comporte un consentement, le formulaire doit être rédigé dans une langue compréhensible par les parents\n- **Anciens collègues / parents** qui rediffusent vos photos : votre association reste responsable de la diffusion d'origine\n- **IA générative** : ne pas alimenter ChatGPT/Midjourney avec des photos d'enfants (risque entraînement modèle, fuite données)\n- **Décès d'un enfant** : retirer toutes les photos publiées + ne pas diffuser sans consentement des parents\n- **Photos sur écrans** internes : si EAJE diffuse photos sur écran à l'entrée, vérifier consentement spécifique \"affichage public visible\"",
+        "sources": [
+          "RGPD article 8 + Loi 2018-493 article 45 (15 ans France)",
+          "Code civil article 9 (droit à l'image)",
+          "Code pénal article 226-1",
+          "Convention internationale droits enfant 1989 article 16",
+          "CNIL — Guide \"Photos et vidéos en milieu scolaire et associatif\""
+        ],
+        "liens": [
+          {
+            "titre": "CNIL — Photos d'enfants à l'école et en activité",
+            "url": "https://www.cnil.fr/fr/professionnels-du-secteur-de-leducation"
+          },
+          {
+            "titre": "Légifrance — Code civil article 9 droit à l'image",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419288/"
+          },
+          {
+            "titre": "CNIL — Modèle d'autorisation parentale",
+            "url": "https://www.cnil.fr/fr/conformite-rgpd-college-lycee"
+          },
+          {
+            "titre": "Service-Public — Droit à l'image",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F32103"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "RGPD article 8 + Code civil article 9 + CNIL guide secteur éducation"
+      }
+    },
+
+    {
+      "id": "gv-28",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Comment choisir un hébergement et sécuriser les données associatives (cloud, logiciels, sauvegardes) ?",
+      "mots_cles": [
+        "hébergement données", "cloud", "SaaS",
+        "ANSSI", "cybersécurité",
+        "sauvegarde", "RPO RTO",
+        "transferts hors UE", "DPF",
+        "souveraineté numérique"
+      ],
+      "reponse": {
+        "synthese": "Le choix d'**hébergement et logiciels** d'une association ALISFA doit concilier **3 enjeux** : conformité RGPD (article 28 sous-traitance, article 44 transferts hors UE), sécurité (article 32 RGPD + ANSSI), souveraineté numérique (préférer hébergement UE). **3 règles d'or** : (1) **privilégier les solutions hébergées en UE** (Outscale, OVHcloud, Scaleway) pour éviter les transferts complexes vers USA, (2) **vérifier les contrats de sous-traitance** RGPD avec chaque prestataire (Mailchimp, Google, Microsoft), (3) **mettre en place sauvegardes régulières** (règle 3-2-1 : 3 copies, 2 supports, 1 hors-site). Les **sanctions** d'une fuite de données ou d'un piratage peuvent être lourdes : sanction CNIL + perte de confiance + coûts de remédiation (souvent > 50 000 € pour une PME).",
+        "fondement_legal": "**RGPD articles 28** (sous-traitance), **32** (sécurité), **33-34** (notification fuite), **44-49** (transferts hors UE). **Loi LIL article 28** : hébergeur de données de santé (HDS) certifié pour données médicales. **Code pénal articles 323-1 à 323-7** : intrusion système informatique, sanctions. **Référentiel ANSSI — Sécurité Numérique des Associations 2024**. **Décision CJUE Schrems II** (16 juillet 2020) : fin Privacy Shield → DPF (Data Privacy Framework) depuis juillet 2023.",
+        "fondement_ccn": "Pas de disposition CCN, mais le **CSE doit être informé** des outils de surveillance (article L2312-38) : badges, vidéosurveillance, logiciels de tracking.",
+        "application": "**Cartographie sécurité numérique d'une association ALISFA** :\n\n**1. Inventaire des outils numériques**\nDresser la liste de tous les services SaaS / logiciels :\n- **Site web** : hébergeur, CMS (WordPress, Wix, Drupal)\n- **Email** : Outlook, Gmail, OVHmail, ProtonMail\n- **Cloud documents** : Drive, OneDrive, Nextcloud, Sharepoint\n- **Logiciels métiers** : EAJE (BL Enfance, Concerto, Inoé), comptabilité (Sage, Cegid, ISACOMPTA), paie (Silae, Cegid), CRM (HelloAsso, AssoConnect)\n- **Communication** : Mailchimp, Sendinblue (Brevo), Slack, Teams\n- **Réseaux sociaux** : Facebook, Instagram (META US)\n- **Vidéoconférence** : Zoom, Teams, Whereby\n- **Stockage** : Dropbox, Box, OneDrive\n- **Sauvegarde** : Backblaze, IDrive, sauvegarde locale (NAS)\n\n**2. Évaluation par outil — grille RGPD**\n\n| Critère | Bon | Moyen | Mauvais |\n|---------|-----|-------|---------|\n| **Hébergement** | UE | UE + USA (DPF) | USA seul |\n| **Conformité RGPD** | Certifié (ISO 27001, HDS) | Engagement contractuel | Pas d'info |\n| **Contrat sous-traitance** | DPA signé | DPA standard | Pas de DPA |\n| **Chiffrement** | E2E (end-to-end) | TLS 1.3 + AES 256 | Faible |\n| **Sauvegardes** | Quotidiennes + restauration testée | Hebdomadaires | Aucune |\n| **Coût** | Abordable PME | Cher mais OK | Gratuit (= vous êtes le produit) |\n\n**3. Solutions par cas d'usage (2026)**\n\n**A. Email professionnel** :\n- ✅ **OVHmail Pro** (France) : 5-10 €/mois/utilisateur, RGPD natif\n- ✅ **ProtonMail** (Suisse) : ~5 €/mois/utilisateur, chiffrement E2E, RGPD\n- ⚠️ **Microsoft 365** (USA, DPF) : OK avec contrat DPA mais transferts USA — éviter pour données sensibles\n- ⚠️ **Gmail Workspace** (USA, DPF) : idem M365\n\n**B. Cloud documents** :\n- ✅ **Outscale** (France, ISO 27001 + HDS)\n- ✅ **Scaleway** (France)\n- ✅ **OVHcloud Object Storage** (France)\n- ✅ **Nextcloud auto-hébergé** : maximum souveraineté\n- ⚠️ **Google Drive / OneDrive** : à éviter pour données sensibles\n\n**C. Logiciels métiers EAJE/ALSH**\n- **BL Enfance / BL Logiciels** (France, hébergé France)\n- **Concerto Berger-Levrault** (France)\n- **Inoé Aiga** (France)\n→ Vérifier le DPA + hébergement (souvent OVH, ce qui est OK)\n\n**D. Comptabilité / paie**\n- **EBP, Sage, ISACOMPTA, Cegid** : hébergement France, conformes\n- **Silae** : hébergement France\n→ **Préférer mode SaaS hébergé France**\n\n**E. CRM associatif et adhésions**\n- **HelloAsso** : France, gratuit pour associations (commission optionnelle), RGPD natif\n- **AssoConnect** : France, payant, complet\n- **Yapla** : Canada, à vérifier transferts\n\n**F. Newsletter / emailing**\n- **Brevo (ex-Sendinblue)** : France, RGPD natif\n- **Mailjet** : France\n- **Mailchimp** : USA → contrat DPA + bannière RGPD obligatoire\n\n**4. Sauvegardes — règle 3-2-1**\n- **3 copies** des données (originale + 2 sauvegardes)\n- **2 supports différents** (cloud + disque externe)\n- **1 copie hors-site** (autre lieu géographique, en cas d'incendie/cambriolage)\n- **Test de restauration** trimestriel : sauvegarde non testée = sauvegarde inexistante\n- **Logiciels recommandés** : Veeam (pro), Backblaze (cloud), Time Machine (Mac), Duplicati (open-source)\n\n**5. Sécurité de base (référentiel ANSSI 2024)**\n- **Mots de passe** : 12 caractères min + double authentification (2FA) sur services critiques (email, banque, logiciels comptables)\n- **Mises à jour** : OS et logiciels à jour (90% des piratages exploitent des failles connues non patchées)\n- **Antivirus** : ESET, Bitdefender, Microsoft Defender (intégré Windows 11)\n- **Pare-feu** : pare-feu réseau (box) + pare-feu OS\n- **Phishing** : sensibiliser l'équipe (1 formation/an + tests phishing factices)\n- **Wifi** : WPA3 + mot de passe robuste, séparer wifi public (visiteurs) du wifi pro\n- **Postes de travail** : verrouillage automatique 5 min, chiffrement disque (BitLocker, FileVault)\n- **Téléphones pro** : verrouillage biométrique + effacement à distance possible\n- **Politique BYOD** (Bring Your Own Device) : si salariés utilisent leur téléphone perso, encadrer (MDM léger, séparation pro/perso)\n\n**6. Notification fuite de données (RGPD article 33)**\n- **CNIL en 72h** si fuite de données personnelles avec risque\n- **Personnes concernées** sous délai raisonnable si risque élevé\n- **Procédure interne** à formaliser : qui détecte, qui notifie, qui communique\n- **Logs et traçabilité** : conserver les logs des accès, modifications (au moins 6 mois)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques majeurs :\n- **Cloud USA non DPF** : transfert illégal RGPD → sanction CNIL + obligation de migrer\n- **Perte mot de passe administrateur** : si l'unique admin Microsoft 365 quitte sans transmettre, compte bloqué = perte d'accès aux données. Avoir 2 admins minimum + procédure passation\n- **Ransomware** : associations peu sécurisées sont des cibles privilégiées (paye souvent par peur). Ne pas payer la rançon (encourage), restaurer via sauvegarde\n- **Phishing direction** : attaques \"président\" usurpant identité directeur pour transférer fonds. Forme : faux email + faux numéro\n- **Sauvegardes sur le même réseau** : un ransomware chiffre aussi les sauvegardes connectées → utiliser sauvegardes **immutables** ou **air-gapped**\n- **Salariés équipés \"BYOD\"** sans encadrement : un téléphone personnel volé avec mails pros = fuite RGPD\n- **Solutions \"gratuites\"** financées par publicité ciblée : si vous ne payez pas, **vous êtes le produit** — Google Drive, WhatsApp Business, etc.\n- **Hébergement chez un cabinet comptable** : son hébergeur est-il RGPD ? Vérifier en DPA\n- **HDS obligatoire** pour données médicales (ex. allergies enfants, vaccins) : seuls hébergeurs certifiés HDS (Outscale, OVHcloud HDS, Microsoft Azure HDS) peuvent traiter — sanction lourde sinon",
+        "sources": [
+          "RGPD UE 2016/679 — articles 28, 32, 33-34, 44-49",
+          "Loi 78-17 modifiée 2018 — article 28 (HDS)",
+          "Décision CJUE Schrems II du 16 juillet 2020",
+          "Data Privacy Framework UE-USA (juillet 2023)",
+          "Référentiel ANSSI — Sécurité numérique 2024",
+          "Code pénal — articles 323-1 à 323-7"
+        ],
+        "liens": [
+          {
+            "titre": "ANSSI — Guide cybersécurité TPE/PME/associations",
+            "url": "https://cyber.gouv.fr/sites-internet/guide-cybersecurite-tpe-pme"
+          },
+          {
+            "titre": "CNIL — Sécurité des données",
+            "url": "https://www.cnil.fr/fr/securite"
+          },
+          {
+            "titre": "CNIL — Transferts hors UE et DPF",
+            "url": "https://www.cnil.fr/fr/transferer-des-donnees-hors-de-lue"
+          },
+          {
+            "titre": "Cybermalveillance.gouv.fr — Plateforme assistance",
+            "url": "https://www.cybermalveillance.gouv.fr/"
+          },
+          {
+            "titre": "ANSSI — Recommandations cloud SecNumCloud",
+            "url": "https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "RGPD + ANSSI 2024 + CJUE Schrems II"
+      }
+    },
+
+    {
+      "id": "gv-29",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Comment construire une communication numérique conforme RGPD (site web, cookies, newsletter, réseaux sociaux) ?",
+      "mots_cles": [
+        "site web RGPD", "cookies",
+        "newsletter consentement", "tracking",
+        "Facebook Instagram", "réseaux sociaux",
+        "mentions légales", "politique confidentialité",
+        "ALISFA communication digitale"
+      ],
+      "reponse": {
+        "synthese": "La **communication numérique** d'une association ALISFA (site web, newsletter, réseaux sociaux) doit respecter **5 obligations RGPD** : (1) **mentions légales et politique de confidentialité** complètes, (2) **bandeau cookies conforme** (consentement préalable, refus aussi facile que l'accept), (3) **newsletter sur consentement** explicite (case non pré-cochée), (4) **formulaires de contact** avec mention RGPD, (5) **réseaux sociaux** avec vigilance sur les transferts hors UE et le ciblage publicitaire. Les sanctions CNIL sur la communication digitale sont **fréquentes** : ~5 000-50 000 € pour bandeau cookies non-conforme ou newsletter sans consentement.",
+        "fondement_legal": "**RGPD UE 2016/679** : articles 6 (bases légales), 7 (consentement), 13-14 (information). **Loi Informatique et Libertés** modifiée 2018 : article 82 (cookies et traceurs). **Délibération CNIL n°2020-091 du 17 septembre 2020** : recommandations cookies (consentement préalable, refus = un clic). **LCEN n°2004-575 du 21 juin 2004** : article 6 (mentions légales obligatoires sites web). **Code de la consommation** : article L121-1 (pratiques trompeuses).",
+        "fondement_ccn": "Pas de disposition CCN, mais l'**image numérique** de l'association engage la marque employeur — important pour recrutement (forte concurrence ALISFA pour EJE, animateurs).",
+        "application": "**Construire une communication numérique conforme** :\n\n**1. Site web — éléments obligatoires**\n\n**A. Mentions légales** (LCEN article 6)\nObligatoirement publiées et accessibles :\n- Nom de l'association + siège social\n- Numéro RNA (registre national associations) ou numéro Sirène/Siret\n- Numéro de déclaration en préfecture\n- Directeur de la publication (souvent le président)\n- Hébergeur (nom + adresse + téléphone)\n- Nom du DPO si désigné\n- Date dernière mise à jour\n\n**B. Politique de confidentialité (RGPD)**\nDoit contenir :\n- Identité du responsable de traitement\n- Coordonnées du DPO\n- Finalités des traitements (chaque type : adhésion, newsletter, cookies, contact)\n- Bases légales\n- Catégories de données collectées\n- Destinataires\n- Durées de conservation\n- Transferts hors UE le cas échéant\n- **Droits des personnes** : accès, rectification, effacement, opposition, portabilité, retrait consentement, plainte CNIL\n- Modalités d'exercice (email dpo@asso.fr, courrier postal)\n\n**C. Bandeau cookies (CNIL 2020)**\n- Affichage **dès la première visite**\n- Consentement **préalable** : aucun cookie tiers ne se charge avant le clic\n- Choix clair : \"Accepter\", \"Refuser\", \"Personnaliser\"\n- **Refus aussi facile que l'accept** (CNIL exige : pas de bouton \"refus\" caché ou compliqué)\n- Pas de \"cookie wall\" (refuser ≠ ne pas accéder au site, sauf cas spécifiques)\n- Durée du choix : 6 mois max\n- **Cookies obligatoires** (sécurité, panier) : pas besoin de consentement\n- **Cookies de mesure d'audience** : peuvent ne pas nécessiter consentement si configurés conformément (Matomo en mode RGPD-friendly)\n- **Cookies tiers** (Google Analytics, Facebook Pixel) : consentement obligatoire\n→ **Outils gratuits** : Tarteaucitron.io, Axeptio (freemium), Didomi\n\n**2. Newsletter**\n\n**A. Recueil du consentement**\n- Case **non pré-cochée** dans le formulaire d'inscription\n- Mention claire : \"Je consens à recevoir la newsletter de [asso] (1-2 envois/mois maximum)\"\n- **Double opt-in** recommandé : email de confirmation après inscription\n- **Trace** du consentement : conserver date, IP, formulaire signé\n\n**B. Modalités d'envoi**\n- **Lien de désinscription** dans chaque email (article 7.3 RGPD)\n- **Désinscription en 1 clic** (CNIL exige)\n- **Liste à jour** : retirer immédiatement les désinscrits\n- **Mention RGPD** dans le pied de page : \"Vos données sont traitées dans le respect du RGPD. Politique : [lien]\"\n\n**C. Interdictions**\n- Pas d'achat ou échange de listes (constitue une revente illicite)\n- Pas de \"prospection commerciale\" sans consentement (article 32 LCEN)\n- Pas d'envoi à des contacts pros sans rapport avec leur fonction (B2B = consentement requis)\n\n**3. Formulaires de contact / inscription en ligne**\n- **Mention RGPD** sous le formulaire : \"Les informations recueillies sont enregistrées dans un fichier informatisé par [asso] pour [finalité]. Elles sont conservées pendant [durée]. Vous bénéficiez d'un droit d'accès, de rectification, de portabilité, d'effacement de vos données. Pour exercer ces droits, contactez : [email]. Vous pouvez introduire une réclamation auprès de la CNIL.\"\n- **Données minimisées** : ne demander que ce qui est nécessaire\n- **Cases cochées par défaut** : interdites pour le consentement\n\n**4. Réseaux sociaux (Facebook, Instagram, TikTok, LinkedIn, Twitter/X)**\n\n**A. Vigilance avant publication**\n- **Photos d'enfants** : consentement parental EXPLICITE (cf article gv-27)\n- **Données personnelles d'adhérents** : ne pas publier nom + email + photo sans consentement\n- **Témoignages** : faire signer un accord de cession de droits + RGPD\n\n**B. Pages d'association sur Facebook/Instagram**\n- **Coresponsabilité avec META** (CJUE 2018 Wirtschaftsakademie) : l'asso est **co-responsable de traitement** avec Facebook pour les statistiques de page\n- **Mentionner cette coresponsabilité** dans la politique de confidentialité\n- **Information utilisateurs** : préciser que Facebook collecte des données indépendamment\n\n**C. Outils de planification (Buffer, Hootsuite, Later)**\n- Vérifier hébergement et DPA\n- Préférer outils UE (Agorapulse — France, Iconosquare — France)\n\n**D. Publicités sponsorisées Facebook Ads / LinkedIn Ads**\n- Si ciblage par caractéristiques sensibles (origine, religion) : **interdit** RGPD\n- Reporting transparence\n\n**5. Communication interne aux membres / familles**\n\n**A. Email de masse aux familles EAJE/ALSH**\n- **Base légale** : exécution du contrat (informations sur le service)\n- **Différentier** : information de service ≠ publicité (la première n'a pas besoin de consentement spécifique, la seconde oui)\n- **Listes en BCC** (copie cachée) pour ne pas exposer les emails de tous aux destinataires (sinon = fuite RGPD)\n\n**B. SMS aux parents**\n- Consentement spécifique recommandé (cas urgents = OK sans consentement)\n- Pas de SMS commerciaux\n\n**6. WhatsApp / Messenger / Signal**\n- WhatsApp / Messenger (META USA) : déconseillés pour données personnelles\n- **Signal** (Suisse, E2E) : recommandé pour communication équipe sensible\n\n**7. Audit annuel**\n- Vérifier mentions légales à jour\n- Tester bandeau cookies (sur navigateur en mode privé)\n- Tester procédure de désinscription newsletter\n- Vérifier liste sous-traitants (DPA signés)\n- Auditer publications réseaux sociaux (anciennes photos consentement périmé)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques fréquents :\n- **Bandeau cookies non-conforme** : sanction CNIL automatique (250 contrôles/an, ~5 000-50 000 €). Erreur classique : refuser plus difficile que accepter.\n- **Liste de diffusion non BCC** : exposition de tous les emails à tous → plainte d'un parent suffit pour sanction\n- **Photos d'enfants sur Facebook** sans consentement : sanction 5 000-15 000 € + plainte civile\n- **Newsletter à un fichier acheté** : revente illégale (article 32 LCEN) + 75 000 € amende\n- **Google Analytics non-conformé** : interdit en l'état (CNIL 2022) → utiliser Matomo ou GA4 avec proxy server-side + consentement\n- **Site web non sécurisé** (HTTP au lieu de HTTPS) : pas conforme + ennemi du référencement Google\n- **Hébergement \"gratuit\" public** type Wix gratuit : moins de garanties RGPD (lire les CGU)\n- **\"Like\" Facebook intégré** : transfère des données aux serveurs Facebook USA — consentement requis (problème jurisprudence Fashion ID 2019)\n- **Témoignages d'adhérents** : si publication sur le site sans accord écrit, retrait possible à tout moment\n- **Sponsoring vs information** : un email \"abonnez-vous au journal X partenaire\" est de la prospection — consentement requis",
+        "sources": [
+          "RGPD UE 2016/679 — articles 6, 7, 13-14",
+          "Délibération CNIL n°2020-091 du 17 septembre 2020 (cookies)",
+          "LCEN n°2004-575 du 21 juin 2004 — article 6",
+          "CJUE Wirtschaftsakademie 2018 (coresponsabilité Facebook Pages)",
+          "CJUE Fashion ID 2019 (boutons sociaux)",
+          "Code de la consommation — article L121-1"
+        ],
+        "liens": [
+          {
+            "titre": "CNIL — Cookies et autres traceurs",
+            "url": "https://www.cnil.fr/fr/cookies-et-autres-traceurs"
+          },
+          {
+            "titre": "CNIL — Modèle de politique de confidentialité",
+            "url": "https://www.cnil.fr/fr/conformite-rgpd-comment-elaborer-une-politique-de-confidentialite"
+          },
+          {
+            "titre": "Tarteaucitron — Bandeau cookies open-source",
+            "url": "https://tarteaucitron.io/"
+          },
+          {
+            "titre": "CNIL — Lignes directrices newsletter",
+            "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique"
+          },
+          {
+            "titre": "Matomo — Analytics RGPD-friendly",
+            "url": "https://matomo.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "RGPD + CNIL délibération 2020-091 + LCEN 2004-575"
+      }
+    },
+
+    {
+      "id": "gv-30",
+      "_theme_target": "numerique_rgpd",
+      "question_type": "Comment se prémunir contre les cyberattaques (ransomware, phishing, fraude au président) en association ?",
+      "mots_cles": [
+        "cybersécurité", "ransomware",
+        "phishing", "hameçonnage",
+        "fraude au président", "fraude virement",
+        "ANSSI cybermalveillance",
+        "ALISFA petit budget"
+      ],
+      "reponse": {
+        "synthese": "Les associations sont des **cibles privilégiées des cyberattaques** : budgets limités pour la sécurité, salariés peu formés, dirigeants bénévoles disponibles pour usurpation, données enfantines monnayables. Les **3 menaces principales** : (1) **ransomware** (logiciel de rançon qui chiffre tous les fichiers, exige rançon), (2) **phishing/hameçonnage** (email piège pour voler mots de passe ou installer malware), (3) **fraude au président** (escroquerie où le \"président\" demande un virement urgent par email). **Mesures de protection** : double authentification (2FA) sur tous les services critiques, sauvegardes 3-2-1 testées, formation annuelle de l'équipe, procédure stricte de validation des virements, plan de continuité en cas d'attaque. **Coût d'une attaque** : souvent > 50 000 € + perte de confiance + procédure pénale lourde. **En cas d'attaque** : ne pas payer la rançon, déposer plainte, contacter cybermalveillance.gouv.fr.",
+        "fondement_legal": "**Code pénal** : articles **323-1 à 323-7** (intrusion système informatique, sanctions jusqu'à 7 ans + 300 000 €), **313-1** (escroquerie). **RGPD article 32** (sécurité). **Référentiel ANSSI 2024** (recommandations). **Loi Godfrain n°88-19 du 5 janvier 1988** : première loi sur intrusion informatique. **Loi 2018-133 du 26 février 2018 (NIS)** + **Loi 2024-449 (NIS2)** : opérateurs essentiels. **Code de procédure pénale** : article 12 (plainte cyber).",
+        "fondement_ccn": "Pas de disposition CCN, mais en cas d'attaque, **droit de retrait** des salariés possible si exposition risque (article L4131-1) + **information CSE** sur l'incident.",
+        "application": "**Plan de protection cybersécurité ALISFA** :\n\n**1. Comprendre les menaces principales**\n\n**A. Ransomware**\n- **Mode opératoire** : infection via email piégé ou faille → chiffrement de tous les fichiers réseau → demande de rançon en bitcoins\n- **Cibles** : entreprises et associations sans sauvegarde fiable\n- **Coût** : rançon 5 000-50 000 € + temps de récupération (semaines) + perte de confiance\n- **Variantes** : double extorsion (rançon + menace de publier les données)\n\n**B. Phishing**\n- **Mode opératoire** : email se faisant passer pour banque, EDF, CAF, Microsoft → lien vers faux site → vol de mot de passe\n- **Variantes** :\n  - **Spear phishing** : ciblé sur une personne précise (président, comptable)\n  - **Smishing** : phishing par SMS\n  - **Vishing** : phishing par appel téléphonique\n- **Statistiques** : 90% des attaques commencent par phishing\n\n**C. Fraude au président**\n- **Mode opératoire** : email usurpant identité du président → demande virement urgent au comptable\n- **Cible** : associations et PME où le comptable connaît le président\n- **Variantes** : virement sur RIB d'un \"nouveau\" partenaire, déblocage d'urgence, salaire urgent à un soi-disant prestataire\n- **Coût moyen** : 30 000-200 000 € par fraude\n\n**D. Autres menaces**\n- **Vol d'identifiants** sur le dark web (réutilisation mots de passe)\n- **Wifi malveillant** dans lieux publics\n- **Clés USB infectées**\n- **Compromission via prestataires** (chaîne de confiance)\n\n**2. Mesures préventives — Niveau 1 (gratuit)**\n\n**A. Mots de passe robustes + 2FA**\n- **Longueur** : 12 caractères minimum (idéal 16+)\n- **Mots de passe uniques** : 1 par service\n- **Gestionnaire de mots de passe** : Bitwarden (gratuit, open-source, RGPD), KeePassXC (local)\n- **Double authentification (2FA)** sur services critiques :\n  - Email professionnel\n  - Banque\n  - Comptabilité\n  - Logiciels métiers\n  - Réseaux sociaux\n  - Hébergeur du site\n- **Privilégier authenticator app** (Google Authenticator, Authy) plutôt que SMS (vulnérable au SIM swapping)\n\n**B. Mises à jour systématiques**\n- OS Windows / macOS / Linux\n- Logiciels métiers\n- Navigateurs\n- Plugins (WordPress notamment, source fréquente d'attaques)\n- Firmware (routeur wifi, NAS)\n→ **Activer mises à jour automatiques** quand possible\n\n**C. Sauvegardes 3-2-1**\n- 3 copies des données (1 originale + 2 backups)\n- 2 supports différents (cloud + disque externe)\n- 1 hors-site (autre lieu)\n- **Sauvegardes immutables** : ne peuvent pas être chiffrées par ransomware (offre OVHcloud Object Storage \"Object Lock\")\n- **Test de restauration** trimestriel\n\n**D. Formation et sensibilisation**\n- **1 formation/an** minimum pour tous (salariés + administrateurs accédant aux outils)\n- **Tests phishing factices** : envoyer faux phishing pour mesurer le taux de clic + former\n- **Posters affichés** : règles 5 minutes (mots de passe, phishing, RGPD basique)\n- **Procédure d'alerte** : à qui signaler un email suspect ?\n\n**3. Mesures préventives — Niveau 2 (modeste)**\n\n**A. Email — sécurisation avancée**\n- **DKIM, SPF, DMARC** sur le domaine pour empêcher l'usurpation de votre nom de domaine\n- **Filtre anti-spam et anti-phishing** : Microsoft 365 Defender, Google Workspace Security, Vade Secure, Proofpoint\n- **Bannière email externe** : prévenir visuellement les emails venant de l'extérieur (\"⚠ Cet email vient de l'extérieur de l'organisation\")\n\n**B. Antivirus / EDR**\n- **Microsoft Defender** (Windows 11) : suffisant pour usage standard\n- **Bitdefender, ESET** : payants mais plus complets\n- **EDR** (Endpoint Detection & Response) : pour structures sensibles, surveille les comportements anormaux\n\n**C. Pare-feu réseau**\n- Pare-feu intégré à la box opérateur : OK\n- Pare-feu dédié : Stormshield (France) pour structures > 50 salariés\n\n**D. Wifi**\n- WPA3 (ou au moins WPA2 + mot de passe robuste)\n- **Wifi invité séparé** du wifi pro (pas de partage)\n- **Pas de wifi public ouvert** sans portail captif\n\n**4. Procédures critiques**\n\n**A. Validation virements (anti-fraude au président)**\n- **Double signature** au-delà d'un seuil (ex. 2 000 €)\n- **Double validation par canal différent** : email + appel téléphonique direct au président (au numéro connu, pas celui du email)\n- **Procédure écrite** : aucun virement urgent sur simple email, même du président\n- **Vérification IBAN** : tout nouveau RIB doit être vérifié par appel téléphonique au prestataire (au numéro officiel, pas celui du email)\n- **Logiciel comptable** avec workflow de validation (Sage, ISACOMPTA)\n\n**B. Procédure d'alerte**\n- **Détection d'incident** : qui appeler ? (DPO, président, prestataire informatique)\n- **Délai** : sous 1h à 4h max\n- **Non-action** : ne pas éteindre l'ordinateur infecté (efface les preuves) — débrancher du réseau seulement\n- **Notification CNIL** : 72h si données personnelles touchées (article 33 RGPD)\n- **Plainte** : commissariat ou en ligne sur cybermalveillance.gouv.fr\n\n**5. En cas d'attaque réussie**\n- **NE PAS PAYER la rançon** : encourage les attaquants + pas de garantie de récupération\n- **Déconnecter** les machines infectées du réseau (sans les éteindre)\n- **Contacter** cybermalveillance.gouv.fr pour assistance\n- **Déposer plainte** au commissariat (BEFTI, OCLCTIC)\n- **Notifier la CNIL** sous 72h si données personnelles touchées\n- **Communiquer** : aux salariés, aux familles, aux financeurs (transparence)\n- **Restaurer** depuis les sauvegardes\n- **Audit post-incident** : comprendre comment, formaliser leçons apprises\n\n**6. Investissements recommandés (budget 1 000-5 000 €/an)**\n- **Office 365 / Google Workspace Business** : ~10 €/mois/utilisateur, sécurité incluse\n- **Bitwarden Teams** : ~3 €/mois/utilisateur, gestionnaire mots de passe\n- **Sauvegarde Backblaze ou IDrive** : 60-120 €/an pour 1 To\n- **Formation cybersécurité** : 1 000-2 000 €/an (formateur ou MOOC)\n- **Audit annuel** par cabinet spécialisé : 2 000-5 000 € (recommandé pour structures > 30 salariés)\n\n**7. Spécificités EAJE et ALSH**\n- Données médicales enfants = données sensibles → HDS (Hébergeur de Données de Santé)\n- Pas de transfert hors UE\n- Procédures renforcées pour les exports / sorties (clé USB chiffrée)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges fréquents :\n- **Sauvegarde sur le même réseau** : ransomware chiffre aussi les sauvegardes. Utiliser sauvegardes immutables ou hors-ligne\n- **Mot de passe partagé entre services** : un service piraté = tous les comptes exposés. Gestionnaire de mots de passe + 2FA partout\n- **Salarié quittant l'organisation** : révoquer immédiatement TOUS les accès (logiciels, mails, partages, badges, VPN). Trop souvent oublié.\n- **Comptes administrateurs partagés** : tracé impossible. Chaque admin doit avoir son propre compte\n- **\"Click-fatigue\"** : les bannières d'alerte trop fréquentes sont ignorées. Calibrer les protections.\n- **Faux antivirus / faux support technique** : appel \"Microsoft\" qui vous demande accès à distance — c'est une arnaque, raccrocher\n- **Phishing ressemblant à des partenaires** : mail \"CAF\" ou \"URSSAF\" demandant clic urgent — vérifier toujours l'URL avant de cliquer\n- **Donnée volée \"non sensible\"** mais utilisable pour ingénierie sociale : un attaquant qui sait que vous êtes en RTT mardi peut faire fraude au président plus crédiblement\n- **Cyber-assurance** : utile mais ne remplace pas la prévention. Lire les exclusions (souvent : pas d'indemnité si défaut de mise à jour)\n- **NIS2** (Network Information Security 2) : nouvelle directive UE 2024 qui s'étend à plus de structures — vérifier si l'association est concernée (centres sociaux importants peuvent l'être)",
+        "sources": [
+          "Code pénal — articles 323-1 à 323-7",
+          "RGPD article 32",
+          "Loi Godfrain n°88-19 du 5 janvier 1988",
+          "Directive NIS2 UE 2022/2555 + Loi 2024-449",
+          "Référentiel ANSSI cybersécurité 2024",
+          "Cybermalveillance.gouv.fr — plateforme assistance"
+        ],
+        "liens": [
+          {
+            "titre": "Cybermalveillance.gouv.fr — Assistance et signalement",
+            "url": "https://www.cybermalveillance.gouv.fr/"
+          },
+          {
+            "titre": "ANSSI — Guide cybersécurité TPE/PME et associations",
+            "url": "https://cyber.gouv.fr/guide-cybersecurite-tpe-pme-associations"
+          },
+          {
+            "titre": "Bitwarden — Gestionnaire de mots de passe",
+            "url": "https://bitwarden.com/"
+          },
+          {
+            "titre": "ANSSI — Bonnes pratiques mots de passe",
+            "url": "https://cyber.gouv.fr/passez-bonnes-pratiques-mot-passe"
+          },
+          {
+            "titre": "Service-Public — Cyberattaques signalement",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F33682"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Code pénal 323 + RGPD 32 + ANSSI 2024 + NIS2 2024"
+      }
+    }
+
+  ]
+}

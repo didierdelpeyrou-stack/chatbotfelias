@@ -1,0 +1,375 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 G-Vague1 — Gouvernance ESS et théorie sociale (6 articles depuis cours UE1 SOCIO ECO ASSO)",
+    "lot": "G1/G6",
+    "topic": "ESS, gouvernance démocratique, modèle économique associatif, éducation populaire, participation, utilité sociale",
+    "generated_at": "2026-04-26",
+    "source_principale": "Cours UE1 SOCIO ECO ASSO (Eynaud, Traversaz, Laville, Fraisse) + Loi Hamon 31 juillet 2014 ESS + travaux Cnam/LISE",
+    "theme_target": "gouvernance"
+  },
+
+  "articles": [
+
+    {
+      "id": "gv-13",
+      "_theme_target": "doctrine_recherche",
+      "question_type": "Qu'est-ce que l'Économie Sociale et Solidaire (ESS) et comment situer une association ALISFA dans ce cadre ?",
+      "mots_cles": [
+        "ESS", "économie sociale et solidaire",
+        "Loi Hamon 2014", "loi 31 juillet 2014",
+        "but non lucratif", "gouvernance démocratique",
+        "Eynaud", "Laville",
+        "famille statutaire ESS", "associations coopératives mutuelles fondations"
+      ],
+      "reponse": {
+        "synthese": "L'**Économie Sociale et Solidaire (ESS)** désigne un mode d'entreprendre qui concilie activité économique et utilité sociale. La **loi du 31 juillet 2014 (loi Hamon)** définit son périmètre statutaire (associations, coopératives, mutuelles, fondations) et ses 4 principes constitutifs : **(1) but autre que le partage des bénéfices**, **(2) gouvernance démocratique** (pas \"un actionnaire = une voix\" mais **\"une personne = une voix\"**), **(3) gestion conforme** (réserves impartageables, mise en réserve obligatoire), **(4) lucrativité limitée**. Les associations ALISFA — centres sociaux, EAJE associatifs, accueils de loisirs — sont des **acteurs historiques de l'ESS**, dans le champ \"non-marchand\" (financement majoritairement public + cotisations) et porteurs d'**utilité sociale** au sens de l'article 2 de la loi (lutte contre exclusions, cohésion territoriale, éducation populaire).",
+        "fondement_legal": "**Loi n°2014-856 du 31 juillet 2014** relative à l'économie sociale et solidaire (dite **loi Hamon**) : article 1 (définition ESS et 4 principes), article 2 (utilité sociale), articles 3-7 (CRESS et structuration territoriale), articles 8-10 (agrément ESUS — Entreprise Solidaire d'Utilité Sociale). **Décret d'application n°2015-719 du 23 juin 2015**. **Loi 1er juillet 1901** (forme associative). **Code du travail** L1234-1 et suivants pour les entreprises de l'ESS employeuses.",
+        "fondement_ccn": "La **CCN ELISFA (IDCC 1261)** s'inscrit dans le périmètre ESS — **patronat associatif ELISFA** est membre de l'**UDES** (Union des employeurs de l'ESS). Le **préambule** de la CCN reconnaît l'attachement à l'éducation populaire et à l'ESS. Les structures ALISFA combinent **statut associatif loi 1901** (gouvernance bénévole + AG) et **modèle économique non-marchand** (subventions CAF/État/collectivités + cotisations adhérents + recettes activité).",
+        "application": "**Repérer si votre structure relève de l'ESS** :\n- Statut juridique : association loi 1901, coopérative (SCIC, SCOP), mutuelle, fondation → **OUI, ESS de droit**\n- Société commerciale ayant des statuts conformes aux 4 principes (article 1 loi Hamon) → ESS sur **demande d'agrément**\n- **Centres sociaux, EAJE associatifs, accueils de loisirs ALISFA** → tous ESS de droit (statut associatif)\n\n**Bénéfices pratiques de l'appartenance à l'ESS** :\n1. **Financement** : éligibilité aux dispositifs ESS (Fonds territorial, BPI ESS, Avise, France Active)\n2. **Marchés publics** : clauses sociales et marchés réservés ESS (article 13 loi Hamon)\n3. **Réseau territorial** : adhésion à la **CRESS régionale** (Chambre Régionale ESS) — appui RH, juridique, formation, plaidoyer\n4. **Visibilité** : recensement INSEE des entreprises ESS (référencement ESS dans appels à projets)\n5. **Agrément ESUS** (si éligible) : avantages fiscaux donateurs + accès placements épargne solidaire (jusqu'à 10% Livret de Développement Durable)\n\n**Pour valoriser le statut ESS** :\n- Mentionner \"membre de l'ESS\" dans la communication, le site internet, les statuts\n- Adhérer à la CRESS régionale (cotisation modique, ~150-500 €/an selon taille)\n- Participer au **Mois de l'ESS** (novembre) pour visibilité locale\n- Référencer la structure sur **avise.org** et sur le site INSEE-CRESS\n\n**Lecture sociologique (cours UE1 SOCIO ECO)** :\n- **Philippe Eynaud** (Cnam) : la gouvernance ESS est traversée par 3 logiques — **réciprocitaire** (don, contre-don bénévole), **redistributive** (subventions publiques, mutualisation), **marchande** (cotisations, prestations). Le **défi** est de tenir les 3 logiques sans dérive purement marchande.\n- **Jean-Louis Laville** (Cnam/LISE) : l'ESS porte un projet d'**économie solidaire** ancré dans la **société civile organisée**, distinct du marché et de l'État. La participation des bénéficiaires (\"prosumer\") est centrale.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points à connaître :\n- **L'inscription dans l'ESS n'est pas automatique** pour les sociétés commerciales : agrément obligatoire (article 1 loi Hamon). Mais **les associations ALISFA sont ESS de droit** sans démarche.\n- **Risque d'**isomorphisme institutionnel*** (DiMaggio/Powell, repris par Eynaud) : sous l'effet des contractualisations CAF/collectivités, les associations ALISFA peuvent perdre leur identité ESS et se comporter comme des prestataires (logique marchande dominante). **Réflexion stratégique en CA recommandée** chaque année.\n- **L'agrément ESUS** est exigeant : utilité sociale comme but principal, encadrement des rémunérations dirigeants (≤ 7× SMIC), titres financiers non cotés. Pertinent surtout pour structures recherchant épargne solidaire.\n- **Différence ESS / ESUS** : ESS = périmètre large (toutes associations), ESUS = label exigeant pour avantages fiscaux donateurs.\n- Ne pas confondre **ESS** (statut + principes) et **utilité publique** (RUP, reconnaissance par décret en Conseil d'État, très restrictive).",
+        "sources": [
+          "Loi n°2014-856 du 31 juillet 2014 relative à l'ESS (loi Hamon)",
+          "Décret n°2015-719 du 23 juin 2015 (application loi ESS)",
+          "Cours UE1 SOCIO ECO ASSO — Philippe Eynaud (Cnam) + Jean-Louis Laville (Cnam/LISE)",
+          "CRESS — Chambres Régionales de l'ESS",
+          "INSEE — Panorama de l'ESS (édition annuelle)",
+          "Avise — agence d'ingénierie pour les acteurs ESS"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi Hamon ESS du 31 juillet 2014",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/"
+          },
+          {
+            "titre": "Économie.gouv.fr — Économie sociale et solidaire",
+            "url": "https://www.economie.gouv.fr/cedef/economie-sociale-et-solidaire"
+          },
+          {
+            "titre": "ESS-France — Confédération des employeurs ESS",
+            "url": "https://www.ess-france.org/"
+          },
+          {
+            "titre": "Avise — Portail de l'ESS",
+            "url": "https://www.avise.org/"
+          },
+          {
+            "titre": "INSEE — Panorama de l'ESS",
+            "url": "https://www.insee.fr/fr/statistiques?theme=159&geo=FRANCE-1"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Cours UE1 SOCIO ECO ASSO — Eynaud, Laville + Loi Hamon 2014"
+      }
+    },
+
+    {
+      "id": "gv-14",
+      "_theme_target": "doctrine_recherche",
+      "question_type": "Qu'est-ce que la gouvernance démocratique \"une personne = une voix\" et comment l'incarner concrètement ?",
+      "mots_cles": [
+        "gouvernance démocratique", "une personne une voix",
+        "AG association", "conseil administration",
+        "vote", "égalité membres",
+        "Eynaud Vercher Hervieux",
+        "principe démocratique ESS", "Loi Hamon"
+      ],
+      "reponse": {
+        "synthese": "La **gouvernance démocratique** est l'un des 4 principes fondateurs de l'ESS (loi Hamon 31 juillet 2014, art. 1). Elle se distingue radicalement du modèle capitaliste \"un actionnaire = une voix pondérée par le capital\" : dans l'ESS, **chaque membre dispose d'une voix égale**, indépendamment de sa contribution financière. En association loi 1901, ce principe s'incarne dans : (1) **l'Assemblée Générale** souveraine (vote des comptes, élection du CA, modifications statutaires), (2) un **conseil d'administration élu** par l'AG (mandats limités), (3) une **transparence** (rapport moral, rapport financier, registre des délibérations). Au-delà des règles formelles, la gouvernance démocratique \"vivante\" suppose une **culture de la délibération**, de la **rotation des fonctions** et de la **redevabilité** envers les adhérents.",
+        "fondement_legal": "**Loi 1er juillet 1901** : article 1 (contrat d'association libre), article 5 (déclaration), pas d'article fixant la gouvernance — laissée aux statuts. **Loi Hamon 31 juillet 2014 article 1-3** : principe démocratique imposé aux entreprises ESS \"prévue par les statuts ou les principes de fonctionnement\". **Code civil** articles 1832 et suivants (par analogie pour les sociétés). **Jurisprudence Cass.** : abus de majorité en AG sanctionné si rupture d'égalité entre membres.",
+        "fondement_ccn": "La **CCN ELISFA** ne régit pas la gouvernance interne de l'association (qui relève des statuts) mais impose un **dialogue social local** (Chap XV-XVI) : CSE, négociations annuelles obligatoires, accords d'entreprise. **Articulation gouvernance / dialogue social** : le CA (instance bénévole) délègue souvent à la direction salariée la conduite du dialogue social, mais **engage sa responsabilité** sur la politique RH globale.",
+        "application": "**Mettre en œuvre la gouvernance démocratique en association ALISFA** :\n\n**1. Au niveau statutaire (statuts à jour)**\n- Définir clairement les **catégories d'adhérents** (actifs, bienfaiteurs, honoraires) et leur droit de vote\n- Préciser **modalités de convocation AG** (15 jours minimum, ordre du jour, mode de scrutin)\n- **Mandat des administrateurs** : durée (3 ans recommandé), renouvellement par tiers ou moitié, limitation cumul\n- Prévoir **quorum** AG (au moins 1/3 des membres pour valeur délibérante)\n\n**2. Au niveau pratique (vie associative)**\n- **AG annuelle obligatoire** (CCN ALISFA + bonnes pratiques) : présentation rapport moral + financier + perspectives + élections\n- **CA réuni** au minimum 4 fois/an (recommandé), procès-verbaux signés et archivés\n- **Bureau** (président, trésorier, secrétaire) : rythme mensuel, suivi opérationnel\n- **Communication** régulière aux adhérents (newsletter, AG préparatoire, projet associatif)\n\n**3. Renouvellement et inclusion**\n- **Pyramide des âges** du CA : viser un mix générationnel (jeunes adultes + actifs + retraités)\n- **Parité F/H** (objectif loi Copé-Zimmermann 40% étendu progressivement à l'ESS)\n- **Mandats limités** (2 ou 3 mandats consécutifs max) pour éviter notabilisation\n- **Comités de pilotage** ouverts aux adhérents non-administrateurs (commissions thématiques)\n\n**4. Lecture sociologique (Eynaud, Vercher-Chaptal, Hervieux — cours UE1 SOCIO ECO)**\n- **Risque oligarchique** (Roberto Michels, 1911) : tendance à la concentration du pouvoir par un noyau dirigeant. **Antidote** : rotation, transparence, formation des nouveaux administrateurs.\n- **Démocratie délibérative** (Habermas, repris par Laville) : la qualité démocratique tient au processus de délibération (information préalable, temps de débat, prise en compte des minorités), pas seulement au vote.\n- **Gouvernance multi-parties prenantes** : associer salariés (élus CSE invités au CA), bénéficiaires/usagers, partenaires institutionnels — tendance forte ESS depuis 2010.\n- **\"Pouvoir d'agir\"** des bénéficiaires (centres sociaux, FCSF) : aller au-delà du formalisme statutaire pour faire vivre une gouvernance avec/par les habitants.\n\n**5. Indicateurs de bonne santé démocratique**\n- Taux de présence en AG (> 30% des adhérents = bon)\n- Renouvellement annuel du CA (au moins 20% nouveaux administrateurs/an = bon)\n- Diversité (femmes, jeunes, personnes issues de la diversité socio-culturelle)\n- Existence d'un projet associatif co-construit (révisé tous les 3-5 ans)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques fréquents :\n- **AG non tenue** ou tenue irrégulièrement (sans convocation, sans quorum) : nullité des décisions, contestation possible jusqu'à 5 ans après\n- **Confusion CA / direction salariée** : le directeur salarié n'est pas membre du CA (sauf statuts spécifiques avec voix consultative). Le CA décide, la direction met en œuvre.\n- **Notabilisation** (président en place > 10 ans, CA fermé) : perte de légitimité démocratique, désengagement des adhérents\n- **Discrimination** d'adhésion : refuser une adhésion sans motif statutaire = illégal (loi 1901 art. 6 + jurisprudence)\n- **Rémunération du président** : possible (3/4 SMIC ou IS plafonné) mais **doit être prévue par les statuts** + déclarée fiscalement (BOFiP)\n- **\"Présidents fantômes\"** : le président reste responsable juridiquement même si la direction salariée gère tout. Risque pénal en cas de manquement (hygiène-sécurité, harcèlement)",
+        "sources": [
+          "Loi 1er juillet 1901 relative au contrat d'association",
+          "Loi Hamon n°2014-856 du 31 juillet 2014 — articles 1 à 3",
+          "Cours UE1 SOCIO ECO ASSO — Eynaud (Cnam), Vercher-Chaptal, Hervieux",
+          "Roberto Michels — Les partis politiques (1911) — loi d'airain de l'oligarchie",
+          "Jean-Louis Laville + Habermas — démocratie délibérative",
+          "FCSF — Charte des centres sociaux 2000 (pouvoir d'agir habitants)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi 1901 article 1",
+            "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006420595/"
+          },
+          {
+            "titre": "Service-Public — Vie associative et AG",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1132"
+          },
+          {
+            "titre": "FCSF — Fédération des Centres Sociaux et Socio-culturels de France",
+            "url": "https://www.centres-sociaux.fr/"
+          },
+          {
+            "titre": "Le Mouvement Associatif — gouvernance et bénévolat",
+            "url": "https://lemouvementassociatif.org/"
+          },
+          {
+            "titre": "HCVA — Haut Conseil à la Vie Associative",
+            "url": "https://www.associations.gouv.fr/le-haut-conseil-a-la-vie-associative.html"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Cours UE1 SOCIO ECO ASSO + Loi Hamon 2014"
+      }
+    },
+
+    {
+      "id": "gv-15",
+      "_theme_target": "doctrine_recherche",
+      "question_type": "Quel est le modèle économique hybride d'une association ALISFA et comment équilibrer les sources de financement ?",
+      "mots_cles": [
+        "modèle économique", "financement associatif",
+        "subventions", "cotisations", "prestations",
+        "ressources hybrides", "Tchernonog",
+        "économie non-marchande", "Laville",
+        "PSU CAF", "ALISFA"
+      ],
+      "reponse": {
+        "synthese": "Une association ALISFA repose sur un **modèle économique hybride** combinant **3 logiques** identifiées par Karl Polanyi et reprises par Jean-Louis Laville : **(1) redistribution** (subventions publiques État/CAF/collectivités, dotations PSU pour les EAJE, conventions CTG), **(2) marché** (cotisations adhérents, recettes prestations, locations de salles, ventes), **(3) réciprocité** (don/contre-don, bénévolat valorisé, mécénat de proximité). D'après les travaux de **Viviane Tchernonog** (CNRS), les associations employeuses ALISFA ont en moyenne un budget composé à **~65-75% de financements publics**, **~15-20% de cotisations + prestations**, **~5-10% de bénévolat valorisé**. La **soutenabilité économique** dépend de la diversification des sources et de l'équilibre dynamique entre ces 3 piliers.",
+        "fondement_legal": "**Loi 1er juillet 1901** (gestion désintéressée). **CGI articles 206-1bis et 261-7-1°-b** (régime fiscal associations : non-lucrativité, franchise impôts commerciaux jusqu'à 78 596 € de recettes accessoires en 2024). **Décret n°2018-514 du 25 juin 2018** (subventions État/collectivités, convention pluriannuelle d'objectifs CPO). **Loi 23 juillet 1987 + loi mécénat 1er août 2003** (don, mécénat, réduction d'impôt 60-66% pour donateurs). **Code de l'action sociale et des familles** : conventions PSU/CTG avec CAF.",
+        "fondement_ccn": "Le **modèle économique** influence directement les capacités RH de la structure : **équilibre masse salariale / financement public** doit être surveillé pour assurer la pérennité des emplois. La **CCN ALISFA** impose un **plancher de rémunération** (SMHB) qui doit être pris en compte dans le BP (Budget Prévisionnel). Les **clauses sociales** dans les CPO CAF imposent souvent l'application stricte de la CCN.",
+        "application": "**Construire un modèle économique soutenable ALISFA** :\n\n**1. Cartographier les sources de financement**\n- **Subventions de fonctionnement** :\n  - **CAF** : PSU (Prestation de Service Unique) pour EAJE, ALSH, accueil jeunes ; CTG (Convention Territoriale Globale)\n  - **Collectivités** : municipalité (CCAS), intercommunalité, conseil départemental (politique sociale, jeunesse), région (politiques jeunesse, ESS)\n  - **État** : DRAJES (jeunesse), DREETS (ESS), FONJEP, FDVA (Fonds pour le Développement de la Vie Associative)\n  - **Europe** : FSE+ (Fonds Social Européen), Erasmus+ jeunesse\n- **Subventions sur projet** : appels à projet thématiques (éducation, parentalité, numérique, transition écologique)\n- **Cotisations** : adhésion individuelle / familiale (10-50 €/an typique)\n- **Recettes activité** : prestations adhérents (tarifs modulés QF), location salles, prestations entreprises (CSE), vente buvette/restauration\n- **Mécénat** : entreprises mécènes locales, fondations privées (Fondation de France, Fondation MAIF, Fondation Crédit Agricole)\n- **Dons** : campagnes annuelles, appels à dons, plateformes (HelloAsso, La Manche)\n- **Bénévolat valorisé** : à comptabiliser en \"contributions volontaires en nature\" (CVN, plan comptable associatif règlement ANC 2018-06)\n\n**2. Indicateurs de soutenabilité (cours UE1 SOCIO ECO + travaux Tchernonog)**\n- **Ratio subventions/recettes totales** : > 80% = forte dépendance publique (risque), 50-70% = équilibre, < 50% = autonomie financière (rare en social)\n- **Diversification** : 5+ financeurs ≠ tous dans la même catégorie (recommandé)\n- **Trésorerie** : 3 mois minimum de charges (idéal 6 mois) pour absorber retards de subventions\n- **Fonds associatifs** (équivalent capitaux propres) : viser 15-25% du total bilan\n- **Évolution pluriannuelle** : suivi des sources sur 3-5 ans pour détecter tendances\n\n**3. Outils de pilotage**\n- **Plan comptable associatif** (règlement ANC 2018-06) : compte de résultat + bilan + annexes + CVN\n- **Budget prévisionnel** annuel (BP) avec actualisations trimestrielles\n- **Plan pluriannuel d'investissement** (PPI) sur 3-5 ans\n- **Tableau de bord trésorerie** mensuel\n- **Comparaison réalisé / budgété** (variance analysis) en CA trimestriel\n\n**4. Stratégies de diversification (Eynaud, Maurel — cours UE1)**\n- **\"Hybridation des ressources\"** : équilibrer marchand / non-marchand sans dénaturer le projet\n- **Mutualisation** entre associations (groupements d'employeurs, achats groupés, fonctions support partagées)\n- **Crowdfunding** pour projets ponctuels (visibilité + lien usagers)\n- **Évaluation d'impact social** (SROI, méthode \"Outcomes Star\") pour négocier des financements valorisant les résultats\n- **Contractualisation pluriannuelle** (CPO) plutôt qu'annuelle = sécurisation 3 ans",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques économiques majeurs :\n- **\"Effet d'emboîtement\"** (Cottin-Marx, Cnam) : dépendance contractuelle aux financeurs publics qui dictent leurs priorités → perte d'autonomie projet\n- **Trou de trésorerie** récurrent en début d'année (subventions versées avec retard, parfois 6-9 mois) : prévoir ligne de découvert / Dailly bancaire\n- **Activités lucratives** dépassant 78 596 € (franchise 2024) : sectorisation comptable obligatoire ou risque assujettissement IS/TVA\n- **Mécénat vs sponsoring** : ne pas confondre. **Mécénat** = don sans contrepartie significative → reçu fiscal donateur. **Sponsoring** = contrepartie publicitaire → facture TVA + IS pour l'association.\n- **Sub-traitance déguisée** : si une collectivité \"subventionne\" en réalité une prestation commandée (cahier des charges précis, contrôle d'exécution), risque de requalification en marché public\n- **Tchernonog (CNRS)** souligne que **40% des associations employeuses françaises** ont moins de 3 mois de trésorerie d'avance : fragilité structurelle qui doit faire l'objet d'une vigilance permanente du trésorier",
+        "sources": [
+          "Cours UE1 SOCIO ECO ASSO — Tchernonog (CNRS), Eynaud, Maurel",
+          "Karl Polanyi — La Grande Transformation (1944) — 3 logiques économiques",
+          "Jean-Louis Laville — L'économie solidaire (PUF, 2010)",
+          "Viviane Tchernonog — Le paysage associatif français (Juris/Dalloz, mesures économiques)",
+          "Loi mécénat n°2003-709 du 1er août 2003",
+          "Règlement ANC 2018-06 — plan comptable associatif",
+          "Décret n°2018-514 du 25 juin 2018 — subventions et CPO"
+        ],
+        "liens": [
+          {
+            "titre": "Associations.gouv.fr — Subventions et financements",
+            "url": "https://www.associations.gouv.fr/financement.html"
+          },
+          {
+            "titre": "Caf.fr — Prestation de Service Unique (PSU) EAJE",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/les-aides-aux-partenaires"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Le paysage associatif français (Tchernonog)",
+            "url": "https://lemouvementassociatif.org/etudes/"
+          },
+          {
+            "titre": "France Active — Financement solidaire",
+            "url": "https://www.franceactive.org/"
+          },
+          {
+            "titre": "FONJEP — Postes pour la jeunesse et l'éducation populaire",
+            "url": "https://www.fonjep.org/"
+          },
+          {
+            "titre": "BOFiP — Régime fiscal des associations",
+            "url": "https://bofip.impots.gouv.fr/bofip/2351-PGP.html/identifiant=BOI-IS-CHAMP-10-50-10-20-20200506"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Cours UE1 SOCIO ECO ASSO + Tchernonog CNRS + Polanyi/Laville"
+      }
+    },
+
+    {
+      "id": "gv-16",
+      "_theme_target": "doctrine_recherche",
+      "question_type": "Qu'est-ce que l'éducation populaire et comment elle structure le projet associatif ALISFA ?",
+      "mots_cles": [
+        "éducation populaire", "FCSF", "centres sociaux",
+        "Peuple et Culture", "CEMEA", "Léo Lagrange", "Francas",
+        "émancipation", "pouvoir d'agir", "projet associatif",
+        "agréments jeunesse éducation populaire", "JEP",
+        "Mignon Mathieu Maurel"
+      ],
+      "reponse": {
+        "synthese": "L'**éducation populaire** est un courant historique de l'ESS française, né au XIXe siècle (Condorcet, Jules Ferry) et consolidé après 1945 (gouvernement Mendès France, mouvements de jeunesse). Sa **finalité** : **émanciper** les personnes par l'accès à la culture, la connaissance et la **capacité d'agir collectivement** sur leur environnement. Les structures ALISFA — **centres sociaux (FCSF)**, **EAJE associatifs (ACEPP)**, **accueils de loisirs**, **fédérations jeunesse (Francas, Léo Lagrange, Ligue de l'enseignement, CEMEA)** — sont des **acteurs majeurs de l'éducation populaire**. Concrètement, cela structure le projet associatif autour de 3 piliers : (1) **accueil universel** (toutes générations, toutes catégories sociales), (2) **participation des publics** (co-construction avec habitants/familles), (3) **transformation sociale** (par-delà la prestation, viser l'émancipation et la cohésion territoriale).",
+        "fondement_legal": "**Code de l'éducation** articles **L551-1** et suivants (jeunesse, éducation populaire). **Loi 31 mai 1946** (création du secrétariat d'État à la jeunesse). **Décret n°2002-571 du 22 avril 2002** : agrément JEP (Jeunesse et Éducation Populaire) délivré par les services de l'État (DRAJES, ex-DRJSCS) — donne accès à des soutiens publics, FONJEP, postes FONJEP. **Loi 1er juillet 1901** (forme associative). **Loi Hamon 2014** (utilité sociale).",
+        "fondement_ccn": "Le **préambule de la CCN ELISFA** ancre explicitement la branche dans l'**éducation populaire** : \"l'action des structures de la branche ALISFA s'inscrit dans la tradition de l'éducation populaire, du développement social local et de l'animation socio-éducative\". Plusieurs **emplois repères** (avenant 10-22) reflètent ce positionnement : **animateur projet**, **coordinateur**, **médiateur social**, **direction d'équipement** (centre social, EVS).",
+        "application": "**Faire vivre l'éducation populaire dans une structure ALISFA** :\n\n**1. Inscription dans le projet associatif**\n- **Mention explicite** dans le préambule des statuts et le projet associatif (révisé tous les 3-5 ans)\n- Référence à une **fédération d'éducation populaire** (FCSF, ACEPP, Francas, Léo Lagrange, Ligue, CEMEA, etc.) — adhésion + conformité à la charte\n- **Agrément JEP** demandé auprès du préfet via les DRAJES (procédure 2-3 mois)\n\n**2. Pratiques quotidiennes structurantes**\n- **Co-construction avec les usagers/habitants** :\n  - Conseils d'usagers, conseils d'habitants, comités de pilotage participatifs\n  - Restitutions publiques des évaluations\n  - Pédagogie de projet (les usagers identifient les besoins et co-élaborent les actions)\n- **Pédagogie active** :\n  - Méthodes de l'éducation nouvelle (Freinet, Decroly, Montessori) en EAJE et ALSH\n  - Débats mouvants, théâtre forum (Boal), conseils coopératifs\n- **Transversalité des publics** : éviter de cloisonner par âge ou catégorie ; favoriser les **projets intergénérationnels**\n\n**3. Trois courants historiques (cours UE1 SOCIO ECO ASSO — Mignon, Mathieu, Maurel)**\n- **Courant catholique social** (XIXe) : patronages, ACE/JOC, ACO — émancipation par la foi et l'action collective\n- **Courant laïque républicain** (1881-1945) : Ligue de l'enseignement, Francas, CEMEA — formation du citoyen, laïcité\n- **Courant socialiste/communiste** (1936-1968) : Peuple et Culture (Joffre Dumazedier), Léo Lagrange, Maisons des Jeunes — culture du peuple, accès aux loisirs\n→ Tous trois convergent dans la branche ALISFA contemporaine, dépassant les clivages historiques.\n\n**4. Indicateurs de mise en œuvre**\n- **Mixité sociale** mesurée (CSP, QF, origines géographiques) dans les publics accueillis\n- **% de bénévoles habitants** dans les instances et les actions (cible 30%+ pour un centre social)\n- **Nombre de projets co-construits** avec les usagers/an (vs prestations descendantes)\n- **Évaluation participative** (les bénéficiaires participent à l'évaluation, pas seulement les techniciens)\n- **Formation continue** des équipes aux méthodes d'éducation populaire (BAFA-BAFD, BPJEPS, DEJEPS, BEATEP)\n\n**5. Soutiens spécifiques accessibles**\n- **Postes FONJEP** : co-financement État (~7000 €/poste/an) sur 3 ans, renouvelables (1500 postes en France)\n- **FDVA** (Fonds pour le Développement de la Vie Associative) : formation bénévoles + fonctionnement\n- **Erasmus+ Jeunesse** : projets européens jeunes, échanges, formations\n- **CTG CAF** : convention territoriale globale, valorise approche éduc pop\n- **PEDT** (Projet Éducatif Territorial) : pour mairies — structures ALISFA partenaires privilégiés",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Tensions à connaître :\n- **Marchandisation** progressive des activités jeunesse / petite enfance : appels d'offres, prestations, mise en concurrence avec entreprises privées (crèches, ALSH commerciaux). **Risque de dilution** du projet éducation populaire en simple prestation de garde/animation.\n- **Standardisation** des projets sous l'effet des cahiers des charges CAF/collectivités : importance de **résister** à l'isomorphisme et préserver la spécificité éduc pop.\n- **Confusion éducation populaire / animation socio-culturelle** : l'**animation** peut être un outil, mais l'**éducation populaire** vise l'émancipation et la transformation sociale, pas seulement l'occupation du temps libre.\n- **Bénévoles vieillissants** : enjeu de renouvellement des bénévoles et administrateurs (cf. travaux Maurel) — risque de **deséducationpopularisation** si pas de relève.\n- **Posture professionnelle** : les salariés (animateurs, coordinateurs) doivent être formés non comme prestataires mais comme **accompagnateurs du pouvoir d'agir** des publics. Risque de dérive techniciste.",
+        "sources": [
+          "Cours UE1 SOCIO ECO ASSO — Mignon, Mathieu, Maurel",
+          "Joffre Dumazedier — Peuple et Culture (1945) + Vers une civilisation du loisir ?",
+          "Geneviève Poujol + Jean-Charles Roman — Histoire de l'éducation populaire (1981)",
+          "FCSF — Charte des centres sociaux 2000 + Pacte de Coopération 2024",
+          "Décret n°2002-571 du 22 avril 2002 — agrément JEP",
+          "Code de l'éducation — articles L551-1 et suivants"
+        ],
+        "liens": [
+          {
+            "titre": "Associations.gouv.fr — Agrément Jeunesse et Éducation Populaire (JEP)",
+            "url": "https://www.associations.gouv.fr/agrement-jep.html"
+          },
+          {
+            "titre": "FCSF — Fédération des Centres Sociaux et Socio-culturels de France",
+            "url": "https://www.centres-sociaux.fr/"
+          },
+          {
+            "titre": "ACEPP — Association des Collectifs Enfants Parents Professionnels",
+            "url": "https://acepp.asso.fr/"
+          },
+          {
+            "titre": "Francas — Fédération nationale des Francas",
+            "url": "https://www.francas.asso.fr/"
+          },
+          {
+            "titre": "Léo Lagrange — Fédération Léo Lagrange",
+            "url": "https://www.leolagrange.org/"
+          },
+          {
+            "titre": "Ligue de l'enseignement",
+            "url": "https://laligue.org/"
+          },
+          {
+            "titre": "FONJEP — postes pour la jeunesse et l'éducation populaire",
+            "url": "https://www.fonjep.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Cours UE1 SOCIO ECO ASSO + Préambule CCN ELISFA"
+      }
+    },
+
+    {
+      "id": "gv-17",
+      "_theme_target": "instances",
+      "question_type": "Comment organiser la participation des usagers, habitants et bénéficiaires dans la gouvernance d'une association ALISFA ?",
+      "mots_cles": [
+        "participation usagers", "participation habitants",
+        "pouvoir d'agir", "Laville Fraisse",
+        "démocratie participative", "co-construction",
+        "conseil habitants", "comité usagers",
+        "centre social FCSF", "EVS",
+        "innovation démocratique"
+      ],
+      "reponse": {
+        "synthese": "La participation des usagers/habitants à la gouvernance est un **enjeu central** des associations ALISFA, particulièrement dans les **centres sociaux** (qui en font un pilier statutaire — Charte FCSF 2000) et les **EVS** (Espaces de Vie Sociale, agrément CAF). Au-delà de la gouvernance formelle (AG, CA), il s'agit de **créer des espaces de pouvoir d'agir** où les bénéficiaires deviennent **co-producteurs** du projet. **Jean-Louis Laville et Laurent Fraisse** (Cnam/LISE — cours UE1 SOCIO ECO) distinguent **4 niveaux de participation** : (1) **information** (transparence, restitutions), (2) **consultation** (avis recueilli), (3) **concertation** (co-élaboration des décisions), (4) **co-décision** (les usagers délibèrent et tranchent). La **qualité démocratique** d'une association se mesure à sa capacité à monter dans cette échelle, pas seulement à son respect des statuts.",
+        "fondement_legal": "**Loi 1er juillet 1901** : pas d'obligation légale de participation usagers, mais autorise statutairement leur intégration au CA (membres de droit, collège usagers). **Code de l'action sociale et des familles** : article **L311-3** (droits des usagers en établissements sociaux), article **L311-6** (Conseil de la Vie Sociale obligatoire en ESSMS). **Circulaire CNAF n°2012-013** : agrément Centre Social impose un projet co-construit avec habitants. **Loi Hamon 2014 article 1-3** : gouvernance démocratique ESS.",
+        "fondement_ccn": "La **CCN ELISFA** ne régit pas la participation usagers (qui relève des statuts/projets), mais le **préambule** valorise l'éducation populaire et le développement social local — qui supposent participation. **Implication RH** : les **animateurs projet** (emploi repère 2) et **médiateurs sociaux** (emploi repère 14) ont des missions d'animation participative (cf. fiches avenant 10-22).",
+        "application": "**Construire une démarche participative en association ALISFA** :\n\n**1. Niveaux et dispositifs (échelle Laville-Fraisse)**\n\n| Niveau | Définition | Dispositifs concrets |\n|--------|-----------|----------------------|\n| **1. Information** | Rendre lisible | Newsletter habitants, panneaux, restitutions trimestrielles, journal du centre, AG ouvertes |\n| **2. Consultation** | Recueillir des avis | Boîtes à idées, enquêtes annuelles, ateliers de diagnostic, focus groupes |\n| **3. Concertation** | Co-élaborer | Comités de pilotage avec usagers, ateliers projets, conseils d'habitants délibératifs (sans pouvoir de vote final) |\n| **4. Co-décision** | Délibérer et trancher | Conseil de la Vie Sociale (CVS — obligatoire ESSMS), collège usagers au CA avec voix délibérative, budget participatif sur enveloppe dédiée |\n\n**2. Structures de participation possibles**\n- **Conseil de la Vie Sociale (CVS)** : obligatoire en ESSMS (L311-6). Recommandé pour EAJE et ALSH : composition usagers + parents + salariés + administrateurs. Réunion 3x/an minimum, présidé par un membre élu (pas le directeur).\n- **Conseil des Habitants** (centres sociaux FCSF) : démarche initiée localement, lieu de débat et propositions sur la vie du centre et du quartier\n- **Collège usagers/habitants au CA** : nécessite modification statutaire. Réservé un nombre d'administrateurs (3-5 sur 15) au collège \"usagers\" avec voix délibérative\n- **Budget participatif** : enveloppe dédiée (5-10% du budget action) gérée par les usagers (vote, suivi)\n- **Auto-organisation** : groupes d'habitants autonomes accompagnés par l'association (ressourcerie, cafés-débat, jardins partagés, etc.)\n\n**3. Conditions de réussite (cours UE1 SOCIO ECO + travaux LISE)**\n- **Posture des professionnels** : passer de **\"prestataire pour\"** à **\"accompagnateur de\"**. Formation aux méthodes de facilitation (animation participative, théâtre forum, world café, design thinking)\n- **Temps long** : démarches participatives demandent 2-3 ans pour s'installer. Pas de \"quick win\".\n- **Inclusion des publics éloignés** : ne pas se limiter aux habitants déjà mobilisés. Aller chercher (porte-à-porte, événements de quartier, médiation interculturelle)\n- **Pouvoir réel** : si les usagers \"participent\" sans aucun impact sur les décisions, désengagement rapide → \"participation alibi\"\n- **Restitution systématique** : ce que vous avez dit / ce qui a été retenu / ce qui sera fait / ce qui ne sera pas fait + pourquoi\n\n**4. Innovations démocratiques (Fraisse, Sintomer — cours UE1)**\n- **Tirage au sort** d'usagers pour des conseils consultatifs (assemblées citoyennes locales)\n- **Mini-publics délibératifs** : conférences de citoyens, jurys citoyens — sur un enjeu spécifique (projet de territoire, réforme statutaire)\n- **Plateformes numériques** : outils civictech (Decidim, Cap Collectif) pour pétitions, votes, consultations en ligne\n- **\"Communs\"** (Elinor Ostrom) : co-gestion d'une ressource (équipement, jardin, café) par communauté d'usagers\n\n**5. Mesurer la participation**\n- **% du CA composé d'usagers/habitants** (cible : 30-50% pour un centre social)\n- **Nombre de personnes mobilisées** dans les instances participatives sur l'année\n- **Diversité** des participants (mixité sociale, générationnelle, F/H, origines)\n- **Nombre de décisions co-construites** (vs imposées) sur l'année\n- **Évaluation par les usagers eux-mêmes** : enquête annuelle sur la qualité de la participation",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges à éviter :\n- **\"Participation alibi\"** : les usagers donnent leur avis mais les décisions sont déjà prises. Démotivation rapide + perte de confiance. **Antidote** : transparence sur ce qui est décidable et ce qui ne l'est pas.\n- **Confiscation par une élite associative** : seuls quelques bénévoles \"professionnels de la participation\" interviennent → reproduit les inégalités. **Antidote** : aller chercher les publics éloignés, rotation des fonctions.\n- **Charge mentale des bénévoles habitants** : participer prend du temps. Reconnaître cette contribution (défraiement, valorisation, formation, attestation de bénévolat).\n- **Confusion participation usagers / co-gestion paritaire** : une association n'est pas une **coopérative SCIC** (où usagers + salariés + financeurs sont sociétaires). Si vous voulez aller jusqu'à la co-gestion, envisager la transformation en **SCIC** (Société Coopérative d'Intérêt Collectif).\n- **Risque juridique** : un usager qui devient administrateur engage sa responsabilité (RC mandataires) — informer + assurer.\n- **Démarche participative imposée** par un financeur (CAF, mairie) sans appropriation interne : risque d'**être bidon**. La participation doit être un **choix politique** de l'association, pas une obligation contractuelle vide.",
+        "sources": [
+          "Cours UE1 SOCIO ECO ASSO — Laville (Cnam/LISE), Fraisse (LISE), Sintomer (Paris 8)",
+          "Charte fédérale FCSF — Centres sociaux 2000 + Pacte de Coopération 2024",
+          "Code de l'action sociale et des familles — L311-3, L311-6 (CVS)",
+          "Circulaire CNAF n°2012-013 — agrément Centre Social",
+          "Elinor Ostrom — Governing the Commons (1990) — gestion des communs",
+          "Sherry Arnstein — Ladder of Citizen Participation (1969) — échelle de la participation"
+        ],
+        "liens": [
+          {
+            "titre": "FCSF — Charte fédérale et Pacte de Coopération",
+            "url": "https://www.centres-sociaux.fr/notre-projet/"
+          },
+          {
+            "titre": "Caf.fr — Espace de Vie Sociale (EVS)",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/les-espaces-de-vie-sociale-evs"
+          },
+          {
+            "titre": "ANCV — Conseil de la Vie Sociale (CVS)",
+            "url": "https://solidarites.gouv.fr/le-conseil-de-la-vie-sociale-cvs"
+          },
+          {
+            "titre": "Décider Ensemble — Plateforme de la concertation",
+            "url": "https://www.deciderensemble.com/"
+          },
+          {
+            "titre": "Cap Collectif — Civictech démocratie participative",
+            "url": "https://cap-collectif.com/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Cours UE1 SOCIO ECO ASSO — Laville/Fraisse + Charte FCSF 2000"
+      }
+    },
+
+    {
+      "id": "gv-18",
+      "_theme_target": "doctrine_recherche",
+      "question_type": "Qu'est-ce que l'utilité sociale et comment la mesurer pour une association ALISFA ?",
+      "mots_cles": [
+        "utilité sociale", "impact social",
+        "Loi Hamon article 2", "ESUS",
+        "évaluation impact", "SROI",
+        "mesure utilité sociale", "Gadrey",
+        "non-marchand", "valeur sociale",
+        "ALISFA centre social"
+      ],
+      "reponse": {
+        "synthese": "L'**utilité sociale** est l'un des concepts clés de l'ESS, défini par l'**article 2 de la loi Hamon du 31 juillet 2014**. Une activité poursuit une utilité sociale si elle remplit l'une de ces 4 conditions : (1) **soutien aux personnes vulnérables** (lutte contre exclusion, précarité, handicap, etc.), (2) **lutte contre les inégalités** (sanitaires, sociales, éducatives, économiques, culturelles), (3) **éducation à la citoyenneté** (par l'éducation populaire), (4) **développement durable / cohésion territoriale**. Les associations ALISFA — centres sociaux, EAJE, ALSH, EVS — relèvent **typiquement** des conditions 1, 2 et 3. **Mesurer cette utilité sociale** dépasse les indicateurs d'activité (nombre de bénéficiaires, heures de présence) pour évaluer la **transformation produite** chez les personnes et sur les territoires. **Jean Gadrey** (cours UE1 SOCIO ECO) propose une approche **pluraliste** combinant indicateurs quantitatifs et qualitatifs, avec participation des bénéficiaires à l'évaluation.",
+        "fondement_legal": "**Loi n°2014-856 du 31 juillet 2014 article 2** : définition utilité sociale (4 conditions). **Articles 8 à 11 de la loi** + **décret n°2015-719 du 23 juin 2015** : agrément **ESUS** (Entreprise Solidaire d'Utilité Sociale) — exige l'utilité sociale comme **but principal** + critères supplémentaires (encadrement rémunérations dirigeants ≤ 7× SMIC, titres financiers non cotés). **Code général des impôts (CGI) art. 200 et 238 bis** : associations d'utilité sociale ouvrant droit à réductions d'impôts pour donateurs (66% IR / 60% IS). **Loi 23 juillet 1987** : reconnaissance d'utilité publique (RUP) — distincte et plus restrictive que l'utilité sociale.",
+        "fondement_ccn": "La **CCN ELISFA** ne définit pas l'utilité sociale, mais le **préambule** affirme l'inscription dans l'éducation populaire et le développement social local — qui sont au cœur de l'utilité sociale au sens loi Hamon. **Pratique** : l'agrément ESUS peut être pertinent pour les structures ALISFA recherchant des financements solidaires (épargne salariale, BPI ESS) ou souhaitant valoriser leur action.",
+        "application": "**Évaluer l'utilité sociale d'une association ALISFA** :\n\n**1. Cartographier les dimensions d'utilité sociale (cours UE1 SOCIO ECO + Gadrey)**\n- **Effets directs sur les bénéficiaires** :\n  - Bien-être individuel (santé, confiance en soi, lien social)\n  - Compétences acquises (langage en EAJE, autonomie, citoyenneté)\n  - Insertion (sociale, professionnelle, scolaire)\n- **Effets sur les familles et l'entourage** :\n  - Conciliation vie pro / vie perso (mode de garde EAJE, ALSH)\n  - Soutien à la parentalité, lutte contre l'isolement\n- **Effets sur le territoire** :\n  - Cohésion sociale et lien intergénérationnel\n  - Mixité sociale dans les équipements\n  - Animation locale, dynamisme du quartier/village\n- **Effets sur la société** :\n  - Égalité d'accès (hiérarchie F/H, QPV, ruralité)\n  - Démocratie locale et pouvoir d'agir\n  - Transition écologique (alimentation, mobilité, énergie)\n\n**2. Méthodes d'évaluation (cf. travaux Gadrey, Hély, Petrella, Richez-Battesti — cours UE1)**\n\n| Méthode | Principe | Avantages | Limites |\n|---------|----------|-----------|---------|\n| **Indicateurs d'activité** | Compter (n° bénéficiaires, heures, actions) | Simple, comparable | Ne dit rien de l'impact |\n| **Indicateurs de résultats** | Mesurer changements observables (insertion, scolarité, santé) | Plus parlant | Requiert collecte longitudinale |\n| **SROI (Social Return on Investment)** | Monétariser l'impact (1 € investi → X € de valeur sociale) | Lisible pour financeurs | Réducteur, contestable méthodologiquement |\n| **Outcomes Star** | Étoile à 8 branches mesurant progression personnes accompagnées | Visuel, qualitatif | Demande formation et temps |\n| **Évaluation participative** | Bénéficiaires co-évaluent | Empowerment + qualitatif riche | Long, demande méthodo |\n| **Approche Gadrey pluraliste** | Combiner quanti + quali + participation + comparaison territoriale | Riche, équilibré | Complexe à mener |\n\n**3. Construire une démarche d'évaluation (recommandée par DRJS / CAF / collectivités)**\n- **Étape 1 — Théorie du changement** : décrire la chaîne **Inputs → Activités → Outputs → Outcomes → Impact** propre à votre projet\n- **Étape 2 — Choisir 5-10 indicateurs** mixés (quanti + quali) sur 3 niveaux (bénéficiaires / territoire / société)\n- **Étape 3 — Collecte de données** : enquêtes bénéficiaires, observation, focus groupes, données partenaires (Éducation nationale, Pôle emploi)\n- **Étape 4 — Analyse participative** : ateliers avec usagers, salariés, administrateurs, partenaires\n- **Étape 5 — Restitution publique** : rapport d'utilité sociale annuel + temps d'échange avec parties prenantes\n- **Étape 6 — Boucle d'amélioration** : ajuster le projet selon constats\n\n**4. Outils et soutiens**\n- **Avise** : guide pratique \"Mesurer son impact social\" (téléchargeable gratuitement)\n- **Mouvement Associatif** : autodiagnostic en ligne (DLA — Dispositif Local d'Accompagnement)\n- **AVISE / Esp'OIR / Convergences** : formations à l'évaluation impact\n- **CRESS régionales** : appui méthodologique\n- **DLA** (Dispositif Local d'Accompagnement) : 2-5 jours de consultance gratuite par an\n\n**5. Cas particulier ALISFA**\n- **Centres sociaux** : projet social (renouvelé tous les 4 ans en agrément CAF) doit déjà inclure une évaluation participative — outil naturel\n- **EAJE** : indicateurs CAF (taux occupation, mixité QF) + à enrichir d'effets qualitatifs (acquisition langage, socialisation)\n- **ALSH** : projets éducatifs PEDT évalués avec collectivité — opportunité de mesurer impact\n- **EVS** : démarche participative incluse dans le cahier des charges agrément",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points d'attention :\n- **\"Tyrannie de l'évaluation\"** (Gadrey, Beaud) : demande croissante de mesure d'impact peut épuiser les équipes et standardiser les projets. **Antidote** : choisir SES indicateurs (alignés sur le projet associatif), refuser les batteries imposées de KPI.\n- **Effet d'éviction** : la pression à mesurer ce qui est mesurable peut exclure les dimensions qualitatives (lien social, dignité, émancipation) qui restent cruciales\n- **Quantification monétaire (SROI)** : à utiliser avec précaution — risque de réduire l'utilité sociale à un calcul économique. Pertinent pour communiquer avec financeurs, dangereux comme outil de pilotage interne\n- **Confusion utilité sociale (loi Hamon) / utilité publique (loi 1987)** :\n  - **Utilité sociale** = critères loi Hamon, accessible largement\n  - **Utilité publique (RUP)** = décret en Conseil d'État, très restrictive (~2000 associations en France), avantages fiscaux supplémentaires\n- **Agrément ESUS** : utile pour épargne solidaire et donation salariale, mais demande lourde + critères stricts (rémunération dirigeants ≤ 7 SMIC). Pas pertinent pour toutes les structures.\n- **Évaluation imposée par financeurs sans accompagnement** : risque de bricolage. Solliciter DLA pour appui méthodologique.",
+        "sources": [
+          "Loi n°2014-856 du 31 juillet 2014 — article 2 (utilité sociale) + articles 8-11 (ESUS)",
+          "Cours UE1 SOCIO ECO ASSO — Gadrey, Hély, Petrella, Richez-Battesti",
+          "Jean Gadrey — L'utilité sociale des organisations ESS (DIES, 2003)",
+          "Avise — Guide \"Mesurer son impact social\"",
+          "Décret n°2015-719 du 23 juin 2015 — agrément ESUS",
+          "DLA — Dispositif Local d'Accompagnement (réseau Avise)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi Hamon ESS article 2 utilité sociale",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029313296/"
+          },
+          {
+            "titre": "Avise — Mesurer son impact social",
+            "url": "https://www.avise.org/ressources/mesurer-son-impact-social"
+          },
+          {
+            "titre": "Économie.gouv.fr — Agrément ESUS",
+            "url": "https://www.economie.gouv.fr/cedef/entreprise-sociale-utilite-sociale-ESUS"
+          },
+          {
+            "titre": "Avise — Le DLA Dispositif Local d'Accompagnement",
+            "url": "https://www.avise.org/ressources/le-dispositif-local-daccompagnement-dla"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Autodiagnostic associatif",
+            "url": "https://lemouvementassociatif.org/"
+          },
+          {
+            "titre": "ESS-France — Plaidoyer utilité sociale",
+            "url": "https://www.ess-france.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi Hamon 2014 art 2 + Cours UE1 SOCIO ECO — Gadrey/Hély/Petrella"
+      }
+    }
+
+  ]
+}

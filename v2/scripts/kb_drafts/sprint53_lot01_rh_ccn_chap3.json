@@ -1,0 +1,507 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 R-Vague1 lot 1 — RH Chapitre III CCN ELISFA mars 2026 (9 articles)",
+    "lot": "R1/R5",
+    "topic": "Conditions d'établissement et de rupture du contrat de travail (recrutement, embauche, essai, discipline, absences, rupture, indemnités, licenciement éco, CDD)",
+    "generated_at": "2026-04-26",
+    "source_principale": "CCN ELISFA mars 2026 — Chapitre III articles 1-10 + Code du travail",
+    "theme_target": "rh"
+  },
+
+  "articles": [
+
+    {
+      "id": "rh-12",
+      "_theme_target": "recrutement_integration",
+      "question_type": "Quelle procédure de recrutement appliquer dans une structure ALISFA selon la CCN ?",
+      "mots_cles": [
+        "recrutement", "procédure embauche", "fiche de poste",
+        "annonce emploi", "entretien", "non-discrimination",
+        "DPAE", "casier B2 EAJE", "emploi repère",
+        "Chapitre III article 2 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La procédure de recrutement dans la branche ALISFA suit le **Chapitre III article 2 de la CCN ELISFA** : (1) **définition du besoin** sur un emploi repère de la branche (avenant 10-22, 15 emplois repères), (2) **rédaction d'une fiche de poste** détaillée, (3) **diffusion** non discriminatoire (mention CCN, classification, salaire min), (4) **sélection** sur critères objectifs avec entretien, (5) **vérification qualifications** (diplômes EAJE/animation/social) et **casier judiciaire B2** pour postes en contact avec mineurs, (6) **DPAE** à l'URSSAF AVANT embauche.",
+        "fondement_legal": "**Code du travail** : articles **L1221-1** (contrat de travail), **L1221-6** (questions licites à l'embauche), **L1221-10** (DPAE 8 jours avant), **L1132-1** (non-discrimination), **L1142-1** (égalité F/H au recrutement) — **Code action sociale** : article **L131-2** (casier B2 obligatoire EAJE/ACM).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 2** : conditions de recrutement. **Avenant 10-22 du 6 décembre 2022** : 15 emplois repères de la branche (animateur, EJE, RPE, direction EAJE, etc.). **Annexe 1** de la CCN : définition des notions et critères de classification.",
+        "application": "**Check-list recrutement** :\n- Définir le poste sur un **emploi repère** branche ALISFA (cf. avenant 10-22)\n- Annonce mentionnant : intitulé, missions, qualifications, CCN ALISFA (IDCC 1261), classification, niveau de rémunération (≥ minimum hiérarchique de branche)\n- **Plateformes recommandées** : France Travail, AlisfaJob, FCSF/ACEPP, Réseau Emploi ESS\n- **Entretien** structuré (mêmes questions à tous les candidats), grille d'évaluation\n- **Vérifications obligatoires** :\n  - Diplôme conforme à l'emploi repère (DE EJE pour EJE, BPJEPS pour animateur, etc.)\n  - **Casier B2** demandé par l'employeur si poste EAJE/ACM (avant la signature)\n  - Validité titre de séjour si étranger non-UE\n- **DPAE** sur urssaf.fr (au plus tôt 8 jours avant l'embauche, au plus tard à l'embauche)\n- **Visite médicale d'information et de prévention** programmée dans les 3 mois (R4624-10) — ou avant prise de poste si poste à risque (mineur, contact petite enfance)\n- **Documents à remettre** au salarié : copie CCN ALISFA (ou affichage), notice mutuelle/prévoyance, règlement intérieur si > 11 salariés",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques fréquents :\n- **Discrimination** à l'embauche (origine, âge, situation familiale, état de santé) : sanction prud'homale + pénale (3 ans + 45 000 €)\n- **Casier B2** non vérifié sur poste EAJE : risque pénal pour l'employeur si condamnation antérieure du salarié pour atteinte aux mineurs\n- **DPAE** oubliée ou tardive : sanction URSSAF (≥ 1 mois SMIC par cas)\n- **Test de personnalité ou questionnaire intrusif** sans pertinence : illégal\n- **Promesse d'embauche** par mail : vaut contrat (article L1221-1) → engage l'employeur",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 2",
+          "Avenant 10-22 du 6 décembre 2022 — emplois repères ALISFA",
+          "Code du travail — articles L1221-1, L1221-6, L1221-10, L1132-1",
+          "Code de l'action sociale et des familles — article L131-2 (casier B2)",
+          "URSSAF — DPAE en ligne"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Recrutement L1221-1 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/",
+            "type": "legislation"
+          },
+          {
+            "titre": "URSSAF — Déclaration Préalable À l'Embauche",
+            "url": "https://www.urssaf.fr/portail/home/employeur/embaucher-un-salarie/dpae.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN et avenant 10-22 emplois repères",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — emplois et formation",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 2"
+      }
+    },
+
+    {
+      "id": "rh-13",
+      "_theme_target": "recrutement_integration",
+      "question_type": "Quelles formalités d'embauche et mentions obligatoires du contrat de travail dans la branche ALISFA ?",
+      "mots_cles": [
+        "embauche", "contrat de travail", "DPAE",
+        "registre unique du personnel", "mentions obligatoires",
+        "CCN ALISFA", "classification", "emploi repère",
+        "Chapitre III article 3 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "L'embauche dans une structure ALISFA implique **5 formalités obligatoires** : (1) **DPAE** à l'URSSAF (max au moment de l'embauche), (2) **contrat de travail écrit** signé dans les 2 jours ouvrables, (3) **registre unique du personnel** mis à jour, (4) **affiliation** mutuelle santé + prévoyance branche (CCN Chap XIII et XIV), (5) **visite médicale d'information** dans les 3 mois (poste à risque : avant prise de poste). Mentions obligatoires CCN ELISFA : **classification (emploi repère + pesée), CCN applicable (IDCC 1261), salaire brut, durée travail, lieu, période d'essai**.",
+        "fondement_legal": "**Code du travail** — articles **L1221-10** (DPAE), **L1221-13** (registre unique du personnel), **R1221-1 à R1221-25** (formalités embauche), **D1242-1** (mentions CDD), **D3171-1** (classification au bulletin de paie). **Décret n° 2008-244 du 7 mars 2008** modifié.",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 3** : embauche et formalités. **Avenant 10-22** : classification sur 15 emplois repères. **Article 4 du Chap V** (rémunération) : définition du salaire minimum hiérarchique. **Chapitres XIII et XIV** : prévoyance et complémentaire santé obligatoires de branche.",
+        "application": "**Mentions obligatoires du contrat ALISFA** :\n1. **Identité** des parties (employeur et salarié)\n2. **Date d'embauche** + lieu de travail (ou clause de mobilité si applicable)\n3. **Convention collective** : CCN ELISFA, IDCC **1261**\n4. **Emploi repère** + niveau de pesée (classification 10-22)\n5. **Durée du travail** (temps plein 35h ou TP avec répartition)\n6. **Rémunération** brute mensuelle (≥ salaire minimum hiérarchique de branche pour la classification)\n7. **Période d'essai** (cf. CCN Chap III art 4 : 1 mois employés / 2 mois techniciens-agents maîtrise / 3 mois cadres, renouvelable une fois)\n8. **Délai de préavis** en cas de rupture (selon CCN Chap III art 7)\n9. **Caisse de retraite complémentaire** (AG2R LA MONDIALE pour la branche) et **prévoyance** (Humanis ou autre selon recommandation Chap XIII)\n10. **Mutuelle complémentaire santé** obligatoire (Chap XIV) + bénéficiaires éventuels\n\n**Documents à remettre** :\n- Notice info mutuelle + prévoyance\n- Règlement intérieur (≥ 11 salariés)\n- Affichage CCN ALISFA accessible\n- Charte informatique si applicable\n\n**Délais** :\n- DPAE : avant l'embauche (8 jours min) ou au moment\n- Contrat signé : 2 jours ouvrables max après embauche (sinon présomption CDI)\n- Visite médicale : 3 mois (R4624-10) ou avant prise de poste pour postes à risque",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Absence de contrat écrit** : présomption de CDI temps plein (article L1242-12 si CDD)\n- **Mention CCN absente** : information préjudiciable, contestation salariale possible\n- **Classification 10-22 erronée** : risque rappel de salaire avec intérêts si sous-classement détecté\n- **DPAE oubliée** : sanction URSSAF (1 mois SMIC par embauche)\n- **EAJE/ACM** : casier B2 conditionne l'embauche (L131-2 CASF) — vérifier AVANT signature contrat\n- **Mutuelle** : option dispense possible (concubin déjà couvert par mutuelle famille)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 3",
+          "Code du travail — articles L1221-10, L1221-13, R1221-1 à R1221-25",
+          "Avenant 10-22 du 6 décembre 2022 — classification ALISFA",
+          "URSSAF — formulaires DPAE"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Embauche d'un salarié : formalités",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F33682",
+            "type": "officiel"
+          },
+          {
+            "titre": "URSSAF — DPAE",
+            "url": "https://www.urssaf.fr/portail/home/employeur/embaucher-un-salarie/dpae.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail L1221",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ELISFA — CCN et avenant 10-22",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 3"
+      }
+    },
+
+    {
+      "id": "rh-14",
+      "_theme_target": "recrutement_integration",
+      "question_type": "Quelle est la durée de la période d'essai dans la branche ALISFA et peut-on la renouveler ?",
+      "mots_cles": [
+        "période d'essai", "renouvellement essai",
+        "rupture période d'essai", "délai de prévenance",
+        "essai cadre", "essai non-cadre",
+        "Chapitre III article 4 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La période d'essai dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 4** : **1 mois pour employés, 2 mois pour techniciens et agents de maîtrise, 3 mois pour cadres**, renouvelable une fois (durée totale doublée maximum). Pour les **cadres dirigeants groupes 6, 7, 8**, voir Chapitre XI article 3 (durée et renouvellement spécifique). **Rupture libre** des deux côtés pendant l'essai mais avec **délai de prévenance** légal (article L1221-25 et L1221-26 Code travail) : 24h à 1 mois selon ancienneté.",
+        "fondement_legal": "**Code du travail** — articles **L1221-19 à L1221-26** (période d'essai), notamment **L1221-25** (délai de prévenance employeur) et **L1221-26** (délai de prévenance salarié). **Loi n° 2008-596 du 25 juin 2008** (modernisation marché du travail).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 4** : période d'essai. Durées CCN inférieures aux maximums légaux (Loi 2008-596 prévoit 2 mois employés / 3 mois agents maîtrise / 4 mois cadres). Le principe de faveur s'applique.\n\n**Chapitre XI article 3** (cadres groupes 6-8) : dispositions spécifiques (durée et renouvellement explicites au contrat).",
+        "application": "**Durées CCN ELISFA** :\n\n| Catégorie | Période initiale | Renouvellement | Total max |\n|-----------|------------------|----------------|-----------|\n| Employés | 1 mois | 1 fois 1 mois | 2 mois |\n| Techniciens / Agents maîtrise | 2 mois | 1 fois 2 mois | 4 mois |\n| Cadres (groupes 6-8) | 3 mois | 1 fois 3 mois | 6 mois |\n\n**Conditions de validité** :\n- Mention **explicite** au contrat (durée + possibilité de renouvellement)\n- **Lettre d'engagement** précisant l'intention d'utiliser la période d'essai\n- **Renouvellement** : accord écrit du salarié AVANT expiration de la période initiale\n\n**Délai de prévenance pour rupture pendant l'essai** :\n\n| Présence dans l'entreprise | Préavis employeur | Préavis salarié |\n|----------------------------|-------------------|-----------------|\n| < 8 jours | 24 heures | 24 heures |\n| 8 jours à 1 mois | 48 heures | 48 heures |\n| 1 à 3 mois | 2 semaines | 48 heures |\n| > 3 mois | 1 mois | 48 heures |\n\n**Suspension** : période d'essai prolongée en cas d'absence (maladie, congés payés, RTT, formation > 3 jours).",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Renouvellement implicite** : non valide → essai considéré non-renouvelé, fin à terme initial\n- **Prévenance non respectée** : indemnité au salarié = montant des salaires correspondant au préavis\n- **Rupture abusive** pendant l'essai (motif discriminatoire, situation grossesse, etc.) : nullité possible, dommages-intérêts\n- **Absence longue** (maladie > 1 mois) : prolongation de la durée non automatique → écrire la prolongation\n- **CDD avec période d'essai** : durée maximale différente (1 jour par semaine, max 2 sem si CDD < 6 mois, max 1 mois si > 6 mois — Code du travail L1242-10)\n- **Cadres groupes 6-8** : si convention de forfait jours, prendre en compte le calendrier annuel pour évaluer l'essai (Chap XI art 7)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 4 + Chapitre XI article 3",
+          "Code du travail — articles L1221-19 à L1221-26",
+          "Loi n° 2008-596 du 25 juin 2008",
+          "Cour de cassation — jurisprudence rupture abusive période d'essai"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail L1221-19 (période d'essai)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019071082/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Période d'essai",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F31137",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN ELISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour rupture en cours d'essai d'une salariée enceinte ou d'un salarié protégé (CSE, syndical) : consultation pôle juridique obligatoire — risque nullité.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 4"
+      }
+    },
+
+    {
+      "id": "rh-15",
+      "_theme_target": "discipline_sanctions",
+      "question_type": "Quelle procédure disciplinaire et échelle des sanctions appliquer à un salarié dans la branche ALISFA ?",
+      "mots_cles": [
+        "discipline", "sanction disciplinaire",
+        "avertissement", "blâme", "mise à pied",
+        "rétrogradation", "licenciement disciplinaire",
+        "entretien préalable", "lettre de notification",
+        "Chapitre III article 5 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La procédure disciplinaire dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 5** complétée par le **Code du travail (L1331-1 à L1334-1)**. **Échelle légale** : (1) **avertissement** ou observation, (2) **blâme** ou mise à pied disciplinaire (≤ 8 jours sans solde), (3) **mutation/rétrogradation** (avec accord salarié), (4) **licenciement disciplinaire** pour faute simple/grave/lourde. **Procédure obligatoire** dès le 1er degré : lettre/échange écrit, sauf entretien préalable systématique pour mise à pied >1j, mutation, rétrogradation, licenciement (article L1232-2). **Délai de prescription** : 2 mois (après connaissance des faits par l'employeur).",
+        "fondement_legal": "**Code du travail** — articles **L1331-1 à L1334-1** (sanctions disciplinaires), **L1332-1 à L1332-5** (procédure disciplinaire), **L1232-2 à L1232-6** (entretien préalable), **L1234-1** (préavis licenciement), **L1331-2** (proportionnalité de la sanction). **Article L8112-1 et suivants** (inspection du travail).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 5** : conditions générales de discipline. Le règlement intérieur (≥ 50 salariés) précise les règles disciplinaires applicables. Pour les structures ALISFA < 50 salariés, l'échelle des sanctions doit être prévue dans le contrat ou par usage.",
+        "application": "**Procédure disciplinaire pas-à-pas** :\n\n**ÉTAPE 1 — Constat des faits** :\n- Documenter précisément (date, lieu, témoins, preuves)\n- Vérifier la **règle violée** (RI, contrat, CCN, code du travail)\n- Évaluer la **proportionnalité** : la sanction doit être adaptée à la gravité\n\n**ÉTAPE 2 — Convocation à entretien préalable** (obligatoire pour sanction grave) :\n- Lettre RAR ou remise main propre contre décharge\n- Délai **5 jours ouvrables minimum** entre convocation et entretien\n- Mention : possibilité d'être assisté (un autre salarié de l'entreprise OU conseiller du salarié si pas de représentants)\n\n**ÉTAPE 3 — Entretien préalable** :\n- Présentation des faits reprochés\n- Écoute du salarié + ses arguments\n- Pas de décision en séance (sauf décision écartée)\n\n**ÉTAPE 4 — Notification de la sanction** :\n- **Délai** : minimum 2 jours ouvrables après l'entretien, maximum **1 mois**\n- **Forme** : lettre recommandée AR ou remise main propre contre décharge\n- **Contenu** : motifs précis, sanction prononcée, date d'effet\n\n**Échelle des sanctions ALISFA** (du moins au plus grave) :\n\n| Sanction | Durée | Effet | Procédure |\n|----------|-------|-------|-----------|\n| Avertissement / observation | — | Mention dossier | Écrit suffit |\n| Blâme | — | Mention dossier (souvent 1 an) | Écrit suffit |\n| Mise à pied disciplinaire | ≤ 8 jours | Suspension salaire | Entretien préalable |\n| Mutation / rétrogradation | — | Modification contrat | Entretien + accord salarié |\n| Licenciement faute simple | Préavis dû | Rupture contrat | Entretien + lettre |\n| Licenciement faute grave | Pas de préavis ni indemnité | Rupture contrat immédiate | Entretien + lettre + libération immédiate |\n| Licenciement faute lourde | Pas de préavis, indemnité, congés payés | Rupture immédiate + dommages-intérêts | Entretien + lettre + saisie possible |\n\n**Délai de prescription** : 2 mois après que l'employeur a eu connaissance des faits (L1332-4) — passé ce délai, plus de sanction possible.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Faits non datés** : prescription difficile à apprécier → toujours documenter daté\n- **Sanction disproportionnée** : nullité par prud'hommes (ex. licenciement pour 1 retard sans avertissement préalable)\n- **Double sanction** pour les mêmes faits : interdit (article L1331-1)\n- **Fait fautif intervenu hors travail** : sanctionnable seulement si rattachable à la vie professionnelle (vol, atteinte à l'image)\n- **Sanction pendant arrêt maladie / congé maternité** : nullité possible si lien avec ces situations\n- **Faute grave** : nécessite cessation immédiate du contrat — convoquer entretien préalable rapidement (sinon perte de droit)\n- **EAJE/ACM** : sanction d'un salarié en contact direct avec mineurs requiert vigilance accrue (saisine PMI/CRIP si lien avec maltraitance)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 5",
+          "Code du travail — articles L1331-1 à L1334-1",
+          "Code du travail — articles L1332-1 à L1332-5 (procédure)",
+          "Code du travail — articles L1232-2 à L1232-6 (entretien préalable)",
+          "Cour de cassation — jurisprudence proportionnalité sanction"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Sanctions disciplinaires L1331",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177902/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Sanctions disciplinaires",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2814",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Procédure disciplinaire",
+            "url": "https://travail-emploi.gouv.fr/droit-du-travail/sanction-discipline-et-contentieux/article/sanctions-disciplinaires",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "Procédure disciplinaire à risque prud'homal élevé. Pour faute grave/lourde ou licenciement disciplinaire, consultation avocat droit social fortement recommandée AVANT notification.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 5 + Code travail L1331"
+      }
+    },
+
+    {
+      "id": "rh-16",
+      "_theme_target": "absences_rupture",
+      "question_type": "Comment gérer les absences d'un salarié dans la branche ALISFA (maladie, congés, autorisée, injustifiée) ?",
+      "mots_cles": [
+        "absence salarié", "arrêt maladie",
+        "absence injustifiée", "absence autorisée",
+        "déclaration arrêt", "subrogation",
+        "abandon de poste", "présomption démission",
+        "Chapitre III article 6 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La gestion des absences dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 6** + Code du travail. **4 catégories** : (1) **absence pour maladie/accident** (justification 48h, IJSS + complément CCN), (2) **absences autorisées** (congés payés, RTT, événements familiaux Chap VI art 4, formation), (3) **absences exceptionnelles** (autorisation préalable employeur), (4) **absence injustifiée** (faute pouvant entraîner sanction, voire abandon de poste = présomption démission depuis Loi marché travail 2022).",
+        "fondement_legal": "**Code du travail** — articles **L1226-1 à L1226-5** (suspension contrat maladie), **L3142-1 à L3142-19** (congés et absences spécifiques), **L1237-1-1** (présomption démission après abandon de poste depuis 2023). **Loi n° 2022-1598 du 21 décembre 2022** (marché du travail) — création présomption démission abandon de poste.",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 6** : absences. **Chapitre VI article 4** : congés familiaux et exceptionnels (mariage, PACS, naissance, décès, etc.). **Chapitre IX** : maladie — complément salaire en cas d'arrêt avec ancienneté ≥ 1 an.",
+        "application": "**A. Absence pour maladie ou accident** :\n- **Délai de justification** : 48 heures (envoi arrêt à l'employeur + transmission CPAM)\n- **IJSS** : versées par CPAM après délai de carence 3 jours (sauf reprise dans 48h)\n- **Maintien de salaire CCN** (Chap IX) : si ≥ 1 an ancienneté, complément salaire pendant durée fixée par CCN\n- **Subrogation** : possible si employeur paie le salaire complet et reçoit IJSS directement\n- **Visite de reprise** obligatoire si arrêt > 30 jours (R4624-29 CT)\n\n**B. Absences autorisées par la CCN** (Chap VI art 4) — exemples pour la branche ALISFA :\n- **Mariage / PACS** salarié : 5 jours\n- **Mariage** d'un enfant : 1 jour\n- **Naissance / adoption** d'un enfant : 3 jours\n- **Décès** conjoint/PACS : 3 jours\n- **Décès** enfant : 5 jours (loi 2020-692 du 8 juin 2020)\n- **Décès** père/mère/frère/sœur : 3 jours\n- **Annonce handicap enfant** : 2 jours\n- **Garde enfant malade** (loi) : 3-5 jours/an\n- **Examens prénataux** (femme enceinte) : autorisation droit\n\n**C. Absences exceptionnelles (autorisation employeur)** :\n- Démarches administratives, formation hors plan, événements particuliers\n- Demande **écrite préalable** + accord employeur\n- Peut être imputée sur RTT, congés ou sans solde\n\n**D. Absence injustifiée** :\n- **Première étape** : mise en demeure de justifier (LRAR) — délai raisonnable (15 jours)\n- **Si pas de réponse** : sanction disciplinaire possible OU **présomption démission** (article L1237-1-1, depuis 2023)\n- **Procédure abandon de poste** :\n  1. LRAR demandant justification + reprise dans X jours (15 jours min)\n  2. Si silence → présomption de démission (sauf motif légitime : santé, sécurité, salaires impayés, refus de poste de droit)\n  3. Salarié peut saisir prud'hommes pour contester (procédure accélérée)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Maladie pendant période d'essai** : prolonge l'essai du nombre de jours d'absence\n- **Salarié protégé (CSE, syndical)** : sanction pour absence requiert autorisation inspection du travail\n- **Présomption démission abandon de poste** : suit une procédure stricte (Loi 2022-1598) — un seul écart annule la présomption\n- **Maintien de salaire CCN Chap IX** : ne se substitue PAS aux IJSS — il les complète\n- **Visite reprise** : OBLIGATOIRE après 30 jours d'arrêt — sans elle, le salarié ne peut pas reprendre légalement\n- **Pour rupture après absence** : motif réel et sérieux requis ; risque de discrimination liée à l'état de santé (article L1132-1)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 6 + Chapitre VI article 4 + Chapitre IX",
+          "Code du travail — L1226-1 à L1226-5, L3142-1 à L3142-19, L1237-1-1",
+          "Loi n° 2022-1598 du 21 décembre 2022 (présomption démission)",
+          "Loi n° 2020-692 du 8 juin 2020 (congé décès enfant)"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Maladie d'un salarié",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F3053",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Congés exceptionnels pour événements familiaux",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2330",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2022-1598 (présomption démission)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000046770482/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Ameli — Indemnités journalières maladie",
+            "url": "https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/indemnites-journalieres",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour absences répétées injustifiées ou abandon de poste, suivre rigoureusement la procédure L1237-1-1. Risque prud'homal en cas d'erreur procédure.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 6 + Chapitre VI article 4"
+      }
+    },
+
+    {
+      "id": "rh-17",
+      "_theme_target": "absences_rupture",
+      "question_type": "Quelle est la durée du préavis (délai-congé) en cas de rupture du contrat de travail dans la branche ALISFA ?",
+      "mots_cles": [
+        "préavis", "délai-congé",
+        "préavis licenciement", "préavis démission",
+        "ancienneté préavis",
+        "préavis cadre", "préavis non-cadre",
+        "Chapitre III article 7 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le préavis (ou délai-congé) dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 7** : **1 mois pour les non-cadres avec moins de 2 ans d'ancienneté**, **2 mois pour 2 ans et plus**. Pour les **cadres groupes 6, 7, 8** (Chap XI art 4) : **3 mois quel que soit l'ancienneté**. Préavis dû par les **deux parties** (employeur en cas de licenciement, salarié en cas de démission), sauf : faute grave/lourde, dispense, période d'essai, force majeure. Préavis **rémunéré** au tarif normal et travaillé (sauf dispense employeur = préavis rémunéré non travaillé).",
+        "fondement_legal": "**Code du travail** — articles **L1234-1 à L1234-9** (préavis, indemnité), **L1234-3** (durée minimum 1 mois après 6 mois d'ancienneté). Le principe de faveur s'applique : la CCN ELISFA fixe des durées plus longues que le minimum légal.",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 7** : rupture du contrat de travail — délai congé. Tableau des durées par catégorie et ancienneté.\n\n**Chapitre XI article 4** : rupture du contrat de travail des cadres (groupes 6-8). Durée préavis spécifique.",
+        "application": "**Durées de préavis ALISFA — démission OU licenciement** :\n\n| Catégorie | Ancienneté | Préavis CCN |\n|-----------|------------|-------------|\n| **Non-cadres** (employés, techniciens, agents maîtrise) | < 2 ans | **1 mois** |\n| **Non-cadres** | ≥ 2 ans | **2 mois** |\n| **Cadres** (groupes 6, 7, 8) | toute ancienneté | **3 mois** |\n\n**Règles de décompte** :\n- Le préavis démarre **le jour de la première présentation** de la lettre LRAR (licenciement) ou de la remise en main propre (démission)\n- Compté en **jours calendaires**\n- **Maladie pendant le préavis** : suspend le préavis ET ne prolonge pas la fin du contrat (Cour de cassation jurisprudence constante)\n- **Congés payés** : prennent en compte la fin du préavis dans le calcul\n\n**Modalités spéciales** :\n- **Dispense de préavis** : à l'initiative employeur ou salarié, par accord écrit. Si employeur dispense, préavis rémunéré non travaillé.\n- **Faute grave / lourde** : pas de préavis ni rémunération de préavis (article L1234-1 CT)\n- **Force majeure** : dispense automatique de préavis\n- **Inaptitude médicale** : pas de préavis dû (article L1226-4 CT — sauf indemnité compensatrice si AT/MP, doublée)\n- **Rupture conventionnelle** : pas de préavis légal (date de rupture fixée par les parties)\n\n**Exemples concrets ALISFA** :\n- **Employé d'accueil**, 1 an d'ancienneté, démission : **1 mois** de préavis\n- **EJE**, 5 ans d'ancienneté, licenciement non-disciplinaire : **2 mois** de préavis (employeur)\n- **Directeur EAJE** (cadre groupe 7), 8 ans, démission : **3 mois** de préavis\n- **Animateur**, 6 mois d'ancienneté, période d'essai : pas de préavis CCN mais délai de prévenance L1221-25 (cf. article connexe `rh-14`)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Préavis non payé** alors que le salarié n'a pas commis de faute grave : indemnité compensatrice de préavis (égale au montant des salaires correspondants)\n- **Préavis et congés payés** : impossibilité d'exiger les CP pendant le préavis (sauf accord du salarié)\n- **Démission avec préavis abusivement raccourci** : risque dommages-intérêts pour l'employeur\n- **Cadres** (groupes 6-8) : 3 mois est ferme — vérifier l'inscription au contrat\n- **Conversion ancienneté** : le passage à 2 ans pendant le préavis NE prolonge PAS la durée (date de référence = date de notification)\n- **Force majeure** ALISFA (rare) : sinistre, fermeture administrative — bien documenter",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 7",
+          "CCN ELISFA — Chapitre XI article 4 (cadres groupes 6-8)",
+          "Code du travail — articles L1234-1 à L1234-9",
+          "Cour de cassation — jurisprudence préavis et arrêt maladie"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail L1234 (préavis)",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177921/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Préavis de licenciement",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2884",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Préavis de démission",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F18811",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre III",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 7 + Chap XI article 4"
+      }
+    },
+
+    {
+      "id": "rh-18",
+      "_theme_target": "absences_rupture",
+      "question_type": "Comment calculer l'indemnité de licenciement dans la branche ALISFA ?",
+      "mots_cles": [
+        "indemnité de licenciement",
+        "calcul indemnité", "ancienneté",
+        "licenciement non-cadre", "licenciement cadre",
+        "indemnité conventionnelle", "indemnité légale",
+        "Chapitre III article 8 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "L'indemnité de licenciement dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 8** + minimum légal **R1234-2**. **Indemnité légale** : **1/4 mois de salaire par année** pour les 10 premières années + **1/3 mois** au-delà (depuis 2017). **Indemnité conventionnelle ALISFA** : peut être plus favorable selon ancienneté (à vérifier dans la CCN). **Conditions** : licenciement non-disciplinaire ou pour cause réelle et sérieuse (pas faute grave/lourde) + ancienneté minimum 8 mois consécutifs (article L1234-9). Pour **cadres groupes 6-8** : Chapitre XI article 5 — barème spécifique souvent plus favorable.",
+        "fondement_legal": "**Code du travail** — article **L1234-9** (droit à l'indemnité après 8 mois d'ancienneté), **R1234-2** (calcul indemnité légale), **L1234-1** (cas d'exclusion : faute grave/lourde). **Décret n° 2017-1398 du 25 septembre 2017** (relèvement de l'indemnité minimale).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 8** : indemnité de licenciement. Le barème CCN s'applique si plus favorable que le minimum légal. **Chapitre XI article 5** : indemnités de licenciement spécifiques aux cadres groupes 6, 7, 8.",
+        "application": "**Calcul indemnité légale (article R1234-2)** :\n\n```\nIndemnité = (1/4 × salaire de référence × années_ancienneté ≤ 10)\n         + (1/3 × salaire de référence × années_ancienneté > 10)\n```\n\n**Salaire de référence** : moyenne des **12 OU 3 derniers mois** de salaire brut (le plus favorable au salarié).\n\n**Exemples ALISFA** :\n\n**Exemple 1 — Animateur, 5 ans, salaire moyen 1 900 €** :\n- Indemnité = 5 × (1/4 × 1 900) = **2 375 €**\n\n**Exemple 2 — EJE, 12 ans, salaire moyen 2 200 €** :\n- 10 premières années : 10 × (1/4 × 2 200) = 5 500 €\n- 2 années supplémentaires : 2 × (1/3 × 2 200) = 1 467 €\n- Indemnité totale = **6 967 €**\n\n**Exemple 3 — Directeur EAJE (cadre groupe 7), 8 ans, salaire 3 500 €** :\n- Légal : 8 × (1/4 × 3 500) = 7 000 €\n- CCN cadres (Chap XI art 5) : peut être plus favorable, vérifier\n\n**Cas particuliers** :\n- **AT/MP** (accident travail / maladie professionnelle) : indemnité **DOUBLÉE** (article L1226-14 CT)\n- **Inaptitude origine non professionnelle** : indemnité légale ou conventionnelle (selon le plus favorable)\n- **Inaptitude origine professionnelle** : indemnité doublée + indemnité compensatrice de préavis (même si non effectué)\n- **Licenciement économique** : possibilité indemnité supérieure (PSE pour ≥ 10 salariés sur 30 jours)\n- **Rupture conventionnelle** : indemnité au moins égale à l'indemnité légale\n\n**Cas d'exclusion** :\n- **Faute grave** : aucune indemnité\n- **Faute lourde** : aucune indemnité + dommages-intérêts possibles\n- **Ancienneté < 8 mois consécutifs** : pas de droit à indemnité légale (sauf si CCN plus favorable)\n- **CDD** : pas d'indemnité de licenciement, mais **indemnité de fin de contrat 10%** (sauf cas spécifiques)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Indemnité conventionnelle CCN ALISFA** : à vérifier précisément dans la CCN — le calcul peut différer (forfait, ancienneté plafonnée, etc.)\n- **AT/MP** : doublement systématique, à ne pas oublier — coût significatif\n- **Erreur de calcul** : risque de rappel aux prud'hommes (intérêts de retard)\n- **Période de préavis** : compte ou non dans l'ancienneté ? Selon CCN ALISFA, OUI (jusqu'à la date de fin réelle du contrat)\n- **Salaire de référence** : prendre en compte les primes (13e mois, intéressement) si versées régulièrement\n- **Versement** : à la sortie effective du salarié (= solde de tout compte)\n- **Fiscalité** : indemnité légale exonérée d'impôt et de cotisations sociales (sous plafond)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 8 + Chap XI article 5",
+          "Code du travail — articles L1234-9, R1234-2, L1234-1",
+          "Décret n° 2017-1398 du 25 septembre 2017",
+          "Code du travail — article L1226-14 (doublement AT/MP)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail R1234-2 (calcul indemnité)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035644154/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Indemnité de licenciement",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F987",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Calculateur en ligne indemnité licenciement",
+            "url": "https://code.travail.gouv.fr/outils/indemnite-licenciement",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN ELISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour calculer précisément l'indemnité conventionnelle ALISFA (peut différer du légal), consulter le pôle juridique ELISFA ou utiliser le calculateur Service Public.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 8 + R1234-2"
+      }
+    },
+
+    {
+      "id": "rh-19",
+      "_theme_target": "absences_rupture",
+      "question_type": "Quelle procédure de licenciement pour motif économique dans la branche ALISFA ?",
+      "mots_cles": [
+        "licenciement économique",
+        "motif économique", "PSE",
+        "consultation CSE", "obligation de reclassement",
+        "ordre des licenciements", "critères",
+        "Chapitre III article 9 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le licenciement pour motif économique dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 9** + Code du travail (L1233-1 à L1233-69). **Motifs admis** (article L1233-3) : (1) **difficultés économiques**, (2) **mutations technologiques**, (3) **réorganisation pour sauvegarde compétitivité**, (4) **cessation d'activité**. **Procédure** : consultation **CSE** obligatoire (≥ 11 salariés), recherche de **reclassement** sérieuse, respect de l'**ordre des licenciements** (critères objectifs), notification au salarié + **DREETS si licenciement collectif**. Pour licenciement collectif **≥ 10 salariés sur 30 jours** : **PSE** (Plan de Sauvegarde de l'Emploi) obligatoire.",
+        "fondement_legal": "**Code du travail** — articles **L1233-1 à L1233-69** (licenciement économique), notamment **L1233-3** (motifs), **L1233-4** (reclassement), **L1233-5** (ordre des licenciements), **L1233-8** (consultation CSE individuel), **L1233-30 et suiv.** (collectif), **L1233-61 à L1233-69** (PSE).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 9** : licenciement pour motif économique. Pour les structures ALISFA, ce type de licenciement est rare (financements publics) mais peut survenir lors de :\n- Perte d'un agrément (CAF, PMI)\n- Restructuration (fusion d'associations, fermeture site)\n- Réorganisation suite à baisse durable des financements",
+        "application": "**Procédure pas-à-pas** :\n\n**ÉTAPE 1 — Évaluation du motif économique** :\nVérifier le motif (article L1233-3) : difficultés économiques (CA, EBE, trésorerie), mutations technologiques (ex: numérisation), réorganisation pour sauvegarde compétitivité, cessation d'activité.\n\n**ÉTAPE 2 — Recherche de reclassement** (obligation de moyens, article L1233-4) :\n- **Postes disponibles** dans l'entreprise et le groupe\n- **Adaptation** : aménagement du poste, formation\n- **Documenter** : registre des recherches, échanges écrits\n\n**ÉTAPE 3 — Détermination ordre des licenciements** (article L1233-5) :\nCritères obligatoires (à pondérer) :\n- Charges de famille (parents isolés en priorité de maintien)\n- Ancienneté\n- Situation rendant la réinsertion difficile (handicap, séniorité)\n- Qualités professionnelles\n\n**ÉTAPE 4 — Consultation CSE** (≥ 11 salariés) :\n- Information du CSE sur le projet\n- Réunion(s) consultative(s)\n- Avis du CSE (consultatif, non bloquant)\n- Procès-verbal\n\n**ÉTAPE 5 — Procédure individuelle** (chaque salarié visé) :\n- **Convocation à entretien préalable** (LRAR)\n- **Entretien** : présentation motif + reclassement + critères\n- **Lettre de licenciement** : motif détaillé, droits salarié, contrat de sécurisation professionnelle (CSP)\n\n**ÉTAPE 6 — Notification DREETS** (si licenciement collectif) :\n- Information ≥ 10 salariés sur 30 jours\n- Délai 8 jours après les entretiens\n\n**ÉTAPE 7 — PSE obligatoire si ≥ 10 salariés sur 30 jours dans entreprise ≥ 50 salariés** :\n- Plan détaillé : reclassement, indemnités, mesures d'accompagnement\n- Validation DREETS ou homologation\n- Délai 4-6 mois selon procédure\n\n**Indemnités** :\n- Indemnité de licenciement (cf. article connexe `rh-18`) — souvent majorée en cas de PSE\n- **Contrat de Sécurisation Professionnelle (CSP)** (entreprises < 1 000 sal.) : remplacement préavis, formation, indemnité 75% salaire pendant 12 mois\n- **Congé reclassement** (entreprises ≥ 1 000 sal.) : 4-12 mois\n\n**Cas typiques en ALISFA** :\n- **Perte d'agrément CAF** (centre social non renouvelé) : restructuration possible\n- **Fermeture EAJE** suite à décision PMI : réorganisation\n- **Baisse subvention** durable (≥ 30% sur 2 ans) : justification difficultés économiques\n- **Fusion d'associations** : restructuration emplois doublons",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Reclassement non sérieux** : licenciement requalifié en sans cause réelle et sérieuse — indemnités majorées (6+ mois salaire min L1235-3)\n- **Critères ordre licenciement** : doivent être appliqués objectivement et tracés\n- **Consultation CSE absente** ou tardive : nullité possible\n- **Sortie du périmètre PSE** par découpage artificiel (ex: licencier 9 sur 30j puis 3 le mois suivant) : risque détecté → rappel à PSE\n- **Salariés protégés** (CSE, syndical) : autorisation inspection du travail OBLIGATOIRE\n- **Prud'hommes** : 12 mois pour saisir (depuis notification)\n- **Petites associations ALISFA** (< 11 sal.) : procédure allégée mais critères respectés",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 9",
+          "Code du travail — articles L1233-1 à L1233-69",
+          "Code du travail — articles L1233-61 à L1233-69 (PSE)",
+          "Loi Travail 2017 + ordonnances Macron (réformes)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Licenciement économique L1233",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177900/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Travail-Emploi — Licenciement pour motif économique",
+            "url": "https://travail-emploi.gouv.fr/droit-du-travail/la-rupture-du-contrat-de-travail/article/le-licenciement-pour-motif-economique",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Plan de sauvegarde de l'emploi (PSE)",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F1980",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN ELISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": "Procédure très encadrée et risquée. Pour licenciement économique, accompagnement obligatoire par avocat droit social ou juriste ELISFA. Pour collectif ≥ 10 salariés : DREETS et PSE.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 9 + Code travail L1233"
+      }
+    },
+
+    {
+      "id": "rh-20",
+      "_theme_target": "contrats_specifiques",
+      "question_type": "Quels sont les motifs de recours et règles du Contrat à Durée Déterminée (CDD) dans la branche ALISFA ?",
+      "mots_cles": [
+        "CDD", "contrat à durée déterminée",
+        "motif recours CDD", "remplacement",
+        "surcroît activité", "saisonnier",
+        "indemnité fin contrat", "renouvellement CDD",
+        "Chapitre III article 10 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le CDD dans la branche ALISFA suit la **CCN ELISFA Chapitre III article 10** + Code du travail (L1241-1 à L1248-11). **6 motifs de recours autorisés** : (1) **remplacement** d'un salarié absent, (2) **accroissement temporaire d'activité**, (3) **emploi saisonnier**, (4) **CDD d'usage** (selon liste secteurs), (5) **CDD à objet défini** (cadres, max 36 mois), (6) **publics prioritaires** (jeunes, seniors). **Forme** : contrat **écrit obligatoire**, signé dans les 2 jours ouvrables. **Indemnité fin de contrat** : **10% du brut total** (sauf certains cas). Durée maximale standard : **18 mois** (renouvellement compris).",
+        "fondement_legal": "**Code du travail** — articles **L1241-1 à L1248-11** (CDD), notamment **L1242-2** (motifs de recours), **L1242-7** (durée), **L1242-8** (renouvellement), **L1242-12** (forme écrite), **L1243-8** (indemnité fin de contrat), **L1244-3** (délai de carence entre 2 CDD).",
+        "fondement_ccn": "**CCN ELISFA Chapitre III article 10** : contrat à durée déterminée. Adaptations possibles selon les secteurs ALISFA (animation saisonnière dans les ACM, remplacement maternité fréquent en EAJE).",
+        "application": "**Motifs de recours et durées** :\n\n**1. Remplacement d'un salarié absent** :\n- Absence : maladie, maternité, congé parental, congé sans solde, départ en attente d'arrivée d'un nouveau salarié\n- **Mention obligatoire** : nom + qualification du salarié remplacé\n- **Durée** : terme imprécis (jusqu'au retour) OU terme précis ≤ 18 mois\n\n**2. Accroissement temporaire d'activité** :\n- Surcroît exceptionnel et limité dans le temps (ex: campagne d'inscriptions ALSH, projet ponctuel)\n- **Durée max 18 mois** (renouvellement compris)\n- **Pas de remplacement** d'un emploi permanent\n\n**3. Emploi saisonnier** :\n- Travaux liés à un cycle qui se répète chaque année (ALSH d'été, séjour vacances)\n- Pas d'indemnité de fin de contrat (article L1243-10)\n- Possibilité de **clause de reconduction** d'une saison à l'autre\n\n**4. CDD d'usage** :\n- Liste de secteurs où l'usage du CDD est constant (ALISFA peu concerné, sauf interventions ponctuelles)\n- **Durée libre**, pas d'indemnité de fin de contrat\n\n**5. CDD à objet défini** :\n- Pour cadres et ingénieurs (groupes 6-8 ALISFA)\n- **Durée 18-36 mois**\n- Pour réalisation d'une mission précise\n- Indemnité fin contrat 10%\n\n**6. CDD pour publics prioritaires** :\n- Jeunes (< 26 ans), seniors (≥ 50 ans), demandeurs d'emploi de longue durée, RSA\n- Lié à des dispositifs (PEC, alternance, contrat sénior)\n\n**Renouvellement CDD** :\n- **Maximum 2 renouvellements** (3 contrats successifs avec même salarié sur même poste)\n- **Durée totale ≤ 18 mois** (CDD standard)\n- **Mentions** : avenant écrit, motif identique\n\n**Délai de carence entre 2 CDD sur même poste** (article L1244-3) :\n- 1/3 de la durée du précédent CDD si durée ≤ 14 jours\n- 1/2 de la durée si > 14 jours\n- Sauf : accord d'entreprise dérogatoire, certains motifs (saisonnier, remplacement, etc.)\n\n**Indemnité de fin de contrat** :\n- **10% du salaire brut total** versé pendant le CDD\n- **Versée à terme** (= solde de tout compte)\n- **Exclusions** :\n  - CDD saisonnier (sauf accord plus favorable)\n  - CDD d'usage\n  - CDD étudiant pendant les vacances scolaires\n  - CDD aidé / contrat pro / apprentissage\n  - CDD requalifiés en CDI\n  - **Refus de proposition CDI** par le salarié à terme du CDD\n\n**Risque de requalification en CDI** :\n- Mention motif absente ou inexacte\n- Renouvellement abusif (> 2 fois ou > 18 mois)\n- Délai de carence non respecté\n- Cumul CDD sur poste permanent\n- **Sanction** : prud'hommes + indemnité 1+ mois salaire + dommages-intérêts",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Mention motif** : doit être PRÉCISE et VÉRIFIABLE (ex: « remplacement de Mme X, EJE, congé maternité du JJ/MM/AAAA au JJ/MM/AAAA »)\n- **Forme écrite** : à signer dans les 2 jours ouvrables — sinon présomption CDI\n- **Indemnité 10%** : oubli fréquent en gestion paie, vigilance bulletin de paie final\n- **Délai de carence** : à calculer rigoureusement (sanction = requalification CDI)\n- **CDD saisonnier ALSH** : durée ≤ 8 mois max + clause de reconduction pour la saison suivante\n- **EAJE remplacement maternité** : prévoir terme imprécis (jusqu'au retour effectif) — éviter le terme précis qui peut piéger\n- **Casier B2** obligatoire pour tout CDD en EAJE/ACM (article L131-2 CASF)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre III article 10",
+          "Code du travail — articles L1241-1 à L1248-11",
+          "Code du travail — articles L1242-2, L1242-12, L1243-8, L1244-3",
+          "Cour de cassation — jurisprudence requalification CDD"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail CDD L1241 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — CDD : règles à respecter",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F1726",
+            "type": "officiel"
+          },
+          {
+            "titre": "Travail-Emploi — Contrat à durée déterminée",
+            "url": "https://travail-emploi.gouv.fr/droit-du-travail/les-contrats-de-travail/article/le-contrat-de-travail-a-duree-determinee-cdd",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN ELISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Risque de requalification en CDI fréquent en ALISFA (saisonnier ALSH, remplacements EAJE). Vérifier rigoureusement motif + écrit + 10% + carence.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre III article 10 + Code travail L1241"
+      }
+    }
+
+  ]
+}

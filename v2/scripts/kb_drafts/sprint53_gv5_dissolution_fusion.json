@@ -1,0 +1,325 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 G-Vague5 — Dissolution, fusion, transformation, cessation activité (6 articles)",
+    "lot": "G5/G6",
+    "topic": "Dissolution association, liquidation, fusion, scission/transformation SCIC, cessation activité, reprise",
+    "generated_at": "2026-04-26",
+    "source_principale": "Loi 1901 articles 9 et 10, Décret 16 août 1901, ANCT, Avise, jurisprudence Cass.",
+    "theme_target": "gouvernance"
+  },
+
+  "articles": [
+
+    {
+      "id": "gv-37",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Comment dissoudre une association loi 1901 dans les règles ?",
+      "mots_cles": [
+        "dissolution association", "loi 1901 article 9",
+        "AGE dissolution", "liquidation",
+        "dévolution actif", "préfecture",
+        "boni de liquidation", "ALISFA"
+      ],
+      "reponse": {
+        "synthese": "La **dissolution** d'une association loi 1901 met fin à son existence juridique. **3 types** : **(1) volontaire** (vote AGE des membres — le plus fréquent), **(2) statutaire** (terme prévu, événement déclencheur), **(3) forcée** (dissolution judiciaire pour motif grave, ou administrative pour CER violé). Procédure : **AGE convoquée selon statuts** (souvent quorum + majorité renforcés ⅔), **désignation d'un liquidateur** (généralement le président), **liquidation** des dettes et créances, **dévolution de l'actif net** à une **autre association similaire** (jamais aux membres — interdit par loi 1901 article 9), **déclaration en préfecture** dans les 3 mois. Pour les associations ALISFA employeuses, la dissolution implique aussi **licenciements économiques** des salariés et des **conséquences fortes** pour les bénéficiaires.",
+        "fondement_legal": "**Loi du 1er juillet 1901** : article **9** (dissolution volontaire et dévolution actif). **Décret du 16 août 1901** : article **15** (modalités). **Code civil article 1844-7** : par analogie. **Code du travail** : articles **L1233-1 à L1233-91** (licenciement économique). **Loi 1986** + **circulaire 18 février 2002** : dévolution actif. **Loi 2021-1109 (CER)** : retrait CER possible avec dissolution conséquente.",
+        "fondement_ccn": "**Convention collective ALISFA** s'applique en **PSE** (Plan de Sauvegarde de l'Emploi) et licenciement économique. **Reprise des salariés** : si une autre association ALISFA reprend l'activité, **article L1224-1 Code du travail** s'applique automatiquement (transfert d'entreprise) → contrats salariés transférés sans rupture.",
+        "application": "**Procédure de dissolution étape par étape** :\n\n**1. Phase préparatoire (J-90 à J-30)**\n\n**A. Diagnostic et décision**\n- **Pourquoi dissoudre ?** Crise financière, mission accomplie, fusion projetée, fin d'objet, perte d'agréments\n- **Alternatives à étudier** :\n  - Mise en sommeil temporaire (\"sommeil associatif\")\n  - Fusion-absorption avec autre asso\n  - Reprise par fédération\n  - Transformation en SCIC (Société Coopérative d'Intérêt Collectif)\n- **Bilan préalable** : patrimoine, dettes, salariés, engagements en cours\n\n**B. Information des parties prenantes**\n- **Salariés et CSE** : information préalable obligatoire si licenciement éco envisagé (consultation CSE article L2312-39 Code travail)\n- **Financeurs** : mairie, CAF, département (relations contractuelles à dénouer)\n- **Bénéficiaires** : familles EAJE, jeunes ALSH, adhérents centres sociaux — communication préalable\n- **Préfecture** : information préalable possible mais pas obligatoire\n\n**C. Préparation de l'AGE**\n- **Convocation** selon statuts (15 jours min, souvent 21+)\n- **OJ unique** : dissolution + désignation liquidateur + dévolution actif\n- **Documents** : projet de résolution, bilan provisoire, plan de liquidation\n\n**2. Tenue de l'AGE de dissolution (Jour J)**\n\n**A. Vote de la dissolution**\n- **Quorum** selon statuts (souvent ½ ou ⅔ membres)\n- **Majorité** renforcée (souvent ⅔ ou ¾ des présents)\n- **Vote secret** recommandé pour cette décision lourde\n- **Si quorum non atteint** : seconde convocation 15 jours plus tard, parfois quorum réduit\n\n**B. Désignation d'un liquidateur**\n- Généralement le **président sortant** (ou un membre dévoué)\n- **Pouvoirs** : représenter l'association en liquidation, payer les dettes, recouvrer créances, vendre actifs, dévoler le solde\n- **Rémunération** possible (mission lourde) — voter en AGE\n- **Période liquidation** : 6-18 mois typiquement\n\n**C. Vote de la dévolution de l'actif net**\n- L'AGE doit désigner **l'attributaire** de l'actif net (après remboursement des dettes)\n- **Règle d'or loi 1901** : **JAMAIS** aux membres. Toujours à une **autre association** ayant un objet similaire (ou à une fondation, collectivité, organisme caritatif)\n- Si statuts silencieux : la préfecture désigne un attributaire\n- **Boni de liquidation** revenant aux membres = **interdit** + sanction fiscale\n\n**D. PV de l'AGE**\n- Signé par président de séance + secrétaire\n- Mentions : dissolution votée + résultat + désignation liquidateur + attributaire actif\n\n**3. Phase de liquidation (J+1 à J+18 mois)**\n\n**A. Recouvrement des créances**\n- Subventions à percevoir (faire valoir conventions en cours)\n- Cotisations dues\n- Créances clients\n- Trop-perçus à récupérer\n\n**B. Apurement du passif**\n- **Salariés** : licenciement économique ou démission négociée (préférer transaction si possible) + indemnités CCN\n- **URSSAF, impôts, TVA** : tous impayés à régler\n- **Fournisseurs** : factures en attente\n- **Loyers** : résiliation bail (préavis 6 mois souvent)\n- **Emprunts bancaires** : remboursement anticipé ou clauses spécifiques\n- **Engagements de mécénat** : restitution si conditionné à activité\n\n**C. Cession des actifs**\n- **Locaux** : vendre ou rendre au propriétaire\n- **Matériel** : vendre, donner, ou inclure dans la dévolution\n- **Stocks** : épuisés ou cédés\n- **Logiciels et licences** : transfert ou résiliation\n\n**D. Calcul de l'actif net final**\n- Bilan de clôture : actif - passif = actif net\n- Si **positif** : dévolution selon AGE\n- Si **négatif** (déficit) : la liquidation s'arrête sur boni nul ou demande de comblement (cf gv-38 sur insolvabilité)\n\n**4. Phase administrative (J + 18 mois)**\n\n**A. Déclaration de la dissolution en préfecture**\n- **Délai** : 3 mois après l'AGE (ou clôture liquidation)\n- **Pièces** : PV AGE de dissolution + (à terme) bilan de liquidation + attestation dévolution\n- **Plateforme** : Le Compte Asso ou formulaire CERFA 13972\n- **Effet** : radiation du RNA\n\n**B. Publication JOAFE (recommandée)**\n- Publication de la dissolution au Journal Officiel des Associations\n- Coût : ~50-100 €\n- Effet : opposabilité aux tiers (créanciers tardifs)\n\n**C. Clôture comptes bancaires**\n- Solde transféré à l'attributaire\n- Compte clôturé après opérations\n\n**D. Archivage**\n- **Documents à conserver** :\n  - Statuts originaux et modifications\n  - PV des AG (5 ans minimum)\n  - Bilans et comptes (10 ans — Code commerce)\n  - Contrats salariés (5 ans après fin)\n  - Documents fiscaux (10 ans)\n- **Lieu** : domicile d'un dirigeant ou archives départementales (don)\n- **RGPD** : durées de conservation à respecter\n\n**5. Cas particuliers**\n\n**A. Reprise par une autre association (gv-39 fusion)**\n- Si une autre asso ALISFA reprend l'activité : transfert L1224-1 Code travail (salariés transférés automatiquement)\n- Procédure de **fusion-absorption** plutôt que dissolution\n- Plus avantageux pour bénéficiaires (continuité)\n\n**B. Cessation d'activité partielle**\n- Une asso peut cesser une activité (ex. fermer l'EAJE) sans se dissoudre\n- Procédure plus simple : décision CA + bilan partiel + licenciements éco\n\n**C. Mise en sommeil**\n- Pas une dissolution — l'asso existe juridiquement mais sans activité ni salariés\n- Maintenir AG annuelle minimum + déclaration RNA\n- Réveil possible quand opportunité revient\n- **Inconvénient** : structure \"vide\" peut perdre agréments (CAF, JEP) après 3-5 ans d'inactivité\n\n**D. Dissolution judiciaire (article 9 alinéa 3 loi 1901)**\n- Demandée par tribunal pour : objet illicite, violation CER, troubles graves à l'ordre public\n- Prononcée par le **tribunal judiciaire**\n- Procédure différente, généralement contentieuse",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques majeurs :\n- **Boni de liquidation aux membres** : interdit + sanction fiscale (qualification de revenus distribués imposables) + risque pénal\n- **Salariés non payés** : responsabilité personnelle des dirigeants si association insolvable et non assurée RC mandataires (jurisprudence Cass. 2018)\n- **Dévolution sans attributaire désigné** : la préfecture désigne, perte de contrôle\n- **Préavis bail commercial** : 6 mois généralement, attention aux pénalités si non-respect\n- **AG mal organisée** : nullité de la dissolution → asso \"morte-vivante\" juridiquement\n- **Communication tardive aux familles** : impact lourd sur enfants/jeunes (recherche d'autre solution de garde, etc.)\n- **Transactions urgentes** : tentation de vendre vite à mauvais prix → mauvaise décision financière\n- **Salariés en arrêt maladie** lors dissolution : protégés (article L1226-1) — délicat\n- **Insolvabilité** : si le passif > actif, ne pas \"dissoudre tranquillement\" — engager une **procédure judiciaire collective** (sauvegarde, redressement, liquidation judiciaire) au tribunal\n- **DLA gratuit** : 2-5 jours d'accompagnement gratuits par an — solliciter pour sécuriser la dissolution\n- **Choc émotionnel équipe** : prévoir accompagnement psychologique salariés (DIRECCTE, médecine du travail)",
+        "sources": [
+          "Loi du 1er juillet 1901 — articles 9 et 10",
+          "Décret du 16 août 1901 — article 15",
+          "Code civil — article 1844-7 (par analogie)",
+          "Code du travail — articles L1233-1 à L1233-91, L1224-1",
+          "Loi 1986 + circulaire 18 février 2002 (dévolution)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi 1901 article 9 dissolution",
+            "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006420603/"
+          },
+          {
+            "titre": "Service-Public — Dissolution d'une association",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1124"
+          },
+          {
+            "titre": "Associations.gouv.fr — Dissoudre une association",
+            "url": "https://www.associations.gouv.fr/dissoudre.html"
+          },
+          {
+            "titre": "Avise — DLA Dispositif Local d'Accompagnement",
+            "url": "https://www.avise.org/ressources/le-dispositif-local-daccompagnement-dla"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 articles 9-10 + Code du travail L1233 + Service-Public 2024"
+      }
+    },
+
+    {
+      "id": "gv-38",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Comment gérer l'insolvabilité d'une association : sauvegarde, redressement, liquidation judiciaire ?",
+      "mots_cles": [
+        "insolvabilité", "cessation paiements",
+        "sauvegarde", "redressement judiciaire",
+        "liquidation judiciaire", "tribunal judiciaire",
+        "passif > actif", "ALISFA crise"
+      ],
+      "reponse": {
+        "synthese": "Quand une association ALISFA fait face à une **insolvabilité** (passif supérieur à l'actif disponible), elle relève **du droit des procédures collectives** comme une entreprise. **3 procédures** selon gravité : (1) **Sauvegarde** (article L620-1 Code commerce) — préventive, l'asso peut encore payer mais difficile ; (2) **Redressement judiciaire** (L631-1) — l'asso est en cessation des paiements (ne peut plus payer ses dettes exigibles avec son actif disponible), 6 mois pour redresser ; (3) **Liquidation judiciaire** (L640-1) — redressement impossible, fermeture définitive. **Saisine du tribunal judiciaire** par les dirigeants (\"déclaration de cessation des paiements\" ou DCP) **dans les 45 jours** de la cessation, sous peine de **responsabilité personnelle**. Procédure complexe nécessitant un **avocat spécialisé**.",
+        "fondement_legal": "**Code de commerce** : articles **L620-1 à L626-26** (sauvegarde), **L631-1 à L631-22** (redressement), **L640-1 à L644-6** (liquidation), **L631-4** (saisine 45 jours), **L651-1 à L656-3** (sanctions dirigeants). **Loi du 26 juillet 2005** : extension procédures collectives aux associations. **Code du travail** : articles **L1233-58 et suivants** (PSE, AGS pour salaires). **Code de procédure civile** : articles **R661-1 et suivants**.",
+        "fondement_ccn": "**Salariés couverts par l'AGS** (Régime de garantie des salaires) en cas de procédure collective : avances de salaires impayés, indemnités licenciement, congés payés. **CCN ELISFA** s'applique aux licenciements économiques — calcul indemnités selon ancienneté + classification.",
+        "application": "**Anticiper, déclarer, gérer une insolvabilité associative** :\n\n**1. Détection précoce des signaux**\n- **Trésorerie négative** depuis 3 mois\n- **Retards** systématiques de paiement (URSSAF, salaires, fournisseurs)\n- **Subventions** revues à la baisse ou annulées\n- **Bénéfice net négatif** sur 2 exercices\n- **Fonds associatifs** (équivalent capitaux propres) en chute\n→ **Signal d'alerte CAC** : si commissaire aux comptes détecte un risque, il déclenche la **procédure d'alerte** (article L612-3 Code commerce)\n\n**2. Mesures préventives (avant procédure judiciaire)**\n- **Mandat ad hoc** (gratuit ou à frais réduits) : un mandataire désigné par le président du tribunal pour aider à négocier avec créanciers — **discrétion totale** (pas public)\n- **Conciliation** : procédure courte (4 mois) avec conciliateur tribunal, négociation amiable avec créanciers, accord homologué\n- **Restructuration interne** : licenciements, gel hausses salaires, abandon d'activités déficitaires, recherche cofinancements\n- **DLA d'urgence** : Avise peut mobiliser jusqu'à 5 jours de consultance gratuite\n- **Étalement dettes** URSSAF/Trésor : possible avec négociation\n\n**3. Cessation des paiements : déclaration obligatoire (DCP)**\n\n**A. Définition légale (L631-1)**\n- L'association est en cessation des paiements lorsqu'elle ne peut plus régler ses **dettes exigibles** avec son **actif disponible**\n- **Test pratique** : trésorerie + créances à court terme - dettes exigibles à 30 jours = négatif → cessation\n\n**B. Délai pour déclarer**\n- **45 jours** maximum à compter de la cessation effective (article L631-4)\n- **Sanction si délai dépassé** : sanctions personnelles dirigeants (interdiction de gérer, faillite personnelle, comblement passif)\n- **Recommandation** : déclarer dès que la situation est avérée, sans attendre les 45 jours\n\n**C. Procédure de déclaration**\n- **Tribunal judiciaire** du siège (à compter du 1er janvier 2020, plus de tribunal de commerce pour associations)\n- **Pièces** :\n  - Dernier bilan + comptes\n  - Liste créanciers + montants + dates échéances\n  - Liste des salariés (effectif, classification)\n  - Comptes bancaires\n  - Inventaire actifs\n  - PV de l'AG ayant validé la déclaration (selon statuts)\n  - Représentation : dirigeants + avocat (souvent obligatoire en pratique)\n\n**4. Procédures judiciaires possibles**\n\n**A. Sauvegarde (L620-1)**\n- **Quand** : pas en cessation des paiements, mais difficultés insurmontables sans procédure\n- **Initiative** : dirigeants uniquement (pas créanciers, pas Procureur)\n- **Procédure** : période d'observation 6 mois (renouvelable 6 mois), gel des dettes antérieures, plan de sauvegarde voté par créanciers\n- **Avantages** : protection pendant 6-12 mois, négociation des dettes, dirigeants restent en place\n- **Inconvénients** : impact réputation\n\n**B. Redressement judiciaire (L631-1)**\n- **Quand** : cessation des paiements **MAIS** redressement possible\n- **Initiative** : dirigeants, créanciers, Procureur\n- **Procédure** : période d'observation 6 mois (renouvelable 6 mois max), plan de redressement OU plan de cession à un tiers\n- **Conséquences** :\n  - **Administrateur judiciaire** désigné (peut limiter les pouvoirs des dirigeants)\n  - **Mandataire judiciaire** : représente les créanciers\n  - **Gel des poursuites** sur dettes antérieures\n  - **Salaires impayés** garantis par l'**AGS** (Association pour la gestion du régime de garantie des créances des Salariés)\n- **Plan de redressement** : sur 10 ans max, échelonnement des dettes\n\n**C. Liquidation judiciaire (L640-1)**\n- **Quand** : cessation des paiements **ET** redressement impossible\n- **Initiative** : dirigeants, créanciers, Procureur, ou tribunal\n- **Procédure** :\n  - **Liquidateur judiciaire** désigné — réalise les actifs\n  - **Tous les contrats résolus** (sauf maintien décidé)\n  - **Salariés licenciés** dans les 15 jours (L1233-58)\n  - **AGS** prend en charge salaires et indemnités\n  - **Vente** des actifs aux enchères ou de gré à gré\n  - **Distribution** aux créanciers selon ordre des privilèges\n  - **Clôture** quand tout est vendu et distribué\n- **Effet** : association définitivement éteinte\n\n**5. Conséquences pour les dirigeants**\n\n**A. Responsabilité civile**\n- **Action en comblement de passif** (L651-1) : si le tribunal estime que la cessation des paiements a été aggravée par une faute de gestion (laisser dériver les comptes, retarder DCP), les dirigeants peuvent être condamnés à **payer personnellement** une partie du passif\n- **Conditions** : faute de gestion + lien causal avec aggravation passif\n\n**B. Sanctions personnelles**\n- **Interdiction de gérer** (L653-8) : 5-15 ans d'interdiction de diriger une association, société, ou structure ESS\n- **Faillite personnelle** (L653-2) : sanctions plus larges (interdictions civiques, exclusions ordre)\n- **Pénal** : si fraude, abus de biens sociaux, banqueroute (article L654-1)\n\n**C. Protection RC mandataires**\n- **Assurance RC mandataires sociaux** (souvent souscrite par fédérations) : couvre fautes non intentionnelles\n- **Ne couvre pas** : fraudes, fautes pénales\n- **Souscription recommandée** pour tous les administrateurs (~200-500 €/an pour CA de 10 personnes)\n\n**6. Spécificités ALISFA**\n- **Salariés CCN ELISFA** : indemnités de licenciement éco selon barème CCN — souvent supérieurs au légal\n- **AGS** : avances salaires + indemnités garanties (jusqu'à 88 800 € de 2024 par salarié)\n- **Reprise possible** : une autre asso peut reprendre l'activité (plan de cession) — fréquent dans les EAJE et centres sociaux\n- **Bénéficiaires** : enfants, familles, jeunes — choc important. Prévoir accompagnement transition\n- **Image FCSF/ACEPP** : protéger l'image du réseau (communication soignée)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges :\n- **Retard de DCP** (> 45 jours) : sanction quasi-systématique du tribunal contre les dirigeants. **Déclarer vite** dès que cessation avérée\n- **Tentative de \"sauvetage\" hors cadre** : payer un créancier prioritaire au détriment des autres = nullité possible (\"période suspecte\" = 18 mois avant DCP) + qualification de banqueroute\n- **Cession à prix bradé** : le liquidateur peut annuler une vente effectuée \"trop tôt\" (période suspecte)\n- **Dissimulation d'actifs** : faute pénale grave (abus de bien social) + interdiction de gérer\n- **Embauche de proches** : les contrats de travail conclus en période suspecte avec proches sont annulables\n- **Avocat indispensable** : procédures collectives = droit complexe, ne pas s'aventurer seul\n- **Médiation préventive** : utile à essayer avant de passer en procédure judiciaire (CCSF — Commission des Chefs de Services Financiers, médiation crédit)\n- **\"Fausse association vivante\"** : laisser dépérir sans dissoudre formellement = exposition prolongée à risques (responsabilité, fiscalité)\n- **Suite de la liquidation** : le liquidateur peut poursuivre certaines actions (recours en justice contre dirigeants) plusieurs années après la clôture",
+        "sources": [
+          "Code de commerce — Livre VI (articles L611-1 à L670-8)",
+          "Loi du 26 juillet 2005 (extension associations)",
+          "Code du travail — articles L1233-58 et suivants (AGS)",
+          "AGS — Régime de garantie des salaires",
+          "Banque de France — Médiation du crédit"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code de commerce Livre VI Procédures collectives",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006146183/"
+          },
+          {
+            "titre": "Service-Public — Cessation des paiements et procédure",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F22363"
+          },
+          {
+            "titre": "AGS — Régime garantie des salaires",
+            "url": "https://www.ags-garantie-salaires.org/"
+          },
+          {
+            "titre": "Banque de France — Médiation du crédit aux entreprises",
+            "url": "https://mediateur-credit.banque-france.fr/"
+          },
+          {
+            "titre": "Avise — Accompagnement DLA en difficulté",
+            "url": "https://www.avise.org/ressources"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Code commerce Livre VI + Loi 2005 + Code du travail L1233"
+      }
+    },
+
+    {
+      "id": "gv-39",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Comment fusionner deux associations ALISFA et organiser le transfert d'activité ?",
+      "mots_cles": [
+        "fusion association", "fusion-absorption",
+        "transfert activité", "L1224-1",
+        "TUP transfert universel patrimoine",
+        "loi 2014-856 article 71",
+        "ACEPP FCSF fusion centres sociaux"
+      ],
+      "reponse": {
+        "synthese": "La **fusion d'associations** est de plus en plus fréquente dans le secteur ALISFA pour mutualiser ressources, sauver une structure en difficulté, ou créer une masse critique territoriale. Encadrée depuis 2014 par la **loi Hamon (article 71)** qui transpose les modalités des fusions de sociétés. **2 modalités** : **(1) fusion-absorption** (asso A absorbe asso B, A continue d'exister), **(2) fusion-création** (A et B fusionnent dans une nouvelle association C). **Procédure** : projet de fusion validé en CA, **2 AGE** (chez chaque asso), publication, **transfert universel du patrimoine (TUP)** automatique, déclaration en préfecture. **Salariés** : transfert automatique des contrats de travail (article L1224-1 Code du travail). **Bénéficiaires** : continuité juridique du service.",
+        "fondement_legal": "**Loi n°2014-856 du 31 juillet 2014 article 71** : régime des fusions associatives (transposition Code commerce L236-1 et suivants). **Décret n°2015-832 du 7 juillet 2015** : modalités. **Code du travail article L1224-1** : transfert automatique contrats salariés. **Loi 1901** : indemnités fusion (déclaration préfecture). **Code général des impôts article 210-0 A** : régime fiscal de faveur fusions associatives.",
+        "fondement_ccn": "**CCN ELISFA s'applique** automatiquement à l'asso fusionnée si les 2 associations relèvent de l'IDCC 1261. **Si fusion entre asso ALISFA et asso d'une autre branche** (rare) : règles de **mise en concordance** (article L2261-14 Code travail) — l'employeur doit choisir sous 15 mois la convention applicable.",
+        "application": "**Conduire un projet de fusion-absorption ALISFA** :\n\n**1. Préparation (J-180 à J-90)**\n\n**A. Étude de faisabilité**\n- **Audit croisé** des deux associations : statuts, comptes 3 ans, dettes, salariés, agréments, activités\n- **Compatibilité** : objet social, valeurs, gouvernance, périmètre géographique\n- **Avantages attendus** :\n  - Mutualisation fonctions support (paie, comptabilité, IT)\n  - Masse critique pour négocier avec financeurs\n  - Diversification des financements\n  - Économies d'échelle\n- **Risques à anticiper** :\n  - Choc culturel équipes\n  - Différences de classifications salariés\n  - Pertes d'agréments locaux\n  - Désaffection des bénévoles\n\n**B. DLA et accompagnement**\n- **DLA fusion** : 5-10 jours d'accompagnement gratuit par Avise / DLA régional\n- **Cabinet conseil ESS** : recommandé pour grosses fusions (> 50 salariés cumulés)\n- **Médiateur** : si tensions entre dirigeants des 2 associations\n\n**C. Comité de pilotage commun**\n- 2-3 administrateurs de chaque asso\n- 1-2 directeurs salariés\n- 1 facilitateur externe\n- Réunions hebdomadaires pendant 3-6 mois\n\n**2. Élaboration du projet de fusion (J-90 à J-30)**\n\n**A. Le \"traité de fusion\" (document central)**\n- **Identité** des deux associations\n- **Modalités** : fusion-absorption ou fusion-création\n- **Évaluation** des actifs et passifs (à valeur comptable ou réelle)\n- **Date d'effet** (souvent 1er janvier ou 1er juillet)\n- **Déclaration** : pas de soulte (interdit en fusion associative — pas de paiement aux membres)\n- **Sort des contrats** : continuité automatique (TUP)\n- **Sort des salariés** : article L1224-1, transfert automatique\n- **Sort des agréments** : transférés ou à re-demander selon\n- **Calendrier** détaillé\n\n**B. Validation par les CA**\n- Présentation projet aux 2 CA séparés\n- Vote du projet (majorité simple)\n- Convocation des 2 AGE\n\n**C. Information CSE / représentants du personnel**\n- Information CSE obligatoire (article L2312-39)\n- Avis du CSE (consultation, non bloquant)\n- Salariés informés individuellement (réunions d'équipe)\n\n**3. Tenue des AGE de fusion (Jour J)**\n\n**A. Chaque AGE valide la fusion**\n- **Quorum + majorité** selon statuts (souvent ⅔ des présents)\n- **Documents** : projet de fusion + bilan + statuts révisés (asso absorbante) ou nouveaux statuts (asso créée)\n- **Vote** : généralement secret pour cette décision lourde\n\n**B. Pour l'association absorbante**\n- Vote des modifications statutaires (objet élargi, augmentation effectifs, etc.)\n- Élection éventuelle de nouveaux administrateurs (intégration de l'asso absorbée)\n\n**C. Pour l'association absorbée**\n- Vote de la dissolution-fusion (sans liquidation, le patrimoine est transmis automatiquement)\n- Désignation éventuelle d'un \"représentant\" pour suivre la transition\n\n**4. Phase administrative (J+1 à J+90)**\n\n**A. Publication**\n- **JOAFE** : publication des AGE de fusion (associations.gouv.fr)\n- **Banques** : informer pour fusion des comptes (clôture asso absorbée + transfert sur asso absorbante)\n\n**B. Déclarations préfecture**\n- **Asso absorbée** : déclaration de dissolution-fusion (radiation RNA)\n- **Asso absorbante** : déclaration des modifications statutaires (élargissement objet) + nouveaux administrateurs\n\n**C. Mises à jour multiples**\n- **URSSAF** : transfert des contrats salariés (DSN)\n- **Mutuelle, prévoyance** : continuité ou changement\n- **Logiciels** : fusion bases de données (paie, compta, EAJE)\n- **Sites web** : redirection ou maintien\n- **Mentions légales** : nouvelle entité\n\n**5. Phase humaine (J-90 à J+12 mois)**\n\n**A. Accompagnement des équipes**\n- Réunions équipes croisées en amont (visites sites, présentations projets)\n- Formation à la nouvelle organisation\n- Médiateur si tensions interpersonnelles\n- **Plan d'intégration** : organigramme, fiches de poste, processus harmonisés\n\n**B. Gestion des classifications salariés**\n- **Mise en concordance** des classifications (avenant 10-22 emplois repères)\n- **Pas de baisse de salaire** possible (acquis maintenus)\n- **Harmonisation progressive** sur 12-24 mois\n- **Si différences importantes** : refonte classification après dialogue social\n\n**C. Communication aux bénéficiaires**\n- Familles EAJE/ALSH : courriers, réunions d'information\n- Adhérents centres sociaux : AG, événements\n- Continuité du service garantie\n\n**6. Régime fiscal**\n\n**A. Régime de faveur (CGI 210-0 A)**\n- **Pas d'IS** sur la plus-value de transfert d'actifs (sous conditions)\n- **Pas de droits de mutation** sur immeubles (sous conditions)\n- **Continuité fiscale** : reports déficitaires transférés, exonérations maintenues\n\n**B. Conditions du régime de faveur**\n- Déclaration au service des impôts\n- Engagement de poursuivre l'activité 3 ans\n- Pas de soulte ni de distribution aux membres\n\n**7. Cas particuliers**\n\n**A. Fusion 3 associations ou plus**\n- Possible : fusion par étapes (A absorbe B, puis A+B absorbent C) ou simultanée (rare)\n\n**B. Fusion avec association RUP**\n- Plus complexe : modifications statuts soumises à décret Conseil d'État\n- Délai : 18-24 mois\n\n**C. Fusion avec coopérative (SCIC)**\n- Possible mais transformation préalable de l'asso (cf gv-40)\n\n**D. Fusion d'urgence (sauvetage)**\n- Quand une asso est proche de la cessation : procédure accélérée\n- Implication du tribunal possible (plan de cession)\n- Délais raccourcis (45-90 jours)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques de fusion :\n- **Préparation insuffisante** : 60% des fusions associatives échouent ou produisent des tensions durables. Investir dans le DLA et le COPIL.\n- **Déséquilibre des forces** : si une asso \"absorbe\" l'autre sans considération, démotivation et démissions des salariés et bénévoles\n- **Perte d'agréments** : certains agréments (CAF centre social, JEP) peuvent ne pas être transférés automatiquement → demande de re-validation\n- **Endettement caché** : un audit insuffisant peut laisser passer des dettes URSSAF, fiscales, contentieuses → audit financier rigoureux\n- **Salariés \"héritage\"** : différences de classifications, statuts cadres, primes — sources de tensions. Anticiper et négocier.\n- **Bail commercial** : les baux peuvent contenir clauses limitant cession ou fusion → vérifier\n- **Bénéficiaires perdus** : familles qui ne s'identifient plus à la nouvelle structure → soigner communication\n- **Notabilisation** : un seul dirigeant qui prend le pouvoir post-fusion peut bloquer démocratie\n- **Convention CAF / CTG** : à renégocier post-fusion, peut prendre 6-12 mois (financement en pause)\n- **Article 71 loi Hamon non utilisé** : par défaut, des fusions ad hoc moins sécurisées juridiquement. Préférer le cadre formel.",
+        "sources": [
+          "Loi n°2014-856 du 31 juillet 2014 article 71",
+          "Décret n°2015-832 du 7 juillet 2015",
+          "Code du travail article L1224-1",
+          "Code général des impôts article 210-0 A",
+          "Avise — Guide \"La fusion entre associations\""
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi Hamon ESS article 71 fusion",
+            "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000029341213/"
+          },
+          {
+            "titre": "Service-Public — Fusion d'associations",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1124"
+          },
+          {
+            "titre": "Avise — La fusion entre associations",
+            "url": "https://www.avise.org/ressources"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Coopération inter-associative",
+            "url": "https://lemouvementassociatif.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 2014-856 art 71 + Décret 2015-832 + Code travail L1224-1"
+      }
+    },
+
+    {
+      "id": "gv-40",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Faut-il transformer son association en SCIC (Société Coopérative d'Intérêt Collectif) ?",
+      "mots_cles": [
+        "SCIC", "Société Coopérative Intérêt Collectif",
+        "transformation association", "loi 2001-624",
+        "multi-sociétariat", "salariés bénéficiaires",
+        "ALISFA EAJE coopérative", "économie sociale"
+      ],
+      "reponse": {
+        "synthese": "La **SCIC (Société Coopérative d'Intérêt Collectif)** est un statut hybride entre association et entreprise : société commerciale (SARL ou SAS) avec **multi-sociétariat** obligatoire (salariés + bénéficiaires + au moins 1 troisième catégorie), **gouvernance démocratique** \"une personne = une voix\", **utilité collective** au cœur du projet. **Transformation** d'une asso en SCIC est possible (loi 2001-624) mais **rare** : oblige à devenir une société commerciale (donc IS, TVA, TVA, droits de mutation immobilière), perte des avantages fiscaux associatifs (RIG mécénat), procédure lourde (12-18 mois). **Pertinent** pour structures qui veulent : associer pleinement les salariés à la gouvernance, lever des fonds via épargne solidaire, gérer un EAJE en co-gestion parents/salariés/financeurs. **Pas pertinent** pour la majorité des centres sociaux et ALSH.",
+        "fondement_legal": "**Loi n°2001-624 du 17 juillet 2001 article 36** : création SCIC. **Loi n°2014-856 du 31 juillet 2014** : modernisation SCIC (article 33-37). **Décret n°2002-241 du 21 février 2002**. **Code de commerce** : SARL ou SAS comme support juridique. **Loi 47-1775 du 10 septembre 1947** (statut de la coopération) : principes coopératifs. **Articles L223-1 et suivants** Code commerce (SARL) ou **L227-1 et suivants** (SAS).",
+        "fondement_ccn": "**CCN ELISFA peut s'appliquer** à une SCIC dont l'activité relève du champ ALISFA, mais cela dépend du **code APE** et de la convention collective la plus proche. **À vérifier au cas par cas** : si la SCIC reste sur le secteur ALISFA, IDCC 1261 souvent maintenu.",
+        "application": "**Faut-il transformer en SCIC ? Quand et comment** :\n\n**1. Comprendre la SCIC**\n\n**A. Caractéristiques principales**\n- **Statut** : société commerciale (SARL ou SAS)\n- **Multi-sociétariat** : 3 catégories obligatoires + au moins 1 supplémentaire :\n  - **Salariés** (obligatoire)\n  - **Bénéficiaires** (usagers, clients, familles — obligatoire)\n  - **Personnes publiques** (collectivités) — possible\n  - **Bénévoles** — possible\n  - **Investisseurs solidaires** — possible\n  - **Fondateurs** — possible\n- **Gouvernance** : 1 personne = 1 voix (principe coopératif)\n- **Réserves impartageables** : minimum 57,5% du résultat (15% obligatoire + 42,5% indivisible)\n- **Lucrativité limitée** : dividendes plafonnés (≤ taux moyen rendement obligations entreprises privées)\n- **Utilité collective** au cœur de la raison d'être\n\n**B. Différences avec association**\n\n| Critère | Association loi 1901 | SCIC |\n|---------|---------------------|------|\n| **Statut juridique** | Personne morale loi 1901 | Société commerciale |\n| **Membres** | Adhérents (cotisation) | Sociétaires (parts sociales ~30 €) |\n| **Démocratie** | Statutaire | Coopérative (1=1) |\n| **Salariés sociétaires** | Possible (via CA) | Obligatoire (1 catégorie) |\n| **Fiscalité** | Hors champ IS si non-lucratif | IS plein + TVA |\n| **Mécénat (RIG)** | Possible | Non éligible |\n| **Immatriculation** | RNA + préfecture | RCS (greffe tribunal commerce) |\n| **Capital** | Aucun | Variable (min 18 500 € SARL) |\n| **Revenus dirigeants** | Plafonnés | Liberté contractuelle |\n\n**C. Quand transformer ?**\n- **Pertinent si** :\n  - Volonté forte d'associer salariés et bénéficiaires à la gouvernance (au-delà des collèges en CA)\n  - Activité économique significative (ex. EAJE qui veut diversifier vers prestation entreprises)\n  - Recherche d'investisseurs solidaires ou épargne salariale\n  - Renforcement modèle économique\n  - Volonté de pérenniser le projet sur 30+ ans (projet inscrit dans l'identité juridique)\n- **Pas pertinent si** :\n  - Activité 80%+ subventions publiques (mécénat sera perdu, fiscalité plus lourde)\n  - Petite structure (charges administratives lourdes)\n  - Pas de volonté d'élargir le sociétariat (l'esprit SCIC suppose les 3+ collèges)\n\n**2. Modalités de transformation association → SCIC**\n\n**A. Voie 1 : dissolution + création SCIC (rare)**\n- Dissolution association (cf gv-37)\n- Dévolution actif à la nouvelle SCIC (à condition utilité similaire)\n- Création SCIC ex nihilo\n- **Inconvénients** : rupture juridique, complexité, perte de continuité\n\n**B. Voie 2 : transformation directe (loi 2014-856 article 33)**\n- L'association se transforme en SCIC en conservant la personnalité morale\n- **Continuité** : pas de dissolution, contrats poursuivis, salariés transférés (article L1224-1)\n- **Procédure** :\n  1. **Vote en AGE** des membres (majorité ⅔)\n  2. **Constitution d'un capital social** : conversion réserves associatives en parts sociales\n  3. **Rédaction des nouveaux statuts SCIC** : 3+ collèges, gouvernance coopérative\n  4. **Immatriculation au RCS** (Registre du Commerce et des Sociétés)\n  5. **Radiation du RNA** (registre associations)\n  6. **Modifications fiscales** : passage IS, TVA assujettie\n  7. **Communication** : nouveau logo (mention SCIC obligatoire), nouvelles cartes de visite\n- **Délai total** : 6-12 mois\n- **Coûts** : 5 000-15 000 € (CAC, avocat, frais immatriculation)\n\n**3. Régime fiscal SCIC**\n- **IS** : taux normal 25% sur résultat (taux réduit 15% jusqu'à 42 500 €)\n- **TVA** : assujettie selon activité (5,5% pour formation, 20% standard, exonérations possibles social/éducatif)\n- **Mécénat** : ne peut PAS émettre de reçus fiscaux (RIG impossible)\n- **Réserve impartageable** : 57,5% min du résultat, **non distribuable**\n- **Dividendes** : possibles mais plafonnés\n\n**4. Spécificités sociétariat**\n- **Apport en parts sociales** : généralement 30-100 € par sociétaire\n- **3+ collèges** : poids égal (souvent 25%/25%/25%/25% en CA)\n- **CA mixte** : représentants de chaque collège\n- **AG** : 1 personne = 1 voix (pas pondéré au capital)\n\n**5. Cas pratiques en ALISFA**\n\n**A. EAJE en SCIC** : exemple ACEPP \"crèche parentale\" évoluée en SCIC\n- Collège 1 : Salariés (animateurs, EJE)\n- Collège 2 : Familles bénéficiaires\n- Collège 3 : Mairie (financeur public)\n- Collège 4 : Bénévoles\n→ Co-gestion réelle, parents impliqués au quotidien\n\n**B. Centre social en SCIC** : très rare\n- Collège 1 : Salariés (animateurs, coordinateurs)\n- Collège 2 : Habitants/usagers du centre\n- Collège 3 : Mairie + ANCT (politique de la ville)\n- Collège 4 : Bénévoles\n\n**C. Plateforme territoriale ESS en SCIC**\n- Multiple structures ALISFA + collectivités + entreprises mécènes\n- Mutualisation services support (paie, compta, IT) entre membres",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges :\n- **Perte du mécénat** : si l'asso recevait des dons importants, transformer en SCIC = fin des reçus fiscaux 66% donateurs → chute des dons\n- **Fiscalité plus lourde** : IS + TVA + droits de mutation immobilière = -10 à 30% du résultat selon configuration\n- **Lourdeur administrative** : SCIC = société, donc comptabilité commerciale, AG annuelle réglementée, dépôt comptes au greffe\n- **CAC obligatoire** : commissaire aux comptes au-delà de certains seuils (effectif, CA, total bilan) — coût ~5 000-10 000 €/an\n- **Difficulté à recruter sociétaires** : trouver des familles/usagers prêts à acheter parts (~30 €) peut être long\n- **Tensions inter-collèges** : intérêts parfois divergents (salariés veulent salaires hauts, usagers veulent tarifs bas)\n- **Perte d'agréments** : certains agréments associatifs (JEP) ne sont pas transférés automatiquement à la SCIC\n- **Subventions publiques** : certaines collectivités refusent de subventionner une SCIC (perçue comme \"entreprise\" même si ESS)\n- **Démarche réversible difficile** : retransformer une SCIC en asso est complexe (assimilable à une dissolution)\n- **Conseil expert indispensable** : avocat ESS + expert-comptable spécialisé. Ne pas se lancer seul.",
+        "sources": [
+          "Loi n°2001-624 du 17 juillet 2001 article 36 (création SCIC)",
+          "Loi n°2014-856 du 31 juillet 2014 articles 33-37",
+          "Décret n°2002-241 du 21 février 2002",
+          "Loi n°47-1775 du 10 septembre 1947 (statut coopération)",
+          "Code de commerce — SARL/SAS"
+        ],
+        "liens": [
+          {
+            "titre": "Économie.gouv.fr — Société coopérative d'intérêt collectif (SCIC)",
+            "url": "https://www.economie.gouv.fr/cedef/societe-cooperative-interet-collectif-scic"
+          },
+          {
+            "titre": "Confédération Générale des SCOP — Sociétés coopératives",
+            "url": "https://www.les-scop.coop/"
+          },
+          {
+            "titre": "Avise — Transformer une asso en SCIC",
+            "url": "https://www.avise.org/ressources"
+          },
+          {
+            "titre": "ESS-France — SCIC et coopératives",
+            "url": "https://www.ess-france.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 2001-624 art 36 + Loi 2014-856 art 33-37"
+      }
+    },
+
+    {
+      "id": "gv-41",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Comment gérer une cessation d'activité partielle ou la fermeture d'un service (EAJE, ALSH) sans dissoudre l'association ?",
+      "mots_cles": [
+        "cessation activité", "fermeture service",
+        "fermeture EAJE", "fermeture ALSH",
+        "licenciement économique", "PSE",
+        "L1224-1 transfert", "ALISFA"
+      ],
+      "reponse": {
+        "synthese": "Une association ALISFA peut décider de **fermer un service** (un EAJE, un ALSH, un centre social) **sans se dissoudre** dans son ensemble. Cette **cessation partielle** est juridiquement plus simple qu'une dissolution complète mais implique : **(1) décision motivée du CA** (raisons économiques, fin d'activité, fin convention CAF), **(2) consultation du CSE** (article L2312-39), **(3) information préalable des bénéficiaires** (familles, usagers), **(4) licenciement économique** des salariés du service (sauf reprise par autre asso ou redéploiement interne), **(5) résiliation des contrats** (bail, fournisseurs, financeurs). **Délais** : 3-6 mois minimum entre annonce et fermeture effective. Les salariés peuvent être **redéployés** sur d'autres services de l'asso si compatible (priorité au reclassement interne — article L1233-4).",
+        "fondement_legal": "**Code du travail** : articles **L1233-1 à L1233-91** (licenciement économique), **L1233-3** (motifs économiques), **L1233-4** (obligation de reclassement), **L2312-39** (consultation CSE), **L1224-1** (transfert auto si reprise par tiers). **Code de l'action sociale et des familles** : articles **L214-2** et suivants (autorisation EAJE), **L227-1** et suivants (ALSH). **Convention collective ALISFA** (IDCC 1261). **Décret n°2010-613 du 7 juin 2010** : régime EAJE.",
+        "fondement_ccn": "**CCN ELISFA** s'applique pleinement aux licenciements économiques : barème indemnités selon ancienneté + classification, préavis CCN. **Article 11 Chap III CCN** : indemnité conventionnelle souvent supérieure à l'indemnité légale (à vérifier). **PSE** (Plan de Sauvegarde de l'Emploi) obligatoire si **10+ licenciements** sur 30 jours (article L1233-61).",
+        "application": "**Procédure de cessation d'activité partielle** :\n\n**1. Diagnostic et décision (J-180 à J-90)**\n\n**A. Motifs justifiant la fermeture**\n- **Économiques** : déficit chronique du service, perte de financements (CAF, mairie)\n- **Stratégiques** : recentrage sur missions principales, fin de convention\n- **Externes** : fin de contrat de DSP, fermeture imposée par PMI/contrôleur\n- **Démographiques** : baisse durable de la fréquentation\n\n**B. Étude d'alternatives**\n- **Redimensionnement** : réduire la capacité avant de fermer\n- **Mutualisation** : avec autre structure (intercommunale, fédération)\n- **Reprise par tiers** : transférer le service à autre association → article L1224-1 protège les salariés\n- **Cession à collectivité** : la commune reprend en gestion directe\n→ La fermeture pure est le **dernier recours**\n\n**C. Validation par le CA**\n- Délibération motivée du CA\n- Procès-verbal détaillé\n- Information du bureau confédéral fédération si applicable (FCSF, ACEPP)\n\n**2. Information et consultation (J-90 à J-30)**\n\n**A. Consultation du CSE (obligatoire)**\n- **Réunion CSE** : informer du projet (motifs, calendrier, salariés concernés)\n- **Documentation** : remettre au CSE le projet détaillé (article L2312-39)\n- **Avis CSE** : sous 1-2 mois (selon nombre de salariés)\n- **Avis non bloquant** mais doit être recueilli\n\n**B. Information de la DREETS**\n- Si licenciement économique de **2 à 9 salariés** : notification simple (article L1233-19)\n- Si **10+ salariés sur 30 jours** : PSE obligatoire (procédure plus longue, validation DREETS)\n\n**C. Information des familles / usagers**\n- **Délai** : minimum 3 mois avant fermeture pour EAJE/ALSH (recommandé 6 mois)\n- **Modalités** :\n  - Courrier individuel à chaque famille\n  - Réunion d'information collective\n  - Affichage dans la structure\n- **Contenu** : motifs, date de fermeture, alternatives proposées (autres EAJE/ALSH du territoire), modalités de remboursement éventuel (acompte d'inscription)\n\n**D. Information des financeurs**\n- **CAF** : courrier officiel + restitution éventuelle de subventions non utilisées\n- **Mairie** : courrier officiel + dénouement convention\n- **Conseil départemental** (si financeur) : idem\n- **PMI** : pour EAJE, courrier d'information de la fermeture (entraîne retrait de l'autorisation)\n\n**3. Licenciement économique des salariés (J-60 à J-30)**\n\n**A. Identification des salariés concernés**\n- Liste précise : nom, ancienneté, classification, salaire\n- Vérifier salariés protégés (CSE, mandat syndical) — procédure spécifique (autorisation Inspection du travail)\n\n**B. Recherche de reclassement (article L1233-4)**\n- **Obligation préalable** : avant tout licenciement, chercher reclassement sur autres postes de l'asso\n- **Périmètre** : entreprise (donc l'asso entière, ses différents services)\n- **Postes proposés** : compatibles avec qualification, écrits, individuels\n- **Délai de réponse** salarié : 7 jours pour accepter\n- **Pas de poste compatible** = motif valable de licenciement\n\n**C. Procédure individuelle de licenciement éco**\n1. **Convocation à entretien préalable** : LRAR ou remise contre signature, 5 jours minimum avant entretien\n2. **Entretien préalable** : exposé des motifs économiques, possibilité reclassement, contrat sécurisation pro (CSP) si <1 000 salariés\n3. **Notification du licenciement** : LRAR, 7 jours après entretien (15 jours pour cadres), motif détaillé\n4. **Préavis** : selon CCN ELISFA (souvent 2 mois employé, 3 mois cadre)\n5. **Indemnité de licenciement éco** : calcul selon ancienneté + barème CCN (souvent supérieur au légal)\n6. **CSP** (Contrat de Sécurisation Professionnelle) : proposition obligatoire pour <1 000 salariés, 12 mois d'accompagnement Pôle emploi avec maintien de 75% de la rémunération\n7. **Solde de tout compte** : salaire + indemnité préavis + congés payés + indemnité licenciement\n\n**D. Cas particulier PSE (10+ licenciements/30 jours)**\n- **Procédure renforcée** : information-consultation CSE 2-4 mois\n- **Plan de sauvegarde** : mesures de reclassement, formations, congé de reclassement\n- **Validation DREETS** : sous 21 jours après dépôt\n- **Bilan obligatoire** post-PSE : suivi reclassement\n\n**4. Phase de fermeture effective (Jour J)**\n\n**A. Dernier jour d'accueil**\n- Communication aux familles/usagers : merci + perspectives\n- Inventaire matériel\n\n**B. Restitution des locaux**\n- État des lieux de sortie\n- Restitution clés\n- Bail : lettre recommandée préavis 6 mois (sauf clause spécifique)\n\n**C. Cession ou stockage matériel**\n- Mobilier EAJE : peut être donné à autre EAJE, vendu, stocké pour autre projet\n- Documents : archivage RGPD (durées légales)\n\n**D. Clôture comptable du service**\n- Sectorisation comptable : isoler le résultat final du service fermé\n- Ne pas confondre avec dissolution complète\n\n**5. Suivi post-fermeture (J+1 à J+12 mois)**\n\n**A. Accompagnement salariés**\n- Pôle emploi (CSP)\n- Bilan compétences\n- Formations financées (CPF, FAFP)\n\n**B. Suivi familles bénéficiaires**\n- Aide à la recherche d'autre EAJE/ALSH\n- Relais avec mairie/CAF si difficultés\n\n**C. Restitution comptable aux financeurs**\n- Solde des conventions\n- Bilan d'activité final\n- Justification utilisation subventions",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques :\n- **Précipitation** : fermer un EAJE en 1 mois met les familles en grave difficulté (recherche urgente d'autre mode de garde) → préavis 6 mois minimum recommandé\n- **Reprise par tiers** : si une autre asso reprend l'activité, **L1224-1 s'applique automatiquement** = pas de licenciement, contrats transférés. Les dirigeants ne peuvent pas \"contourner\" en organisant licenciements puis cession (faute de gestion)\n- **Reclassement insuffisant** : un licenciement éco sans recherche sérieuse de reclassement est annulable (Cass. soc. 2018) → indemnités majorées + dommages et intérêts\n- **Salariés protégés** : licenciement nécessite autorisation préalable Inspection du travail (CSE, syndical, médecin du travail, conseiller prud'homal)\n- **PSE non déclenché** alors qu'il devrait (10+ licenciements/30j) : nullité licenciements + sanctions DREETS\n- **Information CSE tardive** : irrégularité procédurale → contestation possible\n- **Convention CAF / collectivité non respectée** : si fermeture avant terme prévu, restitution de subventions possible (cf clauses)\n- **Fermeture EAJE sans information PMI** : retrait d'autorisation parallèle (PMI peut interdire avant la date prévue)\n- **Salariés en arrêt maladie** : protégés (article L1226-9) — ne peuvent être licenciés sauf faute grave ou impossibilité de maintenir\n- **Risque image fédération FCSF/ACEPP** : informer la fédération en amont, communication coordonnée\n- **Bénéficiaires précaires** : QPV, familles isolées — accompagnement social renforcé nécessaire (CCAS, ASE)",
+        "sources": [
+          "Code du travail — articles L1233-1 à L1233-91, L1224-1, L2312-39",
+          "Code de l'action sociale et des familles — L214-2, L227-1",
+          "Convention collective ALISFA (IDCC 1261)",
+          "Décret n°2010-613 du 7 juin 2010 (EAJE)",
+          "Cass. soc. 2018 — jurisprudence reclassement"
+        ],
+        "liens": [
+          {
+            "titre": "Service-Public Pro — Licenciement économique",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F1745"
+          },
+          {
+            "titre": "Légifrance — Code du travail L1233-1 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/"
+          },
+          {
+            "titre": "Pôle emploi — Contrat de Sécurisation Professionnelle (CSP)",
+            "url": "https://www.pole-emploi.fr/candidat/mes-droits-aux-aides-et-allocations/le-contrat-de-securisation-pro.html"
+          },
+          {
+            "titre": "DREETS — Plan de Sauvegarde de l'Emploi (PSE)",
+            "url": "https://travail-emploi.gouv.fr/emploi-et-insertion/accompagnement-des-mutations-economiques/article/plan-de-sauvegarde-de-l-emploi-pse"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Code du travail L1233 + L1224-1 + CCN ALISFA + CASF L214/L227"
+      }
+    },
+
+    {
+      "id": "gv-42",
+      "_theme_target": "dissolution_fusion",
+      "question_type": "Comment réveiller une association \"en sommeil\" ou créer une nouvelle association sur les cendres d'une dissolution ?",
+      "mots_cles": [
+        "association en sommeil", "réveil association",
+        "reprise activité", "création nouvelle asso",
+        "transfert agréments", "remobilisation bénévoles",
+        "ALISFA continuité"
+      ],
+      "reponse": {
+        "synthese": "Une association peut **\"se mettre en sommeil\"** (cesser temporairement son activité sans dissolution) ou être **\"réveillée\"** après une période d'inactivité. Cette stratégie permet de **conserver la structure juridique** (RNA, agréments, antériorité) sans frais de dissolution. **Conditions** : maintenir l'existence légale (déclarer le siège, tenir AG annuelle minimale), conserver les statuts à jour. **Limites** : agréments (CAF centre social, JEP) peuvent être suspendus après 2-3 ans d'inactivité ; comptes bancaires peuvent être clôturés ; bénévoles se désengagent. **Réveil** : voter en AGE la reprise, élire nouveau CA, mobiliser ressources, redemander agréments si nécessaire. **Alternative** : **dissoudre** l'ancienne asso et créer une **nouvelle** sur des bases solides — choix selon contexte.",
+        "fondement_legal": "**Loi 1er juillet 1901** : pas de mention spécifique du sommeil, mais autorisation implicite (la loi n'oblige pas à activité minimale). **Décret du 16 août 1901** : article 6 (déclaration modifications). **Code monétaire et financier** : article L312-1-1 (clôture comptes inactifs après 12 mois). **CASF** : article L214-2 (autorisation EAJE caduque si inactivité > 6 mois). **Décret 2002-571** : agrément JEP suspendu si inactivité prolongée.",
+        "fondement_ccn": "Pas de disposition CCN, mais en cas de **réveil**, si embauche de salariés : application immédiate CCN ELISFA + déclarations URSSAF + DPAE.",
+        "application": "**Mise en sommeil ou réveil d'association — stratégie** :\n\n**1. Mise en sommeil intentionnelle**\n\n**A. Quand est-ce pertinent ?**\n- Cesser activité 1-2 ans en attendant un projet (ex. attente d'un local, mutation territoire, restructuration)\n- Suspendre temporairement après crise (épidémie, sinistre)\n- Anticiper réveil pour projet futur\n→ Pas pertinent au-delà de **3 ans** : généralement préférable de dissoudre + recréer\n\n**B. Procédure de mise en sommeil**\n1. **Décision en AG ou CA** : motivée, datée\n2. **Information** des financeurs et bénéficiaires\n3. **Cessation des activités** : fin EAJE, fin ALSH, etc.\n4. **Licenciement économique** salariés ou redéploiement\n5. **Résiliation contrats** : bail, abonnements\n6. **Restitution actifs** : matériel mis à disposition\n7. **Maintien minimal** :\n   - Siège social déclaré (peut être domicile président)\n   - AG annuelle (au moins formelle)\n   - Bilan minimal (compte de résultat à zéro ou très faible)\n   - Compte bancaire actif (ou nouveau compte avec dépôt minimal)\n   - Maintenir RNA à jour\n\n**C. Maintenir agréments pendant le sommeil**\n- **CAF centre social** : avis défavorable au-delà de 6 mois sans activité — agrément suspendu\n- **JEP** : peut être suspendu après 1-2 ans inactivité\n- **PMI EAJE** : autorisation caduque après 6 mois\n- **Service Civique** : agrément suspendu si pas de mission active\n→ **Décision** : envisager fin des agréments si sommeil > 1 an\n\n**2. Réveil d'une association en sommeil**\n\n**A. Diagnostic préalable**\n- **État RNA** : à jour ? Dirigeants déclarés ?\n- **Comptes bancaires** : actifs ? Solde ?\n- **Agréments** : encore valides ?\n- **Bénévoles disponibles** : qui peut être mobilisé ?\n- **Financements possibles** : appels à projets, mécènes\n- **Nom encore disponible** : vérifier RNA + INPI marques\n- **Locaux** : disponibles ? Reprendre bail ?\n\n**B. Procédure de réveil**\n1. **Convocation AGE** par les dirigeants en place (vérifier qu'ils sont toujours en fonction)\n2. **Vote de la reprise d'activité** (majorité statutaire)\n3. **Élection nouveau CA** si dirigeants sortent\n4. **Mise à jour statuts** si projet a évolué\n5. **Déclaration en préfecture** des modifications\n6. **Réactivation comptes bancaires** ou ouverture nouveau\n7. **Demande de re-validation agréments** si suspendus\n8. **Recrutement** salariés si activité salariée\n9. **Communication** publique : annonces, presse, site web\n\n**C. Difficultés fréquentes**\n- **Dirigeants démissionnaires** : convocation impossible si plus de président — solliciter tribunal pour désignation administrateur ad hoc\n- **Compte bancaire clôturé** (12 mois inactif) : ouvrir nouveau compte\n- **Mémoire institutionnelle perdue** : archives, mots de passe, contacts financeurs\n- **Bénévoles partis** : remobilisation longue\n\n**3. Alternative : dissoudre + créer une nouvelle association**\n\n**A. Quand c'est préférable ?**\n- Sommeil > 3 ans\n- Conflits internes ayant émaillé l'ancienne structure (réputation entachée)\n- Projet radicalement différent\n- Dettes ou contentieux non résolus de l'ancienne\n- Repartir sur des bases saines\n\n**B. Procédure**\n1. **Dissolution** ancienne asso (cf gv-37) avec dévolution de l'actif\n2. **Création nouvelle association** (déclaration préfecture, statuts nouveaux)\n3. **Demande d'agréments** (CAF, JEP, etc.) — procédure complète, plusieurs mois\n4. **Renégociation conventions** avec financeurs\n5. **Recrutement** salariés et bénévoles\n6. **Communication** : nouveau projet, valorisation des évolutions\n\n**C. Avantages**\n- Bases saines\n- Identité claire\n- Pas de dettes héritées\n- Renouvellement gouvernance\n\n**D. Inconvénients**\n- Perte de l'antériorité (date de création)\n- Perte des agréments (à redemander, prend des mois)\n- Perte de l'historique fiscal (RIG à reconstituer)\n- Démarches lourdes\n\n**4. Cas particulier : reprise après dissolution non finalisée**\n- L'ancienne asso a voté la dissolution mais la liquidation n'est pas finie\n- **Possible de revoter le réveil** en AGE (révocation de la décision de dissolution)\n- **Délai** : avant clôture liquidation et radiation RNA\n- **Procédure** : AGE motivée, déclaration préfecture, compte rendu officiel\n\n**5. Stratégies pour faciliter un réveil futur**\n- **Au moment de la mise en sommeil**, formaliser :\n  - Garder un siège social actif (domicile dirigeant)\n  - Tenir AG annuelle minimale (\"AG en sommeil\")\n  - Conserver compte bancaire avec petit solde\n  - Renouveler agréments les plus précieux (FONJEP en \"poste vacant\")\n- **Documents à archiver** :\n  - Statuts à jour\n  - Bilans 5 dernières années\n  - PV AG\n  - Liste contacts financeurs\n  - Mots de passe (Compte Asso, banque)\n  - Manuel \"reprise d'activité\" (procédures)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges :\n- **Sommeil prolongé** (> 3 ans) avec dirigeants démissionnaires : association \"acéphale\", réveil très complexe\n- **Comptes bancaires inactifs 12+ mois** : clôture automatique (article L312-1-1 CMF), nouvelle ouverture nécessaire\n- **Agréments perdus** : redemander les agréments est une procédure complète (3-12 mois selon agrément)\n- **RIG fiscale perdue** : si inactivité > 4 ans, l'administration fiscale peut considérer que l'asso n'est plus IG → reconstituer rescrit\n- **Conflits avec dirigeants \"oubliés\"** : ancien président qui réapparaît au réveil et conteste les nouveaux dirigeants → tribunal\n- **Maintenir l'asso vivante artificiellement** : si pas de projet réel, ne sert à rien et coûte (frais minimaux + responsabilités dirigeants)\n- **Confusion avec création nouvelle asso** : si trop de changements (objet, dirigeants, sociétariat), peut être qualifié de dissolution + création par administration\n- **Dettes non payées** : un sommeil ne fait pas disparaître les dettes — créanciers peuvent toujours réclamer\n- **Image \"zombie\"** : association qui se réveille après long sommeil peut avoir image difficile à reconstituer (surtout si rupture brutale historique)",
+        "sources": [
+          "Loi 1er juillet 1901",
+          "Décret du 16 août 1901",
+          "Code monétaire et financier — article L312-1-1",
+          "Code de l'action sociale et des familles — articles L214-2, L227-1",
+          "Décret n°2002-571 (agrément JEP)"
+        ],
+        "liens": [
+          {
+            "titre": "Service-Public — Mise en sommeil et reprise d'association",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1124"
+          },
+          {
+            "titre": "Associations.gouv.fr — Vie statutaire",
+            "url": "https://www.associations.gouv.fr/la-vie-statutaire.html"
+          },
+          {
+            "titre": "Le Compte Asso",
+            "url": "https://lecompteasso.associations.gouv.fr/"
+          },
+          {
+            "titre": "Avise — Accompagnement DLA reprise d'activité",
+            "url": "https://www.avise.org/ressources"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 + Décret 1901 + CMF L312-1-1 + CASF"
+      }
+    }
+
+  ]
+}

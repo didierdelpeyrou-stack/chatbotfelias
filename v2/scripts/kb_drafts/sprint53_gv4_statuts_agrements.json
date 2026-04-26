@@ -1,0 +1,336 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 G-Vague4 — Statuts, AG, modifications, agréments (6 articles)",
+    "lot": "G4/G6",
+    "topic": "Rédaction statuts, modifications, RI, RIG, RUP, agréments JEP/ESUS/CAF",
+    "generated_at": "2026-04-26",
+    "source_principale": "Loi 1901, Décret 1901, CGI, Loi Hamon 2014, circulaires ministérielles agréments",
+    "theme_target": "gouvernance"
+  },
+
+  "articles": [
+
+    {
+      "id": "gv-31",
+      "_theme_target": "cadre_legal",
+      "question_type": "Comment rédiger ou réviser les statuts d'une association ALISFA loi 1901 ?",
+      "mots_cles": [
+        "statuts association", "loi 1901",
+        "AG CA Bureau", "objet social",
+        "rédaction statuts", "modification statutaire",
+        "Préfecture déclaration", "ALISFA"
+      ],
+      "reponse": {
+        "synthese": "Les **statuts** sont la **loi interne** de l'association loi 1901 — ils définissent l'objet social, les organes (AG, CA, Bureau), les conditions d'adhésion, les règles de vote, les modalités de modification, la dissolution. La **loi 1901 laisse une grande liberté** rédactionnelle (article 1 : \"contrat\"), à condition de respecter quelques mentions essentielles. Pour une association ALISFA, des **statuts bien rédigés** sont la **première brique** de la gouvernance et **conditionnent** souvent l'accès aux agréments (CAF, JEP, ESUS) et aux financements. **Modifications** doivent être **votées en AG extraordinaire** (quorum et majorité prévus dans les statuts) puis **déclarées en préfecture** dans les 3 mois.",
+        "fondement_legal": "**Loi du 1er juillet 1901** : article 1 (contrat libre), article 5 (déclaration en préfecture), article 6 (capacité juridique limitée), article 9 (dissolution). **Décret du 16 août 1901** : article 6 (modifications statuts à déclarer). **Code civil** : article 1832 (par analogie) sur le contrat de société. **Articles L121-1 et L141-1 Code de la consommation** : règles applicables en cas d'activité commerciale.",
+        "fondement_ccn": "Les statuts ne sont pas régis par la CCN ELISFA, mais doivent **prévoir l'embauche** de salariés (capacité d'employeur) et la **prise de décisions RH** (qui signe les contrats, qui licencie). **Recommandation** : prévoir clairement que le **président** ou le **bureau** signe les contrats (et pas le directeur salarié, qui n'a pas la capacité juridique d'employeur).",
+        "application": "**Modèle de statuts ALISFA — structure type** :\n\n**TITRE I — Constitution, but, durée, siège**\n- Article 1 — **Constitution** : \"Il est fondé entre les soussignés et personnes adhérant aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901 ayant pour titre [Nom de l'association]\"\n- Article 2 — **Objet** : décrire précisément les missions (animation socioéducative, gestion EAJE, accompagnement parentalité, etc.). **Important** : l'objet doit être **clair, précis, large** (pour éviter de modifier les statuts à chaque évolution) mais sans dériver vers la **lucrativité** sous peine de requalification fiscale\n- Article 3 — **Siège social** : commune (pas adresse précise — sinon modification statutaire à chaque déménagement)\n- Article 4 — **Durée** : généralement \"illimitée\"\n\n**TITRE II — Composition**\n- Article 5 — **Membres** : catégories (actifs, bienfaiteurs, honoraires, fondateurs) + critères d'admission\n- Article 6 — **Adhésion** : modalités (cotisation, dossier, validation par CA), durée (annuelle), décision (unanime, majorité)\n- Article 7 — **Perte de qualité de membre** : démission, radiation (motifs : non-paiement, faute grave) — toujours après débat contradictoire\n\n**TITRE III — Administration et fonctionnement**\n- Article 8 — **Assemblée Générale Ordinaire (AGO)** : composition (tous adhérents à jour de cotisation), périodicité (annuelle obligatoire), convocation (15 jours minimum avec OJ), quorum, mode de scrutin (à main levée ou bulletin secret), procurations (max 3 par membre recommandé), votes : approbation rapport moral, comptes, élection administrateurs\n- Article 9 — **Assemblée Générale Extraordinaire (AGE)** : convocation pour modifications statuts ou dissolution, quorum renforcé (souvent ½ ou ⅔ des membres), majorité renforcée (souvent ⅔ des présents)\n- Article 10 — **Conseil d'Administration** : nombre (généralement 9-21), durée mandat (3 ans recommandé), renouvellement par tiers, élection en AG, conditions d'éligibilité (ancienneté, parité, etc.), réunion (4× minimum/an), prise décisions (majorité simple)\n- Article 11 — **Bureau** : président, vice-président(s), trésorier, secrétaire — élu par le CA en son sein, durée (généralement 1 an renouvelable)\n- Article 12 — **Pouvoirs respectifs** :\n  - **AG** : décisions stratégiques (orientation, comptes, élections)\n  - **CA** : pilotage opérationnel, embauche direction salariée, signature gros engagements\n  - **Bureau** : suivi mensuel, signature courante (chèques < seuil, contrats récurrents)\n  - **Président** : représentant légal, embauche, action en justice\n\n**TITRE IV — Ressources**\n- Article 13 — **Ressources** : cotisations, subventions, dons, recettes activités, mécénat. **Mention** : \"Les ressources sont affectées exclusivement à la réalisation de l'objet social\"\n\n**TITRE V — Dissolution**\n- Article 14 — **Dissolution** : majorité requise en AGE, désignation liquidateur, dévolution actif net à association similaire (jamais aux membres — interdit par loi 1901)\n\n**TITRE VI — Règlement intérieur**\n- Article 15 — **RI** : facultatif, mentionné dans les statuts comme outil opérationnel (gestion quotidienne, modalités pratiques)\n\n**TITRE VII — Formalités**\n- Article 16 — **Déclaration et publication** au JO\n- Article 17 — **Première liste administrateurs** (annexe)\n\n**Bonnes pratiques pour des statuts vivants ALISFA**\n- **Clarté** : éviter le jargon juridique inutile, écrire en langage accessible aux adhérents\n- **Cohérence** : pas de contradiction entre articles\n- **Stabilité** : éviter de devoir modifier régulièrement (renvoyer au RI les détails opérationnels)\n- **Inclusivité** : prévoir des quotas ou des collèges (jeunes, usagers, salariés invités au CA avec voix consultative)\n- **Démocratie** : limiter les mandats (3 mandats consécutifs max), favoriser le renouvellement\n- **Modèle FCSF / ACEPP / CNEA / UDES** : modèles types souvent disponibles, adapter à votre projet\n\n**Modification des statuts**\n1. **Préparation** : projet de statuts révisés en CA, envoi aux adhérents avec convocation AGE (15 jours min)\n2. **AGE** : débat + vote sur chaque article modifié OU vote global (selon statuts)\n3. **Quorum et majorité** : selon statuts (souvent quorum ½ + majorité ⅔)\n4. **PV signé** par président et secrétaire\n5. **Déclaration en préfecture** (associations.gouv.fr) : nouveau texte + PV + délai 3 mois\n6. **Publication JO** : si changement objet/dénomination/siège — facultatif mais recommandé\n\n**Cas particuliers**\n- **Association reconnue d'utilité publique (RUP)** : statuts types imposés par décret\n- **Association cultuelle** (loi 1905) : règles spécifiques\n- **Association loi 1908 Alsace-Moselle** : régime distinct (registre des associations)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques liés aux statuts :\n- **Statuts contradictoires** ou flous : source de **conflits internes** + nullités possibles (jurisprudence : un vote contraire aux statuts est annulable)\n- **Objet social trop restreint** : empêche d'évoluer (chaque nouvelle activité demande modification statutaire)\n- **Objet social trop large** : risque de requalification fiscale (\"activités commerciales\" non encadrées)\n- **Mandats illimités** : favorise notabilisation, perte démocratique → fixer des limites\n- **Pas de quorum** : permet vote par minorité absolue → décisions contestables\n- **Pas de RI** : tout doit être dans les statuts (lourd) ou rien n'est formalisé (chaos)\n- **Modification non déclarée préfecture** dans les 3 mois : irrégularité, peut bloquer subventions\n- **Vol des statuts originaux** : conserver copie certifiée + numérique chiffrée\n- **Sociocratie / horizontalité** : structures plates parfois à la mode mais incompatibles avec loi 1901 qui exige représentant légal (président). Prévoir au moins un représentant légal.\n- **Dispositions contraires à la loi** : non-discrimination, droit du travail, RGPD doivent être respectés — toute clause contraire est nulle",
+        "sources": [
+          "Loi du 1er juillet 1901 (articles 1, 5, 6, 9)",
+          "Décret du 16 août 1901 (article 6)",
+          "Service-Public — Modèles de statuts associatifs",
+          "Modèles statuts FCSF, ACEPP, CNEA, UDES, le Mouvement Associatif",
+          "Code civil — article 1832"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Loi du 1er juillet 1901",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000497458/"
+          },
+          {
+            "titre": "Service-Public — Modèles statuts associatifs",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1119"
+          },
+          {
+            "titre": "Associations.gouv.fr — Créer une association loi 1901",
+            "url": "https://www.associations.gouv.fr/comment-creer-une-association-loi-1901.html"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Boîte à outils statuts",
+            "url": "https://lemouvementassociatif.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 + Décret 1901 + modèles fédérations ALISFA"
+      }
+    },
+
+    {
+      "id": "gv-32",
+      "_theme_target": "cadre_legal",
+      "question_type": "Comment déclarer en préfecture les modifications statutaires et les changements de dirigeants ?",
+      "mots_cles": [
+        "déclaration préfecture", "associations.gouv.fr",
+        "modification dirigeants", "changement bureau",
+        "RNA", "Journal Officiel",
+        "loi 1901 article 5", "AG décision",
+        "ALISFA déclaration"
+      ],
+      "reponse": {
+        "synthese": "Toute association loi 1901 doit **déclarer ses modifications** à la préfecture (ou sous-préfecture) dans les **3 mois** : changement de dirigeants (président, trésorier, secrétaire), modifications statutaires, changement de siège, dissolution. La déclaration se fait **en ligne** sur **associations.gouv.fr** (Compte Asso) ou par **formulaire CERFA papier**. La **non-déclaration** expose à des **sanctions administratives** (suspension de la capacité juridique) et bloque souvent les subventions et le mécénat (financeurs vérifient le RNA — Registre National des Associations). **Délai légal** : déclaration sous 3 mois, mais en pratique, à faire dans les 30 jours pour ne pas pénaliser les démarches.",
+        "fondement_legal": "**Loi 1er juillet 1901** : article 5 (déclaration), article 8 (sanction non-déclaration). **Décret du 16 août 1901** : article 3 (composition du dossier). **Décret n°2007-807 du 11 mai 2007** (RNA — Répertoire National des Associations). **Décret n°2015-832 du 7 juillet 2015** (déclaration en ligne). **Loi 1908 Alsace-Moselle** : régime spécifique (tribunal d'instance pour Alsace-Moselle).",
+        "fondement_ccn": "Pas de disposition CCN, mais la **mise à jour des dirigeants** est cruciale pour les contrats de travail : c'est le **représentant légal** qui signe les contrats. Si le président change et que la déclaration n'est pas à jour, **risque de contestation** sur la validité des contrats signés.",
+        "application": "**Procédure de déclaration de modification** :\n\n**1. Identifier le type de modification**\n\n| Modification | Déclaration obligatoire ? | Délai |\n|--------------|--------------------------|-------|\n| Changement de dirigeants (président, trésorier, secrétaire) | ✅ Oui | 3 mois |\n| Modification des statuts | ✅ Oui | 3 mois |\n| Changement de siège social | ✅ Oui | 3 mois |\n| Changement de dénomination | ✅ Oui | 3 mois |\n| Modification de l'objet social | ✅ Oui | 3 mois |\n| Création/fermeture d'établissement secondaire | ✅ Oui | 3 mois |\n| Dissolution | ✅ Oui | 3 mois |\n| Changement de simple administrateur (pas dirigeant) | ❌ Non | — |\n| Modification du RI | ❌ Non | — |\n\n**2. Procédure en ligne (Compte Asso — recommandé)**\n- **Site** : https://lecompteasso.associations.gouv.fr\n- **Connexion FranceConnect+** ou compte direct avec validation administrateur\n- **Onglet \"Modifier les informations administratives\"**\n- **Pièces à joindre** :\n  - **Pour modification dirigeants** : PV de l'AG/CA ayant élu les nouveaux dirigeants, signé par président et secrétaire\n  - **Pour modification statuts** : PV de l'AGE ayant voté, copie des nouveaux statuts mis à jour, signés par président et secrétaire\n  - **Pour changement de siège** : PV de la décision (CA ou AG selon statuts) + justificatif d'occupation (bail, attestation propriétaire)\n- **Validation** : la préfecture confirme par email + met à jour le RNA\n- **Récépissé** : conservez-le précieusement (souvent demandé par financeurs, banque)\n\n**3. Procédure papier (alternative)**\n- **Formulaire CERFA 13971*04** : modification des personnes chargées de l'administration\n- **Formulaire CERFA 13972*04** : modification des statuts\n- **Envoi** : préfecture du siège social, par courrier simple ou recommandé\n- **Récépissé** sous 5 jours\n\n**4. Publication au Journal Officiel des Associations (JOAFE)**\n- **Obligatoire** uniquement pour : changement de dénomination, objet social, siège, dissolution\n- **Facultatif** pour les autres (recommandé pour traçabilité)\n- **Coût** : ~50-150 € selon longueur publication (gratuit pour la création, payant pour modifs)\n- **Délai** : publication sous 30 jours\n- **Recherche en ligne** : https://www.journal-officiel.gouv.fr/associations/\n\n**5. Mises à jour parallèles à effectuer**\nUne fois la déclaration préfecture validée, **mettre à jour partout** :\n- **Banque** : nouveau RIB, signatures autorisées (procuration, mandat)\n- **URSSAF + impôts** : nouveau président employeur (DPAE, DSN)\n- **CAF + collectivités** : informer chaque financeur du nouveau président signataire\n- **Mutuelle / prévoyance / assurance** : mise à jour\n- **Site web et mentions légales** : nouveau directeur de publication\n- **Statuts en ligne** : remplacer la version sur le site\n- **Cartes de visite, courriers types** : mise à jour\n- **AG paritaire de branche / fédération** : mise à jour de la fiche structure\n\n**6. Cas particuliers**\n\n**A. Association n'ayant jamais déclaré ses modifications**\n- **\"Mise à jour\" rétroactive** : possible mais documentée (PV anciennes AG retrouvés, attestation administrateurs)\n- **Préfecture** peut refuser sans documents → risque de devoir refaire les AG\n- **Service civique** : utile pour aider à reconstituer les archives\n\n**B. Litige sur la légitimité des dirigeants**\n- Si désaccord interne (deux \"présidents\" se déclarent), la préfecture **ne tranche pas** sur le fond → c'est au juge civil de décider\n- **Tribunal judiciaire** (anciennement TGI) : compétent pour résoudre litiges associatifs\n\n**C. Association RUP (reconnue d'utilité publique)**\n- Modifications statutaires nécessitent **décret en Conseil d'État** (procédure beaucoup plus longue)\n- Préfecture en relais avec ministère de tutelle\n\n**D. Alsace-Moselle (loi 1908)**\n- Déclaration auprès du **tribunal judiciaire** (ex-tribunal d'instance), pas de la préfecture\n- Registre des associations (Vereinsregister)\n- Procédure différente, souvent plus rapide\n\n**7. Vérification du statut RNA**\n- Site **rna.associations.gouv.fr** : permet à toute personne de vérifier les informations d'une association (date création, dirigeants déclarés, dernière modif)\n- **Auto-vérification** annuelle recommandée pour s'assurer que tout est bien à jour\n- Numéro RNA : utilisé pour Compte Asso, les agréments, certaines subventions",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges fréquents :\n- **Oubli de la déclaration des dirigeants** : surtout après AG. Mettre dans le **rétro-planning post-AG** : déclaration sous 30 jours.\n- **Délai 3 mois dépassé** : pas de sanction immédiate, mais blocage des **subventions** et possible **suspension de la capacité juridique**\n- **Confusion RNA / SIRET** : le RNA est attribué à toutes les associations déclarées. Le SIRET est attribué seulement aux associations qui en font la demande (souvent pour percevoir des subventions ou employer des salariés)\n- **Bureau \"vacant\"** : si un dirigeant démissionne sans remplaçant, l'association peut devenir paralysée (pas de représentant légal). Convoquer AGE rapidement pour combler.\n- **Modification statutaire votée mais pas déclarée** : les nouveaux statuts ne sont **pas opposables aux tiers** tant que non déclarés. Ex : un nouveau seuil de signature sur les chèques n'est pas reconnu par la banque.\n- **Compte Asso** : nécessite de désigner un **\"administrateur\"** pour la structure (président par défaut), avec mot de passe. Bien documenter les accès.\n- **Erreurs RNA** : si une donnée est fausse dans le RNA (ex. prénom mal orthographié), demander correction par mail à la préfecture\n- **Cotisations à jour** au moment du vote : seuls les adhérents à jour peuvent voter en AG. Vérifier en début d'AG.",
+        "sources": [
+          "Loi du 1er juillet 1901 — articles 5, 8",
+          "Décret du 16 août 1901 — article 3",
+          "Décret n°2007-807 du 11 mai 2007 (RNA)",
+          "Décret n°2015-832 du 7 juillet 2015 (déclaration en ligne)",
+          "Service-Public — Procédures association"
+        ],
+        "liens": [
+          {
+            "titre": "Le Compte Asso — Plateforme officielle",
+            "url": "https://lecompteasso.associations.gouv.fr/"
+          },
+          {
+            "titre": "RNA — Répertoire National des Associations",
+            "url": "https://rna.associations.gouv.fr/"
+          },
+          {
+            "titre": "Service-Public — Modifier une association",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1124"
+          },
+          {
+            "titre": "Journal Officiel des Associations",
+            "url": "https://www.journal-officiel.gouv.fr/associations/"
+          },
+          {
+            "titre": "Formulaire CERFA 13971 — Modification dirigeants",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/R37933"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 articles 5/8 + Décret 2015-832 + Service-Public 2024"
+      }
+    },
+
+    {
+      "id": "gv-33",
+      "_theme_target": "cadre_legal",
+      "question_type": "À quoi sert un règlement intérieur d'association et comment le rédiger ?",
+      "mots_cles": [
+        "règlement intérieur", "RI association",
+        "RI EAJE", "RI ALSH",
+        "discipline membres", "fonctionnement opérationnel",
+        "ALISFA centre social"
+      ],
+      "reponse": {
+        "synthese": "Le **règlement intérieur (RI)** est un document **opérationnel complémentaire** des statuts. Il précise les **règles de fonctionnement quotidien** (horaires, procédures, sanctions, modalités pratiques) sans alourdir les statuts. **Facultatif** au sens de la loi 1901 mais **fortement recommandé** pour les structures ALISFA. Plusieurs RI peuvent coexister : RI \"association\" (vie associative générale), RI \"EAJE\" (règles d'accueil enfants), RI \"ALSH\" (règles séjour), RI \"salariés\" (obligatoire si > 50 salariés selon Code du travail). **Avantages** : flexibilité (modification par CA sans AG), précision opérationnelle, traçabilité des règles. **Limites** : ne peut pas contredire les statuts ni la loi.",
+        "fondement_legal": "**Loi du 1er juillet 1901** : pas de mention obligatoire du RI, mais autorisée par jurisprudence. **Code du travail article L1311-1 et suivants** : RI obligatoire pour entreprises ≥ 50 salariés (règles disciplinaires, hygiène, sécurité). **Code de l'action sociale et des familles** : article **L311-7** (règlement de fonctionnement obligatoire en ESSMS, distinct du RI). **Décret n°2003-1095 du 14 novembre 2003** (règlement de fonctionnement EHPAD/SSMS).",
+        "fondement_ccn": "**RI salariés** soumis à : information CSE (article L1321-2 Code travail), **dépôt à l'Inspection du travail** (article L1321-4) + **secrétariat-greffe Conseil de Prud'hommes**. Doit respecter strictement la **CCN ELISFA** (chapitres XV-XVI sur dialogue social local).",
+        "application": "**Construire les différents règlements intérieurs ALISFA** :\n\n**1. Règlement intérieur \"association\" (vie associative)**\n\n**Utilité** : préciser les modalités de la vie associative que les statuts laissent libres.\n\n**Contenu type** :\n- **Cotisation** : montant, modalités de paiement, échéances\n- **Adhésion** : procédure (formulaire, validation CA, délai), pièces à fournir\n- **Réunions** : fréquence, organisation, prise de notes\n- **Communication** : adresse mail, site web, canaux internes\n- **Sanctions** : motifs (non-respect statuts, comportement contraire à l'objet), procédure (convocation, audition contradictoire, décision motivée), recours\n- **Procédures particulières** : remboursement frais, achats, rémunération exceptionnelle dirigeants\n\n**Adoption** : voté par CA (à défaut, par AG)\n\n**2. Règlement de fonctionnement EAJE / ALSH (obligatoire si ESSMS)**\n\n**Utilité** : règles d'accueil des enfants et de relation avec les familles.\n\n**Contenu type EAJE** :\n- **Capacité d'accueil** : nombre de places, âges accueillis (0-3 ans, etc.)\n- **Horaires** : ouverture, fermeture, jours de fermeture annuelle, récupération\n- **Tarification** : barème PSU + QF + modulation, modes de paiement, gestion impayés\n- **Inscription** : commission d'admission, critères de priorisation (mixité, fratrie, QF)\n- **Période d'adaptation** : modalités, durée typique, accompagnement\n- **Présence et absences** : protocole, justificatifs, facturation\n- **Repas et alimentation** : qui fournit, allergies, PAI\n- **Santé** : vaccinations, médicaments, urgences (PAI), présence médecin référent\n- **Droits parents** : consultations dossier, photos consenties, conseil de crèche\n- **Sortie** : autorisation des personnes habilitées à venir chercher l'enfant\n- **Manquements graves** : motifs d'exclusion (sécurité enfant, comportement parental gravement contraire), procédure\n\n**Contenu type ALSH** : similaire, adapté aux 3-17 ans, avec règles de séjour camp si applicable.\n\n**Adoption** : votée par CA + agrément CAF (avis CAF requis pour EAJE)\n**Communication** : remise aux familles à l'inscription + affichage public\n\n**3. Règlement intérieur \"salariés\" (Code du travail)**\n\n**Obligatoire** dès **50 salariés** (article L1311-2).\n\n**Contenu obligatoire** (article L1321-1) :\n- Mesures d'application de la **réglementation hygiène et sécurité** (port EPI, consignes incendie, premiers secours)\n- **Discipline** : nature et échelle des sanctions, garanties procédurales (contradictoire, recours)\n- **Harcèlement et discrimination** : procédure d'alerte (article L4121-2)\n- **Lanceur d'alerte** : procédure (loi Sapin 2)\n\n**Procédure d'adoption** :\n1. **Rédaction** par direction\n2. **Information CSE** (article L1321-2)\n3. **Avis du CSE** (consultation, mais avis non bloquant)\n4. **Dépôt** à l'Inspection du travail + secrétariat-greffe Conseil Prud'hommes\n5. **Affichage** dans les locaux\n6. **Mise à jour** : à chaque modification, même procédure\n\n**Limites** :\n- **Ne peut pas** ajouter de causes de licenciement non prévues par le Code du travail\n- **Ne peut pas** déroger aux protections légales du salarié\n- **Sanctions** : avertissement, blâme, mise à pied, rétrogradation, licenciement — mais respect du droit disciplinaire\n\n**4. Conseils pratiques pour rédiger un bon RI**\n- **Cohérence avec les statuts** : pas de contradiction\n- **Concis** : ne pas dépasser 10-15 pages\n- **Lisible** : langage accessible, pas de jargon\n- **Évolutif** : section \"révision\" prévoyant les modalités de modification\n- **Affichage et accessibilité** : disponible pour tous les concernés\n- **Évolution** : revoir annuellement pour ajustements\n\n**5. Articulation entre les différents RI**\n- **Statuts** > **RI association** > **RI EAJE/ALSH** > **RI salariés** : hiérarchie de cohérence\n- Un RI ne peut **jamais** contredire un texte supérieur\n- En cas de doute, faire prévaloir le texte le plus protecteur",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques :\n- **RI salariés non déposé à l'Inspection du travail** : RI inopposable aux salariés, sanctions disciplinaires sans base juridique → annulation par Conseil de Prud'hommes\n- **RI EAJE non remis aux familles** : refus possible de la PMI lors d'un contrôle, voire suspension d'autorisation\n- **Sanctions disproportionnées** : un RI ne peut pas prévoir d'exclusion immédiate sans procédure contradictoire — **respect du contradictoire** obligatoire\n- **RI obsolète** : non actualisé après changement de loi (RGPD, harcèlement loi 2024) — risque d'incohérence\n- **Différence RI / règlement de fonctionnement** : ne pas confondre. Le **règlement de fonctionnement ESSMS** (CASF L311-7) est obligatoire pour MECS/EHPAD, pas pour EAJE classique. Un RI EAJE est en pratique un règlement de fonctionnement contractuel.\n- **Cumul avec contrat d'accueil** : pour EAJE, on signe **contrat d'accueil** (individuel, juridique) ET RI (collectif, opérationnel) — ne pas confondre\n- **Sanctions financières** : interdites en RI salariés (article L1331-2 Code travail) — pas d'amendes possibles",
+        "sources": [
+          "Loi du 1er juillet 1901",
+          "Code du travail — articles L1311-1 à L1321-7",
+          "Code de l'action sociale et des familles — article L311-7",
+          "Décret n°2003-1095 du 14 novembre 2003",
+          "CASF — décret 2007-1141 (PMI EAJE)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail RI L1311-1 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195692/"
+          },
+          {
+            "titre": "Service-Public — Règlement intérieur entreprise",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F32096"
+          },
+          {
+            "titre": "ACEPP — Modèle règlement de fonctionnement EAJE",
+            "url": "https://acepp.asso.fr/ressources"
+          },
+          {
+            "titre": "CAF.fr — Référentiel EAJE",
+            "url": "https://www.caf.fr/partenaires"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 + Code du travail L1311 + CASF L311-7"
+      }
+    },
+
+    {
+      "id": "gv-34",
+      "_theme_target": "cadre_legal",
+      "question_type": "Comment obtenir et conserver l'agrément Jeunesse et Éducation Populaire (JEP) ?",
+      "mots_cles": [
+        "agrément JEP", "Jeunesse Éducation Populaire",
+        "DRAJES", "décret 2002-571",
+        "FONJEP", "association éducation populaire",
+        "ALISFA centres sociaux Francas FCSF"
+      ],
+      "reponse": {
+        "synthese": "L'**agrément JEP** (Jeunesse et Éducation Populaire) est délivré par les **DRAJES** (services déconcentrés de l'État, ex-DRJSCS) aux associations qui contribuent à l'éducation populaire et aux politiques de jeunesse. **Ouvert** aux structures ALISFA (centres sociaux, EAJE associatifs, ALSH, fédérations Francas/Léo Lagrange/Ligue) sous conditions : **3 ans d'existence** au moins, **fonctionnement démocratique** (statuts loi 1901), **objet conforme** aux missions JEP, **transparence financière**. **Avantages** : éligibilité aux postes **FONJEP**, certains marchés publics réservés, soutien institutionnel. **Procédure** : dossier en ligne, examen 4-6 mois, agrément 5 ans renouvelable. **Loi 2017-86 du 27 janvier 2017** a unifié le dispositif (auparavant 1 agrément par activité).",
+        "fondement_legal": "**Décret n°2002-571 du 22 avril 2002** : agrément JEP. **Loi n°2017-86 du 27 janvier 2017** (loi Égalité Citoyenneté) : tronc commun d'agrément (article 25) + Contrat d'Engagement Républicain (CER). **Code de l'éducation** : articles **L551-1** et suivants. **Décret n°2017-908 du 6 mai 2017** (modalités tronc commun).",
+        "fondement_ccn": "L'agrément JEP **ne s'impose pas** par la CCN ELISFA, mais beaucoup de structures ALISFA en bénéficient car leur activité (centres sociaux, ALSH, animation) relève de l'éducation populaire. **Indirect** : agrément JEP ouvre l'accès à FONJEP qui co-finance des postes en CCN ELISFA.",
+        "application": "**Demander et conserver l'agrément JEP** :\n\n**1. Conditions d'éligibilité (décret 2002-571 + loi 2017-86)**\n\n**A. Conditions générales (\"tronc commun d'agrément\")**\n- Forme : association loi 1901 (ou loi 1908 Alsace-Moselle)\n- **3 ans d'existence** minimum (parfois 1 an pour certaines situations)\n- **Fonctionnement démocratique** : AG annuelle, organes élus, transparence\n- **Régularité financière** : comptes annuels approuvés en AG, dépôt en préfecture si > 153 000 € subventions\n- **Égal accès** : non-discrimination dans l'adhésion\n- **CER (Contrat d'Engagement Républicain)** : signé depuis 2022 (loi 2021-1109)\n\n**B. Conditions spécifiques JEP**\n- **Objet** conforme aux missions JEP : éducation populaire, animation socio-éducative, jeunesse, citoyenneté\n- **Activités** : régulières, accessibles, à dominante éducative ou animation sociale\n- **Public** : tous publics ou priorité jeunesse\n- **Engagement bénévole** : présence significative de bénévoles\n\n**2. Procédure de demande**\n\n**A. Pièces à fournir**\n- Statuts à jour\n- RI le cas échéant\n- Dernier rapport d'activité\n- Comptes 3 derniers exercices + procès-verbaux d'AG\n- Liste des dirigeants\n- CER signé\n- Description des activités\n- Présentation des projets éducatifs\n\n**B. Dépôt**\n- **En ligne** : Le Compte Asso (https://lecompteasso.associations.gouv.fr) ou plateforme régionale DRAJES\n- **Adressé** à la DRAJES de la région du siège\n\n**C. Instruction**\n- Délai : **4-6 mois** en moyenne\n- Examen par les services de l'État + commission consultative régionale\n- Décision : agrément accordé, refusé, ou demande de complément\n\n**D. Renouvellement**\n- Tous les **5 ans** (décret 2017-908)\n- Procédure simplifiée mais **bilan détaillé** des 5 ans à fournir\n- Contrôle régulier : la DRAJES peut vérifier la conformité (visite, audit)\n\n**3. Avantages de l'agrément JEP**\n\n**A. Postes FONJEP**\n- Cofinancement État de postes en CDI : ~7 000 €/an/poste, durée 3 ans renouvelable\n- 1 500 postes en France (concurrence forte)\n- Demande annuelle auprès de la DRAJES\n\n**B. FDVA**\n- Fonds pour le Développement de la Vie Associative\n- 3 axes : formation bénévoles, fonctionnement, projets innovants\n- Priorité aux associations agréées JEP\n\n**C. Marchés publics réservés**\n- Article 36 loi Hamon : marchés ≤ 90 000 € peuvent être réservés à structures ESS / agréées JEP\n- Avantage concurrentiel sur certains marchés municipaux\n\n**D. Soutien institutionnel**\n- Reconnaissance officielle de l'expertise éducation populaire\n- Visibilité dans les politiques publiques jeunesse\n- Référencement préférentiel sur certains appels à projets\n- Participation aux instances de concertation (CDJSEAS — Comité Départemental de la Jeunesse, Sports, Éducation Populaire et Vie Associative)\n\n**E. Stages / volontariat**\n- Accueil de **service civique** facilité (agrément Service Civique souvent couplé)\n- Stages de pratique amateur\n\n**4. Conserver l'agrément**\n\n**A. Obligations annuelles**\n- Tenir l'AG dans les délais (souvent juin ou décembre)\n- Approuver les comptes\n- Mettre à jour le RNA si modifications\n- Respecter le CER\n- Maintenir l'objet et les activités conformes JEP\n\n**B. Risques de retrait**\n- **Manquement au CER** (atteintes laïcité, atteinte aux libertés...) : retrait après procédure contradictoire\n- **Comptabilité non transparente** : non-approbation comptes en AG, refus de communication aux financeurs\n- **Activités déviantes** : commercialisation sans encadrement, dérive vers concurrence marchande\n- **Inactivité** : pas d'AG depuis 3 ans, pas d'activités effectives\n\n**C. Contrôle de la DRAJES**\n- Visite occasionnelle ou sur signalement\n- Audit possible (généralement 1×/5-7 ans)\n- Bilan de mission demandé pour le renouvellement\n\n**5. Spécificités ALISFA**\n- **Centres sociaux** : agrément JEP couplé avec agrément CAF (centre social) — synergique\n- **EAJE associatifs** : agrément JEP plus rare (l'EAJE est plus encadré PMI), mais possible pour structures multi-activités\n- **ALSH** : agrément JEP fréquent (animation jeunesse au cœur)\n- **Fédérations** (Francas, FCSF, Léo Lagrange, Ligue) : toutes agréées JEP au niveau national, agréments locaux par implantation\n\n**6. Cumul avec autres agréments**\n- **Agrément Sport** : si activités sportives encadrées (concurrent ou complémentaire JEP)\n- **Agrément SR (Service Régional du Conseil de l'Éducation)** : concerne associations péri-scolaires\n- **Agrément Centre Social** (CAF) : couplé souvent avec JEP\n- **Agrément ESUS** : peut s'ajouter pour épargne solidaire\n- **Agrément Service Civique** : accueil jeunes 16-25 ans en mission\n- **Reconnaissance d'Intérêt Général (RIG)** : permet émission reçus fiscaux (pas un agrément officiel mais position fiscale)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges :\n- **CER non signé** depuis 2022 : refus / retrait automatique de l'agrément\n- **Délai 4-6 mois** : anticiper. Pas d'agrément, pas d'accès FONJEP cette année.\n- **Refus initial** : possible recours gracieux (DRAJES) puis hiérarchique (ministère) puis contentieux (TA)\n- **Renouvellement automatique** : non, demande à initier 6 mois avant échéance\n- **Périmètre régional** : l'agrément vaut sur la **région** du siège. Si ouverture d'antenne dans autre région : agrément à élargir\n- **Modification de l'objet social** : peut entraîner réexamen agrément JEP — anticiper\n- **Concurrence FONJEP** : taux de sélection 30-40%. Soigner la demande, mobiliser parlementaires/élus si possible.\n- **Confusion JEP / Service Civique** : agréments distincts, procédures distinctes\n- **Reportings parfois lourds** : surtout si cumul avec CAF, FONJEP, FDVA — capacité administrative à anticiper",
+        "sources": [
+          "Décret n°2002-571 du 22 avril 2002 (agrément JEP)",
+          "Loi n°2017-86 du 27 janvier 2017 (Égalité Citoyenneté)",
+          "Décret n°2017-908 du 6 mai 2017 (tronc commun)",
+          "Loi n°2021-1109 du 24 août 2021 (CER)",
+          "Code de l'éducation — L551-1 et suivants"
+        ],
+        "liens": [
+          {
+            "titre": "Associations.gouv.fr — Agrément JEP",
+            "url": "https://www.associations.gouv.fr/agrement-jep.html"
+          },
+          {
+            "titre": "Le Compte Asso — Demande agrément en ligne",
+            "url": "https://lecompteasso.associations.gouv.fr/"
+          },
+          {
+            "titre": "Service-Public — Agréments associatifs",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1132"
+          },
+          {
+            "titre": "FONJEP — Postes pour la jeunesse et l'éducation populaire",
+            "url": "https://www.fonjep.org/"
+          },
+          {
+            "titre": "Associations.gouv.fr — Contrat d'Engagement Républicain",
+            "url": "https://www.associations.gouv.fr/contrat-d-engagement-republicain.html"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Décret 2002-571 + Loi 2017-86 + CER 2021-1109"
+      }
+    },
+
+    {
+      "id": "gv-35",
+      "_theme_target": "cadre_legal",
+      "question_type": "Quelles différences entre Reconnaissance d'Intérêt Général (RIG), Reconnaissance d'Utilité Publique (RUP) et agrément ESUS ?",
+      "mots_cles": [
+        "RIG", "Reconnaissance Intérêt Général",
+        "RUP", "Utilité Publique",
+        "ESUS", "Entreprise Solidaire Utilité Sociale",
+        "mécénat", "réduction impôt",
+        "Loi 1987 mécénat", "Loi Hamon 2014"
+      ],
+      "reponse": {
+        "synthese": "**3 statuts juridiques** souvent confondus mais distincts : **(1) Reconnaissance d'Intérêt Général (RIG)** = position fiscale (article 200 CGI), pas un agrément formel — permet d'émettre **reçus fiscaux** ouvrant droit à réduction d'impôt 66% pour donateurs ; **(2) Reconnaissance d'Utilité Publique (RUP)** = statut juridique exceptionnel par **décret en Conseil d'État** (~2 100 associations en France) — donne capacité juridique élargie + statuts types stricts + avantages fiscaux supplémentaires ; **(3) Agrément ESUS (Entreprise Solidaire d'Utilité Sociale)** = label loi Hamon 2014 — accès à l'**épargne solidaire** + réduction IR Madelin pour souscripteurs. **Pour la plupart des associations ALISFA** : RIG est **automatique** (pas de démarche), RUP est rare (procédure 12-18 mois), ESUS est **utile mais sélectif**.",
+        "fondement_legal": "**RIG** : article **200 CGI** (réduction IR donateurs) + article **238 bis CGI** (réduction IS) + **rescrit fiscal** article **L80 C LPF** (sécurité juridique). **RUP** : décret 16 août 1901 article 11 + **loi du 1er juillet 1901 article 11** + décret n°66-388 du 13 juin 1966 + statuts types par décret. **ESUS** : **loi n°2014-856 du 31 juillet 2014 articles 8-11** + **décret n°2015-719 du 23 juin 2015**.",
+        "fondement_ccn": "Aucune incidence directe CCN, mais ces statuts peuvent **renforcer la pérennité financière** de la structure et donc des emplois (via mécénat, épargne solidaire).",
+        "application": "**Tableau comparatif et application pratique** :\n\n**1. Tableau récapitulatif**\n\n| Critère | **RIG** | **RUP** | **ESUS** |\n|---------|---------|---------|----------|\n| **Nature** | Position fiscale | Statut juridique | Label/agrément |\n| **Texte** | CGI 200/238bis | Loi 1901 art 11 | Loi Hamon 2014 |\n| **Démarche** | Implicite (rescrit possible) | Décret Conseil d'État | DREETS |\n| **Conditions** | Activité d'IG, gestion désintéressée, cercle restreint exclu | Conditions strictes (700 membres, 5 ans, transparence) | Utilité sociale principale + critères |\n| **Délai** | Immédiat (rescrit 6 mois) | 12-18 mois | 6 mois |\n| **Validité** | Permanente (sous conditions) | Permanente (sous contrôle ministériel) | 5 ans renouvelable |\n| **Avantages** | Mécénat 66/60% | Mécénat 66/60% + capacité juridique élargie + immunité fiscale renforcée | Épargne solidaire + IR Madelin 25% souscripteurs |\n| **Coût** | Gratuit | Gratuit (mais procédure lourde) | Gratuit |\n\n**2. RIG (Reconnaissance d'Intérêt Général)**\n\n**A. Conditions cumulatives (article 200 CGI)**\n- **Activité d'intérêt général** : caractère philanthropique, éducatif, scientifique, social, humanitaire, sportif, familial, culturel, défense de l'environnement\n- **Gestion désintéressée** : dirigeants bénévoles ou rémunérés dans les plafonds (3/4 SMIC ou IS plafonné)\n- **Pas de cercle restreint** : ne pas profiter exclusivement à un groupe limité (ex. : association familiale stricto sensu = cercle restreint = non IG ; centre social ouvert au quartier = non cercle restreint = IG OK)\n\n**B. Sécuriser la position : rescrit fiscal**\n- Demande gratuite à l'administration fiscale (article L80 C LPF)\n- **Modèle de demande** : décrire association + activités + budget + dirigeants + conformité aux 3 conditions\n- **Délai de réponse** : 6 mois (silence = accord pour rescrit \"général\", silence = pas accord pour rescrit \"mécénat\")\n- **Effet** : sécurise la position pour 4 ans (sauf changement situation)\n\n**C. Émission de reçus fiscaux (CERFA 11580*04)**\n- Pour particuliers : réduction IR 66% du don, dans la limite de 20% du revenu imposable\n- Pour entreprises : réduction IS 60% jusqu'à 0,5% du CA (puis 0,1% au-delà)\n- Mention obligatoire : numéro RNA, identité donateur, date, montant, signature\n\n**D. Sanctions en cas de reçu indu**\n- Reçu fiscal sans IG : pénalité 6× le montant du reçu + responsabilité personnelle dirigeants\n\n**3. RUP (Reconnaissance d'Utilité Publique)**\n\n**A. Conditions strictes**\n- **Existence** : 3 ans d'activité minimum\n- **Membres** : 200 minimum (souvent 500-700 demandés en pratique)\n- **Statuts types** : modèle imposé par décret (peu de marge)\n- **Comptabilité certifiée** : CAC obligatoire, comptes consolidés\n- **Périmètre national ou supra-régional** (rare pour structures locales)\n- **Transparence financière** totale\n\n**B. Procédure**\n1. Constitution dossier : statuts, comptes, rapport d'activité, projet stratégique\n2. **Demande au préfet** du siège\n3. Examen interministériel\n4. **Avis Conseil d'État**\n5. **Décret en Conseil d'État** (publication JO)\n6. **Délai total** : 12-18 mois\n\n**C. Avantages**\n- Capacité juridique élargie (recevoir donations, legs)\n- Mécénat 66/60% renforcé\n- Possibilité d'**émission de titres associatifs** (article L213-8 CMF)\n- Reconnaissance institutionnelle forte\n- Réduction droits de succession 100% pour legs\n\n**D. Inconvénients**\n- Statuts types très contraignants (peu de flexibilité)\n- Tutelle ministère (rapport annuel détaillé)\n- Procédure de modification statutaire lourde (re-décret nécessaire)\n\n**E. Rare en ALISFA**\n- ~2 100 associations RUP en France\n- Peu de structures ALISFA : Croix-Rouge, Secours Catholique, FCSF (la fédération), pas les centres sociaux locaux\n\n**4. ESUS (Entreprise Solidaire d'Utilité Sociale)**\n\n**A. Conditions cumulatives (article 11 loi Hamon)**\n- **ESS de droit** : association loi 1901, coopérative, mutuelle, fondation, ou société commerciale ESS agréée\n- **Utilité sociale** : c'est le **but principal** (pas accessoire)\n- **Charges induites** : l'utilité sociale a un impact significatif sur le compte de résultat (ex. : tarifs sociaux, accompagnement public fragile)\n- **Encadrement rémunérations dirigeants** : ≤ 7× SMIC pour le mieux payé, ≤ 10× SMIC en moyenne sur les 5 mieux payés\n- **Titres financiers non cotés**\n\n**B. Procédure**\n- Demande à la DREETS (Direction Régionale de l'Économie)\n- Dossier : statuts, comptes 2 ans, attestation engagements\n- Délai : ~6 mois\n- Validité : 5 ans renouvelable\n\n**C. Avantages**\n- Accès à l'**épargne salariale solidaire** (FCPE solidaires)\n- **Réduction IR Madelin 25%** pour souscripteurs (jusqu'à 12 500 € pour célibataires, 25 000 € pour couples)\n- Visibilité auprès financeurs solidaires (BPI ESS, France Active)\n- Levée de fonds via plateformes solidaires\n\n**D. Pertinent pour qui en ALISFA ?**\n- Structures recherchant **épargne solidaire** ou **lever des fonds** auprès de particuliers\n- Pas pertinent si pas de stratégie financière externe\n\n**5. Cumul possible**\n- **RIG + ESUS** : très fréquent (centres sociaux ALISFA agréés JEP + RIG fiscal + ESUS si engagement)\n- **RIG + RUP** : automatique (RUP implique RIG)\n- **RUP + ESUS** : rare mais possible\n- **JEP + RIG + ESUS** : combinaison classique pour grosses structures ALISFA",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points d'attention :\n- **RIG \"automatique\"** est un raccourci : si une activité dérive (commercialisation, cercle restreint), la RIG **disparaît** sans préavis. Vérifier annuellement.\n- **Reçu fiscal indu** = sanction administrative + pénale (article 1741 CGI). Le rescrit fiscal protège, sa demande est gratuite.\n- **RUP** : ne pas envisager pour une petite structure locale (procédure trop lourde pour les avantages obtenus). Pertinent surtout pour fédérations/structures nationales.\n- **ESUS** : exigence de rémunération max ≤ 7× SMIC (~140 000 €/an) — peut bloquer si direction de grande structure très rémunérée\n- **Dérive vers la lucrativité** : peut faire perdre RIG **et** ESUS. Surveillance fiscale annuelle.\n- **Confusion ESS / ESUS** : ESS = périmètre large (toutes associations ESS de droit), ESUS = label exigeant (sélectif)\n- **Mécénat \"sponsoring\"** : si le donateur reçoit contrepartie significative (publicité, services), c'est du sponsoring (TVA + IS) pas du mécénat. Rédiger conventions précises.\n- **Plafond mécénat entreprise** depuis 2020 : 0,5% du CA jusqu'à 2 M€, puis 0,1% au-delà. Suivre rigoureusement.\n- **Évolutions législatives** : la fiscalité associative évolue régulièrement — veille avec expert-comptable",
+        "sources": [
+          "Code général des impôts — article 200, 238 bis",
+          "LPF — article L80 C (rescrit)",
+          "Loi du 1er juillet 1901 — article 11 (RUP)",
+          "Décret n°66-388 du 13 juin 1966 (RUP)",
+          "Loi Hamon n°2014-856 — articles 8-11 (ESUS)",
+          "Décret n°2015-719 du 23 juin 2015 (ESUS)"
+        ],
+        "liens": [
+          {
+            "titre": "Associations.gouv.fr — Reconnaissance d'utilité publique",
+            "url": "https://www.associations.gouv.fr/la-reconnaissance-d-utilite-publique.html"
+          },
+          {
+            "titre": "Économie.gouv.fr — Agrément ESUS",
+            "url": "https://www.economie.gouv.fr/cedef/entreprise-sociale-utilite-sociale-ESUS"
+          },
+          {
+            "titre": "Impots.gouv.fr — Rescrit fiscal mécénat",
+            "url": "https://www.impots.gouv.fr/portail/professionnel/le-rescrit-une-prise-de-position-formelle-de-ladministration"
+          },
+          {
+            "titre": "Associations.gouv.fr — Mécénat et dons",
+            "url": "https://www.associations.gouv.fr/le-mecenat-et-les-dons.html"
+          },
+          {
+            "titre": "ESS-France — Plaidoyer ESS et ESUS",
+            "url": "https://www.ess-france.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "CGI 200/238bis + Loi 1901 art 11 + Loi Hamon 2014 art 8-11"
+      }
+    },
+
+    {
+      "id": "gv-36",
+      "_theme_target": "instances",
+      "question_type": "Comment organiser une AG ordinaire conforme aux statuts (convocation, quorum, vote, PV) ?",
+      "mots_cles": [
+        "assemblée générale", "AGO",
+        "convocation", "quorum", "majorité",
+        "procès-verbal", "PV signé",
+        "vote secret", "procuration",
+        "ALISFA association loi 1901"
+      ],
+      "reponse": {
+        "synthese": "L'**Assemblée Générale Ordinaire (AGO)** est la **réunion souveraine** annuelle de l'association : tous les adhérents y sont invités pour approuver le rapport moral, le rapport financier, élire les administrateurs, voter le budget. **Loi 1901 ne l'impose pas** explicitement, mais les statuts en font une obligation pour la **plupart** des associations (et c'est requis pour les agréments CAF, JEP, FONJEP, etc.). **Procédure** : convocation **15 jours minimum** avant, ordre du jour clair, **quorum** et **majorité** selon statuts, **procès-verbal signé** par président et secrétaire. Une AG mal organisée peut entraîner **nullité** des décisions (jurisprudence constante).",
+        "fondement_legal": "**Loi du 1er juillet 1901** : pas d'obligation explicite, mais l'AG est **prévue par la jurisprudence** comme organe de contrôle démocratique. **Code civil article 1837** : par analogie pour les sociétés. **Décret du 16 août 1901**. **Conseils des Prud'hommes / TJ** : nullité possible si non-respect statuts. **Code monétaire et financier** : approbation comptes (article R612-9 si > 153 000 € subventions). **Décret n°2009-540 du 14 mai 2009** : transparence comptes.",
+        "fondement_ccn": "Pas de disposition CCN sur l'AG, mais l'**élection des dirigeants** en AG produit des effets RH directs : c'est le nouveau président (élu par CA après AG) qui sera **représentant légal employeur** (signe contrats, embauche, etc.). **Cohérence indispensable** entre AG / déclaration préfecture / signatures contrats.",
+        "application": "**Organiser une AGO en pratique — calendrier type 6 mois** :\n\n**1. Préparation (J-180 à J-30)**\n\n**A. Définir la date et le lieu**\n- **Date** : selon statuts (souvent juin pour les associations à exercice civil, novembre/décembre pour les associations en saison scolaire)\n- **Lieu** : accessible à tous les adhérents (PMR, transports en commun)\n- **Visioconférence** : possible si prévu dans statuts ou ratifié à AGE (depuis ordonnance 2020-321 du 25 mars 2020 pendant Covid, désormais permanente)\n- **Hybride** : présentiel + visio, recommandé pour inclusion\n\n**B. Préparer les documents**\n- **Rapport moral** : président retrace l'année (réalisations, perspectives) — 5-10 pages\n- **Rapport financier** : trésorier présente comptes (résultat, bilan, annexes) — certifiés par CAC ou expert-comptable\n- **Rapport d'activité** : équipe salariée détaille les actions\n- **Budget prévisionnel** : trésorier propose le BP de l'année à venir\n- **Listes candidatures** : appel à candidatures pour le CA (mandats à renouveler)\n- **Projets de résolution** : votes prévus à l'OJ\n\n**C. Adresser convocation aux adhérents**\n- **Délai** : **15 jours minimum** (souvent 21 jours statutaires)\n- **Modalités** : selon statuts — courrier, email, affichage\n- **Contenu obligatoire** :\n  - Date, heure, lieu (ou modalités visio)\n  - Ordre du jour (OJ) précis\n  - Modalités de vote (à main levée, bulletin secret)\n  - Modalités de procuration\n  - Pièces jointes : rapports + comptes (idéalement annexés)\n\n**2. Tenue de l'AGO (Jour J)**\n\n**A. Émargement et vérification quorum**\n- **Liste d'émargement** : signature de chaque adhérent présent ou représenté\n- **Vérifier les pouvoirs/procurations** (max 3 par membre recommandé)\n- **Calculer le quorum** selon statuts (souvent 1/4 ou 1/3 des adhérents)\n- **Quorum atteint** ? Si non, ajourner et reconvoquer ou voter quand même selon statuts (souvent quorum réduit en seconde convocation)\n\n**B. Désigner le bureau de séance**\n- **Président de séance** (souvent le président de l'asso)\n- **Secrétaire de séance** (souvent le secrétaire de l'asso)\n- **Scrutateurs** (2 personnes) : pour comptage votes\n- **Possibilité** : faire élire un président de séance externe (médiateur)\n\n**C. Déroulé type AGO**\n1. **Ouverture** par président de séance + vérification quorum + lecture OJ\n2. **Approbation PV de l'AG précédente** (vote)\n3. **Rapport moral** : présentation par président → questions/débat → vote\n4. **Rapport d'activité** : présentation par direction → questions/débat\n5. **Rapport financier** : présentation par trésorier → questions/débat → vote (approbation comptes)\n6. **Décharge donnée aux administrateurs** (les exonère de responsabilité pour exercice écoulé)\n7. **Affectation du résultat** : vote (mise en réserve, report)\n8. **Budget prévisionnel** : présentation et vote\n9. **Élection des administrateurs** : présentation des candidats → vote (à main levée ou secret selon statuts)\n10. **Proclamation** des résultats\n11. **Questions diverses** (si prévu à l'OJ)\n12. **Clôture** par président de séance\n\n**D. Modalités de vote**\n- **À main levée** : par défaut, sauf demande de scrutin secret par 1+ membre\n- **Scrutin secret** : obligatoire pour élection des dirigeants si statuts le prévoient\n- **Procurations** : limitées (max 3 par membre recommandé)\n- **Vote à distance** : si prévu (numérique ou par correspondance)\n\n**3. Après l'AG (J+1 à J+30)**\n\n**A. Rédiger le procès-verbal (PV)**\n- **Délai** : 15 jours max (recommandé sous 7 jours)\n- **Contenu** : date, lieu, OJ, présents/représentés, quorum, décisions votées avec résultats (pour/contre/abstention), points évoqués\n- **Signature** : président de séance + secrétaire de séance\n- **Diffusion** : envoyé aux adhérents (par mail) et conservé en registre\n\n**B. Convoquer le CA pour élire le bureau**\n- Sous **30 jours** recommandé\n- CA élit en son sein : président, vice-président(s), trésorier, secrétaire\n\n**C. Déclarations administratives**\n- **Préfecture** : changements de dirigeants (sous 3 mois) — voir gv-32\n- **Banque** : nouveaux signataires (procurations)\n- **Financeurs (CAF, mairie, département)** : courrier officiel + nouveau récépissé préfecture\n- **JOAFE** : si changement objet/dénomination/siège\n- **Mise à jour mentions légales site** : nouveau directeur de publication\n\n**D. Communication interne**\n- Newsletter aux adhérents avec PV résumé + nouvelles orientations\n- Mise à jour site web (composition CA, projet associatif si évolution)\n\n**4. Cas particuliers**\n\n**A. AG en visioconférence**\n- Possible depuis 2020, encadrée par décret 2014-1083 + ordonnance 2020-321\n- **Conditions** : prévu dans statuts ou voté préalablement en AGE\n- **Procédures** : signature électronique, vote en ligne (Loomio, Wooclap, Zoom polls)\n- **Garanties** : identification membres, secret du vote, traçabilité\n\n**B. Refus de l'approbation des comptes**\n- L'AG peut refuser d'approuver les comptes (motion de défiance)\n- Conséquences : pas de décharge des administrateurs, méfiance, possibles démissions\n- Procédure : nouvelle AG dans les 6 mois pour résoudre, ou nomination expert-comptable\n\n**C. AG d'une association RUP**\n- Statuts types imposent rythme et modalités\n- Tutelle ministérielle : représentant peut assister à l'AG\n\n**D. AG conjointe avec Assemblée Générale Extraordinaire (AGE)**\n- Possible : OJ inclut points AGO + points AGE (modifications statuts, dissolution)\n- Quorums et majorités séparés selon nature des votes",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques :\n- **Convocation tardive** (< 15 jours) : nullité possible des décisions sur recours\n- **OJ flou** : seuls les points clairement listés à l'OJ peuvent être votés. Pas de \"motion surprise\" en AG.\n- **Quorum non atteint et non respect des statuts** : décisions nulles. Reconvoquer.\n- **PV oublié ou non signé** : décisions difficiles à opposer aux tiers (banque, préfecture)\n- **Adhérents non à jour de cotisation votant** : selon statuts, droit de vote suspendu si pas à jour. Vérifier en début AG.\n- **Procurations sans pouvoir limité** : un président qui détient 50 procurations contrôle l'AG → limiter (max 3 procurations/personne recommandé)\n- **Comptes non certifiés** au-delà de 153 000 € subventions publiques : irrégularité (loi 1993)\n- **Élection bureau hors statuts** : les statuts définissent qui élit le bureau (CA en son sein le plus souvent). Une AG qui élirait directement le bureau peut être contestée.\n- **Abus de majorité** : majorité qui prend décisions contre l'intérêt social peut être annulée par juge (Cass. com. 2010)\n- **Débat tronqué** : tous les adhérents doivent pouvoir s'exprimer. Un président qui clôt prématurément le débat fragilise les décisions.\n- **AG annulée judiciairement** : conséquences lourdes (toutes décisions vacantes). Préférer la prévention par bonne tenue.",
+        "sources": [
+          "Loi 1er juillet 1901 + Décret 16 août 1901",
+          "Code civil article 1837",
+          "Décret n°2014-1083 du 24 septembre 2014 (vote distance)",
+          "Ordonnance n°2020-321 du 25 mars 2020 (visio)",
+          "Service-Public — Tenue d'une AG association"
+        ],
+        "liens": [
+          {
+            "titre": "Service-Public — Assemblée générale d'association",
+            "url": "https://www.service-public.fr/associations/vosdroits/F1132"
+          },
+          {
+            "titre": "Associations.gouv.fr — Vie statutaire",
+            "url": "https://www.associations.gouv.fr/la-vie-statutaire.html"
+          },
+          {
+            "titre": "Légifrance — Décret 2014-1083 vote à distance",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000029507345/"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Outils gouvernance",
+            "url": "https://lemouvementassociatif.org/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Loi 1901 + Décret 1901 + Service-Public 2024 + jurisprudence Cass."
+      }
+    }
+
+  ]
+}

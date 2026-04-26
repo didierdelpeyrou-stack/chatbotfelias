@@ -1,0 +1,729 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 R-Vague1 lot 2 — RH Chapitres IV-V-VI CCN ELISFA mars 2026 (14 articles)",
+    "lot": "R2/R5",
+    "topic": "Durée et conditions de travail (Chap IV) + Système de rémunération (Chap V) + Congés (Chap VI)",
+    "generated_at": "2026-04-26",
+    "source_principale": "CCN ELISFA mars 2026 — Chapitres IV, V, VI + Code du travail",
+    "theme_target": "rh"
+  },
+
+  "articles": [
+
+    {
+      "id": "rh-21",
+      "_theme_target": "temps_de_travail",
+      "question_type": "Quelle est la durée du travail applicable et comment l'organiser dans la branche ALISFA (Chapitre IV CCN) ?",
+      "mots_cles": [
+        "durée du travail", "35 heures", "1607 heures",
+        "annualisation", "modulation", "heures supplémentaires",
+        "repos hebdomadaire", "amplitude journalière",
+        "Chapitre IV article 1 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La durée du travail dans la branche ALISFA suit la **CCN ELISFA Chapitre IV article 1** : durée légale **35 heures hebdomadaires** (1 607 heures annuelles, journée de solidarité incluse). **Annualisation possible** par accord d'entreprise pour adapter à l'activité saisonnière (ALSH, fermetures EAJE). **Heures supplémentaires** : majorées 25 % (8 premières heures au-delà de 35h) puis 50 %. **Repos hebdomadaire** : minimum 35 heures consécutives (24h + 11h repos quotidien). **Amplitude journalière** : 13 heures maximum.",
+        "fondement_legal": "**Code du travail** — articles **L3121-1 à L3121-67** (durée du travail), **L3121-27** (durée légale 35h), **L3121-28** (heures sup), **L3132-1 à L3132-3** (repos hebdomadaire), **L3131-1** (repos quotidien 11h). **Loi du 19 janvier 2000** (35h) + **Loi du 20 août 2008** (négociation annualisation au niveau entreprise).",
+        "fondement_ccn": "**CCN ELISFA Chapitre IV article 1** : dispositions générales sur la durée et l'organisation du travail. **Article 4** : jours de repos RTT. **Article 5** : compte épargne temps. La CCN permet l'annualisation par accord d'entreprise pour adapter aux contraintes des structures (centres sociaux, EAJE, ACM, ADSL).",
+        "application": "**Cadre légal et CCN ALISFA** :\n\n**Durée légale** :\n- 35 heures hebdomadaires (lundi → dimanche)\n- 151,67 heures mensuelles (35 × 52 / 12)\n- 1 607 heures annuelles (incluant la journée de solidarité)\n\n**Aménagement possible (CCN + Code travail)** :\n- **Forfait hebdomadaire** : 35h sur 5 jours (= 7h/jour) ou 4 jours\n- **Forfait mensuel** : 151,67h\n- **Annualisation** par accord (modulation pour activité saisonnière)\n  - Période haute (ALSH été, début scolaire) : jusqu'à 44h/sem\n  - Période basse (vacances scolaires en EAJE) : 28-32h/sem\n- **Forfait jours** : pour cadres autonomes (Chap XI art 7) — 218 jours/an max\n\n**Heures supplémentaires** :\n- Au-delà de 35h hebdomadaires (ou seuil annualisé)\n- **Majoration 25%** pour les 8 premières heures sup (36-43h)\n- **Majoration 50%** au-delà de la 43e heure\n- **Contingent annuel** : 220 heures/salarié (CCN peut fixer)\n- **Repos compensateur obligatoire** au-delà du contingent (50% sup)\n\n**Heures complémentaires** (temps partiel, cf. article connexe `rh-22`) :\n- Limité à 1/3 de la durée contractuelle\n- Majoration 10% (jusqu'à 1/10) puis 25%\n\n**Repos minimums** :\n- **Repos hebdomadaire** : 35 heures consécutives (24h + 11h quotidien)\n- **Repos quotidien** : 11 heures consécutives entre deux journées de travail\n- **Pause** : 20 minutes après 6 heures de travail consécutif\n- **Travail dominical** : interdit en principe, dérogations possibles (établissements à but social comme EAJE, ACM)\n\n**Travail de nuit** (21h-6h) :\n- Surveillance médicale renforcée\n- Compensation en repos OU majoration salariale\n- Limité à 8h/nuit max et 40h hebdo en moyenne\n\n**Travail des jeunes** :\n- < 18 ans : 35h max, repos 12h, pas de nuit (sauf dérogations)\n- < 16 ans (apprentissage CAP AEPE) : conditions spécifiques\n\n**Outils de suivi** :\n- **Pointeuse** ou tableur de suivi temps de travail\n- **Décompte annuel** si annualisation\n- **Affichage horaires** obligatoire (article D3171-1)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Annualisation sans accord** : illégale → toutes les heures > 35h hebdo en heures sup\n- **Forfait jours sans convention écrite** : nullité, contestation salariale\n- **Repos quotidien 11h** non respecté : sanction (jusqu'à 1 500 €/jour/salarié)\n- **Travail dominical EAJE/ACM** : vérifier dérogation préfectorale + accord salarié\n- **Heures sup non payées** : risque travail dissimulé (article L8221-5 CT) — sanctions pénales\n- **Cadres en forfait jours** : suivi de la charge de travail, droit à la déconnexion (Chap XI art 8)\n- **Suivi du temps de travail** : obligatoire (Cour cassation 2018) — sinon présomption favorable au salarié",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre IV articles 1, 4, 5",
+          "Code du travail — articles L3121-1 à L3121-67",
+          "Code du travail — articles L3131-1, L3132-1 à L3132-3",
+          "Loi du 19 janvier 2000 (35h) + Loi 20 août 2008 (annualisation)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Durée du travail L3121",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195795/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Durée du travail",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/N515",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre IV",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre IV article 1"
+      }
+    },
+
+    {
+      "id": "rh-22",
+      "_theme_target": "temps_de_travail",
+      "question_type": "Comment gérer un contrat de travail à temps partiel dans la branche ALISFA ?",
+      "mots_cles": [
+        "temps partiel", "TP", "durée minimale 24h",
+        "heures complémentaires", "avenants temps partiel",
+        "modification durée", "égalité TP",
+        "Chapitre IV article 2 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le temps partiel dans la branche ALISFA suit la **CCN ELISFA Chapitre IV article 2** + Code du travail (L3123-1 à L3123-32). **Durée minimale légale** : **24 heures hebdomadaires** (sauf dérogations encadrées). **Mentions obligatoires** : durée hebdo/mensuelle, répartition, conditions de modification. **Heures complémentaires** : limitées à 1/3 de la durée contractuelle, majorées (10% les 1 sur 10, 25% au-delà). **Avenant temporaire** possible pour augmenter temporairement la durée (article L3123-22). **Égalité de traitement** : mêmes droits que temps plein, prorata.",
+        "fondement_legal": "**Code du travail** — articles **L3123-1 à L3123-32** (temps partiel), notamment **L3123-7** (24h min), **L3123-9** (mentions contrat), **L3123-22** (avenant temporaire), **L3123-28** (heures complémentaires). **Loi de sécurisation de l'emploi du 14 juin 2013** (durée minimum 24h).",
+        "fondement_ccn": "**CCN ELISFA Chapitre IV article 2** : travail à temps partiel. La CCN peut prévoir des dérogations à la durée minimale 24h pour certains emplois (animation périscolaire, accueil ponctuel). Vérifier les dispositions précises dans la CCN ELISFA mars 2026.",
+        "application": "**Cadre du temps partiel en ALISFA** :\n\n**Durée minimale** :\n- **24 heures hebdomadaires** ou équivalent mensuel/annuel\n- **Dérogations** possibles :\n  - Sur demande écrite et motivée du salarié (raisons familiales, autre emploi, études) — article L3123-7\n  - Pour les étudiants < 26 ans\n  - Particuliers employeurs (gardes occasionnelles)\n  - Accord de branche dérogatoire (à vérifier dans CCN ALISFA)\n\n**Mentions obligatoires du contrat** :\n1. Qualification du salarié, classification\n2. **Durée hebdomadaire ou mensuelle** (heures/sem ou heures/mois)\n3. **Répartition** sur les jours de la semaine ou semaines du mois\n4. **Conditions de modification** de cette répartition\n5. **Cas où le salarié peut refuser** un changement\n6. **Limites des heures complémentaires** possibles\n\n**Modifications de la répartition du travail** :\n- Délai de prévenance : **7 jours ouvrés** minimum (sauf accord)\n- Le salarié peut **refuser** si :\n  - Incompatibilité avec un autre emploi\n  - Charges de famille incompatibles\n  - Études concomitantes\n\n**Heures complémentaires** (temps partiel) :\n- **Limite** : 1/10 de la durée contractuelle (3 mois sur 12 si annualisé)\n  - Possibilité d'aller jusqu'à 1/3 par accord de branche/entreprise\n- **Majoration** :\n  - 10% pour les 1 sur 10 (jusqu'à 1/10 du contrat)\n  - 25% au-delà\n- **Pas d'heure supplémentaire** (= au-delà de 35h hebdo qui ferait passer à temps plein)\n\n**Avenant temporaire (compléments d'heures)** :\n- Permet d'augmenter temporairement la durée\n- **Maximum** : 8 avenants/an (sauf remplacement, fixé par accord branche)\n- Mention écrite du motif et de la durée\n\n**Droits identiques au temps plein (prorata)** :\n- Salaire mensuel proportionnel\n- Congés payés (2,5 jours ouvrables/mois)\n- Ancienneté\n- Formation\n- Mutuelle / prévoyance (mêmes garanties)\n- Représentation (CSE, élections)\n\n**Cas typiques en ALISFA** :\n\n| Profil | Temps partiel typique |\n|--------|----------------------|\n| Animateur·trice périscolaire | 18-25h/sem (matin/soir/mercredi) |\n| Accueillant·e EAJE jeunes enfants | 28-32h/sem (annualisé pour fermetures) |\n| Référent·e RPE (intercommunalité) | 17,5h/sem (mi-temps) |\n| Médiation socio-éducative ponctuelle | 12-15h/sem (dérogation < 24h) |\n| Conseiller·ère numérique (CNFS) | 35h/sem (souvent temps plein) |",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Mentions absentes du contrat** : présomption de temps plein → rappel de salaire au taux 35h\n- **Heures complémentaires non payées** : risque travail dissimulé\n- **Modification répartition sans délai 7j** : refus possible du salarié sans sanction\n- **Avenant temporaire** : limite 8/an à respecter (sinon requalification)\n- **Conversion temps plein** : à proposer en priorité aux salariés TP en place\n- **Égalité droits** : pas de discrimination temps partiel (article L3123-5)\n- **Dérogation < 24h** : demande écrite et motivée du salarié OBLIGATOIRE",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre IV article 2",
+          "Code du travail — articles L3123-1 à L3123-32",
+          "Loi du 14 juin 2013 (sécurisation emploi)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Temps partiel L3123",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195795/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Travail à temps partiel",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2378",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre IV",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre IV article 2"
+      }
+    },
+
+    {
+      "id": "rh-23",
+      "_theme_target": "temps_de_travail",
+      "question_type": "Comment fonctionnent les jours de repos RTT et le compte épargne temps (CET) dans la branche ALISFA ?",
+      "mots_cles": [
+        "RTT", "réduction temps de travail",
+        "compte épargne temps", "CET",
+        "monétisation RTT", "report congés",
+        "Chapitre IV articles 4 et 5 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La **CCN ELISFA Chapitre IV article 4** prévoit l'attribution de **jours de RTT** (Réduction du Temps de Travail) lorsque la durée du travail dépasse 35h hebdomadaires en moyenne (typiquement organisation à 37-39h compensée par RTT). L'**article 5** organise le **CET** (Compte Épargne Temps) qui permet aux salariés d'épargner congés non pris, jours RTT, primes pour les utiliser plus tard (congé long, formation, retraite anticipée, monétisation). Cadre légal : Code du travail L3151-1 à L3154-3.",
+        "fondement_legal": "**Code du travail** — articles **L3121-41 à L3121-67** (RTT et aménagement temps), **L3151-1 à L3154-3** (compte épargne temps). **Loi du 4 mai 2004** (création du CET universel) + **Loi Travail 2016** (aménagement).",
+        "fondement_ccn": "**CCN ELISFA Chapitre IV article 4** : jours de repos RTT. **Article 5** : compte épargne temps (CET). Accords d'entreprise pour modalités précises.",
+        "application": "**A. Jours de RTT (Article 4)** :\n\n**Principe** :\n- Compense le temps travaillé au-delà de 35h hebdomadaires en moyenne sur l'année\n- Acquis quand la durée hebdo > 35h (ex: 37h/sem → ~12 RTT/an, 39h/sem → ~22 RTT/an)\n\n**Calcul approximatif** :\n```\nNombre RTT/an ≈ (durée_hebdomadaire − 35) × nombre_semaines_travaillées\n```\n\n**Exemples ALISFA** :\n- Durée 35h : 0 RTT (pas de dépassement)\n- Durée 37h sur 47 semaines (5 sem CP + jours fériés) : ~12 RTT\n- Durée 39h sur 47 semaines : ~22 RTT\n\n**Pose des RTT** :\n- **Initiative employeur** : la moitié (souvent fixés sur fermetures EAJE, jours fériés, etc.)\n- **Initiative salarié** : l'autre moitié, avec délai de prévenance\n- **Accord d'entreprise** précise les modalités\n\n**Maintien** : RTT non pris en fin d'année :\n- **Reportés sur année suivante** (selon accord)\n- **OU monétisés** sur le CET (cf. ci-dessous)\n- **OU perdus** si silence employeur (jurisprudence : pas systématique)\n\n**B. Compte Épargne Temps — CET (Article 5)** :\n\n**Principe** :\n- Permet d'épargner des **temps** ou des **rémunérations** pour utiliser plus tard\n- **Volontaire** : ouverture à la demande du salarié\n- **Réversible** : monétisation possible (sauf 5e semaine de congés payés)\n\n**Sources d'alimentation possibles** :\n- 5e semaine de congés payés (forme exclusivement temps, non monétisable)\n- Congés payés au-delà de 24 jours/an\n- Jours de RTT non utilisés\n- Repos compensateurs heures sup\n- Heures sup non payées\n- Primes (intéressement, 13e mois, etc.)\n\n**Plafond annuel et global** :\n- Selon accord d'entreprise (typiquement plafond annuel = 10 jours, plafond global = 60 jours)\n\n**Utilisation** :\n- **Congé long** : sabbatique, parental supplémentaire, retraite anticipée\n- **Formation** non remboursée par OPCO\n- **Monétisation** : conversion en argent (sauf 5e semaine CP)\n- **Transfert** vers PEE/PERCO (déductible IR)\n\n**Déblocage anticipé** :\n- Mariage, PACS, naissance, adoption\n- Décès conjoint/enfant\n- Surendettement\n- Acquisition résidence principale\n\n**Avantages fiscaux** :\n- Pas d'imposition à l'alimentation\n- Imposition au déblocage (sauf transfert PEE/PERCO)\n- Cotisations sociales appliquées au déblocage\n\n**Cas typiques ALISFA** :\n- **Directrice EAJE** alimente CET avec RTT non pris pour anticiper retraite (5 ans de réduction de carrière)\n- **EJE** alimente avec primes pour congé sabbatique (création projet)\n- **Animateur** monétise RTT en fin d'année pour compléter salaire",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **RTT acquis non pris en fin d'année** : selon accord — vérifier risque de perte\n- **Monétisation RTT** : possible mais le calcul des cotisations doit être correct\n- **CET sans accord d'entreprise** : pas de fonctionnement possible — accord obligatoire\n- **5e semaine de CP au CET** : impossible à monétiser (sauf en cas de rupture)\n- **Plafond global CET** : à respecter (sinon perte des heures excédentaires)\n- **Rupture du contrat** : CET monétisé en intégralité (impôt sur revenu sur tout)\n- **Calcul RTT** : basé sur calendrier réel (jours fériés, ponts, fermetures EAJE)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre IV articles 4 et 5",
+          "Code du travail — articles L3121-41 à L3121-67 (RTT)",
+          "Code du travail — articles L3151-1 à L3154-3 (CET)",
+          "Loi du 4 mai 2004 + Loi Travail 2016"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail CET L3151 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Compte épargne temps (CET)",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F2350",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — RTT",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F1911",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre IV articles 4 et 5"
+      }
+    },
+
+    {
+      "id": "rh-24",
+      "_theme_target": "remuneration",
+      "question_type": "Comment fixer la rémunération minimale et le salaire minimum hiérarchique de branche dans une structure ALISFA ?",
+      "mots_cles": [
+        "rémunération", "salaire minimum hiérarchique",
+        "SMHB", "barème ALISFA", "valeur du point",
+        "classification 10-22", "pesée des emplois",
+        "Chapitre V articles 1 et 4 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La rémunération dans la branche ALISFA suit la **CCN ELISFA Chapitre V articles 1 et 4** + l'**avenant 10-22 du 6 décembre 2022** (classification + emplois repères). Chaque emploi est positionné sur l'un des **15 emplois repères** de la branche avec une **pesée** (niveau de classification). Le **salaire minimum hiérarchique de branche (SMHB)** garantit un salaire plancher par classification. Au-dessus du SMHB, l'employeur peut majorer (sur compétences, ancienneté, marché). Le SMHB doit être ≥ SMIC.",
+        "fondement_legal": "**Code du travail** — articles **L3231-1 à L3231-12** (SMIC), **L3221-1 à L3221-9** (égalité salariale F/H), **L1242-15** (rémunération CDD identique au CDI similaire). **Loi Avenir Professionnel 2018** (Index Pénicaud).",
+        "fondement_ccn": "**CCN ELISFA Chapitre V** : système de rémunération.\n- **Article 1** : Rémunération (principes généraux)\n- **Article 4** : Définition du salaire minimum hiérarchique de branche (SMHB)\n- **Article 5** : Outils paritaires (Commission Mixte Paritaire)\n\n**Avenant 10-22 du 6 décembre 2022** :\n- 15 emplois repères\n- Classification 10-22 avec critères de pesée\n- Barème de salaire minimum par classification (à actualiser annuellement)",
+        "application": "**Système de rémunération ALISFA** :\n\n**1. Position dans la classification 10-22** :\n\n15 emplois repères sont définis dans l'avenant 10-22 (cf. article connexe `gpec-*` pour le détail). Chaque emploi a une **pesée** sur 4 critères :\n- **Compétences techniques** requises\n- **Autonomie / responsabilité**\n- **Encadrement**\n- **Relation usager**\n\n**Niveaux de classification** :\n- Pesée la plus basse (employé d'accueil, agent technique)\n- Pesée intermédiaire (animateur, secrétaire, EJE débutant)\n- Pesée moyenne (EJE expérimenté, technicien spécialisé)\n- Pesée haute (chef de service, coordinateur)\n- Pesée la plus haute (directeur, cadre dirigeant)\n\n**2. Salaire minimum hiérarchique de branche (SMHB)** :\n\nLe SMHB est défini par accord paritaire de branche et **actualisé annuellement** (souvent au 1er janvier). Il sert de **plancher** : aucun salaire ne peut être inférieur.\n\n**Valeur de référence 2026** (à vérifier sur elisfa.fr — barème exact) :\n- SMHB par classification publié dans la CCN ELISFA + avenants salariaux\n- Indexé sur évolution SMIC + négociations branche\n\n**Le SMHB doit toujours être ≥ SMIC mensuel brut** (1 802 € en 2026 estimé) — **principe de faveur**.\n\n**3. Construction de la rémunération individuelle** :\n\n```\nSalaire brut = SMHB classification + majorations\n```\n\n**Majorations possibles** :\n- **Ancienneté** (souvent prévue par CCN, parfois indexée valeur du point)\n- **Compétences spécifiques** (langues, qualifications additionnelles)\n- **Conditions de travail** (poste à risque, horaires décalés)\n- **Marché du travail** (rareté du profil — ex: directeur EAJE expérimenté)\n- **Mérite individuel** (atteinte d'objectifs, évaluation)\n\n**4. Égalité salariale et non-discrimination** :\n\n- **Égalité F/H** : à compétences et postes équivalents (article L3221-2)\n- **Index Pénicaud** : obligatoire ≥ 50 salariés (cf. article connexe `int-egalite-femmes-hommes`)\n- **Égalité TP / TC** : prorata strict\n- **Égalité CDD / CDI** : même rémunération à poste égal\n\n**5. Outils paritaires (Article 5)** :\n\n- **CMP** (Commission Mixte Paritaire) : négocie les salaires de branche\n- **CPNEF ALISFA** : politique de branche\n- **Observatoire des métiers** : suivi évolution rémunérations\n\n**Exemple concret ALISFA** :\n\n| Poste | Classification | SMHB ALISFA | + Ancienneté 5 ans | Salaire effectif |\n|-------|----------------|-------------|---------------------|------------------|\n| Animateur·trice BPJEPS | Niveau 3 | ~ 1 850 € | + 50 € | ~ 1 900 € |\n| EJE débutant | Niveau 4 | ~ 2 050 € | + 0 (pas d'ancienneté) | 2 050 € |\n| EJE 5 ans | Niveau 4 | ~ 2 050 € | + 100 € | ~ 2 150 € |\n| Direction EAJE 30 places | Niveau 6 | ~ 2 800 € | + 200 € | ~ 3 000 € |\n\n*(Valeurs indicatives 2026 — vérifier le barème CCN actualisé)*",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **SMHB < SMIC** : augmentation systématique au SMIC (principe de faveur)\n- **Classification erronée** : sous-classement → rappel de salaire avec intérêts (prud'hommes 3 ans rétroactif)\n- **Égalité F/H** : non-discrimination à poste équivalent — Index Pénicaud annuel\n- **Augmentations annuelles** : à vérifier sur les avenants salariaux ELISFA\n- **Heures complémentaires non payées** : majoration et mention bulletin de paie\n- **Prime d'ancienneté** : modalités précises selon CCN (% ou valeur fixe)\n- **Salaires affichés** : annonces emploi doivent mentionner la rémunération (transparence salariale Loi 2022)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre V articles 1 et 4 + Article 5",
+          "Avenant 10-22 du 6 décembre 2022 — classification ALISFA",
+          "Code du travail — articles L3231-1 à L3231-12 (SMIC)",
+          "Code du travail — articles L3221-1 à L3221-9 (égalité salariale)"
+        ],
+        "liens": [
+          {
+            "titre": "ELISFA — Avenants salariaux et SMHB ALISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Code du travail SMIC L3231",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Salaire minimum",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2300",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre V articles 1, 4, 5 + Avenant 10-22"
+      }
+    },
+
+    {
+      "id": "rh-25",
+      "_theme_target": "remuneration",
+      "question_type": "Comment conduire l'entretien annuel d'évaluation dans la branche ALISFA (Chapitre V article 2) ?",
+      "mots_cles": [
+        "entretien annuel", "évaluation",
+        "objectifs", "compétences",
+        "augmentation salariale", "carrière",
+        "Chapitre V article 2 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "L'entretien annuel d'évaluation dans la branche ALISFA suit la **CCN ELISFA Chapitre V article 2**. **Distinct** de l'entretien professionnel (article L6315-1 Code travail, tous les 2 ans). **Annuel**, conduit par le supérieur hiérarchique direct. **Objectifs** : (1) bilan année écoulée, (2) fixation objectifs nouvelle année, (3) identification besoins formation, (4) ajustement rémunération éventuel. **Forme** : **trace écrite** signée par les deux parties. **Liens avec rémunération** : peut justifier majoration au-delà du SMHB.",
+        "fondement_legal": "**Code du travail** — article **L6315-1** (entretien professionnel obligatoire tous les 2 ans, distinct de l'évaluation). **Cour de cassation** : l'évaluation doit être objective, transparente, communiquée au salarié.",
+        "fondement_ccn": "**CCN ELISFA Chapitre V article 2** : entretien annuel d'évaluation. **Avenant 10-22** : positionnement et évolution sur les emplois repères.",
+        "application": "**Entretien annuel d'évaluation — Cadre CCN ALISFA** :\n\n**Distinction avec l'entretien professionnel** :\n\n| | Entretien évaluation (Chap V art 2) | Entretien professionnel (L6315-1) |\n|---|---|---|\n| **Fréquence** | **Annuelle** | Tous les **2 ans** |\n| **Objet** | Performance + objectifs | Évolution professionnelle, formation |\n| **Obligation légale** | Recommandé (CCN) | OBLIGATOIRE |\n| **Bilan 6 ans** | Non concerné | Oui (au moins 1 formation non obligatoire) |\n\n**Préparation par l'employeur** :\n- Trame d'évaluation alignée sur les **15 emplois repères** ALISFA\n- Compétences attendues pour la classification du poste\n- Objectifs fixés l'année précédente\n- Données chiffrées (productivité, taux d'occupation EAJE, satisfaction usagers, etc.)\n\n**Préparation par le salarié** (recommandé) :\n- Auto-évaluation\n- Liste des projets/missions accomplis\n- Difficultés rencontrées\n- Souhaits d'évolution / formation\n\n**Déroulement de l'entretien** :\n1. **Bilan année écoulée** (30%) :\n   - Atteinte des objectifs\n   - Compétences mobilisées\n   - Réussites / difficultés\n2. **Évaluation des compétences** (20%) :\n   - Référentiel emploi repère\n   - Comportement professionnel (relations équipe, usagers)\n3. **Objectifs année à venir** (25%) :\n   - SMART (Spécifiques, Mesurables, Atteignables, Réalistes, Temporels)\n   - Alignés sur projet de la structure\n4. **Besoins formation** (15%) :\n   - Évolution métier\n   - Nouvelles compétences\n5. **Souhaits évolution salariale / poste** (10%)\n\n**Trace écrite** :\n- Document signé employeur + salarié\n- Mentions : appréciations, objectifs, formations, désaccords\n- Copie remise au salarié\n- Conservation 5 ans minimum\n\n**Lien avec la rémunération** :\n- L'évaluation peut justifier :\n  - Majoration de salaire au-dessus du SMHB\n  - Prime exceptionnelle\n  - Évolution de classification (passage à un emploi repère supérieur)\n- **Ne peut pas** :\n  - Justifier une diminution de salaire (impossible sans accord salarié)\n  - Servir de motif disciplinaire (autre procédure requise)\n\n**Calendrier typique ALISFA** :\n- Préparation : décembre / janvier\n- Entretiens : janvier / février (avant la définition des budgets formation)\n- Synthèse RH + plan formation : mars\n- Suivi mi-année : juin (bilan provisoire)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Évaluation arbitraire** : risque de discrimination, harcèlement moral si récurrent\n- **Pas de trace écrite** : difficile de prouver le respect des obligations CCN\n- **Confusion évaluation / disciplinaire** : interdit (séparer les procédures)\n- **Désaccord salarié** : à mentionner dans le compte rendu, pas de signature obligatoire\n- **Refus d'évaluation** : non sanctionnable s'il n'y a pas d'obligation explicite (mais recommandée par CCN)\n- **Évaluation par un manager non formé** : risque de jugements subjectifs — formation managers recommandée",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre V article 2",
+          "Code du travail — article L6315-1 (entretien professionnel)",
+          "Avenant 10-22 — emplois repères ALISFA"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Entretien professionnel L6315-1",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037385660/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Entretien professionnel",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F32044",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre V",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre V article 2 + L6315-1"
+      }
+    },
+
+    {
+      "id": "rh-26",
+      "_theme_target": "remuneration",
+      "question_type": "Comment gérer une prise de mission supplémentaire temporaire d'un salarié ALISFA (Chapitre V article 3) ?",
+      "mots_cles": [
+        "mission supplémentaire", "prime mission",
+        "prise de fonction temporaire", "remplacement provisoire",
+        "valorisation responsabilité",
+        "Chapitre V article 3 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La **prise de mission supplémentaire de manière temporaire** dans la branche ALISFA est encadrée par la **CCN ELISFA Chapitre V article 3**. Permet à l'employeur de confier à un salarié, pour une durée limitée, des missions au-delà de ses fonctions habituelles (remplacement temporaire d'un cadre absent, prise en charge d'un projet exceptionnel, intérim de direction). **Compensation** : prime ou majoration salariale fixée par accord. **Durée** limitée (généralement 6-12 mois maximum). **Cadre formel** : avenant écrit au contrat précisant mission, durée, rémunération.",
+        "fondement_legal": "**Code du travail** — articles **L1221-1 et suivants** (modification du contrat). **Cour de cassation** : la modification temporaire des conditions de travail peut être imposée si raisonnable et proportionnée ; la modification du contrat (rémunération, classification) requiert l'accord du salarié.",
+        "fondement_ccn": "**CCN ELISFA Chapitre V article 3** : prise de mission supplémentaire de manière temporaire. Modalités spécifiques de la CCN à respecter pour la valorisation et l'organisation.",
+        "application": "**Cas typiques en structures ALISFA** :\n\n**1. Remplacement temporaire d'un cadre** :\n- Absence prolongée de la directrice EAJE (maternité, formation longue, maladie)\n- Une responsable adjointe assume la fonction de direction\n- **Prime** : forfait mensuel ou pourcentage du salaire (souvent 10-20% du salaire brut)\n- **Durée** : période d'absence, généralement 3-12 mois\n\n**2. Prise en charge d'un projet exceptionnel** :\n- Coordination d'un événement (kermesse, anniversaire structure, congrès)\n- Mise en place d'un nouveau dispositif (CNFS, REAAP, partenariat)\n- **Prime** : montant forfaitaire (ex: 1 000 €) ou pourcentage du temps consacré\n- **Durée** : 1-6 mois\n\n**3. Intérim de poste** :\n- Une animatrice prend l'intérim de référent·e RPE pendant le départ d'une salariée\n- **Prime** : majoration de salaire pendant la durée\n- **Durée** : jusqu'à recrutement du remplaçant\n\n**4. Mission supplémentaire ponctuelle** :\n- Tutorat d'un alternant (au-delà de la fonction principale)\n- Accompagnement d'une formation collective\n- **Prime** : indemnité spécifique selon CCN ou accord d'entreprise\n\n**Cadre juridique de la mission temporaire** :\n\n**A. Avenant temporaire au contrat** :\n- **Forme écrite** obligatoire (lettre de mission ou avenant)\n- Mentions : intitulé de la mission, missions précises, durée, rémunération supplémentaire, conditions de cessation\n- **Signature** des deux parties\n\n**B. Modalités de rémunération** :\n- **Prime forfaitaire** mensuelle\n- **Pourcentage** du salaire de base (souvent 10-20%)\n- **Prime de responsabilité** spécifique\n- **Indemnité kilométrique** si déplacements supplémentaires\n\n**C. Fin de la mission** :\n- **Retour** aux fonctions habituelles\n- **Prime** s'arrête (mention dans l'avenant)\n- **Pas de droit acquis** : le salarié ne peut pas exiger de garder le salaire majoré sauf si évolution permanente du poste\n\n**Cas particuliers** :\n\n**Si la mission devient permanente** :\n- Évolution vers un nouveau poste (avec nouvelle classification + salaire pérenne)\n- Avenant définitif au contrat\n- Évolution de classification dans l'emploi repère ou montée en classification\n\n**Si la mission est refusée par le salarié** :\n- Si modification importante : refus possible (modification du contrat, pas conditions)\n- Si modification mineure : refus = motif disciplinaire possible\n\n**Si conflit sur la prime** :\n- Recours à la médiation interne (RH, direction)\n- Si non-résolu : prud'hommes\n- L'employeur doit pouvoir justifier la prime versée par accord, lettre de mission, ou usage\n\n**Limites** :\n- **Durée raisonnable** : au-delà de 12 mois, l'employeur doit décider (pérenniser ou arrêter)\n- **Charge de travail** : le salarié ne peut pas être surchargé sans compensation\n- **Heures supplémentaires** : si la mission entraîne des HS, elles doivent être payées en plus de la prime",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Pas d'avenant écrit** : risque de contestation salariale (rappel de prime ou de salaire)\n- **Mission ≥ 12 mois** : tribunal peut considérer comme évolution de poste → augmentation pérenne\n- **Prime non versée** alors que mission acceptée : prud'hommes en rappel\n- **Modification non temporaire** : si la prise de mission devient durable, requalification du poste\n- **Charge de travail** : la mission s'ajoute aux missions habituelles → vigilance RPS, surcharge\n- **Disparité entre salariés** : si plusieurs salariés font la même mission, traiter équitablement (égalité de traitement)\n- **Mission cadre confiée à un non-cadre** : possible, mais sans modification du statut (juste prime temporaire)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre V article 3",
+          "Code du travail — articles L1221-1 et suivants",
+          "Cour de cassation — jurisprudence modification temporaire contrat"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Modification du contrat de travail",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F31837",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre V",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre V article 3"
+      }
+    },
+
+    {
+      "id": "rh-27",
+      "_theme_target": "conges",
+      "question_type": "Combien de jours de congés payés annuels dans la branche ALISFA et comment les organiser (Chapitre VI article 1) ?",
+      "mots_cles": [
+        "congés payés", "CP", "5 semaines",
+        "période de référence", "fractionnement",
+        "ordre des départs", "indemnité CP",
+        "Chapitre VI article 1 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Les congés payés annuels dans la branche ALISFA suivent la **CCN ELISFA Chapitre VI article 1** + Code du travail (L3141-1 à L3141-33) : **2,5 jours ouvrables par mois travaillé** (= **30 jours ouvrables = 5 semaines** pour une année complète). **Période de référence** : du **1er juin au 31 mai** (sauf accord d'entreprise). **Période de prise** : du **1er mai au 31 octobre** principalement (ou toute l'année selon accord). **Ordre des départs** fixé par employeur en concertation avec salariés et CSE. **Fractionnement** : possible avec jours supplémentaires si pris hors période principale.",
+        "fondement_legal": "**Code du travail** — articles **L3141-1 à L3141-33** (congés payés), notamment **L3141-3** (acquisition 2,5j/mois), **L3141-15** (période de prise), **L3141-19** (fractionnement), **L3141-23 à L3141-33** (rémunération des congés).",
+        "fondement_ccn": "**CCN ELISFA Chapitre VI article 1** : congés payés annuels. La CCN peut prévoir des dispositions plus favorables (congés supplémentaires ancienneté, jours fériés cumulés, etc.).",
+        "application": "**Cadre des congés payés ALISFA** :\n\n**1. Acquisition** :\n\n```\nDroit annuel = 2,5 jours ouvrables × nombre de mois travaillés\nMaximum = 30 jours ouvrables = 5 semaines\n```\n\n**Mois travaillés** :\n- Travail effectif (présence)\n- Congés payés eux-mêmes (acquisition continue)\n- Maladie professionnelle / AT (article L3141-5)\n- Congé maternité, paternité, adoption\n- **Maladie ordinaire** : non assimilée (mais pas de perte de droits si reprise)\n\n**2. Période de référence** :\n\n- **1er juin → 31 mai** (par défaut)\n- **Possibilité accord d'entreprise** : 1er janvier → 31 décembre\n\n**3. Décompte en jours ouvrables ou ouvrés** :\n\n| | Ouvrables | Ouvrés |\n|---|---|---|\n| **Définition** | Tous les jours de la semaine sauf dimanche et jours fériés | Jours réellement travaillés (5 jours/sem typiquement) |\n| **Total annuel** | 30 jours | 25 jours |\n| **Conversion** | Référence légale | Souvent utilisé en gestion |\n\n**4. Période de prise** :\n\n**Période principale** : 1er mai → 31 octobre (article L3141-15)\n- 12 jours ouvrables minimum à prendre **consécutifs** dans cette période (24j ouvrés)\n- **Maximum** : 24 jours ouvrables consécutifs (4 semaines + 1)\n\n**Hors période principale** :\n- Le solde (jusqu'à 5e semaine, 6 jours ouvrables)\n- **Fractionnement** possible — donne droit à jours supplémentaires :\n  - Si prise hors période principale (1/11 → 30/4) : +1 jour si fraction = 3-5 jours, +2 jours si ≥ 6 jours\n\n**5. Ordre des départs** :\n\n**Critères** :\n- Charges de famille (enfants scolarisés, conjoint salarié)\n- Ancienneté\n- Activité auprès d'un autre employeur\n- Choix du salarié (à compétences identiques)\n\n**Procédure** :\n- Employeur fixe ordre après consultation des salariés\n- **Affichage** ≥ 1 mois avant départ\n- **Consultation CSE** (≥ 11 sal.) sur les modalités\n\n**6. Fermeture annuelle / pose imposée** :\n\n- Possible (notamment EAJE en août / centre social en juillet-août)\n- Délai prévenance : ≥ 1 mois\n- **Pas de pénalité** si la fermeture coïncide avec les congés du salarié\n\n**7. Indemnité de congés payés** :\n\n2 méthodes (la plus favorable au salarié) :\n- **1/10 de la rémunération** brute totale de la période de référence\n- **Maintien de salaire** (rémunération qui aurait été versée si travail)\n\n**8. Cas particuliers ALISFA** :\n\n**EAJE** :\n- Fermeture estivale (~ 3-4 semaines) : pose imposée\n- Fermeture vacances scolaires Noël / printemps\n\n**Centre social** :\n- Fermeture juillet-août selon territoire\n- Congés des animateurs en juillet (ALSH août)\n\n**ALSH / ACM** :\n- Animateurs CDD saisonniers : pas de congés payés à prendre, indemnité 10% à la fin\n- Animateurs permanents : congés en septembre-juin\n\n**ADSL** :\n- Continuité de service à organiser\n- Roulement entre intervenants\n\n**9. Reports et congés non pris** :\n\n- **Solde au 31 mai** : reporté sur N+1 selon accord d'entreprise\n- Sinon : perte des congés non pris (sauf maladie longue, maternité)\n- **Monétisation** sur CET possible (cf. article connexe `rh-23`)\n\n**10. CDD et CP** :\n\nIndemnité compensatrice de CP versée à la fin du CDD (10% de la rémunération brute) — couvre les CP non pris pendant le contrat.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Refus du salarié** sur dates imposées : difficilement accepté, sauf raison familiale grave\n- **Maladie pendant les CP** : suspend les CP (à reprendre plus tard) — Cour cassation 2023\n- **CP non pris en fin de période** : perdus si pas reportés par accord (sauf maladie longue / maternité)\n- **Solde de tout compte** : indemnité CP versée pour les jours non pris au moment de la rupture\n- **Égalité de traitement** : pas de discrimination dans l'attribution des dates\n- **Affichage** : période de prise + ordre départs (article D3141-6)\n- **Heures sup vs CP** : ne se cumulent pas — choisir clairement\n- **CDD saisonnier ALSH** : ne pas oublier l'indemnité 10% en fin de contrat",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre VI article 1",
+          "Code du travail — articles L3141-1 à L3141-33",
+          "Cour de cassation — Maladie pendant CP (2023)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Congés payés L3141",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Congés payés",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2258",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre VI",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre VI article 1 + Code travail L3141"
+      }
+    },
+
+    {
+      "id": "rh-28",
+      "_theme_target": "conges",
+      "question_type": "Quels jours fériés et comment les rémunérer dans la branche ALISFA (Chapitre VI article 3) ?",
+      "mots_cles": [
+        "jours fériés", "férié chômé", "férié travaillé",
+        "1er mai", "11 jours fériés",
+        "majoration férié", "compensation férié",
+        "Chapitre VI article 3 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Les jours fériés dans la branche ALISFA suivent la **CCN ELISFA Chapitre VI article 3** + Code du travail (L3133-1 à L3133-12). **11 jours fériés légaux** par an (1er janvier, lundi de Pâques, 1er mai, 8 mai, jeudi Ascension, lundi Pentecôte, 14 juillet, 15 août, 1er novembre, 11 novembre, 25 décembre). Le **1er mai** est obligatoirement chômé et payé pour tous (sauf services qui ne peuvent s'interrompre — partiellement EAJE/ACM). Pour les autres jours fériés : usage d'entreprise, accord, ou CCN. **Si travaillés** : majoration ou compensation selon CCN.",
+        "fondement_legal": "**Code du travail** — articles **L3133-1 à L3133-12** (jours fériés), notamment **L3133-3** (1er mai), **L3133-7** (autres fériés), **L3133-8** (paiement des fériés). **Article L3133-11** : journée de solidarité.",
+        "fondement_ccn": "**CCN ELISFA Chapitre VI article 3** : jours fériés. Conditions de chômage et de rémunération. La CCN peut accorder le chômage de tous les fériés (au-delà du seul 1er mai légal).",
+        "application": "**11 jours fériés légaux français** :\n\n| Date | Férié |\n|------|-------|\n| 1er janvier | Jour de l'An |\n| Lundi de Pâques | Variable |\n| 1er mai | Fête du Travail (chômé OBLIGATOIRE) |\n| 8 mai | Victoire 1945 |\n| Jeudi de l'Ascension | Variable (39 j après Pâques) |\n| Lundi de Pentecôte | Variable (50 j après Pâques) |\n| 14 juillet | Fête nationale |\n| 15 août | Assomption |\n| 1er novembre | Toussaint |\n| 11 novembre | Armistice 1918 |\n| 25 décembre | Noël |\n\n**+ jours spéciaux Alsace-Moselle** : 26 décembre (Saint-Étienne) et Vendredi saint (cas particulier).\n\n**Régime du 1er mai** :\n\n- **Chômé obligatoirement** pour tous les salariés (article L3133-4)\n- Si travail exceptionnel : **majoration 100%** (= salaire double)\n- **Exceptions** : services qui ne peuvent s'interrompre (santé, transport, hôtellerie). EAJE et ACM **partiellement** concernés selon agréments.\n\n**Régime des autres jours fériés** :\n\n**A. Si chômé** :\n- **Salaire maintenu** si le salarié totalise ≥ 3 mois d'ancienneté (article L3133-3)\n- **Mensuel** : aucun impact sur la fiche de paie\n- **Horaire** : maintien du salaire pour les heures qui auraient été travaillées\n\n**B. Si travaillé** :\n- **Majoration** selon CCN ELISFA (souvent 100% pour 1er mai, autres : selon accord)\n- **Repos compensateur** alternatif possible (1 jour de repos pour 1 jour férié travaillé)\n\n**Cas typiques ALISFA** :\n\n**EAJE conventionnés** :\n- **Fermeture** sur les jours fériés généralement\n- 1er mai : fermeture obligatoire\n- Lundi de Pentecôte : journée de solidarité possible (cf. ci-dessous)\n\n**ACM (centres de loisirs)** :\n- **Fermeture** habituelle sur jours fériés (sauf cas particuliers)\n- Animateurs au tarif normal pour les jours non travaillés (si planifiés ainsi)\n\n**Centres sociaux** :\n- Fermeture habituelle\n- Maintien des salaires mensualisés\n\n**ADSL services à domicile** :\n- **Continuité de service** parfois nécessaire\n- Si travail férié : majoration ou repos compensateur\n\n**Journée de solidarité** :\n\n**Principe** (article L3133-7 Code travail) :\n- 1 journée travaillée non rémunérée par an pour financer l'autonomie des personnes âgées\n- **7 heures** (ou prorata pour temps partiel)\n\n**Modalités possibles** :\n- Travail un **jour férié précédemment chômé** (lundi de Pentecôte, 1er novembre, etc.)\n- **Suppression** d'un jour de RTT\n- **Heure sup** sur l'année (1 minute par semaine, etc.)\n- **Tout autre dispositif** prévu par accord d'entreprise\n\n**Pour les structures ALISFA** : à fixer par accord d'entreprise. Souvent fixé au lundi de Pentecôte.\n\n**Calcul des heures travaillées dans l'année** :\n- Durée annuelle = **1 607 heures** (incluant la journée de solidarité)\n- **Sans la journée de solidarité** : 1 600 heures\n- À ne pas confondre avec la durée hebdo 35h\n\n**Cas particuliers** :\n\n**Salarié à temps partiel** :\n- Maintien salaire pour les heures qu'il aurait dû travailler ce jour-là\n- Si jour férié non habituellement travaillé (mardi par exemple, et le salarié travaille seulement lun-mer-ven) : pas de paie supplémentaire\n\n**CDD** :\n- Mêmes droits que CDI\n- Indemnité fin contrat 10% inclut les fériés payés\n\n**Apprenti** :\n- Mêmes droits sauf si dispense en formation\n- Le 1er mai peut être travaillé en accord avec le maître d'apprentissage",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **1er mai non payé** : sanction (rappel de salaire + dommages-intérêts)\n- **Travail dominical** confondu avec férié : régimes distincts\n- **Journée de solidarité** : obligatoire mais modalités à formaliser\n- **Pont du Vendredi avant l'Ascension** : pas un férié, à pose en RTT/CP/sans solde\n- **Salarié à TP** : règles particulières — vérifier les heures effectives planifiées\n- **CCN plus favorable** : si la CCN ELISFA prévoit des fériés supplémentaires payés, à appliquer\n- **EAJE / ACM** : si dérogation préfectorale pour ouvrir un jour férié, vérifier les majorations dues",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre VI article 3",
+          "Code du travail — articles L3133-1 à L3133-12",
+          "Code du travail — article L3133-7 (journée de solidarité)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Jours fériés L3133",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006195807/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Jours fériés en entreprise",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F1620",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Journée de solidarité",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2306",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre VI article 3 + Code travail L3133"
+      }
+    },
+
+    {
+      "id": "rh-29",
+      "_theme_target": "conges",
+      "question_type": "Quels congés exceptionnels pour événements familiaux dans la branche ALISFA (Chapitre VI article 4) ?",
+      "mots_cles": [
+        "congés exceptionnels", "événements familiaux",
+        "mariage", "PACS", "naissance",
+        "décès", "deuil enfant",
+        "Chapitre VI article 4 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Les congés familiaux et exceptionnels dans la branche ALISFA suivent la **CCN ELISFA Chapitre VI article 4** + Code du travail (L3142-1 à L3142-5). Ces congés sont **rémunérés** et **assimilés à du temps de travail effectif**. Liste type : **mariage/PACS salarié 5j**, **naissance/adoption 3j**, **décès conjoint 3j**, **décès enfant 5j (12-14j si enfant <25 ans depuis Loi 2020)**, **décès parent 3j**, **annonce handicap enfant 2j**. Justificatif requis (acte d'état civil). À utiliser dans une période proche de l'événement.",
+        "fondement_legal": "**Code du travail** — articles **L3142-1 à L3142-5** (congés familiaux), notamment **L3142-1-1** (Loi du 8 juin 2020 — congé décès enfant). Loi n° 2020-692 du 8 juin 2020 : étend congé décès enfant à 12-14 jours.",
+        "fondement_ccn": "**CCN ELISFA Chapitre VI article 4** : congés familiaux et exceptionnels. La CCN peut prévoir des durées plus favorables que le minimum légal (notamment pour les ALISFA qui ont une dimension sociale forte).",
+        "application": "**Tableau des congés familiaux et exceptionnels ALISFA** :\n\n| Événement | Durée légale (Code travail) | Durée CCN ALISFA (à vérifier) |\n|-----------|----------------------------|-------------------------------|\n| **Mariage / PACS du salarié** | 4 jours | **5 jours** (souvent CCN) |\n| **Mariage d'un enfant** | 1 jour | **1 jour** |\n| **Naissance / adoption d'un enfant** | 3 jours | **3 jours** |\n| **Décès conjoint / PACS / concubin** | 3 jours | **3-5 jours** (selon CCN) |\n| **Décès enfant < 25 ans** | **12 jours** (Loi 2020) | **14 jours** si vivait au foyer |\n| **Décès enfant ≥ 25 ans** | 5 jours | 5 jours |\n| **Décès parent (père/mère)** | 3 jours | **3 jours** |\n| **Décès frère / sœur** | 3 jours | **3 jours** |\n| **Décès beau-père / belle-mère** | 3 jours | **3 jours** |\n| **Annonce handicap enfant** | 5 jours (Loi 2020) | **5 jours** |\n| **Annonce maladie chronique enfant** | 2 jours | **2 jours** |\n| **Garde enfant malade** (loi) | 3-5 jours/an | 3-5 jours/an |\n\n*(Vérifier exact dans la CCN ELISFA mars 2026 — certains durées sont plus favorables que le minimum légal)*\n\n**Caractéristiques communes** :\n\n**A. Rémunération** :\n- **Maintien du salaire** complet (assimilé à du travail effectif)\n- Acquisition de **congés payés** continue\n- Acquisition d'**ancienneté** continue\n\n**B. Justificatif** :\n- **Acte d'état civil** (mariage, naissance, décès)\n- **Convention de PACS**\n- **Certificat médical** (handicap)\n- À fournir dans un **délai raisonnable**\n\n**C. Période de prise** :\n- À utiliser **dans une période proche de l'événement** (généralement avant 15 jours après)\n- **Pas reporté** sur l'année suivante\n- **Non-cumulable** avec congés payés (sauf accord employeur)\n\n**D. Décompte** :\n- En **jours ouvrables** (règle générale)\n- Si jour férié pendant le congé : décompte d'un jour normal (le férié reste payé)\n\n**Cas particuliers** :\n\n**Décès d'un enfant — Loi du 8 juin 2020** (renforcement) :\n- **Enfant < 25 ans ou enfant à charge** : **12 jours** + 8 jours supplémentaires « congé deuil parental » (utilisables fractionnés sur 1 an)\n- **Maintenu d'ancienneté** + acquisition CP\n- **Indemnité journalière de la sécurité sociale** pour les 8 jours supplémentaires\n\n**Mariage du salarié — pratique ALISFA** :\n- 5 jours **ouvrables** (la veille, le jour, et 3 jours suivants typiquement)\n- À encadrer dans le calendrier des activités de la structure\n\n**Naissance / adoption** :\n- **3 jours** au choix dans les 15 jours suivant\n- À ne pas confondre avec **congé paternité** (25 jours depuis 2021) qui est un congé spécifique distinct\n\n**Décès parent / fratrie** :\n- 3 jours au moment du décès et des obsèques\n- Possibilité d'extension par accord employeur (sans solde, ou avec congés payés)\n\n**Annonce handicap / maladie chronique enfant** :\n- 5 jours (handicap), 2 jours (maladie chronique)\n- À utiliser au moment de l'annonce ou dans les semaines suivantes\n- Justificatif médical requis\n\n**Différence avec le congé de présence parentale** :\n\nLe **congé de présence parentale** (article L1225-62 CT) est **distinct** : 310 jours sur 3 ans, en cas de maladie/handicap grave d'un enfant. Indemnisé par CAF (AJPP — Allocation Journalière de Présence Parentale). Pas un congé exceptionnel CCN, mais un dispositif spécifique.\n\n**Différence avec le congé enfant malade légal** :\n\n**Congé enfant malade** (article L1225-61 CT) :\n- 3 jours/an si enfant < 16 ans\n- 5 jours/an si enfant < 1 an OU 3+ enfants à charge\n- **Non rémunéré** (sauf accord)\n- Justificatif médical\n\nDistinct des congés familiaux exceptionnels CCN ALISFA qui sont **rémunérés** mais limités à des événements précis (mariage, naissance, etc.).",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **CCN ALISFA plus favorable** : appliquer la CCN si meilleure (principe de faveur)\n- **Justificatif obligatoire** : sans cela, pas de droit aux congés (mais raisonnable - délai de 1-2 sem)\n- **Délai de prise** : à utiliser dans la période proche de l'événement\n- **Non-cumul avec CP** : ne pas faire suivre des CP juste après pour rallonger le congé (sauf accord)\n- **Congé deuil parental Loi 2020** : 8 jours supplémentaires fractionnables, indemnisés CPAM\n- **Égalité des droits** : ne pas discriminer entre conjoint marié et concubin (accord récent reconnaît concubinage)\n- **Belle-famille** : décès beaux-parents non automatiques par CCN, vérifier dispositions exactes",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre VI article 4",
+          "Code du travail — articles L3142-1 à L3142-5",
+          "Loi n° 2020-692 du 8 juin 2020 (congé décès enfant)",
+          "Code du travail — articles L1225-61 et L1225-62 (enfant malade, présence parentale)"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Congés pour événements familiaux",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F2330",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Loi n° 2020-692 du 8 juin 2020 (deuil enfant)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041975000/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Congé enfant malade",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F1230",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre VI",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre VI article 4 + Loi 2020-692"
+      }
+    },
+
+    {
+      "id": "rh-30",
+      "_theme_target": "conges",
+      "question_type": "Comment fonctionne le congé parental d'éducation dans la branche ALISFA (Chapitre VI article 5) ?",
+      "mots_cles": [
+        "congé parental", "éducation enfant",
+        "PreParE", "CAF", "réintégration",
+        "congé maternité", "congé paternité",
+        "Chapitre VI article 5 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le congé parental d'éducation dans la branche ALISFA suit la **CCN ELISFA Chapitre VI article 5** + Code du travail (L1225-47 à L1225-60). **Conditions** : ≥ 1 an d'ancienneté à la naissance/adoption, demande écrite 1 mois avant fin congé maternité (ou 2 mois si autre cas). **Durée** : 1 an renouvelable, **maximum 3 ans** pour le 1er enfant, **6 ans** pour le 2e et suivants jusqu'aux 3 ans de l'enfant (ou 5 ans pour adoption). **Forme** : congé total ou temps partiel ≥ 16h/semaine. **Allocation CAF** : PreParE (Prestation Partagée d'Éducation de l'Enfant). **Réintégration** garantie au poste ou poste équivalent.",
+        "fondement_legal": "**Code du travail** — articles **L1225-47 à L1225-60** (congé parental d'éducation), notamment **L1225-47** (conditions), **L1225-50** (durée), **L1225-55** (réintégration).",
+        "fondement_ccn": "**CCN ELISFA Chapitre VI article 5** : congé parental. La CCN peut compléter les dispositions légales (durée plus longue, maintien partiel de salaire, etc.).",
+        "application": "**Cadre du congé parental ALISFA** :\n\n**A. Conditions d'ouverture** :\n- **Ancienneté minimale** : 1 an dans l'entreprise au moment de la naissance/adoption\n- **Enfant** : moins de 3 ans (ou 5 ans pour adoption d'un enfant < 16 ans)\n- **Demande écrite** : LRAR ou main propre contre décharge\n- **Délai de prévenance** :\n  - 1 mois avant fin du congé maternité/adoption (si pris dans la suite immédiate)\n  - 2 mois avant le début (si pris ultérieurement)\n\n**B. Durée et forme** :\n\n**Durée maximale** :\n- **1er enfant** : jusqu'au 3e anniversaire de l'enfant\n- **2e enfant et suivants** : jusqu'au 3e anniversaire (avec partage entre parents possible)\n- **Adoption** : 5 ans (ou jusqu'aux 3 ans si enfant < 3 ans à l'arrivée)\n- **Naissance multiple** :\n  - Jumeaux : jusqu'aux 3 ans\n  - Triplés et + : jusqu'aux 6 ans\n\n**Forme** :\n- **Congé total** : suspension complète du contrat\n- **Temps partiel** : minimum **16 heures/semaine** (article L1225-47)\n  - Salarié peut choisir la durée et la répartition\n  - Employeur peut refuser si désorganisation préjudiciable (à motiver)\n\n**Renouvellement** :\n- Par tranche d'1 an minimum\n- **Délai de prévenance** : 1 mois avant la fin de la période en cours\n\n**C. Suspension du contrat de travail** :\n\n**Pendant le congé total** :\n- Contrat de travail **suspendu**\n- Pas de rémunération de l'employeur\n- **Allocation CAF possible** : PreParE (sous conditions de ressources)\n- **Maintien** :\n  - Mutuelle (à demander, parfois prise en charge employeur partielle)\n  - Prévoyance\n  - Ancienneté (mais comptée pour moitié sur le 1er an, puis pas comptée)\n  - **Pas d'acquisition de congés payés** pendant la période\n\n**Pendant le temps partiel** :\n- Maintien partiel du salaire (proratisé)\n- Acquisition CP/ancienneté au prorata\n\n**D. Allocation CAF — PreParE (Prestation Partagée d'Éducation de l'Enfant)** :\n\n**Conditions** :\n- Avoir cessé ou réduit l'activité\n- **Trimestres d'assurance vieillesse** : 8 trimestres acquis dans les 2 ans précédents la naissance\n- Plafond de ressources annuel\n\n**Montants 2026** (estimés) :\n- **Cessation totale** : ~ 430 €/mois\n- **Temps partiel ≤ 50%** : ~ 280 €/mois\n- **Temps partiel 51-80%** : ~ 165 €/mois\n\n**Durée de versement** :\n- 6 mois pour le 1er enfant (par parent)\n- 24 mois pour 2e et + (24 par parent ; partage des deux parents)\n\n**E. Réintégration** :\n\n- **Garantie** par la loi (article L1225-55)\n- **Poste précédent OU poste équivalent** (mêmes responsabilités, même rémunération)\n- **Aucun élément de rémunération** ne peut être réduit\n- **Entretien professionnel** obligatoire au retour (article L1225-57)\n\n**F. Cas particuliers** :\n\n**Si le salarié veut écourter le congé** :\n- Possibilité **uniquement** si l'employeur est d'accord\n- Sinon, le terme prévu doit être respecté (sauf décès de l'enfant)\n\n**Si l'enfant décède** :\n- Reprise du travail possible immédiatement OU congé maintenu (selon souhait du salarié)\n\n**Démission pendant ou en fin de congé** :\n- Possible sans préavis (article L1225-66)\n- Mais le salarié perd l'allocation CAF\n\n**Cumul des deux parents** :\n- Possible (les deux peuvent prendre congé parental, en alternance ou simultanément)\n- Allocation CAF répartie entre les deux\n\n**Cas typiques en ALISFA** :\n\n- **EJE en EAJE** : très souvent prend congé parental après maternité (3 ans complets ou 1 an + retour TP)\n- **Animateur** : moins fréquent, mais possible\n- **Cadre direction** : plus rare (impact organisationnel)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Délai de prévenance** strictement à respecter (1 ou 2 mois)\n- **Refus employeur** : motivé seulement par désorganisation préjudiciable, justificatifs requis\n- **Allocation CAF PreParE** : conditions complexes (trimestres assurance vieillesse), à vérifier sur caf.fr\n- **Réintégration** : à un poste **équivalent** — vigilance sur la qualification et la rémunération\n- **Congés payés** : interruption d'acquisition pendant le congé total (recalcul au retour)\n- **Mutuelle** : à demander expressément la suspension ou le maintien, parfois employeur prend en charge\n- **Entretien retour** : obligatoire (article L1225-57) — formaliser la reprise\n- **Discrimination** : non autorisée pendant ou après le congé parental (article L1132-1)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre VI article 5",
+          "Code du travail — articles L1225-47 à L1225-60",
+          "CAF — Prestation Partagée d'Éducation de l'Enfant (PreParE)",
+          "Code de la sécurité sociale — articles L531-4 et suivants"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code du travail Congé parental L1225-47",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038201367/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Congé parental d'éducation",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F1271",
+            "type": "officiel"
+          },
+          {
+            "titre": "CAF — PreParE (Prestation Partagée d'Éducation de l'Enfant)",
+            "url": "https://www.caf.fr/allocataires/aides-et-demarches/droits-et-prestations/petite-enfance/prestation-partagee-d-education-de-l-enfant-prepare",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre VI",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre VI article 5 + Code travail L1225"
+      }
+    },
+
+    {
+      "id": "rh-31",
+      "_theme_target": "conges",
+      "question_type": "Quelles règles pour les camps et séjours hors de l'établissement (Chapitre IV article 3 CCN ELISFA) ?",
+      "mots_cles": [
+        "camps", "séjours vacances",
+        "ALSH séjour", "encadrement nuit",
+        "amplitude séjour", "récupération",
+        "Chapitre IV article 3 CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Les camps et séjours hors de l'établissement dans la branche ALISFA suivent la **CCN ELISFA Chapitre IV article 3**. Cadre spécifique pour l'**encadrement de mineurs en séjour** (ALSH avec hébergement, séjours de vacances, classes vertes). **Décompte du temps de travail** adapté : journée standard non décompttée heure par heure, **forfait journalier** ou pratique CCN spécifique. **Repos** garanti (≥ 11h consécutives par 24h). **Heures de nuit** (présence) compensées différemment du jour. **Limites** : durée max séjour/animateur, droit à la récupération.",
+        "fondement_legal": "**Code du travail** — articles **L3121-1 à L3121-67** (durée travail), **L3132-1 à L3132-3** (repos hebdomadaire), **L3131-1** (repos quotidien). **Code de l'action sociale** — articles **L227-4 et suivants** (ACM avec hébergement). **Décret n° 2002-885 du 3 mai 2002** (encadrement séjours).",
+        "fondement_ccn": "**CCN ELISFA Chapitre IV article 3** : conditions particulières pour les camps et séjours hors de l'établissement. Modalités spécifiques de décompte du temps de travail, de rémunération et de repos pour les animateurs en séjour avec hébergement.",
+        "application": "**Cadre des séjours ALISFA** :\n\n**A. Types de séjours concernés** :\n\n- **ALSH avec hébergement** : minimum 4 nuits consécutives\n- **Séjours de vacances** : organisés par les associations ALISFA pour leurs adhérents\n- **Classes vertes / découverte** : partenariat avec écoles\n- **Mini-camps** : 1-3 nuits (cadre allégé)\n- **Séjours adolescents** : structures jeunesse\n\n**B. Encadrement réglementaire (Code action sociale L227-4 et +)** :\n\n**Taux d'encadrement** :\n\n| Effectif enfants | Animateurs minimum (≥ 6 ans) | Animateurs minimum (3-6 ans) |\n|------------------|------------------------------|------------------------------|\n| 12 enfants | 1 | 1 |\n| 12 enfants > | 1 par 12 enfants suppl. | 1 par 8 enfants suppl. |\n\n**Direction** :\n- BAFD ou diplôme équivalent (cf. article connexe `reg-direction-sejour-vacances`)\n- 1 directeur·trice obligatoire\n\n**Animation** :\n- BAFA ou en cours (50% minimum diplômés)\n- Stagiaires possibles\n\n**C. Décompte du temps de travail en séjour** (CCN ELISFA Chapitre IV article 3) :\n\n**Principe** :\nLe temps de travail en séjour ne se décompte pas heure par heure (jour normal de travail). On utilise un **forfait journalier** ou une **convention de présence**.\n\n**Modalités possibles** (selon CCN précise) :\n\n**Option 1 — Forfait journalier** :\n- Salaire journalier (hors heures sup) calculé sur base 7-8h\n- Toutes les heures de présence inclues\n- Compensations supplémentaires en cas de :\n  - Veille de nuit (animateur de garde)\n  - Encadrement nocturne\n\n**Option 2 — Heures de présence + récupération** :\n- Décompte heures effectives d'animation (ex: 9h-23h = 14h jour mais avec pauses)\n- **Récupération** ultérieure (1 heure de récup par 1 heure travaillée au-delà de 8h)\n\n**Option 3 — Convention spécifique** (si accord d'entreprise) :\n- Décompte adapté aux activités\n\n**D. Repos en séjour** :\n\n**Repos quotidien** (article L3131-1 CT) :\n- **11 heures consécutives** par 24 heures\n- En séjour : organisé par roulement (animateurs de jour / nuit)\n- Si **veille de nuit** (présence sans intervention) : compté comme 1/3 du temps de travail (selon CCN)\n\n**Repos hebdomadaire** :\n- 35 heures consécutives par semaine\n- En séjour court (< 7 jours) : pas de repos hebdo possible → récupération à la fin\n\n**E. Heures de nuit** :\n\n**Distinction** :\n- **Veille active** : animation, surveillance — heures travaillées normales\n- **Veille passive (présence sans intervention)** : 1 heure = 1/3 d'heure de travail (selon CCN)\n- **Astreinte** (sommeil possible avec disponibilité) : indemnité spécifique\n\n**Limites** :\n- Travail de nuit (21h-6h) : maximum 8h/nuit\n- Surveillance médicale renforcée si fréquent\n\n**F. Compensations financières** :\n\n**Pendant le séjour** :\n- **Forfait journalier** ALISFA (selon avenants salariaux)\n- **Indemnité de séjour** (logement, nourriture pris en charge par l'employeur)\n- **Frais kilométriques** si véhicule personnel (cf. Chap VII art 1)\n\n**Après le séjour** :\n- **Récupération** des heures effectuées au-delà du forfait\n- **Repos compensateur** selon usage CCN\n\n**G. Cas typiques** :\n\n**Mini-camp 3 jours / 2 nuits — animateur permanent** :\n- 3 forfaits journaliers + indemnités nuit\n- 1-2 jours de récupération à la rentrée\n- Repas + hébergement pris en charge\n\n**Séjour 1 semaine — animateur saisonnier CDD** :\n- Forfait hebdomadaire + indemnités nuit\n- Pas de récupération (CDD avec terme fixe)\n- Indemnité fin contrat 10% à la fin\n\n**Classe verte 1 semaine — animateur permanent + accompagnant école** :\n- Forfait journalier x 5 + nuits\n- 2 jours de récupération à la rentrée\n- Convention partenariale avec l'école\n\n**H. Documents obligatoires en séjour** :\n\n- **Déclaration TAM** (Téléprocédure Accueil de Mineurs)\n- **Projet pédagogique** du séjour\n- **Liste des participants** + fiches sanitaires de liaison\n- **Trousse de premiers secours**\n- **Numéros d'urgence** affichés\n- **Registre de présence** quotidien",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Forfait journalier non conforme à la CCN** : risque de rappel salaire prud'hommes\n- **Repos quotidien 11h non respecté** : sanction (jusqu'à 1 500 €/jour/salarié)\n- **Surveillance de nuit non rémunérée** : risque travail dissimulé\n- **Encadrement insuffisant** : risque pénal (mise en danger autrui), perte agrément ACM\n- **Animateur sous-classifié** pour le séjour : à vérifier dans les emplois repères\n- **CDD saisonnier** : indemnité 10% à la fin (sauf saisonnier strict avec exclusion)\n- **Récupération non donnée** : risque de litige à la rentrée\n- **EAJE séjours résidentiels** (rare, < 6 ans) : encadrement renforcé, vigilance casier B2",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre IV article 3",
+          "Code de l'action sociale et des familles — articles L227-4 et suivants",
+          "Décret n° 2002-885 du 3 mai 2002 (encadrement séjours)",
+          "Code du travail — articles L3121, L3131, L3132"
+        ],
+        "liens": [
+          {
+            "titre": "DDETSPP — Encadrement des séjours et accueils de mineurs",
+            "url": "https://www.jeunes.gouv.fr/encadrement-des-accueils-1267",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — Décret 2002-885 (encadrement séjours)",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000597942/",
+            "type": "legislation"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre IV",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Encadrement de séjours implique responsabilité civile et pénale. Vérifier déclaration TAM, agréments BAFD, taux encadrement avant chaque séjour.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre IV article 3 + L227 CASF"
+      }
+    },
+
+    {
+      "id": "rh-32",
+      "_theme_target": "remuneration",
+      "question_type": "Quels frais professionnels sont remboursés dans la branche ALISFA (Chapitre VII) ?",
+      "mots_cles": [
+        "frais professionnels", "kilométriques",
+        "véhicule personnel", "mission",
+        "indemnité repas", "URSSAF",
+        "Chapitre VII CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Les frais professionnels dans la branche ALISFA suivent la **CCN ELISFA Chapitre VII** (Frais professionnels). **2 articles** : (1) Véhicule (article 1) — barème kilométrique pour utilisation du véhicule personnel pour le travail, (2) Mission (article 2) — frais de mission (déplacement, repas, hébergement) pour déplacements professionnels. **Cadre fiscal/social** : remboursement exonéré de cotisations si réel ou dans les limites URSSAF. Le **barème kilométrique** suit le barème fiscal (impôts) ou un barème CCN spécifique.",
+        "fondement_legal": "**Code du travail** — pas d'article spécifique mais usage et accords. **Code général des impôts** — article **83-1° ter** (frais réels). **URSSAF** : barème des indemnités de frais professionnels (forfait ou réel).",
+        "fondement_ccn": "**CCN ELISFA Chapitre VII** : Frais professionnels. **Article 1** : Véhicule (barème kilométrique). **Article 2** : Mission (déplacements, repas, hébergement).",
+        "application": "**Article 1 — Véhicule personnel utilisé pour le travail** :\n\n**Conditions** :\n- Utilisation du véhicule personnel **pour les besoins du travail** (pas pour le trajet domicile-travail, sauf exceptions)\n- **Accord** de l'employeur préalable\n- **Assurance** vérifiée (clause professionnelle nécessaire)\n\n**Barème kilométrique** :\n- Suit généralement le **barème fiscal** publié annuellement par l'administration\n- Selon **puissance fiscale** du véhicule (CV) et **distance parcourue**\n- 2026 estimé (voiture 5 CV) :\n  - Jusqu'à 5 000 km : ~ 0,67 €/km\n  - 5 001 à 20 000 km : ~ 0,42 €/km\n  - Au-delà : ~ 0,49 €/km\n- **Voitures électriques** : majoration de 20% (Loi mobilités 2019)\n\n**Cas typiques en ALISFA** :\n- **Animateur·trice domicile** : visite à domicile (TISF, ADSL) — barème kilométrique régulier\n- **Référent·e CNFS** : visites partenariales, ateliers décentralisés\n- **Référent·e RPE** : visites assistantes maternelles\n- **Direction EAJE** : déplacements PMI/CAF, formations\n\n**Documents** :\n- **Note de frais** mensuelle ou hebdo\n- **Justificatifs** : carte grise (puissance fiscale), facture essence non requise\n- **Tableau de bord kilométrique** : départ, arrivée, motif\n\n**Article 2 — Frais de mission** :\n\n**Couvre** :\n- **Déplacement** professionnel (train, avion, taxi, etc.)\n- **Repas** pendant la mission\n- **Hébergement** si nuit nécessaire\n- **Frais divers** (parking, péages, etc.)\n\n**Modalités de remboursement** :\n\n**Option 1 — Frais réels** :\n- Remboursement sur **justificatifs** (factures, tickets)\n- Plafonds parfois fixés (ex: hébergement < 100 €/nuit)\n- Exonéré de cotisations sociales si réel\n\n**Option 2 — Forfaits URSSAF** :\n- **Indemnité repas restaurant** : ~ 21 € en 2026 (à actualiser)\n- **Indemnité repas hors restaurant** (panier) : ~ 10 €\n- **Indemnité grand déplacement** (≥ 24h) : ~ 70-80 €/nuit pour Paris/IDF, moins en province\n\n**Conditions URSSAF pour exonération** :\n- Le salarié doit **engager des frais réels**\n- Si le forfait dépasse les frais réels : excédent intégré au salaire imposable\n- **Justificatif** parfois exigé (notamment pour grand déplacement)\n\n**Cas particuliers** :\n\n**Frais de formation** :\n- Si formation imposée par l'employeur : pris en charge par OPCO ou employeur\n- Si formation à l'initiative du salarié : selon accord\n\n**Frais de déménagement** :\n- Pour mutation imposée par l'employeur : remboursement total\n- Pour mutation demandée par le salarié : selon négociation\n\n**Télétravail** :\n- Indemnité forfaitaire (URSSAF 2,80 €/jour ou 56 €/mois) — exonérée\n- Couvre électricité, internet, abonnements, mobilier\n\n**Trajet domicile-travail** :\n- En général **pas un frais professionnel** remboursable\n- **Exception** : prise en charge **50% des transports en commun** (article L3261-2 CT)\n- **Forfait mobilités durables** (FMD) : prise en charge volontaire vélo, covoiturage, etc. (jusqu'à 700 €/an exonéré)\n\n**Cas typiques de remboursement ALISFA** :\n\n| Situation | Mode | Montant typique |\n|-----------|------|-----------------|\n| Réunion partenaire 50 km AR | Kilométrique | ~ 33 € |\n| Formation CCN à Paris (1 jour) | Train + repas + métro | ~ 200 € (réel) |\n| Séminaire ELISFA 2 jours en province | Train + hôtel + repas | ~ 350 € (réel) |\n| Visite à domicile TISF (10 km) | Kilométrique | ~ 6 € |\n| Repas mission externe | Indemnité ou réel | ~ 21 € |\n\n**Procédure** :\n1. **Demande préalable** d'accord pour les missions importantes\n2. **Avance de frais** possible (employeur)\n3. **Note de frais** mensuelle avec justificatifs\n4. **Remboursement** sous 30 jours en général",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Barème kilométrique** : à actualiser annuellement (publication impôts)\n- **Justificatifs** : conservation 4 ans (URSSAF) — éviter perte de pièces\n- **Frais privés non remboursables** : trajet domicile-travail, repas habituels (sauf exceptions)\n- **Forfait > réel** : excédent imposable\n- **Mission longue ≥ 3 mois** : régime spécifique (« grand déplacement »)\n- **Véhicule** : assurance professionnelle nécessaire (mention spécifique au contrat)\n- **Carburant** : si fourniture par l'employeur (carte essence), pas de kilométrique cumulable\n- **Co-voiturage** : règles spécifiques (forfait covoiturage 200-700 €/an)\n- **Bénévole** : remboursement frais possible avec reçu fiscal (déduction 66% impôts pour le bénévole)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre VII articles 1 et 2",
+          "URSSAF — barème indemnités forfaitaires de frais professionnels",
+          "Impôts.gouv — barème kilométrique annuel",
+          "Code général des impôts — article 83-1° ter"
+        ],
+        "liens": [
+          {
+            "titre": "URSSAF — Frais professionnels",
+            "url": "https://www.urssaf.fr/portail/home/employeur/calculer-les-cotisations/les-elements-a-prendre-en-compte/les-frais-professionnels.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "Impôts.gouv — Barème kilométrique",
+            "url": "https://www.impots.gouv.fr/portail/particulier/baremes-kilometriques",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Indemnités de frais professionnels",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F31193",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre VII",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre VII articles 1 et 2"
+      }
+    },
+
+    {
+      "id": "rh-33",
+      "_theme_target": "absences_rupture",
+      "question_type": "Comment fonctionne le maintien de salaire en cas de maladie dans la branche ALISFA (Chapitre IX) ?",
+      "mots_cles": [
+        "maintien de salaire", "maladie",
+        "indemnité journalière", "IJSS",
+        "subrogation", "complément CCN",
+        "Chapitre IX CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "Le maintien de salaire en cas de maladie dans la branche ALISFA suit la **CCN ELISFA Chapitre IX** (Maladie) + Code du travail (L1226-1). **Conditions** : ≥ 1 an d'ancienneté à la date du 1er jour d'absence, certificat médical fourni dans 48h, soumis à contrôle. **Couverture** : (1) **IJSS** versées par CPAM après délai de carence 3 jours, (2) **complément employeur CCN** garantit un pourcentage du salaire pendant une durée déterminée selon ancienneté. **Subrogation** possible (employeur reçoit IJSS et paie salaire complet). **Visite de reprise** obligatoire après arrêt > 30 jours.",
+        "fondement_legal": "**Code du travail** — articles **L1226-1 à L1226-9** (suspension contrat maladie hors AT/MP), **L1226-10 à L1226-23** (AT/MP). **Loi n° 78-49 du 19 janvier 1978** (mensualisation et maintien de salaire). **Code de la sécurité sociale** — articles **L321-1 et suivants** (IJSS).",
+        "fondement_ccn": "**CCN ELISFA Chapitre IX** : Maladie. La CCN améliore le minimum légal de la Loi 78-49 (qui prévoit complément employeur 90% pendant 30j puis 66,66% pendant 30j). Détails à vérifier dans CCN précise (durée, pourcentage, conditions ancienneté).",
+        "application": "**Cadre du maintien de salaire ALISFA en cas de maladie** :\n\n**A. Conditions d'ouverture** :\n\n- **Ancienneté minimale** : 1 an dans l'entreprise au début de l'absence\n- **Certificat médical** fourni dans **48 heures**\n- **Transmission** :\n  - Volet 1+2 à CPAM (par le médecin)\n  - Volet 3 à l'employeur\n- **Soumis à contrôle médical** : possible par CPAM ou employeur\n\n**B. Indemnités Journalières de Sécurité Sociale (IJSS)** :\n\n**Calcul CPAM** :\n- 50% du salaire de référence (moyenne des 3 derniers mois bruts)\n- **Plafond** : 50% du PASS (~ 1 833 €/mois en 2026)\n\n**Délai de carence** :\n- **3 jours** pour la maladie ordinaire (sauf reprise dans les 48h après 1er arrêt)\n- **Pas de carence** pour AT/MP\n\n**Durée maximum** :\n- **360 indemnités** par année (3 ans glissants pour ALD - Affection Longue Durée)\n- Au-delà : invalidité possible (pension d'invalidité catégorie 1, 2, 3)\n\n**C. Complément employeur — CCN ELISFA Chapitre IX** :\n\n**Principe** : la CCN ALISFA garantit un **pourcentage du salaire** pendant une durée déterminée selon l'ancienneté.\n\n**Schéma typique** (à vérifier dans CCN précise — exemple basé sur des CCN similaires) :\n\n| Ancienneté | Maintien salaire (en %) | Durée |\n|------------|--------------------------|-------|\n| 1 an à 5 ans | 100% (1 mois) puis 75% (1 mois) | 2 mois |\n| 5 à 10 ans | 100% (2 mois) puis 75% (2 mois) | 4 mois |\n| 10 à 15 ans | 100% (3 mois) puis 75% (3 mois) | 6 mois |\n| > 15 ans | 100% (3 mois) puis 75% (3 mois) | 6 mois |\n\n**Calcul du complément** :\n```\nComplément CCN = (salaire de référence × pourcentage CCN) − IJSS CPAM\n```\n\n**D. Subrogation** :\n\n**Principe** : l'employeur paie l'intégralité du salaire au salarié et **reçoit directement les IJSS** de la CPAM.\n\n**Avantages** :\n- Le salarié reçoit son **salaire complet sans interruption**\n- L'employeur n'a pas à gérer le décalage entre paiement IJSS et complément\n- Simplifie la gestion paie\n\n**Conditions** :\n- **Mention sur le certificat médical** ou demande à la CPAM\n- L'employeur déclare la subrogation au moment de la déclaration d'arrêt\n\n**E. Visite médicale de reprise** :\n\n**Obligatoire** :\n- Arrêt **≥ 30 jours** (sauf maladie professionnelle où c'est dès 30 jours)\n- Maladie professionnelle dès le 1er jour\n- Maternité (avant ou à la reprise)\n\n**Délai** :\n- Dans les 8 jours suivant la reprise\n- Idéalement avant la reprise effective\n\n**Conséquences** :\n- **Avis d'aptitude** : reprise possible\n- **Avis d'inaptitude** : procédure spécifique (cf. article connexe `int-licenciement-inaptitude`)\n- **Aménagement** : adaptations du poste possibles\n\n**F. Cas particuliers** :\n\n**Salarié ≤ 1 an d'ancienneté** :\n- Pas de complément CCN ALISFA (pas la durée minimale)\n- Seules IJSS CPAM (50% du salaire) après carence 3 jours\n- **Mensuelle d'attente** parfois (loi de mensualisation)\n\n**Maladie professionnelle ou Accident du Travail (MP/AT)** :\n- **Pas de carence** IJSS\n- **IJSS** majorées :\n  - 60% du salaire pendant les 28 premiers jours\n  - 80% à partir du 29e jour\n- **Complément employeur** : selon CCN, souvent 100% pendant durée plus longue\n- **Contrôle préalable CPAM** : reconnaissance de l'origine professionnelle\n\n**Maladie longue (ALD)** :\n- ALD = Affection Longue Durée (cancer, diabète, etc.)\n- IJSS pendant 3 ans glissants\n- Complément employeur CCN limité à la durée prévue\n- **Mi-temps thérapeutique** possible avec accord médecin du travail\n\n**Maladie pendant période d'essai** :\n- Suspend la période d'essai (durée ajoutée à la fin)\n\n**Maladie pendant les congés payés** :\n- Suspend les CP (à reprendre plus tard) — Cour de cassation 2023\n\n**Maladie pendant le préavis** :\n- N'allonge pas la fin du préavis\n- Continuation du paiement (mais pas de prolongation contrat)\n\n**Maladie pendant grossesse** :\n- IJSS maladie classique pour 1ères semaines\n- Puis IJSS maternité (44 jours minimum + congé légal)\n\n**G. Subrogation et bulletin de paie** :\n\n**Avec subrogation** :\n- Bulletin de paie maintenu identique\n- Mention « IJSS perçues à hauteur de X € »\n- Charges sociales sur la part employeur uniquement\n\n**Sans subrogation** :\n- Bulletin de paie réduit (juste le complément CCN)\n- IJSS versées directement au salarié par CPAM\n- Plus complexe à gérer mais plus transparent",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Délai de 48h** pour transmettre le certificat : à respecter (sinon possibles complications)\n- **Subrogation** : à valider en amont, pas systématique\n- **Complément CCN ALISFA** : durée et % à vérifier dans la CCN précise\n- **Maladie pendant CP** : la jurisprudence européenne (CJUE 2017) impose la reprise des CP — Cour cassation France 2023 a aligné\n- **AT/MP non reconnu** : impact direct sur le complément (régime maladie ordinaire moins favorable)\n- **Visite de reprise ≥ 30j** : obligatoire — sans elle, risque pénal pour l'employeur\n- **Mi-temps thérapeutique** : accord médecin du travail + CPAM — modalités à formaliser\n- **Attestation de salaire** à transmettre à la CPAM dans les 5 jours pour le calcul des IJSS",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre IX (Maladie)",
+          "Code du travail — articles L1226-1 à L1226-9",
+          "Loi n° 78-49 du 19 janvier 1978 (mensualisation)",
+          "Code de la sécurité sociale — articles L321-1 et suivants"
+        ],
+        "liens": [
+          {
+            "titre": "Service Public — Maintien de salaire en cas d'arrêt maladie",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F3053",
+            "type": "officiel"
+          },
+          {
+            "titre": "Ameli — Indemnités journalières maladie",
+            "url": "https://www.ameli.fr/assure/droits-demarches/maladie-accident-hospitalisation/indemnites-journalieres",
+            "type": "officiel"
+          },
+          {
+            "titre": "URSSAF — Subrogation",
+            "url": "https://www.urssaf.fr/portail/home/employeur/declarer-employer-payer/maladie-paternite-maternite-accide.html",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre IX",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour maladie longue / inaptitude / contestation IJSS, consulter pôle juridique ELISFA + médecin du travail.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre IX + Loi 78-49 + Code SS L321"
+      }
+    },
+
+    {
+      "id": "rh-34",
+      "_theme_target": "remuneration",
+      "question_type": "Quelle est la prévoyance et la complémentaire santé obligatoires dans la branche ALISFA (Chapitres XIII et XIV) ?",
+      "mots_cles": [
+        "prévoyance", "complémentaire santé",
+        "mutuelle obligatoire", "incapacité", "invalidité",
+        "décès", "rente", "Loi ANI 2013",
+        "Chapitres XIII et XIV CCN ELISFA"
+      ],
+      "reponse": {
+        "synthese": "La branche ALISFA prévoit une **prévoyance obligatoire** (Chapitre XIII, 16 articles) et une **complémentaire santé obligatoire** (Chapitre XIV, 12 articles). **Prévoyance** couvre incapacité, invalidité, décès — financée par cotisations employeur (~60%) + salarié (~40%). **Complémentaire santé** depuis Loi ANI 2013 obligatoire pour tous salariés en CDI ≥ 12 mois. **Adhésion automatique** des salariés (sauf dispenses prévues). **Recommandations CCN** : organismes spécifiques (Humanis Prévoyance, AG2R LA MONDIALE, etc.) — vérifier accord paritaire.",
+        "fondement_legal": "**Code de la sécurité sociale** — articles **L911-1 à L911-8** (régimes complémentaires). **Loi ANI du 11 janvier 2013** (Accord National Interprofessionnel) — article **L911-7** (généralisation complémentaire santé). **Loi n° 89-1009 du 31 décembre 1989** (Loi Évin — droit individuel maintien complémentaire).",
+        "fondement_ccn": "**CCN ELISFA Chapitre XIII** : Prévoyance — 16 articles couvrant champ d'application, bénéficiaires, garanties, taux cotisation, montants prestations, salaire de référence, revalorisation, exclusions, ayant droit, maintien régime, portabilité, action sociale, suivi, révision, organismes recommandés, mise en place dans entreprise.\n\n**CCN ELISFA Chapitre XIV** : Complémentaire santé — 12 articles : adhésion, caractère responsable, garanties, financement, maintien, portabilité, dispositions multi-employeurs, fonds action sociale, suivi, révision, organismes, mise en place.",
+        "application": "**Volet 1 — PRÉVOYANCE (Chapitre XIII)** :\n\n**A. Champ d'application et bénéficiaires** :\n- Tous les salariés de la branche ALISFA (CDI, CDD ≥ 1 mois selon CCN)\n- Adhésion **obligatoire** dès embauche\n- Bénéficiaires : salarié + (selon CCN) conjoint, enfants, ayants droit\n\n**B. Garanties prévoyance typiques** :\n\n**1. Incapacité temporaire de travail (ITT)** :\n- Complète les IJSS de la CPAM\n- Pourcentage du salaire (souvent 75-85% du brut, IJSS comprises)\n- Durée : selon CCN (souvent 90 jours puis durée maximum)\n\n**2. Invalidité** :\n- 1ère catégorie (maintien activité réduite) : ~ 30% du salaire\n- 2e catégorie (incapacité totale) : ~ 50% du salaire\n- 3e catégorie (besoin tierce personne) : ~ 75% du salaire\n- Pour la durée de l'invalidité (jusqu'à retraite)\n\n**3. Décès** :\n- **Capital décès** : 1 à 5 fois le salaire annuel\n- Bénéficiaire : conjoint/PACS, enfants, ayants droit\n- **Rente éducation** pour enfants à charge\n- **Rente de conjoint** (si CCN le prévoit)\n\n**4. Rente d'invalidité** :\n- Si invalidité > 30%\n- Versement mensuel jusqu'à retraite\n\n**C. Taux de cotisation** :\n- Total ~ 1,5-2,5% du salaire brut (variable selon CCN)\n- **Répartition** : ~ 60% employeur / 40% salarié (à vérifier)\n- Tranche A (≤ 1 PASS) et Tranche B (1 PASS - 4 PASS)\n\n**Volet 2 — COMPLÉMENTAIRE SANTÉ (Chapitre XIV)** :\n\n**A. Adhésion obligatoire** :\n- **Tous salariés** en CDI ≥ 12 mois (depuis Loi ANI 2013)\n- **CDD courts** : prorata\n- **Adhésion automatique** dès embauche\n\n**B. Dispenses possibles (Loi Évin et accords)** :\n\nLe salarié peut **refuser** la mutuelle si :\n- Bénéficiaire d'une autre mutuelle (conjoint en CDI, mutuelle parents, etc.)\n- Bénéficiaire de la CSS (Complémentaire Santé Solidaire)\n- CDD < 12 mois\n- Apprentissage\n- Temps partiel < seuils CCN\n\n**Justificatifs** requis pour la dispense.\n\n**C. Garanties typiques** :\n\n**Couverture minimale (Loi ANI)** :\n- **Hospitalisation** : 100% TM (Ticket Modérateur)\n- **Soins courants** : 100% TM\n- **Optique** : forfait par 2 ans (200-700 € selon panier)\n- **Dentaire** : 125-200% du tarif Sécu\n- **Forfait journalier hospitalier** : 100%\n\n**Garanties optionnelles** (modulables selon contrat) :\n- Médecines douces (ostéo, acupuncture)\n- Forfait cure thermale\n- Tiers-payant généralisé\n- Téléconsultation\n\n**D. Financement** :\n- Cotisation totale : ~ 1,2-2% du salaire\n- **Répartition** : ≥ 50% employeur (Loi ANI) / 50% salarié max\n- **Forfait** ou **proportionnel salaire** selon CCN\n\n**E. Maintien des garanties** :\n\n**Pendant la période d'emploi** :\n- Maladie, AT/MP, maternité : maintien complet\n- Congé parental temps partiel : maintien proportionnel\n\n**À la sortie de l'entreprise — Portabilité (Loi ANI)** :\n- **Pendant 12 mois maximum**\n- **Conditions** : rupture non-fautive (licenciement, démission acceptée, fin CDD, etc.)\n- **Maintien gratuit** des garanties prévoyance + santé\n- **Financement** par mutualisation entre les salariés actifs\n\n**Loi Évin — droit individuel** :\n- Salarié sortant peut maintenir la complémentaire santé à son nom (cotisation entière à sa charge)\n- Délai : 6 mois après la fin de portabilité\n\n**F. Organismes recommandés ALISFA** (à vérifier sur CCN ELISFA) :\n\n- **Prévoyance** : MNH, Humanis Prévoyance, AG2R LA MONDIALE\n- **Mutuelle santé** : Mutuelle Nationale des Hospitaliers, Mutuelle Familiale, etc.\n\nLes organismes recommandés bénéficient de tarifs négociés mais l'employeur peut choisir d'autres organismes (sous réserve d'équivalence des garanties).\n\n**G. Mise en place dans l'entreprise** :\n\n**Procédure** :\n1. **Adhésion** au contrat de branche (recommandé) ou à un contrat équivalent\n2. **Information** des salariés (notice + bulletin individuel)\n3. **Adhésion automatique** dès embauche (sauf dispenses)\n4. **Affichage** des modalités\n5. **Bulletin de paie** : mention de la cotisation (part salarié + part employeur)\n\n**Cas multi-employeurs** :\n- Pour salarié avec plusieurs employeurs ALISFA : règles spécifiques (Chap XIV art 7)\n- Cotisations cumulées plafonnées",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Vigilance :\n- **Adhésion obligatoire** : sanction URSSAF si non-respect (1% masse salariale)\n- **Dispenses** : justificatifs précis et opposables\n- **Loi ANI 50%** : minimum employeur pour mutuelle (sinon imposition complémentaire pour le salarié)\n- **Portabilité 12 mois** : à mentionner clairement à la sortie du salarié\n- **Loi Évin** : possibilité maintien à la sortie avec coûts à charge salarié — informer\n- **Multi-employeurs** : éviter double cotisation\n- **CDD courts** : règles spécifiques de prorata, attention aux différences par durée\n- **Conjoint déjà couvert** : vérification du justificatif (sinon adhésion forcée)\n- **Bulletin de paie** : doit clairement séparer part salarié / part employeur\n- **Changement d'organisme** : information aux salariés ≥ 3 mois avant",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre XIII (Prévoyance) + Chapitre XIV (Complémentaire santé)",
+          "Code de la sécurité sociale — articles L911-1 à L911-8",
+          "Loi ANI du 11 janvier 2013",
+          "Loi Évin n° 89-1009 du 31 décembre 1989"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code de la sécurité sociale L911",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006172569/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service Public — Complémentaire santé d'entreprise",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F35040",
+            "type": "officiel"
+          },
+          {
+            "titre": "Service Public — Portabilité de la prévoyance et complémentaire santé",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F32160",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitres XIII et XIV",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": "Pour mise en place complémentaire santé/prévoyance, consultation accord paritaire ALISFA + organismes recommandés. Vérifier multi-employeurs.",
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitres XIII et XIV + Loi ANI 2013"
+      }
+    }
+
+  ]
+}

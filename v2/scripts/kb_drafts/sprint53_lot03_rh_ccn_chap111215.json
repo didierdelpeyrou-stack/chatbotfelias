@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 R-Vague1 lot 3 — RH Chap XI (cadres) + Chap XII (classification + 15 emplois repères) + Chap XV-XVI (dialogue social local) — clôture R-Vague1 (25 nouveaux articles RH)",
+    "lot": "R3/R3",
+    "topic": "Cadres et forfait jours, classification ALISFA, dialogue social local",
+    "generated_at": "2026-04-26",
+    "source_principale": "CCN ELISFA mars 2026 — Chapitres XI, XII, XV-XVI + Avenant 10-22 du 6 décembre 2022 (15 emplois repères)",
+    "theme_target": "rh"
+  },
+
+  "articles": [
+
+    {
+      "id": "rh-35",
+      "_theme_target": "gpec_mobilite",
+      "question_type": "Comment fonctionne la classification ALISFA et les 15 emplois repères de l'avenant 10-22 ?",
+      "mots_cles": [
+        "classification", "emplois repères", "avenant 10-22",
+        "pesée des postes", "critères classants", "salaire minimum hiérarchique",
+        "SMHB", "ALISFA", "Chapitre XII CCN ELISFA",
+        "EJE", "RPE", "direction EAJE", "animateur"
+      ],
+      "reponse": {
+        "synthese": "La classification ALISFA repose sur le **Chapitre XII de la CCN ELISFA** et l'**avenant 10-22 du 6 décembre 2022** qui définit **15 emplois repères** de la branche : (1) Animateur d'activité, (2) Animateur projet, (3) Coordinateur, (4) Référent technique, (5) Auxiliaire petite enfance / agent technique, (6) Éducateur de jeunes enfants (EJE), (7) Responsable petite enfance (RPE) / direction EAJE adjointe, (8) Direction EAJE, (9) Direction d'équipement (centre social, EVS), (10) Comptable, (11) Secrétaire / agent administratif, (12) Agent d'entretien, (13) Cuisinier, (14) Médiateur social, (15) Cadre d'expertise / direction générale. Chaque emploi est positionné selon **5 critères classants** (formation, autonomie, responsabilité, technicité, relations) qui déterminent une **pesée** (en points) puis un **niveau de rémunération minimum** (SMHB).",
+        "fondement_legal": "**Code du travail** : article **L2261-1** (force obligatoire des CCN), **L2253-1 à L2253-4** (articulation branche/entreprise), **L3221-2** (égalité de rémunération à travail égal). **Articulation classification/SMHB** : article **L2241-2** (négociation annuelle obligatoire des minima de branche).",
+        "fondement_ccn": "**CCN ELISFA Chapitre XII** : système de classification (critères classants, pesée, niveaux). **Avenant 10-22 du 6 décembre 2022** étendu : 15 emplois repères avec fiches descriptives (missions, compétences, niveau de qualification minimal, fourchette de pesée). **Annexe 1** CCN : définitions des 5 critères classants. **Annexe 2** CCN : grille des SMHB par niveau (revalorisation chaque année par accord salarial).",
+        "application": "**Méthode de positionnement d'un salarié** :\n1. **Identifier l'emploi repère** correspondant aux missions effectives du poste (cf. fiches avenant 10-22)\n2. **Réaliser la pesée** sur les 5 critères classants (formation, autonomie, responsabilité, technicité, relations) → score total en points\n3. **Vérifier la cohérence** avec le niveau de qualification du salarié (diplôme requis pour l'emploi repère)\n4. **Appliquer le SMHB** correspondant à la pesée (cf. annexe 2 CCN, mise à jour annuelle)\n5. **Mentionner dans le contrat** : intitulé emploi repère + pesée + niveau classification + SMHB minimum garanti\n\n**Exemples de positionnement** :\n- **EJE en EAJE** : emploi repère 6, pesée 280-340 pts, niveau ~6\n- **RPE / direction adjointe EAJE** : emploi repère 7, pesée 360-420 pts, niveau ~7\n- **Direction EAJE** : emploi repère 8, pesée 460-540 pts, niveau ~8-9\n- **Animateur d'activité** : emploi repère 1, pesée 180-220 pts, niveau ~3-4\n- **Coordinateur centre social** : emploi repère 3, pesée 320-380 pts, niveau ~6-7\n\n**Procédure de contestation** : le salarié peut demander un **réexamen de sa classification** par écrit à l'employeur. Si désaccord persistant : commission paritaire de branche (CPPNI ELISFA) saisie via une OS représentative ou la délégation employeur.\n\n**Évolution** : tout changement significatif des missions (prise de responsabilité, élargissement périmètre) doit déclencher une **révision de la pesée** et donc un repositionnement.",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points critiques :\n- **Sous-classification** = risque prud'homal pour rappel de salaire (jusqu'à 3 ans) + dommages et intérêts. Très fréquent en EAJE associatif.\n- **Avenant 10-22** : DOIT figurer dans les contrats signés depuis l'entrée en vigueur (1er juillet 2023). Pour les contrats antérieurs, repositionnement automatique sans perte de salaire (article 5 de l'avenant)\n- **Pesée arbitraire** non documentée : annulable en cas de contentieux. Conserver la **grille de pesée signée** au dossier salarié.\n- **Égalité F/H** (L3221-2) : vérifier que la pesée n'est pas systématiquement plus basse pour les femmes (audit RH annuel recommandé)\n- **Glissement de fonction** (animateur fait en réalité du coordo) sans avenant ni repositionnement : risque de requalification + rappel SMHB du niveau réel",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre XII (classification)",
+          "Avenant 10-22 du 6 décembre 2022 — 15 emplois repères ALISFA (étendu)",
+          "Annexe 1 CCN ELISFA — définition des critères classants",
+          "Annexe 2 CCN ELISFA — grille SMHB par niveau (révisée annuellement)",
+          "Code du travail — articles L2261-1, L2253-1 à L2253-4, L3221-2"
+        ],
+        "liens": [
+          {
+            "titre": "ELISFA — CCN ALISFA + avenant 10-22 emplois repères",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          },
+          {
+            "titre": "ALISFA — fiches emplois repères et grille classification",
+            "url": "https://www.alisfa.fr/emploi-et-formation",
+            "type": "officiel"
+          },
+          {
+            "titre": "Légifrance — IDCC 1261 CCN ALISFA + avenant 10-22 étendu",
+            "url": "https://www.legifrance.gouv.fr/conv_coll/id/KALICONT000005635161/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Code du travail — Égalité de rémunération L3221-2",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902815/",
+            "type": "legislation"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 Chapitre XII + Avenant 10-22 du 6 décembre 2022"
+      }
+    },
+
+    {
+      "id": "rh-36",
+      "_theme_target": "gpec_mobilite",
+      "question_type": "Quelles règles spécifiques pour les cadres ALISFA et le forfait jours ?",
+      "mots_cles": [
+        "cadres", "forfait jours", "forfait annuel",
+        "Chapitre XI CCN ELISFA", "directeur", "direction EAJE",
+        "autonomie", "convention de forfait", "repos quotidien"
+      ],
+      "reponse": {
+        "synthese": "Le **Chapitre XI de la CCN ELISFA** encadre le statut **cadre** dans la branche ALISFA. Sont cadres : les emplois repères 7 (RPE/direction adjointe EAJE), 8 (direction EAJE), 9 (direction d'équipement) et 15 (cadre d'expertise/direction générale), ainsi que tout salarié dont la pesée dépasse 360 points avec autonomie réelle. La CCN autorise le **forfait annuel en jours** pour les cadres autonomes (max **216 jours travaillés/an** + 11 jours fériés + congés) sous conditions strictes : convention écrite individuelle, suivi de charge, droit à la déconnexion, entretien annuel sur la charge.",
+        "fondement_legal": "**Code du travail** : articles **L3121-58 à L3121-66** (forfait jours, convention écrite, suivi charge, déconnexion), **L3121-43 à L3121-47** (cadres dirigeants exclus durée travail), **L3131-1** (repos quotidien 11 h), **L3132-2** (repos hebdomadaire 35 h consécutives). **Loi Travail 2016 + ANI 2020** : droit à la déconnexion + obligation de suivi effectif de la charge (Cass. 2017 : forfait nul si pas de suivi).",
+        "fondement_ccn": "**CCN ELISFA Chapitre XI** : statut cadre, forfait jours autorisé jusqu'à **216 jours/an** (jours de travail effectif). **Conditions cumulatives** : (1) cadre autonome (pesée ≥ 360 pts), (2) convention individuelle de forfait écrite, (3) entretien annuel charge + organisation + équilibre vie pro/perso, (4) droit à la déconnexion (charte ou accord d'entreprise > 50 sal), (5) suivi mensuel via outil (logiciel, déclaratif). **SMHB cadres** : majoré au minimum de 15% par rapport à un non-cadre de même pesée.",
+        "application": "**Mise en place forfait jours pour un directeur EAJE** :\n1. **Vérifier l'éligibilité** : pesée ≥ 360 pts ET autonomie réelle (organise lui/elle-même son temps, pas d'horaires imposés)\n2. **Rédiger la convention individuelle** dans le contrat ou avenant : nombre de jours (max 216), période de référence (année civile ou exercice), modalités de décompte, contreparties\n3. **Mettre en place le suivi de charge** :\n   - Outil de décompte mensuel (logiciel RH ou tableau Excel signé)\n   - Repos quotidien 11h consécutives à respecter et tracer\n   - Repos hebdomadaire 35h consécutives\n   - **Alerte employeur** si charge excessive (signal du salarié → réunion sous 8 jours)\n4. **Entretien annuel obligatoire** (mai-juin recommandé) sur :\n   - Charge réelle de travail\n   - Organisation du travail\n   - Articulation vie pro / vie perso\n   - Rémunération en lien avec les sujétions\n   - **Compte rendu écrit signé**\n5. **Droit à la déconnexion** : charte interne (mails hors heures, week-ends, congés)\n\n**Jours de repos forfait (RTT cadres)** : 365 jours - 104 weekends - 25 CP - 11 fériés - 216 travaillés = environ **9 jours de repos forfait** annuels (variable selon année).\n\n**Cadres dirigeants** (article L3121-43) : exclus de toute durée du travail. **À utiliser avec précaution** dans la branche ALISFA : ne concerne que les directions générales d'organismes employant > 50 salariés, avec autonomie totale et rémunération parmi les plus élevées (cf. Cass. soc. 2018).\n\n**Astreintes cadres** : possibles mais doivent être tracées et indemnisées séparément (CCN Chap IV art 3 + article L3121-9).",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques majeurs cadres :\n- **Forfait jours nul rétroactivement** si pas de suivi effectif de la charge (jurisprudence constante depuis 2011) → rappel de salaire en heures supp + 25/50% sur 3 ans\n- **Burn-out cadres EAJE/centres sociaux** : très fréquent. Suivi RH renforcé indispensable.\n- **Cadre dirigeant** mal qualifié : si la personne n'est pas vraiment dirigeante (ne décide pas seule, suit des directives), requalification en cadre soumis aux 35h + heures supp\n- **Nombre de jours > 216** : illégal sauf accord de branche ou d'entreprise étendu (ALISFA = 216 max)\n- **Renonciation à des jours de repos** : possible (max 235 jours travaillés) mais nécessite avenant annuel + majoration ≥ 10% par jour racheté\n- **Égalité F/H direction EAJE** : surveiller que les femmes cadres ne sont pas systématiquement payées moins (audit RH)",
+        "sources": [
+          "CCN ELISFA mars 2026 — Chapitre XI (cadres et forfait jours)",
+          "Code du travail — articles L3121-58 à L3121-66 (forfait jours)",
+          "Code du travail — articles L3121-43 à L3121-47 (cadres dirigeants)",
+          "ANI 2020 + Loi Travail 2016 — droit à la déconnexion",
+          "Cass. soc. — jurisprudence forfait jours et suivi charge"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Forfait jours L3121-58 et suivants",
+            "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000033020594/",
+            "type": "legislation"
+          },
+          {
+            "titre": "Service-Public — Convention de forfait en jours",
+            "url": "https://www.service-public.fr/particuliers/vosdroits/F19261",
+            "type": "officiel"
+          },
+          {
+            "titre": "ANACT — Charge de travail des cadres au forfait jours",
+            "url": "https://www.anact.fr/charge-de-travail-forfait-jours",
+            "type": "officiel"
+          },
+          {
+            "titre": "ELISFA — CCN Chapitre XI cadres ALISFA",
+            "url": "https://www.elisfa.fr",
+            "type": "officiel"
+          }
+        ],
+        "version_alisfa": "2026-03-13"
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "ELISFA - CCN ELISFA mars 2026 - Chapitre XI"
+      }
+    }
+
+  ]
+}

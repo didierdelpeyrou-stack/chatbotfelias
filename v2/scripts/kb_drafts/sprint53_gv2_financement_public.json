@@ -1,0 +1,358 @@
+{
+  "_meta": {
+    "purpose": "Sprint 5.3 G-Vague2 — Financement public & fiscalité associative (6 articles)",
+    "lot": "G2/G6",
+    "topic": "CPO, subventions CAF/État/collectivités, FONJEP/FDVA, marchés publics, fiscalité associative",
+    "generated_at": "2026-04-26",
+    "source_principale": "Décret 2018-514, Code CASF, Code marchés publics, BOFiP, CNAF, MEFR",
+    "theme_target": "gouvernance"
+  },
+
+  "articles": [
+
+    {
+      "id": "gv-19",
+      "_theme_target": "financement_public",
+      "question_type": "Comment fonctionne la Convention Pluriannuelle d'Objectifs (CPO) avec une collectivité ou l'État ?",
+      "mots_cles": [
+        "CPO", "convention pluriannuelle objectifs",
+        "subvention", "décret 2018-514",
+        "loi 2014-856", "associations.gouv.fr",
+        "circulaire Valls 2015",
+        "ALISFA", "État collectivité"
+      ],
+      "reponse": {
+        "synthese": "La **Convention Pluriannuelle d'Objectifs (CPO)** est l'outil de référence pour sécuriser les financements publics d'une association ALISFA sur **3 ans** (parfois 5). Encadrée par le **décret n°2018-514 du 25 juin 2018** et la **circulaire Valls du 29 septembre 2015**, elle pose un **engagement réciproque** : l'association définit son projet, ses objectifs et ses indicateurs de résultats ; le financeur public (État, collectivité, CAF) verse une **subvention pluriannuelle** (~70-100% du financement public). Avantages : visibilité sur 3 ans, dialogue stratégique, valorisation du projet associatif. Risques : exigences d'évaluation accrues, dépendance contractuelle si pas diversifié.",
+        "fondement_legal": "**Loi n°2014-856 du 31 juillet 2014 article 59** (modifiée par loi du 1er juillet 2021) : définition de la subvention publique (initiative associative + caractère désintéressé + pas de contrepartie commerciale). **Décret n°2018-514 du 25 juin 2018** : nouvelles règles CPO (durée max 5 ans, modèle type CERFA 12156, dématérialisation). **Circulaire Premier ministre du 29 septembre 2015** (Valls) : promotion CPO comme alternative aux marchés publics. **Loi 2021-875 \"Engagement Associatif\"** : Contrat d'Engagement Républicain (CER) à signer.",
+        "fondement_ccn": "Pas d'incidence directe CCN, mais **clauses sociales** des CPO imposent souvent l'application stricte de la **CCN ELISFA (IDCC 1261)**. Une CPO type contient une **annexe RH** : effectifs cibles, classification, masse salariale. **Articulation budget/CPO** : le BP annuel doit refléter les engagements de la CPO.",
+        "application": "**Négocier et gérer une CPO en pratique** :\n\n**1. Préparer la négociation (3-6 mois avant)**\n- Définir le **projet associatif** clair (révisé tous les 3-5 ans en CA)\n- Identifier le **financeur principal** (mairie pour centre social, CAF pour EAJE, CD pour social) et ses priorités politiques\n- Préparer un **budget pluriannuel** réaliste (3 ans) avec masse salariale détaillée\n- Lister les **indicateurs** (quanti + quali) acceptables pour les 2 parties\n\n**2. Le contenu de la CPO (modèle CERFA 12156)**\n- **Préambule** : objet et fondement (loi 1901, ESS, mission d'intérêt général)\n- **Articles 1-2** : objet de la convention, projet associatif\n- **Article 3** : durée (3 ans recommandé, max 5 ans)\n- **Article 4** : montant subvention pluriannuelle (souvent dégressif ou stable)\n- **Article 5** : objectifs (3-5 max, mesurables) + indicateurs\n- **Article 6** : modalités de versement (acompte 50% au signature, solde après bilan annuel)\n- **Article 7** : reporting (rapport d'activité annuel, comptes certifiés CAC ou expert-comptable)\n- **Article 8** : évaluation à mi-parcours et finale\n- **Article 9** : clause de résiliation (préavis 3 mois, motifs légitimes)\n- **Annexe** : Contrat d'Engagement Républicain (CER) signé\n\n**3. Mise en œuvre annuelle**\n- **Bilan annuel** consolidé (techniqu + financier) à transmettre dans les 6 mois suivant la clôture\n- **Avenants** possibles si évolution significative (changement périmètre, crise, etc.)\n- **Comité de suivi** semestriel ou annuel avec le financeur\n\n**4. Spécificités selon le financeur**\n- **CAF** : Convention Territoriale Globale (CTG) souvent intégrée à la CPO ; dossier sur Caf.fr partenaires\n- **Communes** : délibération du conseil municipal obligatoire ; signature par le maire\n- **Conseil départemental** : politique sociale (PMI, ASE, jeunesse), souvent CPO 4 ans\n- **DRAJES** (État) : projets jeunesse/éducation populaire, FONJEP intégré\n- **DREETS** (État) : projets ESS et insertion économique\n\n**5. Bénéfices et exigences**\n- **Bénéfices** : sécurité financière 3 ans, dialogue stratégique, visibilité publique\n- **Exigences** : tenir les engagements (objectifs et indicateurs), comptabilité rigoureuse, certification des comptes au-delà de 153 000 €/an de subventions publiques (loi 1993)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points de vigilance :\n- **Distinction subvention / marché public** (article 59 loi 2014-856) : la **subvention** suppose **initiative associative** et **absence de contrepartie commerciale**. Si le cahier des charges est trop précis et que le financeur \"commande\" une prestation, requalification en **marché public** possible (procédure d'achat différente, mise en concurrence)\n- **Contrat d'Engagement Républicain (CER)** : annexe obligatoire depuis 2022 (loi 2021-1109). 7 engagements (laïcité, dignité, etc.). Toute violation = rupture de la CPO + possible obligation de remboursement\n- **Clause de récupération** : presque toutes les CPO prévoient le remboursement si l'association ne respecte pas ses engagements ou cesse l'activité avant terme\n- **Plafond fiscal aides publiques** : règle **\"de minimis\"** UE = 200 000 €/3 ans pour activités économiques. Au-delà, notification UE obligatoire (rare en ALISFA mais à connaître)\n- **Risque de dépendance** : si > 80% des recettes viennent d'un seul financeur, vulnérabilité forte. Diversifier !\n- **Renouvellement non automatique** : prévoir 12 mois avant échéance pour rouvrir la négociation. Ne pas attendre le dernier moment.",
+        "sources": [
+          "Loi n°2014-856 du 31 juillet 2014 article 59 (subvention)",
+          "Décret n°2018-514 du 25 juin 2018 (CPO)",
+          "Circulaire Premier ministre du 29 septembre 2015 (Valls — CPO)",
+          "Loi n°2021-1109 du 24 août 2021 (CER)",
+          "Modèle CERFA 12156 — convention de subvention",
+          "Associations.gouv.fr — fiches subventions et CPO"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Décret 2018-514 CPO",
+            "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037112972/"
+          },
+          {
+            "titre": "Associations.gouv.fr — Convention pluriannuelle d'objectifs",
+            "url": "https://www.associations.gouv.fr/cpo.html"
+          },
+          {
+            "titre": "Associations.gouv.fr — Modèle CPO (CERFA 12156)",
+            "url": "https://www.associations.gouv.fr/IMG/pdf/cerfa_12156-06.pdf"
+          },
+          {
+            "titre": "Associations.gouv.fr — Contrat d'Engagement Républicain (CER)",
+            "url": "https://www.associations.gouv.fr/contrat-d-engagement-republicain.html"
+          },
+          {
+            "titre": "Légifrance — Loi 2014-856 article 59 subvention",
+            "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043963762/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Décret 2018-514 + Circulaire Valls 2015 + Loi 2021-1109"
+      }
+    },
+
+    {
+      "id": "gv-20",
+      "_theme_target": "financement_public",
+      "question_type": "Comment fonctionnent les financements CAF (PSU, CTG) pour un EAJE ou un centre social ALISFA ?",
+      "mots_cles": [
+        "PSU", "Prestation de Service Unique",
+        "CTG", "Convention Territoriale Globale",
+        "CAF", "EAJE", "ALSH", "centre social",
+        "agrément CAF", "MyCAF partenaires",
+        "tarification participation famille"
+      ],
+      "reponse": {
+        "synthese": "La **CAF** est le **principal financeur des structures ALISFA** : EAJE (crèches, multi-accueils, micro-crèches associatives), ALSH (accueils de loisirs), centres sociaux, EVS (Espaces de Vie Sociale), accueils jeunes. Elle finance via **2 outils principaux** : **(1) la Prestation de Service Unique (PSU)** pour les EAJE — versée à l'heure d'accueil enfant en fonction d'un barème national + **\"prestation de service ordinaire\"** pour ALSH et autres équipements ; **(2) la Convention Territoriale Globale (CTG)** — accord-cadre territorial 4 ans signé avec CAF + EPCI/communes, intégrant tous les financements et orientations politique sociale. Les centres sociaux et EVS sont **agréés** par la CAF (renouvellement tous les 4 ans) sur la base d'un **projet social** co-construit avec habitants.",
+        "fondement_legal": "**Code de la sécurité sociale** : articles **L227-1** et suivants (CAF), **L263-1** (action sociale CAF). **Code de l'action sociale et des familles** : article **L214-2** (modes d'accueil petite enfance), **L227-4** et suivants (ALSH). **COG État/CNAF 2023-2027** : Convention d'Objectifs et de Gestion fixant les priorités CAF (parentalité, accès aux droits, lutte contre l'isolement, accueil petite enfance). **Circulaires CNAF n°2018-005 (CTG)**, **n°2019-008 (PSU revalorisation)**, **n°2012-013 (centres sociaux)**, **n°2014-006 (EVS)**.",
+        "fondement_ccn": "Les financements CAF imposent souvent l'application **CCN ELISFA (IDCC 1261)** comme condition d'éligibilité. **Tarification PSU** : implique un **barème modulé selon ressources des familles** (Quotient Familial — QF) — l'EAJE n'a pas la liberté tarifaire totale.",
+        "application": "**Cartographie des financements CAF disponibles** :\n\n**1. EAJE (crèches, multi-accueils, micro-crèches)**\n- **PSU** : ~6,40 €/h enfant en moyenne (barème 2024) — couvre ~66-70% du coût de fonctionnement\n- **Bonus territoires CTG** : majoration jusqu'à +1,50 €/h enfant en QPV ou ZRR\n- **Bonus mixité** : +0,68 €/h si > 10% enfants à QF < 0,80\n- **Bonus inclusion handicap** : +1,30 €/h enfant en situation de handicap\n- **PIAJE** (Plan d'Investissement EAJE) : aides à l'investissement (création, rénovation)\n\n**2. ALSH (Accueils de Loisirs Sans Hébergement)**\n- **Prestation de service ALSH** : ~0,57 €/h enfant ou ~3 €/jour (ALSH périscolaire et extra-scolaire)\n- **CLAS** (Contrat Local Accompagnement Scolarité) : forfait par groupe d'enfants suivis\n- **Aides aux vacances** (VACAF, AVF) : versées directement aux familles\n\n**3. Centres sociaux et EVS**\n- **Prestation animation globale + animation collective familles (ACF)** : ~63 600 €/an pour un centre social agréé (forfait 2024)\n- **Prestation EVS** : ~26 000 €/an (forfait, plus modeste qu'un centre social)\n- **CLAS** parentalité : 5 000 € à 15 000 € selon nombre de groupes\n- **REAAP** (Réseau Écoute, Appui et Accompagnement Parents) : appel à projets annuel\n- **Animation Vie Sociale** : aide projets jeunes, séniors, intergénérationnels\n\n**4. CTG — outil structurant**\n- Convention 4 ans entre **CAF + EPCI/commune + structures** (centres sociaux, EAJE, ALSH)\n- Diagnostic territorial partagé (besoins familles, vie sociale, parentalité)\n- **Orientations** prioritaires + plan d'actions\n- **Engagements financiers** réciproques (CAF + collectivités + cofinancement État)\n- Quasi-équivalent CPO mais multi-acteurs\n\n**5. Démarche pour bénéficier des financements CAF**\n- **Compte partenaire MyCAF** (caf.fr/partenaires) : dossier en ligne, déclarations\n- **Agrément CAF** pour centres sociaux/EVS : projet social validé par la CAF (commission)\n- **Rapport d'activité annuel** : volet CAF + volet activité + comptes certifiés\n- **Évaluation à 4 ans** (renouvellement agrément) : projet social actualisé + bilan détaillé",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points critiques :\n- **Réforme PSU 2024-2025** : revalorisation progressive (~+15% sur 3 ans) mais conditionnée au **respect strict** des obligations (taux d'occupation > 70%, taux de facturation > 110%, accueil enfants à QF bas)\n- **Sanctions PSU** : retraits possibles si l'EAJE ne respecte pas les **règles de tarification** (barème national QF, modulation ressources) ou les **règles d'occupation** (places réservées dispo, mixité)\n- **CER (Contrat Engagement Républicain)** : également exigé pour les conventions CAF depuis 2022\n- **Contrôle a posteriori** : CAF peut demander la restitution de financements jusqu'à 3 ans après si non-conformité\n- **Risque dépendance CAF** : centres sociaux historiquement >50% financement CAF — diversifier (mairie, département, mécénat) recommandé\n- **Procédure d'agrément lourde** : compter 6-12 mois entre dépôt projet social et validation. Anticiper.\n- **Refonte centres sociaux 2024+** : la CNAF révise le cadre depuis le Pacte de Coopération FCSF/CNAF mai 2024. Documents et formulaires en évolution rapide.",
+        "sources": [
+          "COG État/CNAF 2023-2027",
+          "Circulaire CNAF n°2018-005 (CTG)",
+          "Circulaire CNAF n°2019-008 (PSU 2019)",
+          "Circulaire CNAF n°2012-013 (centres sociaux)",
+          "Circulaire CNAF n°2014-006 (EVS)",
+          "Pacte de Coopération FCSF/CNAF (mai 2024)",
+          "Code de l'action sociale et des familles — L214-2 et suivants"
+        ],
+        "liens": [
+          {
+            "titre": "Caf.fr — Espace partenaires",
+            "url": "https://www.caf.fr/partenaires"
+          },
+          {
+            "titre": "CNAF — Convention Territoriale Globale (CTG)",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/la-ctg-convention-territoriale-globale"
+          },
+          {
+            "titre": "CNAF — Prestation de Service Unique (PSU)",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/etablissements-d-accueil-du-jeune-enfant"
+          },
+          {
+            "titre": "CNAF — Centres sociaux et EVS",
+            "url": "https://www.caf.fr/partenaires/caf-de-paris/partenaires-locaux/centres-sociaux-et-evs"
+          },
+          {
+            "titre": "FCSF — Pacte de Coopération CNAF/FCSF mai 2024",
+            "url": "https://www.centres-sociaux.fr/notre-projet/pacte-de-cooperation/"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "orange",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "COG État/CNAF 2023-2027 + Pacte FCSF/CNAF mai 2024"
+      }
+    },
+
+    {
+      "id": "gv-21",
+      "_theme_target": "financement_public",
+      "question_type": "Quelles subventions des collectivités territoriales (commune, département, région) pour une association ALISFA ?",
+      "mots_cles": [
+        "subvention commune", "subvention mairie",
+        "conseil départemental", "PMI", "ASE",
+        "conseil régional", "politique jeunesse",
+        "EPCI intercommunalité",
+        "ALISFA", "centre social mairie"
+      ],
+      "reponse": {
+        "synthese": "Les **collectivités territoriales** sont, après la CAF, le **second pilier de financement** des associations ALISFA. **(1) La commune (ou l'EPCI)** est souvent le partenaire le plus proche : subventions de fonctionnement (centre social, ALSH, EAJE), mise à disposition de locaux, prêts d'équipements, intégration dans les politiques jeunesse et famille (PEDT, CTL). **(2) Le conseil départemental** finance principalement les missions sociales (PMI pour EAJE, ASE pour AEMO, prévention spécialisée, jeunesse et insertion). **(3) Le conseil régional** soutient l'éducation populaire et la formation, l'ESS, parfois les EAJE en milieu rural via les PER. Articulation : **chaque collectivité a ses priorités politiques** — les négocier ensemble dans le cadre des **CPO** ou **CTG** est l'idéal.",
+        "fondement_legal": "**Code général des collectivités territoriales (CGCT)** : articles **L1611-4** (subvention 23 000 € → convention obligatoire), **L2121-29** (compétences communales), **L3211-1** (compétences départementales), **L4211-1** (compétences régionales). **Loi NOTRe du 7 août 2015** : clarifie compétences des 3 niveaux. **Code de l'action sociale et des familles** : article **L113-1** et suivants (PMI, ASE — département). **Loi Sauvadet du 1er juillet 2010** : subventions transparentes. **Charte d'engagements réciproques État-collectivités-associations** (signée 2014, renouvelée 2025).",
+        "fondement_ccn": "Les conventions de subvention publique imposent **généralement l'application** de la CCN ELISFA. Les collectivités sont **vigilantes sur la masse salariale** (souvent 70-80% du budget centre social). Certaines clauses sociales exigent **équité salariale** ou **plan de formation**.",
+        "application": "**Naviguer le millefeuille des collectivités** :\n\n**1. La commune (ou l'EPCI)**\n- **Compétences directes** : action sociale (CCAS), enfance (EAJE municipaux ou délégation à association), jeunesse (ALSH, périscolaire), animation locale (centre social)\n- **Subventions** : budgétisation annuelle (parfois pluriannuelle CPO), convention écrite obligatoire au-delà de 23 000 €\n- **Bons interlocuteurs** : élu(e) à l'enfance/jeunesse/social, DGS, responsable politique de la ville, responsable enfance-jeunesse\n- **Mise à disposition** : locaux (gratuits ou loyer modéré), véhicules, services techniques (entretien, sécurité)\n- **Articulation PEDT** (Projet Éducatif Territorial) : structure ALISFA partenaire pour réforme rythmes scolaires + activités périscolaires\n\n**2. Le conseil départemental (CD)**\n- **PMI** (Protection Maternelle et Infantile) : autorisation d'ouverture EAJE, contrôle sanitaire, financement parfois (selon politique CD)\n- **ASE** (Aide Sociale à l'Enfance) : crédits AEMO, MECS, lieux d'accueil parents-enfants\n- **Prévention spécialisée** : éducateurs de rue (clubs prévention)\n- **Jeunesse et insertion** : Mission Locale, PIJ (Points Information Jeunesse), Service Public de l'Insertion (SPIE)\n- **Politique sociale** : RSA, minima sociaux, lutte contre l'exclusion\n- **Bons interlocuteurs** : Vice-président solidarités, DGA Solidarités, chef de service ASE/jeunesse\n\n**3. Le conseil régional (CR)**\n- **Formation professionnelle** : achats de formations pour publics jeunes ou demandeurs d'emploi (peut concerner les centres sociaux porteurs de formations BAFA/BPJEPS/BEATEP)\n- **Lycéens et apprentis** : pass culture, équipements\n- **ESS et économie** : appels à projets ESS, soutien aux CRESS, fonds d'amorçage\n- **Politiques territoriales** : PER (Pôle d'Excellence Rurale), revitalisation centres-bourgs\n- **Vie associative** : programmes spécifiques (ex. Région IdF \"Initiatives Citoyennes\")\n- **Bons interlocuteurs** : Vice-président ESS/jeunesse/social, services dédiés\n\n**4. Stratégie cumulative**\n- **CTG CAF** : intègre commune + EPCI + département dans une convention partenariale\n- **CPO multi-financeurs** : commune + département possible (signée par les 2)\n- **Marché public conjoint** : si plusieurs collectivités groupent leur commande (PEDT intercommunal)\n- **Fonds européens** (FSE+, FEDER) gérés par la Région : projets jeunesse, insertion, transition\n\n**5. Bonnes pratiques**\n- **Connaître les élections** : un changement de majorité = réorientation des priorités. Maintenir un dialogue avec opposition utile.\n- **Présence aux instances de concertation** : CDCA, conseils de quartier, comités enfance-jeunesse\n- **Rapport d'activité personnalisé** par financeur (formats différents pour commune, CD, CR)\n- **Indicateurs locaux** : nombre d'habitants du territoire bénéficiaires, mixité socio-spatiale, retombées économiques (emplois, achats locaux)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Points d'attention :\n- **Compétences clarifiées Loi NOTRe** : la commune n'a plus de compétence générale, le département a des compétences ciblées (sociales). **Vérifier** quel niveau peut financer quoi avant de solliciter.\n- **Délais de versement** : une subvention votée en mars peut être versée en septembre. **Anticiper la trésorerie** (ligne de découvert, Dailly bancaire)\n- **Crise budgétaire collectivités** : depuis la baisse des dotations (2014-2017) + inflation + transferts non compensés, beaucoup de collectivités réduisent leurs subventions associatives. Risque structurel.\n- **Convention obligatoire ≥ 23 000 €** (CGCT L1611-4) : sans convention écrite, irrégularité comptable\n- **Marchés publics vs subventions** : si la collectivité \"commande\" un service (cahier des charges précis, mise en concurrence), c'est un marché public — différent juridiquement\n- **Égalité de traitement** : la collectivité doit traiter équitablement les associations. Procédures transparentes. **Recours possible** au juge administratif si discrimination\n- **Sponsoring municipal vs subvention** : ne pas confondre. **Subvention** = soutien à une activité d'intérêt général (pas de retour). **Sponsoring** = contrepartie publicitaire (rare entre collectivité et asso).",
+        "sources": [
+          "Code général des collectivités territoriales — L1611-4, L2121-29, L3211-1, L4211-1",
+          "Loi NOTRe du 7 août 2015",
+          "Loi Sauvadet du 1er juillet 2010",
+          "Charte d'engagements réciproques État-collectivités-associations 2014/2025",
+          "Code de l'action sociale et des familles — L113-1"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — CGCT L1611-4 (convention subvention 23k€)",
+            "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006389399/"
+          },
+          {
+            "titre": "Associations.gouv.fr — Subventions des collectivités",
+            "url": "https://www.associations.gouv.fr/financement.html"
+          },
+          {
+            "titre": "Le Mouvement Associatif — Charte d'engagements réciproques",
+            "url": "https://lemouvementassociatif.org/charte-engagements-reciproques/"
+          },
+          {
+            "titre": "ANCT — Politique de la ville (centres sociaux QPV)",
+            "url": "https://agence-cohesion-territoires.gouv.fr/politique-de-la-ville"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "CGCT + Loi NOTRe 2015 + Charte engagements réciproques"
+      }
+    },
+
+    {
+      "id": "gv-22",
+      "_theme_target": "financement_public",
+      "question_type": "Comment obtenir des postes FONJEP, FDVA, FSE+ et autres soutiens nationaux/européens ?",
+      "mots_cles": [
+        "FONJEP", "FDVA",
+        "FSE", "Fonds Social Européen",
+        "FONDATION DE FRANCE", "Erasmus+",
+        "BPI ESS", "France Active",
+        "appel à projets", "ALISFA"
+      ],
+      "reponse": {
+        "synthese": "Au-delà de la CAF et des collectivités, plusieurs **dispositifs nationaux et européens** offrent des financements ciblés aux associations ALISFA : **(1) FONJEP** (cofinancement de postes JEP, ~7 000 €/poste/an), **(2) FDVA** (Fonds pour le Développement de la Vie Associative — formation bénévoles + projets innovants + fonctionnement), **(3) FSE+** (Fonds Social Européen Plus — projets insertion/jeunesse, géré par DREETS et Régions), **(4) FEDER** (Fonds Européen de Développement Régional — équipements et investissements, géré par Régions), **(5) Erasmus+ Jeunesse** (mobilité jeunes, formations européennes), **(6) Fondations privées** (Fondation de France, Fondation Crédit Agricole, Fondation MAIF, Fondation Macif), **(7) BPI ESS / France Active** (financement solidaire pour développement). Ces dispositifs sont **complémentaires** aux financements territoriaux et nécessitent une **veille active** sur les appels à projets.",
+        "fondement_legal": "**FONJEP** : décret n°64-1316 du 31 décembre 1964 + arrêtés annuels MEFR. **FDVA** : décret n°2018-460 du 8 juin 2018 + circulaires DJEPVA. **FSE+** : règlement UE 2021/1057 (FSE+ 2021-2027). **FEDER** : règlement UE 2021/1058. **Erasmus+** : règlement UE 2021/817. **Loi 2003-709 du 1er août 2003** : mécénat (Fondations). **Code de l'action sociale et des familles** : article L132-1 et suivants pour les fondations reconnues d'utilité publique.",
+        "fondement_ccn": "Les postes FONJEP doivent être en CDI à temps plein (ou ETP équivalent) et **déclarés à la convention collective** applicable (CCN ELISFA pour ALISFA). FSE+ exige des fiches de poste claires + traçabilité des temps passés.",
+        "application": "**Cartographier et solliciter les financements nationaux** :\n\n**1. FONJEP (Fonds de Coopération de la Jeunesse et de l'Éducation Populaire)**\n- **Principe** : cofinancement État de postes JEP en CDI, montant fixe ~7 000 €/an/poste, durée 3 ans renouvelable\n- **Bénéficiaires** : associations agréées JEP (1 500 postes en France)\n- **Métiers** : animation, coordination, médiation, direction\n- **Démarche** : dossier annuel via DRAJES (date variable, souvent novembre/décembre)\n- **Avantage** : amorce le poste, l'association complète avec autres financements\n\n**2. FDVA (Fonds pour le Développement de la Vie Associative)**\n- **3 axes** :\n  - **FDVA 1** : formation des bénévoles (jusqu'à 3 000 € par projet)\n  - **FDVA 2** : fonctionnement et innovation (jusqu'à 15 000 € par projet)\n  - **FDVA 3** (rare) : projets nationaux structurants\n- **Calendrier** : appels à projets annuels (printemps), dossier sur Démarches-simplifiées\n- **Plafonds** : variables selon la région\n\n**3. FSE+ (Fonds Social Européen Plus 2021-2027)**\n- **Priorités** : insertion jeunes (NEET), inclusion sociale, formation, parentalité\n- **Gestion** : DREETS régionales (axes État) + Régions (axes décentralisés)\n- **Cofinancement** : 50-80% selon priorité (reste à financer en propre ou autres financeurs)\n- **Démarche** : Ma-démarche-FSE.fr — dossiers complexes (objectifs SMART, indicateurs européens, justification temps passé)\n- **Vigilance** : exigences de **reporting** lourdes (relevés temps salariés, justificatifs détaillés). Réservé aux structures avec capacité administrative.\n\n**4. FEDER**\n- **Priorités** : équipements, transition écologique, numérique\n- **Gestion** : 100% Régions\n- **Pour ALISFA** : rénovation EAJE, équipement numérique, isolation thermique locaux\n\n**5. Erasmus+ Jeunesse (KA1, KA2, KA3)**\n- **KA1 — Mobilité** : échanges de jeunes (groupes, 5-30 jeunes pour 5-21 jours), Service Volontaire Européen, formations animateurs\n- **KA2 — Coopération** : partenariats stratégiques avec organismes UE\n- **KA3 — Réforme politique** : participation des jeunes à la vie démocratique\n- **Démarche** : Agence Erasmus+ France Jeunesse&Sport, dossiers en ligne 2 fois/an\n- **Cofinancement** : forfaits par jour/personne très favorables\n\n**6. Fondations privées (mécénat)**\n- **Fondation de France** : grand programme ESS, lutte contre exclusions, jeunesse\n- **Fondation Crédit Agricole** : éducation populaire, action territoriale\n- **Fondation MAIF** : prévention, sécurité enfance\n- **Fondation Macif** : ESS, innovation sociale\n- **Fondations locales** : dans chaque grande ville (Caisse d'Épargne, Mutuelle régionale)\n- **Démarche** : appels à projets thématiques + propositions spontanées\n- **Avantage** : moins formel que public, dialogue direct possible\n\n**7. BPI ESS / France Active / Fonds territoriaux**\n- **France Active** : prêts d'honneur (sans intérêt) jusqu'à 50 000 €, garanties bancaires\n- **BPI ESS** : prêts moyen terme dédiés ESS (équipements, BFR)\n- **Fonds territoriaux ESS** : variables par région\n\n**8. Stratégie de financement à 360°**\n- **Diversifier** : 4-5 sources idéal (1 publique principale + 1-2 publiques secondaires + 1-2 privées + autofinancement)\n- **Calendrier annuel des appels** : tableau récapitulatif (FDVA mars, FSE+ avril, FONJEP nov, fondations variables)\n- **Capacité administrative** : avant de candidater à FSE+, s'assurer d'avoir les RH pour le reporting (ou refuser)\n- **DLA** (Dispositif Local d'Accompagnement) : 2-5 jours/an gratuits pour aide montage dossiers",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Pièges à éviter :\n- **FSE+ : reporting lourd** (timesheets, justificatifs salariés, comptabilité analytique). Refuser si pas la capacité administrative — risque de **redressement** (rembourser une partie 2-3 ans après)\n- **FONJEP : concurrence** vive, taux de sélection 30-40%. Bien justifier l'éligibilité JEP (agrément + projet aligné)\n- **Délai entre appel et versement** : appel mars, sélection juin, convention sept, versement nov-déc → trésorerie tendue\n- **Appels à projets non-pluriannuels** : pas de visibilité au-delà de l'année. Risque d'effet \"escabeau\" (équipe lancée puis financement coupé)\n- **Plafond de minimis UE** : 200 000 €/3 ans pour activités économiques (rare en ALISFA pure mais à connaître si vente de prestations)\n- **Récupération de TVA** : le FSE+ et le FEDER imposent des règles de **TVA récupérable** ou non — clarifier avec expert-comptable\n- **CER (Contrat Engagement Républicain)** : exigé pour FONJEP, FDVA, FSE+ depuis 2022\n- **Stratégie risquée** : empiler des financements de courte durée (1 an) sans CPO de fond → fragilité structurelle",
+        "sources": [
+          "Décret n°64-1316 du 31 décembre 1964 (FONJEP)",
+          "Décret n°2018-460 du 8 juin 2018 (FDVA)",
+          "Règlement UE 2021/1057 (FSE+ 2021-2027)",
+          "Règlement UE 2021/817 (Erasmus+)",
+          "Loi n°2003-709 du 1er août 2003 (mécénat)",
+          "Avise — Guides financement ESS"
+        ],
+        "liens": [
+          {
+            "titre": "FONJEP",
+            "url": "https://www.fonjep.org/"
+          },
+          {
+            "titre": "Associations.gouv.fr — FDVA",
+            "url": "https://www.associations.gouv.fr/le-fdva.html"
+          },
+          {
+            "titre": "Ma démarche FSE+",
+            "url": "https://ma-demarche-fse.fr/demat/"
+          },
+          {
+            "titre": "Erasmus+ France Jeunesse & Sport",
+            "url": "https://www.erasmusplus-jeunesse.fr/"
+          },
+          {
+            "titre": "Fondation de France",
+            "url": "https://www.fondationdefrance.org/"
+          },
+          {
+            "titre": "France Active",
+            "url": "https://www.franceactive.org/"
+          },
+          {
+            "titre": "Avise — Guide \"Financements ESS\"",
+            "url": "https://www.avise.org/ressources"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "vert",
+      "escalade": false,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Décret 2018-460 + Règlements UE 2021/1057 + 2021/817"
+      }
+    },
+
+    {
+      "id": "gv-23",
+      "_theme_target": "financement_public",
+      "question_type": "Quand une association ALISFA peut-elle ou doit-elle répondre à un marché public et quelles spécificités ?",
+      "mots_cles": [
+        "marché public", "MAPA", "appel d'offres",
+        "code commande publique", "CMP",
+        "clauses sociales", "marché réservé ESS",
+        "association prestataire", "DSP délégation service public",
+        "ALISFA EAJE crèche"
+      ],
+      "reponse": {
+        "synthese": "Une association ALISFA peut répondre à un **marché public** quand une collectivité préfère acheter une prestation plutôt que verser une subvention. Cela concerne en particulier : **(1) les EAJE en délégation de service public (DSP)** par les communes/EPCI (la collectivité confie la gestion d'une crèche à une association via un marché de DSP de 5-10 ans), **(2) la restauration collective**, **(3) les ALSH municipaux délégués**, **(4) les actions de formation**. Le **Code de la commande publique (CCP)** s'applique : procédures formalisées (MAPA si < 90 000 €, appel d'offres au-dessus), critères transparents, mise en concurrence. **Distinction subvention/marché** : si la collectivité \"commande\" un service avec cahier des charges précis = marché ; si elle soutient un projet d'initiative associative = subvention. La **loi Hamon 2014** a introduit les **clauses sociales** et les **marchés réservés ESS** (article 36) qui favorisent les acteurs ESS.",
+        "fondement_legal": "**Code de la commande publique (CCP)** : entré en vigueur 1er avril 2019, articles **L2111-1** et suivants. Ordonnance 2018-1074 + décret 2018-1075. **Loi Hamon n°2014-856** : article 13 (clauses sociales et environnementales), article 36 (marchés réservés aux ESS et SIAE). **Code général des collectivités territoriales** : articles L1411-1 et suivants (DSP — délégation de service public). **Règlement UE 2014/24** sur les marchés publics. **Article 59 loi 2014-856** : définition subvention par opposition à marché.",
+        "fondement_ccn": "Les marchés publics imposent **respect strict** de la CCN ELISFA (clause obligatoire dans cahier des charges DSP EAJE). Risque : si l'association \"casse les prix\" en sous-payant les salariés, elle perd le marché ET commet une infraction CCN.",
+        "application": "**Naviguer la commande publique en tant qu'association ALISFA** :\n\n**1. Identifier si c'est un marché ou une subvention**\n\n| Critère | Subvention | Marché public |\n|---------|------------|---------------|\n| **Initiative** | Association | Acheteur public |\n| **Objet** | Projet associatif | Prestation commandée |\n| **Cahier des charges** | Souple, négocié | Précis, prescriptif |\n| **Mise en concurrence** | Non (sauf > 200k€ \"de minimis\") | Oui obligatoire |\n| **TVA** | Hors champ | Souvent assujetti |\n| **Reporting** | Bilan d'activité | Livrables précis |\n\n**2. Procédures de marché public selon montant**\n- **< 40 000 € HT** : pas de procédure formalisée, devis libre\n- **40 000 - 90 000 € HT** : MAPA simplifié (3 devis, publicité légère)\n- **90 000 - 215 000 € HT** : MAPA formalisé (publication BOAMP/JOUE)\n- **> 215 000 € HT** : appel d'offres ouvert ou restreint (procédure complète, JOUE)\n- **DSP** (délégation service public) : procédure spécifique, plus longue (12-18 mois), souvent contrats 5-10 ans\n\n**3. Cas typiques en ALISFA**\n- **DSP crèche municipale** : la commune confie à une association la gestion d'une crèche. Marché de 5-7 ans, l'association recrute le personnel, tarification PSU appliquée. Concurrence avec entreprises commerciales (Babilou, Les Petits Chaperons Rouges)\n- **Marché ALSH** : périscolaire ou extrascolaire municipal délégué\n- **Marché formation** : plan de formation collectivité — actions BAFA, prévention illettrisme, etc.\n- **Marché restauration** : moins fréquent en ALISFA pure\n\n**4. Avantages des dispositions ESS (loi Hamon 2014)**\n- **Article 13 — Clauses sociales** : la collectivité peut exiger embauche d'allocataires RSA, jeunes décrocheurs, personnes handicapées (10-20% des heures travaillées du marché)\n- **Article 36 — Marchés réservés ESS / SIAE** : marchés ≤ 90 000 € HT peuvent être réservés à structures ESS (associations, SCIC, SIAE, EA, ESAT). **Mise en concurrence** uniquement entre structures ESS\n- **Marchés à allotissement social** : décomposition en lots accessibles aux petites structures\n\n**5. Conseils pour répondre à un marché**\n- **Anticiper** : la veille marchés (BOAMP, profil acheteur de la collectivité, plateformes maximilien.fr, marchespublics.gouv.fr)\n- **Constituer le dossier** : DC1 + DC2 + DC4 + mémoire technique + devis détaillé\n- **Mémoire technique** : différenciation par le projet (mixité sociale, qualité éducative, ancrage territorial), pas par le prix\n- **Coût réel** : chiffrer l'ensemble (salaires CCN + charges + frais structure + amortissements)\n- **Groupement momentané** : possibilité de répondre à plusieurs associations en groupement\n- **Sous-traitance** : possible mais à déclarer dans le dossier\n\n**6. DSP crèche : précautions**\n- **Reprise du personnel** (article L1224-1) : si la commune avait des agents, l'association doit les reprendre (ou pas selon contrat antérieur)\n- **Risque économique** : si la PSU baisse, c'est l'association qui supporte la perte (pas la commune)\n- **Investissement** : qui finance les travaux, le mobilier ? Bien définir dans le contrat\n- **Fin de DSP** : prévoir clause de transfert (locaux, matériel, salariés) en fin de contrat\n\n**7. Recours contentieux**\n- **Référé pré-contractuel** (avant signature) : 16 jours après publication\n- **Référé contractuel** (après signature) : 31 jours\n- **Recours de plein contentieux \"Tarn-et-Garonne\"** (Conseil d'État 2014) : 2 mois après publication\n- **Conseiller juridique** indispensable pour gros marchés",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques majeurs :\n- **Confusion subvention/marché** : la jurisprudence est dense. Mauvaise qualification = risque pénal pour le commanditaire (favoritisme) et économique pour l'association (rappel TVA, exclusion de marchés futurs)\n- **Course au prix bas** : en concurrence avec entreprises lucratives, les associations peuvent être tentées de sous-payer (pas appliquer CCN). Risque : sanction prud'homale + perte agrément CAF\n- **TVA** : les marchés publics sont **souvent assujettis TVA** (sauf exonération CGI 261-7). Bien vérifier avec expert-comptable pour ne pas perdre 20% du prix\n- **Charges de reporting** : les marchés exigent un reporting opérationnel (livrables, indicateurs) plus standardisé que les subventions\n- **Risque de \"capture\" par marchés** : association qui devient pure prestataire perd son ancrage citoyen et son projet associatif\n- **Conflit d'intérêts** : un président d'association ne peut pas avoir de liens commerciaux avec la collectivité (au-delà du marché lui-même). Vérifier déclarations d'intérêts\n- **Reconduction** : un marché DSP arrive à terme — si l'association ne gagne pas le suivant (concurrence forte), licenciement économique du personnel — anticiper 12-18 mois avant",
+        "sources": [
+          "Code de la commande publique (CCP) — entrée en vigueur 1er avril 2019",
+          "Loi n°2014-856 du 31 juillet 2014 — articles 13 (clauses sociales) et 36 (marchés réservés ESS)",
+          "CGCT — articles L1411-1 et suivants (DSP)",
+          "Règlement UE 2014/24 marchés publics",
+          "Conseil d'État — arrêt Tarn-et-Garonne 2014 (recours)"
+        ],
+        "liens": [
+          {
+            "titre": "Légifrance — Code de la commande publique",
+            "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000037701019/"
+          },
+          {
+            "titre": "Économie.gouv.fr — Marchés publics et acheteurs",
+            "url": "https://www.economie.gouv.fr/daj/marches-publics"
+          },
+          {
+            "titre": "BOAMP — Bulletin officiel des annonces de marchés publics",
+            "url": "https://www.boamp.fr/"
+          },
+          {
+            "titre": "ESS-France — Marchés réservés ESS (article 36 loi Hamon)",
+            "url": "https://www.ess-france.org/"
+          },
+          {
+            "titre": "Avise — Guide \"Marchés publics et ESS\"",
+            "url": "https://www.avise.org/ressources"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "Code de la commande publique 2019 + Loi Hamon 2014"
+      }
+    },
+
+    {
+      "id": "gv-24",
+      "_theme_target": "financement_public",
+      "question_type": "Quel régime fiscal pour une association ALISFA (IS, TVA, taxe sur salaires, mécénat) ?",
+      "mots_cles": [
+        "fiscalité associative",
+        "non-lucrativité", "gestion désintéressée",
+        "BOFiP", "CGI 206", "CGI 261",
+        "taxe sur salaires", "TVA association",
+        "ALISFA mécénat", "ESUS"
+      ],
+      "reponse": {
+        "synthese": "Une association ALISFA est en principe **non-lucrative** et donc **exonérée des impôts commerciaux** (IS, TVA, CET). Cette exonération suppose 3 conditions cumulatives (\"règle des 4 P\" du **BOFiP**) : **(1) gestion désintéressée** (dirigeants bénévoles ou rémunérés dans plafonds), **(2) activité non-concurrentielle** avec le secteur lucratif, **(3) franchise** des recettes accessoires (≤ 78 596 € en 2024). La **taxe sur les salaires** s'applique en revanche aux associations non assujetties TVA. Les associations d'intérêt général peuvent émettre des **reçus fiscaux** ouvrant droit à **réduction d'impôt** pour donateurs (66% pour particuliers, 60% pour entreprises). L'**agrément ESUS** ouvre l'accès à l'épargne solidaire et avantages fiscaux supplémentaires.",
+        "fondement_legal": "**Code général des impôts (CGI)** : article **206-1bis** (non-assujettissement IS si non-lucrativité), **261-7-1°-b** (exonération TVA), **1447-II** (exonération CET), **231** (taxe sur salaires), **200** (réduction IR donateurs), **238 bis** (réduction IS donateurs). **BOFiP-Impôts** : doctrine fiscale détaillée (BOI-IS-CHAMP-10-50). **Loi mécénat n°2003-709 du 1er août 2003**. **Loi 1901** (forme associative). **Loi Hamon 2014** : agrément ESUS articles 8-11.",
+        "fondement_ccn": "La fiscalité n'est pas régie par la CCN, mais **bien gérer** la fiscalité protège la structure et donc les emplois. Une **requalification fiscale** (en société commerciale de fait) coûterait IS + TVA rétroactifs sur 3 ans = mort économique.",
+        "application": "**Cartographie fiscale d'une association ALISFA** :\n\n**1. Régime de non-lucrativité (règle des \"4 P\" BOFiP)**\n- **P1 — Produit** : l'activité satisfait un besoin non couvert (ou peu couvert) par le marché concurrentiel\n- **P2 — Public** : l'association touche des publics qui n'auraient pas accès au service marchand (publics fragiles, accès tarifs sociaux)\n- **P3 — Prix** : tarifs nettement inférieurs au secteur marchand (modulation QF, gratuité)\n- **P4 — Publicité** : pas de méthodes commerciales agressives (publicité ciblée, marketing)\n→ **Si les 4P sont remplis** : exonération IS + TVA + CET + Taxe sur les salaires majorée\n\n**2. Impôt sur les sociétés (IS) — article 206 CGI**\n- **Non assujetti** si non-lucratif ET activités accessoires lucratives ≤ 78 596 € HT (franchise 2024)\n- **Assujetti partiellement** si activités lucratives > franchise → **sectorisation** comptable obligatoire (séparer les activités lucratives, les soumettre à IS)\n- **Assujetti totalement** si dérive globale vers la concurrence\n- **Taux IS associations** (si assujetti) : taux normal 25% ou taux réduit 15% jusqu'à 42 500 € de bénéfices imposables\n\n**3. TVA — article 261 CGI**\n- **Exonération** : services à caractère social, éducatif, sportif (article 261-7-1°-b) — couvre EAJE, ALSH, centres sociaux, formations\n- **Franchise** : recettes accessoires lucratives ≤ 78 596 € HT (2024)\n- **Si assujetti** : TVA collectée (5,5% pour formation continue agréée, 20% standard) + TVA déductible sur achats\n\n**4. Cotisation Économique Territoriale (CET)**\n- **Exonération** si non-lucratif (article 1447-II CGI)\n- **Sinon** : CFE (Cotisation Foncière des Entreprises) + CVAE (Cotisation sur la Valeur Ajoutée des Entreprises) selon CA\n\n**5. Taxe sur les salaires (article 231 CGI)**\n- **S'applique** aux employeurs **non assujettis TVA** (donc beaucoup d'associations)\n- **Taux progressif** : 4,25% (jusqu'à ~8 600 €/salaire), 8,5% (jusqu'à ~17 200 €), 13,6% (au-delà)\n- **Abattement associations** : 22 535 € en 2024 (loi Aubry)\n- **Calcul** : sur la masse salariale brute annuelle\n- **Optimisation** : si > 50% du CA assujetti TVA, plus de taxe sur salaires\n\n**6. Mécénat et reçus fiscaux**\n- **Conditions** : association d'**intérêt général** (article 200 CGI) — gestion désintéressée + activité non lucrative + cercle restreint exclu\n- **Pour particuliers** : 66% de réduction d'impôt jusqu'à 20% du revenu imposable + 75% pour Coluche/restos du cœur\n- **Pour entreprises** : 60% de réduction IS dans la limite de 0,5% CA + 0,1% CA au-delà du plafond\n- **Reçu fiscal** : modèle CERFA 11580*04, à émettre l'année suivante\n- **Rescrit fiscal** (article L80 C LPF) : possible de demander à l'administration la confirmation préalable du caractère IG (réponse en 6 mois, sécurité juridique)\n\n**7. Agrément ESUS (Entreprise Solidaire d'Utilité Sociale)**\n- **Conditions strictes** : utilité sociale comme but principal, encadrement rémunérations dirigeants ≤ 7× SMIC, titres financiers non cotés\n- **Avantages** :\n  - Accès à l'**épargne salariale solidaire** (Livret de Développement Durable, FCPE solidaires)\n  - **Réduction IR Madelin** pour les souscripteurs (jusqu'à 25%)\n  - Plus de visibilité auprès financeurs solidaires\n- **Démarche** : DREETS, dossier en ligne, agrément 5 ans renouvelable\n\n**8. Spécificités EAJE / ALSH / formation**\n- **EAJE** : exonération TVA (article 261-7-1°-b social/éducatif), pas d'IS si non-lucratif\n- **ALSH** : exonération TVA (idem), recettes périscolaires non taxées\n- **Formation continue agréée** : TVA 5,5% applicable (au lieu de 20%) si organisme déclaré et agréé Datadock/Qualiopi\n- **Restauration scolaire** : TVA 5,5% sur tarifs cantine\n\n**9. Bonnes pratiques fiscales**\n- **Comptabilité analytique** (séparation activités lucratives / non lucratives) si recettes commerciales > 30 000 €\n- **Rescrit fiscal** : à demander pour sécuriser les positions (gratuit, en ligne)\n- **Expert-comptable spécialisé associations** : indispensable au-delà de 100 000 € de recettes\n- **CAC (commissaire aux comptes)** : obligatoire au-delà de 153 000 € de subventions publiques (loi 1993)",
+        "vigilance": "**Texte en vigueur au 26 avril 2026.** Risques fiscaux :\n- **Requalification en activité lucrative** : si l'association se met à concurrencer le secteur marchand sans respecter les 4P → IS + TVA rétroactifs sur 3 ans + pénalités. **Cas typiques** : crèche associative qui surfacture, formation lucrative qui prend trop de poids, restaurant associatif tenu comme un commerce\n- **Sectorisation oubliée** : si activités lucratives > 78 596 €, **obligation** de sectoriser (comptabilité séparée, IS sur la branche lucrative). Risque de redressement\n- **Confusion mécénat / sponsoring** : si une entreprise reçoit un retour publicitaire, c'est du sponsoring (TVA + IS) pas du mécénat (réduction d'impôt). Bien rédiger les conventions\n- **Reçu fiscal indu** : émettre un reçu pour une asso non IG = sanction administration (6× le montant du reçu) + responsabilité pénale dirigeants\n- **Plafond mécénat entreprise** : limité à 0,5% CA jusqu'à 2M€ + 0,1% au-delà. Suivre rigoureusement.\n- **Activité commerciale annexe non déclarée** : URSSAF + impôts peuvent contrôler et redresser\n- **Évolutions réglementaires** : la fiscalité associative évolue (notamment ESUS, mécénat plafonds). Veille fiscale annuelle nécessaire avec expert-comptable",
+        "sources": [
+          "Code général des impôts — articles 206, 261, 200, 238 bis, 231, 1447",
+          "BOFiP-Impôts — BOI-IS-CHAMP-10-50",
+          "Loi mécénat n°2003-709 du 1er août 2003",
+          "Loi Hamon n°2014-856 — articles 8-11 (ESUS)",
+          "Décret 2015-719 (ESUS)"
+        ],
+        "liens": [
+          {
+            "titre": "BOFiP — Régime fiscal des associations",
+            "url": "https://bofip.impots.gouv.fr/bofip/2351-PGP.html/identifiant=BOI-IS-CHAMP-10-50-10-20-20200506"
+          },
+          {
+            "titre": "Service-Public Pro — Fiscalité des associations",
+            "url": "https://entreprendre.service-public.fr/vosdroits/F32165"
+          },
+          {
+            "titre": "Associations.gouv.fr — Mécénat et dons",
+            "url": "https://www.associations.gouv.fr/le-mecenat-et-les-dons.html"
+          },
+          {
+            "titre": "Économie.gouv.fr — Agrément ESUS",
+            "url": "https://www.economie.gouv.fr/cedef/entreprise-sociale-utilite-sociale-ESUS"
+          },
+          {
+            "titre": "Impots.gouv.fr — Rescrit fiscal en ligne",
+            "url": "https://www.impots.gouv.fr/portail/professionnel/le-rescrit-une-prise-de-position-formelle-de-ladministration"
+          }
+        ]
+      },
+      "fiches_pratiques": [],
+      "niveau": "rouge",
+      "escalade": true,
+      "revision": {
+        "derniere_verification": "2026-04-26",
+        "verifie_par": "BOFiP + CGI 206/261 + Loi mécénat 2003 + Loi Hamon 2014"
+      }
+    }
+
+  ]
+}
