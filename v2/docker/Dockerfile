@@ -80,13 +80,20 @@ WORKDIR /app
 # Fait depuis la racine du repo (build context) :
 COPY --chown=elisfa:elisfa v2/ /app/
 
-USER elisfa
+# Sprint 4.4-fix : entrypoint qui chown le volume logs au démarrage (en root)
+# puis bascule en user elisfa. Évite l'erreur "Permission denied" sur
+# /app/logs/feedback.jsonl quand le volume nommé est créé par Docker en root:root.
+COPY --chmod=0755 v2/docker/entrypoint.sh /entrypoint.sh
+
+# NOTE : on ne fait PAS `USER elisfa` ici — l'entrypoint démarre en root
+# (juste le temps de chown), puis fait `su elisfa` pour exécuter uvicorn.
 EXPOSE 8000
 
 # Health-check : utilisé par docker-compose et les orchestrateurs (k8s, swarm)
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
     CMD curl --fail --silent http://localhost:8000/healthz || exit 1
 
+ENTRYPOINT ["/entrypoint.sh"]
 # Uvicorn directement (pas Gunicorn) — FastAPI async natif, 1 worker suffit
 # pour un VPS Hostinger 2 CPUs. Pour scaler plus tard, ajouter --workers 2.
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
