@@ -25,7 +25,7 @@ from pydantic import BaseModel, Field
 
 from app.llm.claude import ClaudeError
 from app.llm.context import build_rag_context
-from app.llm.prompts import build_system_prompt, build_user_message
+from app.llm.prompts import build_system_prompt, build_user_message, resolve_module_for_theme
 from app.metrics.prometheus import (
     record_claude_tokens,
     record_latency,
@@ -164,7 +164,12 @@ async def ask(req: AskRequest, request: Request) -> AskResponse:
         record_request(module=req.module, status="error")
         raise HTTPException(503, "ClaudeClient non initialisé (clé API manquante ?)")
 
-    system_prompt = build_system_prompt(req.module)
+    # Sprint 5.2-tune : routage du prompt par theme_id du top-1 article RAG.
+    # Plus pertinent que le module client : un article du thème
+    # `fonctions_reglementaires` mérite un prompt juridique, pas formation.
+    top1_theme_id = report.results[0].theme_id if report.results else None
+    effective_module = resolve_module_for_theme(top1_theme_id, fallback=req.module)
+    system_prompt = build_system_prompt(effective_module)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 
@@ -253,7 +258,10 @@ async def ask_stream(req: AskRequest, request: Request) -> StreamingResponse:
     if claude is None:
         raise HTTPException(503, "ClaudeClient non initialisé")
 
-    system_prompt = build_system_prompt(req.module)
+    # Sprint 5.2-tune : routage par theme_id (cohérent avec /api/ask)
+    top1_theme_id = report.results[0].theme_id if report.results else None
+    effective_module = resolve_module_for_theme(top1_theme_id, fallback=req.module)
+    system_prompt = build_system_prompt(effective_module)
     rag_context = build_rag_context([r.model_dump() for r in report.results])
     user_msg = build_user_message(req.question, rag_context, hors_corpus=False)
 

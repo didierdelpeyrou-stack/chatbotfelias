@@ -7,6 +7,7 @@ bench_*.log
 # Le run du Sprint 4.2 (results_2026-04-25.json) est conservé pour référence.
 run_2026*.json
 run_2026*.md
+multirun_2026*.json
 
 # Garder uniquement les rapports milestone explicites :
 !REPORT_*.md

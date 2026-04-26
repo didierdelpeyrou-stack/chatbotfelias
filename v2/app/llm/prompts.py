@@ -90,6 +90,58 @@ _BY_MODULE: dict[str, str] = {
 }
 
 
+# Sprint 5.2-tune (systémique) : routage par theme_id du top-1 article RAG.
+# Les articles du Sprint 5.2-data ont des _theme_target qui diffèrent du module
+# client. On route vers le prompt le plus adapté pour réduire les false_refuse.
+#
+# Hypothèse : le prompt JURIDIQUE (qui marche à 85% sur le bench) traite mieux
+# les questions à fort enjeu réglementaire que le prompt FORMATION qui tend à
+# faire refuser Claude sur les fonctions réglementaires / métiers GPEC.
+#
+# Fallback : si theme_id inconnu, on garde le module client.
+_THEME_TO_MODULE: dict[str, ModuleName] = {
+    # Thèmes Sprint 5.2-data nouveaux
+    "fonctions_reglementaires": "juridique",  # RSAI, BAFD, harcèlement, HACCP, etc.
+    "metiers_gpec": "juridique",              # diplômes + base légale métiers
+    "contrats_aides": "formation",            # PEC, CIFRE, alternance
+    "financement_uniformation": "formation",  # PSU, OPCO, fonds
+    "financement_cpnef_0_2": "formation",     # CPNEF
+    "intentions_directeur": "formation",      # questions opérationnelles
+    # Thèmes Sprint 5.1 (V1 migré) — préservés
+    "obligations_employeur": "formation",
+    "plan_competences": "formation",
+    "cpf": "formation",
+    "transition_pro": "formation",
+    "alternance": "formation",
+    "vae_bilan": "formation",
+    "cep_afest": "formation",
+    "droits_salaries": "juridique",
+    "financement_cpnef": "formation",
+    "acteurs_formation": "formation",
+    "gpec_metiers": "juridique",              # cohérent avec metiers_gpec
+    "textes_legaux": "juridique",
+    "vae_reforme": "formation",
+    "catalogue_2026": "formation",
+    "reste_a_charge_certifiant": "formation",
+}
+
+
+def resolve_module_for_theme(theme_id: str | None, fallback: ModuleName) -> ModuleName:
+    """Choisit le module de prompt adapté au thème du top-1 article RAG.
+
+    Args:
+      theme_id: ID du thème de l'article RAG top-1 (ex: "fonctions_reglementaires").
+      fallback: module à utiliser si theme_id inconnu (typiquement le module
+                envoyé par le client).
+
+    Returns:
+      Le module de prompt à utiliser pour Claude.
+    """
+    if theme_id and theme_id in _THEME_TO_MODULE:
+        return _THEME_TO_MODULE[theme_id]
+    return fallback
+
+
 def build_system_prompt(module: ModuleName) -> str:
     """Concatène le bloc commun + le bloc du module.
 
