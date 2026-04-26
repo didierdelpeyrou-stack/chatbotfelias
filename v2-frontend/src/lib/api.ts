@@ -1,5 +1,15 @@
 // Client API V2 — appels REST + SSE streaming
-import type { AskResponse, Mode, Module, ProfileExtras, UserProfile } from './types';
+import type {
+  Acteur,
+  AskResponse,
+  Mode,
+  Module,
+  OrientationDetail,
+  OrientationSummary,
+  ProfileExtras,
+  RegionInfo,
+  UserProfile,
+} from './types';
 
 const API_BASE = ''; // relatif (proxy Vite en dev, même domaine en prod)
 
@@ -26,6 +36,37 @@ export async function fetchProfiles(): Promise<UserProfile[]> {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const body = await res.json() as { profiles: UserProfile[] };
   return body.profiles;
+}
+
+/** Sprint 4.6 F6 — GET /api/annuaire/orientations : 12 natures de problème. */
+export async function fetchOrientations(): Promise<OrientationSummary[]> {
+  const res = await fetch(`${API_BASE}/api/annuaire/orientations`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const body = await res.json() as { orientations: OrientationSummary[] };
+  return body.orientations;
+}
+
+/** Sprint 4.6 F6 — GET /api/annuaire/orientation/<id> : acteurs résolus. */
+export async function fetchOrientationDetail(id: string): Promise<OrientationDetail> {
+  const res = await fetch(`${API_BASE}/api/annuaire/orientation/${encodeURIComponent(id)}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json() as Promise<OrientationDetail>;
+}
+
+/** Sprint 4.6 F6 — GET /api/annuaire/regions : fédérations par région ELISFA. */
+export async function fetchRegions(): Promise<RegionInfo[]> {
+  const res = await fetch(`${API_BASE}/api/annuaire/regions`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const body = await res.json() as { regions: RegionInfo[] };
+  return body.regions;
+}
+
+/** Sprint 4.6 F6 — GET /api/annuaire/acteurs : annuaire complet. */
+export async function fetchActeurs(): Promise<Acteur[]> {
+  const res = await fetch(`${API_BASE}/api/annuaire/acteurs`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const body = await res.json() as { acteurs: Acteur[] };
+  return body.acteurs;
 }
 
 /** /api/ask — one-shot JSON (fallback si SSE indispo). */

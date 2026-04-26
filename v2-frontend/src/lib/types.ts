@@ -28,6 +28,41 @@ export interface UserProfile {
  * Sprint 4.6 — caractéristiques de la structure recueillies en 2e étape de
  * l'onboarding. Toutes optionnelles. Whitelist côté backend.
  */
+/** Sprint 4.6 F6 — Annuaire d'orientation */
+export interface Acteur {
+  id: string;
+  nom: string;
+  type: 'elisfa' | 'federation' | 'syndicat' | 'opco' | 'institutionnel' | 'operateur' | 'partenaire' | 'ressource';
+  role: string;
+  description?: string;
+  email?: string;
+  phone?: string;
+  url?: string;
+}
+
+export interface OrientationSummary {
+  id: string;
+  label: string;
+  icon: string;
+  description: string;
+  n_acteurs: number;
+}
+
+export interface OrientationDetail {
+  id: string;
+  label: string;
+  icon: string;
+  description: string;
+  acteurs: Acteur[];
+}
+
+export interface RegionInfo {
+  region: string;
+  elisfa_referent: string;
+  fcsf_federations: string[];
+  acepp_federations: string[];
+}
+
 export interface ProfileExtras {
   type_structure?: string;       // EAJE / Centre social / ALSH / EVS / MJC / Autre
   type_structure_other?: string; // précision si "Autre"

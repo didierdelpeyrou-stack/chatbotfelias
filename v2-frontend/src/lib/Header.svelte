@@ -7,8 +7,9 @@
   interface Props {
     onShowLegal: () => void;
     onShowProfile: () => void;
+    onShowAnnuaire: () => void;
   }
-  let { onShowLegal, onShowProfile }: Props = $props();
+  let { onShowLegal, onShowProfile, onShowAnnuaire }: Props = $props();
 
   let profiles: UserProfile[] = $state([]);
   onMount(async () => {
@@ -50,6 +51,15 @@
         <span class="hidden md:inline truncate max-w-[14ch]">{currentProfile.name}</span>
       </button>
     {/if}
+    <button
+      class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
+      title="Trouver le bon interlocuteur (annuaire d'orientation)"
+      aria-label="Annuaire d'orientation"
+      onclick={onShowAnnuaire}
+    >
+      <span>🏛</span>
+      <span class="hidden md:inline">Annuaire</span>
+    </button>
     <button
       class="text-[11px] sm:text-xs bg-white/10 hover:bg-white/20 border border-white/20 rounded-md px-2 sm:px-3 py-1 sm:py-1.5 transition cursor-pointer flex items-center gap-1"
       title="Mentions légales / RGPD"
